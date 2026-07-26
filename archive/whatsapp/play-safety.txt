@@ -5,6 +5,21 @@ The developer says this app doesn't share user data with other companies or orga
 
 Data collected
 Data this app may collect
+App activity
+App interactions, In-app search history, and Other user-generated content
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
+In-app search history
+App functionality, Analytics
+Other user-generated content &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
+
 Location
 Approximate location
 
@@ -15,6 +30,41 @@ info
 
 Approximate location
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance
+
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+
+Financial info
+User payment info and Purchase history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+User payment info &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+Purchase history &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance
 
 App info and performance
 Crash logs, Diagnostics, and Other app performance data
@@ -31,17 +81,6 @@ App functionality, Analytics
 Other app performance data
 App functionality, Analytics
 
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-
 Personal info
 Email address, User IDs, and Phone number
 
@@ -56,45 +95,6 @@ User IDs
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
 Phone number
 App functionality, Analytics, Fraud prevention, security, and compliance
-
-Financial info
-User payment info and Purchase history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-User payment info &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-Purchase history &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance
-
-App activity
-App interactions, In-app search history, and Other user-generated content
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
-In-app search history
-App functionality, Analytics
-Other user-generated content &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
 
 Security practices
 Data is encrypted in transit

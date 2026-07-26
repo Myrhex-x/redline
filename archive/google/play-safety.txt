@@ -5,37 +5,37 @@ The developer says this app doesn't share user data with other companies or orga
 
 Data collected
 Data this app may collect
-App activity
-App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
+Personal info
+Name, Email address, User IDs, Address, Phone number, and Other info
 
 expand_more
 
 Data collected and for what purpose
 info
 
-App interactions
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
-In-app search history &middot; Optional
-App functionality, Analytics, Personalization
-Installed apps
-App functionality, Analytics, Personalization
-Other user-generated content &middot; Optional
-App functionality, Analytics
-Other actions &middot; Optional
-App functionality, Analytics
+Name
+App functionality, Developer communications, Fraud prevention, security, and compliance, Personalization, Account management
+Email address
+App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Personalization, Account management
+User IDs
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Address &middot; Optional
+Account management
+Phone number &middot; Optional
+Analytics, Fraud prevention, security, and compliance, Account management
+Other info
+App functionality, Developer communications, Account management
 
-Messages
-Emails and Other in-app messages
+Device or other IDs
+Device or other IDs
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Emails
-App functionality, Fraud prevention, security, and compliance, Personalization
-Other in-app messages &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance
+Device or other IDs
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
 
 Calendar
 Calendar events
@@ -48,16 +48,16 @@ info
 Calendar events &middot; Optional
 App functionality, Analytics, Personalization
 
-Contacts
-Contacts
+Files and docs
+Files and docs
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Contacts
-App functionality, Analytics, Personalization, Account management
+Files and docs &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
 
 Audio
 Voice or sound recordings, Music files, and Other audio files
@@ -87,49 +87,18 @@ App functionality, Analytics, Fraud prevention, security, and compliance, Accoun
 Videos &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance
 
-Device or other IDs
-Device or other IDs
+Messages
+Emails and Other in-app messages
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Device or other IDs
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
-
-Location
-Approximate location
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Approximate location
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
-
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
-
-Financial info
-Purchase history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Purchase history &middot; Optional
-App functionality, Analytics
+Emails
+App functionality, Fraud prevention, security, and compliance, Personalization
+Other in-app messages &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance
 
 App info and performance
 Crash logs, Diagnostics, and Other app performance data
@@ -146,26 +115,57 @@ App functionality, Analytics, Fraud prevention, security, and compliance
 Other app performance data
 Analytics
 
-Personal info
-Name, Email address, User IDs, Address, Phone number, and Other info
+App activity
+App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Name
-App functionality, Developer communications, Fraud prevention, security, and compliance, Personalization, Account management
-Email address
-App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Personalization, Account management
-User IDs
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Address &middot; Optional
-Account management
-Phone number &middot; Optional
-Analytics, Fraud prevention, security, and compliance, Account management
-Other info
-App functionality, Developer communications, Account management
+App interactions
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+In-app search history &middot; Optional
+App functionality, Analytics, Personalization
+Installed apps
+App functionality, Analytics, Personalization
+Other user-generated content &middot; Optional
+App functionality, Analytics
+Other actions &middot; Optional
+App functionality, Analytics
+
+Financial info
+Purchase history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Purchase history &middot; Optional
+App functionality, Analytics
+
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts
+App functionality, Analytics, Personalization, Account management
+
+Location
+Approximate location
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Approximate location
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
 
 Security practices
 Data is encrypted in transit

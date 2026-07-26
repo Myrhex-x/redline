@@ -2,18 +2,29 @@ Data safety
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 Data shared
 Data that may be shared with other companies or organizations
-Financial info
-User payment info and Purchase history
+Location
+Approximate location and Precise location
 
 expand_more
 
 Data shared and for what purpose
 info
 
-User payment info
-Account management
-Purchase history
-App functionality, Fraud prevention, security, and compliance, Account management
+Approximate location
+Advertising or marketing, Fraud prevention, security, and compliance
+Precise location
+Fraud prevention, security, and compliance
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Device or other IDs
+Advertising or marketing
 
 Personal info
 Name and Email address
@@ -28,57 +39,92 @@ Fraud prevention, security, and compliance
 Email address
 Advertising or marketing, Fraud prevention, security, and compliance
 
-Device or other IDs
-Device or other IDs
+Financial info
+User payment info and Purchase history
 
 expand_more
 
 Data shared and for what purpose
 info
 
-Device or other IDs
-Advertising or marketing
+User payment info
+Account management
+Purchase history
+App functionality, Fraud prevention, security, and compliance, Account management
+
+Data collected
+Data this app may collect
+Messages
+Other in-app messages
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Other in-app messages &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance
 
 Location
 Approximate location and Precise location
 
 expand_more
 
-Data shared and for what purpose
+Data collected and for what purpose
 info
 
 Approximate location
-Advertising or marketing, Fraud prevention, security, and compliance
-Precise location
-Fraud prevention, security, and compliance
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+Precise location &middot; Optional
+App functionality, Fraud prevention, security, and compliance
 
-Data collected
-Data this app may collect
-Financial info
-User payment info, Purchase history, and Other financial info
+Photos and videos
+Photos
 
 expand_more
 
 Data collected and for what purpose
 info
 
-User payment info &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance
-Purchase history
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
-Other financial info
-App functionality, Analytics, Fraud prevention, security, and compliance
+Photos &middot; Optional
+App functionality, Account management
 
-Web browsing
-Web browsing history
+Contacts
+Contacts
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Web browsing history
-Advertising or marketing, Personalization
+Contacts &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs &middot; Optional
+Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs
+App functionality, Analytics
+Diagnostics
+Analytics
+Other app performance data
+Analytics
 
 Personal info
 Name, Email address, User IDs, Address, Phone number, Political or religious beliefs, Sexual orientation, and Other info
@@ -105,42 +151,20 @@ App functionality, Account management
 Other info &middot; Optional
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
+Financial info
+User payment info, Purchase history, and Other financial info
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Crash logs
-App functionality, Analytics
-Diagnostics
-Analytics
-Other app performance data
-Analytics
-
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-
-Photos and videos
-Photos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-App functionality, Account management
+User payment info &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance
+Purchase history
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
+Other financial info
+App functionality, Analytics, Fraud prevention, security, and compliance
 
 App activity
 App interactions, In-app search history, Other user-generated content, and Other actions
@@ -159,40 +183,16 @@ App functionality, Analytics
 Other actions
 Analytics, Fraud prevention, security, and compliance, Personalization
 
-Device or other IDs
-Device or other IDs
+Web browsing
+Web browsing history
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Device or other IDs &middot; Optional
-Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
-
-Location
-Approximate location and Precise location
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Approximate location
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
-Precise location &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-
-Messages
-Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Other in-app messages &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance
+Web browsing history
+Advertising or marketing, Personalization
 
 Security practices
 Data is encrypted in transit

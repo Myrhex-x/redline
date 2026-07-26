@@ -5,15 +5,15 @@ The developer says this app doesn't share user data with other companies or orga
 
 Data collected
 Data this app may collect
-App activity
-App interactions
+App info and performance
+Crash logs
 
 expand_more
 
 Data collected and for what purpose
 info
 
-App interactions &middot; Optional
+Crash logs &middot; Optional
 Analytics
 
 Photos and videos
@@ -44,15 +44,15 @@ App functionality, Account management
 Phone number &middot; Optional
 App functionality, Account management
 
-App info and performance
-Crash logs
+App activity
+App interactions
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Crash logs &middot; Optional
+App interactions &middot; Optional
 Analytics
 
 Security practices

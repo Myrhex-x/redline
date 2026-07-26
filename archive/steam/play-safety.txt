@@ -37,19 +37,6 @@ App functionality, Analytics
 Other actions &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
 
-Financial info
-User payment info and Purchase history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-User payment info &middot; Optional
-App functionality
-Purchase history
-App functionality
-
 Personal info
 Name, Email address, User IDs, and Phone number
 
@@ -77,6 +64,19 @@ info
 
 Device or other IDs
 App functionality, Account management
+
+Financial info
+User payment info and Purchase history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+User payment info &middot; Optional
+App functionality
+Purchase history
+App functionality
 
 Security practices
 Data is encrypted in transit

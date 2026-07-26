@@ -28,6 +28,23 @@ info
 Device or other IDs
 App functionality, Analytics, Fraud prevention, security, and compliance
 
+App activity
+App interactions, In-app search history, Other user-generated content, and Other actions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions &middot; Optional
+App functionality, Analytics, Personalization
+In-app search history &middot; Optional
+App functionality, Analytics, Personalization
+Other user-generated content &middot; Optional
+App functionality, Analytics, Personalization
+Other actions
+App functionality, Analytics, Personalization
+
 Photos and videos
 Photos and Videos
 
@@ -41,17 +58,17 @@ App functionality, Analytics, Fraud prevention, security, and compliance
 Videos &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance
 
-App info and performance
-Crash logs and Diagnostics
+Audio
+Voice or sound recordings and Other audio files
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Crash logs
-App functionality, Analytics, Fraud prevention, security, and compliance
-Diagnostics &middot; Optional
+Voice or sound recordings &middot; Optional
+App functionality, Analytics
+Other audio files &middot; Optional
 App functionality, Analytics
 
 Contacts
@@ -64,6 +81,17 @@ info
 
 Contacts &middot; Optional
 App functionality, Analytics
+
+Files and docs
+Files and docs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Files and docs &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
 
 Personal info
 Name, Email address, User IDs, and Phone number
@@ -82,45 +110,17 @@ App functionality, Analytics, Developer communications, Advertising or marketing
 Phone number &middot; Optional
 App functionality, Fraud prevention, security, and compliance, Account management
 
-App activity
-App interactions, In-app search history, Other user-generated content, and Other actions
+App info and performance
+Crash logs and Diagnostics
 
 expand_more
 
 Data collected and for what purpose
 info
 
-App interactions &middot; Optional
-App functionality, Analytics, Personalization
-In-app search history &middot; Optional
-App functionality, Analytics, Personalization
-Other user-generated content &middot; Optional
-App functionality, Analytics, Personalization
-Other actions
-App functionality, Analytics, Personalization
-
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
-
-Audio
-Voice or sound recordings and Other audio files
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Voice or sound recordings &middot; Optional
-App functionality, Analytics
-Other audio files &middot; Optional
+Crash logs
+App functionality, Analytics, Fraud prevention, security, and compliance
+Diagnostics &middot; Optional
 App functionality, Analytics
 
 Security practices

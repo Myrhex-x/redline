@@ -2,17 +2,6 @@ Data safety
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 Data shared
 Data that may be shared with other companies or organizations
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Advertising or marketing, Personalization
-
 Web browsing
 Web browsing history
 
@@ -24,8 +13,53 @@ info
 Web browsing history
 App functionality, Analytics, Advertising or marketing, Personalization
 
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Device or other IDs
+App functionality, Analytics, Advertising or marketing, Personalization
+
 Data collected
 Data this app may collect
+Personal info
+Name, Email address, User IDs, Address, Phone number, and Other info
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Name &middot; Optional
+App functionality, Account management
+Email address
+App functionality, Fraud prevention, security, and compliance, Account management
+User IDs
+Personalization, Account management
+Address &middot; Optional
+Personalization, Account management
+Phone number &middot; Optional
+Fraud prevention, security, and compliance, Account management
+Other info
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+
+App activity
+App interactions and Other actions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions
+App functionality
+Other actions &middot; Optional
+App functionality
+
 App info and performance
 Crash logs and Diagnostics
 
@@ -50,50 +84,16 @@ info
 Other in-app messages &middot; Optional
 App functionality
 
-Device or other IDs
-Device or other IDs
+Web browsing
+Web browsing history
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Device or other IDs &middot; Optional
+Web browsing history &middot; Optional
 App functionality, Analytics, Advertising or marketing, Personalization
-
-App activity
-App interactions and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-App functionality
-Other actions &middot; Optional
-App functionality
-
-Personal info
-Name, Email address, User IDs, Address, Phone number, and Other info
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Name &middot; Optional
-App functionality, Account management
-Email address
-App functionality, Fraud prevention, security, and compliance, Account management
-User IDs
-Personalization, Account management
-Address &middot; Optional
-Personalization, Account management
-Phone number &middot; Optional
-Fraud prevention, security, and compliance, Account management
-Other info
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
 
 Financial info
 User payment info and Purchase history
@@ -108,15 +108,15 @@ App functionality, Fraud prevention, security, and compliance
 Purchase history
 App functionality, Analytics, Fraud prevention, security, and compliance, Account management
 
-Web browsing
-Web browsing history
+Device or other IDs
+Device or other IDs
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Web browsing history &middot; Optional
+Device or other IDs &middot; Optional
 App functionality, Analytics, Advertising or marketing, Personalization
 
 Security practices
