@@ -1,0 +1,59 @@
+name: Dispute a status
+description: A company's Chat Control status on scanrecords.org is wrong or incomplete. Disputes are public and stay public — including how they were resolved.
+title: "[Dispute] <company>: "
+labels: ["dispute"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you — this is exactly what the record is for. Disputes are handled per the
+        [editorial policy](https://github.com/Myrhex-x/redline/blob/main/POLICY.md): publicly,
+        with evidence weighed in the order the site states (Commission reporting → the company's
+        own EU filings → its policies → US-law reporting as context only). Company representatives
+        are welcome and should say so.
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      description: As named on scanrecords.org (e.g. "Meta", "Threema").
+      placeholder: Meta
+    validations:
+      required: true
+  - type: dropdown
+    id: current
+    attributes:
+      label: Status currently shown on the site
+      options:
+        - Scans under the EU's Chat Control
+        - Scans globally — no EU evidence
+        - No clear statement
+        - States it does not scan
+        - End-to-end encrypted — out of scope
+        - Something else is wrong (a quote, a note, a document)
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: What is wrong, precisely
+      description: One or two sentences. "The status should be X because Y."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: |
+        Links to primary sources — official filings, the company's own documents, Commission
+        reporting. The site's statuses follow the strongest public evidence; a dispute needs the
+        same currency. "I believe" or press coverage alone cannot move a status, but they can
+        justify adding a document to the tracking list.
+    validations:
+      required: true
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Understanding
+      options:
+        - label: I understand this dispute, and its resolution, remain publicly visible.
+          required: true

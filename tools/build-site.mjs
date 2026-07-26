@@ -142,7 +142,11 @@ hashed, and diffed — so when either side of any of these pairs quietly changes
 citable event. The raw captures: <a href="/archive/tuta/appstore-label.json">Tuta/Apple</a> ·
 <a href="/archive/tuta/play-safety.txt">Tuta/Play</a> · <a href="/archive/threema/appstore-label.json">Threema/Apple</a> ·
 <a href="/archive/threema/play-safety.txt">Threema/Play</a> · <a href="/archive/x/appstore-label.json">X/Apple</a> ·
-<a href="/archive/x/play-safety.txt">X/Play</a>.</p>`,
+<a href="/archive/x/play-safety.txt">X/Play</a>.</p>
+<p class="note">The quotes above are the declarations <em>as archived on 26 July 2026</em>. The links point
+at the archive's live copies, which keep updating — if one no longer matches its quote here, that means the
+declaration changed after this note was written, and the change will be in <a href="/changes/">the record</a>
+with its date. A note frozen in time plus an archive that moves is the design, not a defect.</p>`,
   },
   {
     slug: "archiving-the-law-itself", date: "2026-07-26",

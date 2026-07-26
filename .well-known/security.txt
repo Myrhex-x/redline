@@ -1,4 +1,5 @@
 Contact: https://github.com/Myrhex-x/redline/issues
 Expires: 2027-07-01T00:00:00.000Z
-Preferred-Languages: en, fr
+Preferred-Languages: en, fr, de, es, pl
 Canonical: https://scanrecords.org/.well-known/security.txt
+Policy: https://github.com/Myrhex-x/redline/blob/main/POLICY.md

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: What the statuses mean
+    url: https://scanrecords.org/chat-control/
+    about: The five statuses, how they are assigned, and the evidence order they follow.
+  - name: Editorial policy
+    url: https://github.com/Myrhex-x/redline/blob/main/POLICY.md
+    about: Corrections, response windows, and takedown handling — fixed before they were needed.
