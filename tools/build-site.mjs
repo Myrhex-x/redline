@@ -94,8 +94,93 @@ const groups = Object.keys(STATUS).map((k) => ({
   companies: companies.filter((c) => (c.chatControl?.status ?? "unclear") === k),
 }));
 
+// ------------------------------------------------------------- content ----
+// Figures below are extracted from COM(2025) 740, the Commission's
+// implementation report on Regulation 2021/1232 (charts and error table).
+const N_REPORTS = [["2022", 1.5], ["2023", 1.34], ["2024", 0.95]]; // millions
+const N_FILES = [["2022", 7.7], ["2023", 32.3], ["2024", 106.1]]; // millions
+const N_TYPE = [["2022", 1015.2, 325.8, 68], ["2023", 831.7, 351.7, 62], ["2024", 344.2, 393.5, 36]]; // thousands + chat share %
+const N_ERRORS = [
+  ["Google", "1.14% (18 : 1,576)", "0.54% (10 : 1,834)", "Items automatically flagged as CSAM that human review did not confirm — hash-matching technology."],
+  ["LinkedIn", "0% (0 : 0)", "0% (0 : 0)", "Account actions reversed relative to appeals against account restrictions."],
+  ["Meta", "0.32% (11,600 : 3.6M)", "0.12% (1,800 : 1.5M)", "Content items restored and account actions reversed relative to actioned items."],
+  ["Microsoft", "n/a", "n/a", "“Microsoft indicated that the data was insufficient to calculate an error rate.”"],
+];
+
+const NOTES = [
+  {
+    slug: "on-the-list-not-in-the-reports", date: "2026-07-26",
+    title: "On the list, but not in the reports: Snapchat and Apple",
+    teaser: "Two names appear among services said to scan under the derogation — and don't appear among the five providers that filed the mandatory reports.",
+    body: `
+<p>Two sources answer the question "who scans under Chat Control", and they don't quite agree.</p>
+<p>MEP Patrick Breyer's long-running <a href="https://www.patrick-breyer.de/en/posts/chat-control/">tracking page</a> says that
+<em>"only unencrypted US communication services such as Gmail, Facebook/Instagram Messenger, Skype, Snapchat, iCloud Mail, or Xbox"</em>
+make use of the derogation. The European Commission's implementation report,
+<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>, names the providers that
+filed the reports the regulation makes mandatory: <em>"Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024."</em></p>
+<p>Snapchat and Apple's iCloud Mail are on the first list and absent from the second. There are several possible explanations —
+scanning stopped, scanning continues under a different legal analysis, or reporting simply didn't happen — and the public record
+doesn't say which. So their pages on this site show both facts, side by side, and nothing more.</p>
+<p>This is what the archive is for: not to resolve every question, but to make sure the discrepancy itself is recorded, dated,
+and citable. If either company clarifies, the record will show when.</p>`,
+  },
+  {
+    slug: "five-providers-verbatim", date: "2026-07-26",
+    title: "Five providers, verbatim",
+    teaser: "The Commission's report names exactly who files under Chat Control. The list is shorter than most people assume.",
+    body: `
+<p>Providers that scan under the ePrivacy derogation don't just get permission — they get homework. Article 3(1)(g)(vii) of
+Regulation 2021/1232 requires each of them to publish and submit an annual report on their processing of personal data,
+to their supervisory authority and to the Commission.</p>
+<p>The Commission's latest implementation report, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>
+(27 November 2025), states it plainly: <em>"Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024."</em></p>
+<p>Five companies. Not the hundreds that people sometimes imagine when they hear "the EU scans your messages" — and not zero,
+either. The same report carries the providers' own error ratios and the volumes flowing through the system;
+we've put those on <a href="/numbers/">the numbers page</a>.</p>
+<p>Every status on this site follows from evidence of this kind, in order of strength: the Commission's reporting first,
+companies' own EU filings second, their policies third. When someone asks how we know who scans — this sentence is how.</p>`,
+  },
+  {
+    slug: "why-scanrecords-exists", date: "2026-07-26",
+    title: "Why this archive exists",
+    teaser: "Voluntary scanning means the decision lives in quiet policy edits. A baseline recorded today cannot be reconstructed later.",
+    body: `
+<p>Chat Control 1.0 makes scanning <em>voluntary</em>. That one word moves the entire question out of law and into
+corporate policy: each provider decides, and the decision surfaces — if it surfaces anywhere — as a quiet edit to a
+privacy policy, a security page, or an App Store label.</p>
+<p>Quiet edits have a property that matters: they can only be caught by someone who recorded the page <em>before</em>.
+A baseline of 26 July 2026 can only be taken on 26 July 2026. Wait a year, and the evidence of what companies said
+today is gone.</p>
+<p>So the archive records every day: ${docCount} documents and ${labelCount} App Store privacy labels across
+${companies.length} platforms, snapshotted at 06:17 UTC, committed to a public git history, with the Internet Archive
+asked to capture changed sources the same day. Observations, not conclusions — and every claim linked to what it
+stands on.</p>
+<p>The data is CC0. Build alerts on it, write about it, prove us wrong with it: <a href="/data/">scanrecords.org/data</a>.</p>`,
+  },
+];
+
+const GLOSSARY = [
+  ["Chat Control", "The colloquial name for two EU instruments: the ePrivacy derogation in force ('1.0', voluntary scanning, until April 2028) and the draft CSA Regulation ('2.0', potentially mandatory detection). Most confusion about Chat Control comes from mixing them up."],
+  ["ePrivacy derogation (Regulation 2021/1232)", "The exception to EU confidentiality rules that lets providers voluntarily scan private communications for child sexual abuse material. Reinstated in July 2026 and in force until April 2028; end-to-end encrypted communications are formally excluded."],
+  ["CSA Regulation (“Chat Control 2.0”)", "The proposed permanent regulation (2022) whose detection orders could make scanning mandatory, including via scanning on the user's device. Still in negotiation; not law."],
+  ["End-to-end encryption (E2EE)", "Encryption where only the communicating devices hold the keys — the provider cannot read message content, so it has nothing meaningful to scan server-side. Signal, WhatsApp, Threema, Olvid, Wire and Element use it by default."],
+  ["Client-side scanning", "Scanning content on the user's device before encryption is applied. The mechanism by which mandatory detection could reach E2EE apps, and the central controversy of Chat Control 2.0."],
+  ["Hash matching", "Comparing a fingerprint (hash) of an image or video against a database of known abuse material. Detects only previously identified content; the most established scanning method, and the one Google's error figures refer to."],
+  ["PhotoDNA", "Microsoft's perceptual hash-matching technology (2009), licensed widely across the industry. A perceptual hash survives resizing and small edits, unlike an exact file hash."],
+  ["Classifier", "A machine-learning model that flags previously unseen content as potentially abusive. Catches new material, at the cost of a higher false-positive risk than hash matching."],
+  ["NCMEC / CyberTipline", "The US National Center for Missing & Exploited Children and its reporting pipeline. US law requires providers to report detected material there — a US regime, distinct from the EU derogation, though NCMEC reports about EU users appear in the Commission's statistics."],
+  ["Detection order", "Under the draft 2.0 regulation, a binding order requiring a specific service to scan for specific material. The mechanism that would turn scanning from voluntary into mandatory."],
+  ["Trilogue", "The closed-door negotiation between the Council, Parliament and Commission that produces the final text of EU law. The 2.0 trilogue collapsed over suspicionless scanning in June 2026 and continues."],
+  ["Metadata", "Who talked to whom, when, how often, from where. Not protected by E2EE and not the subject of Chat Control scanning — but revealing enough that it deserves its own scrutiny."],
+];
+
 // --------------------------------------------------------------- style ----
 const CSS = `
+@font-face { font-family:"Space Grotesk"; src:url("/fonts/space-grotesk-500.woff2") format("woff2");
+  font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:"Space Grotesk"; src:url("/fonts/space-grotesk-700.woff2") format("woff2");
+  font-weight:700; font-style:normal; font-display:swap; }
 :root { color-scheme: light dark;
   --bg:#ffffff; --fg:#111111; --dim:#6b6b6b; --faint:#9a9a9a;
   --line:#e6e6e6; --soft:#f7f7f7; --live:#137333;
@@ -286,6 +371,44 @@ details[open] summary { margin-bottom:.5rem; }
 details p { color:var(--dim); }
 .sources { list-style:none; padding-left:0 !important; }
 .sources li { padding:.45rem 0; border-bottom:1px solid var(--line); }
+
+/* ——— v3: typeface, charts, footer, tints ——— */
+.wm, h1, h2, h3, .bignums b, .stat b, .step b, .bigcard h3 {
+  font-family:"Space Grotesk", -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+h1 { font-weight:700; }
+.st-scans .mg { background:var(--del-bg); }
+.st-global .mg { background:var(--del-bg); }
+.st-e2ee .mg, .st-denies .mg { background:var(--add-bg); }
+.chart { max-width:46rem; margin:1.1rem 0 1.6rem; }
+.crow { display:grid; grid-template-columns:6.5rem 1fr 6rem; gap:.9rem; align-items:center; padding:.22rem 0; font-size:.9rem; }
+.crow .track { background:var(--soft); border:1px solid var(--line); border-radius:6px; height:22px; position:relative; overflow:hidden; }
+.crow .fill { position:absolute; inset:0 auto 0 0; border-radius:5px; background:var(--del-fg); opacity:.85; }
+.crow .fill.g2 { background:var(--dim); }
+.crow .val { text-align:right; }
+.crow-sub { margin-top:-.1rem; }
+.lgd { display:inline-block; width:.85em; height:.85em; border-radius:3px; vertical-align:-.1em; margin-right:.35em; }
+.steps { display:grid; grid-template-columns:repeat(auto-fit, minmax(215px, 1fr)); gap:1rem; margin:1.2rem 0 .4rem; }
+.step { border-left:2px solid var(--line); padding:.15rem 0 .15rem 1rem; font-size:.92rem; color:var(--dim); }
+.step b { display:block; color:var(--fg); margin-bottom:.25rem; }
+.bigcards { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:.9rem; margin:1.1rem 0 .4rem; }
+.bigcard { border:1px solid var(--line); border-radius:14px; padding:1.15rem 1.25rem; text-decoration:none !important;
+  transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease; }
+.bigcard:hover { transform:translateY(-2px); box-shadow:0 10px 26px rgb(0 0 0 / .12); border-color:var(--faint); }
+.bigcard h3 { font-size:1.02rem; margin-bottom:.35rem; }
+.bigcard p { font-size:.87rem; color:var(--dim); }
+.notes-list { list-style:none; }
+.notes-list li { display:flex; gap:1.2rem; padding:.85rem 0; border-bottom:1px solid var(--line); }
+.notes-list .date { flex:0 0 7.2rem; padding-top:.15rem; }
+.gloss dt { font-weight:650; font-family:"Space Grotesk", system-ui, sans-serif; margin-top:1.2rem; }
+.gloss dd { color:var(--dim); margin:.25rem 0 0; max-width:44rem; }
+footer.site .wrap { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:2.2rem; padding:2.4rem 22px 2.8rem; }
+footer.site .fcol h4 { font-size:.76rem; text-transform:uppercase; letter-spacing:.09em; color:var(--faint); margin-bottom:.6rem; font-weight:600; }
+footer.site .fcol a { display:block; padding:.17rem 0; text-decoration:none; }
+footer.site .fcol a:hover { text-decoration:underline; }
+footer.site .fbrand p { font-size:.88rem; max-width:22rem; }
+footer.site .feye { width:54px; margin-bottom:.7rem; }
+footer.site .feye svg { width:100%; height:auto; display:block; }
+@media (max-width:820px) { footer.site .wrap { grid-template-columns:1fr 1fr; } }
 `;
 
 // --------------------------------------------------------------- shell ----
@@ -328,11 +451,11 @@ function page({ title, desc, path, active, body }) {
 <header class="top"><div class="wrap">
   <a class="wm plain" href="/">Scan<span class="half">Records</span></a>
   <nav class="site">
-    ${navLink("/", "Changes", "home")}
     ${navLink("/companies/", "Companies", "companies")}
     ${navLink("/chat-control/", "Chat Control", "cc")}
+    ${navLink("/numbers/", "Numbers", "numbers")}
+    ${navLink("/notes/", "Notes", "notes")}
     ${navLink("/about/", "About", "about")}
-    ${navLink("/data/", "Data", "data")}
     <a href="${REPO}">GitHub</a>
   </nav>
 </div></header>
@@ -340,11 +463,23 @@ function page({ title, desc, path, active, body }) {
 ${body}
 </div></main>
 <footer class="site"><div class="wrap">
-  <span>No cookies, no analytics, no accounts — nothing to consent to.</span>
-  <a href="/about/">Method</a>
-  <a href="/legal">Legal &amp; privacy</a>
-  <a href="${REPO}/blob/main/POLICY.md">Editorial policy</a>
-  <a href="/feed.xml">RSS</a>
+  <div class="fcol fbrand">
+    <div class="feye" aria-hidden="true">${EYE_SVG}</div>
+    <p><strong>ScanRecords</strong> — the Chat Control policy archive.<br>
+    Recorded daily. No cookies, no analytics, no accounts — nothing to consent to.</p>
+  </div>
+  <div class="fcol"><h4>Explore</h4>
+    <a href="/">The checker</a><a href="/chat-control/">What is Chat Control?</a>
+    <a href="/numbers/">The numbers</a><a href="/notes/">Notes</a><a href="/glossary/">Glossary</a>
+  </div>
+  <div class="fcol"><h4>The record</h4>
+    <a href="/companies/">Tracked companies</a><a href="/data/">Data (CC0)</a>
+    <a href="${REPO}">GitHub</a><a href="/feed.xml">RSS</a>
+  </div>
+  <div class="fcol"><h4>Rules</h4>
+    <a href="/about/">Method</a><a href="${REPO}/blob/main/POLICY.md">Editorial policy</a>
+    <a href="/legal">Legal &amp; privacy</a>
+  </div>
 </div></footer>
 </body>
 </html>`;
@@ -499,6 +634,18 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
   records — <strong>they describe what companies say and file, not measurements of their
   software</strong>. Full table with tracked documents: <a href="/companies/">companies</a>.
   Wrong about your company? <a href="${REPO}/issues">Dispute it</a> — disputes are published.</p>
+  <h2>How the record works</h2>
+  <div class="steps">
+    <div class="step"><b>1 · Snapshot</b>Every tracked policy, security page and App Store label is re-fetched daily at 06:17 UTC.</div>
+    <div class="step"><b>2 · Diff</b>A change is committed only when the words actually changed — with the full before and after preserved.</div>
+    <div class="step"><b>3 · Witness</b>Each snapshot is a public git commit, and the Internet Archive captures changed sources the same day.</div>
+  </div>
+  <h2>Go deeper</h2>
+  <div class="bigcards">
+    <a class="bigcard" href="/numbers/"><h3>The scanners' own numbers →</h3><p>Error ratios, report volumes, and the collapse of chat-scanning reports after Messenger went E2EE — from the Commission's own report.</p></a>
+    <a class="bigcard" href="/chat-control/"><h3>What is Chat Control? →</h3><p>The plain-language guide: the timeline, 1.0 vs 2.0, who actually scans, and what it means for your apps.</p></a>
+    <a class="bigcard" href="/notes/"><h3>Notes →</h3><p>Short, sourced write-ups from the record — starting with the Snapchat and Apple discrepancy.</p></a>
+  </div>
   <h2>Latest changes</h2>
   <p class="groupnote">Every tracked document is re-fetched daily; when one changes, the change
   appears here with its full before and after. That is how a status change would be caught.</p>
@@ -915,6 +1062,135 @@ for (const e of realChanges) {
   );
 }
 
+// numbers — the Commission's own figures
+{
+  const hbar = (rows, unit, max, color = "") =>
+    `<div class="chart">${rows
+      .map(
+        ([label, v]) => `<div class="crow"><span class="mono dim">${label}</span>
+        <span class="track"><span class="fill ${color}" style="width:${((v / max) * 100).toFixed(1)}%"></span></span>
+        <span class="val mono">${v}${unit}</span></div>`
+      )
+      .join("")}</div>`;
+  const typeChart = `<div class="chart">${N_TYPE.map(
+    ([y, chat, social, share]) => `
+    <div class="crow"><span class="mono dim">${y}</span>
+      <span class="track"><span class="fill" style="width:${((chat / 1100) * 100).toFixed(1)}%"></span></span>
+      <span class="val mono">${chat}k</span></div>
+    <div class="crow crow-sub"><span class="mono faint">${share}% of total</span>
+      <span class="track"><span class="fill g2" style="width:${((social / 1100) * 100).toFixed(1)}%"></span></span>
+      <span class="val mono dim">${social}k</span></div>`
+  ).join("")}
+  <p class="note" style="margin-top:.6rem"><span class="lgd" style="background:var(--del-fg)"></span> chat, messaging or email services
+  &nbsp; <span class="lgd" style="background:var(--dim)"></span> social media or gaming platforms</p></div>`;
+  const body = `
+  <h1>The scanners' own numbers</h1>
+  <p class="lede">Providers scanning under Chat Control must report on it, and the Commission
+  compiles the results. Everything on this page is from
+  <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>
+  (27 November 2025) — the EU's own accounting of the scanning it permits.</p>
+
+  <h2>Reports about the EU are falling…</h2>
+  <p class="groupnote">NCMEC reports concerning the EU, in millions.</p>
+  ${hbar(N_REPORTS, "M", 1.6)}
+
+  <h2>…while the files inside them exploded</h2>
+  <p class="groupnote">Images, videos and other files contained in those reports, in millions —
+  fourteen times more files in 2024 than 2022, inside fewer reports.</p>
+  ${hbar(N_FILES, "M", 110)}
+
+  <h2>The E2EE effect</h2>
+  <p class="groupnote">Reports by service type, in thousands. Reports from chat, messaging and email
+  scanning collapsed by two-thirds after Meta turned on end-to-end encryption for Messenger in
+  December 2023 — from 68% of everything reported about the EU to 36%.</p>
+  ${typeChart}
+
+  <h2>What the scanners get wrong</h2>
+  <p class="groupnote">Error ratios (false positives), as tabulated in the report — each provider
+  measures errors differently, which the Commission itself flags as a problem.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Provider</th><th>2023</th><th>2024</th><th>What the ratio measures</th></tr></thead>
+    <tbody>${N_ERRORS.map(
+      ([p, a, b, m]) => `<tr><td><strong>${p}</strong></td><td class="mono">${a}</td><td class="mono">${b}</td><td class="dim">${m}</td></tr>`
+    ).join("")}</tbody>
+  </table></div>
+  <p class="note">Read both columns of Meta's row: 0.12% sounds small, and it also means
+  <strong>1,800 wrongly-actioned items in 2024</strong> (11,600 in 2023) — both things are true.
+  The report's own summary: flagged material is <em>"overwhelmingly confirmed"</em> on human
+  review, and <em>"a small fraction may turn out, upon human review, not to be CSAM."</em></p>
+
+  <h2>The Commission's own caveats</h2>
+  <p>The report notes <em>"considerable disparities in the reporting"</em> by both providers and
+  member states, calls for <em>"greater standardisation"</em>, and says the gaps between NCMEC
+  data and member-state data <em>"have significant shortcomings"</em>. Several member states
+  reported no usable statistics at all. The numbers on this page are the best public accounting
+  that exists — and the EU's own report says it isn't good enough.</p>
+
+  <h2>Method</h2>
+  <p class="note">Figures extracted from the official PDF of COM(2025) 740; European decimal
+  notation normalised. The five reporting providers and their statuses are on
+  <a href="/">the checker</a>; the exact sentence naming them is quoted in
+  <a href="/notes/five-providers-verbatim/">this note</a>. Spot an extraction error?
+  <a href="${REPO}/issues">Open an issue</a> — corrections are published.</p>`;
+  mkdirSync(join(OUT, "numbers"), { recursive: true });
+  writeFileSync(
+    join(OUT, "numbers", "index.html"),
+    page({
+      title: "The scanners' own numbers — ScanRecords",
+      desc: "Chat Control by the EU's own figures: falling reports, exploding file counts, the E2EE effect, and what the scanners get wrong — from COM(2025) 740.",
+      path: "/numbers/", active: "numbers", body,
+    })
+  );
+}
+
+// notes — index + articles
+{
+  const body = `
+  <h1>Notes</h1>
+  <p class="lede">Short, sourced write-ups from the record. Everything here cites primary
+  documents; nothing here is a hot take.</p>
+  <ul class="notes-list">${NOTES.map(
+    (n) => `<li><span class="date mono dim">${fmtDate(n.date)}</span>
+    <span><a href="/notes/${n.slug}/"><strong>${esc(n.title)}</strong></a><br>
+    <span class="dim" style="font-size:.9rem">${esc(n.teaser)}</span></span></li>`
+  ).join("")}</ul>`;
+  mkdirSync(join(OUT, "notes"), { recursive: true });
+  writeFileSync(
+    join(OUT, "notes", "index.html"),
+    page({ title: "Notes — ScanRecords", desc: "Short, sourced write-ups from the Chat Control record.", path: "/notes/", active: "notes", body })
+  );
+  for (const n of NOTES) {
+    const body = `<div class="about">
+    <p class="crumbs"><a href="/notes/">Notes</a> / ${fmtDate(n.date)}</p>
+    <h1>${esc(n.title)}</h1>
+    ${n.body}
+    <p class="note" style="margin-top:1.6rem">— ScanRecords, ${fmtDate(n.date)}.
+    <a href="/feed.xml">Subscribe by RSS</a> · <a href="${REPO}/issues">corrections</a></p>
+    </div>`;
+    mkdirSync(join(OUT, "notes", n.slug), { recursive: true });
+    writeFileSync(
+      join(OUT, "notes", n.slug, "index.html"),
+      page({ title: `${n.title} — ScanRecords`, desc: n.teaser, path: `/notes/${n.slug}/`, active: "notes", body })
+    );
+  }
+}
+
+// glossary
+{
+  const body = `<div class="about">
+  <h1>Glossary</h1>
+  <p class="lede">Twelve terms that carry most Chat Control conversations — each in plain
+  language, none requiring the others.</p>
+  <dl class="gloss">${GLOSSARY.map(
+    ([term, def]) => `<dt id="${term.toLowerCase().replace(/[^a-z0-9]+/g, "-")}">${esc(term)}</dt><dd>${esc(def)}</dd>`
+  ).join("")}</dl></div>`;
+  mkdirSync(join(OUT, "glossary"), { recursive: true });
+  writeFileSync(
+    join(OUT, "glossary", "index.html"),
+    page({ title: "Glossary — ScanRecords", desc: "Chat Control's vocabulary in plain language: E2EE, client-side scanning, hash matching, detection orders, and more.", path: "/glossary/", active: "notes", body })
+  );
+}
+
 // 404
 writeFileSync(
   join(OUT, "404.html"),
@@ -940,6 +1216,15 @@ SITEMAP.pop(); // 404 is not a sitemap entry
   <description>${esc(`+${e.added} lines added, −${e.removed} removed. Full before/after recorded.`)}</description>
 </item>`
   );
+  for (const n of NOTES) {
+    items.push(`<item>
+  <title>${esc(n.title)}</title>
+  <link>${SITE}/notes/${n.slug}/</link>
+  <guid isPermaLink="true">${SITE}/notes/${n.slug}/</guid>
+  <pubDate>${new Date(n.date + "T10:00:00Z").toUTCString()}</pubDate>
+  <description>${esc(n.teaser)}</description>
+</item>`);
+  }
   items.push(`<item>
   <title>ScanRecords is recording</title>
   <link>${SITE}/</link>
@@ -981,6 +1266,7 @@ cpSync(join(ROOT, ".well-known"), join(OUT, ".well-known"), { recursive: true })
 cpSync(join(ROOT, "history.json"), join(OUT, "history.json"));
 cpSync(join(ROOT, "companies.json"), join(OUT, "companies.json"));
 if (existsSync(join(ROOT, "assets", "og.png"))) cpSync(join(ROOT, "assets", "og.png"), join(OUT, "og.png"));
+if (existsSync(join(ROOT, "assets", "fonts"))) cpSync(join(ROOT, "assets", "fonts"), join(OUT, "fonts"), { recursive: true });
 if (existsSync(join(ROOT, "legal.html"))) cpSync(join(ROOT, "legal.html"), join(OUT, "legal.html"));
 
 const pages = [];
