@@ -272,18 +272,18 @@
         }
       ],
       "chatControl": {
-        "status": "confirmed",
-        "note": "For iCloud Mail only: listed among services using the derogation in Breyer’s tracking, and Apple has said it scans mail attachments for known CSAM since 2019 — though it is not among the providers that filed 2023–2024 reports with the Commission. iMessage itself is end-to-end encrypted and out of scope; the 2021 on-device photo-scanning plan was abandoned in 2022.",
+        "status": "e2ee",
+        "note": "iMessage is end-to-end encrypted and out of scope; the 2021 on-device photo-scanning plan was abandoned in 2022. Separately, Breyer’s tracking lists iCloud Mail among derogation services and Apple has said it checks mail attachments since 2019 — but Apple is not among the five providers filing the derogation’s reports. Both facts are recorded.",
         "quote": "prescreening or scanning uploaded content for potentially illegal content",
         "quoteDoc": "privacy policy",
         "sources": [
           {
-            "t": "Overview of derogation users (Patrick Breyer)",
-            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
-          },
-          {
             "t": "Archived iMessage security overview",
             "u": "/archive/apple/imessage-security.txt"
+          },
+          {
+            "t": "Overview of derogation users (Patrick Breyer)",
+            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
           }
         ]
       }
@@ -308,16 +308,16 @@
         }
       ],
       "chatControl": {
-        "status": "confirmed",
-        "note": "Listed among services scanning under the derogation in MEP Patrick Breyer’s tracking — but notably absent from the five providers that submitted the mandatory 2023–2024 reports in the Commission’s latest implementation report. Both facts are recorded here.",
+        "status": "global",
+        "note": "Discloses PhotoDNA and CSAI Match scanning and NCMEC reporting under US law. Breyer’s tracking lists Snapchat among services using the derogation — but Snap is not among the five providers that filed the derogation’s mandatory reports for 2023–2024. No EU filing means no confirmed EU evidence; both facts are recorded.",
         "sources": [
+          {
+            "t": "NCMEC CyberTipline data (US law)",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          },
           {
             "t": "Overview of derogation users (Patrick Breyer)",
             "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
-          },
-          {
-            "t": "COM(2025) 740 — Commission implementation report",
-            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           },
           {
             "t": "Snap transparency hub",

@@ -73,9 +73,9 @@ const baselineDate = history.length ? history[history.length - 1].date : "2026-0
 // The distinction that matters: scanning under the EU derogation itself vs.
 // scanning globally under US law (NCMEC/PhotoDNA) — they are not the same thing.
 const STATUS = {
-  confirmed: { label: "Scans in the EU under Chat Control", cls: "st-scans",
-    verdict: "Scanning in the EU — confirmed",
-    blurb: "Evidence of scanning under the EU derogation itself: named in the European Commission's implementation reporting, or the company publishes an EU-specific transparency report under Regulation 2021/1232." },
+  confirmed: { label: "Scans under the EU's Chat Control", cls: "st-scans",
+    verdict: "Scans under Chat Control — confirmed",
+    blurb: "The derogation's mandatory reports exist only for providers actually scanning private communications under it. Exactly five filed them, for both 2023 and 2024, per the Commission's own implementation report — this is Chat Control use, documented by the EU itself." },
   global: { label: "Scans globally — no EU evidence", cls: "st-global",
     verdict: "Scans under US law · no EU evidence",
     blurb: "Their documents disclose content scanning under US law (NCMEC reporting, PhotoDNA). No evidence found that they invoke the EU derogation for private communications — US-law scanning and Chat Control are separate regimes." },
@@ -409,6 +409,12 @@ footer.site .fbrand p { font-size:.88rem; max-width:22rem; }
 footer.site .feye { width:54px; margin-bottom:.7rem; }
 footer.site .feye svg { width:100%; height:auto; display:block; }
 @media (max-width:820px) { footer.site .wrap { grid-template-columns:1fr 1fr; } }
+.btn { font:inherit; font-weight:600; padding:.7rem 1.25rem; border-radius:10px; cursor:pointer;
+  border:1px solid var(--fg); background:var(--fg); color:var(--bg); margin-right:.6rem; }
+.btn:hover { opacity:.85; }
+.btn[hidden] { display:none; }
+#alert-status.st-ok { color:var(--add-fg); }
+#alert-status.st-err { color:var(--dim); }
 `;
 
 // --------------------------------------------------------------- shell ----
@@ -433,6 +439,10 @@ function page({ title, desc, path, active, body }) {
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${SITE}${path}">
 <link rel="icon" href="${FAVICON}">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
 <link rel="alternate" type="application/rss+xml" title="ScanRecords changes" href="${SITE}/feed.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ScanRecords">
@@ -473,7 +483,7 @@ ${body}
     <a href="/numbers/">The numbers</a><a href="/notes/">Notes</a><a href="/glossary/">Glossary</a>
   </div>
   <div class="fcol"><h4>The record</h4>
-    <a href="/companies/">Tracked companies</a><a href="/data/">Data (CC0)</a>
+    <a href="/companies/">Tracked companies</a><a href="/alerts/">Alerts</a><a href="/data/">Data (CC0)</a>
     <a href="${REPO}">GitHub</a><a href="/feed.xml">RSS</a>
   </div>
   <div class="fcol"><h4>Rules</h4>
@@ -622,7 +632,7 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
       ${groups.map((g) => `<i class="seg-${g.key}" style="flex:${g.companies.length}"></i>`).join("")}
     </div>
     <div class="bignums">
-      <a href="#confirmed"><b class="n-red">${groups[0].companies.length}</b><span>scan in the EU</span></a>
+      <a href="#confirmed"><b class="n-red">${groups[0].companies.length}</b><span>scan under Chat Control</span></a>
       <a href="#global"><b class="n-redsoft">${groups[1].companies.length}</b><span>scan under US law only</span></a>
       <a href="#unclear"><b class="n-gray">${groups[2].companies.length}</b><span>won't say</span></a>
       <a href="#denies"><b class="n-greensoft">${groups[3].companies.length}</b><span>says it doesn't</span></a>
@@ -645,6 +655,7 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
     <a class="bigcard" href="/numbers/"><h3>The scanners' own numbers →</h3><p>Error ratios, report volumes, and the collapse of chat-scanning reports after Messenger went E2EE — from the Commission's own report.</p></a>
     <a class="bigcard" href="/chat-control/"><h3>What is Chat Control? →</h3><p>The plain-language guide: the timeline, 1.0 vs 2.0, who actually scans, and what it means for your apps.</p></a>
     <a class="bigcard" href="/notes/"><h3>Notes →</h3><p>Short, sourced write-ups from the record — starting with the Snapchat and Apple discrepancy.</p></a>
+    <a class="bigcard" href="/alerts/"><h3>Get alerts →</h3><p>A push notification the moment a tracked company moves. No account, no email — install to your Home Screen and subscribe.</p></a>
   </div>
   <h2>Latest changes</h2>
   <p class="groupnote">Every tracked document is re-fetched daily; when one changes, the change
@@ -662,7 +673,7 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
     <div class="stat"><b><span class="livedot"></span>daily</b><span>last snapshot ${lastFetch ? fmtDate(lastFetch) : "—"}</span></div>
   </div>
   <div class="trust">
-    <span><b>No cookies,</b> no analytics, no client-side JavaScript</span>
+    <span><b>No cookies,</b> no analytics — JavaScript only on the opt-in <a href="/alerts/">alerts page</a></span>
     <span><b>Every snapshot</b> is a public git commit — tamper-evident</span>
     <span><b>Statuses cite their evidence</b> and can be disputed publicly</span>
     <span><b>The data is CC0</b> — <a href="/data/">build on it</a></span>
@@ -1191,6 +1202,53 @@ for (const e of realChanges) {
   );
 }
 
+// alerts — the one page with JavaScript, and it says so
+{
+  const body = `
+  <h1>Get an alert when a company moves</h1>
+  <p class="lede">The moment a tracked company changes a policy, an encryption claim, or an
+  App Store label, your phone can know. Free, no account, no email address — your browser's
+  push endpoint is the only thing stored, and unsubscribing deletes it.</p>
+
+  <div class="banner st-e2ee" style="margin-top:1.6rem">
+    <strong>On iPhone or Android, install the site first</strong>
+    <div style="margin-top:.45rem" class="dim">
+      <strong>iPhone:</strong> Share&nbsp;→ <em>Add to Home Screen</em>, then open ScanRecords from the
+      Home Screen and press subscribe (Apple only allows notifications for installed sites, iOS 16.4+).<br>
+      <strong>Android:</strong> Chrome menu&nbsp;→ <em>Add to Home screen</em> — or just subscribe below.
+    </div>
+  </div>
+
+  <p style="margin-top:1.4rem">
+    <button id="subscribe" class="btn">Turn on alerts for this device</button>
+    <button id="unsubscribe" class="btn" hidden>Turn off alerts</button>
+  </p>
+  <p id="alert-status" class="note" aria-live="polite"></p>
+
+  <h2>What you'll be notified about</h2>
+  <ul class="about" style="padding-left:1.2rem">
+    <li>A tracked company changed a policy, terms, security page, or App Store privacy label — with a link to the exact before/after.</li>
+    <li>Nothing else. No news, no campaigns, no "engagement". Most days, silence — quiet is the point.</li>
+  </ul>
+
+  <h2>The honesty box</h2>
+  <p class="note">This is the only page on scanrecords.org that uses JavaScript, and only after you
+  press the button. Subscribing stores your push endpoint — a random URL your browser generates —
+  plus its two delivery keys. No cookies, no identifiers, no email. Unsubscribe deletes the record;
+  dead endpoints are pruned automatically. Prefer zero scripts? The
+  <a href="/feed.xml">RSS feed</a> carries identical alerts.</p>
+  <script src="/alerts.js" defer></script>`;
+  mkdirSync(join(OUT, "alerts"), { recursive: true });
+  writeFileSync(
+    join(OUT, "alerts", "index.html"),
+    page({
+      title: "Alerts — ScanRecords",
+      desc: "Push notification the moment a tracked company changes a policy or label under the EU's Chat Control. No account, no email — and unsubscribing deletes everything.",
+      path: "/alerts/", active: "alerts", body,
+    })
+  );
+}
+
 // 404
 writeFileSync(
   join(OUT, "404.html"),
@@ -1267,6 +1325,10 @@ cpSync(join(ROOT, "history.json"), join(OUT, "history.json"));
 cpSync(join(ROOT, "companies.json"), join(OUT, "companies.json"));
 if (existsSync(join(ROOT, "assets", "og.png"))) cpSync(join(ROOT, "assets", "og.png"), join(OUT, "og.png"));
 if (existsSync(join(ROOT, "assets", "fonts"))) cpSync(join(ROOT, "assets", "fonts"), join(OUT, "fonts"), { recursive: true });
+if (existsSync(join(ROOT, "assets", "icons"))) cpSync(join(ROOT, "assets", "icons"), join(OUT, "icons"), { recursive: true });
+cpSync(join(ROOT, "assets", "manifest.webmanifest"), join(OUT, "manifest.webmanifest"));
+cpSync(join(ROOT, "assets", "sw.js"), join(OUT, "sw.js"));
+cpSync(join(ROOT, "assets", "alerts.js"), join(OUT, "alerts.js"));
 if (existsSync(join(ROOT, "legal.html"))) cpSync(join(ROOT, "legal.html"), join(OUT, "legal.html"));
 
 const pages = [];

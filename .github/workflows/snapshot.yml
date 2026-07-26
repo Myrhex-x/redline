@@ -42,6 +42,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node tools/triage.mjs || true
 
+      - name: Send push alerts for today's changes
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+        run: |
+          npm install --no-save --no-package-lock web-push @neondatabase/serverless >/dev/null 2>&1 \
+            && node tools/push.mjs || echo "push lane skipped"
+
       - name: Commit changes
         run: |
           git config user.name "Myrhex-x"

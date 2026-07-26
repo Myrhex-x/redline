@@ -1,0 +1,8 @@
+{
+  "name": "scanrecords",
+  "private": true,
+  "comment": "The archive tools (tools/*.mjs) and the site generator are zero-dependency. This single dependency exists only for the optional /api alert endpoints; Playwright and web-push are installed transiently by the workflow, never committed.",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.0"
+  }
+}
