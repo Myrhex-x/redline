@@ -18,28 +18,15 @@ App functionality
 Videos &middot; Optional
 App functionality
 
-Files and docs
-Files and docs
+Audio
+Voice or sound recordings
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Files and docs &middot; Optional
-App functionality
-
-Location
-Approximate location and Precise location
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Approximate location &middot; Optional
-App functionality
-Precise location &middot; Optional
+Voice or sound recordings &middot; Optional
 App functionality
 
 Personal info
@@ -66,15 +53,28 @@ info
 Contacts &middot; Optional
 App functionality
 
-Audio
-Voice or sound recordings
+Files and docs
+Files and docs
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Voice or sound recordings &middot; Optional
+Files and docs &middot; Optional
+App functionality
+
+Location
+Approximate location and Precise location
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Approximate location &middot; Optional
+App functionality
+Precise location &middot; Optional
 App functionality
 
 Messages

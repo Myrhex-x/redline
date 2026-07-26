@@ -15,75 +15,6 @@ Advertising or marketing
 
 Data collected
 Data this app may collect
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
-App functionality
-
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-App functionality
-Videos &middot; Optional
-App functionality
-
-Audio
-Voice or sound recordings, Music files, and Other audio files
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Voice or sound recordings &middot; Optional
-App functionality
-Music files &middot; Optional
-App functionality
-Other audio files &middot; Optional
-App functionality
-
-Messages
-Emails
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Emails
-App functionality, Analytics, Personalization
-
-App activity
-App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-App functionality, Analytics, Personalization
-In-app search history
-App functionality, Analytics, Personalization
-Installed apps &middot; Optional
-Analytics
-Other user-generated content &middot; Optional
-App functionality, Analytics, Personalization
-Other actions
-App functionality, Analytics
-
 Device or other IDs
 Device or other IDs
 
@@ -117,6 +48,45 @@ info
 Calendar events
 App functionality, Analytics, Personalization
 
+Files and docs
+Files and docs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Files and docs &middot; Optional
+App functionality
+
+Audio
+Voice or sound recordings, Music files, and Other audio files
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Voice or sound recordings &middot; Optional
+App functionality
+Music files &middot; Optional
+App functionality
+Other audio files &middot; Optional
+App functionality
+
+Photos and videos
+Photos and Videos
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Photos &middot; Optional
+App functionality
+Videos &middot; Optional
+App functionality
+
 Personal info
 Name, Email address, User IDs, and Phone number
 
@@ -148,6 +118,36 @@ Diagnostics
 Analytics
 Other app performance data
 Analytics
+
+App activity
+App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions
+App functionality, Analytics, Personalization
+In-app search history
+App functionality, Analytics, Personalization
+Installed apps &middot; Optional
+Analytics
+Other user-generated content &middot; Optional
+App functionality, Analytics, Personalization
+Other actions
+App functionality, Analytics
+
+Messages
+Emails
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Emails
+App functionality, Analytics, Personalization
 
 Security practices
 Data is encrypted in transit

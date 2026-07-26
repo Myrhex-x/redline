@@ -5,62 +5,6 @@ The developer says this app doesn't share user data with other companies or orga
 
 Data collected
 Data this app may collect
-Personal info
-Name, Email address, User IDs, Address, Phone number, and Other info
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Name &middot; Optional
-App functionality, Developer communications, Fraud prevention, security, and compliance, Account management
-Email address &middot; Optional
-App functionality, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-User IDs
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Address &middot; Optional
-App functionality
-Phone number &middot; Optional
-App functionality, Developer communications, Fraud prevention, security, and compliance, Personalization, Account management
-Other info
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
-
-Location
-Approximate location and Precise location
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Approximate location
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Precise location &middot; Optional
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
-
-Web browsing
-Web browsing history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Web browsing history
-App functionality, Analytics, Advertising or marketing
-
 Contacts
 Contacts
 
@@ -71,34 +15,6 @@ info
 
 Contacts &middot; Optional
 App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Personalization
-
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management
-Videos &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-Analytics
-Diagnostics
-App functionality, Analytics, Advertising or marketing
-Other app performance data
-App functionality, Analytics
 
 Audio
 Voice or sound recordings
@@ -122,6 +38,45 @@ info
 Other in-app messages
 App functionality, Analytics, Fraud prevention, security, and compliance
 
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs
+Analytics
+Diagnostics
+App functionality, Analytics, Advertising or marketing
+Other app performance data
+App functionality, Analytics
+
+Web browsing
+Web browsing history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Web browsing history
+App functionality, Analytics, Advertising or marketing
+
+Photos and videos
+Photos and Videos
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Photos &middot; Optional
+App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management
+Videos &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+
 Financial info
 Purchase history
 
@@ -132,6 +87,38 @@ info
 
 Purchase history &middot; Optional
 App functionality, Analytics, Advertising or marketing
+
+Personal info
+Name, Email address, User IDs, Address, Phone number, and Other info
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Name &middot; Optional
+App functionality, Developer communications, Fraud prevention, security, and compliance, Account management
+Email address &middot; Optional
+App functionality, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+User IDs
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Address &middot; Optional
+App functionality
+Phone number &middot; Optional
+App functionality, Developer communications, Fraud prevention, security, and compliance, Personalization, Account management
+Other info
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
 
 App activity
 App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
@@ -151,6 +138,19 @@ Other user-generated content
 App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
 Other actions
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+
+Location
+Approximate location and Precise location
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Approximate location
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Precise location &middot; Optional
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
 Security practices
 Data is encrypted in transit

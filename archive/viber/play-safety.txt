@@ -54,49 +54,6 @@ Fraud prevention, security, and compliance
 
 Data collected
 Data this app may collect
-App activity
-App interactions, In-app search history, Other user-generated content, and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-Analytics, Advertising or marketing, Personalization
-In-app search history
-App functionality, Analytics, Personalization
-Other user-generated content &middot; Optional
-App functionality, Analytics
-Other actions
-Analytics, Fraud prevention, security, and compliance, Personalization
-
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-App functionality, Analytics
-Diagnostics
-Analytics
-Other app performance data
-Analytics
-
 Financial info
 User payment info, Purchase history, and Other financial info
 
@@ -111,6 +68,17 @@ Purchase history
 App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
 Other financial info
 App functionality, Analytics, Fraud prevention, security, and compliance
+
+Web browsing
+Web browsing history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Web browsing history
+Advertising or marketing, Personalization
 
 Personal info
 Name, Email address, User IDs, Address, Phone number, Political or religious beliefs, Sexual orientation, and Other info
@@ -137,27 +105,31 @@ App functionality, Account management
 Other info &middot; Optional
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
-Web browsing
-Web browsing history
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Web browsing history
-Advertising or marketing, Personalization
+Crash logs
+App functionality, Analytics
+Diagnostics
+Analytics
+Other app performance data
+Analytics
 
-Device or other IDs
-Device or other IDs
+Contacts
+Contacts
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Device or other IDs &middot; Optional
-Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+Contacts &middot; Optional
+App functionality, Fraud prevention, security, and compliance
 
 Photos and videos
 Photos
@@ -169,6 +141,34 @@ info
 
 Photos &middot; Optional
 App functionality, Account management
+
+App activity
+App interactions, In-app search history, Other user-generated content, and Other actions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions
+Analytics, Advertising or marketing, Personalization
+In-app search history
+App functionality, Analytics, Personalization
+Other user-generated content &middot; Optional
+App functionality, Analytics
+Other actions
+Analytics, Fraud prevention, security, and compliance, Personalization
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs &middot; Optional
+Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
 
 Location
 Approximate location and Precise location

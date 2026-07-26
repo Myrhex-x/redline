@@ -15,16 +15,18 @@ Analytics
 Diagnostics
 Analytics
 
-Messages
-Other in-app messages
+Audio
+Voice or sound recordings and Music files
 
 expand_more
 
 Data shared and for what purpose
 info
 
-Other in-app messages
-App functionality, Fraud prevention, security, and compliance
+Voice or sound recordings
+App functionality
+Music files
+App functionality
 
 Photos and videos
 Photos and Videos
@@ -50,17 +52,6 @@ info
 User payment info
 App functionality, Fraud prevention, security, and compliance
 
-Files and docs
-Files and docs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Files and docs
-App functionality
-
 Personal info
 User IDs
 
@@ -71,6 +62,17 @@ info
 
 User IDs
 Analytics
+
+Messages
+Other in-app messages
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Other in-app messages
+App functionality, Fraud prevention, security, and compliance
 
 App activity
 App interactions, In-app search history, Other user-generated content, and Other actions
@@ -89,17 +91,15 @@ App functionality
 Other actions
 Analytics, Advertising or marketing
 
-Audio
-Voice or sound recordings and Music files
+Files and docs
+Files and docs
 
 expand_more
 
 Data shared and for what purpose
 info
 
-Voice or sound recordings
-App functionality
-Music files
+Files and docs
 App functionality
 
 Data collected
@@ -117,27 +117,27 @@ Analytics
 Diagnostics
 Analytics
 
-Messages
-Other in-app messages
+Audio
+Music files
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Other in-app messages &middot; Optional
-App functionality, Fraud prevention, security, and compliance
+Music files &middot; Optional
+App functionality
 
-Device or other IDs
-Device or other IDs
+Web browsing
+Web browsing history
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Device or other IDs &middot; Optional
-Analytics, Advertising or marketing, Fraud prevention, security, and compliance
+Web browsing history &middot; Optional
+Advertising or marketing
 
 Photos and videos
 Photos and Videos
@@ -163,16 +163,16 @@ info
 User payment info &middot; Optional
 App functionality, Fraud prevention, security, and compliance
 
-Files and docs
-Files and docs
+Location
+Approximate location
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Files and docs &middot; Optional
-App functionality
+Approximate location &middot; Optional
+App functionality, Personalization
 
 Personal info
 Email address, User IDs, and Phone number
@@ -189,16 +189,27 @@ Personalization
 Phone number &middot; Optional
 App functionality, Advertising or marketing, Account management
 
-Web browsing
-Web browsing history
+Messages
+Other in-app messages
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Web browsing history &middot; Optional
-Advertising or marketing
+Other in-app messages &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs &middot; Optional
+Analytics, Advertising or marketing, Fraud prevention, security, and compliance
 
 App activity
 App interactions, In-app search history, Other user-generated content, and Other actions
@@ -217,26 +228,15 @@ Analytics, Fraud prevention, security, and compliance
 Other actions
 Analytics, Advertising or marketing
 
-Location
-Approximate location
+Files and docs
+Files and docs
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Approximate location &middot; Optional
-App functionality, Personalization
-
-Audio
-Music files
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Music files &middot; Optional
+Files and docs &middot; Optional
 App functionality
 
 Security practices

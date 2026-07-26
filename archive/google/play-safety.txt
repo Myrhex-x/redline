@@ -5,52 +5,6 @@ The developer says this app doesn't share user data with other companies or orga
 
 Data collected
 Data this app may collect
-Calendar
-Calendar events
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Calendar events &middot; Optional
-App functionality, Analytics, Personalization
-
-Messages
-Emails and Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Emails
-App functionality, Fraud prevention, security, and compliance, Personalization
-Other in-app messages &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
-
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
-
 App activity
 App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
 
@@ -70,29 +24,29 @@ App functionality, Analytics
 Other actions &middot; Optional
 App functionality, Analytics
 
-Financial info
-Purchase history
+Messages
+Emails and Other in-app messages
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Purchase history &middot; Optional
-App functionality, Analytics
-
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-Videos &middot; Optional
+Emails
+App functionality, Fraud prevention, security, and compliance, Personalization
+Other in-app messages &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance
+
+Calendar
+Calendar events
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Calendar events &middot; Optional
+App functionality, Analytics, Personalization
 
 Contacts
 Contacts
@@ -120,6 +74,30 @@ App functionality, Fraud prevention, security, and compliance
 Other audio files &middot; Optional
 App functionality, Fraud prevention, security, and compliance
 
+Photos and videos
+Photos and Videos
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Photos &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+Videos &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
+
 Location
 Approximate location
 
@@ -130,6 +108,43 @@ info
 
 Approximate location
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
+
+Files and docs
+Files and docs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Files and docs &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
+
+Financial info
+Purchase history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Purchase history &middot; Optional
+App functionality, Analytics
+
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs
+Analytics
+Diagnostics
+App functionality, Analytics, Fraud prevention, security, and compliance
+Other app performance data
+Analytics
 
 Personal info
 Name, Email address, User IDs, Address, Phone number, and Other info
@@ -151,21 +166,6 @@ Phone number &middot; Optional
 Analytics, Fraud prevention, security, and compliance, Account management
 Other info
 App functionality, Developer communications, Account management
-
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-Analytics
-Diagnostics
-App functionality, Analytics, Fraud prevention, security, and compliance
-Other app performance data
-Analytics
 
 Security practices
 Data is encrypted in transit
