@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   snapshot:
@@ -29,6 +30,11 @@ jobs:
 
       - name: Independent Wayback capture of changed sources
         run: node tools/wayback.mjs || true
+
+      - name: Flag changes touching scanning language for review
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node tools/triage.mjs || true
 
       - name: Commit changes
         run: |

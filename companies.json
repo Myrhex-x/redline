@@ -148,10 +148,10 @@
       ],
       "chatControl": {
         "status": "confirmed",
-        "note": "Named in Commission implementation reporting; Facebook and Instagram messaging are among the services scanned in the EU under the derogation. When ePrivacy first applied in December 2020, Meta paused EU scanning — the derogation is what let it resume. Messenger personal chats have been E2EE by default since December 2023; Instagram DMs are not.",
+        "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 — “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports” (COM(2025) 740). Facebook and Instagram messaging are scanned in the EU; Messenger personal chats have been E2EE by default since December 2023. When ePrivacy first applied in December 2020, Meta paused EU scanning — the derogation is what let it resume.",
         "sources": [
           {
-            "t": "Commission implementation report (Reg. 2021/1232)",
+            "t": "COM(2025) 740 — Commission implementation report",
             "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           },
           {
@@ -187,17 +187,17 @@
       ],
       "chatControl": {
         "status": "confirmed",
-        "note": "Publishes an EU-specific transparency report under Regulation 2021/1232 covering scanning of Gmail in the EU.",
+        "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740), and publishes an EU-specific transparency report under Regulation 2021/1232 covering Gmail.",
         "quote": "For example, processing data to detect and combat online child sexual abuse.",
         "quoteDoc": "privacy policy",
         "sources": [
           {
-            "t": "Google transparency report under Reg. 2021/1232",
-            "u": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf"
+            "t": "COM(2025) 740 — Commission implementation report",
+            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           },
           {
-            "t": "Commission implementation report (Reg. 2021/1232)",
-            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+            "t": "Google transparency report under Reg. 2021/1232",
+            "u": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf"
           }
         ]
       }
@@ -226,17 +226,17 @@
       ],
       "chatControl": {
         "status": "confirmed",
-        "note": "Files jurisdictional reports under Regulation 2021/1232 (historically covering Skype and Xbox; Skype was retired in 2025). Microsoft invented PhotoDNA hash matching.",
+        "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740); files EU jurisdictional transparency reports. Microsoft invented PhotoDNA hash matching; Skype, historically covered, was retired in 2025.",
         "quote": "We use scanning technologies (like hash matching) to help prevent harm to our systems, our users, and others as described in our Code of Conduct, and to help prevent child exploitation.",
         "quoteDoc": "privacy statement",
         "sources": [
           {
-            "t": "Microsoft jurisdictional transparency reports",
-            "u": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
+            "t": "COM(2025) 740 — Commission implementation report",
+            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           },
           {
-            "t": "Commission implementation report (Reg. 2021/1232)",
-            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+            "t": "Microsoft jurisdictional transparency reports",
+            "u": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
           }
         ]
       }
@@ -263,7 +263,7 @@
       ],
       "chatControl": {
         "status": "confirmed",
-        "note": "For iCloud Mail only: iCloud Mail is listed among services using the derogation, and Apple has said it scans mail attachments for known CSAM since 2019. iMessage itself is end-to-end encrypted and out of scope; the 2021 on-device photo-scanning plan was abandoned in 2022.",
+        "note": "For iCloud Mail only: listed among services using the derogation in Breyer’s tracking, and Apple has said it scans mail attachments for known CSAM since 2019 — though it is not among the providers that filed 2023–2024 reports with the Commission. iMessage itself is end-to-end encrypted and out of scope; the 2021 on-device photo-scanning plan was abandoned in 2022.",
         "quote": "prescreening or scanning uploaded content for potentially illegal content",
         "quoteDoc": "privacy policy",
         "sources": [
@@ -299,14 +299,14 @@
       ],
       "chatControl": {
         "status": "confirmed",
-        "note": "Snapchat is listed among the services scanning in the EU under the derogation.",
+        "note": "Listed among services scanning under the derogation in MEP Patrick Breyer’s tracking — but notably absent from the five providers that submitted the mandatory 2023–2024 reports in the Commission’s latest implementation report. Both facts are recorded here.",
         "sources": [
           {
             "t": "Overview of derogation users (Patrick Breyer)",
             "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
           },
           {
-            "t": "Commission implementation report (Reg. 2021/1232)",
+            "t": "COM(2025) 740 — Commission implementation report",
             "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           },
           {
@@ -578,15 +578,11 @@
       ],
       "chatControl": {
         "status": "confirmed",
-        "note": "Microsoft-owned; among the providers that submitted reports on use of the derogation per Commission implementation reporting.",
+        "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 — “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports” (COM(2025) 740).",
         "sources": [
           {
-            "t": "Commission implementation report (Reg. 2021/1232)",
+            "t": "COM(2025) 740 — Commission implementation report",
             "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
-          },
-          {
-            "t": "Overview of derogation users (Patrick Breyer)",
-            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
           }
         ]
       }
@@ -745,11 +741,15 @@
       ],
       "chatControl": {
         "status": "unclear",
-        "note": "Mail is not end-to-end encrypted by default. No statement on voluntary scanning found in tracked documents; German mail providers have generally not joined voluntary scanning.",
+        "note": "Mail is not end-to-end encrypted by default. No statement on voluntary scanning found in tracked documents — and per Breyer’s tracking, “only unencrypted US communication services” make use of the derogation.",
         "sources": [
           {
             "t": "Archived privacy policy",
             "u": "/archive/gmx/privacy.txt"
+          },
+          {
+            "t": "Overview of derogation users (Patrick Breyer)",
+            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
           }
         ]
       }
@@ -804,10 +804,10 @@
       "docs": [],
       "chatControl": {
         "status": "confirmed",
-        "note": "French platform for teens; one of the few providers that has filed derogation reports for every reporting year per the Commission. Its policy pages currently block automated archiving — the block is recorded.",
+        "note": "French platform for teens; among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740). Its policy pages currently block automated archiving — the block is recorded.",
         "sources": [
           {
-            "t": "Commission implementation report (Reg. 2021/1232)",
+            "t": "COM(2025) 740 — Commission implementation report",
             "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           }
         ]

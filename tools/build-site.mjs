@@ -252,6 +252,13 @@ main { padding-top:1.8rem; }
 .st-e2ee .vd, .st-denies .vd { color:var(--live); }
 @media print { .hero .beam { display:none; } .hero { background:#fff; color:#000; border-color:#bbb; }
   .hero h1 { color:#000; } .hero p.lede { color:#333; } }
+.idrow { display:flex; align-items:center; gap:1.1rem; margin-top:.3rem; }
+.idrow .mg-lg { flex:0 0 62px; width:62px; height:62px; font-size:1.55rem; border-width:2.5px; }
+.idrow h1 { font-size:clamp(1.8rem, 3.4vw, 2.4rem); line-height:1.1; }
+.idrow .idvd { font-size:.95rem; font-weight:550; }
+.trust { display:flex; gap:.6rem 2rem; flex-wrap:wrap; border:1px solid var(--line); border-radius:14px;
+  padding:1.05rem 1.3rem; margin-top:2.6rem; font-size:.88rem; color:var(--dim); }
+.trust b { color:var(--fg); font-weight:600; }
 `;
 
 // --------------------------------------------------------------- shell ----
@@ -455,6 +462,12 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
     <div class="stat"><b>${labelCount}</b><span>App Store labels</span></div>
     <div class="stat"><b>${fmtDate(baselineDate)}</b><span>recording since</span></div>
     <div class="stat"><b><span class="livedot"></span>daily</b><span>last snapshot ${lastFetch ? fmtDate(lastFetch) : "—"}</span></div>
+  </div>
+  <div class="trust">
+    <span><b>No cookies,</b> no analytics, no client-side JavaScript</span>
+    <span><b>Every snapshot</b> is a public git commit — tamper-evident</span>
+    <span><b>Statuses cite their evidence</b> and can be disputed publicly</span>
+    <span><b>The data is CC0</b> — <a href="/data/">build on it</a></span>
   </div>`;
   writeFileSync(
     join(OUT, "index.html"),
@@ -524,7 +537,10 @@ for (const c of companies) {
     : `<div class="empty">Nothing recorded yet.</div>`;
   const body = `
   <p class="crumbs"><a href="/companies/">Companies</a> / ${esc(c.name)}</p>
-  <h1>${esc(c.name)}</h1>
+  <div class="idrow ${st.cls}">
+    <span class="mg mg-lg" aria-hidden="true">${esc(shortName(c)[0])}</span>
+    <div><h1>${esc(c.name)}</h1><span class="vd idvd">${st.verdict}</span></div>
+  </div>
   ${banner}
   <p class="lede">${c.docs.length} document${c.docs.length === 1 ? "" : "s"} tracked${a.label ? " · App Store privacy label tracked" : ""}${real.length ? ` · ${real.length} change${real.length === 1 ? "" : "s"} recorded` : " · no changes since baseline"}.</p>
   ${c.docs.length ? `<h2>Tracked documents</h2>
@@ -617,13 +633,17 @@ for (const e of realChanges) {
   <a href="https://edri.org/our-work/csa-regulation-document-pool/">EDRi's document pool</a></p>
 
   <h2>Who actually uses it</h2>
-  <p>Providers that scan under the derogation must report on it, and the European Commission
-  publishes <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">implementation
-  reports</a> naming them. That is the strongest evidence there is, and it points to a
-  <strong>small group</strong>: ${groups.find((g) => g.key === "confirmed").companies.map((c) => `<a href="/company/${c.slug}/">${esc(c.name)}</a>`).join(", ")}.
-  Some also publish EU-specific transparency reports of their own, like
+  <p>Providers scanning under the derogation must file annual reports, and the Commission's
+  latest implementation report names exactly five: <em>“Google, LinkedIn, Meta, Microsoft and
+  Yubo submitted reports, for both 2023 and 2024”</em>
+  (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>).
+  MEP Patrick Breyer's <a href="https://www.patrick-breyer.de/en/posts/chat-control/">tracking</a> adds
+  that <em>“only unencrypted US communication services such as Gmail, Facebook/Instagram Messenger,
+  Skype, Snapchat, iCloud Mail, or Xbox”</em> make use of it — note that Snapchat and Apple appear in
+  that service list but <strong>not</strong> among the five reporting providers; both facts are shown
+  on their pages. Some providers also publish EU-specific transparency reports of their own, like
   <a href="https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf">Google's report under Regulation 2021/1232</a> and
-  <a href="https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports">Microsoft's jurisdictional reports</a> — both now tracked by this archive.</p>
+  <a href="https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports">Microsoft's jurisdictional reports</a> — both tracked by this archive.</p>
 
   <h2>Scanning under US law is not Chat Control</h2>
   <p>Most large US platforms scan uploads for known abuse material and report to
