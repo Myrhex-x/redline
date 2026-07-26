@@ -83,10 +83,10 @@ const STATUS = {
     blurb: "The derogation's mandatory reports exist only for providers actually scanning private communications under it. Exactly five filed them, for both 2023 and 2024, per the Commission's own implementation report — this is Chat Control use, documented by the EU itself." },
   global: { label: "Scans globally — no EU evidence", cls: "st-global",
     verdict: "Scans under US law · no EU evidence",
-    blurb: "Their documents disclose content scanning under US law (NCMEC reporting, PhotoDNA). No evidence found that they invoke the EU derogation for private communications — US-law scanning and Chat Control are separate regimes." },
+    blurb: "Their documents disclose content scanning under US law (NCMEC reporting, PhotoDNA). No evidence found that they invoke the EU derogation for private communications — US-law scanning and Chat Control are separate regimes. Absence of evidence is a fact about the public record, not proof of absence: a provider could scan and not disclose it." },
   unclear: { label: "No clear statement", cls: "st-unclear",
     verdict: "Won't say",
-    blurb: "Not end-to-end encrypted, and no clear public statement about scanning private communications was found either way." },
+    blurb: "Not end-to-end encrypted, and no clear public statement about scanning private communications was found either way. Silence measures disclosure, not behavior." },
   denies: { label: "States it does not scan", cls: "st-denies",
     verdict: "Says it doesn't scan",
     blurb: "The company publicly states that it does not scan message content." },
@@ -257,11 +257,13 @@ const CSS = `
 :root { color-scheme: light dark;
   --bg:#ffffff; --fg:#111111; --dim:#6b6b6b; --faint:#9a9a9a;
   --line:#e6e6e6; --soft:#f7f7f7; --live:#137333;
-  --add-bg:#e9f5ec; --add-fg:#0f6a2f; --del-bg:#fdedee; --del-fg:#a52833; }
+  --add-bg:#e9f5ec; --add-fg:#0f6a2f; --del-bg:#fdedee; --del-fg:#a52833;
+  --warn-bg:#faf3e3; --warn-fg:#9a6a12; }
 @media (prefers-color-scheme: dark) { :root {
   --bg:#0a0a0a; --fg:#ebebeb; --dim:#9a9a9a; --faint:#6f6f6f;
   --line:#1e1e1e; --soft:#121212; --live:#4ccb6f;
-  --add-bg:rgba(46,160,67,.14); --add-fg:#57c46f; --del-bg:rgba(248,81,73,.13); --del-fg:#ef7078; } }
+  --add-bg:rgba(46,160,67,.14); --add-fg:#57c46f; --del-bg:rgba(248,81,73,.13); --del-fg:#ef7078;
+  --warn-bg:rgba(217,154,43,.13); --warn-fg:#d9a03f; } }
 * { margin:0; box-sizing:border-box; }
 html { -webkit-text-size-adjust:100%; }
 body { background:var(--bg); color:var(--fg);
@@ -292,7 +294,7 @@ p.lede strong { color:var(--fg); font-weight:600; }
 .livedot { display:inline-block; width:.5em; height:.5em; border-radius:50%; background:var(--live); margin-right:.45em; }
 .dot { display:inline-block; width:.55em; height:.55em; border-radius:50%; margin-right:.5em; background:var(--faint); }
 .st-scans .dot { background:var(--del-fg); }
-.st-global .dot { background:transparent; box-shadow:inset 0 0 0 1.5px var(--del-fg); }
+.st-global .dot { background:transparent; box-shadow:inset 0 0 0 1.5px var(--warn-fg); }
 .st-e2ee .dot { background:var(--live); }
 .st-denies .dot { background:transparent; box-shadow:inset 0 0 0 1.5px var(--live); }
 .st-unclear .dot { background:var(--faint); }
@@ -321,7 +323,7 @@ tr:hover td { background:var(--soft); }
 .empty { border:1px dashed var(--line); border-radius:10px; padding:1.4rem 1.5rem; color:var(--dim); max-width:44rem; }
 .banner { border:1px solid var(--line); border-left-width:4px; border-radius:10px; padding:1rem 1.2rem; margin:1.5rem 0; max-width:46rem; }
 .banner.st-scans { border-left-color:var(--del-fg); }
-.banner.st-global { border-left-color:var(--del-fg); border-left-style:dashed; }
+.banner.st-global { border-left-color:var(--warn-fg); border-left-style:dashed; }
 .banner.st-e2ee, .banner.st-denies { border-left-color:var(--live); }
 .banner.st-unclear { border-left-color:var(--faint); }
 .banner .srcs { font-size:.85rem; color:var(--dim); margin-top:.55rem; }
@@ -381,7 +383,7 @@ main { padding-top:1.8rem; }
   border:1px solid rgba(255,255,255,.09); background:#14171c; }
 .bar i { display:block; }
 .seg-confirmed { flex:${segFlex.confirmed}; background:#e35d66; }
-.seg-global { flex:${segFlex.global}; background:repeating-linear-gradient(135deg, #e35d66 0 5px, rgba(227,93,102,.22) 5px 9px); }
+.seg-global { flex:${segFlex.global}; background:repeating-linear-gradient(135deg, #d9a03f 0 5px, rgba(217,160,63,.22) 5px 9px); }
 .seg-unclear { flex:${segFlex.unclear}; background:#3a3f45; }
 .seg-denies { flex:${segFlex.denies}; background:repeating-linear-gradient(135deg, #3fae5c 0 5px, rgba(63,174,92,.22) 5px 9px); }
 .seg-e2ee { flex:${segFlex.e2ee}; background:#3fae5c; }
@@ -390,7 +392,7 @@ main { padding-top:1.8rem; }
 .bignums a:hover span { color:#d7dce1; }
 .bignums b { display:block; font-size:2rem; font-weight:680; letter-spacing:-.03em; line-height:1.15; }
 .bignums span { font-size:.82rem; color:#98a0a8; }
-.n-red { color:#ef7078; } .n-redsoft { color:rgba(239,112,120,.72); }
+.n-red { color:#ef7078; } .n-amber { color:#d9a03f; }
 .n-gray { color:#9aa2aa; } .n-greensoft { color:rgba(87,196,111,.72); } .n-green { color:#57c46f; }
 .grouphead { margin-top:3rem; }
 .cards { display:grid; grid-template-columns:repeat(auto-fill, minmax(232px, 1fr)); gap:.8rem; margin:1.1rem 0 .4rem; }
@@ -401,13 +403,14 @@ main { padding-top:1.8rem; }
 .mg { flex:0 0 42px; width:42px; height:42px; border-radius:50%; display:grid; place-items:center;
   font-weight:700; font-size:1.06rem; background:var(--soft); border:2px solid var(--faint); }
 .st-scans .mg { border-color:var(--del-fg); }
-.st-global .mg { border-color:var(--del-fg); border-style:dashed; }
+.st-global .mg { border-color:var(--warn-fg); border-style:dashed; }
 .st-e2ee .mg { border-color:var(--live); }
 .st-denies .mg { border-color:var(--live); border-style:dashed; }
 .st-unclear .mg { border-color:var(--faint); }
 .card .nm { font-weight:640; font-size:.98rem; }
 .card .vd { font-size:.8rem; color:var(--dim); }
-.st-scans .vd, .st-global .vd { color:var(--del-fg); }
+.st-scans .vd { color:var(--del-fg); }
+.st-global .vd { color:var(--warn-fg); }
 .st-e2ee .vd, .st-denies .vd { color:var(--live); }
 @media print { .hero .beam { display:none; } .hero { background:#fff; color:#000; border-color:#bbb; }
   .hero h1 { color:#000; } .hero p.lede { color:#333; } }
@@ -451,7 +454,7 @@ main details p { color:var(--dim); }
   font-family:"Space Grotesk", -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
 h1 { font-weight:700; }
 .st-scans .mg { background:var(--del-bg); }
-.st-global .mg { background:var(--del-bg); }
+.st-global .mg { background:var(--warn-bg); }
 .st-e2ee .mg, .st-denies .mg { background:var(--add-bg); }
 .chart { max-width:46rem; margin:1.1rem 0 1.6rem; }
 .crow { display:grid; grid-template-columns:6.5rem 1fr 6rem; gap:.9rem; align-items:center; padding:.22rem 0; font-size:.9rem; }
@@ -765,7 +768,7 @@ mkdirSync(OUT, { recursive: true });
     </div>
     <div class="bignums">
       <a href="#confirmed"><b class="n-red">${groups[0].companies.length}</b><span>scan under Chat Control</span></a>
-      <a href="#global"><b class="n-redsoft">${groups[1].companies.length}</b><span>scan under US law only</span></a>
+      <a href="#global"><b class="n-amber">${groups[1].companies.length}</b><span>scan under US law · no EU evidence</span></a>
       <a href="#unclear"><b class="n-gray">${groups[2].companies.length}</b><span>won't say</span></a>
       <a href="#denies"><b class="n-greensoft">${groups[3].companies.length}</b><span>says it doesn't</span></a>
       <a href="#e2ee"><b class="n-green">${groups[4].companies.length}</b><span>can't — E2EE</span></a>
@@ -779,7 +782,8 @@ mkdirSync(OUT, { recursive: true });
   ${groupedCards()}
   <p class="note mt-12">Statuses assessed ${fmtDate(ASSESSED)} from public
   records — <strong>they describe what companies say and file, not measurements of their
-  software</strong>. Full table with tracked documents: <a href="/companies/">companies</a>.
+  software</strong>, and absence of evidence is not evidence of absence: a provider could scan
+  without disclosing it. Full table with tracked documents: <a href="/companies/">companies</a>.
   Wrong about your company? <a href="${REPO}/issues">Dispute it</a> — disputes are published.</p>
   <h2>How the record works</h2>
   <div class="steps">
@@ -1158,6 +1162,10 @@ for (const e of realChanges) {
     snapshots daily, and quotes where relevant) → US reporting data as context only.</li>
     <li>They are <strong>observations of what companies say and file, not measurements of what
     their software does</strong>. Behavioral measurement is a different and harder project.</li>
+    <li>And the negative buckets are claims about the <em>record</em>, not the world: "no EU evidence"
+    means none was found in public documents and filings — a provider could scan and not say so.
+    That asymmetry is why the confirmed group has a hard floor (the Commission's own naming) while
+    the other groups are explicitly provisional, re-read daily.</li>
     <li>Each status was last assessed on ${fmtDate(ASSESSED)} and is reviewed when the
     underlying documents change — which is exactly what the daily snapshots watch for.</li>
     <li>Companies can dispute a status by <a href="${REPO}/issues">opening an issue</a>;
@@ -1261,6 +1269,10 @@ for (const e of realChanges) {
   <ul>
     <li>Some pages render their content only with JavaScript; plain fetches archive the server response and are flagged <span class="mono">limited</span>.</li>
     <li>The archive records what platforms <em>say</em>, not what their software <em>does</em>. Behavioral measurement is a separate project.</li>
+    <li><strong>Absence of evidence is not evidence of absence.</strong> "No EU evidence" and "no clear
+    statement" describe the public record: a provider could scan and simply not disclose it. Lawful
+    derogation use must eventually surface in Commission reporting — undisclosed or differently-justified
+    scanning would not. The statuses can only ever be as strong as the record they cite.</li>
   </ul>
 
   <h2>Contact</h2>
@@ -1602,7 +1614,7 @@ for (const e of realChanges) {
 
 // per-company status badges (embeddable SVG)
 {
-  const BADGE_COLORS = { confirmed: "#c2434d", global: "#c2434d", unclear: "#6b6b6b", denies: "#2f8f4e", e2ee: "#2f8f4e" };
+  const BADGE_COLORS = { confirmed: "#c2434d", global: "#9a6a12", unclear: "#6b6b6b", denies: "#2f8f4e", e2ee: "#2f8f4e" };
   const BADGE_TEXT = {
     confirmed: "scans under Chat Control", global: "scans · no EU evidence",
     unclear: "no clear statement", denies: "says it doesn't scan", e2ee: "E2EE — out of scope",

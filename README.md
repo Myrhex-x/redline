@@ -38,6 +38,12 @@ is deliberately high:
 | **States it does not scan** | The company says so publicly; the sentence is pinned to the archived text. |
 | **E2EE — out of scope** | Content is end-to-end encrypted; E2EE is formally excluded from the derogation. |
 
+**The negative statuses describe the record, not the world.** "No EU
+evidence" and "no clear statement" mean nothing was found in public documents
+and filings — a provider could scan and simply not disclose it. That is why
+the confirmed group has a hard floor (the Commission's own naming) while the
+others are provisional and re-read daily.
+
 Where the public record is contradictory — Snapchat and iCloud Mail appear in
 service lists but not among the report filers — company pages show both facts
 and refuse to resolve them. Every status cites its evidence and can be

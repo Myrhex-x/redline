@@ -47,11 +47,11 @@ func rgb(_ hex: UInt32) -> NSColor {
             green: CGFloat((hex >> 8) & 0xff) / 255,
             blue: CGFloat(hex & 0xff) / 255, alpha: 1)
 }
-let RED = rgb(0xEF7078), GREEN = rgb(0x57C46F), GRAY = rgb(0x9AA2AA), BLUE = rgb(0x5B7FC7)
+let RED = rgb(0xEF7078), GREEN = rgb(0x57C46F), GRAY = rgb(0x9AA2AA), BLUE = rgb(0x5B7FC7), AMBER = rgb(0xD9A03F)
 struct Look { let label: String, verdict: String, color: NSColor, ring: Bool }
 let LOOKS: [String: Look] = [
     "confirmed": Look(label: "SCANS UNDER THE EU'S CHAT CONTROL", verdict: "Scans under Chat Control — confirmed", color: RED, ring: false),
-    "global":    Look(label: "SCANS GLOBALLY — NO EU EVIDENCE", verdict: "Scans under US law · no EU evidence", color: RED, ring: true),
+    "global":    Look(label: "SCANS GLOBALLY — NO EU EVIDENCE", verdict: "Scans under US law · no EU evidence", color: AMBER, ring: true),
     "unclear":   Look(label: "NO CLEAR STATEMENT", verdict: "Won't say", color: GRAY, ring: true),
     "denies":    Look(label: "STATES IT DOES NOT SCAN", verdict: "Says it doesn't scan", color: GREEN, ring: true),
     "e2ee":      Look(label: "END-TO-END ENCRYPTED — OUT OF SCOPE", verdict: "Can't read your messages", color: GREEN, ring: false),
