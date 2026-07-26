@@ -1,89 +1,56 @@
 Data safety
-Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
-No data shared with third parties
-The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.
-
-Data collected
-Data this app may collect
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
 Analytics
-Diagnostics
 Analytics
-Other app performance data
 Analytics
-
+Analytics
+Analytics
 App activity
-App interactions, In-app search history, Other user-generated content, and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-Analytics
-In-app search history
-Analytics
-Other user-generated content &middot; Optional
+App functionality
+App functionality
+App functionality, Account management
+App functionality, Account management
+App functionality, Account management
 App functionality, Analytics
-Other actions &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
-
-Personal info
-Name, Email address, User IDs, and Phone number
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Name
-App functionality, Account management
-Email address
-App functionality, Account management
-User IDs
 App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-Phone number &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
 App functionality, Fraud prevention, security, and compliance, Account management
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
+App info and performance
+App interactions
+App interactions, In-app search history, Other user-generated content, and Other actions
+Crash logs
+Crash logs, Diagnostics, and Other app performance data
+Data collected
 Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Account management
-
-Financial info
-User payment info and Purchase history
-
-expand_more
-
 Data collected and for what purpose
-info
-
-User payment info &middot; Optional
-App functionality
-Purchase history
-App functionality
-
-Security practices
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
 Data is encrypted in transit
-Your data is transferred over a secure connection
-
-You can request that data be deleted
-The developer provides a way for you to request that your data be deleted
-
+Data this app may collect
+Device or other IDs
+Device or other IDs
+Device or other IDs
+Diagnostics
+Email address
+Financial info
+Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
+In-app search history
 info For more information about collected and shared data, see the developer's privacy policy
+Name
+Name, Email address, User IDs, and Phone number
+No data shared with third parties
+Other actions &middot; Optional
+Other app performance data
+Other user-generated content &middot; Optional
+Personal info
+Phone number &middot; Optional
+Purchase history
+Security practices
+The developer provides a way for you to request that your data be deleted
+The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.
+User IDs
+User payment info &middot; Optional
+User payment info and Purchase history
+You can request that data be deleted
+Your data is transferred over a secure connection
 

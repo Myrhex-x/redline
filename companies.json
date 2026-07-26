@@ -37,7 +37,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -94,7 +95,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -135,7 +137,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -181,7 +184,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -227,7 +231,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -282,7 +287,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -342,7 +348,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -442,7 +449,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -497,7 +505,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -538,7 +547,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -574,7 +584,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -625,7 +636,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -671,7 +683,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -717,7 +730,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -763,7 +777,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -804,7 +819,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -847,7 +863,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -893,7 +910,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -939,7 +957,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -985,7 +1004,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -1026,7 +1046,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -1068,7 +1089,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -1110,7 +1132,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -1151,7 +1174,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -1202,7 +1226,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -1248,7 +1273,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -1293,7 +1319,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -1329,7 +1356,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {
@@ -1361,7 +1389,8 @@
       "from": "^Data safety$",
       "to": "^info For more information about collected and shared data"
      },
-     "minChars": 300
+     "minChars": 300,
+     "canonical": "lines"
     }
    ],
    "chatControl": {

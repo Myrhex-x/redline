@@ -1,46 +1,28 @@
 Data safety
-The developer says that this app doesn't collect or share any user data. Learn more about data safety
-No data shared with third parties
-The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.
-
-No data collected
-The developer says this app doesn’t collect user data
-
-Security practices
-Data is encrypted in transit
-Your data is transferred over a secure connection
-
-You can request that data be deleted
-The developer provides a way for you to request that your data be deleted
-
-Google Play Play Pass
-
-Play Points
-
-Gift cards
-
-Redeem
-
-Refund policy
-
-Kids & family Parent Guide
-
-Family sharing
-
-Terms of Service
-
-Privacy
-
-Consumer information
-
-Withdraw from Digital Services
-
 About Google Play
-
-Developers
-
-Google Store
-
 All prices include VAT.
+Consumer information
+Data is encrypted in transit
+Developers
+Family sharing
 France (English)
+Gift cards
+Google Play Play Pass
+Google Store
+Kids & family Parent Guide
+No data collected
+No data shared with third parties
+Play Points
+Privacy
+Redeem
+Refund policy
+Security practices
+Terms of Service
+The developer provides a way for you to request that your data be deleted
+The developer says that this app doesn't collect or share any user data. Learn more about data safety
+The developer says this app doesn’t collect user data
+The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.
+Withdraw from Digital Services
+You can request that data be deleted
+Your data is transferred over a secure connection
 

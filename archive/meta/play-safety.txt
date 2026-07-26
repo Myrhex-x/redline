@@ -1,243 +1,145 @@
 Data safety
-Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
-Data shared
-Data that may be shared with other companies or organizations
-Personal info
-Name, Email address, User IDs, and Phone number
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Name
-Fraud prevention, security, and compliance
-Email address
-Fraud prevention, security, and compliance
-User IDs
-Fraud prevention, security, and compliance
-Phone number
-Fraud prevention, security, and compliance
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Device or other IDs
+Address &middot; Optional
 Advertising or marketing
-
-Data collected
-Data this app may collect
+App activity
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
+App functionality, Fraud prevention, security, and compliance, Account management
+App functionality, Fraud prevention, security, and compliance, Account management
+App functionality, Fraud prevention, security, and compliance, Account management
+App functionality, Fraud prevention, security, and compliance, Account management
+App info and performance
+App interactions
+App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
+Approximate location
+Approximate location and Precise location
+Audio
 Calendar
 Calendar events
-
-expand_more
-
-Data collected and for what purpose
-info
-
 Calendar events &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Personal info
-Name, Email address, User IDs, Address, Phone number, Political or religious beliefs, Sexual orientation, and Other info
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Name
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Email address &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-User IDs
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Address &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Phone number &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Political or religious beliefs &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
-Sexual orientation &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
-Other info
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
-
-expand_more
-
-Data collected and for what purpose
-info
-
+Contacts
+Contacts
+Contacts &middot; Optional
 Crash logs
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Crash logs, Diagnostics, and Other app performance data
+Credit score &middot; Optional
+Data collected
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data is encrypted in transit
+Data shared
+Data shared and for what purpose
+Data shared and for what purpose
+Data that may be shared with other companies or organizations
+Data this app may collect
+Device or other IDs
+Device or other IDs
+Device or other IDs
+Device or other IDs
+Device or other IDs
+Device or other IDs
 Diagnostics
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Email address
+Email address &middot; Optional
+Emails &middot; Optional
+Emails, SMS or MMS, and Other in-app messages
+Files and docs
+Files and docs
+Files and docs &middot; Optional
+Financial info
+Fitness info &middot; Optional
+Fraud prevention, security, and compliance
+Fraud prevention, security, and compliance
+Fraud prevention, security, and compliance
+Fraud prevention, security, and compliance
+Health and fitness
+Health info &middot; Optional
+Health info and Fitness info
+Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
+In-app search history
+info For more information about collected and shared data, see the developer's privacy policy
+Installed apps &middot; Optional
+Location
+Messages
+Music files &middot; Optional
+Name
+Name
+Name, Email address, User IDs, Address, Phone number, Political or religious beliefs, Sexual orientation, and Other info
+Name, Email address, User IDs, and Phone number
+Other actions &middot; Optional
 Other app performance data
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
+Other audio files &middot; Optional
+Other financial info &middot; Optional
+Other in-app messages
+Other info
+Other user-generated content &middot; Optional
+Personal info
+Personal info
+Phone number
+Phone number &middot; Optional
+Photos &middot; Optional
 Photos and videos
 Photos and Videos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Political or religious beliefs &middot; Optional
+Precise location &middot; Optional
+Purchase history &middot; Optional
+Security practices
+Sexual orientation &middot; Optional
+SMS or MMS &middot; Optional
+The developer provides a way for you to request that your data be deleted
+User IDs
+User IDs
+User payment info &middot; Optional
+User payment info, Purchase history, Credit score, and Other financial info
 Videos &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Health and fitness
-Health info and Fitness info
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Health info &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-Fitness info &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-
-Audio
-Voice or sound recordings, Music files, and Other audio files
-
-expand_more
-
-Data collected and for what purpose
-info
-
 Voice or sound recordings &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-Music files &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Other audio files &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-
+Voice or sound recordings, Music files, and Other audio files
 Web browsing
 Web browsing history
-
-expand_more
-
-Data collected and for what purpose
-info
-
 Web browsing history
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Financial info
-User payment info, Purchase history, Credit score, and Other financial info
-
-expand_more
-
-Data collected and for what purpose
-info
-
-User payment info &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-Purchase history &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Credit score &middot; Optional
-App functionality, Fraud prevention, security, and compliance, Account management
-Other financial info &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-App activity
-App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-In-app search history
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Installed apps &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Other user-generated content &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Other actions &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Messages
-Emails, SMS or MMS, and Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Emails &middot; Optional
-App functionality, Fraud prevention, security, and compliance, Account management
-SMS or MMS &middot; Optional
-App functionality, Fraud prevention, security, and compliance, Account management
-Other in-app messages
-App functionality, Fraud prevention, security, and compliance, Account management
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Location
-Approximate location and Precise location
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Approximate location
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Precise location &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Security practices
-Data is encrypted in transit
-Your data is transferred over a secure connection
-
 You can request that data be deleted
-The developer provides a way for you to request that your data be deleted
-
-info For more information about collected and shared data, see the developer's privacy policy
+Your data is transferred over a secure connection
 

@@ -1,50 +1,30 @@
 Data safety
-Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
-Data shared
-Data that may be shared with other companies or organizations
-Financial info
-User payment info
-
-expand_more
-
-Data shared and for what purpose
-info
-
-User payment info
 App functionality
-
-Data collected
-Data this app may collect
-Personal info
-Email address and User IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Email address
 App functionality
-User IDs
 App functionality
-
+App functionality
 Contacts
 Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
 Contacts &middot; Optional
-App functionality
-
-Security practices
+Data collected
+Data collected and for what purpose
+Data collected and for what purpose
 Data is encrypted in transit
-Your data is transferred over a secure connection
-
-You can request that data be deleted
-The developer provides a way for you to request that your data be deleted
-
+Data shared
+Data shared and for what purpose
+Data that may be shared with other companies or organizations
+Data this app may collect
+Email address
+Email address and User IDs
+Financial info
+Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 info For more information about collected and shared data, see the developer's privacy policy
+Personal info
+Security practices
+The developer provides a way for you to request that your data be deleted
+User IDs
+User payment info
+User payment info
+You can request that data be deleted
+Your data is transferred over a secure connection
 

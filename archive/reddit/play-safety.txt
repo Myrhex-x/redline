@@ -1,250 +1,134 @@
 Data safety
-Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
-Data shared
-Data that may be shared with other companies or organizations
-Files and docs
-Files and docs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Files and docs
-App functionality
-
-Financial info
-User payment info
-
-expand_more
-
-Data shared and for what purpose
-info
-
-User payment info
-App functionality, Fraud prevention, security, and compliance
-
-Personal info
-User IDs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-User IDs
+Advertising or marketing
 Analytics
-
-Audio
-Voice or sound recordings and Music files
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Voice or sound recordings
-App functionality
-Music files
-App functionality
-
-Messages
-Other in-app messages
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Other in-app messages
-App functionality, Fraud prevention, security, and compliance
-
-App info and performance
-Crash logs and Diagnostics
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Crash logs
 Analytics
-Diagnostics
 Analytics
-
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Photos
-App functionality
-Videos
-App functionality, Analytics, Fraud prevention, security, and compliance
-
+Analytics
+Analytics
+Analytics, Advertising or marketing
+Analytics, Advertising or marketing
+Analytics, Advertising or marketing
+Analytics, Advertising or marketing
+Analytics, Advertising or marketing
+Analytics, Advertising or marketing, Fraud prevention, security, and compliance
+Analytics, Fraud prevention, security, and compliance
 App activity
-App interactions, In-app search history, Other user-generated content, and Other actions
-
-expand_more
-
-Data shared and for what purpose
-info
-
-App interactions
-Analytics, Advertising or marketing
-In-app search history
-Analytics, Advertising or marketing
-Other user-generated content
+App activity
 App functionality
-Other actions
-Analytics, Advertising or marketing
-
-Data collected
-Data this app may collect
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
 App functionality
-
-Financial info
-User payment info
-
-expand_more
-
-Data collected and for what purpose
-info
-
-User payment info &middot; Optional
+App functionality
+App functionality
+App functionality
+App functionality
+App functionality
+App functionality, Advertising or marketing, Account management
+App functionality, Analytics, Advertising or marketing
+App functionality, Analytics, Fraud prevention, security, and compliance
+App functionality, Analytics, Fraud prevention, security, and compliance
 App functionality, Fraud prevention, security, and compliance
-
-Personal info
-Email address, User IDs, and Phone number
-
-expand_more
-
+App functionality, Fraud prevention, security, and compliance
+App functionality, Fraud prevention, security, and compliance
+App functionality, Fraud prevention, security, and compliance
+App functionality, Fraud prevention, security, and compliance
+App functionality, Personalization
+App info and performance
+App info and performance
+App interactions
+App interactions
+App interactions, In-app search history, Other user-generated content, and Other actions
+App interactions, In-app search history, Other user-generated content, and Other actions
+Approximate location
+Approximate location &middot; Optional
+Audio
+Audio
+Crash logs
+Crash logs
+Crash logs and Diagnostics
+Crash logs and Diagnostics
+Data collected
 Data collected and for what purpose
-info
-
-Email address
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data isn’t encrypted
+Data shared
+Data shared and for what purpose
+Data shared and for what purpose
+Data shared and for what purpose
+Data shared and for what purpose
+Data shared and for what purpose
+Data shared and for what purpose
+Data shared and for what purpose
+Data shared and for what purpose
+Data that may be shared with other companies or organizations
+Data this app may collect
 Developer communications, Account management
-User IDs &middot; Optional
+Device or other IDs
+Device or other IDs
+Device or other IDs &middot; Optional
+Diagnostics
+Diagnostics
+Email address
+Email address, User IDs, and Phone number
+Files and docs
+Files and docs
+Files and docs
+Files and docs
+Files and docs
+Files and docs &middot; Optional
+Financial info
+Financial info
+Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
+In-app search history
+In-app search history
+info For more information about collected and shared data, see the developer's privacy policy
+Location
+Messages
+Messages
+Music files
+Music files
+Music files &middot; Optional
+Other actions
+Other actions
+Other in-app messages
+Other in-app messages
+Other in-app messages
+Other in-app messages &middot; Optional
+Other user-generated content
+Other user-generated content
+Personal info
+Personal info
 Personalization
 Phone number &middot; Optional
-App functionality, Advertising or marketing, Account management
-
-Web browsing
-Web browsing history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Web browsing history &middot; Optional
-Advertising or marketing
-
-Location
-Approximate location
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Approximate location &middot; Optional
-App functionality, Personalization
-
-Audio
-Music files
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Music files &middot; Optional
-App functionality
-
-Messages
-Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Other in-app messages &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-
-App info and performance
-Crash logs and Diagnostics
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-Analytics
-Diagnostics
-Analytics
-
+Photos
+Photos &middot; Optional
+Photos and videos
 Photos and videos
 Photos and Videos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-Videos &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs &middot; Optional
-Analytics, Advertising or marketing, Fraud prevention, security, and compliance
-
-App activity
-App interactions, In-app search history, Other user-generated content, and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-Analytics, Advertising or marketing
-In-app search history
-App functionality, Analytics, Advertising or marketing
-Other user-generated content
-Analytics, Fraud prevention, security, and compliance
-Other actions
-Analytics, Advertising or marketing
-
+Photos and Videos
 Security practices
-Data isn’t encrypted
-Your data isn’t transferred over a secure connection
-
-You can request that data be deleted
 The developer provides a way for you to request that your data be deleted
-
-info For more information about collected and shared data, see the developer's privacy policy
+User IDs
+User IDs
+User IDs &middot; Optional
+User payment info
+User payment info
+User payment info
+User payment info &middot; Optional
+Videos
+Videos &middot; Optional
+Voice or sound recordings
+Voice or sound recordings and Music files
+Web browsing
+Web browsing history
+Web browsing history &middot; Optional
+You can request that data be deleted
+Your data isn’t transferred over a secure connection
 

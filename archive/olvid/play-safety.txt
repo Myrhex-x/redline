@@ -1,39 +1,23 @@
 Data safety
-The developer says that this app doesn't collect or share any user data. Learn more about data safety
-No data shared with third parties
-The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.
-
-No data collected
-The developer says this app doesn’t collect user data
-
-Google Play Play Pass
-
-Play Points
-
-Gift cards
-
-Redeem
-
-Refund policy
-
-Kids & family Parent Guide
-
-Family sharing
-
-Terms of Service
-
-Privacy
-
-Consumer information
-
-Withdraw from Digital Services
-
 About Google Play
-
-Developers
-
-Google Store
-
 All prices include VAT.
+Consumer information
+Developers
+Family sharing
 France (English)
+Gift cards
+Google Play Play Pass
+Google Store
+Kids & family Parent Guide
+No data collected
+No data shared with third parties
+Play Points
+Privacy
+Redeem
+Refund policy
+Terms of Service
+The developer says that this app doesn't collect or share any user data. Learn more about data safety
+The developer says this app doesn’t collect user data
+The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.
+Withdraw from Digital Services
 

@@ -141,6 +141,28 @@ export function clipText(text, { from, to }) {
   return lines.slice(i, j + 1).join("\n").trim() + "\n";
 }
 
+/**
+ * Stabilize order for sources that shuffle their content per request.
+ * Google Play renders a data-safety page's declarations in a different order
+ * on every single fetch — verified: identical lines, permuted sequence, both
+ * between blocks and within them. Hashing that raw would report a "change"
+ * every day forever, drowning real edits. So for these targets the canonical
+ * form is: the heading, then every declaration line sorted deterministically.
+ * Nothing is dropped except pure UI artifacts, the raw HTML is still archived
+ * verbatim as evidence, and a genuinely new or edited declaration still shows
+ * up as a clean added/removed line in the diff.
+ */
+export function canonicalLines(text) {
+  const lines = text
+    .split("\n")
+    .map((l) => l.trim())
+    .filter((l) => l && l !== "expand_more" && l !== "info");
+  if (lines.length <= 2) return text;
+  const [head, ...rest] = lines;
+  rest.sort((a, b) => a.localeCompare(b, "en"));
+  return [head, ...rest].join("\n") + "\n";
+}
+
 export function filterNoise(text, patterns) {
   if (!patterns || patterns.length === 0) return text;
   const res = patterns.map((p) => new RegExp(p, "i"));
@@ -175,6 +197,7 @@ async function snapshotDoc(company, doc) {
     [...(company.ignore ?? []), ...(doc.ignore ?? [])]
   );
   if (doc.clip) text = clipText(text, doc.clip);
+  if (doc.canonical === "lines") text = canonicalLines(text);
   const textHash = sha256(text);
   const short = text.length < (doc.minChars ?? SHORT_TEXT_CHARS);
 

@@ -1,66 +1,39 @@
 Data safety
-Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
-No data shared with third parties
-The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.
-
-Data collected
-Data this app may collect
-App info and performance
-Crash logs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs &middot; Optional
 Analytics
-
-Photos and videos
-Photos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-App functionality
-
-Personal info
-Name, Email address, User IDs, and Phone number
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Name &middot; Optional
-App functionality
-Email address
-App functionality, Developer communications, Fraud prevention, security, and compliance, Account management
-User IDs
-App functionality, Account management
-Phone number &middot; Optional
-App functionality, Account management
-
+Analytics
 App activity
+App functionality
+App functionality
+App functionality, Account management
+App functionality, Account management
+App functionality, Developer communications, Fraud prevention, security, and compliance, Account management
+App info and performance
 App interactions
-
-expand_more
-
-Data collected and for what purpose
-info
-
 App interactions &middot; Optional
-Analytics
-
-Security practices
+Crash logs
+Crash logs &middot; Optional
+Data collected
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
+Data collected and for what purpose
 Data is encrypted in transit
-Your data is transferred over a secure connection
-
-You can request that data be deleted
-The developer provides a way for you to request that your data be deleted
-
+Data this app may collect
+Email address
+Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 info For more information about collected and shared data, see the developer's privacy policy
+Name &middot; Optional
+Name, Email address, User IDs, and Phone number
+No data shared with third parties
+Personal info
+Phone number &middot; Optional
+Photos
+Photos &middot; Optional
+Photos and videos
+Security practices
+The developer provides a way for you to request that your data be deleted
+The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.
+User IDs
+You can request that data be deleted
+Your data is transferred over a secure connection
 
