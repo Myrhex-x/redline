@@ -1,0 +1,462 @@
+{
+ "id": "2026-07-26-telegram-play-safety",
+ "date": "2026-07-26",
+ "slug": "telegram",
+ "doc": "play-safety",
+ "hunks": [
+  {
+   "header": "@@ -5,87 +5,87 @@ The developer says this app doesn't share user data with other companies or orga",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected"
+    },
+    {
+     "t": " ",
+     "s": "Data this app may collect"
+    },
+    {
+     "t": "-",
+     "s": "Audio"
+    },
+    {
+     "t": "-",
+     "s": "Voice or sound recordings"
+    },
+    {
+     "t": "+",
+     "s": "Location"
+    },
+    {
+     "t": "+",
+     "s": "Approximate location and Precise location"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Voice or sound recordings &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "Approximate location &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": "Precise location &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Messages"
+    },
+    {
+     "t": "-",
+     "s": "Other in-app messages"
+    },
+    {
+     "t": "+",
+     "s": "Contacts"
+    },
+    {
+     "t": "+",
+     "s": "Contacts"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Other in-app messages &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "Contacts &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Personal info"
+    },
+    {
+     "t": "-",
+     "s": "Name and User IDs"
+    },
+    {
+     "t": "+",
+     "s": "Photos and videos"
+    },
+    {
+     "t": "+",
+     "s": "Photos and Videos"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Name"
+    },
+    {
+     "t": "+",
+     "s": "Photos &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": "-",
+     "s": "User IDs"
+    },
+    {
+     "t": "+",
+     "s": "Videos &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contacts"
+    },
+    {
+     "t": "-",
+     "s": "Contacts"
+    },
+    {
+     "t": "+",
+     "s": "Messages"
+    },
+    {
+     "t": "+",
+     "s": "Other in-app messages"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contacts &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "Other in-app messages &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Files and docs"
+    },
+    {
+     "t": "-",
+     "s": "Files and docs"
+    },
+    {
+     "t": "+",
+     "s": "Audio"
+    },
+    {
+     "t": "+",
+     "s": "Voice or sound recordings"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Files and docs &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "Voice or sound recordings &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Photos and videos"
+    },
+    {
+     "t": "-",
+     "s": "Photos and Videos"
+    },
+    {
+     "t": "+",
+     "s": "Personal info"
+    },
+    {
+     "t": "+",
+     "s": "Name and User IDs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Photos &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "Name"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": "-",
+     "s": "Videos &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "User IDs"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Location"
+    },
+    {
+     "t": "-",
+     "s": "Approximate location and Precise location"
+    },
+    {
+     "t": "+",
+     "s": "Files and docs"
+    },
+    {
+     "t": "+",
+     "s": "Files and docs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Approximate location &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "-",
+     "s": "Precise location &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "Files and docs &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security practices"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

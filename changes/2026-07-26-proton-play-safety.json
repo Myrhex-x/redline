@@ -1,0 +1,301 @@
+{
+ "id": "2026-07-26-proton-play-safety",
+ "date": "2026-07-26",
+ "slug": "proton",
+ "doc": "play-safety",
+ "hunks": [
+  {
+   "header": "@@ -5,17 +5,6 @@ The developer says this app doesn't share user data with other companies or orga",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected"
+    },
+    {
+     "t": " ",
+     "s": "Data this app may collect"
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "App info and performance"
+    },
+    {
+     "t": " ",
+     "s": "Crash logs and Diagnostics"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -29,17 +18,6 @@ App functionality, Analytics, Developer communications",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Diagnostics &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Developer communications"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contacts"
+    },
+    {
+     "t": "-",
+     "s": "Contacts"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contacts &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Personal info"
+    },
+    {
+     "t": " ",
+     "s": "Name, Email address, and Phone number"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -55,6 +33,17 @@ App functionality, Developer communications, Account management",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Phone number &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "Fraud prevention, security, and compliance"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "App activity"
+    },
+    {
+     "t": " ",
+     "s": "App interactions"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -66,6 +55,17 @@ info",
+   "lines": [
+    {
+     "t": " ",
+     "s": "App interactions"
+    },
+    {
+     "t": " ",
+     "s": "Fraud prevention, security, and compliance"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Contacts"
+    },
+    {
+     "t": "+",
+     "s": "Contacts"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Contacts &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security practices"
+    },
+    {
+     "t": " ",
+     "s": "Data is encrypted in transit"
+    },
+    {
+     "t": " ",
+     "s": "Your data is transferred over a secure connection"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

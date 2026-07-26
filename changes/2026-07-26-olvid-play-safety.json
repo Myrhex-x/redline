@@ -1,0 +1,82 @@
+{
+ "id": "2026-07-26-olvid-play-safety",
+ "date": "2026-07-26",
+ "slug": "olvid",
+ "doc": "play-safety",
+ "hunks": [
+  {
+   "header": "@@ -24,16 +24,11 @@ Terms of Service",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Consumer information"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Withdraw from Digital Services"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "About Google Play"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Developers"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Google Store"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "All prices include VAT."
+    },
+    {
+     "t": "-",
+     "s": "France (English)"
+    },
+    {
+     "t": "+",
+     "s": "United States (English (United States))"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

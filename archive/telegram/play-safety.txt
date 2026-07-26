@@ -5,39 +5,17 @@ The developer says this app doesn't share user data with other companies or orga
 
 Data collected
 Data this app may collect
-Audio
-Voice or sound recordings
+Location
+Approximate location and Precise location
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Voice or sound recordings &middot; Optional
+Approximate location &middot; Optional
 App functionality
-
-Messages
-Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Other in-app messages &middot; Optional
-App functionality
-
-Personal info
-Name and User IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Name
-App functionality
-User IDs
+Precise location &middot; Optional
 App functionality
 
 Contacts
@@ -49,17 +27,6 @@ Data collected and for what purpose
 info
 
 Contacts &middot; Optional
-App functionality
-
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
 App functionality
 
 Photos and videos
@@ -75,17 +42,50 @@ App functionality
 Videos &middot; Optional
 App functionality
 
-Location
-Approximate location and Precise location
+Messages
+Other in-app messages
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Approximate location &middot; Optional
+Other in-app messages &middot; Optional
 App functionality
-Precise location &middot; Optional
+
+Audio
+Voice or sound recordings
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Voice or sound recordings &middot; Optional
+App functionality
+
+Personal info
+Name and User IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Name
+App functionality
+User IDs
+App functionality
+
+Files and docs
+Files and docs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Files and docs &middot; Optional
 App functionality
 
 Security practices

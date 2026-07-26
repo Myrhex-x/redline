@@ -1,0 +1,951 @@
+{
+ "id": "2026-07-26-pinterest-play-safety",
+ "date": "2026-07-26",
+ "slug": "pinterest",
+ "doc": "play-safety",
+ "hunks": [
+  {
+   "header": "@@ -2,6 +2,17 @@ Data safety",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more"
+    },
+    {
+     "t": " ",
+     "s": "Data shared"
+    },
+    {
+     "t": " ",
+     "s": "Data that may be shared with other companies or organizations"
+    },
+    {
+     "t": "+",
+     "s": "Web browsing"
+    },
+    {
+     "t": "+",
+     "s": "Web browsing history"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data shared and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Web browsing history"
+    },
+    {
+     "t": "+",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "App activity"
+    },
+    {
+     "t": " ",
+     "s": "App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -21,57 +32,46 @@ Advertising or marketing",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Other actions"
+    },
+    {
+     "t": " ",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Personal info"
+    },
+    {
+     "t": "-",
+     "s": "Name, Email address, User IDs, Address, and Other info"
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data shared and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Name"
+    },
+    {
+     "t": "-",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": "-",
+     "s": "Email address"
+    },
+    {
+     "t": "-",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": "-",
+     "s": "User IDs"
+    },
+    {
+     "t": "-",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": "-",
+     "s": "Address"
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": " ",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": "-",
+     "s": "Other info"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Web browsing"
+    },
+    {
+     "t": "-",
+     "s": "Web browsing history"
+    },
+    {
+     "t": "+",
+     "s": "Financial info"
+    },
+    {
+     "t": "+",
+     "s": "Purchase history"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data shared and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Web browsing history"
+    },
+    {
+     "t": "+",
+     "s": "Purchase history"
+    },
+    {
+     "t": " ",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "Personal info"
+    },
+    {
+     "t": "+",
+     "s": "Name, Email address, User IDs, Address, and Other info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data shared and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "Name"
+    },
+    {
+     "t": " ",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Financial info"
+    },
+    {
+     "t": "-",
+     "s": "Purchase history"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data shared and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Purchase history"
+    },
+    {
+     "t": "+",
+     "s": "Email address"
+    },
+    {
+     "t": " ",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": "+",
+     "s": "User IDs"
+    },
+    {
+     "t": "+",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": "+",
+     "s": "Address"
+    },
+    {
+     "t": "+",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": "+",
+     "s": "Other info"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Location"
+    },
+    {
+     "t": " ",
+     "s": "Approximate location"
+    }
+   ]
+  },
+  {
+   "header": "@@ -86,6 +86,17 @@ Advertising or marketing",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected"
+    },
+    {
+     "t": " ",
+     "s": "Data this app may collect"
+    },
+    {
+     "t": "+",
+     "s": "Web browsing"
+    },
+    {
+     "t": "+",
+     "s": "Web browsing history"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Web browsing history"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Audio"
+    },
+    {
+     "t": " ",
+     "s": "Voice or sound recordings, Music files, and Other audio files"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -101,6 +112,28 @@ App functionality, Analytics, Fraud prevention, security, and compliance",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Other audio files &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Fraud prevention, security, and compliance"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Contacts"
+    },
+    {
+     "t": "+",
+     "s": "Contacts"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Contacts &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Messages"
+    },
+    {
+     "t": "+",
+     "s": "Other in-app messages"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Other in-app messages &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "App activity"
+    },
+    {
+     "t": " ",
+     "s": "App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -133,6 +166,30 @@ App functionality, Analytics, Advertising or marketing, Fraud prevention, securi",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Videos &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Financial info"
+    },
+    {
+     "t": "+",
+     "s": "User payment info and Purchase history"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "User payment info &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": "+",
+     "s": "Purchase history"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "App info and performance"
+    },
+    {
+     "t": " ",
+     "s": "Crash logs, Diagnostics, and Other app performance data"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -169,63 +226,6 @@ App functionality, Analytics, Developer communications, Fraud prevention, securi",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Other info"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Web browsing"
+    },
+    {
+     "t": "-",
+     "s": "Web browsing history"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Web browsing history"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Messages"
+    },
+    {
+     "t": "-",
+     "s": "Other in-app messages"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Other in-app messages &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contacts"
+    },
+    {
+     "t": "-",
+     "s": "Contacts"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contacts &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Financial info"
+    },
+    {
+     "t": "-",
+     "s": "User payment info and Purchase history"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "User payment info &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": "-",
+     "s": "Purchase history"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Location"
+    },
+    {
+     "t": " ",
+     "s": "Approximate location and Precise location"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

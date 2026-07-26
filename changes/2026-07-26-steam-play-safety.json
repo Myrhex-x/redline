@@ -1,0 +1,243 @@
+{
+ "id": "2026-07-26-steam-play-safety",
+ "date": "2026-07-26",
+ "slug": "steam",
+ "doc": "play-safety",
+ "hunks": [
+  {
+   "header": "@@ -37,22 +37,18 @@ App functionality, Analytics",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Other actions &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Personal info"
+    },
+    {
+     "t": "-",
+     "s": "Name, Email address, User IDs, and Phone number"
+    },
+    {
+     "t": "+",
+     "s": "Financial info"
+    },
+    {
+     "t": "+",
+     "s": "User payment info and Purchase history"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Name"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Account management"
+    },
+    {
+     "t": "-",
+     "s": "Email address"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Account management"
+    },
+    {
+     "t": "-",
+     "s": "User IDs"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": "-",
+     "s": "Phone number &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": "+",
+     "s": "User payment info &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": "Purchase history"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": " ",
+     "s": "Device or other IDs"
+    }
+   ]
+  },
+  {
+   "header": "@@ -65,18 +61,22 @@ info",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Account management"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Financial info"
+    },
+    {
+     "t": "-",
+     "s": "User payment info and Purchase history"
+    },
+    {
+     "t": "+",
+     "s": "Personal info"
+    },
+    {
+     "t": "+",
+     "s": "Name, Email address, User IDs, and Phone number"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "User payment info &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "-",
+     "s": "Purchase history"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": "Name"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Account management"
+    },
+    {
+     "t": "+",
+     "s": "Email address"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Account management"
+    },
+    {
+     "t": "+",
+     "s": "User IDs"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": "+",
+     "s": "Phone number &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security practices"
+    },
+    {
+     "t": " ",
+     "s": "Data is encrypted in transit"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

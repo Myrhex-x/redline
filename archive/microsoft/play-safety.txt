@@ -15,15 +15,41 @@ Advertising or marketing
 
 Data collected
 Data this app may collect
-Contacts
-Contacts
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Contacts
+Crash logs
+Analytics
+Diagnostics
+Analytics
+Other app performance data
+Analytics
+
+Calendar
+Calendar events
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Calendar events
+App functionality, Analytics, Personalization
+
+Messages
+Emails
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Emails
 App functionality, Analytics, Personalization
 
 Photos and videos
@@ -39,15 +65,30 @@ App functionality
 Videos &middot; Optional
 App functionality
 
-Calendar
-Calendar events
+Audio
+Voice or sound recordings, Music files, and Other audio files
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Calendar events
+Voice or sound recordings &middot; Optional
+App functionality
+Music files &middot; Optional
+App functionality
+Other audio files &middot; Optional
+App functionality
+
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts
 App functionality, Analytics, Personalization
 
 Personal info
@@ -67,46 +108,16 @@ App functionality, Account management
 Phone number &middot; Optional
 App functionality, Fraud prevention, security, and compliance
 
-Audio
-Voice or sound recordings, Music files, and Other audio files
+Device or other IDs
+Device or other IDs
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Voice or sound recordings &middot; Optional
-App functionality
-Music files &middot; Optional
-App functionality
-Other audio files &middot; Optional
-App functionality
-
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-Analytics
-Diagnostics
-Analytics
-Other app performance data
-Analytics
-
-Messages
-Emails
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Emails
-App functionality, Analytics, Personalization
+Device or other IDs
+Analytics, Advertising or marketing
 
 Files and docs
 Files and docs
@@ -137,17 +148,6 @@ Other user-generated content &middot; Optional
 App functionality, Analytics, Personalization
 Other actions
 App functionality, Analytics
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-Analytics, Advertising or marketing
 
 Security practices
 Data is encrypted in transit

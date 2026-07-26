@@ -2,6 +2,17 @@ Data safety
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 Data shared
 Data that may be shared with other companies or organizations
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Device or other IDs
+Advertising or marketing
+
 Personal info
 Name, Email address, User IDs, and Phone number
 
@@ -19,19 +30,19 @@ Fraud prevention, security, and compliance
 Phone number
 Fraud prevention, security, and compliance
 
+Data collected
+Data this app may collect
 Device or other IDs
 Device or other IDs
 
 expand_more
 
-Data shared and for what purpose
+Data collected and for what purpose
 info
 
 Device or other IDs
-Advertising or marketing
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
-Data collected
-Data this app may collect
 Calendar
 Calendar events
 
@@ -68,20 +79,50 @@ App functionality, Analytics, Fraud prevention, security, and compliance, Person
 Other info
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
+App activity
+App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Crash logs
+App interactions
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Diagnostics
+In-app search history
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Other app performance data
+Installed apps &middot; Optional
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Other user-generated content &middot; Optional
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Other actions &middot; Optional
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts &middot; Optional
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+
+Messages
+Emails, SMS or MMS, and Other in-app messages
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Emails &middot; Optional
+App functionality, Fraud prevention, security, and compliance, Account management
+SMS or MMS &middot; Optional
+App functionality, Fraud prevention, security, and compliance, Account management
+Other in-app messages
+App functionality, Fraud prevention, security, and compliance, Account management
 
 Photos and videos
 Photos and Videos
@@ -96,33 +137,22 @@ App functionality, Analytics, Developer communications, Advertising or marketing
 Videos &middot; Optional
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
-Health and fitness
-Health info and Fitness info
+Financial info
+User payment info, Purchase history, Credit score, and Other financial info
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Health info &middot; Optional
+User payment info &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-Fitness info &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-
-Audio
-Voice or sound recordings, Music files, and Other audio files
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Voice or sound recordings &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-Music files &middot; Optional
+Purchase history &middot; Optional
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Other audio files &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+Credit score &middot; Optional
+App functionality, Fraud prevention, security, and compliance, Account management
+Other financial info &middot; Optional
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
 Web browsing
 Web browsing history
@@ -146,78 +176,20 @@ info
 Files and docs &middot; Optional
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
-Financial info
-User payment info, Purchase history, Credit score, and Other financial info
+Audio
+Voice or sound recordings, Music files, and Other audio files
 
 expand_more
 
 Data collected and for what purpose
 info
 
-User payment info &middot; Optional
+Voice or sound recordings &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-Purchase history &middot; Optional
+Music files &middot; Optional
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Credit score &middot; Optional
-App functionality, Fraud prevention, security, and compliance, Account management
-Other financial info &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-App activity
-App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-In-app search history
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Installed apps &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Other user-generated content &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Other actions &middot; Optional
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Messages
-Emails, SMS or MMS, and Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Emails &middot; Optional
-App functionality, Fraud prevention, security, and compliance, Account management
-SMS or MMS &middot; Optional
-App functionality, Fraud prevention, security, and compliance, Account management
-Other in-app messages
-App functionality, Fraud prevention, security, and compliance, Account management
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Other audio files &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
 
 Location
 Approximate location and Precise location
@@ -231,6 +203,34 @@ Approximate location
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 Precise location &middot; Optional
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Diagnostics
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Other app performance data
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+
+Health and fitness
+Health info and Fitness info
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Health info &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+Fitness info &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
 
 Security practices
 Data is encrypted in transit

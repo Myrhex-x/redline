@@ -5,6 +5,17 @@ The developer says this app doesn't share user data with other companies or orga
 
 Data collected
 Data this app may collect
+Photos and videos
+Photos
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Photos &middot; Optional
+App functionality
+
 App info and performance
 Crash logs
 
@@ -16,16 +27,16 @@ info
 Crash logs &middot; Optional
 Analytics
 
-Photos and videos
-Photos
+App activity
+App interactions
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Photos &middot; Optional
-App functionality
+App interactions &middot; Optional
+Analytics
 
 Personal info
 Name, Email address, User IDs, and Phone number
@@ -43,17 +54,6 @@ User IDs
 App functionality, Account management
 Phone number &middot; Optional
 App functionality, Account management
-
-App activity
-App interactions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions &middot; Optional
-Analytics
 
 Security practices
 Data is encrypted in transit

@@ -3,9 +3,10 @@
   "title": "Legislative train: combating child sexual abuse online",
   "url": "https://www.europarl.europa.eu/legislative-train/theme-promoting-our-european-way-of-life/file-combating-child-sexual-abuse-online",
   "finalUrl": "https://www.europarl.europa.eu/legislative-train/theme-promoting-our-european-way-of-life/file-combating-child-sexual-abuse-online",
-  "httpStatus": 200,
-  "fetchedAt": "2026-07-26T16:26:42.162Z",
-  "textHash": "a7a222f2303cb3547efe1eb48530c9e2007c2d9ef0a1dadfc10afcf1f2644d14",
-  "textChars": 17516,
-  "htmlBytes": 101279
+  "httpStatus": 202,
+  "fetchedAt": "2026-07-26T19:43:22.771Z",
+  "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "textChars": 0,
+  "htmlBytes": 2431,
+  "note": "short-extract: likely JS-rendered or blocked"
 }

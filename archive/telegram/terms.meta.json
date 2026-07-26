@@ -2,10 +2,10 @@
   "company": "Telegram",
   "title": "Terms of Service",
   "url": "https://telegram.org/tos",
-  "finalUrl": "https://telegram.org/tos/eu",
+  "finalUrl": "https://telegram.org/tos",
   "httpStatus": 200,
-  "fetchedAt": "2026-07-26T10:22:42.964Z",
-  "textHash": "5b835e3e6e589ae499c87a57a4bbd52e908b970da1b75166dca6ce2ead56363a",
-  "textChars": 14993,
-  "htmlBytes": 25402
+  "fetchedAt": "2026-07-26T19:40:59.786Z",
+  "textHash": "a8e27fd053407aa91f0ca82a9025afa4deeb59c5578a00deccaea8e2a057b403",
+  "textChars": 14864,
+  "htmlBytes": 25201
 }

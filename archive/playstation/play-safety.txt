@@ -26,6 +26,17 @@ App functionality, Analytics, Advertising or marketing, Personalization
 
 Data collected
 Data this app may collect
+Messages
+Other in-app messages
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Other in-app messages &middot; Optional
+App functionality
+
 Personal info
 Name, Email address, User IDs, Address, Phone number, and Other info
 
@@ -47,19 +58,6 @@ Fraud prevention, security, and compliance, Account management
 Other info
 App functionality, Analytics, Fraud prevention, security, and compliance, Account management
 
-App activity
-App interactions and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-App functionality
-Other actions &middot; Optional
-App functionality
-
 App info and performance
 Crash logs and Diagnostics
 
@@ -73,28 +71,6 @@ App functionality
 Diagnostics
 App functionality
 
-Messages
-Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Other in-app messages &middot; Optional
-App functionality
-
-Web browsing
-Web browsing history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Web browsing history &middot; Optional
-App functionality, Analytics, Advertising or marketing, Personalization
-
 Financial info
 User payment info and Purchase history
 
@@ -107,6 +83,30 @@ User payment info &middot; Optional
 App functionality, Fraud prevention, security, and compliance
 Purchase history
 App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+
+App activity
+App interactions and Other actions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions
+App functionality
+Other actions &middot; Optional
+App functionality
+
+Web browsing
+Web browsing history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Web browsing history &middot; Optional
+App functionality, Analytics, Advertising or marketing, Personalization
 
 Device or other IDs
 Device or other IDs

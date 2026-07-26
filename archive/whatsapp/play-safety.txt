@@ -5,42 +5,20 @@ The developer says this app doesn't share user data with other companies or orga
 
 Data collected
 Data this app may collect
-App activity
-App interactions, In-app search history, and Other user-generated content
+Personal info
+Email address, User IDs, and Phone number
 
 expand_more
 
 Data collected and for what purpose
 info
 
-App interactions
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
-In-app search history
-App functionality, Analytics
-Other user-generated content &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
-
-Location
-Approximate location
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Approximate location
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance
+Email address &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+User IDs
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
+Phone number
+App functionality, Analytics, Fraud prevention, security, and compliance
 
 Contacts
 Contacts
@@ -81,20 +59,42 @@ App functionality, Analytics
 Other app performance data
 App functionality, Analytics
 
-Personal info
-Email address, User IDs, and Phone number
+App activity
+App interactions, In-app search history, and Other user-generated content
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Email address &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-User IDs
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
-Phone number
-App functionality, Analytics, Fraud prevention, security, and compliance
+App interactions
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
+In-app search history
+App functionality, Analytics
+Other user-generated content &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
+
+Location
+Approximate location
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Approximate location
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance
 
 Security practices
 Data is encrypted in transit

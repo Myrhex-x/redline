@@ -1,0 +1,107 @@
+{
+ "id": "2026-07-26-linkedin-privacy",
+ "date": "2026-07-26",
+ "slug": "linkedin",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -1,14 +1,5 @@",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Skip to main content"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "LinkedIn respects your privacy"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including professional and job ads ) on and off LinkedIn. Learn more in our Cookie Policy ."
+    },
+    {
+     "t": "-",
+     "s": "Select Accept to consent or Reject to decline non-essential cookies for this use. You can update your choices at any time in your settings ."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Accept"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Reject"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "User Agreement"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Summary of User Agreement"
+    }
+   ]
+  },
+  {
+   "header": "@@ -53,8 +44,6 @@ Privacy Policy",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Effective November 3, 2025"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "LinkedIn's global Privacy Policy below applies worldwide. If you're located in the EU, EEA, UK, or Switzerland, you can review additional information that will apply to you in our European Regional Privacy Notice ."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Your Privacy Matters"
+    },
+    {
+     "t": " ",
+     "s": "LinkedIn’s mission is to connect the world’s professionals to allow them to be more productive and successful. Central to this mission is our commitment to be transparent about the data we collect about you, how it is used and with whom it is shared."
+    },
+    {
+     "t": " ",
+     "s": "This Privacy Policy applies when you use our Services (described below). We offer our users choices about the data we collect, use and share as described in this Privacy Policy, Cookie Policy , Settings and our Help Center."
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -1,0 +1,240 @@
+{
+ "id": "2026-07-26-wire-play-safety",
+ "date": "2026-07-26",
+ "slug": "wire",
+ "doc": "play-safety",
+ "hunks": [
+  {
+   "header": "@@ -5,6 +5,17 @@ The developer says this app doesn't share user data with other companies or orga",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected"
+    },
+    {
+     "t": " ",
+     "s": "Data this app may collect"
+    },
+    {
+     "t": "+",
+     "s": "Photos and videos"
+    },
+    {
+     "t": "+",
+     "s": "Photos"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Photos &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "App info and performance"
+    },
+    {
+     "t": " ",
+     "s": "Crash logs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -16,16 +27,16 @@ info",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Crash logs &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "Analytics"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Photos and videos"
+    },
+    {
+     "t": "-",
+     "s": "Photos"
+    },
+    {
+     "t": "+",
+     "s": "App activity"
+    },
+    {
+     "t": "+",
+     "s": "App interactions"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Photos &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": "App interactions &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "Analytics"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Personal info"
+    },
+    {
+     "t": " ",
+     "s": "Name, Email address, User IDs, and Phone number"
+    }
+   ]
+  },
+  {
+   "header": "@@ -44,17 +55,6 @@ App functionality, Account management",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Phone number &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Account management"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "App activity"
+    },
+    {
+     "t": "-",
+     "s": "App interactions"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "App interactions &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "Analytics"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security practices"
+    },
+    {
+     "t": " ",
+     "s": "Data is encrypted in transit"
+    },
+    {
+     "t": " ",
+     "s": "Your data is transferred over a secure connection"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
