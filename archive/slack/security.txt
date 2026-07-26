@@ -136,8 +136,6 @@ Financial Services
 
 Retail
 
-Public Sector
-
 Education
 
 Health & Life Sciences
@@ -332,8 +330,6 @@ Small Business
 Financial Services
 
 Retail
-
-Public Sector
 
 Education
 
@@ -678,12 +674,6 @@ Partner Offers
 Slack Marketplace
 
 Slack Certified
-
-Run Effective Meetings
-
-Collaborate Externally
-
-Manage Projects Efficiently
 
 Company Company
 About Us

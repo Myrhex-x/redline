@@ -15,41 +15,15 @@ Advertising or marketing
 
 Data collected
 Data this app may collect
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
+Contacts
+Contacts
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Crash logs
-Analytics
-Diagnostics
-Analytics
-Other app performance data
-Analytics
-
-Calendar
-Calendar events
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Calendar events
-App functionality, Analytics, Personalization
-
-Messages
-Emails
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Emails
+Contacts
 App functionality, Analytics, Personalization
 
 Photos and videos
@@ -65,30 +39,15 @@ App functionality
 Videos &middot; Optional
 App functionality
 
-Audio
-Voice or sound recordings, Music files, and Other audio files
+Calendar
+Calendar events
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Voice or sound recordings &middot; Optional
-App functionality
-Music files &middot; Optional
-App functionality
-Other audio files &middot; Optional
-App functionality
-
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts
+Calendar events
 App functionality, Analytics, Personalization
 
 Personal info
@@ -108,16 +67,46 @@ App functionality, Account management
 Phone number &middot; Optional
 App functionality, Fraud prevention, security, and compliance
 
-Device or other IDs
-Device or other IDs
+Audio
+Voice or sound recordings, Music files, and Other audio files
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Device or other IDs
-Analytics, Advertising or marketing
+Voice or sound recordings &middot; Optional
+App functionality
+Music files &middot; Optional
+App functionality
+Other audio files &middot; Optional
+App functionality
+
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs
+Analytics
+Diagnostics
+Analytics
+Other app performance data
+Analytics
+
+Messages
+Emails
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Emails
+App functionality, Analytics, Personalization
 
 Files and docs
 Files and docs
@@ -148,6 +137,17 @@ Other user-generated content &middot; Optional
 App functionality, Analytics, Personalization
 Other actions
 App functionality, Analytics
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+Analytics, Advertising or marketing
 
 Security practices
 Data is encrypted in transit

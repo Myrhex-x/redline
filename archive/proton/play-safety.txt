@@ -5,6 +5,17 @@ The developer says this app doesn't share user data with other companies or orga
 
 Data collected
 Data this app may collect
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management
+
 App info and performance
 Crash logs and Diagnostics
 
@@ -17,6 +28,17 @@ Crash logs &middot; Optional
 App functionality, Analytics, Developer communications
 Diagnostics &middot; Optional
 App functionality, Analytics, Developer communications
+
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts &middot; Optional
+App functionality
 
 Personal info
 Name, Email address, and Phone number
@@ -33,17 +55,6 @@ App functionality, Developer communications, Account management
 Phone number &middot; Optional
 Fraud prevention, security, and compliance
 
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management
-
 App activity
 App interactions
 
@@ -54,17 +65,6 @@ info
 
 App interactions
 Fraud prevention, security, and compliance
-
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
-App functionality
 
 Security practices
 Data is encrypted in transit

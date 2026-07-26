@@ -2,17 +2,6 @@ Data safety
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 Data shared
 Data that may be shared with other companies or organizations
-Web browsing
-Web browsing history
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Web browsing history
-Advertising or marketing
-
 App activity
 App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
 
@@ -30,6 +19,36 @@ Advertising or marketing
 Other user-generated content
 Advertising or marketing
 Other actions
+Advertising or marketing
+
+Personal info
+Name, Email address, User IDs, Address, and Other info
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Name
+Advertising or marketing
+Email address
+Advertising or marketing
+User IDs
+Advertising or marketing
+Address
+Advertising or marketing
+Other info
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+
+Web browsing
+Web browsing history
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Web browsing history
 Advertising or marketing
 
 Device or other IDs
@@ -54,25 +73,6 @@ info
 Purchase history
 Advertising or marketing
 
-Personal info
-Name, Email address, User IDs, Address, and Other info
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Name
-Advertising or marketing
-Email address
-Advertising or marketing
-User IDs
-Advertising or marketing
-Address
-Advertising or marketing
-Other info
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
 Location
 Approximate location
 
@@ -86,17 +86,6 @@ Advertising or marketing
 
 Data collected
 Data this app may collect
-Web browsing
-Web browsing history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Web browsing history
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
-
 Audio
 Voice or sound recordings, Music files, and Other audio files
 
@@ -111,28 +100,6 @@ Music files &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance
 Other audio files &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance
-
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
-
-Messages
-Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Other in-app messages &middot; Optional
-App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management
 
 App activity
 App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
@@ -164,30 +131,6 @@ info
 Photos &middot; Optional
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 Videos &middot; Optional
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
-
-Financial info
-User payment info and Purchase history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-User payment info &middot; Optional
-Fraud prevention, security, and compliance, Account management
-Purchase history
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
 App info and performance
@@ -225,6 +168,63 @@ Phone number &middot; Optional
 App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management
 Other info
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+
+Web browsing
+Web browsing history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Web browsing history
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+
+Messages
+Other in-app messages
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Other in-app messages &middot; Optional
+App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
+
+Financial info
+User payment info and Purchase history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+User payment info &middot; Optional
+Fraud prevention, security, and compliance, Account management
+Purchase history
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
 Location
 Approximate location and Precise location

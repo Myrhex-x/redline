@@ -341,10 +341,6 @@ Users from the EU are welcome to study the User Guidance for the EU Digital Serv
 
 Note: If a scammer is pretending to be you, contact @NoToScam
 
-Q: How do I send a request under the TAKE IT DOWN Act?
-
-If you encounter content on Telegram that you believe is a non-consensual intimate image or video concerning yourself, you or your representative can report it via @TIDABot .
-
 Q: How do I send a request under EU Regulation 2021/784?
 
 The Regulation (EU) 2021/784 of the European Parliament and of the Council of 29 April 2021 on addressing the dissemination of terrorist content online (Terrorist Content Online Regulation, or TCO Regulation) allows authorities in EU countries to send removal requests for terrorist content, if it is discovered on Telegram's public platform. We have also designated a third party, European Digital Services Representative (EDSR), to assist us with TCO-related communications.
@@ -356,6 +352,12 @@ by writing to EDSR at Avenue Huart Hamoir 71, 1030 Brussels, Belgium, or
 by contacting the @EURegulation bot on Telegram and using the command /tco_ask .
 
 Requests can be accepted in English and French.
+
+Q: Is Telegram a “very large online platform” according to the EU Digital Services Act?
+
+No. The EU Digital Services Act (DSA) requires certain services (which it describes as “online platforms”) to publish information about their average monthly active users in the European Union.
+
+Some non-essential elements of the services provided by Telegram may qualify as “online platforms” under the DSA. As of February 2026, these services had significantly fewer than 45 million average monthly active recipients in the EU over the preceding 6 months — which is below the threshold required for designation as a “very large online platform.”
 
 Q: A bot or channel is infringing on my copyright. What do I do?
 

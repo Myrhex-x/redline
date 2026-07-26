@@ -2,17 +2,6 @@ Data safety
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 Data shared
 Data that may be shared with other companies or organizations
-Location
-Approximate location
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Approximate location
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
-
 Device or other IDs
 Device or other IDs
 
@@ -35,20 +24,31 @@ info
 App interactions
 Analytics, Advertising or marketing, Fraud prevention, security, and compliance
 
+Location
+Approximate location
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Approximate location
+App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
+
 Data collected
 Data this app may collect
-Location
-Approximate location and Precise location
+Photos and videos
+Photos and Videos
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Approximate location
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Precise location &middot; Optional
-App functionality, Personalization
+Photos &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
+Videos &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance
 
 Financial info
 Purchase history
@@ -60,6 +60,19 @@ info
 
 Purchase history
 App functionality, Analytics, Advertising or marketing, Personalization
+
+App info and performance
+Crash logs and Diagnostics
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs
+Analytics
+Diagnostics
+Analytics
 
 Personal info
 Name, Email address, User IDs, and Phone number
@@ -89,54 +102,6 @@ info
 Device or other IDs
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management
-Videos &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance
-
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
-App functionality, Analytics
-
-App info and performance
-Crash logs and Diagnostics
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-Analytics
-Diagnostics
-Analytics
-
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance
-
 App activity
 App interactions, In-app search history, and Other actions
 
@@ -152,6 +117,17 @@ App functionality, Analytics, Personalization
 Other actions &middot; Optional
 App functionality, Analytics, Personalization
 
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts &middot; Optional
+App functionality, Analytics
+
 Messages
 Emails
 
@@ -162,6 +138,30 @@ info
 
 Emails
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+
+Files and docs
+Files and docs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Files and docs &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance
+
+Location
+Approximate location and Precise location
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Approximate location
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Precise location &middot; Optional
+App functionality, Personalization
 
 Security practices
 Data is encrypted in transit

@@ -17,6 +17,17 @@ Analytics
 
 Data collected
 Data this app may collect
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+App functionality, Analytics, Fraud prevention, security, and compliance
+
 App activity
 App interactions, In-app search history, Other user-generated content, and Other actions
 
@@ -34,34 +45,6 @@ App functionality, Analytics, Personalization
 Other actions
 App functionality, Analytics, Personalization
 
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Fraud prevention, security, and compliance
-
-Personal info
-Name, Email address, User IDs, and Phone number
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Name
-App functionality, Advertising or marketing, Fraud prevention, security, and compliance, Account management
-Email address
-App functionality, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management
-User IDs
-App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
-Phone number &middot; Optional
-App functionality, Fraud prevention, security, and compliance, Account management
-
 Photos and videos
 Photos and Videos
 
@@ -74,6 +57,19 @@ Photos &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance
 Videos &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance
+
+Audio
+Voice or sound recordings and Other audio files
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Voice or sound recordings &middot; Optional
+App functionality, Analytics
+Other audio files &middot; Optional
+App functionality, Analytics
 
 Contacts
 Contacts
@@ -97,18 +93,22 @@ info
 Files and docs &middot; Optional
 App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
 
-Audio
-Voice or sound recordings and Other audio files
+Personal info
+Name, Email address, User IDs, and Phone number
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Voice or sound recordings &middot; Optional
-App functionality, Analytics
-Other audio files &middot; Optional
-App functionality, Analytics
+Name
+App functionality, Advertising or marketing, Fraud prevention, security, and compliance, Account management
+Email address
+App functionality, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management
+User IDs
+App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
+Phone number &middot; Optional
+App functionality, Fraud prevention, security, and compliance, Account management
 
 App info and performance
 Crash logs and Diagnostics

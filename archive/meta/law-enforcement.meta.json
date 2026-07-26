@@ -2,10 +2,10 @@
   "company": "Meta (Facebook, Instagram, Messenger)",
   "title": "Law Enforcement Guidelines",
   "url": "https://www.facebook.com/safety/groups/law/guidelines/",
-  "finalUrl": "https://www.meta.com/safety/?utm_source=about.meta.com&utm_medium=redirect",
+  "finalUrl": "https://www.meta.com/en-gb/safety/?utm_source=about.meta.com&utm_medium=redirect",
   "httpStatus": 200,
-  "fetchedAt": "2026-07-26T19:41:17.817Z",
-  "textHash": "18a6e4559e6cf4d848d62d08c857c88b6891a80357d553611d450508bde7c9f6",
-  "textChars": 5338,
-  "htmlBytes": 205246
+  "fetchedAt": "2026-07-26T10:35:37.012Z",
+  "textHash": "c8a4ebebd7bac4aed9aee0e1d7b521619b9cc0a6f36e6a9485a5c3c71aafb07a",
+  "textChars": 5340,
+  "htmlBytes": 274786
 }
