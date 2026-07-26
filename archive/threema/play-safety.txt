@@ -1,47 +1,3 @@
-Games
-
-Apps
-
-Books
-
-Kids
-
-google_logo Play Games
-Apps
-Books
-Kids
-none
-
-search
-
-help_outline
-
-Sign in with Google
-
-play_apps Library & devices
-payment Payments & subscriptions
-reviews My Play activity
-redeem Offers
-Play Pass
-
-Personalization in Play
-settings Settings
-
-Privacy Policy • Terms of Service
-
-Games
-
-Apps
-
-Books
-
-Kids
-
-Threema. The Secure Messenger
-Threema GmbH
-
-privacy_tip The developer has provided this information about how this app collects, shares, and handles your data
-
 Data safety
 The developer says that this app doesn't collect or share any user data. Learn more about data safety
 No data shared with third parties
@@ -84,4 +40,7 @@ About Google Play
 Developers
 
 Google Store
+
+All prices include VAT.
+France (English)
 

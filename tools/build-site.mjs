@@ -114,6 +114,37 @@ const N_ERRORS = [
 
 const NOTES = [
   {
+    slug: "one-app-two-stories", date: "2026-07-26",
+    title: "One app, two stories: what the same apps tell Apple and Google",
+    teaser: "We now archive both stores' privacy declarations. For several apps, the two disagree — recorded verbatim, with the caveats the comparison needs.",
+    body: `
+<p>As of today the archive records every tracked app's privacy self-declaration in <em>both</em> stores:
+Apple's App&nbsp;Store privacy label and Google&nbsp;Play's Data&nbsp;Safety section. Same app, same developer,
+two mandatory disclosures — which makes disagreements between them visible for the first time. Three examples,
+quoted from today's captures:</p>
+<p><strong><a href="/company/tuta/">Tuta</a></strong> tells Apple: <em>"The developer does not collect any data from
+this app"</em> — the App Store's strongest possible declaration. Its Play listing, the same day, declares data
+<em>collected</em> (email address, user IDs, optional contacts) and data <em>shared</em> (payment info).</p>
+<p><strong><a href="/company/threema/">Threema</a></strong> is the mirror image: on Play, <em>"this app doesn't
+collect or share any user data"</em>; on the App Store, "Data Linked to You" — contact info and identifiers,
+plus diagnostics.</p>
+<p><strong><a href="/company/x/">X</a></strong> tells Play <em>"this app doesn't share user data with other
+companies or organizations"</em>, while its Apple label declares "Data Used to Track You" across seven
+categories, from location to browsing history — and Apple defines tracking as linking or sharing user data
+with data brokers and advertisers.</p>
+<p>Now the caveats, because they matter. The two stores force <strong>different taxonomies</strong>: Google's
+"sharing" definition exempts transfers to service providers and several other cases; Apple's categories cut
+the world differently; and an iOS build can genuinely differ from an Android build. A discrepancy is therefore
+not proof that anyone is lying — it may be honest platform differences, definitional gaps, or one stale form.
+What it <em>is</em>, in every case: two public claims about the same product that do not say the same thing.</p>
+<p>That is exactly the kind of fact this archive exists to hold. Both declarations are now fetched daily,
+hashed, and diffed — so when either side of any of these pairs quietly changes, the change becomes a dated,
+citable event. The raw captures: <a href="/archive/tuta/appstore-label.json">Tuta/Apple</a> ·
+<a href="/archive/tuta/play-safety.txt">Tuta/Play</a> · <a href="/archive/threema/appstore-label.json">Threema/Apple</a> ·
+<a href="/archive/threema/play-safety.txt">Threema/Play</a> · <a href="/archive/x/appstore-label.json">X/Apple</a> ·
+<a href="/archive/x/play-safety.txt">X/Play</a>.</p>`,
+  },
+  {
     slug: "archiving-the-law-itself", date: "2026-07-26",
     title: "The law's own pages are in the archive now",
     teaser: "Companies aren't the only ones who quietly edit. The Commission's policy page and the Parliament's 2.0 tracker are now recorded daily, under the same rules.",
@@ -513,7 +544,7 @@ const SITEMAP = [];
 
 const GLOBE_SVG = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><circle cx="8" cy="8" r="6.4"/><ellipse cx="8" cy="8" rx="2.9" ry="6.4"/><path d="M1.9 6h12.2M1.9 10h12.2"/></svg>`;
 
-function page({ title, desc, path, active, body, alt, image }) {
+function page({ title, desc, path, active, body, alt, image, feed }) {
   SITEMAP.push(path);
   const navLink = (href, label, key) =>
     `<a href="${href}"${active === key ? ' aria-current="page"' : ""}>${label}</a>`;
@@ -534,6 +565,7 @@ function page({ title, desc, path, active, body, alt, image }) {
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${SITE}${path}">
 <link rel="alternate" type="application/rss+xml" title="ScanRecords — recorded changes" href="${SITE}/feed.xml">
+${feed ? `<link rel="alternate" type="application/rss+xml" title="${esc(title)} — changes" href="${SITE}${feed}">` : ""}
 ${hreflang}
 <link rel="icon" href="${FAVICON}">
 <link rel="manifest" href="/manifest.webmanifest">
@@ -899,7 +931,7 @@ for (const c of [...companies, ...institutions]) {
   ${a.label ? `<h2>App Store privacy label${a.labelMeta?.app ? ` <span class="dim fw-400">— ${esc(a.labelMeta.app)}</span>` : ""}</h2>
   <p class="note">Apple requires every app to declare the data it collects. This is ${esc(c.name)}'s current declaration, as shown on the App Store; ScanRecords records when it changes.</p>
   ${labelCards(a.label)}` : ""}
-  <h2>Record</h2>
+  <h2>Record <a class="dim plain fs-85 fw-400" href="/feed/${c.slug}.xml" title="RSS feed of this company's recorded changes only">RSS ↗</a></h2>
   ${timeline}`;
   const cardStatus = inst ? "inst" : (cc.status ?? "unclear");
   let cardImage;
@@ -914,7 +946,7 @@ for (const c of [...companies, ...institutions]) {
         ? `${c.name} in the ScanRecords archive: the law's own pages, recorded daily. ${c.note}`
         : `${c.name} under the EU's Chat Control: ${st.label.toLowerCase()}. ${cc.note}`,
       path: `/company/${c.slug}/`, active: "companies", body,
-      image: cardImage,
+      image: cardImage, feed: `/feed/${c.slug}.xml`,
     })
   );
 }
@@ -1249,6 +1281,7 @@ for (const e of realChanges) {
   dashboards, research — no key, no rate card, no account.</p>
   <div class="scroll"><table>
     <thead><tr><th>Endpoint</th><th>What it is</th></tr></thead><tbody>
+    <tr><td class="mono">/feed/&lt;company&gt;.xml</td><td class="dim">Per-company RSS — recorded changes for one company only (e.g. <a href="/feed/signal.xml">/feed/signal.xml</a>). Empty until it moves; quiet is the point.</td></tr>
     <tr><td class="mono"><a href="/history.json">/history.json</a></td><td class="dim">Every recorded event, newest first: company, document, date, kind, +/− line counts, change id.</td></tr>
     <tr><td class="mono"><a href="/companies.json">/companies.json</a></td><td class="dim">The tracked targets, their documents, App Store ids, and Chat Control statuses with sources.</td></tr>
     <tr><td class="mono">/archive/&lt;company&gt;/&lt;doc&gt;.txt</td><td class="dim">Current extracted text of a tracked document (also <span class="mono">.html</span> raw, <span class="mono">.meta.json</span> provenance).</td></tr>
@@ -1785,6 +1818,35 @@ ${items.join("\n")}
 </channel></rss>
 `
   );
+}
+
+// per-company feeds — watch exactly one company (empty until it moves; quiet is the point)
+{
+  mkdirSync(join(OUT, "feed"), { recursive: true });
+  for (const c of [...companies, ...institutions]) {
+    const evts = (changesBySlug.get(c.slug) ?? []).filter((e) => e.kind !== "baseline");
+    const items = evts.slice(0, 50).map(
+      (e) => `<item>
+  <title>${esc(`${e.company} changed its ${e.docTitle}`)}</title>
+  <link>${SITE}/change/${e.id}/</link>
+  <guid isPermaLink="true">${SITE}/change/${e.id}/</guid>
+  <pubDate>${new Date(e.date + "T06:30:00Z").toUTCString()}</pubDate>
+  <description>${esc(`+${e.added} lines added, −${e.removed} removed. Full before/after recorded.`)}</description>
+</item>`
+    );
+    writeFileSync(
+      join(OUT, "feed", `${c.slug}.xml`),
+      `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>ScanRecords — ${esc(c.name)}</title>
+<link>${SITE}/company/${c.slug}/</link>
+<description>${esc(`Recorded changes to ${c.name}'s tracked documents and app-store declarations. Empty means nothing has changed since the baseline — that silence is the point.`)}</description>
+<language>en</language>
+${items.join("\n")}
+</channel></rss>
+`
+    );
+  }
 }
 
 // sitemap.xml

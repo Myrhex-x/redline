@@ -1,106 +1,7 @@
-Games
-
-Apps
-
-Books
-
-Kids
-
-google_logo Play Games
-Apps
-Books
-Kids
-none
-
-search
-
-help_outline
-
-Sign in with Google
-
-play_apps Library & devices
-payment Payments & subscriptions
-reviews My Play activity
-redeem Offers
-Play Pass
-
-Personalization in Play
-settings Settings
-
-Privacy Policy • Terms of Service
-
-Games
-
-Apps
-
-Books
-
-Kids
-
-Twitch: Live Streaming
-Twitch Interactive, Inc.
-
-privacy_tip The developer has provided this information about how this app collects, shares, and handles your data
-
 Data safety
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 Data shared
 Data that may be shared with other companies or organizations
-Location
-Approximate location
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Approximate location
-Advertising or marketing, Fraud prevention, security, and compliance
-
-Messages
-Other in-app messages
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Other in-app messages
-App functionality, Analytics, Fraud prevention, security, and compliance
-
-App activity
-Other actions
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Other actions
-Advertising or marketing, Fraud prevention, security, and compliance
-
-App info and performance
-Crash logs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Crash logs
-Analytics
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Device or other IDs
-Analytics, Advertising or marketing
-
 Personal info
 Email address and User IDs
 
@@ -114,97 +15,63 @@ Advertising or marketing, Fraud prevention, security, and compliance
 User IDs
 Advertising or marketing
 
-Data collected
-Data this app may collect
-Location
-Approximate location
+App info and performance
+Crash logs
 
 expand_more
 
-Data collected and for what purpose
+Data shared and for what purpose
 info
 
-Approximate location
-Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
-
-Financial info
-Purchase history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Purchase history
-App functionality
+Crash logs
+Analytics
 
 Messages
 Other in-app messages
 
 expand_more
 
-Data collected and for what purpose
+Data shared and for what purpose
 info
 
-Other in-app messages &middot; Optional
-App functionality, Fraud prevention, security, and compliance
+Other in-app messages
+App functionality, Analytics, Fraud prevention, security, and compliance
 
-App activity
-App interactions, In-app search history, Other user-generated content, and Other actions
+Location
+Approximate location
 
 expand_more
 
-Data collected and for what purpose
+Data shared and for what purpose
 info
 
-App interactions
-Analytics, Personalization
-In-app search history
-App functionality, Analytics, Personalization
-Other user-generated content &middot; Optional
-Account management
-Other actions
-Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
-
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-Account management
-Videos &middot; Optional
-App functionality
-
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-App functionality, Analytics
-Diagnostics
-App functionality, Analytics
-Other app performance data
-App functionality, Analytics
+Approximate location
+Advertising or marketing, Fraud prevention, security, and compliance
 
 Device or other IDs
 Device or other IDs
 
 expand_more
 
-Data collected and for what purpose
+Data shared and for what purpose
 info
 
 Device or other IDs
 Analytics, Advertising or marketing
 
+App activity
+Other actions
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Other actions
+Advertising or marketing, Fraud prevention, security, and compliance
+
+Data collected
+Data this app may collect
 Personal info
 Name, Email address, User IDs, Phone number, and Other info
 
@@ -224,6 +91,95 @@ App functionality, Fraud prevention, security, and compliance, Account managemen
 Other info
 App functionality, Fraud prevention, security, and compliance, Account management
 
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs
+App functionality, Analytics
+Diagnostics
+App functionality, Analytics
+Other app performance data
+App functionality, Analytics
+
+Photos and videos
+Photos and Videos
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Photos &middot; Optional
+Account management
+Videos &middot; Optional
+App functionality
+
+Messages
+Other in-app messages
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Other in-app messages &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+
+Financial info
+Purchase history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Purchase history
+App functionality
+
+Location
+Approximate location
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Approximate location
+Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+Analytics, Advertising or marketing
+
+App activity
+App interactions, In-app search history, Other user-generated content, and Other actions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions
+Analytics, Personalization
+In-app search history
+App functionality, Analytics, Personalization
+Other user-generated content &middot; Optional
+Account management
+Other actions
+Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+
 Security practices
 Data is encrypted in transit
 Your data is transferred over a secure connection
@@ -232,32 +188,4 @@ You can request that data be deleted
 The developer provides a way for you to request that your data be deleted
 
 info For more information about collected and shared data, see the developer's privacy policy
-
-Google Play Play Pass
-
-Play Points
-
-Gift cards
-
-Redeem
-
-Refund policy
-
-Kids & family Parent Guide
-
-Family sharing
-
-Terms of Service
-
-Privacy
-
-Consumer information
-
-Withdraw from Digital Services
-
-About Google Play
-
-Developers
-
-Google Store
 

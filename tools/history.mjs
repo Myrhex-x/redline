@@ -99,9 +99,12 @@ function main() {
     if (ext === "txt") {
       let old = null;
       try { old = git("show", `HEAD:${path}`); } catch { /* not in HEAD */ }
-      // Anything under 1000 chars was a shell/stub, not a document — the
-      // smallest real tracked document is several thousand characters.
-      if (old !== null && old.trim().length < 1000) {
+      // Anything under the stub floor was a shell/block page, not a document.
+      // The floor is 1000 chars by default, but clipped declaration docs
+      // (Play data safety) are legitimately tiny — the most private apps
+      // declare the least — so a doc can set its own `minChars`.
+      const stubFloor = docDef?.minChars ?? 1000;
+      if (old !== null && old.trim().length < stubFloor) {
         console.log(`recapture ${slug}/${doc} (prior snapshot was a ${old.trim().length}-char stub)`);
         continue;
       }

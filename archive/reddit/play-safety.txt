@@ -1,64 +1,7 @@
-Games
-
-Apps
-
-Books
-
-Kids
-
-google_logo Play Games
-Apps
-Books
-Kids
-none
-
-search
-
-help_outline
-
-Sign in with Google
-
-play_apps Library & devices
-payment Payments & subscriptions
-reviews My Play activity
-redeem Offers
-Play Pass
-
-Personalization in Play
-settings Settings
-
-Privacy Policy • Terms of Service
-
-Games
-
-Apps
-
-Books
-
-Kids
-
-Reddit
-reddit Inc.
-
-privacy_tip The developer has provided this information about how this app collects, shares, and handles your data
-
 Data safety
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 Data shared
 Data that may be shared with other companies or organizations
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Photos
-App functionality
-Videos
-App functionality, Analytics, Fraud prevention, security, and compliance
-
 Files and docs
 Files and docs
 
@@ -69,6 +12,17 @@ info
 
 Files and docs
 App functionality
+
+Financial info
+User payment info
+
+expand_more
+
+Data shared and for what purpose
+info
+
+User payment info
+App functionality, Fraud prevention, security, and compliance
 
 Personal info
 User IDs
@@ -94,34 +48,6 @@ App functionality
 Music files
 App functionality
 
-Financial info
-User payment info
-
-expand_more
-
-Data shared and for what purpose
-info
-
-User payment info
-App functionality, Fraud prevention, security, and compliance
-
-App activity
-App interactions, In-app search history, Other user-generated content, and Other actions
-
-expand_more
-
-Data shared and for what purpose
-info
-
-App interactions
-Analytics, Advertising or marketing
-In-app search history
-Analytics, Advertising or marketing
-Other user-generated content
-App functionality
-Other actions
-Analytics, Advertising or marketing
-
 Messages
 Other in-app messages
 
@@ -146,21 +72,38 @@ Analytics
 Diagnostics
 Analytics
 
-Data collected
-Data this app may collect
 Photos and videos
 Photos and Videos
 
 expand_more
 
-Data collected and for what purpose
+Data shared and for what purpose
 info
 
-Photos &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-Videos &middot; Optional
+Photos
+App functionality
+Videos
 App functionality, Analytics, Fraud prevention, security, and compliance
 
+App activity
+App interactions, In-app search history, Other user-generated content, and Other actions
+
+expand_more
+
+Data shared and for what purpose
+info
+
+App interactions
+Analytics, Advertising or marketing
+In-app search history
+Analytics, Advertising or marketing
+Other user-generated content
+App functionality
+Other actions
+Analytics, Advertising or marketing
+
+Data collected
+Data this app may collect
 Files and docs
 Files and docs
 
@@ -171,6 +114,17 @@ info
 
 Files and docs &middot; Optional
 App functionality
+
+Financial info
+User payment info
+
+expand_more
+
+Data collected and for what purpose
+info
+
+User payment info &middot; Optional
+App functionality, Fraud prevention, security, and compliance
 
 Personal info
 Email address, User IDs, and Phone number
@@ -187,16 +141,16 @@ Personalization
 Phone number &middot; Optional
 App functionality, Advertising or marketing, Account management
 
-Device or other IDs
-Device or other IDs
+Web browsing
+Web browsing history
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Device or other IDs &middot; Optional
-Analytics, Advertising or marketing, Fraud prevention, security, and compliance
+Web browsing history &middot; Optional
+Advertising or marketing
 
 Location
 Approximate location
@@ -220,16 +174,53 @@ info
 Music files &middot; Optional
 App functionality
 
-Financial info
-User payment info
+Messages
+Other in-app messages
 
 expand_more
 
 Data collected and for what purpose
 info
 
-User payment info &middot; Optional
+Other in-app messages &middot; Optional
 App functionality, Fraud prevention, security, and compliance
+
+App info and performance
+Crash logs and Diagnostics
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs
+Analytics
+Diagnostics
+Analytics
+
+Photos and videos
+Photos and Videos
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Photos &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+Videos &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs &middot; Optional
+Analytics, Advertising or marketing, Fraud prevention, security, and compliance
 
 App activity
 App interactions, In-app search history, Other user-generated content, and Other actions
@@ -248,41 +239,6 @@ Analytics, Fraud prevention, security, and compliance
 Other actions
 Analytics, Advertising or marketing
 
-Messages
-Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Other in-app messages &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-
-Web browsing
-Web browsing history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Web browsing history &middot; Optional
-Advertising or marketing
-
-App info and performance
-Crash logs and Diagnostics
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-Analytics
-Diagnostics
-Analytics
-
 Security practices
 Data isn’t encrypted
 Your data isn’t transferred over a secure connection
@@ -291,32 +247,4 @@ You can request that data be deleted
 The developer provides a way for you to request that your data be deleted
 
 info For more information about collected and shared data, see the developer's privacy policy
-
-Google Play Play Pass
-
-Play Points
-
-Gift cards
-
-Redeem
-
-Refund policy
-
-Kids & family Parent Guide
-
-Family sharing
-
-Terms of Service
-
-Privacy
-
-Consumer information
-
-Withdraw from Digital Services
-
-About Google Play
-
-Developers
-
-Google Store
 

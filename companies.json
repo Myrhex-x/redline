@@ -33,10 +33,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.discord&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -89,10 +90,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=org.telegram.messenger&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -129,10 +131,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=org.thoughtcrime.securesms&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -174,10 +177,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.whatsapp&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -219,10 +223,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.facebook.orca&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -273,10 +278,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.google.android.gm&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -332,10 +338,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.microsoft.office.outlook&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -431,10 +438,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.snapchat.android&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -485,10 +493,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.zhiliaoapp.musically&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -525,10 +534,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.twitter.android&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -560,10 +570,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.reddit.frontpage&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -610,10 +621,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=ch.protonmail.android&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -655,10 +667,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=ch.threema.app&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -700,10 +713,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.viber.voip&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -745,10 +759,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.Slack&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -785,10 +800,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=us.zoom.videomeetings&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -827,10 +843,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=tv.twitch.android.app&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -872,10 +889,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.linkedin.android&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -917,10 +935,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.pinterest&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -962,10 +981,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.valvesoftware.android.steam.community&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -1002,10 +1022,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.scee.psxandroid&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -1043,10 +1064,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=io.olvid.messenger&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -1084,10 +1106,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.wire&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -1124,10 +1147,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=im.vector.app&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -1174,10 +1198,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=de.tutao.tutanota&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -1219,10 +1244,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=de.gmx.mobile.android.mail&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -1263,10 +1289,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.yahoo.mobile.client.android.mail&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -1298,10 +1325,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=com.roblox.client&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {
@@ -1329,10 +1357,11 @@
      "id": "play-safety",
      "title": "Google Play Data Safety",
      "url": "https://play.google.com/store/apps/datasafety?id=co.yellw.yellowapp&hl=en",
-     "ignore": [
-      "^All prices include VAT",
-      "\\(English\\)$"
-     ]
+     "clip": {
+      "from": "^Data safety$",
+      "to": "^info For more information about collected and shared data"
+     },
+     "minChars": 300
     }
    ],
    "chatControl": {

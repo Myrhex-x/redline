@@ -109,6 +109,24 @@ async function fetchDoc(url, ua) {
  * For per-request noise a site embeds in visible text (trace ids, session
  * tokens) — without this, every fetch looks like a policy change.
  */
+/**
+ * Keep only the lines from the first match of `from` through the first
+ * subsequent match of `to` (both inclusive). For pages whose surrounding
+ * chrome varies by region or day (Google Play), the clipped section is the
+ * document; everything outside it is noise no line-regex list can chase.
+ * If a marker is missing the full text is kept — a structural change on the
+ * source should surface loudly in the diff, not vanish.
+ */
+export function clipText(text, { from, to }) {
+  const lines = text.split("\n");
+  const fromRe = new RegExp(from), toRe = new RegExp(to);
+  const i = lines.findIndex((l) => fromRe.test(l.trim()));
+  if (i === -1) return text;
+  const rest = lines.slice(i + 1).findIndex((l) => toRe.test(l.trim()));
+  const j = rest === -1 ? lines.length - 1 : i + 1 + rest;
+  return lines.slice(i, j + 1).join("\n").trim() + "\n";
+}
+
 export function filterNoise(text, patterns) {
   if (!patterns || patterns.length === 0) return text;
   const res = patterns.map((p) => new RegExp(p, "i"));
@@ -138,12 +156,13 @@ async function snapshotDoc(company, doc) {
     return { company, doc, state: "HTTP_" + status, detail: finalUrl };
   }
 
-  const text = filterNoise(
+  let text = filterNoise(
     extractText(html),
     [...(company.ignore ?? []), ...(doc.ignore ?? [])]
   );
+  if (doc.clip) text = clipText(text, doc.clip);
   const textHash = sha256(text);
-  const short = text.length < SHORT_TEXT_CHARS;
+  const short = text.length < (doc.minChars ?? SHORT_TEXT_CHARS);
 
   if (prev && prev.textHash === textHash) {
     return { company, doc, state: "UNCHANGED", chars: text.length };
