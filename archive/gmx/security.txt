@@ -1,0 +1,186 @@
+gmx.net
+E-Mail
+
+E-Mail
+
+E-Mail
+
+Freemail
+
+Premium
+
+MAX30
+
+Mail App
+
+MailCheck
+
+Sicherheit
+
+Postfachfunktionen
+
+Kalender
+
+Adressbuch
+
+Intelligentes Postfach
+
+Briefankündigung
+
+Cloud
+
+GMX Cloud
+
+Online Office
+
+GMX Cloud für Windows
+
+GMX Cloud für macOS
+
+MAX30
+
+Speicher erweitern
+
+Sicherheit
+
+Unsere Verantwortung
+
+Nachhaltigkeit bei GMX
+
+E-Mail made in Germany
+
+Cloud made in Germany
+
+netID
+
+GMX Blog
+
+Registrieren
+
+GMX Sicherheit
+
+Sicheres E-Mail-Postfach, sichere Daten: GMX schützt Sie umfassend und gibt Sicherheits-Tipps für Ihren Online-Alltag.
+
+Noch keine GMX Adresse?
+
+Wie GMX Sie schützt
+
+Mit "E-Mail made in Germany" & "Cloud made in Germany" setzt GMX höchste Maßstäbe bei Datenschutz und Sicherheit.
+
+Mehr zum GMX Datenschutz
+
+Mehr Schutz für Ihr Postfach
+
+Einfach selbst einrichten
+
+E-Mail-Inhalte verschlüsseln
+
+Bei GMX können Sie bei jeder E-Mail individuell entscheiden, ob Sie sie zusätzlich durch Ende-zu-Ende-Verschlüsselung schützen wollen. Etwa dann, wenn es sich um besonders sensible E-Mail-Inhalte wie Arztbriefe, Urkunden oder Verträge handelt. Das geprüfte PGP-Verfahren ist kostenlos verfügbar, schnell auf dem PC, Tablet oder Smartphone eingerichet. Im Handumdrehen machen Sie damit die Inhalte nur noch für Sie selbst und die Empfängerin/den Empfänger Ihrer Mail lesbar.
+
+Mehr über PGP
+
+Postfachzugang doppelt absichern
+
+Sie möchten Ihrem GMX Postfach eine Extraportion Schutz verleihen? Dann aktivieren Sie die Zwei-Faktor-Authentifizierung! Die Nutzung dieser Funktion ist für Sie selbstverständlich kostenfrei und optional – und dank Einrichtungshilfe werden Sie ganz unkompliziert Schritt für Schritt durch die Aktivierung geführt. Anschließend ist Ihr Postfach sowohl am PC als auch in der GMX Mail App auf Ihrem Tablet oder Smartphone zusätzlich vor unbefugten Zugriffen geschützt.
+
+Mehr über 2FA
+
+Sicherheits-Tipps für Ihr Postfach
+
+E-Mails schützen – so geht's!
+
+Achtung bei Anhängen
+
+Öffnen Sie keine Mail-Anhänge unbekannten Mail-Adressen – sie könnten mit Schädlingen verseucht sein. Bei bekannten Adressen gilt im Zweifel: Lieber kurz persönlich nachhaken, ob die E-Mail wirklich von diesen stammt.
+
+Aktiv gegen Spam!
+
+Spam im Postfach oder im Kalender ? Kein Problem: Sie haben es selbst mit in der Hand! Trainieren Sie einfach zusätzlich Ihren Spamfilter und helfen Sie, die Spam-Erkennung zu verbessern – so lernt Ihr Postfach automatisch dazu.
+
+Vorsicht: Phishing
+
+E-Mails, die Sie zur Eingabe von Zugangsdaten drängen: ignorieren! Hier findet gezieltes "Phishing" von Passwort & Co. statt. Wie Sie diese Betrugsmails erkennen, lesen Sie im Tipp , geprüfte "Post" garantiert das E-Mail-Siegel .
+
+Sicheres E-Mail-Passwort
+
+Ihr Generalschlüssel
+
+Ein sicheres Passwort ist die Voraussetzung für den Schutz Ihrer Privatsphäre. Als "Generalschlüssel" sichert es den Zugang zu Ihrem Postfach mit Ihren E-Mails und Kontaktdaten, Ihren personenbezogenen Daten und auch Ihren Cloud-Dateien. Lesen Sie, wie Sie ein starkes, sicheres Passwort finden, und welche Wiederherstellungs-Möglichkeiten Sie für das Passwort haben, sollten Sie es mal vergessen.
+
+Zur Passwort-Seite
+
+Ihre Kundendaten wurden geändert?
+
+GMX informiert Sie direkt!
+
+Bei der geringsten Änderung Ihrer persönlichen sicherheitsrelevanten Daten erhalten Sie direkt eine E-Mail von GMX. Bekommen Sie also eine solche E-Mail OHNE dass Sie selbst eine Änderung gemacht haben, könnte es sein, dass jemand Ihr Postfach gehackt hat. Dann heißt es für Sie: Sofort Schutzmaßnahmen für Ihr Postfach ergreifen.
+
+Zu den Sofortmaßnahmen
+
+Tipps zur Geräte-Sicherheit
+
+PC, Smartphone & Co. schützen
+
+Antiviren-Programme nutzen
+
+Antiviren-Software ist nicht nur für Ihren PC sinnvoll: auch für Ihre Mobilgeräte und für Ihre USB-Sticks. Vor allem, wenn Sie die Sticks auch an anderen Rechnern als zuhause nutzen.
+
+Programme aktuell halten
+
+Beim Thema Updates gilt: Unbedingt regelmäßig Aktualisierungen für Ihre Antiviren-Software, Ihr Betriebssystem etc. vornehmen. Das schließt potentielle Sicherheitslücken. Mehr dazu in unserem Blog !
+
+Firewall installieren
+
+Zur Kontrolle des Datenflusses auf Ihrem Rechner richten Sie eine Firewall ein. Bei Smartphones heißt es bei der Installation neuer Apps: Seien Sie vorsichtig bei der Rechtevergabe.
+
+App-Download mit Bedacht.
+
+Laden Sie nur Apps herunter, die Sie wirklich brauchen. Greifen Sie dabei zum Beispiel auf GMX Mobile oder andere seriöse Quellen zu. Kundenbewertungen bieten auch gute Orientierung. Mehr dazu im GMX Blog !
+
+WLAN und Bluetooth
+
+Wenn Sie WLAN und Bluetooth nicht benötigen, deaktivieren Sie beides. In öffentlichen WLAN-Hotspots sind Passwörter und Zugangskennungen oft im Klartext zu sehen. Stellen Sie außerdem sicher, dass Ihr privates WLAN gut geschützt ist !
+
+Mobilen Zugang absichern
+
+Nutzen Sie die GMX Mail App und kommt Ihr Smartphone abhanden, schützen Sie Ihren E-Mail-Account vor Fremdzugriff: Setzen Sie dazu einfach Ihren mobilen Zugang zurück .
+
+Aktuelles rund um Sicherheit
+
+Zum GMX Blog
+
+GMX Mail & Cloud
+
+E-Mail-Postfach
+
+GMX FreeMail
+
+GMX Cloud
+
+GMX App
+
+Tipps & Infos
+
+GMX Blog
+
+GMX Hilfe
+
+GMX Sicherheit
+
+Sicherheitsinitiativen von GMX
+
+Sitemap
+
+Impressum
+
+Verträge hier kündigen/widerrufen
+
+AGB
+
+Datenschutz
+
+Datenschutz-Einstellungen
+
+Barrierefreiheit
+
+Jobs

@@ -1,0 +1,163 @@
+{
+ "company": "Discord",
+ "searchedAt": "2026-07-26",
+ "documents": [
+  {
+   "doc": "guidelines",
+   "chars": 15015
+  },
+  {
+   "doc": "law-enforcement",
+   "chars": 12962
+  },
+  {
+   "doc": "play-safety",
+   "chars": 4770
+  },
+  {
+   "doc": "privacy",
+   "chars": 37955
+  },
+  {
+   "doc": "terms",
+   "chars": 61981
+  }
+ ],
+ "totalChars": 132683,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "guidelines",
+     "quote": "…to create media depicting child sexual abuse or child sexualization. We report child sexual abuse material (CSAM) and grooming to the National Center for Missing & Exploited Children , which may subsequently work with loca…"
+    },
+    {
+     "doc": "guidelines",
+     "quote": "…18. This includes soliciting, sharing, or exchanging sexual content. We report child sexual abuse material (CSAM) and grooming to the National Center for Missing & Exploited Children , which may subsequently work with loca…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 4,
+   "samples": [
+    {
+     "doc": "guidelines",
+     "quote": "…it, share, or make attempts to distribute content on Discord that depicts, promotes, or attempts to normalize child sexual abuse. This includes manipulated, non-manipulated, or synthetic (artificial intelligence-generated) media involving…"
+    },
+    {
+     "doc": "guidelines",
+     "quote": "…en. This also includes animation, drawing, text, and technical commands or prompts to create media depicting child sexual abuse or child sexualization. We report child sexual abuse material (CSAM) and grooming to the National Center for…"
+    },
+    {
+     "doc": "guidelines",
+     "quote": "…technical commands or prompts to create media depicting child sexual abuse or child sexualization. We report child sexual abuse material (CSAM) and grooming to the National Center for Missing & Exploited Children , which may subsequently…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "law-enforcement",
+     "quote": "…iew and, if appropriate, files a Cybertip report with the National Center for Missing and Exploited Children (NCMEC) . NCMEC will then work with local and international law enforcement as necessary. Law enforcement submitting…"
+    },
+    {
+     "doc": "law-enforcement",
+     "quote": "…if appropriate, files a Cybertip report with the National Center for Missing and Exploited Children (NCMEC) . NCMEC will then work with local and international law enforcement as necessary. Law enforcement submitting a reques…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…nerating transcriptions of content as part of our investigation, detecting fraud and malware, and proactively scanning attachments and other content for illegal or harmful activity. We also use certain information, which may inc…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 0,
+   "samples": []
+  }
+ ]
+}

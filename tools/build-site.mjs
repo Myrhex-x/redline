@@ -46,7 +46,8 @@ const ARCH = join(ROOT, "archive");
 for (const dir of existsSync(ARCH) ? readdirSync(ARCH) : []) {
   const entry = { docs: new Map(), label: null, labelMeta: null };
   for (const f of readdirSync(join(ARCH, dir))) {
-    if (f === "appstore-label.json") entry.label = loadJSON(join(ARCH, dir, f), null);
+    if (f === "terms-search.json") entry.terms = loadJSON(join(ARCH, dir, f), null);
+    else if (f === "appstore-label.json") entry.label = loadJSON(join(ARCH, dir, f), null);
     else if (f === "appstore-label.meta.json") entry.labelMeta = loadJSON(join(ARCH, dir, f), null);
     else if (f.endsWith(".meta.json"))
       entry.docs.set(f.replace(/\.meta\.json$/, ""), loadJSON(join(ARCH, dir, f), {}));
@@ -85,8 +86,8 @@ const STATUS = {
     verdict: "Scans under US law · no EU evidence",
     blurb: "Their documents disclose content scanning under US law (NCMEC reporting, PhotoDNA). No evidence found that they invoke the EU derogation for private communications — US-law scanning and Chat Control are separate regimes. Absence of evidence is a fact about the public record, not proof of absence: a provider could scan and not disclose it." },
   unclear: { label: "No clear statement", cls: "st-unclear",
-    verdict: "Won't say",
-    blurb: "Not end-to-end encrypted, and no clear public statement about scanning private communications was found either way. Silence measures disclosure, not behavior." },
+    verdict: "No statement found",
+    blurb: "Not end-to-end encrypted, so the provider can read the content — and no public statement about scanning private communications was found either way. Each of these pages shows the full search behind that finding: the vocabulary looked for, the documents searched, and every match in context. Silence measures disclosure, not behaviour." },
   denies: { label: "States it does not scan", cls: "st-denies",
     verdict: "Says it doesn't scan",
     blurb: "The company publicly states that it does not scan message content." },
@@ -637,6 +638,9 @@ p.lede { max-width:58ch; }
   .feed .date, .notes-list .date { flex-basis:100%; }
 }
 
+.termtable td:nth-child(3) { font-size:.85rem; line-height:1.5; }
+.termtable td:nth-child(2) { text-align:right; padding-right:1.4rem; }
+.termtable th:nth-child(2) { text-align:right; padding-right:1.4rem; }
 .signup { border:1px solid var(--line); background:var(--panel); border-radius:16px;
   padding:1.4rem 1.5rem; margin:2.6rem 0 1rem; display:grid; gap:1rem 2.4rem;
   grid-template-columns:1fr; box-shadow:0 1px 2px rgb(0 0 0 / .04); }
@@ -773,6 +777,38 @@ function feedRow(e) {
   </li>`;
 }
 
+/** Receipts for a negative: the published vocabulary, what matched, what did not. */
+function termSearch(a, c) {
+  const t = a.terms;
+  if (!t || !t.documents?.length) return "";
+  const found = t.terms.filter((x) => x.count);
+  const absent = t.terms.filter((x) => !x.count);
+  const rows = found
+    .map(
+      (x) => `<tr>
+      <td><strong>${esc(x.label)}</strong></td>
+      <td class="mono dim">${x.count}</td>
+      <td class="dim">${x.samples.map((sm) => `“${esc(sm.quote)}” <span class="faint mono">— ${esc(sm.doc)}</span>`).join("<br>")}</td>
+    </tr>`
+    )
+    .join("");
+  return `
+  <h2>What we searched for</h2>
+  <p class="note">A status that rests on absence is only as good as the search behind it. On
+  ${fmtDate(t.searchedAt)} every one of ${esc(c.name)}'s ${t.documents.length} archived
+  document${t.documents.length === 1 ? "" : "s"} (${t.totalChars.toLocaleString("en-US")} characters)
+  was searched for the same published vocabulary used on every company here — in English, German and
+  French. Re-run it against this archive yourself with
+  <a href="${REPO}/blob/main/tools/scan-terms.mjs">tools/scan-terms.mjs</a>.</p>
+  ${found.length ? `<div class="scroll"><table class="termtable">
+    <thead><tr><th>Term</th><th>Hits</th><th>In context</th></tr></thead>
+    <tbody>${rows}</tbody>
+  </table></div>` : `<div class="empty">Not one term matched anywhere in these documents. Whatever this
+  company does or does not do, its own tracked documents do not discuss scanning at all.</div>`}
+  ${absent.length ? `<p class="note mt-06"><strong>Found nowhere in these documents:</strong>
+  <span class="dim">${absent.map((x) => esc(x.label)).join(" · ")}</span></p>` : ""}`;
+}
+
 function companyRow(c) {
   const a = archive.get(c.slug) ?? { docs: new Map(), label: null };
   const evts = (changesBySlug.get(c.slug) ?? []).filter((e) => e.kind !== "baseline");
@@ -898,7 +934,7 @@ mkdirSync(OUT, { recursive: true });
     <div class="bignums">
       <a href="#confirmed"><b class="n-red">${groups[0].companies.length}</b><span>scan under Chat Control</span></a>
       <a href="#global"><b class="n-amber">${groups[1].companies.length}</b><span>scan under US law · no EU evidence</span></a>
-      <a href="#unclear"><b class="n-gray">${groups[2].companies.length}</b><span>won't say</span></a>
+      <a href="#unclear"><b class="n-gray">${groups[2].companies.length}</b><span>no statement found</span></a>
       <a href="#denies"><b class="n-greensoft">${groups[3].companies.length}</b><span>says it doesn't</span></a>
       <a href="#e2ee"><b class="n-green">${groups[4].companies.length}</b><span>can't — E2EE</span></a>
     </div>
@@ -1084,6 +1120,7 @@ for (const c of [...companies, ...institutions]) {
   ${a.label ? `<h2>App Store privacy label${a.labelMeta?.app ? ` <span class="dim fw-400">— ${esc(a.labelMeta.app)}</span>` : ""}</h2>
   <p class="note">Apple requires every app to declare the data it collects. This is ${esc(c.name)}'s current declaration, as shown on the App Store; ScanRecords records when it changes.</p>
   ${labelCards(a.label)}` : ""}
+  ${termSearch(a, c)}
   <h2>Record <a class="dim plain fs-85 fw-400" href="/feed/${c.slug}.xml" title="RSS feed of this company's recorded changes only">RSS ↗</a></h2>
   ${timeline}`;
   const cardStatus = inst ? "inst" : (cc.status ?? "unclear");

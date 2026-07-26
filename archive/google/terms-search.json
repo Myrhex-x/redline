@@ -1,0 +1,206 @@
+{
+ "company": "Google (Gmail)",
+ "searchedAt": "2026-07-26",
+ "documents": [
+  {
+   "doc": "child-safety",
+   "chars": 10643
+  },
+  {
+   "doc": "gov-requests",
+   "chars": 7488
+  },
+  {
+   "doc": "play-safety",
+   "chars": 4459
+  },
+  {
+   "doc": "privacy",
+   "chars": 90069
+  }
+ ],
+ "totalChars": 112659,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 21,
+   "samples": [
+    {
+     "doc": "child-safety",
+     "quote": "Jump to Content Overview Introduction Fighting abuse on our own platform and services Tools to fight CSAM Alliances & Programs Tools for partners Toolkit benefits Learn about our tools Testimonials FAQs Toolk…"
+    },
+    {
+     "doc": "child-safety",
+     "quote": "…ual abuse and exploitation and preventing our services from being used to spread child sexual abuse material (CSAM). We invest heavily in fighting child sexual abuse and exploitation online and use our proprietary technolog…"
+    },
+    {
+     "doc": "child-safety",
+     "quote": "…ndustry on programs to share our technical expertise, and develop and share tools to help organisations fight CSAM. Learn more about our child safety toolkit here . Fighting abuse on our own platforms and services Google…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 22,
+   "samples": [
+    {
+     "doc": "child-safety",
+     "quote": "…ls for partners Toolkit benefits Learn about our tools Testimonials FAQs Toolkit interest form Fighting child sexual abuse online Google is committed to fighting online child sexual abuse and exploitation and preventing our service…"
+    },
+    {
+     "doc": "child-safety",
+     "quote": "…ials FAQs Toolkit interest form Fighting child sexual abuse online Google is committed to fighting online child sexual abuse and exploitation and preventing our services from being used to spread child sexual abuse material (CSAM). W…"
+    },
+    {
+     "doc": "child-safety",
+     "quote": "…to fighting online child sexual abuse and exploitation and preventing our services from being used to spread child sexual abuse material (CSAM). We invest heavily in fighting child sexual abuse and exploitation online and use our propri…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 7,
+   "samples": [
+    {
+     "doc": "child-safety",
+     "quote": "…hes of known CSAM. When we find CSAM, we report it to the National Center for Missing and Exploited Children (NCMEC), which liaises with law enforcement agencies around the world. Visit NCMEC Collaborating globally We coll…"
+    },
+    {
+     "doc": "child-safety",
+     "quote": "…Missing and Exploited Children (NCMEC), which liaises with law enforcement agencies around the world. Visit NCMEC Collaborating globally We collaborate with NCMEC and other organizations globally in our efforts to combat…"
+    },
+    {
+     "doc": "child-safety",
+     "quote": "…ses with law enforcement agencies around the world. Visit NCMEC Collaborating globally We collaborate with NCMEC and other organizations globally in our efforts to combat online child sexual abuse. As part of these efforts…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 3,
+   "samples": [
+    {
+     "doc": "child-safety",
+     "quote": "…rt CSAM with trained specialist teams and cutting-edge technology, including machine learning classifiers and hash-matching technology, which creates a “hash”, or unique digital fingerprint, for an image or a video so it can be co…"
+    },
+    {
+     "doc": "child-safety",
+     "quote": "…CSAM we share with NCMEC. These hashes help other platforms identify CSAM at scale. Contributing to the NCMEC hash database is one of the important ways we, and others in the industry, can help in the effort to combat CSAM because it…"
+    },
+    {
+     "doc": "child-safety",
+     "quote": "…faster and with more precision so they can report it to the authorities. Used by CSAI Match Used for Video hash matching In 2014, YouTube engineers developed and adopted technology to tag and remove known CSAM videos from our…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "child-safety",
+     "quote": "…al abuse imagery is illegal, with information on how to report this content to trusted organizations like the Internet Watch Foundation in the UK, the Canadian Centre for Child Protection and Te Protejo in Colombia. When these warnings are shown…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 6,
+   "samples": [
+    {
+     "doc": "child-safety",
+     "quote": "…dentify and report CSAM with trained specialist teams and cutting-edge technology, including machine learning classifiers and hash-matching technology, which creates a “hash”, or unique digital fingerprint, for an image or a video…"
+    },
+    {
+     "doc": "child-safety",
+     "quote": "…ed for previously unseen image and video content For many years, Google has been working on machine learning classifiers to allow us to proactively identify never-before-seen CSAM imagery so it can be reviewed and, if confirmed a…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…dio technologies. We use publicly available information online or from other public sources to help train new machine learning models and build foundational technologies that power various Google products such as Google Translate, Gemini Apps…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 3,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…We use different technologies to process your information for these purposes. We use automated systems that analyze your content to provide you with things like customized search results, personalized ads, or other features tailored to ho…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…e customized search results, personalized ads, or other features tailored to how you use our services. And we analyze your content to help us detect abuse such as spam, malware, and illegal content. We also use algorithms to recognize patte…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…uch as the IP addresses that accessed your mail, the associated location, and the date and time of access. We analyze your content to help us detect abuse such as spam, malware, and illegal content. For example, YouTube likeness detection h…"
+    }
+   ]
+  }
+ ]
+}

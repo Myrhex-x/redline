@@ -1,0 +1,155 @@
+{
+ "company": "European Parliament",
+ "searchedAt": "2026-07-26",
+ "documents": [
+  {
+   "doc": "csar-train",
+   "chars": 17517
+  }
+ ],
+ "totalChars": 17517,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 3,
+   "samples": [
+    {
+     "doc": "csar-train",
+     "quote": "…nd expired on 3 April 2026 as its new extension was not agreed ( see the related wagon: 'e-Privacy Directive: Derogation to combat child sexual abuse online' and 'EU Strategy for a more effective fight against child sexual' abuse'…"
+    },
+    {
+     "doc": "csar-train",
+     "quote": "…bating child sexual abuse Directive (2011/93/EU)' for more details. See also our files 'e-Privacy Directive: Derogation to combat child sexual abuse online' and 'EU Strategy for a more effective fight against child sexual' abuse'…"
+    },
+    {
+     "doc": "csar-train",
+     "quote": "…European Commission, Proposal for a Regulation of the European Parliament and of the Council on a temporary derogation from certain provisions of Directive 2002/58/EC of the European Parliament and of the Council as regards the…"
+    }
+   ]
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 3,
+   "samples": [
+    {
+     "doc": "csar-train",
+     "quote": "…ch as webmail, messaging services and internet telephony, to derogate from the privacy rules contained in the ePrivacy Directive to enable them to continue to detect and report child sexual abuse material online on a voluntary b…"
+    },
+    {
+     "doc": "csar-train",
+     "quote": "…s was extended once and expired on 3 April 2026 as its new extension was not agreed ( see the related wagon: 'e-Privacy Directive: Derogation to combat child sexual abuse online' and 'EU Strategy for a more effective fight agains…"
+    },
+    {
+     "doc": "csar-train",
+     "quote": "…a revision of the combating child sexual abuse Directive (2011/93/EU)' for more details. See also our files 'e-Privacy Directive: Derogation to combat child sexual abuse online' and 'EU Strategy for a more effective fight agains…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 23,
+   "samples": [
+    {
+     "doc": "csar-train",
+     "quote": "…ch About Contact Go back Commission 2019-24 Promoting our European Way of Life New legislation to fight child sexual abuse online New legislation to fight child sexual abuse online In “Promoting our European Way of Life” Actions…"
+    },
+    {
+     "doc": "csar-train",
+     "quote": "…moting our European Way of Life New legislation to fight child sexual abuse online New legislation to fight child sexual abuse online In “Promoting our European Way of Life” Actions subscribe Contact Back Metadata Status: Tabled…"
+    },
+    {
+     "doc": "csar-train",
+     "quote": "…20/11/2020 23/10/2020 In its communication presenting the new EU strategy for a more effective fight against child sexual abuse, the European Commission announced a series of measures to tackle child sexual abuse online, including new le…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "csar-train",
+     "quote": "…or instance, it includes in its scope search engines and other artificial intelligence systems and limits CSA scanning in E2E encryption to metadata analysis in order to detect suspicious patterns of behavior without having acce…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 0,
+   "samples": []
+  }
+ ]
+}

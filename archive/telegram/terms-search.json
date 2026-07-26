@@ -1,0 +1,177 @@
+{
+ "company": "Telegram",
+ "searchedAt": "2026-07-26",
+ "documents": [
+  {
+   "doc": "faq",
+   "chars": 71235
+  },
+  {
+   "doc": "play-safety",
+   "chars": 1709
+  },
+  {
+   "doc": "privacy",
+   "chars": 31083
+  },
+  {
+   "doc": "safety",
+   "chars": 3833
+  },
+  {
+   "doc": "terms",
+   "chars": 14994
+  },
+  {
+   "doc": "transparency",
+   "chars": 2107
+  }
+ ],
+ "totalChars": 124961,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 8,
+   "samples": [
+    {
+     "doc": "safety",
+     "quote": "…utting-edge AI moderation tools . 21 204 392 Groups and channels blocked in 2026 How do I report content? CSAM Groups and Channels Banned Telegram enforces a zero-tolerance policy for Child Sexual Abuse Materials (CSAM)…"
+    },
+    {
+     "doc": "safety",
+     "quote": "…CSAM Groups and Channels Banned Telegram enforces a zero-tolerance policy for Child Sexual Abuse Materials (CSAM). Since 2018, public images are automatically checked against a hash database of CSAM banned by our moderator…"
+    },
+    {
+     "doc": "safety",
+     "quote": "…Sexual Abuse Materials (CSAM). Since 2018, public images are automatically checked against a hash database of CSAM banned by our moderators over the past decade. In 2024, we expanded this database with hashes from organizat…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "safety",
+     "quote": "…026 How do I report content? CSAM Groups and Channels Banned Telegram enforces a zero-tolerance policy for Child Sexual Abuse Materials (CSAM). Since 2018, public images are automatically checked against a hash database of CSAM banned…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "safety",
+     "quote": "…policy for Child Sexual Abuse Materials (CSAM). Since 2018, public images are automatically checked against a hash database of CSAM banned by our moderators over the past decade. In 2024, we expanded this database with hashes from o…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "safety",
+     "quote": "…moderators over the past decade. In 2024, we expanded this database with hashes from organizations like the Internet Watch Foundation . Telegram publishes daily transparency reports on the removal of CSAM content. 324 996 CSAM-related groups…"
+    },
+    {
+     "doc": "safety",
+     "quote": "…on 7,131 6,528 2,060 1,028 National Center for Missing & Exploited Children 1,933 3,583 2,069 1,091 Internet Watch Foundation 107 162 1,336 1,007 Total content blocked 11,313 32,874 12,675 16,965 * Between 16 September and 22…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "faq",
+     "quote": "…can also set up a Passkey to log in without an SMS code at all, using your device's PIN, fingerprint or face scan. Q: Why can jailbroken and rooted devices be dangerous? Using a rooted or jailbroken device makes it easier…"
+    },
+    {
+     "doc": "faq",
+     "quote": "…ou can log in to your device simply by entering a PIN code or biometric data like your Face ID or fingerprint scan. Passkeys are an additional login method that can be used instead of SMS to instantly enter your account – e…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…bot . In case of more serious violations, your account may be banned. We may also use automated algorithms to analyze messages in cloud chats to stop spam and phishing. 5.4. Cross-Device Functionality We may also store some aggregated…"
+    }
+   ]
+  }
+ ]
+}

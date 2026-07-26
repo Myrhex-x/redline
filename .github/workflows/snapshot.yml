@@ -40,6 +40,9 @@ jobs:
             && npx playwright install --with-deps chromium >/dev/null 2>&1 \
             && node tools/headless.mjs || echo "headless lane skipped"
 
+      - name: Search every document for the published scanning vocabulary
+        run: node tools/scan-terms.mjs
+
       - name: Record history entries
         run: node tools/history.mjs
 

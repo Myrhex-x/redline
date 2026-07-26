@@ -1,0 +1,155 @@
+{
+ "company": "TikTok",
+ "searchedAt": "2026-07-26",
+ "documents": [
+  {
+   "doc": "guidelines",
+   "chars": 7448
+  },
+  {
+   "doc": "play-safety",
+   "chars": 5003
+  },
+  {
+   "doc": "privacy",
+   "chars": 46778
+  }
+ ],
+ "totalChars": 59229,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…ere it is necessary to protect your or someone else's life, physical integrity, or safety. This could include scanning Messages and associated metadata where permitted by law. Click here to learn more. This could also include pr…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 3,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…hat apply to you. We review User Content and other information through a mix of technology (including through automated means) and human moderation to protect the safety and well-being of our community. Provide certain interactive feat…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…lines, or policies. We use your information to enforce our Terms, Guidelines, and policies (including through automated means and human moderation). This may include age restricting or removing content, maintaining our For You feed eli…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…lines, or policies. We use your information to enforce our Terms, Guidelines, and policies (including through automated means and human moderation). This may include age restricting or removing content, maintaining our For You feed eli…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…vices, analysing how people are using it, and by training, testing, and improving our technology, such as our machine learning models and algorithms. Share your information with third party platforms to provide you with features, like content…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…op, test, and make improvements to the Platform, including to develop and improve our technology, such as our machine learning models and algorithms. We also use this information to better understand and promote the Platform, popular topics,…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…You” feed and content creation tools. Enforce our Terms, Guidelines, and other policies that apply to you. We review User Content and other information through a mix of technology (including through automated means) and human moderation to…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…d promote the Platform, popular topics, and emerging trends, and offer certain personalised features. We also review messages you exchange with customer support to improve technologies supporting such functions. Legitimate Interest rel…"
+    }
+   ]
+  }
+ ]
+}

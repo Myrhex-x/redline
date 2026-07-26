@@ -1,0 +1,161 @@
+{
+ "company": "European Commission",
+ "searchedAt": "2026-07-26",
+ "documents": [
+  {
+   "doc": "csa-policy",
+   "chars": 27911
+  }
+ ],
+ "totalChars": 27911,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "csa-policy",
+     "quote": "…e Interim Regulation Proposal for an extension of the Interim Regulation (Regulation amending Regulation (EU) 2021/1232 of the European Parliament and of the Council on a temporary derogation from certain provisions of Directive…"
+    }
+   ]
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "csa-policy",
+     "quote": "…n (Regulation amending Regulation (EU) 2021/1232 of the European Parliament and of the Council on a temporary derogation from certain provisions of Directive 2002/58/EC for the purpose of combating online child sexual abuse) 2022…"
+    },
+    {
+     "doc": "csa-policy",
+     "quote": "…ion of children 2021, 24 March EU Strategy on the Rights of the Child 2021, 6 July Adoption of the ePrivacy derogation/short term legislation 2020, 24 July EU Strategy for a more effective fight Against Child Sexual Abuse 2020…"
+    }
+   ]
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "csa-policy",
+     "quote": "…exploitation of children 2021, 24 March EU Strategy on the Rights of the Child 2021, 6 July Adoption of the ePrivacy derogation/short term legislation 2020, 24 July EU Strategy for a more effective fight Against Child Sexual…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "csa-policy",
+     "quote": "…entrance fee’ in exchange for (new, unseen) child sexual abuse material. Viewing child sexual abuse material (CSAM) is therefore not just a passive crime; it actively fuels the demand for more content to be produced. Each ti…"
+    },
+    {
+     "doc": "csa-policy",
+     "quote": "…rther promoting the cycle of abuse and victimisation. Research also shows that almost half of those that view CSAM seek contact with children to abuse them. Technological development has also fuelled demand for child sexual…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 47,
+   "samples": [
+    {
+     "doc": "csa-policy",
+     "quote": "…firearms Counterfeiting See all Protecting children from sexual abuse Funding to support the fight against child sexual abuse Cooperation against child sexual abuse EU versus Child Sexual Abuse Legal framework to protect children What…"
+    },
+    {
+     "doc": "csa-policy",
+     "quote": "…ecting children from sexual abuse Funding to support the fight against child sexual abuse Cooperation against child sexual abuse EU versus Child Sexual Abuse Legal framework to protect children What is the EU doing to protect children fro…"
+    },
+    {
+     "doc": "csa-policy",
+     "quote": "…buse Funding to support the fight against child sexual abuse Cooperation against child sexual abuse EU versus Child Sexual Abuse Legal framework to protect children What is the EU doing to protect children from sexual abuse? See all Dis…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "csa-policy",
+     "quote": "…ts in 2010 to almost 35.9 million in 2023, including nearly 105.6 million images and videos. According to the Internet Watch Foundation , the EU stills ranks highest in the world for hosting images and videos of child sexual abuse, with three in…"
+    },
+    {
+     "doc": "csa-policy",
+     "quote": "…ds (BIK+) EU Security Union Strategy Data and statistics National Centre for Missing and Exploited Children Internet Watch Foundation INHOPE WeProtect Global Alliance - against child sexual exploitation and abuse online Support Helplinks for…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 0,
+   "samples": []
+  }
+ ]
+}

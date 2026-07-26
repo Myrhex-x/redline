@@ -1,0 +1,154 @@
+{
+ "company": "Snapchat",
+ "searchedAt": "2026-07-26",
+ "documents": [
+  {
+   "doc": "guidelines",
+   "chars": 16617
+  },
+  {
+   "doc": "play-safety",
+   "chars": 4783
+  },
+  {
+   "doc": "privacy",
+   "chars": 37036
+  }
+ ],
+ "totalChars": 58436,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 3,
+   "samples": [
+    {
+     "doc": "guidelines",
+     "quote": "…re especially concerned with violations that pose a risk of severe harm to Snapchatters. Severe harms include child sexual exploitation, terrorism, and violent extremism, as well as other illegal content and conduct. When we identify accounts en…"
+    },
+    {
+     "doc": "guidelines",
+     "quote": "…al Content We prohibit any activity that invlolves sexual exploitation or abuse of a minor, including sharing child sexual exploitation or abuse imagery, grooming for sexual purposes, sexual extortion (sextortion), or attempts to persuade, trick…"
+    },
+    {
+     "doc": "guidelines",
+     "quote": "…ohibit sexual extortion (sextortion), or the sexualisation of children. We report all identified instances of child sexual exploitation to authorities, including attempts to engage in such conduct. Never post, save, send, forward, distribute or…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…lp protect your account and can send you email or text messages if we notice any suspicious activity. We also scan URLs sent on Snapchat to see if that webpage is potentially harmful and can give you a warning about it. Cont…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…offered by our integrated partners. Examples include integrations in Lenses, Camera editing tools, to provide Scan results and third-party developer integrations. Through these integrations, you may be providing information…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 5,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…our Services and your choices, please check out our Cookie Policy . Develop & Improve Features, Algorithms & Machine Learning Models Our teams are constantly coming up with new ideas for features and ways to improve our Services. In order to…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…eatures and ways to improve our Services. In order to do this, we also develop and improve the algorithms and machine learning models (an expression of an algorithm that combs through significant amounts of data to find patterns or make predi…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…their input training data and then generate new data that has similar characteristics). We use algorithms and machine learning models for personalisation, advertising, safety and security, fairness and inclusivity, augmented reality and to pr…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 0,
+   "samples": []
+  }
+ ]
+}

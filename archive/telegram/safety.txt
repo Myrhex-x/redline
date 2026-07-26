@@ -1,0 +1,196 @@
+EN
+English
+Bahasa Indonesia
+Bahasa Melayu
+Deutsch
+Español
+Français
+Italiano
+Nederlands
+O‘zbek
+Polski
+Português (Brasil)
+Türkçe
+Беларуская
+Русский
+Українська
+Қазақша
+العربية
+فارسی
+한국어
+
+Follow on X
+
+Home
+
+FAQ
+
+Apps
+
+API
+
+Safety
+
+Telegram Safety Overview
+
+Total Groups and Channels Blocked
+
+Telegram blocks tens of thousands of groups and channels daily and removes millions of pieces of content that violate its Terms of Service , including incitement to violence, sharing child abuse materials, and trading illegal goods.
+
+Since 2015, moderation has combined user reports with proactive monitoring powered by machine learning. In early 2024, this effort was further enhanced with cutting-edge AI moderation tools .
+
+21 204 392
+
+Groups and channels blocked in 2026
+
+How do I report content?
+
+CSAM Groups and Channels Banned
+
+Telegram enforces a zero-tolerance policy for Child Sexual Abuse Materials (CSAM). Since 2018, public images are automatically checked against a hash database of CSAM banned by our moderators over the past decade.
+
+In 2024, we expanded this database with hashes from organizations like the Internet Watch Foundation . Telegram publishes daily transparency reports on the removal of CSAM content.
+
+324 996
+
+CSAM-related groups and channels blocked in 2026
+
+How do I report child abuse?
+
+CSAM Blocked via NGO reports
+
+Organization
+
+Jan—Jun 2024
+
+Jul—Dec 2024
+
+Jan—Jun 2025
+
+Jul—Dec 2025
+
+Stichting Offlimits
+
+2,142
+
+22,601 *
+
+7,210
+
+13,839
+
+Canadian Centre for Child Protection
+
+7,131
+
+6,528
+
+2,060
+
+1,028
+
+National Center for Missing & Exploited Children
+
+1,933
+
+3,583
+
+2,069
+
+1,091
+
+Internet Watch Foundation
+
+107
+
+162
+
+1,336
+
+1,007
+
+Total content blocked
+
+11,313
+
+32,874
+
+12,675
+
+16,965
+
+* Between 16 September and 22 October 2024 , Telegram received 17,554 new reports about CSAM content from Stichting Offlimits , all of which was banned immediately .
+
+In addition to its proactive measures and user reports, Telegram processes thousands of reports on CSAM from global third-party organizations via automated takedown addresses :
+
+abuse@telegram.org
+
+stopCA@telegram.org
+
+The table lists the top four NGOs that submitted takedown reports to Telegram in 2025.
+
+Banned Terrorist Communities
+
+Calls to violence and terrorist propaganda have no place on Telegram. Since 2016, Telegram has published daily transparency reports on the removal of terrorist content. Telegram’s anti-terrorism efforts have been recognized by Europol .
+
+Since 2022, Telegram has significantly scaled its efforts in partnership with organizations like ETIDAL, the Global Center for Combating Extremist Ideology. Through its collaboration with ETIDAL alone, Telegram’s moderators have removed over 200 million pieces of terrorist content.
+
+151 287
+
+Terrorist-related communities blocked in 2026
+
+How do I report terrorist content?
+
+How can I report content on Telegram?
+
+All Telegram apps allow users to report messages to moderators. To report a message, tap it on Android, hold it on iOS, or right-click it on Desktop or Web, then select 'Report.' Choose a reason for your report and provide a comment if needed.
+
+You can also report search terms that may be used to find illegal content in your country through the official @SearchReport bot.
+
+Users in the European Union are welcome to report any illegal content via Telegram's dedicated DSA form . EU authorities can obtain Telegram's contact points under the DSA using the instructions here .
+
+For more information, please see our User guidance for the EU Digital Services Act .
+
+Telegram
+
+Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+
+About
+
+FAQ
+
+Privacy
+
+Press
+
+Mobile Apps
+
+iPhone/iPad
+
+Android
+
+Mobile Web
+
+Desktop Apps
+
+PC/Mac/Linux
+
+macOS
+
+Web-browser
+
+Platform
+
+API
+
+Translations
+
+Instant View
+
+About
+
+Blog
+
+Press
+
+Safety

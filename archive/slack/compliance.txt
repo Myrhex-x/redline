@@ -1,0 +1,682 @@
+Skip to main content
+
+Features COLLABORATION
+Channels
+
+Organize teams and work
+
+Slack Connect
+
+Work with external partners
+
+Messaging
+
+Chat with your team
+
+Huddles
+
+Meet with audio and video
+
+Clips
+
+Record and share updates
+
+CRM
+Salesforce in Slack
+
+Bring Salesforce into the flow of work
+
+Slack CRM for Small Business
+
+Manage customers in Slack with the help of Slackbot
+
+PROJECT MANAGEMENT
+Templates
+
+Start any task, fast
+
+Canvas
+
+Create rich, flexible docs
+
+Lists
+
+Organize, track and manage projects
+
+File Sharing
+
+Bring files to the flow of work
+
+PLATFORM
+Agentic Platform
+
+Customize, extend, and unify your tech stack in Slack
+
+Apps & Integrations
+
+Connect your tools with Slack
+
+Workflow Builder
+
+Automate everyday tasks
+
+INTELLIGENCE
+AI in Slack
+
+Save time and work smarter with powerfully simple AI
+
+Slackbot
+
+Power productivity with your personal AI agent
+
+Agentforce
+
+Empower your whole team with AI-powered agents in Slack
+
+Enterprise Search
+
+Find anything, all from a single search bar
+
+ADMIN & SECURITY
+Security
+
+Protect data, ensure compliance
+
+Enterprise Key Management
+
+Monitor and revoke access
+
+Slack Atlas
+
+Discover rich profiles and org charts
+
+Watch demo
+Download Slack
+See all features
+
+Slack Marketplace
+Find new agents and apps that fit your team’s needs.
+Browse marketplace
+
+Feature Releases
+Partner Apps MCP, and more
+See what’s new
+
+What is Slack?
+Slack vs. Teams
+Accessibility
+
+Solutions BY DEPARTMENT
+Engineering
+
+IT
+
+Customer Service
+
+Sales
+
+Project Management
+
+Marketing
+
+Human Resources
+
+Security
+
+BY INDUSTRY
+Manufacturing, Auto & Energy
+
+Technology
+
+Media
+
+Small Business
+
+Financial Services
+
+Retail
+
+Education
+
+Health & Life Sciences
+
+Watch demo
+Download Slack
+See all solutions
+
+TEMPLATE GALLERY
+Start work faster with pre-made templates for every task.
+See all templates
+
+Task Management
+Scale
+Engagement
+Trust
+
+Enterprise
+
+Resources Resources Library
+
+What’s New
+
+Product Tour
+
+Events
+
+Developers
+
+Partner Program
+
+Customer Stories
+
+Community
+
+Slack Certified
+
+Blog
+
+Slack Marketplace
+
+Watch demo
+Download Slack
+
+FEATURED
+Winning in the AI era of work.
+Learn more
+
+Help Center
+Customer Support
+
+Pricing
+
+Search
+Sign in Request a demo Get started
+
+Get started
+
+Back
+Features COLLABORATION
+Channels
+
+Organize teams and work
+
+Slack Connect
+
+Work with external partners
+
+Messaging
+
+Chat with your team
+
+Huddles
+
+Meet with audio and video
+
+Clips
+
+Record and share updates
+
+CRM
+Salesforce in Slack
+
+Bring Salesforce into the flow of work
+
+Slack CRM for Small Business
+
+Manage customers in Slack with the help of Slackbot
+
+PROJECT MANAGEMENT
+Templates
+
+Start any task, fast
+
+Canvas
+
+Create rich, flexible docs
+
+Lists
+
+Organize, track and manage projects
+
+File Sharing
+
+Bring files to the flow of work
+
+PLATFORM
+Agentic Platform
+
+Customize, extend, and unify your tech stack in Slack
+
+Apps & Integrations
+
+Connect your tools with Slack
+
+Workflow Builder
+
+Automate everyday tasks
+
+INTELLIGENCE
+AI in Slack
+
+Save time and work smarter with powerfully simple AI
+
+Slackbot
+
+Power productivity with your personal AI agent
+
+Agentforce
+
+Empower your whole team with AI-powered agents in Slack
+
+Enterprise Search
+
+Find anything, all from a single search bar
+
+ADMIN & SECURITY
+Security
+
+Protect data, ensure compliance
+
+Enterprise Key Management
+
+Monitor and revoke access
+
+Slack Atlas
+
+Discover rich profiles and org charts
+
+Watch demo
+Download Slack
+See all features
+
+Slack Marketplace
+Find new agents and apps that fit your team’s needs.
+Browse marketplace
+
+Feature Releases
+Partner Apps MCP, and more
+See what’s new
+
+What is Slack?
+Slack vs. Teams
+Accessibility
+
+Solutions BY DEPARTMENT
+Engineering
+
+IT
+
+Customer Service
+
+Sales
+
+Project Management
+
+Marketing
+
+Human Resources
+
+Security
+
+BY INDUSTRY
+Manufacturing, Auto & Energy
+
+Technology
+
+Media
+
+Small Business
+
+Financial Services
+
+Retail
+
+Education
+
+Health & Life Sciences
+
+Watch demo
+Download Slack
+See all solutions
+
+TEMPLATE GALLERY
+Start work faster with pre-made templates for every task.
+See all templates
+
+Task Management
+Scale
+Engagement
+Trust
+
+Enterprise
+
+Resources Resources Library
+
+What’s New
+
+Product Tour
+
+Events
+
+Developers
+
+Partner Program
+
+Customer Stories
+
+Community
+
+Slack Certified
+
+Blog
+
+Slack Marketplace
+
+Watch demo
+Download Slack
+
+FEATURED
+Winning in the AI era of work.
+Learn more
+
+Help Center
+Customer Support
+
+Pricing
+
+Sign in Request a demo Get started
+
+Compliance Meet global standards for privacy and security
+
+Slack adheres to GDPR, CCPA and other privacy and security regulations. We also have policies and controls for you to manage security threats, keep your data safe and help you meet your compliance obligations.
+
+GDPR CCPA Data Residency Data Processing Addenda Global Trade Compliance FedRAMP
+
+Need help finding the information you need to complete your security or privacy questionnaire? We’ve organized our compliance resources so you can demonstrate Slack’s ability to meet your organization's requirements.
+Read our white paper on compliance
+
+Read our Transfer Impact Assessment
+
+Compliance certifications and attestations
+ISO/IEC 27001
+Information Security Management System (ISMS)
+
+Download certificate
+ISO/IEC 27017
+Security Controls for the Provision and Use of Cloud Services
+
+Download certificate
+ISO/IEC 27018
+Protection of Personally Identifiable Information (PII)
+
+Download certificate
+ISO/IEC 27701
+Privacy Information Management System (PIMS)
+
+Download certificate
+ISO/IEC 42001
+Information technology — Artificial intelligence — Management system
+
+Download certificate
+SOC 2
+(Type Ⅱ)
+Trust Services Principles
+
+SOC 3
+Service Organization Controls
+
+Download report
+GovSlack SOC 2
+(Type Ⅱ)
+Trust Services Principles
+
+GovSlack SOC 3
+Service Organization Control
+
+Download report
+Global PRP Certification*
+Global Privacy Recognition for Processors Minimum Requirements
+
+Download certificate
+Global CBPR Certification*
+Global Cross Border Privacy Rules Minimum Requirements
+
+Download certificate
+CSA
+Cloud Security Alliance
+
+View STAR Registry Listing
+
+* The Global CBPR System Certification Mark and Global PRP System Certification Mark™ are trademarks of the International Trade Administration/Office of Global Data Policy and Privacy, used with permission.
+
+Meet specific industry regulations and international security and data privacy standards
+
+Health Insurance Portability and Accountability Act (HIPAA)
+Slack can be configured for HIPAA compliance, including electronically protected health information (e-PHI).
+Request requirements for HIPAA entities
+
+Financial Industry Regulatory Authority (FINRA)
+Slack is FINRA 17a-4 configurable so your team can collaborate and still meet your compliance requirements.
+
+Federal Risk and Authorization Management Program (FedRAMP)
+Slack is FedRAMP Moderate authorized to meet the compliance needs of organizations in the public sector with an Enterprise or Enterprise+ Slack plan and properly configured in accordance with the Secure Configuration Guide .
+GovSlack is FedRAMP JAB High authorized and is also pursing DoD CC SRG IL4 compliance.
+View our Moderate authorization
+View our JAB High authorization
+
+Federal Education Rights and Privacy Act (FERPA)
+Slack supports its educational customers and their unique compliance responsibilities.
+View our policy
+
+Trusted Information Security Assessment Exchange
+Scope-ID SHYV0T
+
+Assessment-ID AMHN37
+
+TISAX and TISAX results are not intended for the general public.
+Request our results
+
+Information Security Registered Assessors Program (IRAP)
+Slack has been assessed by an independent IRAP assessor against the requirements of the Australian Information Security Manual (ISM). Customers can contact their Slack Account team to request a copy of our IRAP report.
+IRAP Assessment Letter
+
+ISMAP
+Information System Security Management and Assessment Program (ISMAP)
+Slack was assessed for the Information System Security Management and Assessment Program (ISMAP), a Japanese Government program evaluating the security posture of cloud service providers. Slack's registration may be viewed on the ISMAP list of registered services.
+View our registration
+
+C5
+Cloud Computing Compliance Criteria Catalog (C5)
+Slack completed its attestation for the Cloud Computing Compliance Criteria Catalog (C5), a standard created by the Federal Office for Information Security (BSI) in Germany. Customers can contact their Slack Account team to request a copy of the C5 report.
+
+South Korea Cloud Service Providers (CSP) Safety Assessment
+Slack completed its evaluation for the Cloud Service Providers (CSP) Safety Assessment, a program performed by the Korean Financial Security Institute (K-FSI) to ensure CSPs comply with a defined set of cybersecurity standards managed by the Regulation on Supervision of Electronic Financial Transactions (RSEFT) program.
+Request our results
+
+Spain Esquema Nacional de Seguridad (ENS)
+The ENS (Esquema Nacional de Seguridad) is a set of security controls and standards that are required to be implemented by service providers to allow the processing of data for Spanish public services (such as governments and public organizations). Slack has achieved ENS High, which is the highest achievable level of accreditation possible.
+View our certificate
+
+Frequently asked questions
+
+How do we help you comply with the GDPR? We are committed to helping our customers and users understand, and where applicable, comply with the General Data Protection Regulation (GDPR). For more, please see our commitment page .
+
+Does the GDPR require EU personal data to stay in the EU? The GDPR does not require EU data to reside in the European Union. Slack’s Data Processing Agreement , and the European Union’s Model Clauses, will continue to ensure compliance for EU personal data transfers outside of the EU.
+
+How do we help you comply with the CCPA? We’re committed to helping Slack customers and users understand and exercise their rights under the California Consumer Privacy Act (CCPA). On this page , we clarify Slack’s role and obligations under the CCPA and provide additional information to help our customers meet their compliance needs.
+
+Do you have a Data Processing Agreement? Slack offers Data Processing Addenda that supplement the Customer Terms of Service or any MSA.
+
+Who are your Subprocessors? This page provides important information about the identity, location and role of Slack Subprocessors.
+
+Does Slack have a Modern Slavery Statement? Slack's Modern Slavery Statement can be found here
+
+Can I request a copy of Slack’s SOC 2? Yes, you can make this request using our Privacy and Security Form
+
+Do you have additional resources for Security questions? We do! Please see our Security Whitepaper or visit our Security page for more information.
+
+esc
+Choose a better way to work
+Get started Request a demo
+
+Change Region
+Selecting a different region will change the language and content of slack.com.
+Americas
+Latinoamérica (español) Brasil (português) United States (English)
+Europe
+Deutschland (Deutsch) España (español) France (français) Italia (italiano) United Kingdom (English)
+Asia Pacific
+简体中文 繁體中文 India (English) 日本 (日本語) 대한민국 (한국어)
+
+Change Region
+
+Product Product
+Watch Demo
+
+Pricing
+
+Paid vs. Free
+
+Accessibility
+
+Featured Releases
+
+Changelog
+
+Status
+
+Why Slack? Why Slack?
+Slack vs. Email
+
+Slack vs. Teams
+
+Enterprise
+
+Small Business
+
+Productivity
+
+Task Management
+
+Scale
+
+Trust
+
+Features Features
+Channels
+
+Slack Connect
+
+Workflow Builder
+
+Messaging
+
+Huddles
+
+Canvas
+
+Lists
+
+Clips
+
+Apps & Integrations
+
+File Sharing
+
+Slack AI
+
+Agentforce
+
+Enterprise Search
+
+Security
+
+Enterprise Key Management
+
+Slack Atlas
+
+See all features
+
+Solutions Solutions
+Engineering
+
+IT
+
+Customer Service
+
+Sales
+
+Project Management
+
+Marketing
+
+Security
+
+Manufacturing, Auto & Energy
+
+Technology
+
+Media
+
+Financial Services
+
+Retail
+
+Public Sector
+
+Education
+
+Health & Life Sciences
+
+See all solutions
+
+Resources Resources
+Help Center
+
+What’s New
+
+Resources Library
+
+Slack Blog
+
+Community
+
+Customer Stories
+
+Events
+
+Developers
+
+Partner Program
+
+Partner Offers
+
+Slack Marketplace
+
+Slack Certified
+
+Company Company
+About Us
+
+News
+
+Media Kit
+
+Brand Center
+
+Careers
+
+Swag Store
+
+Engineering Blog
+
+Design Blog
+
+Contact Us
+
+Download Slack Privacy
+Terms
+Cookie Preferences
+Your Privacy Choices
+
+©2026 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owners.

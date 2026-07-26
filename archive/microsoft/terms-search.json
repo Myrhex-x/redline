@@ -1,0 +1,216 @@
+{
+ "company": "Microsoft (Outlook, Teams)",
+ "searchedAt": "2026-07-26",
+ "documents": [
+  {
+   "doc": "eu-reports",
+   "chars": 9360
+  },
+  {
+   "doc": "photodna",
+   "chars": 5441
+  },
+  {
+   "doc": "play-safety",
+   "chars": 2823
+  },
+  {
+   "doc": "privacy",
+   "chars": 214266
+  }
+ ],
+ "totalChars": 231890,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "eu-reports",
+     "quote": "…Regulation Report 2022 Microsoft Transparency Report – EU Terrorist Content Regulation Report EU Regulation 2021/1232 Regulation (EU) 2021/1232 is a regulation of the European Parliament and of the Council of the EU on a tempor…"
+    },
+    {
+     "doc": "eu-reports",
+     "quote": "…crosoft Transparency Report – EU Terrorist Content Regulation Report EU Regulation 2021/1232 Regulation (EU) 2021/1232 is a regulation of the European Parliament and of the Council of the EU on a temporary derogation from certai…"
+    }
+   ]
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "eu-reports",
+     "quote": "…ulation (EU) 2021/1232 is a regulation of the European Parliament and of the Council of the EU on a temporary derogation from certain provisions of Directive 2002/58/EC concerning the use of technologies by providers of number-ind…"
+    }
+   ]
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 7,
+   "samples": [
+    {
+     "doc": "eu-reports",
+     "quote": "…t to the National Center for Missing and Exploited Children (NCMEC). 2025 Microsoft Transparency Report – EU CSAM Interim Regulation Report (GroupMe) 2025 Microsoft Transparency Report – EU CSAM Interim Regulation Report (O…"
+    },
+    {
+     "doc": "eu-reports",
+     "quote": "…oft Transparency Report – EU CSAM Interim Regulation Report (GroupMe) 2025 Microsoft Transparency Report – EU CSAM Interim Regulation Report (Outlook) 2025 Microsoft Transparency Report – EU CSAM Interim Regulation Report (S…"
+    },
+    {
+     "doc": "eu-reports",
+     "quote": "…oft Transparency Report – EU CSAM Interim Regulation Report (Outlook) 2025 Microsoft Transparency Report – EU CSAM Interim Regulation Report (Skype) 2025 Microsoft Transparency Report – EU CSAM Interim Regulation Report (Tea…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 3,
+   "samples": [
+    {
+     "doc": "eu-reports",
+     "quote": "…nal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse. In scope electronic communication service providers are required to publish an annual transparency report on…"
+    },
+    {
+     "doc": "eu-reports",
+     "quote": "…his regulation. This report provides insight into the use of technologies for the purpose of combating online child sexual abuse in the European Union and reporting such content to the National Center for Missing and Exploited Children (N…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…rities. We also use tools to detect and disrupt the misuse of video-calling capabilities to produce and share child sexual exploitation and abuse imagery by high-risk users. Learn more about our efforts to prevent and detect child exploitation h…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 7,
+   "samples": [
+    {
+     "doc": "eu-reports",
+     "quote": "…e in the European Union and reporting such content to the National Center for Missing and Exploited Children (NCMEC). 2025 Microsoft Transparency Report – EU CSAM Interim Regulation Report (GroupMe) 2025 Microsoft Transparen…"
+    },
+    {
+     "doc": "photodna",
+     "quote": "…ses PhotoDNA technology? Microsoft donated PhotoDNA to the National Center for Missing & Exploited Children (NCMEC). NCMEC is the United States clearinghouse and comprehensive reporting center for all issues related to the p…"
+    },
+    {
+     "doc": "photodna",
+     "quote": "…oDNA technology? Microsoft donated PhotoDNA to the National Center for Missing & Exploited Children (NCMEC). NCMEC is the United States clearinghouse and comprehensive reporting center for all issues related to the preventio…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 22,
+   "samples": [
+    {
+     "doc": "photodna",
+     "quote": "Skip to main content Microsoft PhotoDNA PhotoDNA PhotoDNA Home PhotoDNA Cloud Service FAQ Documentation Terms of Use Contact Us More All Mi…"
+    },
+    {
+     "doc": "photodna",
+     "quote": "Skip to main content Microsoft PhotoDNA PhotoDNA PhotoDNA Home PhotoDNA Cloud Service FAQ Documentation Terms of Use Contact Us More All Microsoft G…"
+    },
+    {
+     "doc": "photodna",
+     "quote": "Skip to main content Microsoft PhotoDNA PhotoDNA PhotoDNA Home PhotoDNA Cloud Service FAQ Documentation Terms of Use Contact Us More All Microsoft Global Mic…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…to block communications or remove content that violates our terms of use. We use scanning technologies (like hash matching) to help prevent harm to our systems, our users, and others as described in our Code of Conduct, and to he…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 3,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…vities. We reserve the right to block communications or remove content that violates our terms of use. We use scanning technologies (like hash matching) to help prevent harm to our systems, our users, and others as described in…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…tect your device when no other antimalware software is running and monitors your device’s security status and scans for malware, unwanted software, and potentially harmful apps. When Microsoft Defender Antivirus is turned on…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…PC Manager is a desktop tool aimed at boosting your PC’s performance. Based on your request, PC Manager will scan your device, and allow you to delete unneeded or temporary documents, optimize cache, stop or recover from un…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…nguage are examples of connected experiences. There are two types of connected experiences. Experiences that analyze your content . Experiences that use your file content to provide you with design recommendations, editing suggestions, dat…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…ying service secure, up to date, and performing as expected. If you choose to use a connected experience that analyzes your content — for example Translate in Word — the text you typed and selected to translate is also sent and processed to…"
+    }
+   ]
+  }
+ ]
+}

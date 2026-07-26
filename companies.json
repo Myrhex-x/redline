@@ -97,15 +97,29 @@
      },
      "minChars": 300,
      "canonical": "lines"
+    },
+    {
+     "id": "safety",
+     "title": "Safety & Moderation",
+     "url": "https://telegram.org/safety"
+    },
+    {
+     "id": "transparency",
+     "title": "Transparency Reports",
+     "url": "https://telegram.org/transparency"
     }
    ],
    "chatControl": {
     "status": "unclear",
-    "note": "Cloud chats are not end-to-end encrypted — Telegram can read them; secret chats are E2EE. In December 2024 Telegram announced use of IWF tools to block known CSAM. Its tracked documents say nothing about scanning private cloud chats, and it is not named in Commission reporting on the derogation.",
+    "note": "Cloud chats are not end-to-end encrypted, so Telegram can read them; only Secret Chats are E2EE. Telegram does disclose automated CSAM detection, but scoped explicitly to public material: images in public groups and channels, hash-matched against its own database and, since 2024, the Internet Watch Foundation's. Nothing in its tracked documents says whether private cloud chats are scanned, and Telegram is not among the five providers filing the derogation's reports. The gap between “public images” and “your private cloud chat” is the whole question here, and Telegram has not answered it.",
     "sources": [
      {
+      "t": "Telegram: Safety & Moderation",
+      "u": "https://telegram.org/safety"
+     },
+     {
       "t": "Archived privacy policy",
-      "u": "/archive/telegram/privacy.txt"
+      "u": "https://telegram.org/privacy"
      }
     ],
     "statusHistory": [
@@ -113,7 +127,9 @@
       "status": "unclear",
       "since": "2026-07-26"
      }
-    ]
+    ],
+    "quote": "public images are automatically checked against a hash database of CSAM banned by our moderators over the past decade",
+    "quoteDoc": "safety page"
    }
   },
   {
@@ -783,15 +799,24 @@
      },
      "minChars": 300,
      "canonical": "lines"
+    },
+    {
+     "id": "compliance",
+     "title": "Trust: Compliance",
+     "url": "https://slack.com/trust/compliance"
     }
    ],
    "chatControl": {
     "status": "unclear",
-    "note": "Workspace content is not end-to-end encrypted — Slack can read it. No statement about scanning private communications found in tracked documents, and not named in Commission reporting.",
+    "note": "Workspace content is not end-to-end encrypted, so Slack can read it. Across four tracked documents and 73,000 characters, the entire published scanning vocabulary is absent — the single match for “scan” refers to conference badges. Slack also sits in an unusual position: for workplace data it acts as a processor for the employer, who controls the content, which may be why its public documents never address the question. Not named in Commission reporting on the derogation.",
     "sources": [
      {
       "t": "Archived privacy policy",
-      "u": "/archive/slack/privacy.txt"
+      "u": "https://slack.com/trust/privacy/privacy-policy"
+     },
+     {
+      "t": "Archived compliance page",
+      "u": "https://slack.com/trust/compliance"
      }
     ],
     "statusHistory": [
@@ -1283,19 +1308,29 @@
      },
      "minChars": 300,
      "canonical": "lines"
+    },
+    {
+     "id": "privacy-de",
+     "title": "Datenschutzhinweise (German, full)",
+     "url": "https://agb-server.gmx.net/datenschutz"
+    },
+    {
+     "id": "security",
+     "title": "E-Mail Sicherheit",
+     "url": "https://www.gmx.net/mail/sicherheit/"
     }
    ],
    "chatControl": {
     "status": "unclear",
-    "note": "Mail is not end-to-end encrypted by default. No statement on voluntary scanning found in tracked documents — and per Breyer’s tracking, “only unencrypted US communication services” make use of the derogation.",
+    "note": "German webmail, not end-to-end encrypted, so the provider can read stored mail. Its full German privacy notice does disclose automated scanning of attachments — for viruses and malware, described as fully automated — and its security pages cover spam filtering. Neither those documents nor any other tracked page mentions CSAM detection, hash matching, or the EU derogation. What GMX scans for, it names; child-abuse scanning is not on that list, and neither is it ruled out in writing.",
     "sources": [
      {
-      "t": "Archived privacy policy",
-      "u": "/archive/gmx/privacy.txt"
+      "t": "Datenschutzhinweise (German, full)",
+      "u": "https://agb-server.gmx.net/datenschutz"
      },
      {
-      "t": "Overview of derogation users (Patrick Breyer)",
-      "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+      "t": "Archived privacy policy (EN)",
+      "u": "https://www.gmx.com/company/privacypolicy/"
      }
     ],
     "statusHistory": [
@@ -1303,7 +1338,9 @@
       "status": "unclear",
       "since": "2026-07-26"
      }
-    ]
+    ],
+    "quote": "auf Viren, Malware und Ähnliches gescannt",
+    "quoteDoc": "German privacy notice"
    }
   },
   {

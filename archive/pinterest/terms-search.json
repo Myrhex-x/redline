@@ -1,0 +1,151 @@
+{
+ "company": "Pinterest",
+ "searchedAt": "2026-07-26",
+ "documents": [
+  {
+   "doc": "guidelines",
+   "chars": 22862
+  },
+  {
+   "doc": "play-safety",
+   "chars": 6511
+  },
+  {
+   "doc": "privacy",
+   "chars": 48876
+  }
+ ],
+ "totalChars": 78249,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "guidelines",
+     "quote": "…unts that might exploit or endanger minors. Pinterest prohibits not just illegal child sexual abuse material (CSAM), but goes a step further to prohibit any content that contributes to the sexualization of minors, including…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 3,
+   "samples": [
+    {
+     "doc": "guidelines",
+     "quote": "…e’ve also put together some resources for you to protect yourself. Child safety Pinterest does not tolerate child sexual exploitation of any kind. That means we enforce a strict, zero-tolerance policy for any content or accounts that might exp…"
+    },
+    {
+     "doc": "guidelines",
+     "quote": "…olicy for any content or accounts that might exploit or endanger minors. Pinterest prohibits not just illegal child sexual abuse material (CSAM), but goes a step further to prohibit any content that contributes to the sexualization of min…"
+    },
+    {
+     "doc": "guidelines",
+     "quote": "…, and report content violations ​​as required under the law. The types of content we remove includes: Illegal child sexual abuse material. Sexualized imagery of minors, including sexualized poses, performances, settings, or attire. Solici…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "guidelines",
+     "quote": "…luding in imagery and text. We also work closely with the National Center for Missing and Exploited Children (NCMEC) to combat this type of activity, and report content violations ​​as required under the law. The types of con…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 2,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…d offer new features. For example, using information to train, develop and improve our technology such as our machine learning models, regardless of when Pins were posted. This includes, for example, Pinterest’s body type technology , which i…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…d offer new features. For example, using information to train, develop and improve our technology such as our machine learning models, regardless of when Pins were posted. Some of this information may be aggregated or de-identified. Here are…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 0,
+   "samples": []
+  }
+ ]
+}
