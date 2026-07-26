@@ -88,8 +88,8 @@ their outcomes stay visible.
    independent timestamps.
 7. [`tools/triage.mjs`](tools/triage.mjs) — flags changes touching scanning
    language for human review (deterministic keywords, no AI in the record path).
-8. [`tools/push.mjs`](tools/push.mjs) / [`tools/toot.mjs`](tools/toot.mjs) —
-   opt-in Web Push alerts and a Mastodon announcement, real changes only.
+8. [`tools/push.mjs`](tools/push.mjs) / [`tools/mail.mjs`](tools/mail.mjs) / [`tools/toot.mjs`](tools/toot.mjs) —
+   opt-in Web Push, double-opt-in email digests, and a Mastodon announcement — real changes only.
 9. Commit. If the run itself fails, a separate workflow opens an alarm issue —
    silence is never mistaken for "no changes". A monthly workflow opens a
    status-review checklist; closing it is the public record that review

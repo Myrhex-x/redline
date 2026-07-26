@@ -71,6 +71,12 @@ jobs:
           npm install --no-save --no-package-lock web-push @neondatabase/serverless >/dev/null 2>&1 \
             && node tools/push.mjs || echo "push lane skipped"
 
+      - name: Send email alert digest for today's changes
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: node tools/mail.mjs || true
+
       - name: Announce today's changes on Mastodon
         env:
           MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}

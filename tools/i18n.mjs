@@ -156,15 +156,21 @@ export const LOCALES = {
       desc: "Une notification dès qu'une entreprise suivie modifie une politique ou une fiche sous le Chat Control. Sans compte, sans e-mail — se désinscrire efface tout.",
       body: () => `
   <h1>Une alerte dès qu'une entreprise bouge</h1>
-  <p class="lede">Dès qu'une entreprise suivie modifie une politique, une promesse de chiffrement ou une fiche App Store, votre téléphone peut le savoir. Gratuit, sans compte, sans e-mail — seul le point de terminaison push de votre navigateur est stocké, et se désinscrire l'efface.</p>
+  <p class="lede">Dès qu'une entreprise suivie modifie une politique, une promesse de chiffrement ou une fiche App Store, votre téléphone ou votre boîte mail peut le savoir. Gratuit, sans compte, double opt-in — nous ne stockons que ce que la livraison exige (un point de terminaison push, ou votre adresse et un jeton), et la désinscription l'efface aussitôt.</p>
   <div class="banner st-e2ee mt-16"><strong>Sur iPhone ou Android, installez d'abord le site</strong>
     <div class="mt-04 dim"><strong>iPhone :</strong> Partager → <em>Sur l'écran d'accueil</em>, puis ouvrez ScanRecords depuis l'écran d'accueil et abonnez-vous (iOS 16.4+).<br><strong>Android :</strong> menu Chrome → <em>Ajouter à l'écran d'accueil</em> — ou abonnez-vous directement.</div></div>
   <p class="mt-14"><button id="subscribe" class="btn">Activer les alertes sur cet appareil</button><button id="unsubscribe" class="btn" hidden>Désactiver les alertes</button></p>
   <p id="alert-status" class="note" aria-live="polite"></p>
+  <h2>Par e-mail, plutôt ?</h2>
+  <p class="note">Les mêmes alertes, par courrier — un condensé les jours où quelque chose change, le silence sinon. Double opt-in : vous recevrez d'abord un lien de confirmation.</p>
+  <form class="mailform" method="post" action="/api/subscribe-email">
+    <input class="mailinput" type="email" name="email" required placeholder="vous@exemple.org" aria-label="Email">
+    <button class="btn" type="submit">Recevoir les alertes par e-mail</button>
+  </form>
   <h2>Ce qui déclenche une notification</h2>
   <ul class="about pl-12"><li>Une entreprise suivie a modifié une politique, des conditions, une page sécurité ou sa fiche App Store — avec le lien vers l'avant/après exact.</li><li>Rien d'autre. La plupart des jours : le silence — c'est le but.</li></ul>
   <h2>La boîte d'honnêteté</h2>
-  <p class="note">La seule page du site avec du JavaScript, et seulement après votre clic. S'abonner stocke le point de terminaison push — une URL aléatoire — et ses deux clés. Pas de cookies, pas d'e-mail. Se désinscrire efface tout. Zéro script ? Le <a href="/feed.xml">flux RSS</a> porte les mêmes alertes (messages d'état en anglais).</p>
+  <p class="note">Le JavaScript n'existe que sur cette page, pour le bouton push. S'abonner en push stocke le point de terminaison — une URL aléatoire — et ses deux clés ; par e-mail, votre adresse et un jeton aléatoire, rien d'autre. Chacun est effacé dès la désinscription (chaque e-mail contient un lien de désinscription en un clic). Pas de cookies, rien de partagé, jamais. Zéro stockage ? Le <a href="/feed.xml">flux RSS</a> porte les mêmes alertes (pages de confirmation en anglais).</p>
   <script src="/alerts.js" defer></script>`,
     },
     glossary: {
@@ -322,15 +328,21 @@ export const LOCALES = {
       desc: "Eine Benachrichtigung, sobald ein erfasstes Unternehmen eine Richtlinie oder Angabe unter der Chatkontrolle ändert. Ohne Konto, ohne E-Mail — Abmelden löscht alles.",
       body: () => `
   <h1>Ein Alarm, sobald sich ein Unternehmen bewegt</h1>
-  <p class="lede">Sobald ein erfasstes Unternehmen eine Richtlinie, ein Verschlüsselungsversprechen oder eine App-Store-Angabe ändert, kann Ihr Telefon es wissen. Kostenlos, ohne Konto, ohne E-Mail — gespeichert wird nur der Push-Endpunkt Ihres Browsers, und Abmelden löscht ihn.</p>
+  <p class="lede">Sobald ein erfasstes Unternehmen eine Richtlinie, ein Verschlüsselungsversprechen oder eine App-Store-Angabe ändert, kann Ihr Telefon oder Ihr Postfach es wissen. Kostenlos, ohne Konto, mit Double-Opt-in — gespeichert wird nur, was die Zustellung braucht (ein Push-Endpunkt oder Ihre Adresse samt Token), und Abmelden löscht es sofort.</p>
   <div class="banner st-e2ee mt-16"><strong>Auf iPhone oder Android: erst die Seite installieren</strong>
     <div class="mt-04 dim"><strong>iPhone:</strong> Teilen → <em>Zum Home-Bildschirm</em>, dann ScanRecords vom Home-Bildschirm öffnen und abonnieren (iOS 16.4+).<br><strong>Android:</strong> Chrome-Menü → <em>Zum Startbildschirm hinzufügen</em> — oder direkt unten abonnieren.</div></div>
   <p class="mt-14"><button id="subscribe" class="btn">Alarme auf diesem Gerät aktivieren</button><button id="unsubscribe" class="btn" hidden>Alarme deaktivieren</button></p>
   <p id="alert-status" class="note" aria-live="polite"></p>
+  <h2>Lieber per E-Mail?</h2>
+  <p class="note">Dieselben Alarme als Mail — ein Digest an Tagen, an denen sich etwas ändert, sonst Stille. Double-Opt-in: Sie erhalten zuerst einen Bestätigungslink.</p>
+  <form class="mailform" method="post" action="/api/subscribe-email">
+    <input class="mailinput" type="email" name="email" required placeholder="sie@beispiel.org" aria-label="Email">
+    <button class="btn" type="submit">E-Mail-Alarme erhalten</button>
+  </form>
   <h2>Was eine Benachrichtigung auslöst</h2>
   <ul class="about pl-12"><li>Ein erfasstes Unternehmen hat eine Richtlinie, AGB, Sicherheitsseite oder App-Store-Angabe geändert — mit Link zum exakten Vorher/Nachher.</li><li>Sonst nichts. An den meisten Tagen: Stille — das ist der Sinn.</li></ul>
   <h2>Die Ehrlichkeitsbox</h2>
-  <p class="note">Die einzige Seite mit JavaScript, und nur nach Ihrem Klick. Abonnieren speichert den Push-Endpunkt — eine zufällige URL — und seine zwei Schlüssel. Keine Cookies, keine E-Mail. Abmelden löscht alles. Null Skripte? Der <a href="/feed.xml">RSS-Feed</a> trägt dieselben Alarme (Statusmeldungen auf Englisch).</p>
+  <p class="note">JavaScript gibt es nur auf dieser Seite, nur für den Push-Knopf. Push speichert den Endpunkt — eine zufällige URL — und seine zwei Schlüssel; E-Mail speichert Ihre Adresse und ein zufälliges Token, sonst nichts. Beides wird beim Abmelden sofort gelöscht (jede Mail trägt einen Ein-Klick-Abmeldelink). Keine Cookies, nichts wird geteilt, niemals. Lieber gar keine Speicherung? Der <a href="/feed.xml">RSS-Feed</a> trägt dieselben Alarme (Bestätigungsseiten auf Englisch).</p>
   <script src="/alerts.js" defer></script>`,
     },
     glossary: {
@@ -488,15 +500,21 @@ export const LOCALES = {
       desc: "Una notificación en cuanto una empresa seguida modifica una política o ficha bajo el Chat Control. Sin cuenta, sin correo — darse de baja lo borra todo.",
       body: () => `
   <h1>Una alerta en cuanto una empresa se mueve</h1>
-  <p class="lede">En cuanto una empresa seguida modifica una política, una promesa de cifrado o una ficha del App Store, su teléfono puede saberlo. Gratis, sin cuenta, sin correo — solo se guarda el punto de conexión push de su navegador, y darse de baja lo borra.</p>
+  <p class="lede">En cuanto una empresa seguida modifica una política, una promesa de cifrado o una ficha del App Store, su teléfono o su buzón puede saberlo. Gratis, sin cuenta, con doble opt-in — solo guardamos lo que la entrega necesita (un punto de conexión push, o su dirección y un token), y darse de baja lo borra al instante.</p>
   <div class="banner st-e2ee mt-16"><strong>En iPhone o Android, instale primero el sitio</strong>
     <div class="mt-04 dim"><strong>iPhone:</strong> Compartir → <em>Añadir a pantalla de inicio</em>, luego abra ScanRecords desde la pantalla de inicio y suscríbase (iOS 16.4+).<br><strong>Android:</strong> menú de Chrome → <em>Añadir a pantalla de inicio</em> — o suscríbase directamente abajo.</div></div>
   <p class="mt-14"><button id="subscribe" class="btn">Activar alertas en este dispositivo</button><button id="unsubscribe" class="btn" hidden>Desactivar alertas</button></p>
   <p id="alert-status" class="note" aria-live="polite"></p>
+  <h2>¿Prefieres correo?</h2>
+  <p class="note">Las mismas alertas por correo — un resumen los días en que algo cambia, silencio el resto. Doble opt-in: primero recibirás un enlace de confirmación.</p>
+  <form class="mailform" method="post" action="/api/subscribe-email">
+    <input class="mailinput" type="email" name="email" required placeholder="tu@ejemplo.org" aria-label="Email">
+    <button class="btn" type="submit">Recibir alertas por correo</button>
+  </form>
   <h2>Qué dispara una notificación</h2>
   <ul class="about pl-12"><li>Una empresa seguida modificó una política, condiciones, página de seguridad o su ficha del App Store — con enlace al antes/después exacto.</li><li>Nada más. La mayoría de los días: silencio — ese es el objetivo.</li></ul>
   <h2>La caja de honestidad</h2>
-  <p class="note">La única página del sitio con JavaScript, y solo tras su clic. Suscribirse guarda el punto de conexión push — una URL aleatoria — y sus dos claves. Sin cookies, sin correo. Darse de baja lo borra todo. ¿Cero scripts? El <a href="/feed.xml">feed RSS</a> lleva las mismas alertas (mensajes de estado en inglés).</p>
+  <p class="note">El JavaScript solo existe en esta página, para el botón push. Suscribirse por push guarda el punto de conexión — una URL aleatoria — y sus dos claves; por correo, tu dirección y un token aleatorio, nada más. Cada uno se borra al instante al darte de baja (cada correo lleva un enlace de baja en un clic). Sin cookies, nada compartido, nunca. ¿Cero almacenamiento? El <a href="/feed.xml">feed RSS</a> lleva las mismas alertas (páginas de confirmación en inglés).</p>
   <script src="/alerts.js" defer></script>`,
     },
     glossary: {
@@ -654,15 +672,21 @@ export const LOCALES = {
       desc: "Powiadomienie, gdy tylko śledzona firma zmieni politykę lub etykietę w ramach kontroli czatów. Bez konta, bez e-maila — wypisanie się usuwa wszystko.",
       body: () => `
   <h1>Alert, gdy tylko firma się ruszy</h1>
-  <p class="lede">Gdy śledzona firma zmieni politykę, obietnicę szyfrowania albo etykietę App Store, Twój telefon może się o tym dowiedzieć. Za darmo, bez konta, bez e-maila — przechowujemy wyłącznie push-endpoint Twojej przeglądarki, a wypisanie się go usuwa.</p>
+  <p class="lede">Gdy śledzona firma zmieni politykę, obietnicę szyfrowania albo etykietę App Store, Twój telefon lub Twoja skrzynka może się o tym dowiedzieć. Za darmo, bez konta, z podwójnym potwierdzeniem — przechowujemy tylko to, czego wymaga dostarczanie (push-endpoint albo Twój adres i token), a wypisanie się usuwa to natychmiast.</p>
   <div class="banner st-e2ee mt-16"><strong>Na iPhonie lub Androidzie najpierw zainstaluj stronę</strong>
     <div class="mt-04 dim"><strong>iPhone:</strong> Udostępnij → <em>Do ekranu początkowego</em>, potem otwórz ScanRecords z ekranu początkowego i subskrybuj (iOS 16.4+).<br><strong>Android:</strong> menu Chrome → <em>Dodaj do ekranu głównego</em> — albo subskrybuj od razu poniżej.</div></div>
   <p class="mt-14"><button id="subscribe" class="btn">Włącz alerty na tym urządzeniu</button><button id="unsubscribe" class="btn" hidden>Wyłącz alerty</button></p>
   <p id="alert-status" class="note" aria-live="polite"></p>
+  <h2>Wolisz e-mail?</h2>
+  <p class="note">Te same alerty mailem — jeden skrót w dni, gdy coś się zmienia, poza tym cisza. Podwójne potwierdzenie: najpierw dostaniesz link potwierdzający.</p>
+  <form class="mailform" method="post" action="/api/subscribe-email">
+    <input class="mailinput" type="email" name="email" required placeholder="ty@przyklad.org" aria-label="Email">
+    <button class="btn" type="submit">Otrzymuj alerty e-mail</button>
+  </form>
   <h2>Co wywołuje powiadomienie</h2>
   <ul class="about pl-12"><li>Śledzona firma zmieniła politykę, regulamin, stronę bezpieczeństwa lub etykietę App Store — z linkiem do dokładnego przed/po.</li><li>Nic poza tym. Przez większość dni: cisza — o to chodzi.</li></ul>
   <h2>Ramka szczerości</h2>
-  <p class="note">Jedyna strona serwisu z JavaScriptem — i to dopiero po Twoim kliknięciu. Subskrypcja zapisuje push-endpoint (losowy adres URL) i jego dwa klucze. Bez cookies, bez e-maila. Wypisanie się usuwa wszystko. Wolisz zero skryptów? <a href="/feed.xml">Kanał RSS</a> niesie te same alerty (komunikaty stanu po angielsku).</p>
+  <p class="note">JavaScript istnieje tylko na tej stronie, tylko dla przycisku push. Subskrypcja push zapisuje endpoint — losowy adres URL — i jego dwa klucze; e-mail zapisuje Twój adres i losowy token, nic więcej. Każde znika natychmiast po wypisaniu (każdy mail ma link wypisania jednym kliknięciem). Bez cookies, nic nie jest udostępniane, nigdy. Wolisz zero przechowywania? <a href="/feed.xml">Kanał RSS</a> niesie te same alerty (strony potwierdzeń po angielsku).</p>
   <script src="/alerts.js" defer></script>`,
     },
     glossary: {

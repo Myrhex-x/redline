@@ -532,6 +532,11 @@ footer.site .feye svg { width:100%; height:auto; display:block; }
 .pl-12 { padding-left:1.2rem; } .va-mid { vertical-align:middle; } .ml-auto { margin-left:auto; }
 .fs-85 { font-size:.85rem; } .fs-90 { font-size:.9rem; } .fw-400 { font-weight:400; }
 .lgd-chat { background:var(--del-fg); } .lgd-social { background:var(--dim); }
+.mailform { display:flex; gap:.6rem; flex-wrap:wrap; max-width:34rem; margin:.9rem 0 1.6rem; }
+.mailinput { font:inherit; flex:1 1 14rem; padding:.66rem .9rem; border-radius:10px;
+  border:1px solid var(--line); background:var(--bg); color:var(--fg); min-width:0; }
+.mailinput:focus-visible { outline:2px solid var(--fg); outline-offset:1px; }
+.mailform .btn { margin-right:0; }
 .btn { font:inherit; font-weight:600; padding:.7rem 1.25rem; border-radius:10px; cursor:pointer;
   border:1px solid var(--fg); background:var(--fg); color:var(--bg); margin-right:.6rem; }
 .btn:hover { opacity:.85; }
@@ -1570,18 +1575,20 @@ for (const e of realChanges) {
 
   <h2>Privacy</h2>
   <p>This site sets <strong>no cookies</strong>, runs <strong>no analytics</strong>,
-  has no accounts and no forms. There is nothing to consent to, which is why
-  there is no banner.</p>
+  and has no accounts. The only form is the optional email-alert signup below.
+  Browsing stores nothing, which is why there is no consent banner.</p>
   <p>The site is served by Vercel Inc., which processes visitors' IP addresses
   transiently as a technical necessity of serving web requests. We do not
   receive, retain, sell, or share any visitor data.</p>
-  <p><strong>Optional alerts.</strong> If you subscribe to push alerts on the
-  <a href="/alerts/">alerts page</a>, we store your browser's push endpoint (a
-  random URL it generates) and its two delivery keys — nothing else, and nothing
-  that identifies you. This is the only feature of the site that stores anything,
-  it only happens after you press the button, and unsubscribing deletes the
-  record immediately; endpoints that stop working are deleted automatically.
-  Notifications are delivered by your browser vendor's push service.</p>
+  <p><strong>Optional alerts.</strong> The <a href="/alerts/">alerts page</a> offers two
+  opt-in channels, and they are the only features of this site that store anything.
+  <em>Push:</em> we store your browser's push endpoint (a random URL it generates) and its two
+  delivery keys — nothing that identifies you; delivery runs through your browser vendor's push
+  service, and dead endpoints are deleted automatically. <em>Email:</em> if you subscribe by email
+  and confirm the double-opt-in link, we store your address and a random token — nothing else, no
+  IP, no name. Alert emails are sent via Resend, Inc. acting as our processor; every one carries a
+  one-click unsubscribe, and unsubscribing (either channel) deletes the record immediately. Nothing
+  is shared, sold, or used for anything except the alerts you asked for.</p>
 
   <h2>Mentions légales / Legal notice</h2>
   <p><strong>FR</strong> — Ce site est édité à titre non professionnel. Conformément à
@@ -1650,8 +1657,9 @@ for (const e of realChanges) {
   const body = `
   <h1>Get an alert when a company moves</h1>
   <p class="lede">The moment a tracked company changes a policy, an encryption claim, or an
-  App Store label, your phone can know. Free, no account, no email address — your browser's
-  push endpoint is the only thing stored, and unsubscribing deletes it.</p>
+  App Store label, your phone or your inbox can know. Free, no account, double opt-in —
+  we store only what delivery needs (a push endpoint, or your email address and a token),
+  and unsubscribing deletes it on the spot.</p>
 
   <div class="banner st-e2ee mt-16">
     <strong>On iPhone or Android, install the site first</strong>
@@ -1668,25 +1676,34 @@ for (const e of realChanges) {
   </p>
   <p id="alert-status" class="note" aria-live="polite"></p>
 
+  <h2>Prefer email?</h2>
+  <p class="note">Same alerts, by mail — one digest on days something changes, silence otherwise.
+  Double opt-in: you'll get one confirmation link first.</p>
+  <form class="mailform" method="post" action="/api/subscribe-email">
+    <input class="mailinput" type="email" name="email" required placeholder="you@example.org" aria-label="Email address">
+    <button class="btn" type="submit">Get email alerts</button>
+  </form>
+
   <h2>What you'll be notified about</h2>
   <ul class="about pl-12">
-    <li>A tracked company changed a policy, terms, security page, or App Store privacy label — with a link to the exact before/after.</li>
+    <li>A tracked company changed a policy, terms, security page, or an app-store privacy declaration — with a link to the exact before/after.</li>
     <li>Nothing else. No news, no campaigns, no "engagement". Most days, silence — quiet is the point.</li>
   </ul>
 
   <h2>The honesty box</h2>
-  <p class="note">This is the only page on scanrecords.org that uses JavaScript, and only after you
-  press the button. Subscribing stores your push endpoint — a random URL your browser generates —
-  plus its two delivery keys. No cookies, no identifiers, no email. Unsubscribe deletes the record;
-  dead endpoints are pruned automatically. Prefer zero scripts? The
-  <a href="/feed.xml">RSS feed</a> carries identical alerts.</p>
+  <p class="note">JavaScript exists only on this page, only for the push button. Subscribing by push
+  stores your push endpoint — a random URL your browser generates — plus its two delivery keys;
+  subscribing by email stores your address and a random token, nothing else. Each is deleted the
+  moment you unsubscribe (email alerts carry a one-click unsubscribe in every message), and dead
+  push endpoints are pruned automatically. No cookies, no identifiers, nothing shared, ever.
+  Prefer zero storage at all? The <a href="/feed.xml">RSS feed</a> carries identical alerts.</p>
   <script src="/alerts.js" defer></script>`;
   mkdirSync(join(OUT, "alerts"), { recursive: true });
   writeFileSync(
     join(OUT, "alerts", "index.html"),
     page({
       title: "Alerts — ScanRecords",
-      desc: "Push notification the moment a tracked company changes a policy or label under the EU's Chat Control. No account, no email — and unsubscribing deletes everything.",
+      desc: "Push or email the moment a tracked company changes a policy or label under the EU's Chat Control. No account, double opt-in — and unsubscribing deletes everything.",
       path: "/alerts/", active: "alerts", body, alt: "/fr/alerts/",
     })
   );
