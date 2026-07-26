@@ -365,11 +365,11 @@ main { padding-top:1.8rem; }
 .tl b { font-family:ui-monospace, "SF Mono", Menlo, monospace; font-size:.82em; color:var(--dim); margin-right:.35rem; }
 .cmp td:first-child { white-space:nowrap; }
 .cmp th:nth-child(2), .cmp td:nth-child(2) { padding-right:1.4rem; }
-details { border:1px solid var(--line); border-radius:12px; padding:.85rem 1.1rem; margin:.6rem 0; max-width:46rem; }
-details summary { cursor:pointer; font-weight:600; }
-details summary::marker { color:var(--faint); }
-details[open] summary { margin-bottom:.5rem; }
-details p { color:var(--dim); }
+main details { border:1px solid var(--line); border-radius:12px; padding:.85rem 1.1rem; margin:.6rem 0; max-width:46rem; }
+main details summary { cursor:pointer; font-weight:600; }
+main details summary::marker { color:var(--faint); }
+main details[open] summary { margin-bottom:.5rem; }
+main details p { color:var(--dim); }
 .sources { list-style:none; padding-left:0 !important; }
 .sources li { padding:.45rem 0; border-bottom:1px solid var(--line); }
 
@@ -409,18 +409,30 @@ footer.site .fcol a:hover { text-decoration:underline; }
 footer.site .fbrand p { font-size:.88rem; max-width:22rem; }
 footer.site .feye { width:54px; margin-bottom:.7rem; }
 footer.site .feye svg { width:100%; height:auto; display:block; }
-@media (max-width:820px) { footer.site .wrap { grid-template-columns:1fr 1fr; } }
+@media (max-width:820px) { footer.site .wrap { grid-template-columns:1fr 1fr; gap:1.6rem; } footer.site .fbrand { grid-column:1 / -1; } }
 .langmenu { position:relative; }
-.langmenu summary { list-style:none; cursor:pointer; color:var(--dim); user-select:none; }
+.langmenu summary { list-style:none; cursor:pointer; color:var(--dim); user-select:none;
+  display:inline-flex; align-items:center; gap:.34em; line-height:1;
+  font-size:.8rem; font-weight:550; letter-spacing:.02em;
+  border:1px solid var(--line); border-radius:8px; padding:.3rem .55rem; }
+.langmenu summary:hover { color:var(--fg); border-color:var(--faint); }
 .langmenu summary::-webkit-details-marker { display:none; }
-.langmenu summary::after { content:" ▾"; font-size:.78em; color:var(--faint); }
-.langmenu[open] summary { color:var(--fg); }
-.langmenu .panel { position:absolute; right:0; top:1.9rem; z-index:30; min-width:9.5rem;
-  background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:.35rem;
-  box-shadow:0 12px 34px rgb(0 0 0 / .18); }
-.langmenu .panel a { display:block; padding:.45rem .85rem; border-radius:8px; color:var(--fg); text-decoration:none; }
+.langmenu summary svg { width:.85rem; height:.85rem; display:block; opacity:.75; }
+.langmenu summary::after { content:"▾"; font-size:.7em; color:var(--faint); }
+.langmenu[open] summary { color:var(--fg); border-color:var(--faint); }
+.langmenu .panel { position:absolute; right:0; top:calc(100% + .5rem); z-index:40; min-width:10.5rem;
+  background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:.3rem;
+  box-shadow:0 14px 40px rgb(0 0 0 / .16); }
+.langmenu .panel a { display:flex; align-items:baseline; justify-content:space-between; gap:1.1rem;
+  padding:.48rem .75rem; border-radius:8px; color:var(--fg); font-size:.92rem; text-decoration:none !important; }
 .langmenu .panel a:hover { background:var(--soft); }
-.langmenu .panel a[aria-current] { font-weight:680; }
+.langmenu .panel a[aria-current] { font-weight:650; }
+.langmenu .panel a[aria-current]::after { content:"✓"; color:var(--live); font-size:.85em; }
+@media (max-width:700px) {
+  header.top .wrap { position:relative; padding-top:14px; padding-bottom:12px; gap:.5rem 1rem; }
+  nav.site { width:100%; margin-left:0; gap:.4rem .95rem; font-size:.9rem; padding-right:0; }
+  .langmenu { position:absolute; top:12px; right:22px; }
+}
 .btn { font:inherit; font-weight:600; padding:.7rem 1.25rem; border-radius:10px; cursor:pointer;
   border:1px solid var(--fg); background:var(--fg); color:var(--bg); margin-right:.6rem; }
 .btn:hover { opacity:.85; }
@@ -437,6 +449,8 @@ const FAVICON =
   );
 
 const SITEMAP = [];
+
+const GLOBE_SVG = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><circle cx="8" cy="8" r="6.4"/><ellipse cx="8" cy="8" rx="2.9" ry="6.4"/><path d="M1.9 6h12.2M1.9 10h12.2"/></svg>`;
 
 function page({ title, desc, path, active, body, alt }) {
   SITEMAP.push(path);
@@ -761,7 +775,7 @@ for (const c of companies) {
         <td class="mono dim">${m.fetchedAt ? fmtDate(m.fetchedAt) : "—"}</td>
         <td class="mono dim">${m.textChars ? m.textChars.toLocaleString("en-US") + " chars" : "—"}</td>
         <td class="mono faint" title="SHA-256 of extracted text">${m.textHash ? m.textHash.slice(0, 12) : "—"}</td>
-        <td><a class="dim" href="/archive/${c.slug}/${d.id}.txt">text</a> · <a class="dim" href="/archive/${c.slug}/${d.id}.html">html</a></td>
+        <td><a class="dim" href="/archive/${c.slug}/${d.id}.txt">text</a> · <a class="dim" href="/archive/${c.slug}/${d.id}.html" title="Original page bytes, kept as evidence — renders without its styling here">raw</a></td>
       </tr>`;
     })
     .join("");
@@ -780,7 +794,8 @@ for (const c of companies) {
   <div class="scroll"><table class="doclist">
     <thead><tr><th>Document</th><th>Last fetched</th><th>Size</th><th>Hash</th><th>Snapshot</th></tr></thead>
     <tbody>${docRows}</tbody>
-  </table></div>` : `<p class="note">No policy pages are currently trackable for this company — see <a href="/companies/">why</a>. ${a.label ? "Its App Store label is tracked below." : ""}</p>`}
+  </table></div>
+  <p class="note" style="margin-top:.6rem"><strong>text</strong> is the extracted record we hash and diff; <strong>raw</strong> is the page's original HTML kept verbatim as evidence — it renders without its styling here, by design.</p>` : `<p class="note">No policy pages are currently trackable for this company — see <a href="/companies/">why</a>. ${a.label ? "Its App Store label is tracked below." : ""}</p>`}
   ${a.label ? `<h2>App Store privacy label${a.labelMeta?.app ? ` <span class="dim" style="font-weight:400">— ${esc(a.labelMeta.app)}</span>` : ""}</h2>
   <p class="note">Apple requires every app to declare the data it collects. This is ${esc(c.name)}'s current declaration, as shown on the App Store; ScanRecords records when it changes.</p>
   ${labelCards(a.label)}` : ""}
@@ -1421,7 +1436,7 @@ import { LOCALES, emitLocales, pathsFor } from "./i18n.mjs";
 
 function langMenu(current, alts) {
   const items = [["en", "English"], ...Object.entries(LOCALES).map(([c, L]) => [c, L.name])];
-  return `<details class="langmenu"><summary aria-label="Language">${current.toUpperCase()}</summary><div class="panel">${items
+  return `<details class="langmenu"><summary aria-label="Language">${GLOBE_SVG}${current.toUpperCase()}</summary><div class="panel">${items
     .map(([c, name]) => `<a href="${alts[c] ?? (c === "en" ? "/" : `/${c}/`)}" hreflang="${c}"${c === current ? " aria-current=\"true\"" : ""}>${name}</a>`)
     .join("")}</div></details>`;
 }
