@@ -1,10 +1,8 @@
 name: snapshot
 
 on:
-  # Schedule paused until the EU fetch relay is live — US-vantage fetches
-  # record region artifacts as changes. Re-enable after a clean relay run.
-  # schedule:
-  #   - cron: "17 6 * * *" # daily, 06:17 UTC
+  schedule:
+    - cron: "17 6 * * *" # daily, 06:17 UTC
   workflow_dispatch: {}
 
 permissions:
