@@ -74,14 +74,19 @@ const baselineDate = history.length ? history[history.length - 1].date : "2026-0
 // scanning globally under US law (NCMEC/PhotoDNA) — they are not the same thing.
 const STATUS = {
   confirmed: { label: "Scans in the EU under Chat Control", cls: "st-scans",
+    verdict: "Scanning in the EU — confirmed",
     blurb: "Evidence of scanning under the EU derogation itself: named in the European Commission's implementation reporting, or the company publishes an EU-specific transparency report under Regulation 2021/1232." },
   global: { label: "Scans globally — no EU evidence", cls: "st-global",
+    verdict: "Scans under US law · no EU evidence",
     blurb: "Their documents disclose content scanning under US law (NCMEC reporting, PhotoDNA). No evidence found that they invoke the EU derogation for private communications — US-law scanning and Chat Control are separate regimes." },
   unclear: { label: "No clear statement", cls: "st-unclear",
+    verdict: "Won't say",
     blurb: "Not end-to-end encrypted, and no clear public statement about scanning private communications was found either way." },
   denies: { label: "States it does not scan", cls: "st-denies",
+    verdict: "Says it doesn't scan",
     blurb: "The company publicly states that it does not scan message content." },
   e2ee: { label: "End-to-end encrypted — out of scope", cls: "st-e2ee",
+    verdict: "Can't read your messages",
     blurb: "Content is end-to-end encrypted; E2EE communications are formally excluded from Chat Control's voluntary scanning." },
 };
 const groups = Object.keys(STATUS).map((k) => ({
@@ -191,6 +196,62 @@ footer.site .wrap { padding:1.4rem 22px 2.2rem; font-size:.84rem; color:var(--di
   a { text-decoration:none !important; }
   .diff, .banner, .cite { break-inside:avoid-page; border-color:#bbb; }
 }
+
+/* ——— v2 design layer ——— */
+.wrap { max-width:72rem; }
+h1 { font-size:clamp(2rem, 4.4vw, 3.2rem); line-height:1.07; letter-spacing:-.032em; max-width:58rem; }
+h2 { font-size:1.28rem; letter-spacing:-.015em; }
+p.lede { font-size:1.12rem; line-height:1.62; }
+main { padding-top:1.8rem; }
+.hero { background:#0a0c0f; color:#f4f4f4; border:1px solid #1d2128; border-radius:20px;
+  padding:clamp(1.8rem, 4.5vw, 3.4rem); position:relative; overflow:hidden; }
+.hero::before { content:""; position:absolute; inset:0; pointer-events:none;
+  background:repeating-linear-gradient(0deg, transparent 0 3px, rgba(255,255,255,.02) 3px 4px); }
+.hero .beam { position:absolute; left:0; right:0; top:-22%; height:16%; pointer-events:none;
+  background:linear-gradient(180deg, transparent, rgba(87,196,111,.04), rgba(87,196,111,.13), transparent);
+  animation:scan 8s cubic-bezier(.45,0,.55,1) infinite; }
+@keyframes scan { 0% { top:-22% } 60% { top:108% } 100% { top:108% } }
+@media (prefers-reduced-motion:reduce) { .hero .beam { display:none; } }
+.hero .eyebrow { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:#8b949e;
+  display:flex; align-items:center; gap:.15rem; margin-bottom:1.3rem; }
+.hero h1 { color:#ffffff; }
+.hero p.lede { color:#a6adb5; max-width:47rem; }
+.hero a { text-decoration-color:#5a6470; }
+.hero a:hover { text-decoration-color:#fff; }
+.bar { display:flex; height:13px; border-radius:99px; overflow:hidden; margin:2.1rem 0 1.1rem;
+  border:1px solid rgba(255,255,255,.09); background:#14171c; }
+.bar i { display:block; }
+.seg-confirmed { background:#e35d66; }
+.seg-global { background:repeating-linear-gradient(135deg, #e35d66 0 5px, rgba(227,93,102,.22) 5px 9px); }
+.seg-unclear { background:#3a3f45; }
+.seg-denies { background:repeating-linear-gradient(135deg, #3fae5c 0 5px, rgba(63,174,92,.22) 5px 9px); }
+.seg-e2ee { background:#3fae5c; }
+.bignums { display:flex; gap:clamp(1.3rem, 3.5vw, 2.8rem); flex-wrap:wrap; margin-top:.4rem; }
+.bignums a { text-decoration:none !important; }
+.bignums a:hover span { color:#d7dce1; }
+.bignums b { display:block; font-size:2rem; font-weight:680; letter-spacing:-.03em; line-height:1.15; }
+.bignums span { font-size:.82rem; color:#98a0a8; }
+.n-red { color:#ef7078; } .n-redsoft { color:rgba(239,112,120,.72); }
+.n-gray { color:#9aa2aa; } .n-greensoft { color:rgba(87,196,111,.72); } .n-green { color:#57c46f; }
+.grouphead { margin-top:3rem; }
+.cards { display:grid; grid-template-columns:repeat(auto-fill, minmax(232px, 1fr)); gap:.8rem; margin:1.1rem 0 .4rem; }
+.card { display:flex; align-items:center; gap:.9rem; border:1px solid var(--line); border-radius:14px;
+  padding:.95rem 1.05rem; text-decoration:none !important;
+  transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease; }
+.card:hover { transform:translateY(-2px); box-shadow:0 10px 26px rgb(0 0 0 / .14); border-color:var(--faint); }
+.mg { flex:0 0 42px; width:42px; height:42px; border-radius:50%; display:grid; place-items:center;
+  font-weight:700; font-size:1.06rem; background:var(--soft); border:2px solid var(--faint); }
+.st-scans .mg { border-color:var(--del-fg); }
+.st-global .mg { border-color:var(--del-fg); border-style:dashed; }
+.st-e2ee .mg { border-color:var(--live); }
+.st-denies .mg { border-color:var(--live); border-style:dashed; }
+.st-unclear .mg { border-color:var(--faint); }
+.card .nm { font-weight:640; font-size:.98rem; }
+.card .vd { font-size:.8rem; color:var(--dim); }
+.st-scans .vd, .st-global .vd { color:var(--del-fg); }
+.st-e2ee .vd, .st-denies .vd { color:var(--live); }
+@media print { .hero .beam { display:none; } .hero { background:#fff; color:#000; border-color:#bbb; }
+  .hero h1 { color:#000; } .hero p.lede { color:#333; } }
 `;
 
 // --------------------------------------------------------------- shell ----
@@ -287,7 +348,7 @@ function companyRow(c) {
 
 function legend() {
   return `<div class="legend">${groups
-    .map((g) => `<a class="${g.cls}" href="#${g.key}"><span class="dot"></span><b>${g.companies.length}</b> ${g.label.toLowerCase()}</a>`)
+    .map((g) => `<a class="${g.cls}" href="#${g.key}"><span class="dot"></span><b>${g.companies.length}</b> ${g.label}</a>`)
     .join("")}</div>`;
 }
 
@@ -305,15 +366,19 @@ function groupedTables() {
     .join("");
 }
 
-/** The checker: per-status chip grids — the fastest possible "find your app". */
-function groupedChips() {
+/** The checker: per-status card grids — the fastest possible "find your app". */
+const shortName = (c) => c.name.split(" (")[0];
+function groupedCards() {
   return groups
     .map(
       (g) => `
   <h2 class="grouphead" id="${g.key}"><span class="${g.cls}"><span class="dot"></span>${g.label}</span> <span class="count">${g.companies.length}</span></h2>
   <p class="groupnote">${g.blurb}</p>
-  <div class="chips">${g.companies
-    .map((c) => `<a class="chip ${g.cls}" href="/company/${c.slug}/"><span class="dot"></span>${esc(c.name)}</a>`)
+  <div class="cards">${g.companies
+    .map((c) => `<a class="card ${g.cls}" href="/company/${c.slug}/">
+      <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
+      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${g.verdict}</span></span>
+    </a>`)
     .join("")}</div>`
     )
     .join("");
@@ -352,14 +417,26 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
        Quiet is the point — the moment a tracked document changes, the change appears here
        with its full before and after.</div>`;
   const body = `
-  <h1>Is your messaging app scanning under the EU's Chat Control?</h1>
-  <p class="lede">Chat Control is the EU rule that lets providers <strong>voluntarily scan
-  private messages</strong> until April 2028 — each company decides for itself, and
-  end-to-end encrypted apps are excluded. Find your app below: statuses follow the
-  strongest available evidence, from the EU's own reports down to companies' own
-  documents. <a href="/chat-control/">How this works →</a></p>
-  ${legend()}
-  ${groupedChips()}
+  <section class="hero">
+    <div class="beam" aria-hidden="true"></div>
+    <div class="eyebrow"><span class="livedot"></span> A public record — updated daily at 06:17 UTC</div>
+    <h1>Is your messaging app scanning under the EU's Chat&nbsp;Control?</h1>
+    <p class="lede">Chat Control lets providers <strong>voluntarily scan private messages</strong>
+    in the EU until April 2028. Each company decides for itself — and end-to-end encrypted apps
+    are excluded. We track ${companies.length} platforms and record what their own documents and
+    EU filings actually say. <a href="/chat-control/">How this works →</a></p>
+    <div class="bar" role="img" aria-label="Of ${companies.length} tracked platforms: ${groups.map((g) => `${g.companies.length} ${g.label.toLowerCase()}`).join(", ")}">
+      ${groups.map((g) => `<i class="seg-${g.key}" style="flex:${g.companies.length}"></i>`).join("")}
+    </div>
+    <div class="bignums">
+      <a href="#confirmed"><b class="n-red">${groups[0].companies.length}</b><span>scan in the EU</span></a>
+      <a href="#global"><b class="n-redsoft">${groups[1].companies.length}</b><span>scan under US law only</span></a>
+      <a href="#unclear"><b class="n-gray">${groups[2].companies.length}</b><span>won't say</span></a>
+      <a href="#denies"><b class="n-greensoft">${groups[3].companies.length}</b><span>says it doesn't</span></a>
+      <a href="#e2ee"><b class="n-green">${groups[4].companies.length}</b><span>can't — E2EE</span></a>
+    </div>
+  </section>
+  ${groupedCards()}
   <p class="note" style="margin-top:1.2rem">Statuses assessed ${fmtDate(ASSESSED)} from public
   records — <strong>they describe what companies say and file, not measurements of their
   software</strong>. Full table with tracked documents: <a href="/companies/">companies</a>.
