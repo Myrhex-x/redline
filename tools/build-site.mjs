@@ -70,11 +70,15 @@ const lastFetch = [...archive.values()]
 const baselineDate = history.length ? history[history.length - 1].date : "2026-07-26";
 
 // Chat Control status taxonomy. Order = display order (most to least concerning).
+// The distinction that matters: scanning under the EU derogation itself vs.
+// scanning globally under US law (NCMEC/PhotoDNA) — they are not the same thing.
 const STATUS = {
-  scans: { label: "States it scans content", cls: "st-scans",
-    blurb: "The company's own public documents or transparency reporting disclose automated detection on user content." },
-  unclear: { label: "No clear public statement", cls: "st-unclear",
-    blurb: "Not end-to-end encrypted, and no clear public statement about scanning private communications was found." },
+  confirmed: { label: "Scans in the EU under Chat Control", cls: "st-scans",
+    blurb: "Evidence of scanning under the EU derogation itself: named in the European Commission's implementation reporting, or the company publishes an EU-specific transparency report under Regulation 2021/1232." },
+  global: { label: "Scans globally — no EU evidence", cls: "st-global",
+    blurb: "Their documents disclose content scanning under US law (NCMEC reporting, PhotoDNA). No evidence found that they invoke the EU derogation for private communications — US-law scanning and Chat Control are separate regimes." },
+  unclear: { label: "No clear statement", cls: "st-unclear",
+    blurb: "Not end-to-end encrypted, and no clear public statement about scanning private communications was found either way." },
   denies: { label: "States it does not scan", cls: "st-denies",
     blurb: "The company publicly states that it does not scan message content." },
   e2ee: { label: "End-to-end encrypted — out of scope", cls: "st-e2ee",
@@ -125,9 +129,15 @@ p.lede strong { color:var(--fg); font-weight:600; }
 .livedot { display:inline-block; width:.5em; height:.5em; border-radius:50%; background:var(--live); margin-right:.45em; }
 .dot { display:inline-block; width:.55em; height:.55em; border-radius:50%; margin-right:.5em; background:var(--faint); }
 .st-scans .dot { background:var(--del-fg); }
+.st-global .dot { background:transparent; box-shadow:inset 0 0 0 1.5px var(--del-fg); }
 .st-e2ee .dot { background:var(--live); }
 .st-denies .dot { background:transparent; box-shadow:inset 0 0 0 1.5px var(--live); }
 .st-unclear .dot { background:var(--faint); }
+.chips { display:flex; flex-wrap:wrap; gap:.55rem; margin:.9rem 0 .4rem; }
+.chip { display:inline-flex; align-items:center; border:1px solid var(--line); border-radius:10px; padding:.5rem .85rem; font-size:.93rem; font-weight:550; text-decoration:none !important; }
+.chip:hover { background:var(--soft); }
+.quote { border-left:3px solid var(--line); padding:.35rem 0 .35rem .9rem; margin-top:.6rem; color:var(--dim); font-style:italic; }
+.quote .who { font-style:normal; font-size:.82rem; color:var(--faint); }
 .legend { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1.6rem; }
 .legend a { border:1px solid var(--line); border-radius:99px; padding:.3rem .85rem; font-size:.86rem; color:var(--dim); text-decoration:none; }
 .legend a b { color:var(--fg); font-weight:650; }
@@ -148,6 +158,7 @@ tr:hover td { background:var(--soft); }
 .empty { border:1px dashed var(--line); border-radius:10px; padding:1.4rem 1.5rem; color:var(--dim); max-width:44rem; }
 .banner { border:1px solid var(--line); border-left-width:4px; border-radius:10px; padding:1rem 1.2rem; margin:1.5rem 0; max-width:46rem; }
 .banner.st-scans { border-left-color:var(--del-fg); }
+.banner.st-global { border-left-color:var(--del-fg); border-left-style:dashed; }
 .banner.st-e2ee, .banner.st-denies { border-left-color:var(--live); }
 .banner.st-unclear { border-left-color:var(--faint); }
 .banner .srcs { font-size:.85rem; color:var(--dim); margin-top:.55rem; }
@@ -294,6 +305,20 @@ function groupedTables() {
     .join("");
 }
 
+/** The checker: per-status chip grids — the fastest possible "find your app". */
+function groupedChips() {
+  return groups
+    .map(
+      (g) => `
+  <h2 class="grouphead" id="${g.key}"><span class="${g.cls}"><span class="dot"></span>${g.label}</span> <span class="count">${g.companies.length}</span></h2>
+  <p class="groupnote">${g.blurb}</p>
+  <div class="chips">${g.companies
+    .map((c) => `<a class="chip ${g.cls}" href="/company/${c.slug}/"><span class="dot"></span>${esc(c.name)}</a>`)
+    .join("")}</div>`
+    )
+    .join("");
+}
+
 const PRIVACY_ORDER = ["DATA_USED_TO_TRACK_YOU", "DATA_LINKED_TO_YOU", "DATA_NOT_LINKED_TO_YOU", "DATA_NOT_COLLECTED"];
 function labelCards(label) {
   const items = [...label].sort(
@@ -328,25 +353,32 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
        with its full before and after.</div>`;
   const body = `
   <h1>Is your messaging app scanning under the EU's Chat Control?</h1>
-  <p class="lede">Under the EU's ePrivacy derogation — <strong>"Chat Control", extended to
-  April 2028</strong> — providers may voluntarily scan private communications.
-  End-to-end encrypted messengers are excluded. ScanRecords tracks what
-  <strong>${companies.length} platforms' own public documents say</strong>, and records every
-  change, daily. <a href="/chat-control/">How statuses are assigned →</a></p>
+  <p class="lede">Chat Control is the EU rule that lets providers <strong>voluntarily scan
+  private messages</strong> until April 2028 — each company decides for itself, and
+  end-to-end encrypted apps are excluded. Find your app below: statuses follow the
+  strongest available evidence, from the EU's own reports down to companies' own
+  documents. <a href="/chat-control/">How this works →</a></p>
   ${legend()}
-  <div class="stats">
+  ${groupedChips()}
+  <p class="note" style="margin-top:1.2rem">Statuses assessed ${fmtDate(ASSESSED)} from public
+  records — <strong>they describe what companies say and file, not measurements of their
+  software</strong>. Full table with tracked documents: <a href="/companies/">companies</a>.
+  Wrong about your company? <a href="${REPO}/issues">Dispute it</a> — disputes are published.</p>
+  <h2>Latest changes</h2>
+  <p class="groupnote">Every tracked document is re-fetched daily; when one changes, the change
+  appears here with its full before and after. That is how a status change would be caught.</p>
+  ${feed}
+  <p class="note" style="margin-top:1rem">Baseline: ${fmtDate(baselineDate)} — ${docCount} documents
+  and ${labelCount} App Store labels across ${companies.length} companies. Every snapshot is a
+  commit in the <a href="${REPO}">public repository</a>; nothing here can be silently rewritten,
+  including by us.</p>
+  <div class="stats" style="margin-top:2rem">
     <div class="stat"><b>${companies.length}</b><span>companies</span></div>
     <div class="stat"><b>${docCount}</b><span>documents</span></div>
     <div class="stat"><b>${labelCount}</b><span>App Store labels</span></div>
     <div class="stat"><b>${fmtDate(baselineDate)}</b><span>recording since</span></div>
     <div class="stat"><b><span class="livedot"></span>daily</b><span>last snapshot ${lastFetch ? fmtDate(lastFetch) : "—"}</span></div>
-  </div>
-  <h2>Latest changes</h2>
-  ${feed}
-  <p class="note" style="margin-top:1rem">Baseline: ${fmtDate(baselineDate)} — ${docCount} documents
-  and ${labelCount} labels first recorded. Every snapshot since is a commit in the
-  <a href="${REPO}">public repository</a>; nothing here can be silently rewritten, including by us.</p>
-  ${groupedTables()}`;
+  </div>`;
   writeFileSync(
     join(OUT, "index.html"),
     page({
@@ -393,6 +425,7 @@ for (const c of companies) {
     <strong><span class="dot"></span>${st.label}</strong>
     <span class="dim"> — assessed ${fmtDate(ASSESSED)}</span>
     <div style="margin-top:.45rem">${esc(cc.note)}</div>
+    ${cc.quote ? `<div class="quote">“${esc(cc.quote)}” <span class="who">— from ${esc(c.name)}'s ${esc(cc.quoteDoc ?? "own documents")}, as archived here</span></div>` : ""}
     <div class="srcs">${srcs ? `Sources: ${srcs} · ` : ""}<a href="/chat-control/">what this status means</a> · <a href="${REPO}/issues">dispute it</a></div>
   </div>`;
   const docRows = c.docs
@@ -506,19 +539,35 @@ for (const e of realChanges) {
   <a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> ·
   <a href="https://edri.org/our-work/csa-regulation-document-pool/">EDRi's document pool</a></p>
 
-  <h2>The four statuses</h2>
+  <h2>Who actually uses it</h2>
+  <p>Providers that scan under the derogation must report on it, and the European Commission
+  publishes <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">implementation
+  reports</a> naming them. That is the strongest evidence there is, and it points to a
+  <strong>small group</strong>: ${groups.find((g) => g.key === "confirmed").companies.map((c) => `<a href="/company/${c.slug}/">${esc(c.name)}</a>`).join(", ")}.
+  Some also publish EU-specific transparency reports of their own, like
+  <a href="https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf">Google's report under Regulation 2021/1232</a> and
+  <a href="https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports">Microsoft's jurisdictional reports</a> — both now tracked by this archive.</p>
+
+  <h2>Scanning under US law is not Chat Control</h2>
+  <p>Most large US platforms scan uploads for known abuse material and report to
+  <a href="https://www.missingkids.org/cybertiplinedata">NCMEC</a> — that is a <strong>US legal
+  regime</strong>, and it says nothing about whether a company invokes the EU derogation to scan
+  private communications of EU users. This site keeps the two separate: a filled red dot means
+  EU evidence; a hollow red dot means US-law scanning with no EU evidence found. Conflating the
+  two overstates the record, so we don't.</p>
+
+  <h2>The five statuses</h2>
   <ul>
     ${groups.map((g) => `<li><span class="${g.cls}"><span class="dot"></span><strong>${g.label}</strong></span> — ${g.blurb}</li>`).join("")}
   </ul>
 
   <h2>How statuses are assigned</h2>
   <ul>
-    <li>Statuses reflect <strong>public statements</strong>: the company's own policies and
-    security pages (which this site snapshots daily), its transparency reports, and public
-    reporting data such as the <a href="https://www.missingkids.org/cybertiplinedata">NCMEC
-    CyberTipline disclosures</a>.</li>
-    <li>They are <strong>observations of what companies say, not measurements of what their
-    software does</strong>. Behavioral measurement is a different and harder project.</li>
+    <li>In order of strength: the Commission's implementation reports → a company's own
+    EU-specific transparency reporting → its policies and security pages (which this site
+    snapshots daily, and quotes where relevant) → US reporting data as context only.</li>
+    <li>They are <strong>observations of what companies say and file, not measurements of what
+    their software does</strong>. Behavioral measurement is a different and harder project.</li>
     <li>Each status was last assessed on ${fmtDate(ASSESSED)} and is reviewed when the
     underlying documents change — which is exactly what the daily snapshots watch for.</li>
     <li>Companies can dispute a status by <a href="${REPO}/issues">opening an issue</a>;

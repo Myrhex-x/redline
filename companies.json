@@ -26,16 +26,18 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Discord’s safety documentation discloses hash-matching of uploaded media (PhotoDNA) and reporting to the NCMEC CyberTipline.",
+        "status": "global",
+        "note": "Discord’s privacy policy discloses proactive scanning of attachments, and it reports to NCMEC under US law. No evidence found that Discord invokes the EU derogation for private communications.",
+        "quote": "proactively scanning attachments and other content for illegal or harmful activity",
+        "quoteDoc": "privacy policy",
         "sources": [
           {
-            "t": "Discord Safety hub",
-            "u": "https://discord.com/safety"
+            "t": "NCMEC CyberTipline data (US law)",
+            "u": "https://www.missingkids.org/cybertiplinedata"
           },
           {
-            "t": "NCMEC CyberTipline data",
-            "u": "https://www.missingkids.org/cybertiplinedata"
+            "t": "Archived privacy policy",
+            "u": "/archive/discord/privacy.txt"
           }
         ]
       }
@@ -61,7 +63,7 @@
       ],
       "chatControl": {
         "status": "unclear",
-        "note": "Cloud chats are not end-to-end encrypted — Telegram can read them; secret chats are E2EE. In December 2024 Telegram announced use of IWF tools to block known CSAM; its documents do not state whether private cloud chats are proactively scanned.",
+        "note": "Cloud chats are not end-to-end encrypted — Telegram can read them; secret chats are E2EE. In December 2024 Telegram announced use of IWF tools to block known CSAM. Its tracked documents say nothing about scanning private cloud chats, and it is not named in Commission reporting on the derogation.",
         "sources": [
           {
             "t": "Archived privacy policy",
@@ -86,7 +88,7 @@
       ],
       "chatControl": {
         "status": "e2ee",
-        "note": "Everything is end-to-end encrypted, always. Signal cannot read message content, so there is nothing a server-side scanner could scan.",
+        "note": "Everything is end-to-end encrypted, always. Signal cannot read message content — there is nothing a server-side scanner could scan.",
         "sources": [
           {
             "t": "Archived privacy policy",
@@ -145,16 +147,16 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Meta is consistently the largest reporter to the NCMEC CyberTipline. Messenger personal chats have been E2EE by default since December 2023; Instagram DMs are not E2EE.",
+        "status": "confirmed",
+        "note": "Named in Commission implementation reporting; Facebook and Instagram messaging are among the services scanned in the EU under the derogation. When ePrivacy first applied in December 2020, Meta paused EU scanning — the derogation is what let it resume. Messenger personal chats have been E2EE by default since December 2023; Instagram DMs are not.",
         "sources": [
           {
-            "t": "Meta transparency reports",
-            "u": "https://transparency.meta.com/reports/community-standards-enforcement/"
+            "t": "Commission implementation report (Reg. 2021/1232)",
+            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           },
           {
-            "t": "NCMEC CyberTipline data",
-            "u": "https://www.missingkids.org/cybertiplinedata"
+            "t": "Overview of derogation users (Patrick Breyer)",
+            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
           }
         ]
       }
@@ -176,15 +178,26 @@
           "id": "gov-requests",
           "title": "Government Information Requests",
           "url": "https://policies.google.com/terms/information-requests?hl=en"
+        },
+        {
+          "id": "child-safety",
+          "title": "How Google fights CSAM",
+          "url": "https://protectingchildren.google/"
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Google discloses automated CSAM detection (hash matching and classifiers) across products including Gmail, with a dedicated transparency report.",
+        "status": "confirmed",
+        "note": "Publishes an EU-specific transparency report under Regulation 2021/1232 covering scanning of Gmail in the EU.",
+        "quote": "For example, processing data to detect and combat online child sexual abuse.",
+        "quoteDoc": "privacy policy",
         "sources": [
           {
-            "t": "Google CSAM transparency report",
-            "u": "https://transparencyreport.google.com/child-sexual-abuse-material/reporting"
+            "t": "Google transparency report under Reg. 2021/1232",
+            "u": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf"
+          },
+          {
+            "t": "Commission implementation report (Reg. 2021/1232)",
+            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           }
         ]
       }
@@ -204,19 +217,26 @@
           "id": "privacy",
           "title": "Privacy Statement",
           "url": "https://privacy.microsoft.com/en-us/privacystatement"
+        },
+        {
+          "id": "eu-reports",
+          "title": "EU jurisdictional transparency reports",
+          "url": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Microsoft invented PhotoDNA and discloses automated detection across consumer services including Outlook.",
+        "status": "confirmed",
+        "note": "Files jurisdictional reports under Regulation 2021/1232 (historically covering Skype and Xbox; Skype was retired in 2025). Microsoft invented PhotoDNA hash matching.",
+        "quote": "We use scanning technologies (like hash matching) to help prevent harm to our systems, our users, and others as described in our Code of Conduct, and to help prevent child exploitation.",
+        "quoteDoc": "privacy statement",
         "sources": [
           {
-            "t": "PhotoDNA",
-            "u": "https://www.microsoft.com/en-us/photodna"
+            "t": "Microsoft jurisdictional transparency reports",
+            "u": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
           },
           {
-            "t": "NCMEC CyberTipline data",
-            "u": "https://www.missingkids.org/cybertiplinedata"
+            "t": "Commission implementation report (Reg. 2021/1232)",
+            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           }
         ]
       }
@@ -242,9 +262,15 @@
         }
       ],
       "chatControl": {
-        "status": "e2ee",
-        "note": "iMessage is end-to-end encrypted. Apple abandoned its 2021 on-device photo-scanning plan in 2022; it has separately stated that iCloud Mail attachments are checked for known CSAM.",
+        "status": "confirmed",
+        "note": "For iCloud Mail only: iCloud Mail is listed among services using the derogation, and Apple has said it scans mail attachments for known CSAM since 2019. iMessage itself is end-to-end encrypted and out of scope; the 2021 on-device photo-scanning plan was abandoned in 2022.",
+        "quote": "prescreening or scanning uploaded content for potentially illegal content",
+        "quoteDoc": "privacy policy",
         "sources": [
+          {
+            "t": "Overview of derogation users (Patrick Breyer)",
+            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+          },
           {
             "t": "Archived iMessage security overview",
             "u": "/archive/apple/imessage-security.txt"
@@ -272,9 +298,17 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Snap’s transparency reporting discloses PhotoDNA and Google CSAI Match detection and NCMEC reporting.",
+        "status": "confirmed",
+        "note": "Snapchat is listed among the services scanning in the EU under the derogation.",
         "sources": [
+          {
+            "t": "Overview of derogation users (Patrick Breyer)",
+            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+          },
+          {
+            "t": "Commission implementation report (Reg. 2021/1232)",
+            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+          },
           {
             "t": "Snap transparency hub",
             "u": "https://values.snap.com/privacy/transparency"
@@ -302,11 +336,11 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "TikTok discloses automated detection of child sexual abuse material and NCMEC reporting.",
+        "status": "global",
+        "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
           }
         ]
@@ -327,11 +361,11 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "X discloses hash-matching (PhotoDNA) of media and NCMEC reporting.",
+        "status": "global",
+        "note": "Discloses PhotoDNA hash matching and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
           }
         ]
@@ -352,11 +386,11 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Reddit discloses automated CSAM detection and NCMEC reporting in its transparency reports.",
+        "status": "global",
+        "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
           }
         ]
@@ -388,7 +422,7 @@
       ],
       "chatControl": {
         "status": "denies",
-        "note": "Stored mail is under zero-access encryption; Proton states it does not scan message content and acts on user reports instead.",
+        "note": "Stored mail is under zero-access encryption; Proton states it does not scan message content and acts on user reports instead. Its only “scanning” is an opt-in dark-web monitor for your own leaked credentials.",
         "sources": [
           {
             "t": "Archived privacy policy",
@@ -468,7 +502,7 @@
       ],
       "chatControl": {
         "status": "unclear",
-        "note": "Workspace content is not end-to-end encrypted — Slack can read it. No clear public statement on proactive scanning of private workspaces was found in tracked documents.",
+        "note": "Workspace content is not end-to-end encrypted — Slack can read it. No statement about scanning private communications found in tracked documents, and not named in Commission reporting.",
         "sources": [
           {
             "t": "Archived privacy policy",
@@ -492,11 +526,11 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Zoom reports to the NCMEC CyberTipline. An optional end-to-end encrypted meeting mode exists but is off by default.",
+        "status": "global",
+        "note": "Reports to NCMEC under US law; an optional end-to-end encrypted meeting mode exists but is off by default. Not named in Commission reporting on the derogation.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
           }
         ]
@@ -518,11 +552,11 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Twitch discloses detection and NCMEC reporting of child sexual abuse material.",
+        "status": "global",
+        "note": "Discloses CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
           }
         ]
@@ -543,12 +577,16 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Microsoft-owned; discloses automated detection of exploitation imagery and NCMEC reporting.",
+        "status": "confirmed",
+        "note": "Microsoft-owned; among the providers that submitted reports on use of the derogation per Commission implementation reporting.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
-            "u": "https://www.missingkids.org/cybertiplinedata"
+            "t": "Commission implementation report (Reg. 2021/1232)",
+            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+          },
+          {
+            "t": "Overview of derogation users (Patrick Breyer)",
+            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
           }
         ]
       }
@@ -568,11 +606,11 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Pinterest discloses automated CSAM detection and NCMEC reporting.",
+        "status": "global",
+        "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
           }
         ]
@@ -593,11 +631,11 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Valve appears in NCMEC CyberTipline disclosures; detection concerns uploaded content rather than private messages at scale.",
+        "status": "global",
+        "note": "Valve appears in NCMEC CyberTipline disclosures under US law; detection concerns uploaded content. Not named in Commission reporting on the derogation.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
           }
         ]
@@ -618,11 +656,11 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Sony Interactive Entertainment discloses content moderation including CSAM reporting to NCMEC.",
+        "status": "global",
+        "note": "Sony Interactive discloses moderation including NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
           }
         ]
@@ -707,7 +745,7 @@
       ],
       "chatControl": {
         "status": "unclear",
-        "note": "Mail is not end-to-end encrypted by default. No public statement on voluntary scanning found in tracked documents; German mail providers have generally not joined voluntary scanning.",
+        "note": "Mail is not end-to-end encrypted by default. No statement on voluntary scanning found in tracked documents; German mail providers have generally not joined voluntary scanning.",
         "sources": [
           {
             "t": "Archived privacy policy",
@@ -731,11 +769,11 @@
         }
       ],
       "chatControl": {
-        "status": "scans",
-        "note": "Yahoo is a long-standing NCMEC reporter and discloses automated detection in its mail services.",
+        "status": "global",
+        "note": "Long-standing NCMEC reporter under US law. Not named in Commission reporting on the derogation.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
           }
         ]
@@ -750,12 +788,27 @@
       },
       "docs": [],
       "chatControl": {
-        "status": "scans",
-        "note": "Roblox operates extensive automated child-safety moderation and is among the larger NCMEC reporters. Its policy pages currently block archiving — the block is recorded.",
+        "status": "global",
+        "note": "Extensive automated child-safety moderation and NCMEC reporting under US law. Not named in Commission reporting on the derogation. Its policy pages currently block archiving — the block is recorded.",
         "sources": [
           {
-            "t": "NCMEC CyberTipline data",
+            "t": "NCMEC CyberTipline data (US law)",
             "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yubo",
+      "slug": "yubo",
+      "docs": [],
+      "chatControl": {
+        "status": "confirmed",
+        "note": "French platform for teens; one of the few providers that has filed derogation reports for every reporting year per the Commission. Its policy pages currently block automated archiving — the block is recorded.",
+        "sources": [
+          {
+            "t": "Commission implementation report (Reg. 2021/1232)",
+            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
           }
         ]
       }
@@ -771,6 +824,11 @@
       "name": "Epic Games (policy pages)",
       "url": "https://www.epicgames.com/site/en-US/privacypolicy",
       "reason": "Cloudflare returns 403 to non-browser TLS fingerprints regardless of user-agent (recorded 2026-07-26). Needs a headless-browser lane. App Store label is tracked meanwhile."
+    },
+    {
+      "name": "Yubo (policy pages)",
+      "url": "https://www.yubo.live/legal/privacy-policy",
+      "reason": "WAF returns 403 to non-browser TLS fingerprints regardless of user-agent (recorded 2026-07-26). Needs a headless-browser lane. A confirmed derogation user whose policy pages block archiving."
     }
   ],
   "assessed": "2026-07-26"

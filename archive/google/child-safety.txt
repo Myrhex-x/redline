@@ -1,0 +1,261 @@
+Jump to Content
+
+Overview
+
+Introduction
+
+Fighting abuse on our own platform and services
+
+Tools to fight CSAM
+
+Alliances & Programs
+
+Tools for partners
+
+Toolkit benefits
+
+Learn about our tools
+
+Testimonials
+
+FAQs
+
+Toolkit interest form
+
+Fighting child sexual abuse online
+
+Google is committed to fighting online child sexual abuse and exploitation and preventing our services from being used to spread child sexual abuse material (CSAM).
+
+We invest heavily in fighting child sexual abuse and exploitation online and use our proprietary technology to deter, detect, remove and report offences on our platforms.
+
+We partner with NGOs and industry on programs to share our technical expertise, and develop and share tools to help organisations fight CSAM.
+
+Learn more about our child safety toolkit here .
+
+Fighting abuse on our own platforms and services
+
+Google has been committed to fighting child sexual abuse and exploitation on our services since our earliest days. We devote significant resources—technology, people, and time—to deterring, detecting, removing, and reporting child sexual exploitation content and behavior.
+
+What are we doing?
+
+Preventing abuse
+
+We aim to prevent abuse from happening by ensuring our products are safe for children to use. We also use all available insights and research to understand evolving threats and new ways of offending, like for example in the case of AI-generated CSAM . We take action not just on illegal CSAM, but also wider content that promotes the sexual abuse of children and can put children at risk.
+
+Detecting and reporting
+
+We identify and report CSAM with trained specialist teams and cutting-edge technology, including machine learning classifiers and hash-matching technology, which creates a “hash”, or unique digital fingerprint, for an image or a video so it can be compared with hashes of known CSAM. When we find CSAM, we report it to the National Center for Missing and Exploited Children (NCMEC), which liaises with law enforcement agencies around the world.
+
+Visit NCMEC
+
+Collaborating globally
+
+We collaborate with NCMEC and other organizations globally in our efforts to combat online child sexual abuse. As part of these efforts, we establish strong partnerships with NGOs and industry coalitions to help grow and contribute to our joint understanding of the evolving nature of child sexual abuse and exploitation.
+
+How are we doing it?
+
+We act on content like child sexual abuse material, grooming, sextortion, and more using a wide range of technological and human resources. You can read a high-level description of our approach , or dive deeper below into how some of our products deal with this type of abuse.
+
+Fighting child sexual abuse on Search
+
+Google Search makes information easy to find, but we never want Search to surface content that is illegal or sexually exploits children. It's our policy to block search results that lead to child sexual abuse imagery or material that appears to sexually victimize, endanger, or otherwise exploit children. We are constantly updating our algorithms to combat these evolving threats.
+
+We apply extra protections to searches that we understand are seeking CSAM content. We filter out explicit sexual results if the search query seems to be seeking CSAM, and for queries seeking adult explicit content, Search won’t return imagery that includes children, to break the association between children and sexual content. In many countries, users who enter queries clearly related to CSAM are shown a prominent warning that child sexual abuse imagery is illegal, with information on how to report this content to trusted organizations like the Internet Watch Foundation in the UK, the Canadian Centre for Child Protection and Te Protejo in Colombia. When these warnings are shown, users are less likely to continue looking for this material.
+
+Relevant links
+
+Canadian Centre for Child Protection
+
+Te Protejo
+
+Content policies for Google Search
+
+Show more
+
+Show less
+
+YouTube’s work to combat exploitative videos and materials
+
+We have always had clear policies against videos, playlists, thumbnails and comments on YouTube that sexualise or exploit children. We use machine learning systems to proactively detect violations of these policies and have human reviewers around the world who quickly remove violations detected by our systems or flagged by users and our trusted flaggers.
+
+While some content featuring minors may not violate our policies, we recognise that the minors could be at risk of online or offline exploitation. This is why we take an extra cautious approach when enforcing these policies. Our machine learning systems help to proactively identify videos that may put minors at risk and apply our protections at scale, such as restricting live features, disabling comments, and limiting video recommendations.
+
+Relevant links
+
+Child safety policies
+
+YouTube trusted flaggers
+
+Restricting live features
+
+Show more
+
+Show less
+
+Our CSAM Transparency Report
+
+In 2021, we launched a transparency report on Google’s efforts to combat online child sexual abuse material, detailing how many reports we made to NCMEC. The report also provides data around our efforts on YouTube, how we detect and remove CSAM results from Search, and how many accounts are disabled for CSAM violations across our services.
+
+The transparency report also includes information on the number of hashes of CSAM we share with NCMEC. These hashes help other platforms identify CSAM at scale. Contributing to the NCMEC hash database is one of the important ways we, and others in the industry, can help in the effort to combat CSAM because it helps reduce the recirculation of this material and the associated re-victimization of children who have been abused.
+
+Relevant links
+
+Google transparency report
+
+YouTube child safety efforts
+
+Show more
+
+Show less
+
+Reporting inappropriate behavior on our products
+
+We want to protect children using our products from experiencing grooming, sextortion, trafficking and other forms of child sexual exploitation. As part of our work to make our products safe for children to use, we provide useful information to help users report child sexual abuse material to the relevant authorities.
+
+If users have a suspicion that a child has been endangered on Google products such as Gmail or Hangouts, they can report it using this form. Users can also flag inappropriate content on YouTube, and report abuse in Google Meet through the Help Center and in the product directly. We also provide information on how to deal with concerns about bullying and harassment, including information on how to block users from contacting a child. For more on our child safety policies, see YouTube’s Community Guidelines and the Google Safety Center.
+
+Relevant links
+
+Report inappropriate content
+
+Report Child Endangerment on Google Products
+
+Report inappropriate content on YouTube
+
+Google Meet Help Center
+
+YouTube's Community Guidelines
+
+Google Safety Center
+
+Show more
+
+Show less
+
+Developing and sharing tools to fight child sexual abuse
+
+We use our technical expertise and innovation to protect children and support others to do the same. We offer our cutting-edge technology free-of-charge for qualifying organizations to make their operations better, faster and safer, and encourage interested organizations to apply to use our child safety tools.
+
+Content Safety API
+
+Used for previously unseen image and video content
+
+For many years, Google has been working on machine learning classifiers to allow us to proactively identify never-before-seen CSAM imagery so it can be reviewed and, if confirmed as CSAM, removed and reported as quickly as possible. This technology powers the Content Safety API, which helps organizations classify and prioritize potential abuse content for review. Every month, our partners use the Content Safety API to classify billions of files, helping them identify problematic content faster and with more precision so they can report it to the authorities.
+
+Used by
+
+CSAI Match
+
+Used for Video hash matching
+
+In 2014, YouTube engineers developed and adopted technology to tag and remove known CSAM videos from our services. We share this technology with others through CSAI Match , an API that helps identify re-uploads of previously identified child sexual abuse material in videos. CSAI Match is used by NGOs and companies to help them identify matches against our database of known abusive content so they can responsibly action it in accordance with local laws and regulations.
+
+Used by
+
+Alliances & Programs
+
+We are an active member of several coalitions, such as the Technology Coalition, the ICT Coalition, the WeProtect Global Alliance, and INHOPE and the Fair Play Alliance, that bring companies and NGOs together to develop solutions that disrupt the exchange of CSAM online and prevent the sexual exploitation of children.
+
+Together we fund child safety research and share tools and knowledge, such as our insights into transparency reporting, in-product detection, and operational processes.
+
+In partnership with
+
+Ad Grants through Google.org
+
+Google.org offers grants to organizations leading the fight against child sexual abuse and exploitation, like INHOPE and ECPAT International. Additionally, since 2003, Google.org has given approximately $90 million in free advertising budget to NGOs and charities who operate child sexual abuse reporting hotlines, helping them reach those who need support the most.
+
+Relevant Links
+
+ECPAT International
+
+INHOPE hotline
+
+Google Fellow program
+
+We fund technical fellowships at organisations dedicated to fighting child sexual abuse like NCMEC and Thorn. In addition, Google provides training to law enforcement officials investigating online crimes against children through forums such as the Crimes Against Children Conference and the National Law Enforcement Training on Child Exploitation.
+
+Relevant Links
+
+Thorn
+
+Crimes Against Children National Conference
+
+Footer links
+
+About Google
+
+Google products
+
+Privacy
+
+Terms
+
+Cookies management controls
+
+Help
+
+English
+
+বাংলা (ভারত)
+
+Deutsch (Deutschland)
+
+English (Australia)
+
+English (India)
+
+English (United Kingdom)
+
+Español (Latinoamérica)
+
+Español (Argentina)
+
+Español (España)
+
+Español (México)
+
+Filipino (Pilipinas)
+
+Français (Belgique)
+
+Français (Canada)
+
+Français (France)
+
+ગુજરાતી (ભારત)
+
+हिन्दी (भारत)
+
+Indonesia (Indonesia)
+
+Italiano (Italia)
+
+日本語 (日本)
+
+ಕನ್ನಡ (ಭಾರತ)
+
+한국어 (대한민국)
+
+മലയാളം (ഇന്ത്യ)
+
+मराठी (भारत)
+
+Nederlands
+
+Nederlands (België)
+
+Nederlands (Nederland)
+
+Português (Brasil)
+
+தமிழ் (இந்தியா)
+
+తెలుగు (భారతదేశం)
+
+Tiếng Việt (Việt Nam)
+
+中文 (简体)
+
+中文
+
+中文 (繁體)

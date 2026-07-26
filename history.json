@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-07-26-google-child-safety-baseline",
+  "date": "2026-07-26",
+  "slug": "google",
+  "company": "Google (Gmail)",
+  "doc": "child-safety",
+  "docTitle": "How Google fights CSAM",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-microsoft-eu-reports-baseline",
+  "date": "2026-07-26",
+  "slug": "microsoft",
+  "company": "Microsoft (Outlook, Teams)",
+  "doc": "eu-reports",
+  "docTitle": "EU jurisdictional transparency reports",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
   "id": "2026-07-26-apple-icloud-security-baseline",
   "date": "2026-07-26",
   "slug": "apple",
