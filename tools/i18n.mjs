@@ -60,6 +60,9 @@ export const LOCALES = {
       barAria: (n) => `Sur ${n} plateformes suivies`,
       bignums: ["scannent sous Chat Control", "scannent sous la loi US · aucune preuve UE", "ne se prononcent pas", "affirme ne pas scanner", "ne peuvent pas — E2EE"],
       checkYours: "Vérifiez le vôtre",
+      mailCta: { h2: "Être prévenu quand ça change",
+        note: 'Un e-mail les jours où une entreprise suivie modifie une politique, une promesse de chiffrement ou une fiche de magasin d\'applications. Rien les jours calmes, rien d\'autre jamais, et un clic vous désinscrit en effaçant votre adresse. Pas d\'e-mail ? <a href="/fr/alerts/">Notifications push et RSS</a>.',
+        ph: "vous@exemple.org", btn: "Prévenez-moi par e-mail" },
       how: "Comment fonctionne le registre",
       steps: [["1 · Relevé", "Chaque politique, page sécurité et fiche App Store suivie est re-consultée tous les jours à 06 h 17 UTC."], ["2 · Différence", "Un changement n'est enregistré que si les mots ont réellement changé — avec l'avant et l'après conservés."], ["3 · Témoin", "Chaque relevé est un commit git public, et Internet Archive capture les pages modifiées le jour même."]],
       deeper: "Aller plus loin",
@@ -232,6 +235,9 @@ export const LOCALES = {
       barAria: (n) => `Von ${n} erfassten Plattformen`,
       bignums: ["scannen unter der Chatkontrolle", "scannen nach US-Recht · keine EU-Belege", "äußern sich nicht", "erklärt, nicht zu scannen", "können nicht — E2EE"],
       checkYours: "Prüfen Sie Ihre App",
+      mailCta: { h2: "Bescheid bekommen, wenn sich etwas ändert",
+        note: 'Eine E-Mail an den Tagen, an denen ein erfasstes Unternehmen eine Richtlinie, ein Verschlüsselungsversprechen oder eine App-Store-Angabe ändert. Nichts an stillen Tagen, sonst nie etwas, und ein Klick meldet Sie ab und löscht Ihre Adresse. Lieber ohne Postfach? <a href="/de/alerts/">Push und RSS</a>.',
+        ph: "sie@beispiel.org", btn: "Änderungen per E-Mail" },
       how: "Wie das Register arbeitet",
       steps: [["1 · Erfassen", "Jede erfasste Richtlinie, Sicherheitsseite und App-Store-Angabe wird täglich um 06:17 UTC neu abgerufen."], ["2 · Vergleichen", "Eine Änderung wird nur festgehalten, wenn sich die Worte wirklich geändert haben — mit bewahrtem Vorher und Nachher."], ["3 · Bezeugen", "Jede Erfassung ist ein öffentlicher Git-Commit, und das Internet Archive sichert geänderte Quellen am selben Tag."]],
       deeper: "Tiefer einsteigen",
@@ -404,6 +410,9 @@ export const LOCALES = {
       barAria: (n) => `De ${n} plataformas seguidas`,
       bignums: ["escanean bajo Chat Control", "escanean bajo ley de EE. UU. · sin pruebas UE", "no se pronuncian", "afirma que no escanea", "no pueden — E2EE"],
       checkYours: "Comprueba la tuya",
+      mailCta: { h2: "Que te avisemos cuando cambie",
+        note: 'Un correo los días en que una empresa seguida modifica una política, una promesa de cifrado o una ficha de tienda de aplicaciones. Nada los días tranquilos, nada más nunca, y un clic te da de baja y borra tu dirección. ¿Prefieres sin correo? <a href="/es/alerts/">Push y RSS</a>.',
+        ph: "tu@ejemplo.org", btn: "Avísame por correo" },
       how: "Cómo funciona el registro",
       steps: [["1 · Registro", "Cada política, página de seguridad y ficha del App Store se vuelve a consultar cada día a las 06:17 UTC."], ["2 · Diferencia", "Un cambio solo se registra si las palabras realmente cambiaron — con el antes y el después conservados."], ["3 · Testigo", "Cada registro es un commit git público, e Internet Archive captura las páginas modificadas el mismo día."]],
       deeper: "Ir más allá",
@@ -576,6 +585,9 @@ export const LOCALES = {
       barAria: (n) => `Z ${n} śledzonych platform`,
       bignums: ["skanują w ramach kontroli czatów", "skanują na mocy prawa USA · brak dowodów z UE", "nie deklarują się", "twierdzi, że nie skanuje", "nie mogą — E2EE"],
       checkYours: "Sprawdź swoją",
+      mailCta: { h2: "Dowiedz się, gdy coś się zmieni",
+        note: 'Jeden e-mail w dni, gdy śledzona firma zmieni politykę, obietnicę szyfrowania albo deklarację w sklepie z aplikacjami. Nic w spokojne dni, nic poza tym nigdy, a jedno kliknięcie wypisuje i usuwa Twój adres. Wolisz bez skrzynki? <a href="/pl/alerts/">Push i RSS</a>.',
+        ph: "ty@przyklad.org", btn: "Powiadom mnie mailem" },
       how: "Jak działa rejestr",
       steps: [["1 · Zapis", "Każda śledzona polityka, strona bezpieczeństwa i etykieta App Store jest pobierana ponownie codziennie o 06:17 UTC."], ["2 · Różnica", "Zmiana trafia do rejestru tylko wtedy, gdy słowa naprawdę się zmieniły — z zachowaniem wersji przed i po."], ["3 · Świadek", "Każdy zapis to publiczny commit w git, a Internet Archive utrwala zmienione strony tego samego dnia."]],
       deeper: "Wejdź głębiej",
@@ -754,6 +766,16 @@ export function emitLocales(ctx) {
   </section>
   ${cardsHTML}
   <p class="note mt-12">${L.ui.statusNote(assessed, ctx.REPO)}</p>
+  <section class="signup" id="alerts">
+    <div class="signup-copy">
+      <h2>${H.mailCta.h2}</h2>
+      <p class="note">${H.mailCta.note}</p>
+    </div>
+    <form class="mailform" method="post" action="/api/subscribe-email">
+      <input class="mailinput" type="email" name="email" required placeholder="${H.mailCta.ph}" aria-label="Email">
+      <button class="btn" type="submit">${H.mailCta.btn}</button>
+    </form>
+  </section>
   <h2>${H.how}</h2>
   <div class="steps">${H.steps.map(([b, t]) => `<div class="step"><b>${b}</b>${t}</div>`).join("")}</div>
   <h2>${H.deeper}</h2>

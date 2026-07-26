@@ -637,6 +637,13 @@ p.lede { max-width:58ch; }
   .feed .date, .notes-list .date { flex-basis:100%; }
 }
 
+.signup { border:1px solid var(--line); background:var(--panel); border-radius:16px;
+  padding:1.4rem 1.5rem; margin:2.6rem 0 1rem; display:grid; gap:1rem 2.4rem;
+  grid-template-columns:1fr; box-shadow:0 1px 2px rgb(0 0 0 / .04); }
+.signup h2 { margin:0 0 .35rem; font-size:1.12rem; }
+.signup .note { margin:0; max-width:54ch; }
+.signup .mailform { margin:0; align-self:center; }
+@media (min-width:900px) { .signup { grid-template-columns:1.35fr 1fr; align-items:center; } }
 /* utilities — the CSP bans style="" attributes, so spacing one-offs live here */
 .mt-04 { margin-top:.45rem; } .mt-06 { margin-top:.6rem; } .mt-10 { margin-top:1rem; }
 .mt-12 { margin-top:1.2rem; } .mt-14 { margin-top:1.4rem; } .mt-16 { margin-top:1.6rem; } .mt-20 { margin-top:2rem; }
@@ -718,6 +725,7 @@ ${hreflang}
     ${navLink("/chat-control/", "Chat Control", "cc")}
     ${navLink("/numbers/", "Numbers", "numbers")}
     ${navLink("/notes/", "Notes", "notes")}
+    ${navLink("/alerts/", "Alerts", "alerts")}
     ${navLink("/about/", "About", "about")}
     <a href="${REPO}">GitHub</a>
     ${langMenu("en", alts)}
@@ -906,6 +914,20 @@ mkdirSync(OUT, { recursive: true });
   software</strong>, and absence of evidence is not evidence of absence: a provider could scan
   without disclosing it. Full table with tracked documents: <a href="/companies/">companies</a>.
   Wrong about your company? <a href="${REPO}/issues">Dispute it</a> — disputes are published.</p>
+  <section class="signup" id="alerts">
+    <div class="signup-copy">
+      <h2>Get told when this changes</h2>
+      <p class="note">One email on the days a tracked company edits a policy, an encryption claim
+      or an app-store declaration. Nothing on quiet days, nothing else ever, and one click
+      unsubscribes and deletes your address. Prefer no inbox?
+      <a href="/alerts/">Push notifications and RSS</a>.</p>
+    </div>
+    <form class="mailform" method="post" action="/api/subscribe-email">
+      <input class="mailinput" type="email" name="email" required placeholder="you@example.org" aria-label="Email address">
+      <button class="btn" type="submit">Email me changes</button>
+    </form>
+  </section>
+
   <h2>How the record works</h2>
   <div class="steps">
     <div class="step"><b>1 · Snapshot</b>Every tracked policy, security page and App Store label is re-fetched daily at 06:17 UTC.</div>
