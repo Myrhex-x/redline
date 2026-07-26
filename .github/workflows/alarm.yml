@@ -1,0 +1,35 @@
+name: alarm
+
+# The archive's promise is "recorded daily". If the snapshot workflow fails,
+# this turns the silence into a GitHub issue instead of an unnoticed gap.
+
+on:
+  workflow_run:
+    workflows: ["snapshot"]
+    types: [completed]
+
+permissions:
+  issues: write
+
+jobs:
+  notify:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Open an issue unless one is already open
+        run: |
+          OPEN=$(gh issue list -R "${{ github.repository }}" --state open \
+            --search "Daily snapshot failed in:title" --json number --jq 'length')
+          if [ "$OPEN" = "0" ]; then
+            gh issue create -R "${{ github.repository }}" \
+              --title "Daily snapshot failed ($(date -u +%F))" \
+              --body "The snapshot workflow concluded **failure** — the record did not update.
+
+Run: ${{ github.event.workflow_run.html_url }}
+
+Investigate before gaps accumulate; every unrecorded day is unrecoverable."
+          else
+            echo "An open failure issue already exists; not duplicating."
+          fi

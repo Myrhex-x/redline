@@ -301,6 +301,7 @@ main { padding-top:1.8rem; }
   display:flex; align-items:center; gap:.15rem; margin-bottom:1.3rem; }
 .hero h1 { color:#ffffff; }
 .hero p.lede { color:#a6adb5; max-width:47rem; }
+.hero p.lede strong { color:#f4f4f4; }
 .hero a { text-decoration-color:#5a6470; }
 .hero a:hover { text-decoration-color:#fff; }
 .bar { display:flex; height:13px; border-radius:99px; overflow:hidden; margin:2.1rem 0 1.1rem;
@@ -426,10 +427,14 @@ const FAVICON =
 
 const SITEMAP = [];
 
-function page({ title, desc, path, active, body }) {
+function page({ title, desc, path, active, body, alt }) {
   SITEMAP.push(path);
   const navLink = (href, label, key) =>
     `<a href="${href}"${active === key ? ' aria-current="page"' : ""}>${label}</a>`;
+  const hreflang = alt
+    ? `<link rel="alternate" hreflang="en" href="${SITE}${path}">
+<link rel="alternate" hreflang="fr" href="${SITE}${alt}">`
+    : "";
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -438,6 +443,7 @@ function page({ title, desc, path, active, body }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${SITE}${path}">
+${hreflang}
 <link rel="icon" href="${FAVICON}">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
@@ -467,6 +473,7 @@ function page({ title, desc, path, active, body }) {
     ${navLink("/notes/", "Notes", "notes")}
     ${navLink("/about/", "About", "about")}
     <a href="${REPO}">GitHub</a>
+    <a href="${alt ?? "/fr/"}" lang="fr" title="Version française">FR</a>
   </nav>
 </div></header>
 <main id="main"><div class="wrap">
@@ -481,6 +488,7 @@ ${body}
   <div class="fcol"><h4>Explore</h4>
     <a href="/">The checker</a><a href="/chat-control/">What is Chat Control?</a>
     <a href="/numbers/">The numbers</a><a href="/notes/">Notes</a><a href="/glossary/">Glossary</a>
+    <a href="/switch/">Get out of the scanning</a><a href="/press/">Press &amp; reuse</a>
   </div>
   <div class="fcol"><h4>The record</h4>
     <a href="/companies/">Tracked companies</a><a href="/alerts/">Alerts</a><a href="/data/">Data (CC0)</a>
@@ -656,6 +664,7 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
     <a class="bigcard" href="/chat-control/"><h3>What is Chat Control? →</h3><p>The plain-language guide: the timeline, 1.0 vs 2.0, who actually scans, and what it means for your apps.</p></a>
     <a class="bigcard" href="/notes/"><h3>Notes →</h3><p>Short, sourced write-ups from the record — starting with the Snapchat and Apple discrepancy.</p></a>
     <a class="bigcard" href="/alerts/"><h3>Get alerts →</h3><p>A push notification the moment a tracked company moves. No account, no email — install to your Home Screen and subscribe.</p></a>
+    <a class="bigcard" href="/switch/"><h3>Get out of the scanning →</h3><p>The practical version: which apps can't read your messages, the backup trap, and why a VPN changes nothing.</p></a>
   </div>
   <h2>Latest changes</h2>
   <p class="groupnote">Every tracked document is re-fetched daily; when one changes, the change
@@ -683,7 +692,7 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
     page({
       title: "ScanRecords — is your app scanning under the EU's Chat Control?",
       desc: "Check what your messaging app's own documents say about scanning under the EU's Chat Control — recorded daily, every change preserved with its before and after.",
-      path: "/", active: "home", body,
+      path: "/", active: "home", body, alt: "/fr/",
     })
   );
 }
@@ -875,6 +884,12 @@ for (const e of realChanges) {
     <tr><td class="dim">What this site does</td><td>Records who uses it, in their own words and filings</td><td>Records the encryption language that would have to change first</td></tr>
     </tbody>
   </table></div>
+  <div class="banner st-unclear" style="margin-top:1.4rem">
+    <strong>Where 2.0 stands right now</strong> <span class="dim">— last reviewed ${fmtDate(ASSESSED)}</span>
+    <div style="margin-top:.45rem" class="dim">The supposedly final trilogue collapsed on 29 June 2026
+    over suspicionless scanning; negotiations continue under the Irish Council presidency. Nothing is
+    law yet. This box is re-reviewed whenever statuses are.</div>
+  </div>
   <p class="note">Background reading:
   <a href="https://www.euronews.com/my-europe/2026/07/23/eu-temporarily-extends-controversial-chat-scanning-regime-until-2028">Euronews</a> ·
   <a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> ·
@@ -983,7 +998,7 @@ for (const e of realChanges) {
     page({
       title: "What is the EU's Chat Control? — plain-language guide — ScanRecords",
       desc: "Chat Control explained: the voluntary scanning rule in force until April 2028, the timeline, 1.0 vs 2.0, who actually scans (per the Commission's own report), what it means for your apps, and common questions.",
-      path: "/chat-control/", active: "cc", body,
+      path: "/chat-control/", active: "cc", body, alt: "/fr/chat-control/",
     })
   );
 }
@@ -1198,8 +1213,145 @@ for (const e of realChanges) {
   mkdirSync(join(OUT, "glossary"), { recursive: true });
   writeFileSync(
     join(OUT, "glossary", "index.html"),
-    page({ title: "Glossary — ScanRecords", desc: "Chat Control's vocabulary in plain language: E2EE, client-side scanning, hash matching, detection orders, and more.", path: "/glossary/", active: "notes", body })
+    page({ title: "Glossary — ScanRecords", desc: "Chat Control's vocabulary in plain language: E2EE, client-side scanning, hash matching, detection orders, and more.", path: "/glossary/", active: "notes", body, alt: "/fr/glossary/" })
   );
+}
+
+// switch — the practical page
+{
+  const e2eeApps = groups.find((g) => g.key === "e2ee").companies;
+  const body = `<div class="about">
+  <h1>How to actually get out of the scanning</h1>
+  <p class="lede">Everything on this page follows from the record: what is scanned today, what
+  cannot be, and which settings quietly undo your protection. No products to buy — just choices.</p>
+
+  <h2>1. The only real opt-out is the app you use</h2>
+  <p>Scanning under Chat Control happens <strong>at the provider</strong>, with the provider's
+  keys. End-to-end encrypted apps have nothing readable to scan and are formally excluded from
+  the derogation. These are the tracked apps that cannot read your messages:</p>
+  <div class="cards">${e2eeApps
+    .map((c) => `<a class="card st-e2ee" href="/company/${c.slug}/">
+      <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
+      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">Can't read your messages</span></span></a>`)
+    .join("")}</div>
+
+  <h2>2. Mind the backup trap</h2>
+  <p>WhatsApp chats are E2EE — but an <strong>unencrypted cloud backup</strong> hands a readable
+  copy to Apple's or Google's servers anyway. Either disable chat backups or turn on
+  <em>end-to-end encrypted backup</em> (Settings → Chats → Chat backup). The same logic applies
+  anywhere: encryption in transit means little if a plaintext copy rests somewhere else.</p>
+
+  <h2>3. Email is the scanned zone</h2>
+  <p>Gmail and Outlook are scanned in the EU under the derogation — their operators are two of the
+  <a href="/notes/five-providers-verbatim/">five providers filing its reports</a>. Proton states it
+  does not scan content and cannot read stored mail; GMX makes no clear statement. If your
+  correspondence is sensitive, the mailbox provider is a bigger decision than any setting inside it.</p>
+
+  <h2>4. A VPN does not help here</h2>
+  <p>A VPN moves your traffic, not your messages — scanning happens where the message is
+  processed, at the provider. Against Chat Control specifically, a VPN changes nothing. Choose
+  the app, not the tunnel.</p>
+
+  <h2>5. Know what still leaks</h2>
+  <p>E2EE protects <strong>content</strong>. Metadata — who you talk to, when, how often — is
+  visible to most providers regardless (Signal and Threema minimize even that). And nothing here
+  protects a device someone else unlocks.</p>
+
+  <h2>6. What this doesn't cover</h2>
+  <p>All of the above concerns the rules in force today. The draft
+  <a href="/chat-control/">Chat Control 2.0</a> could reach into E2EE apps via scanning on your
+  device, before encryption — which is why the sentence "we cannot read your messages" is one of
+  the things this archive watches daily.</p>
+
+  <p class="note" style="margin-top:1.6rem">Every claim above traces to the
+  <a href="/">checker</a>, the <a href="/numbers/">numbers</a>, or a company's own archived
+  documents. Send this page to the person who asked you "so what do I do?"</p>
+  </div>`;
+  mkdirSync(join(OUT, "switch"), { recursive: true });
+  writeFileSync(
+    join(OUT, "switch", "index.html"),
+    page({
+      title: "How to get out of the scanning — ScanRecords",
+      desc: "The practical version: which apps can't read your messages, the WhatsApp backup trap, why a VPN changes nothing, and what still leaks.",
+      path: "/switch/", active: "home", body, alt: "/fr/switch/",
+    })
+  );
+}
+
+// press
+{
+  const body = `<div class="about">
+  <h1>Press &amp; reuse</h1>
+  <p class="lede">ScanRecords is a public, automated archive answering one question: which
+  communication platforms scan under the EU's Chat Control — in their own documents and filings,
+  recorded daily since ${fmtDate(baselineDate)}.</p>
+
+  <h2>The facts</h2>
+  <ul>
+    <li><strong>${companies.length} platforms</strong>, ${docCount} documents and ${labelCount} App Store privacy labels, re-fetched daily at 06:17 UTC.</li>
+    <li><strong>Exactly five providers</strong> file the derogation's mandatory reports — “Google, LinkedIn, Meta, Microsoft and Yubo” (COM(2025) 740). The <a href="/">checker</a> reflects precisely that.</li>
+    <li>Changes are published with their full before/after, independently timestamped by the Internet Archive, and preserved in a <a href="${REPO}">public git history</a> nobody can quietly rewrite.</li>
+    <li>The EU's own scanning statistics — error ratios included — are charted on <a href="/numbers/">the numbers page</a>.</li>
+  </ul>
+
+  <h2>Citing</h2>
+  <p>Cite company pages or change pages directly — each change page carries a ready-made citation
+  with content hashes. Statuses are observations of public statements and filings, each with its
+  sources shown; companies can dispute them publicly under a fixed
+  <a href="${REPO}/blob/main/POLICY.md">editorial policy</a>.</p>
+
+  <h2>Reuse</h2>
+  <ul>
+    <li>All generated data is <strong>CC0</strong>: <a href="/data/">scanrecords.org/data</a>.</li>
+    <li>Per-company status badges you can embed, updated with the record:
+    <span class="mono">https://scanrecords.org/badge/&lt;company&gt;.svg</span> — e.g.
+    <img src="/badge/signal.svg" alt="Signal Chat Control status badge" style="vertical-align:middle"> ·
+    <img src="/badge/meta.svg" alt="Meta Chat Control status badge" style="vertical-align:middle"></li>
+    <li>The card image: <a href="/og.png">og.png</a> · icons: <a href="/icons/icon-512.png">icon-512.png</a>.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Publicly, via <a href="${REPO}/issues">GitHub issues</a> — consistent with how everything
+  else here works. The operator is a private individual; the work speaks through the record.</p>
+  </div>`;
+  mkdirSync(join(OUT, "press"), { recursive: true });
+  writeFileSync(
+    join(OUT, "press", "index.html"),
+    page({
+      title: "Press & reuse — ScanRecords",
+      desc: "What ScanRecords is, the key facts, how to cite it, and CC0 data + embeddable status badges.",
+      path: "/press/", active: "about", body,
+    })
+  );
+}
+
+// per-company status badges (embeddable SVG)
+{
+  const BADGE_COLORS = { confirmed: "#c2434d", global: "#c2434d", unclear: "#6b6b6b", denies: "#2f8f4e", e2ee: "#2f8f4e" };
+  const BADGE_TEXT = {
+    confirmed: "scans under Chat Control", global: "scans · no EU evidence",
+    unclear: "no clear statement", denies: "says it doesn't scan", e2ee: "E2EE — out of scope",
+  };
+  mkdirSync(join(OUT, "badge"), { recursive: true });
+  for (const c of companies) {
+    const st = c.chatControl?.status ?? "unclear";
+    const left = shortName(c), right = BADGE_TEXT[st];
+    const lw = Math.round(left.length * 6.6 + 14), rw = Math.round(right.length * 6.3 + 14);
+    writeFileSync(
+      join(OUT, "badge", `${c.slug}.svg`),
+      `<svg xmlns="http://www.w3.org/2000/svg" width="${lw + rw}" height="22" role="img" aria-label="${esc(left)}: ${esc(right)}">
+<rect width="${lw}" height="22" rx="4" fill="#1a1a1a"/>
+<rect x="${lw - 4}" width="4" height="22" fill="#1a1a1a"/>
+<rect x="${lw}" width="${rw}" height="22" fill="${BADGE_COLORS[st]}"/>
+<rect x="${lw}" width="${rw}" height="22" rx="4" fill="${BADGE_COLORS[st]}"/>
+<rect x="${lw}" width="4" height="22" fill="${BADGE_COLORS[st]}"/>
+<g fill="#ffffff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11">
+<text x="${lw / 2}" y="15" text-anchor="middle">${esc(left)}</text>
+<text x="${lw + rw / 2}" y="15" text-anchor="middle">${esc(right)}</text>
+</g></svg>
+`
+    );
+  }
 }
 
 // alerts — the one page with JavaScript, and it says so
@@ -1244,7 +1396,452 @@ for (const e of realChanges) {
     page({
       title: "Alerts — ScanRecords",
       desc: "Push notification the moment a tracked company changes a policy or label under the EU's Chat Control. No account, no email — and unsubscribing deletes everything.",
-      path: "/alerts/", active: "alerts", body,
+      path: "/alerts/", active: "alerts", body, alt: "/fr/alerts/",
+    })
+  );
+}
+
+// ---------------------------------------------------------------- français ----
+const STATUS_FR = {
+  confirmed: { label: "Scanne sous le Chat Control de l'UE", cls: "st-scans",
+    verdict: "Scanne sous Chat Control — confirmé",
+    blurb: "Les rapports obligatoires de la dérogation n'existent que pour les fournisseurs qui scannent réellement des communications privées. Exactement cinq les ont déposés, pour 2023 et 2024, selon le rapport de mise en œuvre de la Commission — c'est l'usage du Chat Control, documenté par l'UE elle-même." },
+  global: { label: "Scanne mondialement — aucune preuve UE", cls: "st-global",
+    verdict: "Scanne sous la loi américaine · aucune preuve UE",
+    blurb: "Leurs documents révèlent un scan des contenus au titre du droit américain (signalements NCMEC, PhotoDNA). Aucune preuve qu'ils invoquent la dérogation européenne pour les communications privées — le scan « loi US » et le Chat Control sont deux régimes distincts." },
+  unclear: { label: "Aucune déclaration claire", cls: "st-unclear",
+    verdict: "Ne se prononce pas",
+    blurb: "Pas de chiffrement de bout en bout, et aucune déclaration publique claire, dans un sens ou dans l'autre, sur le scan des communications privées." },
+  denies: { label: "Affirme ne pas scanner", cls: "st-denies",
+    verdict: "Affirme ne pas scanner",
+    blurb: "L'entreprise déclare publiquement ne pas scanner le contenu des messages." },
+  e2ee: { label: "Chiffré de bout en bout — hors champ", cls: "st-e2ee",
+    verdict: "Ne peut pas lire vos messages",
+    blurb: "Le contenu est chiffré de bout en bout ; les communications E2EE sont formellement exclues du scan volontaire du Chat Control." },
+};
+const groupsFR = Object.keys(STATUS_FR).map((k) => ({
+  key: k, ...STATUS_FR[k],
+  companies: companies.filter((c) => (c.chatControl?.status ?? "unclear") === k),
+}));
+
+function pageFR({ title, desc, path, active, body, alt }) {
+  SITEMAP.push(path);
+  const navLink = (href, label, key) =>
+    `<a href="${href}"${active === key ? ' aria-current="page"' : ""}>${label}</a>`;
+  return `<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${SITE}${path}">
+<link rel="alternate" hreflang="fr" href="${SITE}${path}">
+<link rel="alternate" hreflang="en" href="${SITE}${alt}">
+<link rel="icon" href="${FAVICON}">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ScanRecords">
+<meta property="og:title" content="${esc(title)}">
+<meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${SITE}${path}">
+<meta property="og:image" content="${SITE}/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="top"><div class="wrap">
+  <a class="wm plain" href="/fr/">Scan<span class="half">Records</span></a>
+  <nav class="site">
+    ${navLink("/fr/", "Vérifier", "home")}
+    ${navLink("/fr/chat-control/", "Chat Control", "cc")}
+    ${navLink("/fr/switch/", "Se protéger", "switch")}
+    ${navLink("/fr/alerts/", "Alertes", "alerts")}
+    ${navLink("/fr/glossary/", "Glossaire", "gloss")}
+    <a href="${alt}" lang="en" title="English version">EN</a>
+  </nav>
+</div></header>
+<main id="main"><div class="wrap">
+${body}
+</div></main>
+<footer class="site"><div class="wrap">
+  <div class="fcol fbrand">
+    <div class="feye" aria-hidden="true">${EYE_SVG}</div>
+    <p><strong>ScanRecords</strong> — l'archive des politiques face au Chat Control.<br>
+    Relevé quotidien. Pas de cookies, pas de traceurs, pas de comptes — rien à consentir.</p>
+  </div>
+  <div class="fcol"><h4>Explorer</h4>
+    <a href="/fr/">Le vérificateur</a><a href="/fr/chat-control/">C'est quoi, Chat Control ?</a>
+    <a href="/fr/switch/">Se protéger</a><a href="/fr/glossary/">Glossaire</a>
+    <a href="/numbers/">Les chiffres (EN)</a><a href="/notes/">Notes (EN)</a>
+  </div>
+  <div class="fcol"><h4>Le registre</h4>
+    <a href="/companies/">Entreprises suivies (EN)</a><a href="/fr/alerts/">Alertes</a>
+    <a href="/data/">Données CC0 (EN)</a><a href="${REPO}">GitHub</a><a href="/feed.xml">RSS</a>
+  </div>
+  <div class="fcol"><h4>Règles</h4>
+    <a href="/about/">Méthode (EN)</a><a href="${REPO}/blob/main/POLICY.md">Politique éditoriale</a>
+    <a href="/legal">Mentions légales</a>
+  </div>
+</div></footer>
+</body>
+</html>`;
+}
+
+// /fr/ — le vérificateur
+{
+  const cardsFR = groupsFR
+    .map(
+      (g) => `
+  <h2 class="grouphead" id="${g.key}"><span class="${g.cls}"><span class="dot"></span>${g.label}</span> <span class="count">${g.companies.length}</span></h2>
+  <p class="groupnote">${g.blurb}</p>
+  <div class="cards">${g.companies
+    .map((c) => `<a class="card ${g.cls}" href="/company/${c.slug}/" hreflang="en">
+      <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
+      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${g.verdict}</span></span></a>`)
+    .join("")}</div>`
+    )
+    .join("");
+  const body = `
+  <section class="hero">
+    <div class="beam" aria-hidden="true"></div>
+    <div class="heroeye" aria-hidden="true">${EYE_SVG}</div>
+    <div class="eyebrow"><span class="livedot"></span> Un registre public — mis à jour chaque jour à 06 h 17 UTC</div>
+    <h1>Votre messagerie scanne-t-elle vos messages sous le Chat&nbsp;Control&nbsp;?</h1>
+    <p class="lede">Le Chat Control, c'est la règle européenne qui permet aux fournisseurs de
+    <strong>scanner volontairement les messages privés</strong> jusqu'en avril 2028. Chaque
+    entreprise décide pour elle-même — et les applications chiffrées de bout en bout sont
+    exclues. Trouvez la vôtre ci-dessous : les statuts suivent la preuve la plus solide
+    disponible, des rapports de l'UE aux documents des entreprises.
+    <a href="/fr/chat-control/">Comment ça marche →</a></p>
+    <div class="bar" role="img" aria-label="Sur ${companies.length} plateformes suivies : ${groupsFR.map((g) => `${g.companies.length} ${g.label.toLowerCase()}`).join(", ")}">
+      ${groupsFR.map((g) => `<i class="seg-${g.key}" style="flex:${g.companies.length}"></i>`).join("")}
+    </div>
+    <div class="bignums">
+      <a href="#confirmed"><b class="n-red">${groupsFR[0].companies.length}</b><span>scannent sous Chat Control</span></a>
+      <a href="#global"><b class="n-redsoft">${groupsFR[1].companies.length}</b><span>scannent sous la loi US</span></a>
+      <a href="#unclear"><b class="n-gray">${groupsFR[2].companies.length}</b><span>ne se prononcent pas</span></a>
+      <a href="#denies"><b class="n-greensoft">${groupsFR[3].companies.length}</b><span>affirme ne pas scanner</span></a>
+      <a href="#e2ee"><b class="n-green">${groupsFR[4].companies.length}</b><span>ne peuvent pas — E2EE</span></a>
+    </div>
+  </section>
+  ${cardsFR}
+  <p class="note" style="margin-top:1.2rem">Statuts évalués le ${fmtDate(ASSESSED)} à partir de
+  sources publiques — <strong>ils décrivent ce que les entreprises déclarent et déposent, pas des
+  mesures de leurs logiciels</strong>. Les fiches détaillées des entreprises sont en anglais.
+  Un statut vous semble faux ? <a href="${REPO}/issues">Contestez-le</a> — les contestations sont publiées.</p>
+  <h2>Comment fonctionne le registre</h2>
+  <div class="steps">
+    <div class="step"><b>1 · Relevé</b>Chaque politique, page sécurité et fiche App Store suivie est re-consultée tous les jours à 06 h 17 UTC.</div>
+    <div class="step"><b>2 · Différence</b>Un changement n'est enregistré que si les mots ont réellement changé — avec l'avant et l'après conservés.</div>
+    <div class="step"><b>3 · Témoin</b>Chaque relevé est un commit git public, et Internet Archive capture les pages modifiées le jour même.</div>
+  </div>
+  <h2>Aller plus loin</h2>
+  <div class="bigcards">
+    <a class="bigcard" href="/fr/chat-control/"><h3>C'est quoi, le Chat Control ? →</h3><p>Le guide en clair : la chronologie, 1.0 contre 2.0, qui scanne vraiment, et ce que ça change pour vos applis.</p></a>
+    <a class="bigcard" href="/fr/switch/"><h3>Échapper au scan →</h3><p>La version pratique : quelles applis ne peuvent pas lire vos messages, le piège des sauvegardes, et pourquoi un VPN n'y change rien.</p></a>
+    <a class="bigcard" href="/fr/alerts/"><h3>Recevoir les alertes →</h3><p>Une notification dès qu'une entreprise suivie bouge. Sans compte, sans e-mail.</p></a>
+    <a class="bigcard" href="/numbers/"><h3>Leurs propres chiffres (EN) →</h3><p>Taux d'erreur, volumes, et l'effet du chiffrement — d'après le rapport de la Commission.</p></a>
+  </div>
+  <div class="trust">
+    <span><b>Pas de cookies,</b> pas de traceurs — du JavaScript uniquement sur la page d'alertes, en opt-in</span>
+    <span><b>Chaque relevé</b> est un commit git public — infalsifiable</span>
+    <span><b>Chaque statut cite ses preuves</b> et peut être contesté publiquement</span>
+    <span><b>Les données sont CC0</b> — <a href="/data/">réutilisez-les</a></span>
+  </div>`;
+  mkdirSync(join(OUT, "fr"), { recursive: true });
+  writeFileSync(
+    join(OUT, "fr", "index.html"),
+    pageFR({
+      title: "ScanRecords — votre appli scanne-t-elle vos messages sous le Chat Control ?",
+      desc: "Vérifiez ce que les documents de votre messagerie disent du Chat Control européen — relevé quotidien, chaque changement conservé avec l'avant et l'après.",
+      path: "/fr/", active: "home", body, alt: "/",
+    })
+  );
+}
+
+// /fr/chat-control/
+{
+  const body = `
+  <section class="hero cc-hero">
+    <div class="beam" aria-hidden="true"></div>
+    <div class="cc-grid">
+      <div>
+        <div class="eyebrow">Règlement (UE) 2021/1232 — en vigueur jusqu'en avril 2028</div>
+        <h1>C'est quoi, le Chat&nbsp;Control&nbsp;?</h1>
+        <p class="lede">La règle qui permet aux fournisseurs de messageries de <strong>scanner
+        volontairement les messages privés</strong> dans l'UE. Ni obligatoire, ni universel — et
+        les applications chiffrées de bout en bout sont exclues. Voici la version en clair,
+        avec les sources primaires.</p>
+      </div>
+      <div class="cc-eye">${EYE_SVG}</div>
+    </div>
+  </section>
+  <div class="about">
+
+  <h2>Ce que c'est</h2>
+  <p>En droit européen, lire des communications privées est normalement interdit — y compris
+  pour les fournisseurs. La dérogation ePrivacy (règlement 2021/1232, surnommé
+  <strong>« Chat Control 1.0 »</strong>) crée une exception : les fournisseurs <em>peuvent</em>
+  scanner les messages privés à la recherche de contenus pédocriminels, s'ils le choisissent.
+  Expirée en avril 2026, rétablie par le Conseil et maintenue après un vote de rejet manqué au
+  Parlement en juillet 2026, elle court désormais jusqu'en <strong>avril 2028</strong>. Un
+  amendement adopté en parallèle <strong>exclut formellement les communications chiffrées de
+  bout en bout</strong>.</p>
+  <p>Un règlement séparé et permanent (le règlement CSA, <strong>« Chat Control 2.0 »</strong>),
+  qui pourrait rendre la détection obligatoire — y compris sur les applis chiffrées, via un scan
+  sur votre appareil avant le chiffrement — reste en négociation. Ce n'est pas la loi.</p>
+
+  <h2>La chronologie</h2>
+  <ol class="tl">
+    <li><b>Déc. 2020</b> — Les nouvelles règles télécoms étendent ePrivacy aux messageries ; Facebook suspend son scan dans l'UE du jour au lendemain.</li>
+    <li><b>Juil. 2021</b> — Le règlement 2021/1232 entre en vigueur : le scan volontaire redevient légal. Chat Control 1.0.</li>
+    <li><b>Août 2021</b> — Apple annonce un scan des photos sur l'appareil ; abandon fin 2022 après le tollé des experts.</li>
+    <li><b>Mai 2022</b> — La Commission propose le règlement CSA permanent, avec ordres de détection obligatoires. Chat Control 2.0.</li>
+    <li><b>Nov. 2023</b> — Position du Parlement : pas de scan généralisé, protéger le chiffrement de bout en bout.</li>
+    <li><b>Déc. 2023</b> — Meta active l'E2EE par défaut sur les conversations personnelles de Messenger.</li>
+    <li><b>Juin 2024</b> — Le compromis « modération à l'upload » du Conseil échoue ; le vote est retiré.</li>
+    <li><b>Déc. 2025</b> — Début des trilogues entre Conseil et Parlement sur le 2.0.</li>
+    <li><b>Mars–avril 2026</b> — Le Parlement rejette la prolongation du 1.0 (311–228) ; la dérogation expire le 3 avril.</li>
+    <li><b>Juil. 2026</b> — Le Conseil la rétablit ; la motion de rejet du Parlement obtient plus de non que de oui (314–276) mais rate la majorité absolue de 361. Prolongée jusqu'en <b>avril 2028</b>, E2EE exclu.</li>
+    <li><b>Juin–juil. 2026</b> — Le trilogue « final » sur le 2.0 s'effondre sur le scan sans soupçon ; les négociations continuent.</li>
+  </ol>
+
+  <h2>1.0 contre 2.0 — ne les confondez pas</h2>
+  <div class="scroll"><table class="cmp">
+    <thead><tr><th></th><th>Chat Control 1.0 (en vigueur)</th><th>Chat Control 2.0 (projet)</th></tr></thead>
+    <tbody>
+    <tr><td class="dim">Nature</td><td>Dérogation ePrivacy — règlement 2021/1232</td><td>Règlement CSA — proposé en 2022, en négociation</td></tr>
+    <tr><td class="dim">Scan</td><td><strong>Volontaire</strong> — chaque fournisseur décide</td><td>Pourrait devenir <strong>obligatoire</strong> par ordres de détection</td></tr>
+    <tr><td class="dim">Applis chiffrées</td><td><strong>Formellement exclues</strong></td><td>Le cœur du conflit — le scan côté client les toucherait</td></tr>
+    <tr><td class="dim">Échéance</td><td>Avril 2028</td><td>Pas une loi ; rien à expirer</td></tr>
+    </tbody>
+  </table></div>
+  <div class="banner st-unclear" style="margin-top:1.4rem">
+    <strong>Où en est le 2.0</strong> <span class="dim">— relu le ${fmtDate(ASSESSED)}</span>
+    <div style="margin-top:.45rem" class="dim">Le trilogue censément final s'est effondré le 29 juin 2026
+    sur la question du scan sans soupçon ; les négociations continuent sous présidence irlandaise.
+    Rien n'est encore la loi.</div>
+  </div>
+
+  <h2>Qui l'utilise vraiment</h2>
+  <p>Les fournisseurs qui scannent sous la dérogation doivent déposer des rapports annuels, et le
+  dernier rapport de mise en œuvre de la Commission en nomme exactement cinq :
+  <em>« Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024 »</em>
+  (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>).
+  Le suivi de l'eurodéputé <a href="https://www.patrick-breyer.de/en/posts/chat-control/">Patrick Breyer</a>
+  ajoute que seuls des services américains non chiffrés y ont recours. Snapchat et Apple figurent
+  dans sa liste de services mais <strong>pas</strong> parmi les cinq déposants — les deux faits
+  sont affichés sur leurs fiches.</p>
+
+  <h2>Scanner sous la loi américaine n'est pas le Chat Control</h2>
+  <p>La plupart des grandes plateformes américaines scannent les contenus envoyés et signalent au
+  <a href="https://www.missingkids.org/cybertiplinedata">NCMEC</a> — c'est un <strong>régime
+  juridique américain</strong>, qui ne dit rien de l'usage de la dérogation européenne. Ce site
+  garde les deux séparés : point rouge plein = preuve UE ; point rouge creux = scan « loi US »
+  sans preuve UE. Les confondre gonflerait le registre, donc nous ne le faisons pas.</p>
+
+  <h2>Ce que ça change pour vous</h2>
+  <ul>
+    <li><strong>Gmail, la messagerie de Facebook ou d'Instagram, Outlook, LinkedIn dans l'UE</strong> —
+    le fournisseur scanne sous la dérogation, légalement et par choix. Un scan automatisé contre des
+    bases de contenus connus, pas une personne qui lit — mais c'est bien votre correspondance privée qui est traitée.</li>
+    <li><strong>Signal, WhatsApp, Threema, Olvid, Wire, Element</strong> — le contenu est chiffré de
+    bout en bout ; il n'y a rien de lisible à scanner, et l'E2EE est exclu du 1.0.</li>
+    <li><strong>Un VPN n'y change rien</strong> — le scan a lieu chez le fournisseur, pas sur le réseau.</li>
+    <li><strong>Telegram est un cas à part</strong> — les tchats cloud ne sont pas E2EE ; Telegram
+    <em>pourrait</em> les lire, et ne dit pas s'il les scanne.</li>
+  </ul>
+
+  <h2>Les cinq statuts</h2>
+  <ul>
+    ${groupsFR.map((g) => `<li><span class="${g.cls}"><span class="dot"></span><strong>${g.label}</strong></span> — ${g.blurb}</li>`).join("")}
+  </ul>
+
+  <h2>Questions fréquentes</h2>
+  <details><summary>Quelqu'un lit-il mes messages WhatsApp ou Signal ?</summary>
+  <p>Pas sous le Chat Control 1.0. Les deux sont chiffrés de bout en bout, l'E2EE est formellement
+  exclu, et le fournisseur n'a aucun contenu lisible. Le point de pression pour les applis
+  chiffrées, c'est le <em>projet</em> 2.0 — qui n'est pas la loi.</p></details>
+  <details><summary>Le Chat Control, c'est ce qui casserait le chiffrement ?</summary>
+  <p>Ça, c'est le 2.0 — le projet de règlement CSA, dont les ordres de détection pourraient imposer
+  un scan sur votre appareil, avant le chiffrement. Il est bloqué en négociation depuis 2022.
+  Ce qui est en vigueur, le 1.0, exclut l'E2EE.</p></details>
+  <details><summary>Puis-je refuser le scan qui existe aujourd'hui ?</summary>
+  <p>Uniquement par le choix de l'application. Le scan du 1.0 se fait côté fournisseur ; l'opt-out
+  pratique, c'est un service chiffré de bout en bout — voir <a href="/fr/#e2ee">les sept applis
+  suivies qui ne peuvent pas lire vos messages</a>.</p></details>
+  <details><summary>Pourquoi dites-vous « aucune preuve UE » plutôt que « ne scanne pas dans l'UE » ?</summary>
+  <p>Parce que l'absence de preuve est exactement ce que nous avons. Ce que nous pouvons dire :
+  les rapports obligatoires nomment cinq fournisseurs, et les autres n'y figurent pas. Nous
+  publions la phrase vraie la plus forte, pas la phrase la plus forte.</p></details>
+
+  <h2>Sources</h2>
+  <ul class="sources">
+    <li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025) 740</a> — le rapport de mise en œuvre de la Commission : les cinq déposants, les volumes, les taux d'erreur.</li>
+    <li><a href="https://www.patrick-breyer.de/en/posts/chat-control/">La page Chat Control de Patrick Breyer</a> — suivi du dossier par un eurodéputé.</li>
+    <li><a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> — la campagne, avec les positions pays par pays.</li>
+    <li><a href="https://edri.org/our-work/csa-regulation-document-pool/">Le dossier documentaire d'EDRi</a> — la trace écrite du 2.0.</li>
+  </ul>
+  </div>`;
+  mkdirSync(join(OUT, "fr", "chat-control"), { recursive: true });
+  writeFileSync(
+    join(OUT, "fr", "chat-control", "index.html"),
+    pageFR({
+      title: "C'est quoi, le Chat Control ? — guide en clair — ScanRecords",
+      desc: "Le Chat Control expliqué : le scan volontaire en vigueur jusqu'en avril 2028, la chronologie, 1.0 contre 2.0, qui scanne vraiment selon le rapport de la Commission, et ce que ça change pour vos applis.",
+      path: "/fr/chat-control/", active: "cc", body, alt: "/chat-control/",
+    })
+  );
+}
+
+// /fr/switch/
+{
+  const e2eeApps = groupsFR.find((g) => g.key === "e2ee").companies;
+  const body = `<div class="about">
+  <h1>Échapper concrètement au scan</h1>
+  <p class="lede">Tout ce qui suit découle du registre : ce qui est scanné aujourd'hui, ce qui ne
+  peut pas l'être, et les réglages qui annulent discrètement votre protection. Rien à acheter —
+  des choix.</p>
+
+  <h2>1. Le seul vrai opt-out, c'est l'application</h2>
+  <p>Le scan du Chat Control a lieu <strong>chez le fournisseur</strong>. Les applis chiffrées de
+  bout en bout n'ont rien de lisible à scanner et sont formellement exclues. Voici celles, suivies
+  ici, qui ne peuvent pas lire vos messages :</p>
+  <div class="cards">${e2eeApps
+    .map((c) => `<a class="card st-e2ee" href="/company/${c.slug}/" hreflang="en">
+      <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
+      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">Ne peut pas lire vos messages</span></span></a>`)
+    .join("")}</div>
+
+  <h2>2. Le piège des sauvegardes</h2>
+  <p>Les conversations WhatsApp sont chiffrées — mais une <strong>sauvegarde cloud non
+  chiffrée</strong> en remet une copie lisible aux serveurs d'Apple ou de Google. Désactivez la
+  sauvegarde des discussions, ou activez la <em>sauvegarde chiffrée de bout en bout</em>
+  (Réglages → Discussions → Sauvegarde). La logique vaut partout : chiffrer le transport ne sert
+  à rien si une copie en clair dort ailleurs.</p>
+
+  <h2>3. L'e-mail, c'est la zone scannée</h2>
+  <p>Gmail et Outlook sont scannés dans l'UE sous la dérogation — leurs opérateurs comptent parmi
+  les cinq déposants des rapports. Proton déclare ne pas scanner le contenu et ne pas pouvoir lire
+  le courrier stocké ; GMX ne se prononce pas clairement. Pour une correspondance sensible, le
+  choix du fournisseur pèse plus que n'importe quel réglage.</p>
+
+  <h2>4. Un VPN ne protège pas de ça</h2>
+  <p>Un VPN déplace votre trafic, pas vos messages — le scan se produit là où le message est
+  traité, chez le fournisseur. Face au Chat Control, un VPN ne change rien. Choisissez l'appli,
+  pas le tunnel.</p>
+
+  <h2>5. Sachez ce qui fuit quand même</h2>
+  <p>L'E2EE protège le <strong>contenu</strong>. Les métadonnées — qui parle à qui, quand, à
+  quelle fréquence — restent visibles chez la plupart des fournisseurs (Signal et Threema les
+  minimisent). Et rien ici ne protège un téléphone déverrouillé par quelqu'un d'autre.</p>
+
+  <h2>6. Ce que cette page ne couvre pas</h2>
+  <p>Tout ce qui précède concerne les règles en vigueur. Le projet
+  <a href="/fr/chat-control/">Chat Control 2.0</a> pourrait atteindre les applis chiffrées via un
+  scan sur votre appareil, avant le chiffrement — c'est précisément pourquoi cette archive
+  surveille chaque jour la phrase « nous ne pouvons pas lire vos messages ».</p>
+
+  <p class="note" style="margin-top:1.6rem">Chaque affirmation ci-dessus renvoie au
+  <a href="/fr/">vérificateur</a>, aux <a href="/numbers/">chiffres (EN)</a> ou aux documents
+  archivés des entreprises. Envoyez cette page à la personne qui vous a demandé
+  « bon, et je fais quoi ? »</p>
+  </div>`;
+  mkdirSync(join(OUT, "fr", "switch"), { recursive: true });
+  writeFileSync(
+    join(OUT, "fr", "switch", "index.html"),
+    pageFR({
+      title: "Échapper concrètement au scan — ScanRecords",
+      desc: "La version pratique : quelles applis ne peuvent pas lire vos messages, le piège des sauvegardes WhatsApp, pourquoi un VPN n'y change rien, et ce qui fuit quand même.",
+      path: "/fr/switch/", active: "switch", body, alt: "/switch/",
+    })
+  );
+}
+
+// /fr/alerts/
+{
+  const body = `
+  <h1>Une alerte dès qu'une entreprise bouge</h1>
+  <p class="lede">Dès qu'une entreprise suivie modifie une politique, une promesse de chiffrement
+  ou une fiche App Store, votre téléphone peut le savoir. Gratuit, sans compte, sans adresse
+  e-mail — seul le point de terminaison push de votre navigateur est stocké, et se désinscrire
+  l'efface.</p>
+
+  <div class="banner st-e2ee" style="margin-top:1.6rem">
+    <strong>Sur iPhone ou Android, installez d'abord le site</strong>
+    <div style="margin-top:.45rem" class="dim">
+      <strong>iPhone :</strong> Partager&nbsp;→ <em>Sur l'écran d'accueil</em>, puis ouvrez ScanRecords
+      depuis l'écran d'accueil et abonnez-vous (Apple n'autorise les notifications web que pour les
+      sites installés, iOS 16.4+).<br>
+      <strong>Android :</strong> menu Chrome&nbsp;→ <em>Ajouter à l'écran d'accueil</em> — ou abonnez-vous directement ci-dessous.
+    </div>
+  </div>
+
+  <p style="margin-top:1.4rem">
+    <button id="subscribe" class="btn">Activer les alertes sur cet appareil</button>
+    <button id="unsubscribe" class="btn" hidden>Désactiver les alertes</button>
+  </p>
+  <p id="alert-status" class="note" aria-live="polite"></p>
+
+  <h2>Ce qui déclenche une notification</h2>
+  <ul class="about" style="padding-left:1.2rem">
+    <li>Une entreprise suivie a modifié une politique, des conditions, une page sécurité ou sa fiche App Store — avec le lien vers l'avant/après exact.</li>
+    <li>Rien d'autre. Pas d'actus, pas de campagnes. La plupart des jours : le silence — c'est le but.</li>
+  </ul>
+
+  <h2>La boîte d'honnêteté</h2>
+  <p class="note">C'est la seule page de scanrecords.org qui utilise du JavaScript, et seulement
+  après votre clic. S'abonner stocke le point de terminaison push — une URL aléatoire générée par
+  votre navigateur — et ses deux clés de livraison. Pas de cookies, pas d'identifiants, pas
+  d'e-mail. Se désinscrire efface l'enregistrement. Zéro script ? Le
+  <a href="/feed.xml">flux RSS</a> porte les mêmes alertes (messages d'état en anglais).</p>
+  <script src="/alerts.js" defer></script>`;
+  mkdirSync(join(OUT, "fr", "alerts"), { recursive: true });
+  writeFileSync(
+    join(OUT, "fr", "alerts", "index.html"),
+    pageFR({
+      title: "Alertes — ScanRecords",
+      desc: "Une notification dès qu'une entreprise suivie modifie une politique ou une fiche sous le Chat Control. Sans compte, sans e-mail — se désinscrire efface tout.",
+      path: "/fr/alerts/", active: "alerts", body, alt: "/alerts/",
+    })
+  );
+}
+
+// /fr/glossary/
+{
+  const GLOSS_FR = [
+    ["Chat Control", "Le surnom de deux textes européens : la dérogation ePrivacy en vigueur (« 1.0 », scan volontaire, jusqu'en avril 2028) et le projet de règlement CSA (« 2.0 », détection potentiellement obligatoire). L'essentiel de la confusion vient de leur mélange."],
+    ["Dérogation ePrivacy (règlement 2021/1232)", "L'exception aux règles européennes de confidentialité qui permet aux fournisseurs de scanner volontairement les communications privées à la recherche de contenus pédocriminels. Rétablie en juillet 2026, en vigueur jusqu'en avril 2028 ; les communications chiffrées de bout en bout en sont formellement exclues."],
+    ["Règlement CSA (« Chat Control 2.0 »)", "Le règlement permanent proposé en 2022, dont les ordres de détection pourraient rendre le scan obligatoire, y compris via un scan sur l'appareil. Toujours en négociation ; pas une loi."],
+    ["Chiffrement de bout en bout (E2EE)", "Un chiffrement où seuls les appareils qui communiquent détiennent les clés — le fournisseur ne peut pas lire le contenu, donc n'a rien à scanner côté serveur. Signal, WhatsApp, Threema, Olvid, Wire et Element l'activent par défaut."],
+    ["Scan côté client", "Scanner le contenu sur l'appareil de l'utilisateur, avant le chiffrement. Le mécanisme par lequel une détection obligatoire pourrait atteindre les applis E2EE — le cœur de la controverse du 2.0."],
+    ["Correspondance d'empreintes (hash matching)", "Comparer l'empreinte d'une image ou d'une vidéo à une base de contenus illégaux déjà connus. Ne détecte que du contenu déjà identifié ; la méthode la plus établie."],
+    ["PhotoDNA", "La technologie d'empreintes perceptuelles de Microsoft (2009), utilisée dans toute l'industrie. Une empreinte perceptuelle survit au redimensionnement et aux petites retouches."],
+    ["Classifieur", "Un modèle d'apprentissage automatique qui signale des contenus jamais vus comme potentiellement illégaux. Détecte du nouveau matériel, au prix d'un risque de faux positifs plus élevé."],
+    ["NCMEC / CyberTipline", "Le centre américain pour les enfants disparus et exploités et son canal de signalement. La loi américaine impose d'y signaler les contenus détectés — un régime américain, distinct de la dérogation européenne."],
+    ["Ordre de détection", "Dans le projet 2.0, une injonction contraignante imposant à un service donné de scanner. Le mécanisme qui ferait passer le scan de volontaire à obligatoire."],
+    ["Trilogue", "La négociation à huis clos entre Conseil, Parlement et Commission qui produit le texte final d'une loi européenne. Le trilogue du 2.0 s'est effondré sur le scan sans soupçon en juin 2026."],
+    ["Métadonnées", "Qui parle à qui, quand, à quelle fréquence, d'où. Non protégées par l'E2EE et hors du champ du scan Chat Control — mais assez révélatrices pour mériter leur propre vigilance."],
+  ];
+  const body = `<div class="about">
+  <h1>Glossaire</h1>
+  <p class="lede">Douze termes qui portent l'essentiel des débats sur le Chat Control — chacun en
+  langage clair, aucun ne présuppose les autres.</p>
+  <dl class="gloss">${GLOSS_FR.map(
+    ([t, d]) => `<dt id="${t.toLowerCase().replace(/[^a-z0-9]+/g, "-")}">${esc(t)}</dt><dd>${esc(d)}</dd>`
+  ).join("")}</dl></div>`;
+  mkdirSync(join(OUT, "fr", "glossary"), { recursive: true });
+  writeFileSync(
+    join(OUT, "fr", "glossary", "index.html"),
+    pageFR({
+      title: "Glossaire — ScanRecords",
+      desc: "Le vocabulaire du Chat Control en langage clair : E2EE, scan côté client, correspondance d'empreintes, ordres de détection, et plus.",
+      path: "/fr/glossary/", active: "gloss", body, alt: "/glossary/",
     })
   );
 }

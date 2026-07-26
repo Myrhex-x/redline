@@ -1,0 +1,54 @@
+name: mirror
+
+# Resilience: publish the built site to GitHub Pages as an independent mirror.
+# A public record about surveillance law should not have a single point of
+# hosting failure. Serves at mirror.scanrecords.org once the DNS CNAME exists
+# (until then, Pages' default URL works but subpath-relative styling is off).
+
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ["snapshot"]
+    types: [completed]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  mirror:
+    if: ${{ github.event_name == 'push' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build site
+        run: |
+          node tools/build-site.mjs
+          echo "mirror.scanrecords.org" > public/CNAME
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
