@@ -54,6 +54,11 @@ for (const dir of existsSync(ARCH) ? readdirSync(ARCH) : []) {
   archive.set(dir, entry);
 }
 
+// Per-company OG share cards (rendered locally by tools/make-og-cards.swift).
+// The manifest records which status each card was drawn with — on drift the
+// page falls back to the generic card rather than sharing a stale verdict.
+const OG_CARDS = loadJSON(join(ROOT, "assets", "og", "cards.json"), {});
+
 const changesBySlug = new Map();
 for (const e of history) {
   if (!changesBySlug.has(e.slug)) changesBySlug.set(e.slug, []);
@@ -108,6 +113,31 @@ const N_ERRORS = [
 ];
 
 const NOTES = [
+  {
+    slug: "archiving-the-law-itself", date: "2026-07-26",
+    title: "The law's own pages are in the archive now",
+    teaser: "Companies aren't the only ones who quietly edit. The Commission's policy page and the Parliament's 2.0 tracker are now recorded daily, under the same rules.",
+    body: `
+<p>Every target in this archive so far has been a company: privacy policies, security pages, App Store labels.
+As of today there are two exceptions — <a href="/company/eu-commission/">the European Commission</a> and
+<a href="/company/eu-parliament/">the European Parliament</a>. Not because they scan anything, but because
+they write the rules, and what they <em>say</em> about the rules lives on web pages that can be edited
+like anyone else's.</p>
+<p>Two documents joined the daily snapshot: DG&nbsp;HOME's
+<a href="https://home-affairs.ec.europa.eu/policies/internal-security/child-sexual-abuse_en">child sexual abuse policy page</a> —
+the Commission's own framing of what "voluntary detection" is and why it should continue — and the Parliament's
+<a href="https://www.europarl.europa.eu/legislative-train/theme-promoting-our-european-way-of-life/file-combating-child-sexual-abuse-online">legislative-train file</a>
+for the draft CSA Regulation, the page that tracks how close "Chat Control 2.0" is to becoming law.
+If the framing shifts, or the draft lurches toward mandatory scanning, the edit becomes a dated, diffable, citable event.</p>
+<p>One detail worth recording: the Parliament's status tracker sits behind an anti-bot wall. Our archiver
+identifies itself honestly by default, and for that it received a challenge page instead of the content;
+only a browser identity got through. A page that exists to tell the public where a surveillance law stands
+is defended against automated reading. We note it without further comment — the note is the comment.</p>
+<p>The same rules apply as everywhere else in the archive: fetched daily at 06:17&nbsp;UTC, hashed, diffed,
+committed to public git history, never edited after capture. Institutions get no scanning status —
+they aren't providers — but they get the same tripwire. <a href="/chat-control/">The explainer</a> shows
+where these pages fit in the larger machine.</p>`,
+  },
   {
     slug: "on-the-list-not-in-the-reports", date: "2026-07-26",
     title: "On the list, but not in the reports: Snapchat and Apple",
@@ -479,7 +509,7 @@ const SITEMAP = [];
 
 const GLOBE_SVG = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><circle cx="8" cy="8" r="6.4"/><ellipse cx="8" cy="8" rx="2.9" ry="6.4"/><path d="M1.9 6h12.2M1.9 10h12.2"/></svg>`;
 
-function page({ title, desc, path, active, body, alt }) {
+function page({ title, desc, path, active, body, alt, image }) {
   SITEMAP.push(path);
   const navLink = (href, label, key) =>
     `<a href="${href}"${active === key ? ' aria-current="page"' : ""}>${label}</a>`;
@@ -511,11 +541,11 @@ ${hreflang}
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${SITE}${path}">
-<meta property="og:image" content="${SITE}/og.png">
+<meta property="og:image" content="${SITE}${image ?? "/og.png"}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">
-<meta name="twitter:image" content="${SITE}/og.png">
+<meta name="twitter:image" content="${SITE}${image ?? "/og.png"}">
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -863,6 +893,10 @@ for (const c of [...companies, ...institutions]) {
   ${labelCards(a.label)}` : ""}
   <h2>Record</h2>
   ${timeline}`;
+  const cardStatus = inst ? "inst" : (cc.status ?? "unclear");
+  let cardImage;
+  if (OG_CARDS[c.slug] === cardStatus) cardImage = `/og/${c.slug}.png`;
+  else if (OG_CARDS[c.slug]) console.warn(`⚠ stale OG card for ${c.slug}: drawn as "${OG_CARDS[c.slug]}", status now "${cardStatus}" — re-run tools/make-og-cards.swift`);
   mkdirSync(join(OUT, "company", c.slug), { recursive: true });
   writeFileSync(
     join(OUT, "company", c.slug, "index.html"),
@@ -872,6 +906,7 @@ for (const c of [...companies, ...institutions]) {
         ? `${c.name} in the ScanRecords archive: the law's own pages, recorded daily. ${c.note}`
         : `${c.name} under the EU's Chat Control: ${st.label.toLowerCase()}. ${cc.note}`,
       path: `/company/${c.slug}/`, active: "companies", body,
+      image: cardImage,
     })
   );
 }
@@ -1753,6 +1788,7 @@ cpSync(join(ROOT, ".well-known"), join(OUT, ".well-known"), { recursive: true })
 cpSync(join(ROOT, "history.json"), join(OUT, "history.json"));
 cpSync(join(ROOT, "companies.json"), join(OUT, "companies.json"));
 if (existsSync(join(ROOT, "assets", "og.png"))) cpSync(join(ROOT, "assets", "og.png"), join(OUT, "og.png"));
+if (existsSync(join(ROOT, "assets", "og"))) cpSync(join(ROOT, "assets", "og"), join(OUT, "og"), { recursive: true });
 if (existsSync(join(ROOT, "assets", "fonts"))) cpSync(join(ROOT, "assets", "fonts"), join(OUT, "fonts"), { recursive: true });
 if (existsSync(join(ROOT, "assets", "icons"))) cpSync(join(ROOT, "assets", "icons"), join(OUT, "icons"), { recursive: true });
 cpSync(join(ROOT, "assets", "manifest.webmanifest"), join(OUT, "manifest.webmanifest"));

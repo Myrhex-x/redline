@@ -17,9 +17,11 @@ question with primary sources: which providers scan under the ePrivacy
 derogation — recorded daily, every policy change preserved with its before and
 after, independently timestamped via the Internet Archive.
 
-It tracks 30 platforms' policies, encryption claims and App Store privacy
-labels, and mirrors the Commission's own COM(2025) 740 figures (including
-per-provider error ratios) at https://scanrecords.org/numbers/.
+It tracks 31 platforms' policies, encryption claims and App Store privacy
+labels — plus the law's own pages (the Commission's DG HOME policy page and
+the Parliament's CSA-Regulation tracker are archived daily too) — and mirrors
+the Commission's own COM(2025) 740 figures, including per-provider error
+ratios, at https://scanrecords.org/numbers/. It reads in EN, FR, DE and ES.
 
 Everything is CC0 and rebuildable from a public repo — if it's useful to your
 CSA Regulation work, take anything: https://scanrecords.org/data/
@@ -36,7 +38,7 @@ Best,
 Hello,
 
 Following your work on the derogation's extension: I've built a public archive
-that tracks, daily, what 30 communication platforms' own documents and filings
+that tracks, daily, what 31 communication platforms' own documents and filings
 say about scanning under Chat Control — including the discrepancy between the
 services publicly listed as scanning and the five providers actually filing
 the Article 3(1)(g)(vii) reports (https://scanrecords.org/notes/on-the-list-not-in-the-reports/).
@@ -60,8 +62,11 @@ Hello,
 Your Chat Control page has long been the best public accounting of who uses
 the derogation. I've built something complementary: https://scanrecords.org —
 a daily automated archive of the underlying documents (policies, encryption
-claims, App Store labels) for 30 platforms, so that changes to any of them are
-recorded with a citable before/after.
+claims, App Store labels) for 31 platforms, so that changes to any of them are
+recorded with a citable before/after. There is a full German edition at
+https://scanrecords.org/de/ (it says Chatkontrolle, of course), and the
+Commission's and Parliament's own Chat Control pages are archived daily too —
+edits to the law's own framing get the same before/after treatment.
 
 One finding your team may want to see: Snapchat and iCloud Mail appear in the
 service lists but not among the five providers filing the mandatory reports in
@@ -85,7 +90,9 @@ fightchatcontrol.eu covers the fight; I've built the evidence shelf:
 https://scanrecords.org records daily what each platform's own documents say
 about scanning under Chat Control — who actually files the derogation's
 reports, full before/after diffs when anything changes, the Commission's own
-error statistics charted, and a French edition at https://scanrecords.org/fr/.
+error statistics charted, and the whole thing reads in English, French,
+German and Spanish (/fr/, /de/, /es/). The full event log is public at
+https://scanrecords.org/changes/.
 
 If you want to link it as a "check your app" resource, everything is CC0 —
 including per-company status badges you can embed:

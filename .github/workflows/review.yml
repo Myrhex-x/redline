@@ -1,0 +1,33 @@
+name: review
+
+# Statuses say "assessed <date>". That claim only stays honest if reviews
+# demonstrably happen — so on the 1st of every month this opens a checklist
+# issue. Closing it (after doing it) is the review's public record.
+
+on:
+  schedule:
+    - cron: "17 7 1 * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  open-review:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Open the monthly status-review issue unless it exists
+        run: |
+          MONTH=$(date -u +%Y-%m)
+          EXISTING=$(gh issue list -R "${{ github.repository }}" --state all \
+            --search "Status review $MONTH in:title" --json number --jq 'length')
+          if [ "$EXISTING" = "0" ]; then
+            BODY=$(printf -- '- [ ] Five confirmed providers: any new Commission/EU filing evidence for or against? (annual implementation report lands ~Nov)\n- [ ] Any `status-review` issues from the daily triage left open?\n- [ ] Spot-check 3 statuses at random against their sources\n- [ ] Retry the blocked targets once (Reddit, Roblox, Epic, Yubo, EUR-Lex) — a lifted block is worth recording\n- [ ] Anything in the news that names a provider scanning in the EU? Add sources to its page\n- [ ] If anything above changed a status: bump `assessed` in companies.json and note the change publicly\n\nClosing this issue is the public record that the review happened.')
+            gh issue create -R "${{ github.repository }}" \
+              --title "Status review $MONTH" \
+              --body "$BODY"
+          else
+            echo "Review issue for $MONTH already exists; not duplicating."
+          fi
