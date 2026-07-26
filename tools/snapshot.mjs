@@ -91,6 +91,20 @@ function safeFromCode(code) {
 }
 
 async function fetchDoc(url, ua) {
+  // When the EU relay is configured (CI runs on US machines), every document
+  // fetch rides through it — the archive reads the web as the EU sees it.
+  const { RELAY_URL, RELAY_TOKEN } = process.env;
+  if (RELAY_URL && RELAY_TOKEN) {
+    const res = await fetch(`${RELAY_URL}?url=${encodeURIComponent(url)}`, {
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS + 5_000),
+      headers: { "x-relay-token": RELAY_TOKEN, "x-relay-ua": ua },
+    });
+    const html = await res.text();
+    const upstream = Number(res.headers.get("x-upstream-status") ?? 0);
+    if (res.status !== 200 || upstream === 0)
+      throw Object.assign(new Error(`relay: ${res.status} ${html.slice(0, 80)}`), { name: "RelayError" });
+    return { status: upstream, finalUrl: res.headers.get("x-final-url") ?? url, html };
+  }
   const res = await fetch(url, {
     redirect: "follow",
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),

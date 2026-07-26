@@ -28,6 +28,9 @@ jobs:
           node-version: 22
 
       - name: Snapshot policy documents
+        env:
+          RELAY_URL: https://scanrecords.org/api/fetch-relay
+          RELAY_TOKEN: ${{ secrets.RELAY_TOKEN }}
         run: node tools/snapshot.mjs
 
       - name: Snapshot App Store privacy labels
