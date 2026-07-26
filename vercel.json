@@ -1,0 +1,5 @@
+{
+  "buildCommand": "node tools/build-site.mjs",
+  "outputDirectory": "public",
+  "cleanUrls": true
+}
