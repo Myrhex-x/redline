@@ -1,39 +1,3 @@
-Skip to content
-
-legal
-
-Languages
-
-Deutsch
-
-English
-
-Español
-
-Français
-
-Italiano
-
-한국어
-
-Nederlands
-
-Polski
-
-Português Brasileiro
-
-Svenska
-
-Back to Twitch
-
-Contents
-
-All Legal Docs
-
-Terms of Service
-
-Terms of Sale
-
 Privacy Notice
 
 Privacy Choices
@@ -315,15 +279,3 @@ Press
 Brand
 
 Developers
-
-Prime
-
-Bits
-
-Extensions
-
-Advertise
-
-Gift Card
-
-/home/ubuntu/actions-runner/_work/legal-hugo/legal-hugo/content/en/legal/privacy-notice.md

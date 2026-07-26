@@ -495,7 +495,11 @@
      "id": "guidelines",
      "title": "Community Guidelines",
      "url": "https://www.tiktok.com/community-guidelines/en/",
-     "render": "headless"
+     "render": "headless",
+     "clip": {
+      "from": "^Community Guidelines$",
+      "to": "^TikTok for Developers$"
+     }
     },
     {
      "id": "play-safety",
@@ -853,7 +857,11 @@
      "id": "privacy",
      "title": "Privacy Notice",
      "url": "https://www.twitch.tv/p/en/legal/privacy-notice/",
-     "render": "headless"
+     "render": "headless",
+     "clip": {
+      "from": "^Twitch Privacy Notice$|^Privacy Notice$",
+      "to": "^Developers$"
+     }
     },
     {
      "id": "play-safety",

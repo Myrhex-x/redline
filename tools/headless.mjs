@@ -25,7 +25,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { extractText, filterNoise } from "./snapshot.mjs";
+import { extractText, filterNoise, clipText, canonicalLines } from "./snapshot.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ARCHIVE = join(ROOT, "archive");
@@ -85,10 +85,15 @@ async function main() {
         continue;
       }
       const html = await page.content();
-      const text = filterNoise(extractText(html), [
+      let text = filterNoise(extractText(html), [
         ...(company.ignore ?? []),
         ...(doc.ignore ?? []),
       ]);
+      // Same normalisation pipeline as the plain lane: this one runs on US
+      // CI runners without the EU relay, so region-varying page furniture
+      // (footer legal links) must be clipped away or every run reports it.
+      if (doc.clip) text = clipText(text, doc.clip);
+      if (doc.canonical === "lines") text = canonicalLines(text);
       const textHash = sha256(text);
       const short = text.length < SHORT_TEXT_CHARS;
 
