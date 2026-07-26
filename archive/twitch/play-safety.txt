@@ -15,17 +15,6 @@ Advertising or marketing, Fraud prevention, security, and compliance
 User IDs
 Advertising or marketing
 
-App info and performance
-Crash logs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Crash logs
-Analytics
-
 Messages
 Other in-app messages
 
@@ -37,16 +26,16 @@ info
 Other in-app messages
 App functionality, Analytics, Fraud prevention, security, and compliance
 
-Location
-Approximate location
+App info and performance
+Crash logs
 
 expand_more
 
 Data shared and for what purpose
 info
 
-Approximate location
-Advertising or marketing, Fraud prevention, security, and compliance
+Crash logs
+Analytics
 
 Device or other IDs
 Device or other IDs
@@ -70,6 +59,17 @@ info
 Other actions
 Advertising or marketing, Fraud prevention, security, and compliance
 
+Location
+Approximate location
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Approximate location
+Advertising or marketing, Fraud prevention, security, and compliance
+
 Data collected
 Data this app may collect
 Personal info
@@ -91,6 +91,41 @@ App functionality, Fraud prevention, security, and compliance, Account managemen
 Other info
 App functionality, Fraud prevention, security, and compliance, Account management
 
+Photos and videos
+Photos and Videos
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Photos &middot; Optional
+Account management
+Videos &middot; Optional
+App functionality
+
+Financial info
+Purchase history
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Purchase history
+App functionality
+
+Messages
+Other in-app messages
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Other in-app messages &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+
 App info and performance
 Crash logs, Diagnostics, and Other app performance data
 
@@ -105,52 +140,6 @@ Diagnostics
 App functionality, Analytics
 Other app performance data
 App functionality, Analytics
-
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-Account management
-Videos &middot; Optional
-App functionality
-
-Messages
-Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Other in-app messages &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-
-Financial info
-Purchase history
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Purchase history
-App functionality
-
-Location
-Approximate location
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Approximate location
-Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
 
 Device or other IDs
 Device or other IDs
@@ -178,6 +167,17 @@ App functionality, Analytics, Personalization
 Other user-generated content &middot; Optional
 Account management
 Other actions
+Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
+
+Location
+Approximate location
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Approximate location
 Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
 
 Security practices

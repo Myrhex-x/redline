@@ -2,63 +2,6 @@ Data safety
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 Data shared
 Data that may be shared with other companies or organizations
-Files and docs
-Files and docs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Files and docs
-App functionality
-
-Financial info
-User payment info
-
-expand_more
-
-Data shared and for what purpose
-info
-
-User payment info
-App functionality, Fraud prevention, security, and compliance
-
-Personal info
-User IDs
-
-expand_more
-
-Data shared and for what purpose
-info
-
-User IDs
-Analytics
-
-Audio
-Voice or sound recordings and Music files
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Voice or sound recordings
-App functionality
-Music files
-App functionality
-
-Messages
-Other in-app messages
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Other in-app messages
-App functionality, Fraud prevention, security, and compliance
-
 App info and performance
 Crash logs and Diagnostics
 
@@ -72,6 +15,17 @@ Analytics
 Diagnostics
 Analytics
 
+Messages
+Other in-app messages
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Other in-app messages
+App functionality, Fraud prevention, security, and compliance
+
 Photos and videos
 Photos and Videos
 
@@ -84,6 +38,39 @@ Photos
 App functionality
 Videos
 App functionality, Analytics, Fraud prevention, security, and compliance
+
+Financial info
+User payment info
+
+expand_more
+
+Data shared and for what purpose
+info
+
+User payment info
+App functionality, Fraud prevention, security, and compliance
+
+Files and docs
+Files and docs
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Files and docs
+App functionality
+
+Personal info
+User IDs
+
+expand_more
+
+Data shared and for what purpose
+info
+
+User IDs
+Analytics
 
 App activity
 App interactions, In-app search history, Other user-generated content, and Other actions
@@ -102,18 +89,68 @@ App functionality
 Other actions
 Analytics, Advertising or marketing
 
+Audio
+Voice or sound recordings and Music files
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Voice or sound recordings
+App functionality
+Music files
+App functionality
+
 Data collected
 Data this app may collect
-Files and docs
-Files and docs
+App info and performance
+Crash logs and Diagnostics
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Files and docs &middot; Optional
-App functionality
+Crash logs
+Analytics
+Diagnostics
+Analytics
+
+Messages
+Other in-app messages
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Other in-app messages &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs &middot; Optional
+Analytics, Advertising or marketing, Fraud prevention, security, and compliance
+
+Photos and videos
+Photos and Videos
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Photos &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+Videos &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance
 
 Financial info
 User payment info
@@ -125,6 +162,17 @@ info
 
 User payment info &middot; Optional
 App functionality, Fraud prevention, security, and compliance
+
+Files and docs
+Files and docs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Files and docs &middot; Optional
+App functionality
 
 Personal info
 Email address, User IDs, and Phone number
@@ -152,6 +200,23 @@ info
 Web browsing history &middot; Optional
 Advertising or marketing
 
+App activity
+App interactions, In-app search history, Other user-generated content, and Other actions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions
+Analytics, Advertising or marketing
+In-app search history
+App functionality, Analytics, Advertising or marketing
+Other user-generated content
+Analytics, Fraud prevention, security, and compliance
+Other actions
+Analytics, Advertising or marketing
+
 Location
 Approximate location
 
@@ -173,71 +238,6 @@ info
 
 Music files &middot; Optional
 App functionality
-
-Messages
-Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Other in-app messages &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-
-App info and performance
-Crash logs and Diagnostics
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-Analytics
-Diagnostics
-Analytics
-
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Photos &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-Videos &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance
-
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs &middot; Optional
-Analytics, Advertising or marketing, Fraud prevention, security, and compliance
-
-App activity
-App interactions, In-app search history, Other user-generated content, and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-Analytics, Advertising or marketing
-In-app search history
-App functionality, Analytics, Advertising or marketing
-Other user-generated content
-Analytics, Fraud prevention, security, and compliance
-Other actions
-Analytics, Advertising or marketing
 
 Security practices
 Data isn’t encrypted

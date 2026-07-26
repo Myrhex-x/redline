@@ -40,6 +40,17 @@ info
 Contacts &middot; Optional
 App functionality
 
+App activity
+App interactions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions
+Fraud prevention, security, and compliance
+
 Personal info
 Name, Email address, and Phone number
 
@@ -53,17 +64,6 @@ App functionality
 Email address
 App functionality, Developer communications, Account management
 Phone number &middot; Optional
-Fraud prevention, security, and compliance
-
-App activity
-App interactions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
 Fraud prevention, security, and compliance
 
 Security practices

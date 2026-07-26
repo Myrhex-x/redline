@@ -15,36 +15,6 @@ App functionality, Analytics, Advertising or marketing
 
 Data collected
 Data this app may collect
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs &middot; Optional
-Analytics
-Diagnostics &middot; Optional
-Analytics
-Other app performance data
-Analytics
-
-App activity
-App interactions, Other user-generated content, and Other actions
-
-expand_more
-
-Data collected and for what purpose
-info
-
-App interactions
-Analytics
-Other user-generated content &middot; Optional
-App functionality
-Other actions &middot; Optional
-App functionality, Analytics
-
 Photos and videos
 Photos and Videos
 
@@ -58,17 +28,6 @@ App functionality, Fraud prevention, security, and compliance, Account managemen
 Videos &middot; Optional
 App functionality
 
-Messages
-Other in-app messages
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Other in-app messages
-App functionality, Developer communications, Fraud prevention, security, and compliance
-
 Financial info
 Purchase history
 
@@ -79,30 +38,6 @@ info
 
 Purchase history
 App functionality, Analytics
-
-Location
-Approximate location and Precise location
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Approximate location
-App functionality, Analytics, Fraud prevention, security, and compliance, Account management
-Precise location &middot; Optional
-App functionality, Fraud prevention, security, and compliance
-
-Audio
-Voice or sound recordings
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Voice or sound recordings &middot; Optional
-App functionality
 
 Personal info
 Name, Email address, User IDs, Phone number, and Other info
@@ -133,6 +68,71 @@ info
 
 Device or other IDs
 App functionality, Analytics, Fraud prevention, security, and compliance
+
+App activity
+App interactions, Other user-generated content, and Other actions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions
+Analytics
+Other user-generated content &middot; Optional
+App functionality
+Other actions &middot; Optional
+App functionality, Analytics
+
+Location
+Approximate location and Precise location
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Approximate location
+App functionality, Analytics, Fraud prevention, security, and compliance, Account management
+Precise location &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+
+Audio
+Voice or sound recordings
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Voice or sound recordings &middot; Optional
+App functionality
+
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs &middot; Optional
+Analytics
+Diagnostics &middot; Optional
+Analytics
+Other app performance data
+Analytics
+
+Messages
+Other in-app messages
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Other in-app messages
+App functionality, Developer communications, Fraud prevention, security, and compliance
 
 Security practices
 Data is encrypted in transit

@@ -4,8 +4,9 @@
   "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
   "finalUrl": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
   "httpStatus": 200,
-  "fetchedAt": "2026-07-26T10:23:05.163Z",
-  "textHash": "cf99f8d85388d0ca6191ac26b1d061b8dc4ebc3953627e70a12b0411391e143f",
-  "textChars": 46777,
-  "htmlBytes": 351435
+  "fetchedAt": "2026-07-26T20:18:12.520Z",
+  "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "textChars": 0,
+  "htmlBytes": 0,
+  "note": "short-extract: likely JS-rendered or blocked"
 }

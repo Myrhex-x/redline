@@ -15,6 +15,17 @@ App functionality
 
 Data collected
 Data this app may collect
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts &middot; Optional
+App functionality
+
 Personal info
 Email address and User IDs
 
@@ -26,17 +37,6 @@ info
 Email address
 App functionality
 User IDs
-App functionality
-
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
 App functionality
 
 Security practices

@@ -15,16 +15,16 @@ Advertising or marketing
 
 Data collected
 Data this app may collect
-Contacts
-Contacts
+Files and docs
+Files and docs
 
 expand_more
 
 Data collected and for what purpose
 info
 
-Contacts
-App functionality, Analytics, Personalization
+Files and docs &middot; Optional
+App functionality
 
 Photos and videos
 Photos and Videos
@@ -38,34 +38,6 @@ Photos &middot; Optional
 App functionality
 Videos &middot; Optional
 App functionality
-
-Calendar
-Calendar events
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Calendar events
-App functionality, Analytics, Personalization
-
-Personal info
-Name, Email address, User IDs, and Phone number
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Name
-App functionality, Personalization, Account management
-Email address
-App functionality, Personalization, Account management
-User IDs
-App functionality, Account management
-Phone number &middot; Optional
-App functionality, Fraud prevention, security, and compliance
 
 Audio
 Voice or sound recordings, Music files, and Other audio files
@@ -82,21 +54,6 @@ App functionality
 Other audio files &middot; Optional
 App functionality
 
-App info and performance
-Crash logs, Diagnostics, and Other app performance data
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Crash logs
-Analytics
-Diagnostics
-Analytics
-Other app performance data
-Analytics
-
 Messages
 Emails
 
@@ -107,17 +64,6 @@ info
 
 Emails
 App functionality, Analytics, Personalization
-
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
-App functionality
 
 App activity
 App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
@@ -148,6 +94,60 @@ info
 
 Device or other IDs
 Analytics, Advertising or marketing
+
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts
+App functionality, Analytics, Personalization
+
+Calendar
+Calendar events
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Calendar events
+App functionality, Analytics, Personalization
+
+Personal info
+Name, Email address, User IDs, and Phone number
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Name
+App functionality, Personalization, Account management
+Email address
+App functionality, Personalization, Account management
+User IDs
+App functionality, Account management
+Phone number &middot; Optional
+App functionality, Fraud prevention, security, and compliance
+
+App info and performance
+Crash logs, Diagnostics, and Other app performance data
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Crash logs
+Analytics
+Diagnostics
+Analytics
+Other app performance data
+Analytics
 
 Security practices
 Data is encrypted in transit

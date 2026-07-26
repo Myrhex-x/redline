@@ -2,27 +2,51 @@ Data safety
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 Data shared
 Data that may be shared with other companies or organizations
-Files and docs
-Files and docs
+Location
+Precise location
 
 expand_more
 
 Data shared and for what purpose
 info
 
-Files and docs
+Precise location
 App functionality
 
-App activity
-App interactions
+Messages
+Other in-app messages
 
 expand_more
 
 Data shared and for what purpose
 info
 
-App interactions
-Analytics
+Other in-app messages
+App functionality
+
+Photos and videos
+Photos and Videos
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Photos
+App functionality
+Videos
+App functionality
+
+Contacts
+Contacts
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Contacts
+App functionality
 
 Device or other IDs
 Device or other IDs
@@ -63,65 +87,30 @@ App functionality
 Other audio files
 App functionality
 
-Messages
-Other in-app messages
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Other in-app messages
-App functionality
-
-Contacts
-Contacts
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Contacts
-App functionality
-
-Photos and videos
-Photos and Videos
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Photos
-App functionality
-Videos
-App functionality
-
-Location
-Precise location
-
-expand_more
-
-Data shared and for what purpose
-info
-
-Precise location
-App functionality
-
-Data collected
-Data this app may collect
 App activity
 App interactions
 
 expand_more
 
-Data collected and for what purpose
+Data shared and for what purpose
 info
 
-App interactions &middot; Optional
+App interactions
 Analytics
 
+Files and docs
+Files and docs
+
+expand_more
+
+Data shared and for what purpose
+info
+
+Files and docs
+App functionality
+
+Data collected
+Data this app may collect
 Device or other IDs
 Device or other IDs
 
@@ -145,6 +134,17 @@ Crash logs &middot; Optional
 App functionality, Analytics
 Diagnostics &middot; Optional
 App functionality, Analytics
+
+App activity
+App interactions
+
+expand_more
+
+Data collected and for what purpose
+info
+
+App interactions &middot; Optional
+Analytics
 
 Security practices
 Data is encrypted in transit

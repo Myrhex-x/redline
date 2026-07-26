@@ -1,0 +1,771 @@
+{
+ "id": "2026-07-26-microsoft-play-safety",
+ "date": "2026-07-26",
+ "slug": "microsoft",
+ "doc": "play-safety",
+ "hunks": [
+  {
+   "header": "@@ -15,16 +15,16 @@ Advertising or marketing",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected"
+    },
+    {
+     "t": " ",
+     "s": "Data this app may collect"
+    },
+    {
+     "t": "-",
+     "s": "Contacts"
+    },
+    {
+     "t": "-",
+     "s": "Contacts"
+    },
+    {
+     "t": "+",
+     "s": "Files and docs"
+    },
+    {
+     "t": "+",
+     "s": "Files and docs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contacts"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": "+",
+     "s": "Files and docs &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Photos and videos"
+    },
+    {
+     "t": " ",
+     "s": "Photos and Videos"
+    }
+   ]
+  },
+  {
+   "header": "@@ -39,115 +39,115 @@ App functionality",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Videos &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Calendar"
+    },
+    {
+     "t": "-",
+     "s": "Calendar events"
+    },
+    {
+     "t": "+",
+     "s": "Audio"
+    },
+    {
+     "t": "+",
+     "s": "Voice or sound recordings, Music files, and Other audio files"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Calendar events"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": "+",
+     "s": "Voice or sound recordings &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": "Music files &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": "Other audio files &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Personal info"
+    },
+    {
+     "t": "-",
+     "s": "Name, Email address, User IDs, and Phone number"
+    },
+    {
+     "t": "+",
+     "s": "Messages"
+    },
+    {
+     "t": "+",
+     "s": "Emails"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Name"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Personalization, Account management"
+    },
+    {
+     "t": "-",
+     "s": "Email address"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Personalization, Account management"
+    },
+    {
+     "t": "-",
+     "s": "User IDs"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Account management"
+    },
+    {
+     "t": "-",
+     "s": "Phone number &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Fraud prevention, security, and compliance"
+    },
+    {
+     "t": "+",
+     "s": "Emails"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Audio"
+    },
+    {
+     "t": "-",
+     "s": "Voice or sound recordings, Music files, and Other audio files"
+    },
+    {
+     "t": "+",
+     "s": "App activity"
+    },
+    {
+     "t": "+",
+     "s": "App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Voice or sound recordings &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "-",
+     "s": "Music files &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "-",
+     "s": "Other audio files &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": "App interactions"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": "+",
+     "s": "In-app search history"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": "+",
+     "s": "Installed apps &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "Analytics"
+    },
+    {
+     "t": "+",
+     "s": "Other user-generated content &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": "+",
+     "s": "Other actions"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "App info and performance"
+    },
+    {
+     "t": "-",
+     "s": "Crash logs, Diagnostics, and Other app performance data"
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Crash logs"
+    },
+    {
+     "t": "-",
+     "s": "Analytics"
+    },
+    {
+     "t": "-",
+     "s": "Diagnostics"
+    },
+    {
+     "t": "-",
+     "s": "Analytics"
+    },
+    {
+     "t": "-",
+     "s": "Other app performance data"
+    },
+    {
+     "t": "-",
+     "s": "Analytics"
+    },
+    {
+     "t": "+",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "Analytics, Advertising or marketing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Messages"
+    },
+    {
+     "t": "-",
+     "s": "Emails"
+    },
+    {
+     "t": "+",
+     "s": "Contacts"
+    },
+    {
+     "t": "+",
+     "s": "Contacts"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Emails"
+    },
+    {
+     "t": "+",
+     "s": "Contacts"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Files and docs"
+    },
+    {
+     "t": "-",
+     "s": "Files and docs"
+    },
+    {
+     "t": "+",
+     "s": "Calendar"
+    },
+    {
+     "t": "+",
+     "s": "Calendar events"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Files and docs &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": "Calendar events"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "App activity"
+    },
+    {
+     "t": "-",
+     "s": "App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions"
+    },
+    {
+     "t": "+",
+     "s": "Personal info"
+    },
+    {
+     "t": "+",
+     "s": "Name, Email address, User IDs, and Phone number"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "App interactions"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": "-",
+     "s": "In-app search history"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": "-",
+     "s": "Installed apps &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "Analytics"
+    },
+    {
+     "t": "-",
+     "s": "Other user-generated content &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Personalization"
+    },
+    {
+     "t": "-",
+     "s": "Other actions"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics"
+    },
+    {
+     "t": "+",
+     "s": "Name"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Personalization, Account management"
+    },
+    {
+     "t": "+",
+     "s": "Email address"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Personalization, Account management"
+    },
+    {
+     "t": "+",
+     "s": "User IDs"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Account management"
+    },
+    {
+     "t": "+",
+     "s": "Phone number &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Fraud prevention, security, and compliance"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "+",
+     "s": "App info and performance"
+    },
+    {
+     "t": "+",
+     "s": "Crash logs, Diagnostics, and Other app performance data"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": "-",
+     "s": "Analytics, Advertising or marketing"
+    },
+    {
+     "t": "+",
+     "s": "Crash logs"
+    },
+    {
+     "t": "+",
+     "s": "Analytics"
+    },
+    {
+     "t": "+",
+     "s": "Diagnostics"
+    },
+    {
+     "t": "+",
+     "s": "Analytics"
+    },
+    {
+     "t": "+",
+     "s": "Other app performance data"
+    },
+    {
+     "t": "+",
+     "s": "Analytics"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security practices"
+    },
+    {
+     "t": " ",
+     "s": "Data is encrypted in transit"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

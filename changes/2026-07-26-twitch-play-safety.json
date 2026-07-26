@@ -1,0 +1,623 @@
+{
+ "id": "2026-07-26-twitch-play-safety",
+ "date": "2026-07-26",
+ "slug": "twitch",
+ "doc": "play-safety",
+ "hunks": [
+  {
+   "header": "@@ -15,17 +15,6 @@ Advertising or marketing, Fraud prevention, security, and compliance",
+   "lines": [
+    {
+     "t": " ",
+     "s": "User IDs"
+    },
+    {
+     "t": " ",
+     "s": "Advertising or marketing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "App info and performance"
+    },
+    {
+     "t": "-",
+     "s": "Crash logs"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data shared and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Crash logs"
+    },
+    {
+     "t": "-",
+     "s": "Analytics"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Messages"
+    },
+    {
+     "t": " ",
+     "s": "Other in-app messages"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -37,16 +26,16 @@ info",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Other in-app messages"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Fraud prevention, security, and compliance"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Location"
+    },
+    {
+     "t": "-",
+     "s": "Approximate location"
+    },
+    {
+     "t": "+",
+     "s": "App info and performance"
+    },
+    {
+     "t": "+",
+     "s": "Crash logs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data shared and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Approximate location"
+    },
+    {
+     "t": "-",
+     "s": "Advertising or marketing, Fraud prevention, security, and compliance"
+    },
+    {
+     "t": "+",
+     "s": "Crash logs"
+    },
+    {
+     "t": "+",
+     "s": "Analytics"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": " ",
+     "s": "Device or other IDs"
+    }
+   ]
+  },
+  {
+   "header": "@@ -70,6 +59,17 @@ info",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Other actions"
+    },
+    {
+     "t": " ",
+     "s": "Advertising or marketing, Fraud prevention, security, and compliance"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Location"
+    },
+    {
+     "t": "+",
+     "s": "Approximate location"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data shared and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Approximate location"
+    },
+    {
+     "t": "+",
+     "s": "Advertising or marketing, Fraud prevention, security, and compliance"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected"
+    },
+    {
+     "t": " ",
+     "s": "Data this app may collect"
+    },
+    {
+     "t": " ",
+     "s": "Personal info"
+    }
+   ]
+  },
+  {
+   "header": "@@ -91,21 +91,6 @@ App functionality, Fraud prevention, security, and compliance, Account managemen",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Other info"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "App info and performance"
+    },
+    {
+     "t": "-",
+     "s": "Crash logs, Diagnostics, and Other app performance data"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "expand_more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "-",
+     "s": "info"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Crash logs"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics"
+    },
+    {
+     "t": "-",
+     "s": "Diagnostics"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics"
+    },
+    {
+     "t": "-",
+     "s": "Other app performance data"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Photos and videos"
+    },
+    {
+     "t": " ",
+     "s": "Photos and Videos"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -119,38 +104,42 @@ Account management",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Videos &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "App functionality"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Messages"
+    },
+    {
+     "t": "-",
+     "s": "Other in-app messages"
+    },
+    {
+     "t": "+",
+     "s": "Financial info"
+    },
+    {
+     "t": "+",
+     "s": "Purchase history"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Other in-app messages &middot; Optional"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Fraud prevention, security, and compliance"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Financial info"
+    },
+    {
+     "t": " ",
+     "s": "Purchase history"
+    },
+    {
+     "t": "+",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Messages"
+    },
+    {
+     "t": "+",
+     "s": "Other in-app messages"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Purchase history"
+    },
+    {
+     "t": "-",
+     "s": "App functionality"
+    },
+    {
+     "t": "+",
+     "s": "Other in-app messages &middot; Optional"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Fraud prevention, security, and compliance"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Location"
+    },
+    {
+     "t": "-",
+     "s": "Approximate location"
+    },
+    {
+     "t": "+",
+     "s": "App info and performance"
+    },
+    {
+     "t": "+",
+     "s": "Crash logs, Diagnostics, and Other app performance data"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "expand_more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": " ",
+     "s": "info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Approximate location"
+    },
+    {
+     "t": "-",
+     "s": "Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": "+",
+     "s": "Crash logs"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics"
+    },
+    {
+     "t": "+",
+     "s": "Diagnostics"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics"
+    },
+    {
+     "t": "+",
+     "s": "Other app performance data"
+    },
+    {
+     "t": "+",
+     "s": "App functionality, Analytics"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Device or other IDs"
+    },
+    {
+     "t": " ",
+     "s": "Device or other IDs"
+    }
+   ]
+  },
+  {
+   "header": "@@ -180,6 +169,17 @@ Account management",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Other actions"
+    },
+    {
+     "t": " ",
+     "s": "Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Location"
+    },
+    {
+     "t": "+",
+     "s": "Approximate location"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "expand_more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Data collected and for what purpose"
+    },
+    {
+     "t": "+",
+     "s": "info"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Approximate location"
+    },
+    {
+     "t": "+",
+     "s": "Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security practices"
+    },
+    {
+     "t": " ",
+     "s": "Data is encrypted in transit"
+    },
+    {
+     "t": " ",
+     "s": "Your data is transferred over a secure connection"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

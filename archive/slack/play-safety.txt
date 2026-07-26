@@ -17,17 +17,6 @@ Analytics
 
 Data collected
 Data this app may collect
-Device or other IDs
-Device or other IDs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Device or other IDs
-App functionality, Analytics, Fraud prevention, security, and compliance
-
 App activity
 App interactions, In-app search history, Other user-generated content, and Other actions
 
@@ -71,28 +60,6 @@ App functionality, Analytics
 Other audio files &middot; Optional
 App functionality, Analytics
 
-Contacts
-Contacts
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Contacts &middot; Optional
-App functionality, Analytics
-
-Files and docs
-Files and docs
-
-expand_more
-
-Data collected and for what purpose
-info
-
-Files and docs &middot; Optional
-App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
-
 Personal info
 Name, Email address, User IDs, and Phone number
 
@@ -110,6 +77,28 @@ App functionality, Analytics, Developer communications, Advertising or marketing
 Phone number &middot; Optional
 App functionality, Fraud prevention, security, and compliance, Account management
 
+Device or other IDs
+Device or other IDs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Device or other IDs
+App functionality, Analytics, Fraud prevention, security, and compliance
+
+Contacts
+Contacts
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Contacts &middot; Optional
+App functionality, Analytics
+
 App info and performance
 Crash logs and Diagnostics
 
@@ -122,6 +111,17 @@ Crash logs
 App functionality, Analytics, Fraud prevention, security, and compliance
 Diagnostics &middot; Optional
 App functionality, Analytics
+
+Files and docs
+Files and docs
+
+expand_more
+
+Data collected and for what purpose
+info
+
+Files and docs &middot; Optional
+App functionality, Analytics, Fraud prevention, security, and compliance, Personalization
 
 Security practices
 Data is encrypted in transit
