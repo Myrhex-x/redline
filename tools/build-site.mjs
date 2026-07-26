@@ -37,7 +37,7 @@ const fmtDate = (iso) => {
 
 // ---------------------------------------------------------------- data ----
 const config = loadJSON(join(ROOT, "companies.json"), { companies: [] });
-const { companies, blocked = [] } = config;
+const { companies, blocked = [], institutions = [] } = config;
 const ASSESSED = config.assessed ?? "2026-07-26";
 const history = loadJSON(join(ROOT, "history.json"), []);
 
@@ -444,6 +444,16 @@ footer.site .feye svg { width:100%; height:auto; display:block; }
   nav.site { width:100%; margin-left:0; gap:.4rem .95rem; font-size:.9rem; padding-right:0; }
   .langmenu { position:absolute; top:12px; right:22px; }
 }
+.herochips { margin-top:1.7rem; align-items:center; }
+.herochips .chiplbl { font-size:.72rem; letter-spacing:.13em; text-transform:uppercase; color:#8b949e; margin-right:.25rem; }
+.hero .chip { border-color:rgba(255,255,255,.15); color:#d7dce1; font-size:.86rem; padding:.34rem .72rem; font-weight:500; }
+.hero .chip:hover { background:rgba(255,255,255,.08); }
+.watchfor { border:1px dashed var(--line); border-radius:12px; padding:.85rem 1.15rem; margin:1.1rem 0 1.5rem;
+  font-size:.9rem; color:var(--dim); max-width:46rem; }
+.watchfor b { color:var(--fg); font-weight:600; }
+.st-inst .dot { background:#34579F; }
+.st-inst .mg { border-color:#34579F; background:rgba(52,87,159,.08); }
+.banner.st-inst { border-left-color:#34579F; }
 /* utilities — the CSP bans style="" attributes, so spacing one-offs live here */
 .mt-04 { margin-top:.45rem; } .mt-06 { margin-top:.6rem; } .mt-10 { margin-top:1rem; }
 .mt-12 { margin-top:1.2rem; } .mt-14 { margin-top:1.4rem; } .mt-16 { margin-top:1.6rem; } .mt-20 { margin-top:2rem; }
@@ -537,8 +547,8 @@ ${body}
     <a href="/switch/">Get out of the scanning</a><a href="/press/">Press &amp; reuse</a>
   </div>
   <div class="fcol"><h4>The record</h4>
-    <a href="/companies/">Tracked companies</a><a href="/alerts/">Alerts</a><a href="/data/">Data (CC0)</a>
-    <a href="${REPO}">GitHub</a><a href="/feed.xml">RSS</a>
+    <a href="/companies/">Tracked companies</a><a href="/changes/">All changes</a><a href="/alerts/">Alerts</a>
+    <a href="/data/">Data (CC0)</a><a href="${REPO}">GitHub</a><a href="/feed.xml">RSS</a>
   </div>
   <div class="fcol"><h4>Rules</h4>
     <a href="/about/">Method</a><a href="${REPO}/blob/main/POLICY.md">Editorial policy</a>
@@ -693,6 +703,11 @@ mkdirSync(OUT, { recursive: true });
       <a href="#denies"><b class="n-greensoft">${groups[3].companies.length}</b><span>says it doesn't</span></a>
       <a href="#e2ee"><b class="n-green">${groups[4].companies.length}</b><span>can't — E2EE</span></a>
     </div>
+    <div class="chips herochips">
+      <span class="chiplbl">Check yours</span>
+      ${[["signal", "Signal"], ["whatsapp", "WhatsApp"], ["telegram", "Telegram"], ["google", "Gmail"], ["meta", "Instagram"], ["apple", "iMessage"], ["discord", "Discord"], ["tiktok", "TikTok"]]
+        .map(([s, n]) => `<a class="chip" href="/company/${s}/">${n}</a>`).join("\n      ")}
+    </div>
   </section>
   ${groupedCards()}
   <p class="note mt-12">Statuses assessed ${fmtDate(ASSESSED)} from public
@@ -715,7 +730,8 @@ mkdirSync(OUT, { recursive: true });
   </div>
   <h2>Latest changes</h2>
   <p class="groupnote">Every tracked document is re-fetched daily; when one changes, the change
-  appears here with its full before and after. That is how a status change would be caught.</p>
+  appears here with its full before and after. That is how a status change would be caught.
+  <a href="/changes/">Full record, including every baseline →</a></p>
   ${feed}
   <p class="note mt-10">Baseline: ${fmtDate(baselineDate)} — ${docCount} documents
   and ${labelCount} App Store labels across ${companies.length} companies. Every snapshot is a
@@ -753,6 +769,13 @@ mkdirSync(OUT, { recursive: true });
   <a href="/chat-control/">how they're assigned</a>.</p>
   ${legend()}
   ${groupedTables()}
+  ${institutions.length ? `<h2 class="grouphead"><span class="st-inst"><span class="dot"></span>Institutional sources</span> <span class="count">${institutions.length}</span></h2>
+  <p class="groupnote">The law's own pages, archived under the same rules as everyone else's —
+  no scanning status, because these aren't providers; they're the paper trail.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Source</th><th>Documents</th><th>App label</th><th>Last change</th></tr></thead>
+    <tbody>${institutions.map(companyRow).join("")}</tbody>
+  </table></div>` : ""}
   ${blocked.length ? `<h2>Currently untrackable</h2>
   <p class="note">These pages block automated archiving; the block itself is the recorded fact.</p>
   <div class="scroll"><table><thead><tr><th>Target</th><th>Reason</th></tr></thead><tbody>
@@ -766,23 +789,44 @@ mkdirSync(OUT, { recursive: true });
 }
 
 // company pages
-for (const c of companies) {
+// What a status change would look like, per status — rendered on every company
+// page so readers know the archive is a tripwire, not a museum.
+const WATCH = {
+  confirmed: (n) => `${n} files the derogation's transparency reports today. We watch for the reports stopping, scanning language disappearing from these documents, and what replaces the legal basis when the derogation expires in April 2028.`,
+  global: (n) => `${n} discloses scanning under US law. We watch for the first sign of the EU regime: a derogation filing, an EU-specific scanning clause in these documents, or its name appearing in the Commission's next implementation report.`,
+  unclear: (n) => `${n} has no clear public position. We watch for any statement either way — a scanning disclosure appearing in these documents, or an explicit denial. Either would change this status the day it's published.`,
+  denies: (n) => `${n} states that it does not scan. We watch for that language weakening or vanishing — the statement is pinned to the archived text above, so any edit is caught and diffed.`,
+  e2ee: (n) => `${n}'s content is end-to-end encrypted, which keeps it out of Chat Control's scope. We watch for weakened encryption claims, client-side scanning language, or new qualifiers around E2EE in these documents.`,
+};
+
+for (const c of [...companies, ...institutions]) {
+  const inst = !!c.institution;
   const a = archive.get(c.slug) ?? { docs: new Map(), label: null, labelMeta: null };
   const evts = changesBySlug.get(c.slug) ?? [];
   const real = evts.filter((e) => e.kind !== "baseline");
   const cc = c.chatControl ?? { status: "unclear", note: "", sources: [] };
-  const st = STATUS[cc.status] ?? STATUS.unclear;
+  const st = inst
+    ? { label: "Institutional source", cls: "st-inst", verdict: "The law's own paper trail" }
+    : STATUS[cc.status] ?? STATUS.unclear;
   const srcs = (cc.sources ?? [])
     .map((s) => `<a href="${esc(s.u)}">${esc(s.t)}</a>`)
     .join(" · ");
-  const banner = `
+  const banner = inst
+    ? `
+  <div class="banner st-inst">
+    <strong><span class="dot"></span>Institutional source — not a provider, no scanning status</strong>
+    <div class="mt-04">${esc(c.note)}</div>
+    <div class="srcs"><a href="/chat-control/">what Chat Control is</a> · <a href="${REPO}/issues">flag a problem</a></div>
+  </div>`
+    : `
   <div class="banner ${st.cls}">
     <strong><span class="dot"></span>${st.label}</strong>
     <span class="dim"> — assessed ${fmtDate(ASSESSED)}</span>
     <div class="mt-04">${esc(cc.note)}</div>
     ${cc.quote ? `<div class="quote">“${esc(cc.quote)}” <span class="who">— from ${esc(c.name)}'s ${esc(cc.quoteDoc ?? "own documents")}, as archived here</span></div>` : ""}
     <div class="srcs">${srcs ? `Sources: ${srcs} · ` : ""}<a href="/chat-control/">what this status means</a> · <a href="${REPO}/issues">dispute it</a></div>
-  </div>`;
+  </div>
+  <div class="watchfor"><b>What we watch for</b> — ${WATCH[cc.status in WATCH ? cc.status : "unclear"](esc(shortName(c)))}</div>`;
   const docRows = c.docs
     .map((d) => {
       const m = a.docs.get(d.id) ?? {};
@@ -824,7 +868,9 @@ for (const c of companies) {
     join(OUT, "company", c.slug, "index.html"),
     page({
       title: `${c.name}: ${st.label} — ScanRecords`,
-      desc: `${c.name} under the EU's Chat Control: ${st.label.toLowerCase()}. ${cc.note}`,
+      desc: inst
+        ? `${c.name} in the ScanRecords archive: the law's own pages, recorded daily. ${c.note}`
+        : `${c.name} under the EU's Chat Control: ${st.label.toLowerCase()}. ${cc.note}`,
       path: `/company/${c.slug}/`, active: "companies", body,
     })
   );
@@ -870,6 +916,36 @@ for (const e of realChanges) {
       title: `${e.company} — ${e.docTitle} changed ${fmtDate(e.date)} — ScanRecords`,
       desc: `${e.company} changed its ${e.docTitle} on ${fmtDate(e.date)}: +${e.added} lines, −${e.removed} lines. Full before/after recorded.`,
       path: `/change/${e.id}/`, active: "home", body,
+    })
+  );
+}
+
+// the full record — every event ever recorded, baselines included
+{
+  const rows = history.length
+    ? `<ul class="feed">${history.map(feedRow).join("")}</ul>`
+    : `<div class="empty">Nothing recorded yet.</div>`;
+  const body = `
+  <h1>The record</h1>
+  <p class="lede">Every event this archive has ever recorded — newest first. A
+  <strong>baseline</strong> is the first capture of a document: the reference everything
+  after it is diffed against. A <strong>document</strong> or <strong>App Store label</strong>
+  event is a real change, with its full before and after preserved.</p>
+  <p class="note">Recording since ${fmtDate(baselineDate)} · ${history.length} events ·
+  ${realChanges.length} real change${realChanges.length === 1 ? "" : "s"} ·
+  machine-readable at <a href="/history.json">/history.json</a> ·
+  follow via <a href="/feed.xml">RSS</a> or <a href="/alerts/">push alerts</a>.</p>
+  ${rows}
+  <p class="note mt-16">Baselines matter more than they look: a scanning clause added in 2027
+  can only be proven <em>new</em> against a recorded 2026 baseline. That is why everything
+  is captured before it changes, not after.</p>`;
+  mkdirSync(join(OUT, "changes"), { recursive: true });
+  writeFileSync(
+    join(OUT, "changes", "index.html"),
+    page({
+      title: "The record — every event — ScanRecords",
+      desc: "Every event the ScanRecords archive has recorded: baselines and changes across tracked Chat Control documents and App Store labels, newest first.",
+      path: "/changes/", active: "changes", body,
     })
   );
 }
@@ -942,6 +1018,17 @@ for (const e of realChanges) {
   <a href="https://www.euronews.com/my-europe/2026/07/23/eu-temporarily-extends-controversial-chat-scanning-regime-until-2028">Euronews</a> ·
   <a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> ·
   <a href="https://edri.org/our-work/csa-regulation-document-pool/">EDRi's document pool</a></p>
+
+  <h2>The paper trail — we archive the law's own pages too</h2>
+  <p>Companies aren't the only ones who quietly edit their pages. The institutions writing
+  Chat Control publish policy pages and status trackers of their own — so those are in the
+  archive under the same rules: fetched daily, diffed, and preserved. If the Commission
+  reframes what "voluntary detection" means, or the Parliament's tracker moves a step
+  toward mandatory scanning, that edit becomes a recorded, citable event.</p>
+  <ul class="sources">
+    ${institutions.map((i) => `<li><strong><a href="/company/${i.slug}/">${esc(i.name)}</a></strong> —
+    ${i.docs.map((d) => `<a href="${esc(d.url)}">${esc(d.title)}</a> (<a class="dim" href="/archive/${i.slug}/${d.id}.txt">archived text</a>)`).join(" · ")}</li>`).join("\n    ")}
+  </ul>
 
   <h2>Who actually uses it</h2>
   <p>Providers scanning under the derogation must file annual reports, and the Commission's

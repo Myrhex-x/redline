@@ -1,5 +1,148 @@
 [
  {
+  "id": "2026-07-26-tuta-appstore-label-baseline",
+  "date": "2026-07-26",
+  "slug": "tuta",
+  "company": "Tuta (Tutanota)",
+  "doc": "appstore-label",
+  "docTitle": "App Store privacy label",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-eu-commission-csa-policy-baseline",
+  "date": "2026-07-26",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-eu-parliament-csar-train-baseline",
+  "date": "2026-07-26",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "csar-train",
+  "docTitle": "Legislative train: combating child sexual abuse online",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-gmx-terms-baseline",
+  "date": "2026-07-26",
+  "slug": "gmx",
+  "company": "GMX (1&1 Mail)",
+  "doc": "terms",
+  "docTitle": "Terms & Conditions",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-linkedin-community-baseline",
+  "date": "2026-07-26",
+  "slug": "linkedin",
+  "company": "LinkedIn",
+  "doc": "community",
+  "docTitle": "Professional Community Policies",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-microsoft-photodna-baseline",
+  "date": "2026-07-26",
+  "slug": "microsoft",
+  "company": "Microsoft (Outlook, Teams)",
+  "doc": "photodna",
+  "docTitle": "PhotoDNA",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-pinterest-guidelines-baseline",
+  "date": "2026-07-26",
+  "slug": "pinterest",
+  "company": "Pinterest",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-slack-security-baseline",
+  "date": "2026-07-26",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "security",
+  "docTitle": "Security",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-steam-conduct-baseline",
+  "date": "2026-07-26",
+  "slug": "steam",
+  "company": "Steam",
+  "doc": "conduct",
+  "docTitle": "Online Conduct",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-telegram-faq-baseline",
+  "date": "2026-07-26",
+  "slug": "telegram",
+  "company": "Telegram",
+  "doc": "faq",
+  "docTitle": "FAQ",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-tuta-encryption-baseline",
+  "date": "2026-07-26",
+  "slug": "tuta",
+  "company": "Tuta (Tutanota)",
+  "doc": "encryption",
+  "docTitle": "Encryption",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-tuta-privacy-baseline",
+  "date": "2026-07-26",
+  "slug": "tuta",
+  "company": "Tuta (Tutanota)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-tuta-terms-baseline",
+  "date": "2026-07-26",
+  "slug": "tuta",
+  "company": "Tuta (Tutanota)",
+  "doc": "terms",
+  "docTitle": "Terms & Conditions",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
   "id": "2026-07-26-apple-transparency-baseline",
   "date": "2026-07-26",
   "slug": "apple",

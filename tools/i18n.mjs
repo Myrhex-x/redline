@@ -36,7 +36,7 @@ export const LOCALES = {
       cols: ["Explorer", "Le registre", "Règles"],
       colExplore: [["", "Le vérificateur"], ["chat-control/", "C'est quoi, Chat Control ?"], ["switch/", "Se protéger"], ["glossary/", "Glossaire"]],
       colExploreEN: [["/numbers/", "Les chiffres (EN)"], ["/notes/", "Notes (EN)"]],
-      colRecord: [["/companies/", "Entreprises suivies (EN)"], ["alerts/", "Alertes"], ["/data/", "Données CC0 (EN)"]],
+      colRecord: [["/companies/", "Entreprises suivies (EN)"], ["/changes/", "Tout le registre (EN)"], ["alerts/", "Alertes"], ["/data/", "Données CC0 (EN)"]],
       colRules: [["/about/", "Méthode (EN)"], ["/legal/", "Mentions légales"]],
       policyLabel: "Politique éditoriale",
       statusNote: (d, repo) => `Statuts évalués le ${d} à partir de sources publiques — <strong>ils décrivent ce que les entreprises déclarent et déposent, pas des mesures de leurs logiciels</strong>. Les fiches détaillées des entreprises sont en anglais. Un statut vous semble faux ? <a href="${repo}/issues">Contestez-le</a> — les contestations sont publiées.`,
@@ -61,6 +61,7 @@ export const LOCALES = {
       lede: (n) => `Le Chat Control, c'est la règle européenne qui permet aux fournisseurs de <strong>scanner volontairement les messages privés</strong> jusqu'en avril 2028. Chaque entreprise décide pour elle-même — et les applications chiffrées de bout en bout sont exclues. Trouvez la vôtre ci-dessous : les statuts suivent la preuve la plus solide disponible. <a href="/fr/chat-control/">Comment ça marche →</a>`,
       barAria: (n) => `Sur ${n} plateformes suivies`,
       bignums: ["scannent sous Chat Control", "scannent sous la loi US", "ne se prononcent pas", "affirme ne pas scanner", "ne peuvent pas — E2EE"],
+      checkYours: "Vérifiez le vôtre",
       how: "Comment fonctionne le registre",
       steps: [["1 · Relevé", "Chaque politique, page sécurité et fiche App Store suivie est re-consultée tous les jours à 06 h 17 UTC."], ["2 · Différence", "Un changement n'est enregistré que si les mots ont réellement changé — avec l'avant et l'après conservés."], ["3 · Témoin", "Chaque relevé est un commit git public, et Internet Archive capture les pages modifiées le jour même."]],
       deeper: "Aller plus loin",
@@ -201,7 +202,7 @@ export const LOCALES = {
       cols: ["Entdecken", "Das Register", "Regeln"],
       colExplore: [["", "Der Check"], ["chat-control/", "Was ist die Chatkontrolle?"], ["switch/", "Sich schützen"], ["glossary/", "Glossar"]],
       colExploreEN: [["/numbers/", "Die Zahlen (EN)"], ["/notes/", "Notizen (EN)"]],
-      colRecord: [["/companies/", "Erfasste Unternehmen (EN)"], ["alerts/", "Alarme"], ["/data/", "Daten CC0 (EN)"]],
+      colRecord: [["/companies/", "Erfasste Unternehmen (EN)"], ["/changes/", "Das ganze Register (EN)"], ["alerts/", "Alarme"], ["/data/", "Daten CC0 (EN)"]],
       colRules: [["/about/", "Methode (EN)"], ["/legal/", "Impressum & Datenschutz"]],
       policyLabel: "Redaktionsrichtlinie",
       statusNote: (d, repo) => `Status bewertet am ${d} auf Basis öffentlicher Quellen — <strong>sie beschreiben, was Unternehmen erklären und einreichen, keine Messungen ihrer Software</strong>. Die Detailseiten der Unternehmen sind auf Englisch. Ein Status erscheint Ihnen falsch? <a href="${repo}/issues">Widersprechen Sie</a> — Einwände werden veröffentlicht.`,
@@ -226,6 +227,7 @@ export const LOCALES = {
       lede: (n) => `Die Chatkontrolle ist die EU-Regel, die Anbietern erlaubt, <strong>private Nachrichten freiwillig zu scannen</strong> — bis April 2028. Jedes Unternehmen entscheidet selbst, und Ende-zu-Ende-verschlüsselte Apps sind ausgenommen. Finden Sie Ihre App unten: Die Status folgen dem stärksten verfügbaren Beleg. <a href="/de/chat-control/">Wie das funktioniert →</a>`,
       barAria: (n) => `Von ${n} erfassten Plattformen`,
       bignums: ["scannen unter der Chatkontrolle", "scannen nach US-Recht", "äußern sich nicht", "erklärt, nicht zu scannen", "können nicht — E2EE"],
+      checkYours: "Prüfen Sie Ihre App",
       how: "Wie das Register arbeitet",
       steps: [["1 · Erfassen", "Jede erfasste Richtlinie, Sicherheitsseite und App-Store-Angabe wird täglich um 06:17 UTC neu abgerufen."], ["2 · Vergleichen", "Eine Änderung wird nur festgehalten, wenn sich die Worte wirklich geändert haben — mit bewahrtem Vorher und Nachher."], ["3 · Bezeugen", "Jede Erfassung ist ein öffentlicher Git-Commit, und das Internet Archive sichert geänderte Quellen am selben Tag."]],
       deeper: "Tiefer einsteigen",
@@ -366,7 +368,7 @@ export const LOCALES = {
       cols: ["Explorar", "El registro", "Reglas"],
       colExplore: [["", "El comprobador"], ["chat-control/", "¿Qué es el Chat Control?"], ["switch/", "Protegerse"], ["glossary/", "Glosario"]],
       colExploreEN: [["/numbers/", "Las cifras (EN)"], ["/notes/", "Notas (EN)"]],
-      colRecord: [["/companies/", "Empresas seguidas (EN)"], ["alerts/", "Alertas"], ["/data/", "Datos CC0 (EN)"]],
+      colRecord: [["/companies/", "Empresas seguidas (EN)"], ["/changes/", "Todo el registro (EN)"], ["alerts/", "Alertas"], ["/data/", "Datos CC0 (EN)"]],
       colRules: [["/about/", "Método (EN)"], ["/legal/", "Aviso legal"]],
       policyLabel: "Política editorial",
       statusNote: (d, repo) => `Estados evaluados el ${d} a partir de fuentes públicas — <strong>describen lo que las empresas declaran y presentan, no mediciones de su software</strong>. Las fichas detalladas de las empresas están en inglés. ¿Un estado le parece erróneo? <a href="${repo}/issues">Impúgnelo</a> — las impugnaciones se publican.`,
@@ -391,6 +393,7 @@ export const LOCALES = {
       lede: (n) => `El Chat Control es la regla europea que permite a los proveedores <strong>escanear voluntariamente los mensajes privados</strong> hasta abril de 2028. Cada empresa decide por sí misma — y las aplicaciones cifradas de extremo a extremo están excluidas. Encuentre la suya abajo: los estados siguen la prueba más sólida disponible. <a href="/es/chat-control/">Cómo funciona →</a>`,
       barAria: (n) => `De ${n} plataformas seguidas`,
       bignums: ["escanean bajo Chat Control", "escanean bajo ley de EE. UU.", "no se pronuncian", "afirma que no escanea", "no pueden — E2EE"],
+      checkYours: "Comprueba la tuya",
       how: "Cómo funciona el registro",
       steps: [["1 · Registro", "Cada política, página de seguridad y ficha del App Store se vuelve a consultar cada día a las 06:17 UTC."], ["2 · Diferencia", "Un cambio solo se registra si las palabras realmente cambiaron — con el antes y el después conservados."], ["3 · Testigo", "Cada registro es un commit git público, e Internet Archive captura las páginas modificadas el mismo día."]],
       deeper: "Ir más allá",
@@ -554,6 +557,11 @@ export function emitLocales(ctx) {
     </div>
     <div class="bignums">
       ${groups.map((g, i) => `<a href="#${g.key}"><b class="${["n-red", "n-redsoft", "n-gray", "n-greensoft", "n-green"][i]}">${g.companies.length}</b><span>${H.bignums[i]}</span></a>`).join("\n      ")}
+    </div>
+    <div class="chips herochips">
+      <span class="chiplbl">${H.checkYours}</span>
+      ${[["signal", "Signal"], ["whatsapp", "WhatsApp"], ["telegram", "Telegram"], ["google", "Gmail"], ["meta", "Instagram"], ["apple", "iMessage"], ["discord", "Discord"], ["tiktok", "TikTok"]]
+        .map(([sl, n]) => `<a class="chip" href="/company/${sl}/" hreflang="en">${n}</a>`).join("\n      ")}
     </div>
   </section>
   ${cardsHTML}

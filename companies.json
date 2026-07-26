@@ -1,876 +1,979 @@
 {
-  "comment": "Targets for the ScanRecords archive. One entry per platform. 'docs' are HTML documents tracked by tools/snapshot.mjs. 'appstore' (id + expected name substring) is tracked by tools/labels.mjs. 'ua: browser' opts a target into a browser user-agent when the honest bot UA gets blocked — the block itself is recorded first. 'ignore' is a list of line-regexes stripped before hashing, for per-request noise a site embeds in visible text.",
-  "companies": [
+ "comment": "Targets for the ScanRecords archive. One entry per platform. 'docs' are HTML documents tracked by tools/snapshot.mjs. 'appstore' (id + expected name substring) is tracked by tools/labels.mjs. 'ua: browser' opts a target into a browser user-agent when the honest bot UA gets blocked — the block itself is recorded first. 'ignore' is a list of line-regexes stripped before hashing, for per-request noise a site embeds in visible text.",
+ "companies": [
+  {
+   "name": "Discord",
+   "slug": "discord",
+   "appstore": {
+    "id": 985746746,
+    "expect": "Discord"
+   },
+   "docs": [
     {
-      "name": "Discord",
-      "slug": "discord",
-      "appstore": {
-        "id": 985746746,
-        "expect": "Discord"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://discord.com/privacy"
-        },
-        {
-          "id": "terms",
-          "title": "Terms of Service",
-          "url": "https://discord.com/terms"
-        },
-        {
-          "id": "guidelines",
-          "title": "Community Guidelines",
-          "url": "https://discord.com/guidelines"
-        },
-        {
-          "id": "law-enforcement",
-          "title": "Working with Law Enforcement",
-          "url": "https://discord.com/safety/360044157931-working-with-law-enforcement"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Discord’s privacy policy discloses proactive scanning of attachments, and it reports to NCMEC under US law. No evidence found that Discord invokes the EU derogation for private communications.",
-        "quote": "proactively scanning attachments and other content for illegal or harmful activity",
-        "quoteDoc": "privacy policy",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          },
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/discord/privacy.txt"
-          }
-        ]
-      }
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://discord.com/privacy"
     },
     {
-      "name": "Telegram",
-      "slug": "telegram",
-      "appstore": {
-        "id": 686449807,
-        "expect": "Telegram"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://telegram.org/privacy"
-        },
-        {
-          "id": "terms",
-          "title": "Terms of Service",
-          "url": "https://telegram.org/tos"
-        }
-      ],
-      "chatControl": {
-        "status": "unclear",
-        "note": "Cloud chats are not end-to-end encrypted — Telegram can read them; secret chats are E2EE. In December 2024 Telegram announced use of IWF tools to block known CSAM. Its tracked documents say nothing about scanning private cloud chats, and it is not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/telegram/privacy.txt"
-          }
-        ]
-      }
+     "id": "terms",
+     "title": "Terms of Service",
+     "url": "https://discord.com/terms"
     },
     {
-      "name": "Signal",
-      "slug": "signal",
-      "appstore": {
-        "id": 874139669,
-        "expect": "Signal"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy & Terms",
-          "url": "https://signal.org/legal/"
-        }
-      ],
-      "chatControl": {
-        "status": "e2ee",
-        "note": "Everything is end-to-end encrypted, always. Signal cannot read message content — there is nothing a server-side scanner could scan.",
-        "sources": [
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/signal/privacy.txt"
-          }
-        ]
-      }
+     "id": "guidelines",
+     "title": "Community Guidelines",
+     "url": "https://discord.com/guidelines"
     },
     {
-      "name": "WhatsApp",
-      "slug": "whatsapp",
-      "appstore": {
-        "id": 310633997,
-        "expect": "WhatsApp"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy (EEA)",
-          "url": "https://www.whatsapp.com/legal/privacy-policy-eea"
-        },
-        {
-          "id": "security",
-          "title": "Security / E2EE description",
-          "url": "https://www.whatsapp.com/security"
-        }
-      ],
-      "chatControl": {
-        "status": "e2ee",
-        "note": "Chats are E2EE by default and excluded from voluntary scanning. Metadata is not E2EE, and unencrypted cloud backups are an optional weak point.",
-        "sources": [
-          {
-            "t": "Archived E2EE description",
-            "u": "/archive/whatsapp/security.txt"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Meta (Facebook, Instagram, Messenger)",
-      "slug": "meta",
-      "appstore": {
-        "id": 284882215,
-        "expect": "Facebook"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://www.facebook.com/privacy/policy/"
-        },
-        {
-          "id": "law-enforcement",
-          "title": "Law Enforcement Guidelines",
-          "url": "https://www.facebook.com/safety/groups/law/guidelines/"
-        }
-      ],
-      "chatControl": {
-        "status": "confirmed",
-        "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 — “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports” (COM(2025) 740). Facebook and Instagram messaging are scanned in the EU; Messenger personal chats have been E2EE by default since December 2023. When ePrivacy first applied in December 2020, Meta paused EU scanning — the derogation is what let it resume.",
-        "sources": [
-          {
-            "t": "COM(2025) 740 — Commission implementation report",
-            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
-          },
-          {
-            "t": "Overview of derogation users (Patrick Breyer)",
-            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Google (Gmail)",
-      "slug": "google",
-      "appstore": {
-        "id": 422689480,
-        "expect": "Gmail"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://policies.google.com/privacy?hl=en"
-        },
-        {
-          "id": "gov-requests",
-          "title": "Government Information Requests",
-          "url": "https://policies.google.com/terms/information-requests?hl=en"
-        },
-        {
-          "id": "child-safety",
-          "title": "How Google fights CSAM",
-          "url": "https://protectingchildren.google/"
-        }
-      ],
-      "chatControl": {
-        "status": "confirmed",
-        "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740), and publishes an EU-specific transparency report under Regulation 2021/1232 covering Gmail.",
-        "quote": "For example, processing data to detect and combat online child sexual abuse.",
-        "quoteDoc": "privacy policy",
-        "sources": [
-          {
-            "t": "COM(2025) 740 — Commission implementation report",
-            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
-          },
-          {
-            "t": "Google transparency report under Reg. 2021/1232",
-            "u": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Microsoft (Outlook, Teams)",
-      "slug": "microsoft",
-      "ignore": [
-        "^This is the Trace Id: [0-9a-f]+$"
-      ],
-      "appstore": {
-        "id": 951937596,
-        "expect": "Outlook"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Statement",
-          "url": "https://privacy.microsoft.com/en-us/privacystatement"
-        },
-        {
-          "id": "eu-reports",
-          "title": "EU jurisdictional transparency reports",
-          "url": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
-        }
-      ],
-      "chatControl": {
-        "status": "confirmed",
-        "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740); files EU jurisdictional transparency reports. Microsoft invented PhotoDNA hash matching; Skype, historically covered, was retired in 2025.",
-        "quote": "We use scanning technologies (like hash matching) to help prevent harm to our systems, our users, and others as described in our Code of Conduct, and to help prevent child exploitation.",
-        "quoteDoc": "privacy statement",
-        "sources": [
-          {
-            "t": "COM(2025) 740 — Commission implementation report",
-            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
-          },
-          {
-            "t": "Microsoft jurisdictional transparency reports",
-            "u": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Apple (iMessage, iCloud)",
-      "slug": "apple",
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://www.apple.com/legal/privacy/en-ww/"
-        },
-        {
-          "id": "icloud-security",
-          "title": "iCloud Data Security Overview",
-          "url": "https://support.apple.com/en-us/102651"
-        },
-        {
-          "id": "imessage-security",
-          "title": "iMessage Security Overview",
-          "url": "https://support.apple.com/guide/security/imessage-security-overview-secd9764312f/web"
-        },
-        {
-          "id": "transparency",
-          "title": "Transparency Report",
-          "url": "https://www.apple.com/legal/transparency/"
-        }
-      ],
-      "chatControl": {
-        "status": "e2ee",
-        "note": "iMessage is end-to-end encrypted and out of scope; the 2021 on-device photo-scanning plan was abandoned in 2022. Separately, Breyer’s tracking lists iCloud Mail among derogation services and Apple has said it checks mail attachments since 2019 — but Apple is not among the five providers filing the derogation’s reports. Both facts are recorded.",
-        "quote": "prescreening or scanning uploaded content for potentially illegal content",
-        "quoteDoc": "privacy policy",
-        "sources": [
-          {
-            "t": "Archived iMessage security overview",
-            "u": "/archive/apple/imessage-security.txt"
-          },
-          {
-            "t": "Overview of derogation users (Patrick Breyer)",
-            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Snapchat",
-      "slug": "snapchat",
-      "appstore": {
-        "id": 447188370,
-        "expect": "Snapchat"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://values.snap.com/privacy/privacy-policy"
-        },
-        {
-          "id": "guidelines",
-          "title": "Community Guidelines",
-          "url": "https://values.snap.com/privacy/transparency/community-guidelines"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Discloses PhotoDNA and CSAI Match scanning and NCMEC reporting under US law. Breyer’s tracking lists Snapchat among services using the derogation — but Snap is not among the five providers that filed the derogation’s mandatory reports for 2023–2024. No EU filing means no confirmed EU evidence; both facts are recorded.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          },
-          {
-            "t": "Overview of derogation users (Patrick Breyer)",
-            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
-          },
-          {
-            "t": "Snap transparency hub",
-            "u": "https://values.snap.com/privacy/transparency"
-          }
-        ]
-      }
-    },
-    {
-      "name": "TikTok",
-      "slug": "tiktok",
-      "appstore": {
-        "id": 835599320,
-        "expect": "TikTok"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy (EEA)",
-          "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en"
-        },
-        {
-          "id": "guidelines",
-          "title": "Community Guidelines",
-          "url": "https://www.tiktok.com/community-guidelines/en/",
-          "render": "headless"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "X",
-      "slug": "x",
-      "appstore": {
-        "id": 333903271,
-        "expect": "X"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://x.com/en/privacy"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Discloses PhotoDNA hash matching and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Reddit",
-      "slug": "reddit",
-      "appstore": {
-        "id": 1064216828,
-        "expect": "Reddit"
-      },
-      "docs": [],
-      "chatControl": {
-        "status": "global",
-        "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Proton",
-      "slug": "proton",
-      "appstore": {
-        "id": 979659905,
-        "expect": "Proton Mail"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://proton.me/legal/privacy"
-        },
-        {
-          "id": "security",
-          "title": "Security / E2EE description",
-          "url": "https://proton.me/mail/security"
-        },
-        {
-          "id": "transparency",
-          "title": "Transparency Report",
-          "url": "https://proton.me/legal/transparency"
-        }
-      ],
-      "chatControl": {
-        "status": "denies",
-        "note": "Stored mail is under zero-access encryption; Proton states it does not scan message content and acts on user reports instead. Its only “scanning” is an opt-in dark-web monitor for your own leaked credentials.",
-        "sources": [
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/proton/privacy.txt"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Threema",
-      "slug": "threema",
-      "appstore": {
-        "id": 578665578,
-        "expect": "Threema"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://threema.com/en/privacy-policy"
-        },
-        {
-          "id": "security",
-          "title": "Security page",
-          "url": "https://threema.com/en/security"
-        }
-      ],
-      "chatControl": {
-        "status": "e2ee",
-        "note": "End-to-end encrypted by default with minimal metadata by design; out of scope of voluntary scanning.",
-        "sources": [
-          {
-            "t": "Archived security page",
-            "u": "/archive/threema/security.txt"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Viber",
-      "slug": "viber",
-      "appstore": {
-        "id": 382617920,
-        "expect": "Viber"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://www.viber.com/en/terms/viber-privacy-policy/"
-        },
-        {
-          "id": "security",
-          "title": "Security / E2EE description",
-          "url": "https://www.viber.com/en/security/"
-        }
-      ],
-      "chatControl": {
-        "status": "e2ee",
-        "note": "One-to-one and group chats have been E2EE by default since 2016; excluded from voluntary scanning.",
-        "sources": [
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/viber/privacy.txt"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Slack",
-      "slug": "slack",
-      "appstore": {
-        "id": 618783545,
-        "expect": "Slack"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://slack.com/trust/privacy/privacy-policy"
-        }
-      ],
-      "chatControl": {
-        "status": "unclear",
-        "note": "Workspace content is not end-to-end encrypted — Slack can read it. No statement about scanning private communications found in tracked documents, and not named in Commission reporting.",
-        "sources": [
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/slack/privacy.txt"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Zoom",
-      "slug": "zoom",
-      "appstore": {
-        "id": 546505307,
-        "expect": "Zoom"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Statement",
-          "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Reports to NCMEC under US law; an optional end-to-end encrypted meeting mode exists but is off by default. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Twitch",
-      "slug": "twitch",
-      "ua": "browser",
-      "appstore": {
-        "id": 460177396,
-        "expect": "Twitch"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Notice",
-          "url": "https://www.twitch.tv/p/en/legal/privacy-notice/",
-          "render": "headless"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Discloses CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "LinkedIn",
-      "slug": "linkedin",
-      "appstore": {
-        "id": 288429040,
-        "expect": "LinkedIn"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://www.linkedin.com/legal/privacy-policy"
-        }
-      ],
-      "chatControl": {
-        "status": "confirmed",
-        "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 — “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports” (COM(2025) 740).",
-        "sources": [
-          {
-            "t": "COM(2025) 740 — Commission implementation report",
-            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Pinterest",
-      "slug": "pinterest",
-      "appstore": {
-        "id": 429047995,
-        "expect": "Pinterest"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://policy.pinterest.com/en/privacy-policy"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Steam",
-      "slug": "steam",
-      "appstore": {
-        "id": 495369748,
-        "expect": "Steam"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://store.steampowered.com/privacy_agreement/?l=english"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Valve appears in NCMEC CyberTipline disclosures under US law; detection concerns uploaded content. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "PlayStation (Sony)",
-      "slug": "playstation",
-      "appstore": {
-        "id": 410896080,
-        "expect": "PlayStation"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy (EU)",
-          "url": "https://www.playstation.com/en-gb/legal/privacy-policy/"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Sony Interactive discloses moderation including NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Olvid",
-      "slug": "olvid",
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://olvid.io/privacy/en/"
-        },
-        {
-          "id": "technology",
-          "title": "Technology / E2EE description",
-          "url": "https://olvid.io/technology/en/"
-        }
-      ],
-      "chatControl": {
-        "status": "e2ee",
-        "note": "End-to-end encrypted by default, certified by France’s ANSSI and used inside the French government; out of scope.",
-        "sources": [
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/olvid/privacy.txt"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Wire",
-      "slug": "wire",
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://wire.com/en/privacy-policy"
-        },
-        {
-          "id": "security",
-          "title": "Security page",
-          "url": "https://wire.com/en/security"
-        }
-      ],
-      "chatControl": {
-        "status": "e2ee",
-        "note": "End-to-end encrypted (Proteus/MLS) by default; out of scope of voluntary scanning.",
-        "sources": [
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/wire/privacy.txt"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Element (Matrix)",
-      "slug": "element",
-      "appstore": {
-        "id": 1083446067,
-        "expect": "Element"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://element.io/privacy"
-        }
-      ],
-      "chatControl": {
-        "status": "e2ee",
-        "note": "Matrix end-to-end encryption is on by default for private conversations; out of scope.",
-        "sources": [
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/element/privacy.txt"
-          }
-        ]
-      }
-    },
-    {
-      "name": "GMX (1&1 Mail)",
-      "slug": "gmx",
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://www.gmx.com/company/privacypolicy/"
-        }
-      ],
-      "chatControl": {
-        "status": "unclear",
-        "note": "Mail is not end-to-end encrypted by default. No statement on voluntary scanning found in tracked documents — and per Breyer’s tracking, “only unencrypted US communication services” make use of the derogation.",
-        "sources": [
-          {
-            "t": "Archived privacy policy",
-            "u": "/archive/gmx/privacy.txt"
-          },
-          {
-            "t": "Overview of derogation users (Patrick Breyer)",
-            "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Yahoo Mail",
-      "slug": "yahoo",
-      "appstore": {
-        "id": 577586159,
-        "expect": "Yahoo Mail"
-      },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy (EU)",
-          "url": "https://legal.yahoo.com/ie/en/yahoo/privacy/index.html"
-        }
-      ],
-      "chatControl": {
-        "status": "global",
-        "note": "Long-standing NCMEC reporter under US law. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Roblox",
-      "slug": "roblox",
-      "appstore": {
-        "id": 431946152,
-        "expect": "Roblox"
-      },
-      "docs": [],
-      "chatControl": {
-        "status": "global",
-        "note": "Extensive automated child-safety moderation and NCMEC reporting under US law. Not named in Commission reporting on the derogation. Its policy pages currently block archiving — the block is recorded.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Yubo",
-      "slug": "yubo",
-      "docs": [],
-      "chatControl": {
-        "status": "confirmed",
-        "note": "French platform for teens; among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740). Its policy pages currently block automated archiving — the block is recorded.",
-        "sources": [
-          {
-            "t": "COM(2025) 740 — Commission implementation report",
-            "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Epic Games (Fortnite)",
-      "slug": "epic",
-      "docs": [],
-      "chatControl": {
-        "status": "global",
-        "note": "Discloses automated detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
-        "sources": [
-          {
-            "t": "NCMEC CyberTipline data (US law)",
-            "u": "https://www.missingkids.org/cybertiplinedata"
-          }
-        ]
-      }
+     "id": "law-enforcement",
+     "title": "Working with Law Enforcement",
+     "url": "https://discord.com/safety/360044157931-working-with-law-enforcement"
     }
-  ],
-  "blocked": [
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Discord’s privacy policy discloses proactive scanning of attachments, and it reports to NCMEC under US law. No evidence found that Discord invokes the EU derogation for private communications.",
+    "quote": "proactively scanning attachments and other content for illegal or harmful activity",
+    "quoteDoc": "privacy policy",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     },
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/discord/privacy.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Telegram",
+   "slug": "telegram",
+   "appstore": {
+    "id": 686449807,
+    "expect": "Telegram"
+   },
+   "docs": [
     {
-      "name": "Reddit (policy pages)",
-      "url": "https://www.reddit.com/policies/privacy-policy",
-      "reason": "Serves an empty JS shell to plain fetches and a \"blocked by network security\" page to headless Chromium (recorded 2026-07-26). App Store label is tracked meanwhile."
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://telegram.org/privacy"
     },
     {
-      "name": "Roblox (policy pages)",
-      "url": "https://en.help.roblox.com/hc/en-us/articles/115004630823",
-      "reason": "Zendesk WAF returns 403 to plain fetches and to headless Chromium alike (recorded 2026-07-26). App Store label is tracked meanwhile."
+     "id": "terms",
+     "title": "Terms of Service",
+     "url": "https://telegram.org/tos"
     },
     {
-      "name": "Epic Games (policy pages)",
-      "url": "https://www.epicgames.com/site/en-US/privacypolicy",
-      "reason": "Cloudflare returns 403 to plain fetches and to headless Chromium alike (recorded 2026-07-26)."
-    },
-    {
-      "name": "Yubo (policy pages)",
-      "url": "https://www.yubo.live/legal/privacy-policy",
-      "reason": "WAF returns 403 to plain fetches and to headless Chromium alike (recorded 2026-07-26). A confirmed derogation user whose policy pages block archiving."
+     "id": "faq",
+     "title": "FAQ",
+     "url": "https://telegram.org/faq"
     }
-  ],
-  "assessed": "2026-07-26"
+   ],
+   "chatControl": {
+    "status": "unclear",
+    "note": "Cloud chats are not end-to-end encrypted — Telegram can read them; secret chats are E2EE. In December 2024 Telegram announced use of IWF tools to block known CSAM. Its tracked documents say nothing about scanning private cloud chats, and it is not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/telegram/privacy.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Signal",
+   "slug": "signal",
+   "appstore": {
+    "id": 874139669,
+    "expect": "Signal"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy & Terms",
+     "url": "https://signal.org/legal/"
+    }
+   ],
+   "chatControl": {
+    "status": "e2ee",
+    "note": "Everything is end-to-end encrypted, always. Signal cannot read message content — there is nothing a server-side scanner could scan.",
+    "sources": [
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/signal/privacy.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "WhatsApp",
+   "slug": "whatsapp",
+   "appstore": {
+    "id": 310633997,
+    "expect": "WhatsApp"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy (EEA)",
+     "url": "https://www.whatsapp.com/legal/privacy-policy-eea"
+    },
+    {
+     "id": "security",
+     "title": "Security / E2EE description",
+     "url": "https://www.whatsapp.com/security"
+    }
+   ],
+   "chatControl": {
+    "status": "e2ee",
+    "note": "Chats are E2EE by default and excluded from voluntary scanning. Metadata is not E2EE, and unencrypted cloud backups are an optional weak point.",
+    "sources": [
+     {
+      "t": "Archived E2EE description",
+      "u": "/archive/whatsapp/security.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Meta (Facebook, Instagram, Messenger)",
+   "slug": "meta",
+   "appstore": {
+    "id": 284882215,
+    "expect": "Facebook"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://www.facebook.com/privacy/policy/"
+    },
+    {
+     "id": "law-enforcement",
+     "title": "Law Enforcement Guidelines",
+     "url": "https://www.facebook.com/safety/groups/law/guidelines/"
+    }
+   ],
+   "chatControl": {
+    "status": "confirmed",
+    "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 — “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports” (COM(2025) 740). Facebook and Instagram messaging are scanned in the EU; Messenger personal chats have been E2EE by default since December 2023. When ePrivacy first applied in December 2020, Meta paused EU scanning — the derogation is what let it resume.",
+    "sources": [
+     {
+      "t": "COM(2025) 740 — Commission implementation report",
+      "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+     },
+     {
+      "t": "Overview of derogation users (Patrick Breyer)",
+      "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Google (Gmail)",
+   "slug": "google",
+   "appstore": {
+    "id": 422689480,
+    "expect": "Gmail"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://policies.google.com/privacy?hl=en"
+    },
+    {
+     "id": "gov-requests",
+     "title": "Government Information Requests",
+     "url": "https://policies.google.com/terms/information-requests?hl=en"
+    },
+    {
+     "id": "child-safety",
+     "title": "How Google fights CSAM",
+     "url": "https://protectingchildren.google/"
+    }
+   ],
+   "chatControl": {
+    "status": "confirmed",
+    "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740), and publishes an EU-specific transparency report under Regulation 2021/1232 covering Gmail.",
+    "quote": "For example, processing data to detect and combat online child sexual abuse.",
+    "quoteDoc": "privacy policy",
+    "sources": [
+     {
+      "t": "COM(2025) 740 — Commission implementation report",
+      "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+     },
+     {
+      "t": "Google transparency report under Reg. 2021/1232",
+      "u": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Microsoft (Outlook, Teams)",
+   "slug": "microsoft",
+   "ignore": [
+    "^This is the Trace Id: [0-9a-f]+$"
+   ],
+   "appstore": {
+    "id": 951937596,
+    "expect": "Outlook"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Statement",
+     "url": "https://privacy.microsoft.com/en-us/privacystatement"
+    },
+    {
+     "id": "eu-reports",
+     "title": "EU jurisdictional transparency reports",
+     "url": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
+    },
+    {
+     "id": "photodna",
+     "title": "PhotoDNA",
+     "url": "https://www.microsoft.com/en-us/photodna"
+    }
+   ],
+   "chatControl": {
+    "status": "confirmed",
+    "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740); files EU jurisdictional transparency reports. Microsoft invented PhotoDNA hash matching; Skype, historically covered, was retired in 2025.",
+    "quote": "We use scanning technologies (like hash matching) to help prevent harm to our systems, our users, and others as described in our Code of Conduct, and to help prevent child exploitation.",
+    "quoteDoc": "privacy statement",
+    "sources": [
+     {
+      "t": "COM(2025) 740 — Commission implementation report",
+      "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+     },
+     {
+      "t": "Microsoft jurisdictional transparency reports",
+      "u": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Apple (iMessage, iCloud)",
+   "slug": "apple",
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://www.apple.com/legal/privacy/en-ww/"
+    },
+    {
+     "id": "icloud-security",
+     "title": "iCloud Data Security Overview",
+     "url": "https://support.apple.com/en-us/102651"
+    },
+    {
+     "id": "imessage-security",
+     "title": "iMessage Security Overview",
+     "url": "https://support.apple.com/guide/security/imessage-security-overview-secd9764312f/web"
+    },
+    {
+     "id": "transparency",
+     "title": "Transparency Report",
+     "url": "https://www.apple.com/legal/transparency/"
+    }
+   ],
+   "chatControl": {
+    "status": "e2ee",
+    "note": "iMessage is end-to-end encrypted and out of scope; the 2021 on-device photo-scanning plan was abandoned in 2022. Separately, Breyer’s tracking lists iCloud Mail among derogation services and Apple has said it checks mail attachments since 2019 — but Apple is not among the five providers filing the derogation’s reports. Both facts are recorded.",
+    "quote": "prescreening or scanning uploaded content for potentially illegal content",
+    "quoteDoc": "privacy policy",
+    "sources": [
+     {
+      "t": "Archived iMessage security overview",
+      "u": "/archive/apple/imessage-security.txt"
+     },
+     {
+      "t": "Overview of derogation users (Patrick Breyer)",
+      "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Snapchat",
+   "slug": "snapchat",
+   "appstore": {
+    "id": 447188370,
+    "expect": "Snapchat"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://values.snap.com/privacy/privacy-policy"
+    },
+    {
+     "id": "guidelines",
+     "title": "Community Guidelines",
+     "url": "https://values.snap.com/privacy/transparency/community-guidelines"
+    }
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Discloses PhotoDNA and CSAI Match scanning and NCMEC reporting under US law. Breyer’s tracking lists Snapchat among services using the derogation — but Snap is not among the five providers that filed the derogation’s mandatory reports for 2023–2024. No EU filing means no confirmed EU evidence; both facts are recorded.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     },
+     {
+      "t": "Overview of derogation users (Patrick Breyer)",
+      "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+     },
+     {
+      "t": "Snap transparency hub",
+      "u": "https://values.snap.com/privacy/transparency"
+     }
+    ]
+   }
+  },
+  {
+   "name": "TikTok",
+   "slug": "tiktok",
+   "appstore": {
+    "id": 835599320,
+    "expect": "TikTok"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy (EEA)",
+     "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en"
+    },
+    {
+     "id": "guidelines",
+     "title": "Community Guidelines",
+     "url": "https://www.tiktok.com/community-guidelines/en/",
+     "render": "headless"
+    }
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "X",
+   "slug": "x",
+   "appstore": {
+    "id": 333903271,
+    "expect": "X"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://x.com/en/privacy"
+    }
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Discloses PhotoDNA hash matching and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Reddit",
+   "slug": "reddit",
+   "appstore": {
+    "id": 1064216828,
+    "expect": "Reddit"
+   },
+   "docs": [],
+   "chatControl": {
+    "status": "global",
+    "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Proton",
+   "slug": "proton",
+   "appstore": {
+    "id": 979659905,
+    "expect": "Proton Mail"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://proton.me/legal/privacy"
+    },
+    {
+     "id": "security",
+     "title": "Security / E2EE description",
+     "url": "https://proton.me/mail/security"
+    },
+    {
+     "id": "transparency",
+     "title": "Transparency Report",
+     "url": "https://proton.me/legal/transparency"
+    }
+   ],
+   "chatControl": {
+    "status": "denies",
+    "note": "Stored mail is under zero-access encryption; Proton states it does not scan message content and acts on user reports instead. Its only “scanning” is an opt-in dark-web monitor for your own leaked credentials.",
+    "sources": [
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/proton/privacy.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Threema",
+   "slug": "threema",
+   "appstore": {
+    "id": 578665578,
+    "expect": "Threema"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://threema.com/en/privacy-policy"
+    },
+    {
+     "id": "security",
+     "title": "Security page",
+     "url": "https://threema.com/en/security"
+    }
+   ],
+   "chatControl": {
+    "status": "e2ee",
+    "note": "End-to-end encrypted by default with minimal metadata by design; out of scope of voluntary scanning.",
+    "sources": [
+     {
+      "t": "Archived security page",
+      "u": "/archive/threema/security.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Viber",
+   "slug": "viber",
+   "appstore": {
+    "id": 382617920,
+    "expect": "Viber"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://www.viber.com/en/terms/viber-privacy-policy/"
+    },
+    {
+     "id": "security",
+     "title": "Security / E2EE description",
+     "url": "https://www.viber.com/en/security/"
+    }
+   ],
+   "chatControl": {
+    "status": "e2ee",
+    "note": "One-to-one and group chats have been E2EE by default since 2016; excluded from voluntary scanning.",
+    "sources": [
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/viber/privacy.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Slack",
+   "slug": "slack",
+   "appstore": {
+    "id": 618783545,
+    "expect": "Slack"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://slack.com/trust/privacy/privacy-policy"
+    },
+    {
+     "id": "security",
+     "title": "Security",
+     "url": "https://slack.com/trust/security"
+    }
+   ],
+   "chatControl": {
+    "status": "unclear",
+    "note": "Workspace content is not end-to-end encrypted — Slack can read it. No statement about scanning private communications found in tracked documents, and not named in Commission reporting.",
+    "sources": [
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/slack/privacy.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Zoom",
+   "slug": "zoom",
+   "appstore": {
+    "id": 546505307,
+    "expect": "Zoom"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Statement",
+     "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/"
+    }
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Reports to NCMEC under US law; an optional end-to-end encrypted meeting mode exists but is off by default. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Twitch",
+   "slug": "twitch",
+   "ua": "browser",
+   "appstore": {
+    "id": 460177396,
+    "expect": "Twitch"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Notice",
+     "url": "https://www.twitch.tv/p/en/legal/privacy-notice/",
+     "render": "headless"
+    }
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Discloses CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "LinkedIn",
+   "slug": "linkedin",
+   "appstore": {
+    "id": 288429040,
+    "expect": "LinkedIn"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://www.linkedin.com/legal/privacy-policy"
+    },
+    {
+     "id": "community",
+     "title": "Professional Community Policies",
+     "url": "https://www.linkedin.com/legal/professional-community-policies"
+    }
+   ],
+   "chatControl": {
+    "status": "confirmed",
+    "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 — “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports” (COM(2025) 740).",
+    "sources": [
+     {
+      "t": "COM(2025) 740 — Commission implementation report",
+      "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Pinterest",
+   "slug": "pinterest",
+   "appstore": {
+    "id": 429047995,
+    "expect": "Pinterest"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://policy.pinterest.com/en/privacy-policy"
+    },
+    {
+     "id": "guidelines",
+     "title": "Community Guidelines",
+     "url": "https://policy.pinterest.com/en/community-guidelines"
+    }
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Steam",
+   "slug": "steam",
+   "appstore": {
+    "id": 495369748,
+    "expect": "Steam"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://store.steampowered.com/privacy_agreement/?l=english"
+    },
+    {
+     "id": "conduct",
+     "title": "Online Conduct",
+     "url": "https://store.steampowered.com/online_conduct/?l=english"
+    }
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Valve appears in NCMEC CyberTipline disclosures under US law; detection concerns uploaded content. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "PlayStation (Sony)",
+   "slug": "playstation",
+   "appstore": {
+    "id": 410896080,
+    "expect": "PlayStation"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy (EU)",
+     "url": "https://www.playstation.com/en-gb/legal/privacy-policy/"
+    }
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Sony Interactive discloses moderation including NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Olvid",
+   "slug": "olvid",
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://olvid.io/privacy/en/"
+    },
+    {
+     "id": "technology",
+     "title": "Technology / E2EE description",
+     "url": "https://olvid.io/technology/en/"
+    }
+   ],
+   "chatControl": {
+    "status": "e2ee",
+    "note": "End-to-end encrypted by default, certified by France’s ANSSI and used inside the French government; out of scope.",
+    "sources": [
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/olvid/privacy.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Wire",
+   "slug": "wire",
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://wire.com/en/privacy-policy"
+    },
+    {
+     "id": "security",
+     "title": "Security page",
+     "url": "https://wire.com/en/security"
+    }
+   ],
+   "chatControl": {
+    "status": "e2ee",
+    "note": "End-to-end encrypted (Proteus/MLS) by default; out of scope of voluntary scanning.",
+    "sources": [
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/wire/privacy.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Element (Matrix)",
+   "slug": "element",
+   "appstore": {
+    "id": 1083446067,
+    "expect": "Element"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://element.io/privacy"
+    }
+   ],
+   "chatControl": {
+    "status": "e2ee",
+    "note": "Matrix end-to-end encryption is on by default for private conversations; out of scope.",
+    "sources": [
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/element/privacy.txt"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Tuta (Tutanota)",
+   "slug": "tuta",
+   "appstore": {
+    "id": 922429609,
+    "expect": "Tuta Mail"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://tuta.com/privacy-policy"
+    },
+    {
+     "id": "encryption",
+     "title": "Encryption",
+     "url": "https://tuta.com/encryption"
+    },
+    {
+     "id": "terms",
+     "title": "Terms & Conditions",
+     "url": "https://tuta.com/terms"
+    }
+   ],
+   "chatControl": {
+    "status": "e2ee",
+    "note": "German encrypted email provider. Mailboxes, calendars and internal mail are end-to-end encrypted, so the provider cannot read or scan message content — and the company has publicly campaigned against Chat Control for years.",
+    "sources": [
+     {
+      "t": "Tuta: Encryption",
+      "u": "https://tuta.com/encryption"
+     },
+     {
+      "t": "Tuta: Privacy Policy",
+      "u": "https://tuta.com/privacy-policy"
+     }
+    ]
+   }
+  },
+  {
+   "name": "GMX (1&1 Mail)",
+   "slug": "gmx",
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy",
+     "url": "https://www.gmx.com/company/privacypolicy/"
+    },
+    {
+     "id": "terms",
+     "title": "Terms & Conditions",
+     "url": "https://www.gmx.com/company/terms/"
+    }
+   ],
+   "chatControl": {
+    "status": "unclear",
+    "note": "Mail is not end-to-end encrypted by default. No statement on voluntary scanning found in tracked documents — and per Breyer’s tracking, “only unencrypted US communication services” make use of the derogation.",
+    "sources": [
+     {
+      "t": "Archived privacy policy",
+      "u": "/archive/gmx/privacy.txt"
+     },
+     {
+      "t": "Overview of derogation users (Patrick Breyer)",
+      "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Yahoo Mail",
+   "slug": "yahoo",
+   "appstore": {
+    "id": 577586159,
+    "expect": "Yahoo Mail"
+   },
+   "docs": [
+    {
+     "id": "privacy",
+     "title": "Privacy Policy (EU)",
+     "url": "https://legal.yahoo.com/ie/en/yahoo/privacy/index.html"
+    }
+   ],
+   "chatControl": {
+    "status": "global",
+    "note": "Long-standing NCMEC reporter under US law. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Roblox",
+   "slug": "roblox",
+   "appstore": {
+    "id": 431946152,
+    "expect": "Roblox"
+   },
+   "docs": [],
+   "chatControl": {
+    "status": "global",
+    "note": "Extensive automated child-safety moderation and NCMEC reporting under US law. Not named in Commission reporting on the derogation. Its policy pages currently block archiving — the block is recorded.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Yubo",
+   "slug": "yubo",
+   "docs": [],
+   "chatControl": {
+    "status": "confirmed",
+    "note": "French platform for teens; among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740). Its policy pages currently block automated archiving — the block is recorded.",
+    "sources": [
+     {
+      "t": "COM(2025) 740 — Commission implementation report",
+      "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Epic Games (Fortnite)",
+   "slug": "epic",
+   "docs": [],
+   "chatControl": {
+    "status": "global",
+    "note": "Discloses automated detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
+    "sources": [
+     {
+      "t": "NCMEC CyberTipline data (US law)",
+      "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ]
+   }
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Reddit (policy pages)",
+   "url": "https://www.reddit.com/policies/privacy-policy",
+   "reason": "Serves an empty JS shell to plain fetches and a \"blocked by network security\" page to headless Chromium (recorded 2026-07-26). App Store label is tracked meanwhile."
+  },
+  {
+   "name": "Roblox (policy pages)",
+   "url": "https://en.help.roblox.com/hc/en-us/articles/115004630823",
+   "reason": "Zendesk WAF returns 403 to plain fetches and to headless Chromium alike (recorded 2026-07-26). App Store label is tracked meanwhile."
+  },
+  {
+   "name": "Epic Games (policy pages)",
+   "url": "https://www.epicgames.com/site/en-US/privacypolicy",
+   "reason": "Cloudflare returns 403 to plain fetches and to headless Chromium alike (recorded 2026-07-26)."
+  },
+  {
+   "name": "Yubo (policy pages)",
+   "url": "https://www.yubo.live/legal/privacy-policy",
+   "reason": "WAF returns 403 to plain fetches and to headless Chromium alike (recorded 2026-07-26). A confirmed derogation user whose policy pages block archiving."
+  }
+ ],
+ "assessed": "2026-07-26",
+ "institutions": [
+  {
+   "name": "European Commission",
+   "slug": "eu-commission",
+   "institution": true,
+   "note": "The executive that proposed Chat Control 1.0 and 2.0, and that publishes the implementation reports naming who scans. These are the law's own pages — archived daily so that edits to what the EU says about scanning are recorded like everyone else's.",
+   "docs": [
+    {
+     "id": "csa-policy",
+     "title": "Child sexual abuse policy (DG HOME)",
+     "url": "https://home-affairs.ec.europa.eu/policies/internal-security/child-sexual-abuse_en"
+    }
+   ]
+  },
+  {
+   "name": "European Parliament",
+   "slug": "eu-parliament",
+   "institution": true,
+   "note": "Co-legislator on the draft CSA Regulation (Chat Control 2.0). Its legislative-train page tracks the draft's procedural status — archived daily so that every step toward or away from mandatory scanning is recorded.",
+   "docs": [
+    {
+     "id": "csar-train",
+     "title": "Legislative train: combating child sexual abuse online",
+     "url": "https://www.europarl.europa.eu/legislative-train/theme-promoting-our-european-way-of-life/file-combating-child-sexual-abuse-online"
+    }
+   ],
+   "ua": "browser"
+  }
+ ]
 }

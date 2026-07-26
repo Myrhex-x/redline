@@ -58,8 +58,8 @@ function parseUnifiedDiff(text) {
 }
 
 function main() {
-  const { companies } = loadJSON(join(ROOT, "companies.json"), { companies: [] });
-  const bySlug = new Map(companies.map((c) => [c.slug, c]));
+  const { companies, institutions = [] } = loadJSON(join(ROOT, "companies.json"), { companies: [] });
+  const bySlug = new Map([...companies, ...institutions].map((c) => [c.slug, c]));
   const history = loadJSON(HISTORY, []);
   const seen = new Set(history.map((e) => `${e.slug}/${e.doc}`));
   const ids = new Set(history.map((e) => e.id));

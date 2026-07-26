@@ -183,10 +183,11 @@ async function snapshotDoc(company, doc) {
 }
 
 async function main() {
-  const { companies } = JSON.parse(
+  const { companies, institutions = [] } = JSON.parse(
     readFileSync(join(ROOT, "companies.json"), "utf8")
   );
-  const targets = ONLY ? companies.filter((c) => c.slug === ONLY) : companies;
+  const all = [...companies, ...institutions];
+  const targets = ONLY ? all.filter((c) => c.slug === ONLY) : all;
   if (targets.length === 0) {
     console.error(`no company with slug "${ONLY}"`);
     process.exit(1);

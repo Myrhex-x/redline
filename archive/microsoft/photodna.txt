@@ -1,0 +1,323 @@
+
+Skip to main content
+
+Microsoft
+
+PhotoDNA
+
+PhotoDNA
+
+PhotoDNA
+
+Home
+
+PhotoDNA Cloud Service
+
+FAQ
+
+Documentation
+
+Terms of Use
+
+Contact Us
+
+More
+
+All Microsoft
+
+Global
+
+Microsoft 365
+
+Azure
+
+Copilot
+
+Windows
+
+Surface
+
+XBOX
+
+Deals
+
+Small Business
+
+Support
+
+Software
+Software
+
+Windows Apps
+
+Outlook
+
+OneDrive
+
+Microsoft Teams
+
+OneNote
+
+Microsoft Edge
+
+Moving from Skype to Teams
+
+PCs & Devices
+PCs & Devices
+
+Computers
+
+Shop XBOX
+
+Accessories
+
+VR & mixed reality
+
+Certified Refurbished
+
+Trade-in for cash
+
+Entertainment
+Entertainment
+
+XBOX Game Pass Ultimate
+
+PC Game Pass
+
+XBOX games
+
+PC games
+
+Business
+Business
+
+Microsoft AI
+
+Microsoft Security
+
+Dynamics 365
+
+Microsoft 365 for business
+
+Microsoft Power Platform
+
+Windows 365
+
+Small Business
+
+Digital Sovereignty
+
+Developer & IT
+Developer & IT
+
+Azure
+
+Microsoft Developer
+
+Microsoft Learn
+
+Support for AI marketplace apps
+
+Microsoft Tech Community
+
+Microsoft Marketplace
+
+Software companies
+
+Visual Studio
+
+Other
+Other
+
+Microsoft Rewards
+
+Free downloads & security
+
+Education
+
+Gift cards
+
+Licensing
+
+Unlocked stories
+
+View Sitemap
+
+Search
+Search Microsoft.com
+
+No results
+
+Cancel
+
+0
+Cart
+0 items in shopping cart
+
+Sign in
+
+PhotoDNA
+
+Help stop the spread of child exploitation
+
+In 2009, Microsoft partnered with Dartmouth College to develop PhotoDNA, a technology that aids in finding and removing known images of child exploitation. Today, PhotoDNA is used by organizations around the world and has assisted in the detection, disruption, and reporting of millions of child exploitation images.
+
+Organizations, Businesses & Non-Profits
+
+PhotoDNA Cloud Service is free for qualified customers.
+
+Learn more
+
+APPLY
+
+Already a customer? Sign in.
+
+Law Enforcement
+
+PhotoDNA is available for free to law enforcement and tool providers.
+
+Learn more
+
+How does PhotoDNA technology work?
+
+PhotoDNA creates a unique digital signature (known as a “hash”) of an image which is then compared against signatures (hashes) of other photos to find copies of the same image. When matched with a database containing hashes of previously identified illegal images, PhotoDNA is an incredible tool to help detect, disrupt and report the distribution of child exploitation material. PhotoDNA is not facial recognition software and cannot be used to identify a person or object in an image. A PhotoDNA hash is not reversible, and therefore cannot be used to recreate an image.
+
+Who uses PhotoDNA technology?
+
+Microsoft donated PhotoDNA to the National Center for Missing & Exploited Children (NCMEC). NCMEC is the United States clearinghouse and comprehensive reporting center for all issues related to the prevention of, and recovery from, child victimization, include abduction, abuse and exploitation. The CyberTipline provides the public and electronic service providers (ESPs) with the ability to report instances of online enticement of children for sexual acts and child exploitation material. For more information, or to register for the CyberTipline, visit NCMEC at www.missingkids.com .
+
+Microsoft continues to provide this valuable technology for free to qualified organizations including technology companies, developers, and non-profit organizations for the purpose of combatting child exploitation. Microsoft has also provided PhotoDNA for free to law enforcement, primarily through forensic tool developers. PhotoDNA has been widely incorporated into innovative visual image and forensic tools used by law enforcement around the world.
+
+In 2015, Microsoft made PhotoDNA available as a service on Azure. The PhotoDNA Cloud Service enables smaller companies and other organizations that want to give users the freedom to upload content while ensuring the integrity of their platforms.
+
+“Our goal is to stop that victimization. Using PhotoDNA, we will be able to match those images, working with online service providers around the country, so we can stop the redistribution of the photos.” – Ernie Allen, former President & CEO of the National Center for Missing & Exploited Children
+
+“By working collaboratively with industry and sharing PhotoDNA technology, we’re continuing the fight to help protect children.” – Courtney Gregoire, Vice President & Chief Digital Safety Officer
+
+What's new
+
+Surface Pro
+
+Surface Laptop
+
+Surface Laptop Ultra
+
+Surface RTX Spark Dev Box
+
+Copilot for organizations
+
+Copilot for personal use
+
+Explore Microsoft products
+
+Windows 11 apps
+
+Microsoft Store
+
+Account profile
+
+Download Center
+
+Microsoft Store support
+
+Returns
+
+Order tracking
+
+Certified Refurbished
+
+Microsoft Store Promise
+
+Flexible Payments
+
+Education
+
+Microsoft in education
+
+Devices for education
+
+Microsoft Teams for Education
+
+Microsoft 365 Education
+
+How to buy for your school
+
+Educator training and development
+
+Deals for students and parents
+
+AI for education
+
+Business
+
+Microsoft AI
+
+Microsoft Security
+
+Dynamics 365
+
+Microsoft 365
+
+Microsoft Power Platform
+
+Microsoft Teams
+
+Microsoft 365 Copilot
+
+Small Business
+
+Developer & IT
+
+Azure
+
+Microsoft Developer
+
+Microsoft Learn
+
+Support for AI marketplace apps
+
+Microsoft Tech Community
+
+Microsoft Marketplace
+
+Software companies
+
+Visual Studio
+
+Company
+
+Careers
+
+About Microsoft
+
+Company news
+
+Privacy at Microsoft
+
+Investors
+
+Diversity and inclusion
+
+Accessibility
+
+Sustainability
+
+English (United States)
+
+Your Privacy Choices
+
+Consumer Health Privacy
+
+Contact us
+
+Privacy
+
+Manage cookies
+
+Terms of use
+
+Trademarks
+
+About our ads
+
+© Microsoft 2026
