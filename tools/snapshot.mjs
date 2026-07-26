@@ -137,8 +137,15 @@ export function clipText(text, { from, to }) {
   const i = lines.findIndex((l) => fromRe.test(l.trim()));
   if (i === -1) return text;
   const rest = lines.slice(i + 1).findIndex((l) => toRe.test(l.trim()));
-  const j = rest === -1 ? lines.length - 1 : i + 1 + rest;
-  return lines.slice(i, j + 1).join("\n").trim() + "\n";
+  if (rest === -1) {
+    // Fail loudly rather than silently keeping the page furniture: an
+    // unclosed clip is how region-varying footers sneak back into the record.
+    console.warn(`  ⚠ clip: end marker /${to}/ not found — keeping full text, expect churn`);
+    return text;
+  }
+  const j = i + 1 + rest;
+  // Drop the end marker itself: it is the boundary, not the document.
+  return lines.slice(i, j).join("\n").trim() + "\n";
 }
 
 /**

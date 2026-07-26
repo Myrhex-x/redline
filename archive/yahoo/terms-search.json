@@ -4,14 +4,14 @@
  "documents": [
   {
    "doc": "play-safety",
-   "chars": 3885
+   "chars": 3791
   },
   {
    "doc": "privacy",
    "chars": 43899
   }
  ],
- "totalChars": 47784,
+ "totalChars": 47690,
  "terms": [
   {
    "group": "eu",

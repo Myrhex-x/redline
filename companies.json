@@ -35,7 +35,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.discord&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -93,7 +93,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=org.telegram.messenger&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -101,7 +101,10 @@
     {
      "id": "safety",
      "title": "Safety & Moderation",
-     "url": "https://telegram.org/safety"
+     "url": "https://telegram.org/safety",
+     "ignore": [
+      "^[\\d\\s  ]+$"
+     ]
     },
     {
      "id": "transparency",
@@ -151,7 +154,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=org.thoughtcrime.securesms&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -198,7 +201,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.whatsapp&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -245,7 +248,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.facebook.orca&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -301,7 +304,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.google.android.gm&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -362,7 +365,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.microsoft.office.outlook&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -463,7 +466,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.snapchat.android&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -505,7 +508,10 @@
     {
      "id": "privacy",
      "title": "Privacy Policy (EEA)",
-     "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en"
+     "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
+     "ignore": [
+      "We are changing how we show ads to UK users"
+     ]
     },
     {
      "id": "guidelines",
@@ -523,7 +529,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.zhiliaoapp.musically&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -565,7 +571,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.twitter.android&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -602,7 +608,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.reddit.frontpage&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -654,7 +660,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=ch.protonmail.android&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -701,7 +707,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=ch.threema.app&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -748,7 +754,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.viber.voip&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -795,7 +801,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.Slack&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -846,7 +852,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=us.zoom.videomeetings&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -894,7 +900,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=tv.twitch.android.app&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -941,7 +947,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.linkedin.android&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -988,7 +994,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.pinterest&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1035,7 +1041,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.valvesoftware.android.steam.community&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1077,7 +1083,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.scee.psxandroid&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1120,7 +1126,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=io.olvid.messenger&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1163,7 +1169,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.wire&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1205,7 +1211,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=im.vector.app&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1257,7 +1263,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=de.tutao.tutanota&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1304,7 +1310,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=de.gmx.mobile.android.mail&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1362,7 +1368,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.yahoo.mobile.client.android.mail&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1399,7 +1405,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=com.roblox.client&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"
@@ -1432,7 +1438,7 @@
      "url": "https://play.google.com/store/apps/datasafety?id=co.yellw.yellowapp&hl=en",
      "clip": {
       "from": "^Data safety$",
-      "to": "^info For more information about collected and shared data"
+      "to": "^info For more information about collected and shared data|^Google Play Play Pass$"
      },
      "minChars": 300,
      "canonical": "lines"

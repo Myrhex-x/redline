@@ -43,7 +43,6 @@ Email address, User IDs, and Phone number
 Financial info
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
 In-app search history
-info For more information about collected and shared data, see the developer's privacy policy
 Location
 No data shared with third parties
 Other app performance data

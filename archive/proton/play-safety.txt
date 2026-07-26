@@ -30,7 +30,6 @@ Email address
 Fraud prevention, security, and compliance
 Fraud prevention, security, and compliance
 Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more
-info For more information about collected and shared data, see the developer's privacy policy
 Name &middot; Optional
 Name, Email address, and Phone number
 No data shared with third parties

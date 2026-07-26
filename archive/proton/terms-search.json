@@ -4,7 +4,7 @@
  "documents": [
   {
    "doc": "play-safety",
-   "chars": 1743
+   "chars": 1649
   },
   {
    "doc": "privacy",
@@ -19,7 +19,7 @@
    "chars": 8675
   }
  ],
- "totalChars": 50245,
+ "totalChars": 50151,
  "terms": [
   {
    "group": "eu",

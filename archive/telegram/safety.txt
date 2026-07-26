@@ -39,7 +39,6 @@ Telegram blocks tens of thousands of groups and channels daily and removes milli
 
 Since 2015, moderation has combined user reports with proactive monitoring powered by machine learning. In early 2024, this effort was further enhanced with cutting-edge AI moderation tools .
 
-21 204 392
 
 Groups and channels blocked in 2026
 
@@ -51,7 +50,6 @@ Telegram enforces a zero-tolerance policy for Child Sexual Abuse Materials (CSAM
 
 In 2024, we expanded this database with hashes from organizations like the Internet Watch Foundation . Telegram publishes daily transparency reports on the removal of CSAM content.
 
-324 996
 
 CSAM-related groups and channels blocked in 2026
 
@@ -101,9 +99,7 @@ National Center for Missing & Exploited Children
 
 Internet Watch Foundation
 
-107
 
-162
 
 1,336
 
@@ -135,7 +131,6 @@ Calls to violence and terrorist propaganda have no place on Telegram. Since 2016
 
 Since 2022, Telegram has significantly scaled its efforts in partnership with organizations like ETIDAL, the Global Center for Combating Extremist Ideology. Through its collaboration with ETIDAL alone, Telegram’s moderators have removed over 200 million pieces of terrorist content.
 
-151 287
 
 Terrorist-related communities blocked in 2026
 

@@ -8,7 +8,7 @@
   },
   {
    "doc": "play-safety",
-   "chars": 1709
+   "chars": 1615
   },
   {
    "doc": "privacy",
@@ -16,7 +16,7 @@
   },
   {
    "doc": "safety",
-   "chars": 3833
+   "chars": 3798
   },
   {
    "doc": "terms",
@@ -27,7 +27,7 @@
    "chars": 2107
   }
  ],
- "totalChars": 124961,
+ "totalChars": 124832,
  "terms": [
   {
    "group": "eu",
@@ -65,7 +65,7 @@
    "samples": [
     {
      "doc": "safety",
-     "quote": "…utting-edge AI moderation tools . 21 204 392 Groups and channels blocked in 2026 How do I report content? CSAM Groups and Channels Banned Telegram enforces a zero-tolerance policy for Child Sexual Abuse Materials (CSAM)…"
+     "quote": "…nced with cutting-edge AI moderation tools . Groups and channels blocked in 2026 How do I report content? CSAM Groups and Channels Banned Telegram enforces a zero-tolerance policy for Child Sexual Abuse Materials (CSAM)…"
     },
     {
      "doc": "safety",
@@ -123,11 +123,11 @@
    "samples": [
     {
      "doc": "safety",
-     "quote": "…moderators over the past decade. In 2024, we expanded this database with hashes from organizations like the Internet Watch Foundation . Telegram publishes daily transparency reports on the removal of CSAM content. 324 996 CSAM-related groups…"
+     "quote": "…moderators over the past decade. In 2024, we expanded this database with hashes from organizations like the Internet Watch Foundation . Telegram publishes daily transparency reports on the removal of CSAM content. CSAM-related groups and cha…"
     },
     {
      "doc": "safety",
-     "quote": "…on 7,131 6,528 2,060 1,028 National Center for Missing & Exploited Children 1,933 3,583 2,069 1,091 Internet Watch Foundation 107 162 1,336 1,007 Total content blocked 11,313 32,874 12,675 16,965 * Between 16 September and 22…"
+     "quote": "…on 7,131 6,528 2,060 1,028 National Center for Missing & Exploited Children 1,933 3,583 2,069 1,091 Internet Watch Foundation 1,336 1,007 Total content blocked 11,313 32,874 12,675 16,965 * Between 16 September and 22 October…"
     }
    ]
   },
