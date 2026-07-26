@@ -24,6 +24,14 @@ export default async function handler(req, res) {
     confirmed boolean NOT NULL DEFAULT false,
     created timestamptz NOT NULL DEFAULT now())`;
 
+  // Launch-surge guard: confirmation mails share a daily sending quota with
+  // the digest. Past 80 new signups in 24h, protect the digest and say so
+  // honestly rather than failing weirdly at the provider.
+  const [{ count: recent }] = await sql`SELECT count(*)::int AS count FROM email_subs WHERE created > now() - interval '24 hours'`;
+  if (recent >= 80)
+    return page(res, 503, "Email signups are saturated today.",
+      `More people subscribed today than the mail quota allows — a good problem, but a real one. Use <a href="/alerts/">push alerts</a> or <a href="/feed.xml">RSS</a> now, or come back tomorrow; nothing about the record itself is affected.`);
+
   const existing = await sql`SELECT confirmed, created, token FROM email_subs WHERE email = ${email}`;
   if (existing.length && existing[0].confirmed)
     return page(res, 200, "Already subscribed.", "This address already receives alerts. Every alert email has a one-click unsubscribe.");
