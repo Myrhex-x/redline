@@ -103,8 +103,8 @@ export const LOCALES = {
     <tr><td class="dim">Applis chiffrées</td><td><strong>Formellement exclues</strong></td><td>Le cœur du conflit — le scan côté client les toucherait</td></tr>
     <tr><td class="dim">Échéance</td><td>Avril 2028</td><td>Pas une loi ; rien à expirer</td></tr>
     </tbody></table></div>
-  <div class="banner st-unclear" style="margin-top:1.4rem"><strong>Où en est le 2.0</strong> <span class="dim">— relu le ${x.assessed}</span>
-    <div style="margin-top:.45rem" class="dim">Le trilogue censément final s'est effondré le 29 juin 2026 sur le scan sans soupçon ; les négociations continuent sous présidence irlandaise. Rien n'est encore la loi.</div></div>
+  <div class="banner st-unclear mt-14"><strong>Où en est le 2.0</strong> <span class="dim">— relu le ${x.assessed}</span>
+    <div class="mt-04 dim">Le trilogue censément final s'est effondré le 29 juin 2026 sur le scan sans soupçon ; les négociations continuent sous présidence irlandaise. Rien n'est encore la loi.</div></div>
   <h2>Qui l'utilise vraiment</h2>
   <p>Les fournisseurs qui scannent sous la dérogation déposent des rapports annuels, et le dernier rapport de la Commission en nomme exactement cinq : <em>« Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024 »</em> (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>). Le suivi de l'eurodéputé <a href="https://www.patrick-breyer.de/en/posts/chat-control/">Patrick Breyer</a> ajoute que seuls des services américains non chiffrés y ont recours. Snapchat et Apple figurent dans sa liste mais <strong>pas</strong> parmi les cinq déposants — les deux faits sont affichés sur leurs fiches.</p>
   <h2>Scanner sous la loi américaine n'est pas le Chat Control</h2>
@@ -150,7 +150,7 @@ export const LOCALES = {
   <p>L'E2EE protège le <strong>contenu</strong>. Les métadonnées — qui, quand, à quelle fréquence — restent visibles chez la plupart des fournisseurs (Signal et Threema les minimisent). Et rien ne protège un téléphone déverrouillé par quelqu'un d'autre.</p>
   <h2>6. Ce que cette page ne couvre pas</h2>
   <p>Le projet <a href="/fr/chat-control/">Chat Control 2.0</a> pourrait atteindre les applis chiffrées via un scan sur l'appareil — c'est pourquoi cette archive surveille chaque jour la phrase « nous ne pouvons pas lire vos messages ».</p>
-  <p class="note" style="margin-top:1.6rem">Envoyez cette page à la personne qui vous a demandé « bon, et je fais quoi ? »</p></div>`,
+  <p class="note mt-16">Envoyez cette page à la personne qui vous a demandé « bon, et je fais quoi ? »</p></div>`,
     },
     alerts: {
       title: "Alertes — ScanRecords",
@@ -158,12 +158,12 @@ export const LOCALES = {
       body: () => `
   <h1>Une alerte dès qu'une entreprise bouge</h1>
   <p class="lede">Dès qu'une entreprise suivie modifie une politique, une promesse de chiffrement ou une fiche App Store, votre téléphone peut le savoir. Gratuit, sans compte, sans e-mail — seul le point de terminaison push de votre navigateur est stocké, et se désinscrire l'efface.</p>
-  <div class="banner st-e2ee" style="margin-top:1.6rem"><strong>Sur iPhone ou Android, installez d'abord le site</strong>
-    <div style="margin-top:.45rem" class="dim"><strong>iPhone :</strong> Partager → <em>Sur l'écran d'accueil</em>, puis ouvrez ScanRecords depuis l'écran d'accueil et abonnez-vous (iOS 16.4+).<br><strong>Android :</strong> menu Chrome → <em>Ajouter à l'écran d'accueil</em> — ou abonnez-vous directement.</div></div>
-  <p style="margin-top:1.4rem"><button id="subscribe" class="btn">Activer les alertes sur cet appareil</button><button id="unsubscribe" class="btn" hidden>Désactiver les alertes</button></p>
+  <div class="banner st-e2ee mt-16"><strong>Sur iPhone ou Android, installez d'abord le site</strong>
+    <div class="mt-04 dim"><strong>iPhone :</strong> Partager → <em>Sur l'écran d'accueil</em>, puis ouvrez ScanRecords depuis l'écran d'accueil et abonnez-vous (iOS 16.4+).<br><strong>Android :</strong> menu Chrome → <em>Ajouter à l'écran d'accueil</em> — ou abonnez-vous directement.</div></div>
+  <p class="mt-14"><button id="subscribe" class="btn">Activer les alertes sur cet appareil</button><button id="unsubscribe" class="btn" hidden>Désactiver les alertes</button></p>
   <p id="alert-status" class="note" aria-live="polite"></p>
   <h2>Ce qui déclenche une notification</h2>
-  <ul class="about" style="padding-left:1.2rem"><li>Une entreprise suivie a modifié une politique, des conditions, une page sécurité ou sa fiche App Store — avec le lien vers l'avant/après exact.</li><li>Rien d'autre. La plupart des jours : le silence — c'est le but.</li></ul>
+  <ul class="about pl-12"><li>Une entreprise suivie a modifié une politique, des conditions, une page sécurité ou sa fiche App Store — avec le lien vers l'avant/après exact.</li><li>Rien d'autre. La plupart des jours : le silence — c'est le but.</li></ul>
   <h2>La boîte d'honnêteté</h2>
   <p class="note">La seule page du site avec du JavaScript, et seulement après votre clic. S'abonner stocke le point de terminaison push — une URL aléatoire — et ses deux clés. Pas de cookies, pas d'e-mail. Se désinscrire efface tout. Zéro script ? Le <a href="/feed.xml">flux RSS</a> porte les mêmes alertes (messages d'état en anglais).</p>
   <script src="/alerts.js" defer></script>`,
@@ -268,8 +268,8 @@ export const LOCALES = {
     <tr><td class="dim">Verschlüsselte Apps</td><td><strong>Formell ausgenommen</strong></td><td>Der Kern des Konflikts — Client-Side-Scanning träfe sie</td></tr>
     <tr><td class="dim">Frist</td><td>April 2028</td><td>Kein Gesetz; nichts läuft aus</td></tr>
     </tbody></table></div>
-  <div class="banner st-unclear" style="margin-top:1.4rem"><strong>Wo die 2.0 steht</strong> <span class="dim">— geprüft am ${x.assessed}</span>
-    <div style="margin-top:.45rem" class="dim">Der vermeintlich finale Trilog scheiterte am 29. Juni 2026 am anlasslosen Scannen; die Verhandlungen laufen unter irischer Ratspräsidentschaft weiter. Nichts davon ist Gesetz.</div></div>
+  <div class="banner st-unclear mt-14"><strong>Wo die 2.0 steht</strong> <span class="dim">— geprüft am ${x.assessed}</span>
+    <div class="mt-04 dim">Der vermeintlich finale Trilog scheiterte am 29. Juni 2026 am anlasslosen Scannen; die Verhandlungen laufen unter irischer Ratspräsidentschaft weiter. Nichts davon ist Gesetz.</div></div>
   <h2>Wer sie wirklich nutzt</h2>
   <p>Anbieter, die unter der Ausnahme scannen, müssen jährlich berichten — und der jüngste Umsetzungsbericht der Kommission nennt genau fünf: <em>„Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024“</em> (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>). Das Monitoring des Abgeordneten <a href="https://www.patrick-breyer.de/posts/chatkontrolle/">Patrick Breyer</a> ergänzt, dass nur unverschlüsselte US-Dienste davon Gebrauch machen. Snapchat und Apple stehen auf seiner Liste, aber <strong>nicht</strong> unter den fünf Berichterstattern — beide Fakten stehen auf ihren Seiten.</p>
   <h2>Scannen nach US-Recht ist keine Chatkontrolle</h2>
@@ -315,7 +315,7 @@ export const LOCALES = {
   <p>E2EE schützt den <strong>Inhalt</strong>. Metadaten — wer mit wem, wann, wie oft — bleiben bei den meisten Anbietern sichtbar (Signal und Threema minimieren auch das). Und nichts hier schützt ein Gerät, das jemand anderes entsperrt.</p>
   <h2>6. Was diese Seite nicht abdeckt</h2>
   <p>Der Entwurf <a href="/de/chat-control/">Chatkontrolle 2.0</a> könnte verschlüsselte Apps per Scan auf dem Gerät erreichen — genau deshalb beobachtet dieses Archiv täglich den Satz „wir können Ihre Nachrichten nicht lesen“.</p>
-  <p class="note" style="margin-top:1.6rem">Schicken Sie diese Seite der Person, die Sie gefragt hat: „Und was mache ich jetzt?“</p></div>`,
+  <p class="note mt-16">Schicken Sie diese Seite der Person, die Sie gefragt hat: „Und was mache ich jetzt?“</p></div>`,
     },
     alerts: {
       title: "Alarme — ScanRecords",
@@ -323,12 +323,12 @@ export const LOCALES = {
       body: () => `
   <h1>Ein Alarm, sobald sich ein Unternehmen bewegt</h1>
   <p class="lede">Sobald ein erfasstes Unternehmen eine Richtlinie, ein Verschlüsselungsversprechen oder eine App-Store-Angabe ändert, kann Ihr Telefon es wissen. Kostenlos, ohne Konto, ohne E-Mail — gespeichert wird nur der Push-Endpunkt Ihres Browsers, und Abmelden löscht ihn.</p>
-  <div class="banner st-e2ee" style="margin-top:1.6rem"><strong>Auf iPhone oder Android: erst die Seite installieren</strong>
-    <div style="margin-top:.45rem" class="dim"><strong>iPhone:</strong> Teilen → <em>Zum Home-Bildschirm</em>, dann ScanRecords vom Home-Bildschirm öffnen und abonnieren (iOS 16.4+).<br><strong>Android:</strong> Chrome-Menü → <em>Zum Startbildschirm hinzufügen</em> — oder direkt unten abonnieren.</div></div>
-  <p style="margin-top:1.4rem"><button id="subscribe" class="btn">Alarme auf diesem Gerät aktivieren</button><button id="unsubscribe" class="btn" hidden>Alarme deaktivieren</button></p>
+  <div class="banner st-e2ee mt-16"><strong>Auf iPhone oder Android: erst die Seite installieren</strong>
+    <div class="mt-04 dim"><strong>iPhone:</strong> Teilen → <em>Zum Home-Bildschirm</em>, dann ScanRecords vom Home-Bildschirm öffnen und abonnieren (iOS 16.4+).<br><strong>Android:</strong> Chrome-Menü → <em>Zum Startbildschirm hinzufügen</em> — oder direkt unten abonnieren.</div></div>
+  <p class="mt-14"><button id="subscribe" class="btn">Alarme auf diesem Gerät aktivieren</button><button id="unsubscribe" class="btn" hidden>Alarme deaktivieren</button></p>
   <p id="alert-status" class="note" aria-live="polite"></p>
   <h2>Was eine Benachrichtigung auslöst</h2>
-  <ul class="about" style="padding-left:1.2rem"><li>Ein erfasstes Unternehmen hat eine Richtlinie, AGB, Sicherheitsseite oder App-Store-Angabe geändert — mit Link zum exakten Vorher/Nachher.</li><li>Sonst nichts. An den meisten Tagen: Stille — das ist der Sinn.</li></ul>
+  <ul class="about pl-12"><li>Ein erfasstes Unternehmen hat eine Richtlinie, AGB, Sicherheitsseite oder App-Store-Angabe geändert — mit Link zum exakten Vorher/Nachher.</li><li>Sonst nichts. An den meisten Tagen: Stille — das ist der Sinn.</li></ul>
   <h2>Die Ehrlichkeitsbox</h2>
   <p class="note">Die einzige Seite mit JavaScript, und nur nach Ihrem Klick. Abonnieren speichert den Push-Endpunkt — eine zufällige URL — und seine zwei Schlüssel. Keine Cookies, keine E-Mail. Abmelden löscht alles. Null Skripte? Der <a href="/feed.xml">RSS-Feed</a> trägt dieselben Alarme (Statusmeldungen auf Englisch).</p>
   <script src="/alerts.js" defer></script>`,
@@ -433,8 +433,8 @@ export const LOCALES = {
     <tr><td class="dim">Apps cifradas</td><td><strong>Formalmente excluidas</strong></td><td>El núcleo del conflicto — el escaneo en el cliente las afectaría</td></tr>
     <tr><td class="dim">Plazo</td><td>Abril de 2028</td><td>No es ley; nada que caduque</td></tr>
     </tbody></table></div>
-  <div class="banner st-unclear" style="margin-top:1.4rem"><strong>Dónde está el 2.0</strong> <span class="dim">— revisado el ${x.assessed}</span>
-    <div style="margin-top:.45rem" class="dim">El trílogo supuestamente final fracasó el 29 de junio de 2026 por el escaneo sin sospecha; las negociaciones continúan bajo presidencia irlandesa. Nada es ley todavía.</div></div>
+  <div class="banner st-unclear mt-14"><strong>Dónde está el 2.0</strong> <span class="dim">— revisado el ${x.assessed}</span>
+    <div class="mt-04 dim">El trílogo supuestamente final fracasó el 29 de junio de 2026 por el escaneo sin sospecha; las negociaciones continúan bajo presidencia irlandesa. Nada es ley todavía.</div></div>
   <h2>Quién lo usa de verdad</h2>
   <p>Los proveedores que escanean bajo la excepción deben presentar informes anuales, y el último informe de la Comisión nombra exactamente a cinco: <em>«Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024»</em> (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>). El seguimiento del eurodiputado <a href="https://www.patrick-breyer.de/en/posts/chat-control/">Patrick Breyer</a> añade que solo servicios estadounidenses sin cifrar lo utilizan. Snapchat y Apple figuran en su lista pero <strong>no</strong> entre los cinco declarantes — ambos hechos aparecen en sus fichas.</p>
   <h2>Escanear bajo la ley de EE. UU. no es Chat Control</h2>
@@ -480,7 +480,7 @@ export const LOCALES = {
   <p>El E2EE protege el <strong>contenido</strong>. Los metadatos — quién habla con quién, cuándo, con qué frecuencia — siguen visibles en la mayoría de proveedores (Signal y Threema los minimizan). Y nada protege un teléfono desbloqueado por otra persona.</p>
   <h2>6. Qué no cubre esta página</h2>
   <p>El proyecto <a href="/es/chat-control/">Chat Control 2.0</a> podría alcanzar las apps cifradas mediante escaneo en el dispositivo — exactamente por eso este archivo vigila cada día la frase «no podemos leer sus mensajes».</p>
-  <p class="note" style="margin-top:1.6rem">Envíe esta página a quien le preguntó «bueno, ¿y qué hago?»</p></div>`,
+  <p class="note mt-16">Envíe esta página a quien le preguntó «bueno, ¿y qué hago?»</p></div>`,
     },
     alerts: {
       title: "Alertas — ScanRecords",
@@ -488,12 +488,12 @@ export const LOCALES = {
       body: () => `
   <h1>Una alerta en cuanto una empresa se mueve</h1>
   <p class="lede">En cuanto una empresa seguida modifica una política, una promesa de cifrado o una ficha del App Store, su teléfono puede saberlo. Gratis, sin cuenta, sin correo — solo se guarda el punto de conexión push de su navegador, y darse de baja lo borra.</p>
-  <div class="banner st-e2ee" style="margin-top:1.6rem"><strong>En iPhone o Android, instale primero el sitio</strong>
-    <div style="margin-top:.45rem" class="dim"><strong>iPhone:</strong> Compartir → <em>Añadir a pantalla de inicio</em>, luego abra ScanRecords desde la pantalla de inicio y suscríbase (iOS 16.4+).<br><strong>Android:</strong> menú de Chrome → <em>Añadir a pantalla de inicio</em> — o suscríbase directamente abajo.</div></div>
-  <p style="margin-top:1.4rem"><button id="subscribe" class="btn">Activar alertas en este dispositivo</button><button id="unsubscribe" class="btn" hidden>Desactivar alertas</button></p>
+  <div class="banner st-e2ee mt-16"><strong>En iPhone o Android, instale primero el sitio</strong>
+    <div class="mt-04 dim"><strong>iPhone:</strong> Compartir → <em>Añadir a pantalla de inicio</em>, luego abra ScanRecords desde la pantalla de inicio y suscríbase (iOS 16.4+).<br><strong>Android:</strong> menú de Chrome → <em>Añadir a pantalla de inicio</em> — o suscríbase directamente abajo.</div></div>
+  <p class="mt-14"><button id="subscribe" class="btn">Activar alertas en este dispositivo</button><button id="unsubscribe" class="btn" hidden>Desactivar alertas</button></p>
   <p id="alert-status" class="note" aria-live="polite"></p>
   <h2>Qué dispara una notificación</h2>
-  <ul class="about" style="padding-left:1.2rem"><li>Una empresa seguida modificó una política, condiciones, página de seguridad o su ficha del App Store — con enlace al antes/después exacto.</li><li>Nada más. La mayoría de los días: silencio — ese es el objetivo.</li></ul>
+  <ul class="about pl-12"><li>Una empresa seguida modificó una política, condiciones, página de seguridad o su ficha del App Store — con enlace al antes/después exacto.</li><li>Nada más. La mayoría de los días: silencio — ese es el objetivo.</li></ul>
   <h2>La caja de honestidad</h2>
   <p class="note">La única página del sitio con JavaScript, y solo tras su clic. Suscribirse guarda el punto de conexión push — una URL aleatoria — y sus dos claves. Sin cookies, sin correo. Darse de baja lo borra todo. ¿Cero scripts? El <a href="/feed.xml">feed RSS</a> lleva las mismas alertas (mensajes de estado en inglés).</p>
   <script src="/alerts.js" defer></script>`,
@@ -550,14 +550,14 @@ export function emitLocales(ctx) {
     <h1>${H.h1}</h1>
     <p class="lede">${H.lede(companies.length)}</p>
     <div class="bar" role="img" aria-label="${H.barAria(companies.length)}">
-      ${groups.map((g) => `<i class="seg-${g.key}" style="flex:${g.companies.length}"></i>`).join("")}
+      ${groups.map((g) => `<i class="seg-${g.key}"></i>`).join("")}
     </div>
     <div class="bignums">
       ${groups.map((g, i) => `<a href="#${g.key}"><b class="${["n-red", "n-redsoft", "n-gray", "n-greensoft", "n-green"][i]}">${g.companies.length}</b><span>${H.bignums[i]}</span></a>`).join("\n      ")}
     </div>
   </section>
   ${cardsHTML}
-  <p class="note" style="margin-top:1.2rem">${L.ui.statusNote(assessed, ctx.REPO)}</p>
+  <p class="note mt-12">${L.ui.statusNote(assessed, ctx.REPO)}</p>
   <h2>${H.how}</h2>
   <div class="steps">${H.steps.map(([b, t]) => `<div class="step"><b>${b}</b>${t}</div>`).join("")}</div>
   <h2>${H.deeper}</h2>

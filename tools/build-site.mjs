@@ -176,6 +176,17 @@ const GLOSSARY = [
 ];
 
 // --------------------------------------------------------------- style ----
+// The CSP forbids inline styles (style-src 'self', no unsafe-inline), so every
+// style must live in this stylesheet — data-driven values are interpolated at
+// build time (bar segment flexes) or registered as width classes (wcls below).
+const segFlex = Object.fromEntries(groups.map((g) => [g.key, g.companies.length]));
+const WIDTHS = new Map();
+function wcls(pct) {
+  const val = pct.toFixed(1);
+  const name = "w" + val.replace(".", "-");
+  WIDTHS.set(name, val);
+  return name;
+}
 const CSS = `
 @font-face { font-family:"Space Grotesk"; src:url("/fonts/space-grotesk-500.woff2") format("woff2");
   font-weight:500; font-style:normal; font-display:swap; }
@@ -307,11 +318,11 @@ main { padding-top:1.8rem; }
 .bar { display:flex; height:13px; border-radius:99px; overflow:hidden; margin:2.1rem 0 1.1rem;
   border:1px solid rgba(255,255,255,.09); background:#14171c; }
 .bar i { display:block; }
-.seg-confirmed { background:#e35d66; }
-.seg-global { background:repeating-linear-gradient(135deg, #e35d66 0 5px, rgba(227,93,102,.22) 5px 9px); }
-.seg-unclear { background:#3a3f45; }
-.seg-denies { background:repeating-linear-gradient(135deg, #3fae5c 0 5px, rgba(63,174,92,.22) 5px 9px); }
-.seg-e2ee { background:#3fae5c; }
+.seg-confirmed { flex:${segFlex.confirmed}; background:#e35d66; }
+.seg-global { flex:${segFlex.global}; background:repeating-linear-gradient(135deg, #e35d66 0 5px, rgba(227,93,102,.22) 5px 9px); }
+.seg-unclear { flex:${segFlex.unclear}; background:#3a3f45; }
+.seg-denies { flex:${segFlex.denies}; background:repeating-linear-gradient(135deg, #3fae5c 0 5px, rgba(63,174,92,.22) 5px 9px); }
+.seg-e2ee { flex:${segFlex.e2ee}; background:#3fae5c; }
 .bignums { display:flex; gap:clamp(1.3rem, 3.5vw, 2.8rem); flex-wrap:wrap; margin-top:.4rem; }
 .bignums a { text-decoration:none !important; }
 .bignums a:hover span { color:#d7dce1; }
@@ -433,6 +444,12 @@ footer.site .feye svg { width:100%; height:auto; display:block; }
   nav.site { width:100%; margin-left:0; gap:.4rem .95rem; font-size:.9rem; padding-right:0; }
   .langmenu { position:absolute; top:12px; right:22px; }
 }
+/* utilities — the CSP bans style="" attributes, so spacing one-offs live here */
+.mt-04 { margin-top:.45rem; } .mt-06 { margin-top:.6rem; } .mt-10 { margin-top:1rem; }
+.mt-12 { margin-top:1.2rem; } .mt-14 { margin-top:1.4rem; } .mt-16 { margin-top:1.6rem; } .mt-20 { margin-top:2rem; }
+.pl-12 { padding-left:1.2rem; } .va-mid { vertical-align:middle; } .ml-auto { margin-left:auto; }
+.fs-85 { font-size:.85rem; } .fs-90 { font-size:.9rem; } .fw-400 { font-weight:400; }
+.lgd-chat { background:var(--del-fg); } .lgd-social { background:var(--dim); }
 .btn { font:inherit; font-weight:600; padding:.7rem 1.25rem; border-radius:10px; cursor:pointer;
   border:1px solid var(--fg); background:var(--fg); color:var(--bg); margin-right:.6rem; }
 .btn:hover { opacity:.85; }
@@ -543,7 +560,7 @@ function feedRow(e) {
     <span class="date mono dim">${fmtDate(e.date)}</span>
     <span><a href="${target}"><strong>${esc(e.company)}</strong></a> — ${esc(e.docTitle)}</span>
     <span class="pill">${e.kind === "label-change" ? "App Store label" : e.kind === "baseline" ? "baseline" : "document"}</span>
-    <span style="margin-left:auto">${what}</span>
+    <span class="ml-auto">${what}</span>
   </li>`;
 }
 
@@ -645,7 +662,8 @@ function labelCards(label) {
 // ---------------------------------------------------------------- pages ----
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
-writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
+// style.css is written at the very end of the build — chart width classes
+// register into WIDTHS while pages render and must be appended after.
 
 // index — the checker + the change feed
 {
@@ -666,7 +684,7 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
     are excluded. We track ${companies.length} platforms and record what their own documents and
     EU filings actually say. <a href="/chat-control/">How this works →</a></p>
     <div class="bar" role="img" aria-label="Of ${companies.length} tracked platforms: ${groups.map((g) => `${g.companies.length} ${g.label.toLowerCase()}`).join(", ")}">
-      ${groups.map((g) => `<i class="seg-${g.key}" style="flex:${g.companies.length}"></i>`).join("")}
+      ${groups.map((g) => `<i class="seg-${g.key}"></i>`).join("")}
     </div>
     <div class="bignums">
       <a href="#confirmed"><b class="n-red">${groups[0].companies.length}</b><span>scan under Chat Control</span></a>
@@ -677,7 +695,7 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
     </div>
   </section>
   ${groupedCards()}
-  <p class="note" style="margin-top:1.2rem">Statuses assessed ${fmtDate(ASSESSED)} from public
+  <p class="note mt-12">Statuses assessed ${fmtDate(ASSESSED)} from public
   records — <strong>they describe what companies say and file, not measurements of their
   software</strong>. Full table with tracked documents: <a href="/companies/">companies</a>.
   Wrong about your company? <a href="${REPO}/issues">Dispute it</a> — disputes are published.</p>
@@ -699,11 +717,11 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
   <p class="groupnote">Every tracked document is re-fetched daily; when one changes, the change
   appears here with its full before and after. That is how a status change would be caught.</p>
   ${feed}
-  <p class="note" style="margin-top:1rem">Baseline: ${fmtDate(baselineDate)} — ${docCount} documents
+  <p class="note mt-10">Baseline: ${fmtDate(baselineDate)} — ${docCount} documents
   and ${labelCount} App Store labels across ${companies.length} companies. Every snapshot is a
   commit in the <a href="${REPO}">public repository</a>; nothing here can be silently rewritten,
   including by us.</p>
-  <div class="stats" style="margin-top:2rem">
+  <div class="stats mt-20">
     <div class="stat"><b>${companies.length}</b><span>companies</span></div>
     <div class="stat"><b>${docCount}</b><span>documents</span></div>
     <div class="stat"><b>${labelCount}</b><span>App Store labels</span></div>
@@ -761,7 +779,7 @@ for (const c of companies) {
   <div class="banner ${st.cls}">
     <strong><span class="dot"></span>${st.label}</strong>
     <span class="dim"> — assessed ${fmtDate(ASSESSED)}</span>
-    <div style="margin-top:.45rem">${esc(cc.note)}</div>
+    <div class="mt-04">${esc(cc.note)}</div>
     ${cc.quote ? `<div class="quote">“${esc(cc.quote)}” <span class="who">— from ${esc(c.name)}'s ${esc(cc.quoteDoc ?? "own documents")}, as archived here</span></div>` : ""}
     <div class="srcs">${srcs ? `Sources: ${srcs} · ` : ""}<a href="/chat-control/">what this status means</a> · <a href="${REPO}/issues">dispute it</a></div>
   </div>`;
@@ -795,8 +813,8 @@ for (const c of companies) {
     <thead><tr><th>Document</th><th>Last fetched</th><th>Size</th><th>Hash</th><th>Snapshot</th></tr></thead>
     <tbody>${docRows}</tbody>
   </table></div>
-  <p class="note" style="margin-top:.6rem"><strong>text</strong> is the extracted record we hash and diff; <strong>raw</strong> is the page's original HTML kept verbatim as evidence — it renders without its styling here, by design.</p>` : `<p class="note">No policy pages are currently trackable for this company — see <a href="/companies/">why</a>. ${a.label ? "Its App Store label is tracked below." : ""}</p>`}
-  ${a.label ? `<h2>App Store privacy label${a.labelMeta?.app ? ` <span class="dim" style="font-weight:400">— ${esc(a.labelMeta.app)}</span>` : ""}</h2>
+  <p class="note mt-06"><strong>text</strong> is the extracted record we hash and diff; <strong>raw</strong> is the page's original HTML kept verbatim as evidence — it renders without its styling here, by design.</p>` : `<p class="note">No policy pages are currently trackable for this company — see <a href="/companies/">why</a>. ${a.label ? "Its App Store label is tracked below." : ""}</p>`}
+  ${a.label ? `<h2>App Store privacy label${a.labelMeta?.app ? ` <span class="dim fw-400">— ${esc(a.labelMeta.app)}</span>` : ""}</h2>
   <p class="note">Apple requires every app to declare the data it collects. This is ${esc(c.name)}'s current declaration, as shown on the App Store; ScanRecords records when it changes.</p>
   ${labelCards(a.label)}` : ""}
   <h2>Record</h2>
@@ -844,7 +862,7 @@ for (const e of realChanges) {
   Verify independently: the snapshot files and their history are in the <a href="${REPO}">public repository</a>.</p>
   ${wayback}
   <h2>Cite this record</h2>
-  <div class="cite mono" style="font-size:.85rem">ScanRecords. “${esc(e.company)} changed its ${esc(e.docTitle)}.” Recorded ${fmtDate(e.date)}. ${SITE}/change/${e.id}/${hash ? ` — snapshot SHA-256 (after): ${hash}.` : "."}</div>`;
+  <div class="cite mono fs-85">ScanRecords. “${esc(e.company)} changed its ${esc(e.docTitle)}.” Recorded ${fmtDate(e.date)}. ${SITE}/change/${e.id}/${hash ? ` — snapshot SHA-256 (after): ${hash}.` : "."}</div>`;
   mkdirSync(join(OUT, "change", e.id), { recursive: true });
   writeFileSync(
     join(OUT, "change", e.id, "index.html"),
@@ -914,9 +932,9 @@ for (const e of realChanges) {
     <tr><td class="dim">What this site does</td><td>Records who uses it, in their own words and filings</td><td>Records the encryption language that would have to change first</td></tr>
     </tbody>
   </table></div>
-  <div class="banner st-unclear" style="margin-top:1.4rem">
+  <div class="banner st-unclear mt-14">
     <strong>Where 2.0 stands right now</strong> <span class="dim">— last reviewed ${fmtDate(ASSESSED)}</span>
-    <div style="margin-top:.45rem" class="dim">The supposedly final trilogue collapsed on 29 June 2026
+    <div class="mt-04 dim">The supposedly final trilogue collapsed on 29 June 2026
     over suspicionless scanning; negotiations continue under the Irish Council presidency. Nothing is
     law yet. This box is re-reviewed whenever statuses are.</div>
   </div>
@@ -1105,7 +1123,7 @@ for (const e of realChanges) {
     <tr><td class="mono"><a href="/sitemap.xml">/sitemap.xml</a></td><td class="dim">Every page.</td></tr>
     </tbody></table></div>
   <h2>Example</h2>
-  <div class="cite mono" style="font-size:.85rem">curl -s ${SITE}/history.json | head</div>
+  <div class="cite mono fs-85">curl -s ${SITE}/history.json | head</div>
   <h2>History and provenance</h2>
   <p>Full version history of every file lives in the <a href="${REPO}">public git repository</a> —
   each daily snapshot is a commit. The generated data files above are public domain (CC0);
@@ -1124,21 +1142,21 @@ for (const e of realChanges) {
     `<div class="chart">${rows
       .map(
         ([label, v]) => `<div class="crow"><span class="mono dim">${label}</span>
-        <span class="track"><span class="fill ${color}" style="width:${((v / max) * 100).toFixed(1)}%"></span></span>
+        <span class="track"><span class="fill ${color} ${wcls((v / max) * 100)}"></span></span>
         <span class="val mono">${v}${unit}</span></div>`
       )
       .join("")}</div>`;
   const typeChart = `<div class="chart">${N_TYPE.map(
     ([y, chat, social, share]) => `
     <div class="crow"><span class="mono dim">${y}</span>
-      <span class="track"><span class="fill" style="width:${((chat / 1100) * 100).toFixed(1)}%"></span></span>
+      <span class="track"><span class="fill ${wcls((chat / 1100) * 100)}"></span></span>
       <span class="val mono">${chat}k</span></div>
     <div class="crow crow-sub"><span class="mono faint">${share}% of total</span>
-      <span class="track"><span class="fill g2" style="width:${((social / 1100) * 100).toFixed(1)}%"></span></span>
+      <span class="track"><span class="fill g2 ${wcls((social / 1100) * 100)}"></span></span>
       <span class="val mono dim">${social}k</span></div>`
   ).join("")}
-  <p class="note" style="margin-top:.6rem"><span class="lgd" style="background:var(--del-fg)"></span> chat, messaging or email services
-  &nbsp; <span class="lgd" style="background:var(--dim)"></span> social media or gaming platforms</p></div>`;
+  <p class="note mt-06"><span class="lgd lgd-chat"></span> chat, messaging or email services
+  &nbsp; <span class="lgd lgd-social"></span> social media or gaming platforms</p></div>`;
   const body = `
   <h1>The scanners' own numbers</h1>
   <p class="lede">Providers scanning under Chat Control must report on it, and the Commission
@@ -1208,7 +1226,7 @@ for (const e of realChanges) {
   <ul class="notes-list">${NOTES.map(
     (n) => `<li><span class="date mono dim">${fmtDate(n.date)}</span>
     <span><a href="/notes/${n.slug}/"><strong>${esc(n.title)}</strong></a><br>
-    <span class="dim" style="font-size:.9rem">${esc(n.teaser)}</span></span></li>`
+    <span class="dim fs-90">${esc(n.teaser)}</span></span></li>`
   ).join("")}</ul>`;
   mkdirSync(join(OUT, "notes"), { recursive: true });
   writeFileSync(
@@ -1220,7 +1238,7 @@ for (const e of realChanges) {
     <p class="crumbs"><a href="/notes/">Notes</a> / ${fmtDate(n.date)}</p>
     <h1>${esc(n.title)}</h1>
     ${n.body}
-    <p class="note" style="margin-top:1.6rem">— ScanRecords, ${fmtDate(n.date)}.
+    <p class="note mt-16">— ScanRecords, ${fmtDate(n.date)}.
     <a href="/feed.xml">Subscribe by RSS</a> · <a href="${REPO}/issues">corrections</a></p>
     </div>`;
     mkdirSync(join(OUT, "notes", n.slug), { recursive: true });
@@ -1293,7 +1311,7 @@ for (const e of realChanges) {
   device, before encryption — which is why the sentence "we cannot read your messages" is one of
   the things this archive watches daily.</p>
 
-  <p class="note" style="margin-top:1.6rem">Every claim above traces to the
+  <p class="note mt-16">Every claim above traces to the
   <a href="/">checker</a>, the <a href="/numbers/">numbers</a>, or a company's own archived
   documents. Send this page to the person who asked you "so what do I do?"</p>
   </div>`;
@@ -1335,8 +1353,8 @@ for (const e of realChanges) {
     <li>All generated data is <strong>CC0</strong>: <a href="/data/">scanrecords.org/data</a>.</li>
     <li>Per-company status badges you can embed, updated with the record:
     <span class="mono">https://scanrecords.org/badge/&lt;company&gt;.svg</span> — e.g.
-    <img src="/badge/signal.svg" alt="Signal Chat Control status badge" style="vertical-align:middle"> ·
-    <img src="/badge/meta.svg" alt="Meta Chat Control status badge" style="vertical-align:middle"></li>
+    <img src="/badge/signal.svg" alt="Signal Chat Control status badge" class="va-mid"> ·
+    <img src="/badge/meta.svg" alt="Meta Chat Control status badge" class="va-mid"></li>
     <li>The card image: <a href="/og.png">og.png</a> · icons: <a href="/icons/icon-512.png">icon-512.png</a>.</li>
   </ul>
 
@@ -1446,23 +1464,23 @@ for (const e of realChanges) {
   App Store label, your phone can know. Free, no account, no email address — your browser's
   push endpoint is the only thing stored, and unsubscribing deletes it.</p>
 
-  <div class="banner st-e2ee" style="margin-top:1.6rem">
+  <div class="banner st-e2ee mt-16">
     <strong>On iPhone or Android, install the site first</strong>
-    <div style="margin-top:.45rem" class="dim">
+    <div class="mt-04 dim">
       <strong>iPhone:</strong> Share&nbsp;→ <em>Add to Home Screen</em>, then open ScanRecords from the
       Home Screen and press subscribe (Apple only allows notifications for installed sites, iOS 16.4+).<br>
       <strong>Android:</strong> Chrome menu&nbsp;→ <em>Add to Home screen</em> — or just subscribe below.
     </div>
   </div>
 
-  <p style="margin-top:1.4rem">
+  <p class="mt-14">
     <button id="subscribe" class="btn">Turn on alerts for this device</button>
     <button id="unsubscribe" class="btn" hidden>Turn off alerts</button>
   </p>
   <p id="alert-status" class="note" aria-live="polite"></p>
 
   <h2>What you'll be notified about</h2>
-  <ul class="about" style="padding-left:1.2rem">
+  <ul class="about pl-12">
     <li>A tracked company changed a policy, terms, security page, or App Store privacy label — with a link to the exact before/after.</li>
     <li>Nothing else. No news, no campaigns, no "engagement". Most days, silence — quiet is the point.</li>
   </ul>
@@ -1653,6 +1671,11 @@ if (existsSync(join(ROOT, "assets", "icons"))) cpSync(join(ROOT, "assets", "icon
 cpSync(join(ROOT, "assets", "manifest.webmanifest"), join(OUT, "manifest.webmanifest"));
 cpSync(join(ROOT, "assets", "sw.js"), join(OUT, "sw.js"));
 cpSync(join(ROOT, "assets", "alerts.js"), join(OUT, "alerts.js"));
+
+writeFileSync(
+  join(OUT, "style.css"),
+  CSS.trim() + "\n" + [...WIDTHS].map(([n, p]) => `.fill.${n} { width:${p}%; }`).join("\n") + "\n"
+);
 
 const pages = [];
 (function count(dir) {
