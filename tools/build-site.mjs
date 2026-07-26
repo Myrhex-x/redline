@@ -259,13 +259,40 @@ main { padding-top:1.8rem; }
 .trust { display:flex; gap:.6rem 2rem; flex-wrap:wrap; border:1px solid var(--line); border-radius:14px;
   padding:1.05rem 1.3rem; margin-top:2.6rem; font-size:.88rem; color:var(--dim); }
 .trust b { color:var(--fg); font-weight:600; }
+.heroeye { display:none; }
+@media (min-width:1180px) {
+  .hero:not(.cc-hero) { padding-right:330px; }
+  .heroeye { display:block; position:absolute; right:clamp(1.5rem, 4vw, 3.6rem); top:50%;
+    transform:translateY(-50%); width:250px; }
+  .heroeye svg { width:100%; height:auto; display:block; }
+}
+.cc-hero { margin-bottom:2.2rem; }
+.cc-grid { display:flex; align-items:center; justify-content:space-between; gap:2.4rem; flex-wrap:wrap; position:relative; }
+.cc-grid > div:first-child { flex:1 1 30rem; }
+.cc-eye { flex:0 1 300px; min-width:210px; margin-inline:auto; }
+.cc-eye svg { width:100%; height:auto; display:block; }
+.tl { list-style:none; padding-left:0; max-width:46rem; margin:1.2rem 0; }
+.tl li { position:relative; padding:.42rem 0 .42rem 1.7rem; border-left:2px solid var(--line); margin-left:.4rem; }
+.tl li::before { content:""; position:absolute; left:-6px; top:.95rem; width:10px; height:10px;
+  border-radius:50%; background:var(--bg); border:2px solid var(--faint); }
+.tl li:last-child::before { border-color:var(--live); }
+.tl b { font-family:ui-monospace, "SF Mono", Menlo, monospace; font-size:.82em; color:var(--dim); margin-right:.35rem; }
+.cmp td:first-child { white-space:nowrap; }
+.cmp th:nth-child(2), .cmp td:nth-child(2) { padding-right:1.4rem; }
+details { border:1px solid var(--line); border-radius:12px; padding:.85rem 1.1rem; margin:.6rem 0; max-width:46rem; }
+details summary { cursor:pointer; font-weight:600; }
+details summary::marker { color:var(--faint); }
+details[open] summary { margin-bottom:.5rem; }
+details p { color:var(--dim); }
+.sources { list-style:none; padding-left:0 !important; }
+.sources li { padding:.45rem 0; border-bottom:1px solid var(--line); }
 `;
 
 // --------------------------------------------------------------- shell ----
 const FAVICON =
   "data:image/svg+xml," +
   encodeURIComponent(
-    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#111"/><path d="M8 10h16M8 16h16M8 22h10" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>`
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#111"/><path d="M4,16 C9,8.6 23,8.6 28,16 C23,23.4 9,23.4 4,16 Z" fill="#fff"/><circle cx="16" cy="16" r="5.4" fill="#34579F"/></svg>`
   );
 
 const SITEMAP = [];
@@ -373,6 +400,29 @@ function groupedTables() {
     .join("");
 }
 
+/** The Chat Control eye — an eye with the EU flag as its iris. Drawn as SVG
+ *  so it stays crisp everywhere and the hero's scan beam can pass over it. */
+function euStars(cx, cy, ringR, starR) {
+  let out = "";
+  for (let k = 0; k < 12; k++) {
+    const a = ((k * 30 - 90) * Math.PI) / 180;
+    const sx = cx + ringR * Math.cos(a), sy = cy + ringR * Math.sin(a);
+    const pts = [];
+    for (let i = 0; i < 10; i++) {
+      const r = i % 2 ? starR * 0.381 : starR;
+      const b = -Math.PI / 2 + (i * Math.PI) / 5;
+      pts.push((sx + r * Math.cos(b)).toFixed(1) + "," + (sy + r * Math.sin(b)).toFixed(1));
+    }
+    out += `<polygon points="${pts.join(" ")}" fill="#FFD21F"/>`;
+  }
+  return out;
+}
+const EYE_SVG = `<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An eye with the EU flag as its iris">
+<path d="M40,180 C150,62 410,62 520,180 C410,298 150,298 40,180 Z" fill="#ffffff"/>
+<circle cx="280" cy="180" r="96" fill="#34579F"/>
+${euStars(280, 180, 62, 11)}
+</svg>`;
+
 /** The checker: per-status card grids — the fastest possible "find your app". */
 const shortName = (c) => c.name.split(" (")[0];
 function groupedCards() {
@@ -426,6 +476,7 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
   const body = `
   <section class="hero">
     <div class="beam" aria-hidden="true"></div>
+    <div class="heroeye" aria-hidden="true">${EYE_SVG}</div>
     <div class="eyebrow"><span class="livedot"></span> A public record — updated daily at 06:17 UTC</div>
     <h1>Is your messaging app scanning under the EU's Chat&nbsp;Control?</h1>
     <p class="lede">Chat Control lets providers <strong>voluntarily scan private messages</strong>
@@ -610,23 +661,62 @@ for (const e of realChanges) {
 
 // chat-control explainer
 {
-  const body = `<div class="about">
-  <h1>The EU's Chat Control, and what these statuses mean</h1>
-  <p class="lede">The short version: scanning of private communications in the EU is currently
-  <strong>voluntary, per provider</strong> — and end-to-end encrypted messengers are excluded.
-  So the practical question is what each provider chooses, and says, on its own.</p>
+  const body = `
+  <section class="hero cc-hero">
+    <div class="beam" aria-hidden="true"></div>
+    <div class="cc-grid">
+      <div>
+        <div class="eyebrow">Regulation (EU) 2021/1232 — in force until April 2028</div>
+        <h1>What is the EU's Chat&nbsp;Control?</h1>
+        <p class="lede">The rule that lets communication providers <strong>voluntarily scan
+        private messages</strong> in the EU. Not mandatory, not universal, and end-to-end
+        encrypted apps are excluded — which is why the real question is what each provider
+        chooses. This page is the plain-language version, with primary sources.</p>
+      </div>
+      <div class="cc-eye">${EYE_SVG}</div>
+    </div>
+  </section>
+  <div class="about">
 
   <h2>What Chat Control is</h2>
-  <p>The ePrivacy derogation (Regulation 2021/1232, widely called <strong>"Chat Control
-  1.0"</strong>) permits — but does not require — communication providers to scan private
-  messages for child sexual abuse material. It lapsed in April 2026, was reinstated by the
-  Council and survived a European Parliament rejection vote in July 2026, and now runs
-  until <strong>April 2028</strong>. An amendment adopted alongside it formally
-  <strong>excludes end-to-end encrypted communications</strong> from its scope.</p>
+  <p>Under the EU's ePrivacy rules, reading private communications is normally forbidden —
+  for providers too. The ePrivacy derogation (Regulation 2021/1232, widely called
+  <strong>"Chat Control 1.0"</strong>) carves out an exception: providers <em>may</em> scan
+  private messages for child sexual abuse material, if they choose to. It lapsed in April
+  2026, was reinstated by the Council and survived a European Parliament rejection vote in
+  July 2026, and now runs until <strong>April 2028</strong>. An amendment adopted alongside
+  it formally <strong>excludes end-to-end encrypted communications</strong> from its scope.</p>
   <p>A separate, permanent regulation (the CSA Regulation, <strong>"Chat Control 2.0"</strong>),
-  which could make detection mandatory, remains under negotiation between the Council and
-  Parliament. It is not law. If that changes, what these pages track — and this page —
-  will change with it.</p>
+  which could make detection mandatory — including on encrypted apps, via scanning on your
+  device before encryption — remains under negotiation between the Council and Parliament.
+  It is not law. If that changes, what these pages track — and this page — will change with it.</p>
+
+  <h2>How we got here</h2>
+  <ol class="tl">
+    <li><b>Dec 2020</b> — New EU telecom rules extend ePrivacy confidentiality to messengers; Facebook pauses CSAM scanning in the EU overnight.</li>
+    <li><b>Jul 2021</b> — Regulation 2021/1232 enters into force: voluntary scanning becomes legal again. Chat Control 1.0.</li>
+    <li><b>Aug 2021</b> — Apple announces on-device photo scanning for iCloud; abandons the plan by December 2022 after expert backlash.</li>
+    <li><b>May 2022</b> — The Commission proposes the permanent CSA Regulation with mandatory detection orders. Chat Control 2.0.</li>
+    <li><b>Nov 2023</b> — Parliament's position: no indiscriminate scanning, protect end-to-end encryption.</li>
+    <li><b>Dec 2023</b> — Meta turns on E2EE by default for Messenger personal chats.</li>
+    <li><b>Jun 2024</b> — Council's "upload moderation" compromise fails to find a majority; the vote is pulled.</li>
+    <li><b>Dec 2025</b> — Council and Parliament begin trilogue negotiations on 2.0.</li>
+    <li><b>Mar–Apr 2026</b> — Parliament rejects extending 1.0 (311–228); the derogation lapses on 3 April.</li>
+    <li><b>Jul 2026</b> — The Council reinstates it; a Parliament rejection motion gets more no than yes votes (314–276) but misses the 361 absolute majority. Extended to <b>April 2028</b>, with E2EE formally excluded.</li>
+    <li><b>Jun–Jul 2026</b> — The supposedly final 2.0 trilogue collapses over suspicionless scanning; negotiations continue.</li>
+  </ol>
+
+  <h2>1.0 vs 2.0 — don't mix them up</h2>
+  <div class="scroll"><table class="cmp">
+    <thead><tr><th></th><th>Chat Control 1.0 (in force)</th><th>Chat Control 2.0 (draft)</th></tr></thead>
+    <tbody>
+    <tr><td class="dim">What it is</td><td>ePrivacy derogation — Regulation 2021/1232</td><td>CSA Regulation — proposed 2022, still in negotiation</td></tr>
+    <tr><td class="dim">Scanning</td><td><strong>Voluntary</strong> — each provider decides</td><td>Could be <strong>mandatory</strong> via detection orders</td></tr>
+    <tr><td class="dim">Encrypted apps</td><td><strong>Formally excluded</strong></td><td>Central fight — client-side scanning would affect them</td></tr>
+    <tr><td class="dim">Until</td><td>April 2028</td><td>Not law; nothing to expire</td></tr>
+    <tr><td class="dim">What this site does</td><td>Records who uses it, in their own words and filings</td><td>Records the encryption language that would have to change first</td></tr>
+    </tbody>
+  </table></div>
   <p class="note">Background reading:
   <a href="https://www.euronews.com/my-europe/2026/07/23/eu-temporarily-extends-controversial-chat-scanning-regime-until-2028">Euronews</a> ·
   <a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> ·
@@ -653,6 +743,22 @@ for (const e of realChanges) {
   EU evidence; a hollow red dot means US-law scanning with no EU evidence found. Conflating the
   two overstates the record, so we don't.</p>
 
+  <h2>What this means for you</h2>
+  <ul>
+    <li><strong>If you use Gmail, Facebook or Instagram messaging, Outlook, or LinkedIn in the
+    EU</strong> — the provider scans under the derogation, legally and by its own choice. Scanning
+    means automated matching of content against known-abuse databases and classifiers, not a
+    person reading your mail — but it is your private correspondence being processed.</li>
+    <li><strong>If you use Signal, WhatsApp, Threema, Olvid, Wire or Element</strong> — message
+    content is end-to-end encrypted; the provider has nothing readable to scan, and E2EE is
+    formally excluded from 1.0.</li>
+    <li><strong>A VPN does not change any of this</strong> — scanning happens at the provider,
+    not on the network path. The only variable that matters is which app you use.</li>
+    <li><strong>Telegram is its own case</strong> — cloud chats are not E2EE, so Telegram
+    <em>could</em> read them; whether it scans them is exactly what it doesn't say.
+    <a href="/company/telegram/">Its page</a> records what is known.</li>
+  </ul>
+
   <h2>The five statuses</h2>
   <ul>
     ${groups.map((g) => `<li><span class="${g.cls}"><span class="dot"></span><strong>${g.label}</strong></span> — ${g.blurb}</li>`).join("")}
@@ -677,13 +783,48 @@ for (const e of realChanges) {
   the sentence "we cannot read your messages" — it has to surface in the documents this site
   records every morning. When it does, the change appears on the
   <a href="/">front page</a> with its full before and after, and the status gets re-assessed.</p>
+
+  <h2>Common questions</h2>
+  <details><summary>Is someone reading my WhatsApp or Signal messages?</summary>
+  <p>Not under Chat Control 1.0. Both are end-to-end encrypted, E2EE apps are formally excluded,
+  and the provider has no readable content to scan. The pressure point for encrypted apps is the
+  <em>draft</em> 2.0 regulation — which is not law.</p></details>
+  <details><summary>Is Chat Control the thing that would break encryption?</summary>
+  <p>That's 2.0 — the draft CSA Regulation, whose detection orders could force scanning on your
+  device before encryption. It has been stuck in negotiation since 2022, most recently collapsing
+  over suspicionless scanning in June 2026. What is actually in force, 1.0, excludes E2EE.</p></details>
+  <details><summary>Can I opt out of the scanning that exists today?</summary>
+  <p>Only by choosing your app. Scanning under 1.0 happens provider-side, so the practical
+  opt-out is using an end-to-end encrypted service — see <a href="/#e2ee">the seven tracked
+  apps that can't read your messages</a>.</p></details>
+  <details><summary>Does a company scanning "for CSAM" mean it reads everything I send?</summary>
+  <p>Disclosed methods are automated: hash matching against known-abuse databases and, in some
+  cases, classifiers — with human review of flagged material. That is narrower than "someone
+  reads your mail," and still means private correspondence is processed; both things are true,
+  and false positives on legal content are a documented problem in the Commission's own report.</p></details>
+  <details><summary>Why do you say "no EU evidence" instead of "doesn't scan in the EU"?</summary>
+  <p>Because absence of evidence is what we actually have. A provider could scan EU
+  communications without it appearing in the sources this site can check; what we can say is
+  that the mandatory reporting names five providers, and the others aren't in it. We publish
+  the strongest true sentence, not the strongest sentence.</p></details>
+
+  <h2>Sources</h2>
+  <ul class="sources">
+    <li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025) 740</a> — the Commission's implementation report on Regulation 2021/1232: the five reporting providers, data volumes, accuracy figures.</li>
+    <li><a href="https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf">Google's transparency report under Regulation 2021/1232</a> — an EU-specific filing by a scanning provider.</li>
+    <li><a href="https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports">Microsoft's jurisdictional transparency reports</a> — tracked by this archive.</li>
+    <li><a href="https://www.patrick-breyer.de/en/posts/chat-control/">Patrick Breyer's Chat Control page</a> — MEP-maintained tracking of the file and the services using the derogation.</li>
+    <li><a href="https://edri.org/our-work/csa-regulation-document-pool/">EDRi's CSA Regulation document pool</a> — the paper trail of 2.0.</li>
+    <li><a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> — campaign overview and country-by-country positions.</li>
+    <li><a href="https://www.missingkids.org/cybertiplinedata">NCMEC CyberTipline data</a> — the US reporting regime, kept distinct from the EU one throughout this site.</li>
+  </ul>
   </div>`;
   mkdirSync(join(OUT, "chat-control"), { recursive: true });
   writeFileSync(
     join(OUT, "chat-control", "index.html"),
     page({
-      title: "What is the EU's Chat Control? — ScanRecords",
-      desc: "Chat Control in plain terms: voluntary scanning until April 2028, E2EE excluded — and how ScanRecords assigns each platform's status.",
+      title: "What is the EU's Chat Control? — plain-language guide — ScanRecords",
+      desc: "Chat Control explained: the voluntary scanning rule in force until April 2028, the timeline, 1.0 vs 2.0, who actually scans (per the Commission's own report), what it means for your apps, and common questions.",
       path: "/chat-control/", active: "cc", body,
     })
   );
