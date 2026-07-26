@@ -18,9 +18,7 @@ export function pathsFor(key) {
   const suffix = PAGE_PATHS[key];
   return {
     en: "/" + suffix,
-    fr: "/fr/" + suffix,
-    de: "/de/" + suffix,
-    es: "/es/" + suffix,
+    ...Object.fromEntries(Object.keys(LOCALES).map((c) => [c, `/${c}/` + suffix])),
   };
 }
 
@@ -519,6 +517,172 @@ export const LOCALES = {
         ["Orden de detección", "En el proyecto 2.0, una orden vinculante que obliga a un servicio a escanear. Lo que convertiría el escaneo de voluntario en obligatorio."],
         ["Trílogo", "La negociación a puerta cerrada entre Consejo, Parlamento y Comisión. El del 2.0 fracasó en junio de 2026."],
         ["Metadatos", "Quién habla con quién, cuándo, desde dónde. Fuera del E2EE y fuera del escaneo — pero lo bastante reveladores para merecer su propia vigilancia."],
+      ],
+    },
+  },
+
+  // ————————————————————————————————————————————————————————— POLSKI ——
+  pl: {
+    htmlLang: "pl", name: "Polski",
+    ui: {
+      skip: "Przejdź do treści",
+      nav: [["", "Sprawdź", "home"], ["chat-control/", "Kontrola czatów", "cc"], ["switch/", "Ochrona", "switch"], ["alerts/", "Alerty", "alerts"], ["glossary/", "Słowniczek", "gloss"]],
+      brand: "archiwum polityk wobec kontroli czatów.",
+      brand2: "Rejestrowane codziennie. Bez cookies, bez śledzenia, bez kont — nie ma na co wyrażać zgody.",
+      cols: ["Odkrywaj", "Rejestr", "Zasady"],
+      colExplore: [["", "Sprawdź aplikację"], ["chat-control/", "Czym jest kontrola czatów?"], ["switch/", "Jak się chronić"], ["glossary/", "Słowniczek"]],
+      colExploreEN: [["/numbers/", "Liczby (EN)"], ["/notes/", "Notatki (EN)"]],
+      colRecord: [["/companies/", "Śledzone firmy (EN)"], ["/changes/", "Pełny rejestr (EN)"], ["alerts/", "Alerty"], ["/data/", "Dane CC0 (EN)"]],
+      colRules: [["/about/", "Metoda (EN)"], ["/legal/", "Nota prawna"]],
+      policyLabel: "Zasady redakcyjne",
+      statusNote: (d, repo) => `Statusy ocenione ${d} na podstawie publicznych źródeł — <strong>opisują to, co firmy deklarują i składają, a nie pomiary ich oprogramowania</strong>. Szczegółowe strony firm są po angielsku. Status wygląda na błędny? <a href="${repo}/issues">Zakwestionuj go</a> — spory są jawne.`,
+    },
+    status: {
+      confirmed: { label: "Skanuje w ramach unijnej kontroli czatów", verdict: "Skanuje w ramach kontroli czatów — potwierdzone",
+        blurb: "Obowiązkowe sprawozdania z derogacji istnieją wyłącznie dla dostawców, którzy naprawdę skanują prywatną komunikację. Złożyło je dokładnie pięciu, za 2023 i 2024 r., według raportu z wdrażania samej Komisji — to udokumentowane przez UE korzystanie z kontroli czatów." },
+      global: { label: "Skanuje globalnie — brak dowodów z UE", verdict: "Skanuje na mocy prawa USA · brak dowodów z UE",
+        blurb: "Ich dokumenty ujawniają skanowanie treści na mocy prawa amerykańskiego (raporty NCMEC, PhotoDNA). Nie znaleziono dowodów, by powoływali się na unijną derogację wobec prywatnej komunikacji — skanowanie „po amerykańsku” i kontrola czatów to dwa osobne reżimy." },
+      unclear: { label: "Brak jasnej deklaracji", verdict: "Nie deklaruje się",
+        blurb: "Bez szyfrowania end-to-end i bez jasnej publicznej deklaracji — w żadną stronę — o skanowaniu prywatnej komunikacji." },
+      denies: { label: "Deklaruje, że nie skanuje", verdict: "Twierdzi, że nie skanuje",
+        blurb: "Firma publicznie deklaruje, że nie skanuje treści wiadomości." },
+      e2ee: { label: "Szyfrowanie end-to-end — poza zakresem", verdict: "Nie może czytać Twoich wiadomości",
+        blurb: "Treść jest szyfrowana end-to-end; komunikacja E2EE jest formalnie wyłączona z dobrowolnego skanowania kontroli czatów." },
+    },
+    home: {
+      title: "ScanRecords — czy Twoja aplikacja skanuje wiadomości w ramach kontroli czatów?",
+      desc: "Sprawdź, co dokumenty Twojego komunikatora mówią o unijnej kontroli czatów — rejestrowane codziennie, każda zmiana zachowana z wersją przed i po.",
+      eyebrow: "Publiczny rejestr — aktualizowany codziennie o 06:17 UTC",
+      h1: "Czy Twój komunikator skanuje wiadomości w ramach kontroli&nbsp;czatów?",
+      lede: (n) => `Kontrola czatów (Chat Control) to unijna zasada, która pozwala dostawcom <strong>dobrowolnie skanować prywatne wiadomości</strong> do kwietnia 2028 r. Każda firma decyduje sama — a aplikacje szyfrowane end-to-end są wyłączone. Znajdź swoją poniżej: statusy podążają za najmocniejszym dostępnym dowodem. <a href="/pl/chat-control/">Jak to działa →</a>`,
+      barAria: (n) => `Z ${n} śledzonych platform`,
+      bignums: ["skanują w ramach kontroli czatów", "skanują na mocy prawa USA", "nie deklarują się", "twierdzi, że nie skanuje", "nie mogą — E2EE"],
+      checkYours: "Sprawdź swoją",
+      how: "Jak działa rejestr",
+      steps: [["1 · Zapis", "Każda śledzona polityka, strona bezpieczeństwa i etykieta App Store jest pobierana ponownie codziennie o 06:17 UTC."], ["2 · Różnica", "Zmiana trafia do rejestru tylko wtedy, gdy słowa naprawdę się zmieniły — z zachowaniem wersji przed i po."], ["3 · Świadek", "Każdy zapis to publiczny commit w git, a Internet Archive utrwala zmienione strony tego samego dnia."]],
+      deeper: "Wejdź głębiej",
+      cards: [["pl/chat-control/", "Czym jest kontrola czatów? →", "Przewodnik po ludzku: kalendarium, 1.0 kontra 2.0, kto naprawdę skanuje i co to znaczy dla Twoich aplikacji."], ["pl/switch/", "Wyjdź spod skanowania →", "Praktycznie: które aplikacje nie mogą czytać Twoich wiadomości, pułapka kopii zapasowych i czemu VPN nic tu nie zmienia."], ["pl/alerts/", "Włącz alerty →", "Powiadomienie, gdy tylko śledzona firma coś zmieni. Bez konta, bez e-maila."], ["numbers/", "Ich własne liczby (EN) →", "Wskaźniki błędów, wolumeny i efekt szyfrowania — z raportu Komisji."]],
+      trust: [["Bez cookies,", " bez śledzenia — JavaScript tylko na stronie alertów, po Twojej zgodzie"], ["Każdy zapis", " to publiczny commit w git — nie do podmienienia"], ["Każdy status cytuje dowody", " i można go publicznie zakwestionować"], ["Dane są CC0", ` — <a href="/data/">korzystaj</a>`]],
+    },
+    cc: {
+      title: "Czym jest kontrola czatów? — przewodnik po ludzku — ScanRecords",
+      desc: "Kontrola czatów wyjaśniona: dobrowolne skanowanie obowiązujące do kwietnia 2028 r., kalendarium, 1.0 kontra 2.0, kto naprawdę skanuje według raportu Komisji i co to znaczy dla Twoich aplikacji.",
+      body: (x) => `
+  <section class="hero cc-hero"><div class="beam" aria-hidden="true"></div><div class="cc-grid"><div>
+    <div class="eyebrow">Rozporządzenie (UE) 2021/1232 — obowiązuje do kwietnia 2028 r.</div>
+    <h1>Czym jest kontrola&nbsp;czatów?</h1>
+    <p class="lede">Unijna zasada, która pozwala dostawcom komunikatorów <strong>dobrowolnie skanować prywatne wiadomości</strong> w UE. Ani obowiązkowa, ani powszechna — a aplikacje szyfrowane end-to-end są wyłączone. Oto wersja po ludzku, z pierwotnymi źródłami.</p>
+  </div><div class="cc-eye">${x.EYE_SVG}</div></div></section>
+  <div class="about">
+  <h2>Czym to jest</h2>
+  <p>W prawie unijnym czytanie prywatnej komunikacji jest co do zasady zakazane — także dostawcom. Derogacja od ePrivacy (rozporządzenie 2021/1232, zwane <strong>„kontrolą czatów 1.0”</strong>) tworzy wyjątek: dostawcy <em>mogą</em> skanować prywatne wiadomości w poszukiwaniu materiałów przedstawiających wykorzystywanie dzieci, jeśli tak zdecydują. Wygasła w kwietniu 2026 r., przywrócona przez Radę i utrzymana po nieudanym głosowaniu nad odrzuceniem w Parlamencie w lipcu 2026 r., obowiązuje do <strong>kwietnia 2028 r.</strong> Przyjęta równolegle poprawka <strong>formalnie wyłącza komunikację szyfrowaną end-to-end</strong>.</p>
+  <p>Osobne, stałe rozporządzenie (rozporządzenie CSA, <strong>„kontrola czatów 2.0”</strong>), które mogłoby uczynić wykrywanie obowiązkowym — także w aplikacjach szyfrowanych, przez skanowanie na Twoim urządzeniu przed zaszyfrowaniem — wciąż jest w negocjacjach. To nie jest prawo.</p>
+  <h2>Jak do tego doszło</h2>
+  <ol class="tl">
+    <li><b>Gru 2020</b> — Przepisy telekomunikacyjne obejmują komunikatory zasadami ePrivacy; Facebook z dnia na dzień wstrzymuje skanowanie w UE.</li>
+    <li><b>Lip 2021</b> — Rozporządzenie 2021/1232 wchodzi w życie: dobrowolne skanowanie znów legalne. Kontrola czatów 1.0.</li>
+    <li><b>Sie 2021</b> — Apple ogłasza skanowanie zdjęć na urządzeniu; wycofuje się z planu do końca 2022 r.</li>
+    <li><b>Maj 2022</b> — Komisja proponuje stałe rozporządzenie CSA. Kontrola czatów 2.0.</li>
+    <li><b>Lis 2023</b> — Stanowisko Parlamentu: bez masowego skanowania, chronić szyfrowanie.</li>
+    <li><b>Gru 2023</b> — Meta domyślnie włącza E2EE w Messengerze.</li>
+    <li><b>Cze 2024</b> — Kompromis Rady „moderacja przy wysyłce” upada.</li>
+    <li><b>Gru 2025</b> — Start trilogów w sprawie 2.0.</li>
+    <li><b>Mar–kwi 2026</b> — Parlament odrzuca przedłużenie 1.0 (311–228); wygasa 3 kwietnia.</li>
+    <li><b>Lip 2026</b> — Rada je przywraca; wniosek o odrzucenie (314–276) nie osiąga absolutnej większości 361 głosów. Przedłużone do <b>kwietnia 2028 r.</b>, E2EE wyłączone.</li>
+    <li><b>Cze–lip 2026</b> — „Finałowy” trilog w sprawie 2.0 upada na skanowaniu bez podejrzenia.</li>
+  </ol>
+  <h2>1.0 kontra 2.0 — nie myl ich</h2>
+  <div class="scroll"><table class="cmp">
+    <thead><tr><th></th><th>Kontrola czatów 1.0 (obowiązuje)</th><th>Kontrola czatów 2.0 (projekt)</th></tr></thead>
+    <tbody>
+    <tr><td class="dim">Charakter</td><td>Derogacja od ePrivacy — rozporządzenie 2021/1232</td><td>Rozporządzenie CSA — zaproponowane w 2022 r., w negocjacjach</td></tr>
+    <tr><td class="dim">Skanowanie</td><td><strong>Dobrowolne</strong> — każdy dostawca decyduje sam</td><td>Mogłoby stać się <strong>obowiązkowe</strong></td></tr>
+    <tr><td class="dim">Aplikacje szyfrowane</td><td><strong>Formalnie wyłączone</strong></td><td>Sedno sporu — skanowanie po stronie klienta by je objęło</td></tr>
+    <tr><td class="dim">Termin</td><td>Kwiecień 2028</td><td>To nie prawo; nie ma czemu wygasać</td></tr>
+    </tbody></table></div>
+  <div class="banner st-unclear mt-14"><strong>Gdzie stoi 2.0</strong> <span class="dim">— zweryfikowano ${x.assessed}</span>
+    <div class="mt-04 dim">Rzekomo finałowy trilog upadł 29 czerwca 2026 r. na skanowaniu bez podejrzenia; negocjacje trwają pod irlandzką prezydencją. Nic nie jest jeszcze prawem.</div></div>
+  <h2>Kto naprawdę z niej korzysta</h2>
+  <p>Dostawcy skanujący na mocy derogacji składają coroczne sprawozdania, a najnowszy raport Komisji wymienia dokładnie pięciu: <em>„Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024”</em> (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>). Śledzenie europosła <a href="https://www.patrick-breyer.de/en/posts/chat-control/">Patricka Breyera</a> dodaje, że korzystają z niej wyłącznie nieszyfrowane usługi amerykańskie. Snapchat i Apple figurują na jego liście, ale <strong>nie</strong> wśród pięciu składających sprawozdania — oba fakty pokazujemy na ich stronach.</p>
+  <h2>Skanowanie na mocy prawa USA to nie kontrola czatów</h2>
+  <p>Większość dużych platform amerykańskich skanuje przesyłane treści i raportuje do <a href="https://www.missingkids.org/cybertiplinedata">NCMEC</a> — to <strong>amerykański reżim prawny</strong>, który nic nie mówi o korzystaniu z unijnej derogacji. Pełna czerwona kropka = dowód z UE; pusta kropka = skanowanie „po amerykańsku” bez dowodu z UE. Mieszanie jednego z drugim sztucznie rozdęłoby rejestr.</p>
+  <h2>Co to znaczy dla Ciebie</h2>
+  <ul>
+    <li><strong>Gmail, wiadomości na Facebooku i Instagramie, Outlook, LinkedIn w UE</strong> — dostawca skanuje na mocy derogacji, legalnie i z własnego wyboru. To zautomatyzowane skanowanie, nie człowiek czytający — ale przetwarzana jest właśnie Twoja prywatna korespondencja.</li>
+    <li><strong>Signal, WhatsApp, Threema, Olvid, Wire, Element</strong> — treść szyfrowana end-to-end; nie ma czego skanować.</li>
+    <li><strong>VPN nic tu nie zmienia</strong> — skanowanie dzieje się u dostawcy, nie w sieci.</li>
+    <li><strong>Telegram to osobny przypadek</strong> — czaty w chmurze nie są E2EE; Telegram <em>mógłby</em> je czytać i nie mówi, czy je skanuje.</li>
+  </ul>
+  <h2>Pięć statusów</h2>
+  <ul>${x.statusList}</ul>
+  <h2>Częste pytania</h2>
+  <details><summary>Czy ktoś czyta moje wiadomości na WhatsAppie lub Signalu?</summary><p>Nie w ramach kontroli czatów 1.0. Są szyfrowane end-to-end i formalnie wyłączone. Presja dotyczy <em>projektu</em> 2.0 — który nie jest prawem.</p></details>
+  <details><summary>Czy kontrola czatów to to, co złamałoby szyfrowanie?</summary><p>To 2.0 — jego nakazy wykrywania mogłyby wymusić skanowanie na Twoim urządzeniu, zanim treść zostanie zaszyfrowana. Od 2022 r. tkwi w negocjacjach. Obowiązujące 1.0 wyłącza E2EE.</p></details>
+  <details><summary>Czy mogę odmówić obecnego skanowania?</summary><p>Tylko wyborem aplikacji: usługa szyfrowana end-to-end — zobacz <a href="/pl/#e2ee">aplikacje, które nie mogą czytać Twoich wiadomości</a>.</p></details>
+  <details><summary>Czemu piszecie „brak dowodów z UE”, a nie „nie skanuje w UE”?</summary><p>Bo brak dowodów to dokładnie to, co mamy. Publikujemy najmocniejsze prawdziwe zdanie, a nie najmocniejsze zdanie.</p></details>
+  <h2>Źródła</h2>
+  <ul class="sources">
+    <li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025) 740</a> — raport z wdrażania: pięciu składających, wolumeny, wskaźniki błędów.</li>
+    <li><a href="https://www.patrick-breyer.de/en/posts/chat-control/">Strona Patricka Breyera o kontroli czatów</a>.</li>
+    <li><a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> — stanowiska poszczególnych państw.</li>
+    <li><a href="https://edri.org/our-work/csa-regulation-document-pool/">Zbiór dokumentów EDRi</a>.</li>
+  </ul></div>`,
+    },
+    switch: {
+      title: "Jak realnie wyjść spod skanowania — ScanRecords",
+      desc: "Praktycznie: które aplikacje nie mogą czytać Twoich wiadomości, pułapka kopii zapasowych WhatsAppa, czemu VPN nic tu nie zmienia i co mimo wszystko wycieka.",
+      body: (x) => `<div class="about">
+  <h1>Jak realnie wyjść spod skanowania</h1>
+  <p class="lede">Wszystko wynika z rejestru: co jest dziś skanowane, czego skanować się nie da, i które ustawienia po cichu unieważniają Twoją ochronę. Nie trzeba nic kupować — trzeba wybrać.</p>
+  <h2>1. Jedyny prawdziwy opt-out to wybór aplikacji</h2>
+  <p>Skanowanie kontroli czatów dzieje się <strong>u dostawcy</strong>. Aplikacje szyfrowane end-to-end nie mają nic czytelnego do skanowania i są formalnie wyłączone:</p>
+  ${x.e2eeCards}
+  <h2>2. Uważaj na pułapkę kopii zapasowych</h2>
+  <p>Rozmowy na WhatsAppie są szyfrowane — ale <strong>niezaszyfrowana kopia w chmurze</strong> oddaje ich czytelny duplikat na serwery Apple lub Google. Wyłącz ją albo włącz <em>kopię szyfrowaną end-to-end</em> (Ustawienia → Czaty → Kopia zapasowa).</p>
+  <h2>3. E-mail to strefa skanowana</h2>
+  <p>Gmail i Outlook są skanowane w UE na mocy derogacji. Proton deklaruje, że nie skanuje treści; GMX się nie wypowiada. Wybór dostawcy waży więcej niż jakiekolwiek ustawienie.</p>
+  <h2>4. VPN przed tym nie chroni</h2>
+  <p>VPN przenosi Twój ruch, nie Twoje wiadomości — skanowanie zachodzi tam, gdzie wiadomość jest przetwarzana. Wybieraj aplikację, nie tunel.</p>
+  <h2>5. Wiedz, co i tak wycieka</h2>
+  <p>E2EE chroni <strong>treść</strong>. Metadane — kto, kiedy, jak często — u większości dostawców pozostają widoczne (Signal i Threema je minimalizują). A nic nie ochroni telefonu odblokowanego przez kogoś innego.</p>
+  <h2>6. Czego ta strona nie obejmuje</h2>
+  <p>Projekt <a href="/pl/chat-control/">kontroli czatów 2.0</a> mógłby sięgnąć aplikacji szyfrowanych przez skanowanie na urządzeniu — dlatego to archiwum codziennie pilnuje zdania „nie możemy czytać Twoich wiadomości”.</p>
+  <p class="note mt-16">Wyślij tę stronę osobie, która spytała: „no dobrze, to co mam zrobić?”</p></div>`,
+    },
+    alerts: {
+      title: "Alerty — ScanRecords",
+      desc: "Powiadomienie, gdy tylko śledzona firma zmieni politykę lub etykietę w ramach kontroli czatów. Bez konta, bez e-maila — wypisanie się usuwa wszystko.",
+      body: () => `
+  <h1>Alert, gdy tylko firma się ruszy</h1>
+  <p class="lede">Gdy śledzona firma zmieni politykę, obietnicę szyfrowania albo etykietę App Store, Twój telefon może się o tym dowiedzieć. Za darmo, bez konta, bez e-maila — przechowujemy wyłącznie push-endpoint Twojej przeglądarki, a wypisanie się go usuwa.</p>
+  <div class="banner st-e2ee mt-16"><strong>Na iPhonie lub Androidzie najpierw zainstaluj stronę</strong>
+    <div class="mt-04 dim"><strong>iPhone:</strong> Udostępnij → <em>Do ekranu początkowego</em>, potem otwórz ScanRecords z ekranu początkowego i subskrybuj (iOS 16.4+).<br><strong>Android:</strong> menu Chrome → <em>Dodaj do ekranu głównego</em> — albo subskrybuj od razu poniżej.</div></div>
+  <p class="mt-14"><button id="subscribe" class="btn">Włącz alerty na tym urządzeniu</button><button id="unsubscribe" class="btn" hidden>Wyłącz alerty</button></p>
+  <p id="alert-status" class="note" aria-live="polite"></p>
+  <h2>Co wywołuje powiadomienie</h2>
+  <ul class="about pl-12"><li>Śledzona firma zmieniła politykę, regulamin, stronę bezpieczeństwa lub etykietę App Store — z linkiem do dokładnego przed/po.</li><li>Nic poza tym. Przez większość dni: cisza — o to chodzi.</li></ul>
+  <h2>Ramka szczerości</h2>
+  <p class="note">Jedyna strona serwisu z JavaScriptem — i to dopiero po Twoim kliknięciu. Subskrypcja zapisuje push-endpoint (losowy adres URL) i jego dwa klucze. Bez cookies, bez e-maila. Wypisanie się usuwa wszystko. Wolisz zero skryptów? <a href="/feed.xml">Kanał RSS</a> niesie te same alerty (komunikaty stanu po angielsku).</p>
+  <script src="/alerts.js" defer></script>`,
+    },
+    glossary: {
+      title: "Słowniczek — ScanRecords",
+      desc: "Słownictwo kontroli czatów po ludzku: E2EE, skanowanie po stronie klienta, dopasowanie hashy, nakazy wykrywania i więcej.",
+      h1: "Słowniczek",
+      lede: "Dwanaście pojęć, na których opiera się większość sporów o kontrolę czatów — każde wyjaśnione po ludzku.",
+      terms: [
+        ["Kontrola czatów (Chat Control)", "Potoczna nazwa dwóch unijnych aktów: obowiązującej derogacji od ePrivacy („1.0”, skanowanie dobrowolne, do kwietnia 2028 r.) i projektu rozporządzenia CSA („2.0”, wykrywanie potencjalnie obowiązkowe). Większość nieporozumień bierze się z ich mylenia."],
+        ["Derogacja od ePrivacy (rozporządzenie 2021/1232)", "Wyjątek od unijnych zasad poufności, który pozwala dostawcom dobrowolnie skanować prywatną komunikację. Obowiązuje do kwietnia 2028 r.; E2EE jest z niej formalnie wyłączone."],
+        ["Rozporządzenie CSA („kontrola czatów 2.0”)", "Stałe rozporządzenie zaproponowane w 2022 r., którego nakazy wykrywania mogłyby uczynić skanowanie obowiązkowym, także na urządzeniu. W negocjacjach; to nie prawo."],
+        ["Szyfrowanie end-to-end (E2EE)", "Klucze mają wyłącznie komunikujące się urządzenia — dostawca nie może czytać treści. Signal, WhatsApp, Threema, Olvid, Wire i Element włączają je domyślnie."],
+        ["Skanowanie po stronie klienta", "Skanowanie treści na urządzeniu, przed zaszyfrowaniem. Mechanizm, którym obowiązkowe wykrywanie sięgnęłoby aplikacji E2EE."],
+        ["Dopasowanie hashy", "Porównywanie odcisku obrazu z bazą znanych nielegalnych materiałów. Wykrywa tylko treści już wcześniej zidentyfikowane."],
+        ["PhotoDNA", "Technologia odcisków percepcyjnych Microsoftu (2009), używana w całej branży."],
+        ["Klasyfikator", "Model uczenia maszynowego oznaczający treści nigdy wcześniej niewidziane. Wykrywa nowy materiał — z większą liczbą fałszywych trafień."],
+        ["NCMEC / CyberTipline", "Amerykański kanał zgłoszeń. Prawo USA nakazuje tam raportować — to reżim odrębny od unijnej derogacji."],
+        ["Nakaz wykrywania", "W projekcie 2.0: nakaz zobowiązujący usługę do skanowania. To on zmieniłby skanowanie z dobrowolnego w obowiązkowe."],
+        ["Trilog", "Zamknięte negocjacje Rady, Parlamentu i Komisji. Ten w sprawie 2.0 upadł w czerwcu 2026 r."],
+        ["Metadane", "Kto z kim rozmawia, kiedy i skąd. Poza E2EE i poza skanowaniem — ale na tyle wymowne, że zasługują na osobną czujność."],
       ],
     },
   },

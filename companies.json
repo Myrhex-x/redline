@@ -28,6 +28,15 @@
      "id": "law-enforcement",
      "title": "Working with Law Enforcement",
      "url": "https://discord.com/safety/360044157931-working-with-law-enforcement"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.discord&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -43,6 +52,12 @@
      {
       "t": "Archived privacy policy",
       "u": "/archive/discord/privacy.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -69,6 +84,15 @@
      "id": "faq",
      "title": "FAQ",
      "url": "https://telegram.org/faq"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=org.telegram.messenger&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -78,6 +102,12 @@
      {
       "t": "Archived privacy policy",
       "u": "/archive/telegram/privacy.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "unclear",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -94,6 +124,15 @@
      "id": "privacy",
      "title": "Privacy Policy & Terms",
      "url": "https://signal.org/legal/"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=org.thoughtcrime.securesms&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -103,6 +142,12 @@
      {
       "t": "Archived privacy policy",
       "u": "/archive/signal/privacy.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "e2ee",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -124,6 +169,15 @@
      "id": "security",
      "title": "Security / E2EE description",
      "url": "https://www.whatsapp.com/security"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.whatsapp&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -133,6 +187,12 @@
      {
       "t": "Archived E2EE description",
       "u": "/archive/whatsapp/security.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "e2ee",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -154,11 +214,20 @@
      "id": "law-enforcement",
      "title": "Law Enforcement Guidelines",
      "url": "https://www.facebook.com/safety/groups/law/guidelines/"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.facebook.orca&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
     "status": "confirmed",
-    "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 — “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports” (COM(2025) 740). Facebook and Instagram messaging are scanned in the EU; Messenger personal chats have been E2EE by default since December 2023. When ePrivacy first applied in December 2020, Meta paused EU scanning — the derogation is what let it resume.",
+    "note": "Files the derogation's own transparency reports — reports that exist only for providers scanning under Chat Control: “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024” (COM(2025) 740). Beyond the filings, the causal proof: Meta paused its EU scanning in December 2020 when ePrivacy rules started covering messengers, and resumed it once the derogation entered into force in 2021 — its EU scanning runs on this legal basis and no other. What is scanned are the unencrypted surfaces, Facebook and Instagram messaging; Messenger personal chats began defaulting to E2EE in December 2023, and the Commission's own 2024 figures show chat-sourced reports collapsing accordingly.",
     "sources": [
      {
       "t": "COM(2025) 740 — Commission implementation report",
@@ -167,6 +236,12 @@
      {
       "t": "Overview of derogation users (Patrick Breyer)",
       "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "confirmed",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -193,11 +268,20 @@
      "id": "child-safety",
      "title": "How Google fights CSAM",
      "url": "https://protectingchildren.google/"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.google.android.gm&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
     "status": "confirmed",
-    "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740), and publishes an EU-specific transparency report under Regulation 2021/1232 covering Gmail.",
+    "note": "Files the derogation's own transparency reports — reports that exist only for providers scanning under Chat Control: “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024” (COM(2025) 740). Google also publishes a dedicated transparency report titled after the law itself — “European Union CSAE Regulation 2021/1232” — covering Gmail.",
     "quote": "For example, processing data to detect and combat online child sexual abuse.",
     "quoteDoc": "privacy policy",
     "sources": [
@@ -208,6 +292,12 @@
      {
       "t": "Google transparency report under Reg. 2021/1232",
       "u": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "confirmed",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -237,11 +327,20 @@
      "id": "photodna",
      "title": "PhotoDNA",
      "url": "https://www.microsoft.com/en-us/photodna"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.microsoft.office.outlook&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
     "status": "confirmed",
-    "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740); files EU jurisdictional transparency reports. Microsoft invented PhotoDNA hash matching; Skype, historically covered, was retired in 2025.",
+    "note": "Files the derogation's own transparency reports — reports that exist only for providers scanning under Chat Control (COM(2025) 740 names Microsoft among the five filers for both 2023 and 2024); its EU jurisdictional transparency reports cover the same ground. Microsoft co-developed PhotoDNA, the hash-matching technology much of this scanning runs on. Skype, historically the flagship covered service, was retired in 2025.",
     "quote": "We use scanning technologies (like hash matching) to help prevent harm to our systems, our users, and others as described in our Code of Conduct, and to help prevent child exploitation.",
     "quoteDoc": "privacy statement",
     "sources": [
@@ -252,6 +351,12 @@
      {
       "t": "Microsoft jurisdictional transparency reports",
       "u": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "confirmed",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -295,6 +400,12 @@
       "t": "Overview of derogation users (Patrick Breyer)",
       "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
      }
+    ],
+    "statusHistory": [
+     {
+      "status": "e2ee",
+      "since": "2026-07-26"
+     }
     ]
    }
   },
@@ -315,6 +426,15 @@
      "id": "guidelines",
      "title": "Community Guidelines",
      "url": "https://values.snap.com/privacy/transparency/community-guidelines"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.snapchat.android&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -332,6 +452,12 @@
      {
       "t": "Snap transparency hub",
       "u": "https://values.snap.com/privacy/transparency"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -354,6 +480,15 @@
      "title": "Community Guidelines",
      "url": "https://www.tiktok.com/community-guidelines/en/",
      "render": "headless"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.zhiliaoapp.musically&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -363,6 +498,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -379,6 +520,15 @@
      "id": "privacy",
      "title": "Privacy Policy",
      "url": "https://x.com/en/privacy"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.twitter.android&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -388,6 +538,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -399,7 +555,17 @@
     "id": 1064216828,
     "expect": "Reddit"
    },
-   "docs": [],
+   "docs": [
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.reddit.frontpage&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
+    }
+   ],
    "chatControl": {
     "status": "global",
     "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
@@ -407,6 +573,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -433,6 +605,15 @@
      "id": "transparency",
      "title": "Transparency Report",
      "url": "https://proton.me/legal/transparency"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=ch.protonmail.android&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -442,6 +623,12 @@
      {
       "t": "Archived privacy policy",
       "u": "/archive/proton/privacy.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "denies",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -463,6 +650,15 @@
      "id": "security",
      "title": "Security page",
      "url": "https://threema.com/en/security"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=ch.threema.app&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -472,6 +668,12 @@
      {
       "t": "Archived security page",
       "u": "/archive/threema/security.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "e2ee",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -493,6 +695,15 @@
      "id": "security",
      "title": "Security / E2EE description",
      "url": "https://www.viber.com/en/security/"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.viber.voip&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -502,6 +713,12 @@
      {
       "t": "Archived privacy policy",
       "u": "/archive/viber/privacy.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "e2ee",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -523,6 +740,15 @@
      "id": "security",
      "title": "Security",
      "url": "https://slack.com/trust/security"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.Slack&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -532,6 +758,12 @@
      {
       "t": "Archived privacy policy",
       "u": "/archive/slack/privacy.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "unclear",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -548,6 +780,15 @@
      "id": "privacy",
      "title": "Privacy Statement",
      "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=us.zoom.videomeetings&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -557,6 +798,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -575,6 +822,15 @@
      "title": "Privacy Notice",
      "url": "https://www.twitch.tv/p/en/legal/privacy-notice/",
      "render": "headless"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=tv.twitch.android.app&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -584,6 +840,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -605,15 +867,30 @@
      "id": "community",
      "title": "Professional Community Policies",
      "url": "https://www.linkedin.com/legal/professional-community-policies"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.linkedin.android&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
     "status": "confirmed",
-    "note": "Among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 — “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports” (COM(2025) 740).",
+    "note": "Files the derogation's own transparency reports — reports that exist only for providers scanning under Chat Control: “Google, LinkedIn, Meta, Microsoft and Yubo submitted reports, for both 2023 and 2024” (COM(2025) 740). A professional network is an unlikely name on the list — which is exactly why the record follows filings, not assumptions.",
     "sources": [
      {
       "t": "COM(2025) 740 — Commission implementation report",
       "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "confirmed",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -635,6 +912,15 @@
      "id": "guidelines",
      "title": "Community Guidelines",
      "url": "https://policy.pinterest.com/en/community-guidelines"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.pinterest&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -644,6 +930,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -665,6 +957,15 @@
      "id": "conduct",
      "title": "Online Conduct",
      "url": "https://store.steampowered.com/online_conduct/?l=english"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.valvesoftware.android.steam.community&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -674,6 +975,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -690,6 +997,15 @@
      "id": "privacy",
      "title": "Privacy Policy (EU)",
      "url": "https://www.playstation.com/en-gb/legal/privacy-policy/"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.scee.psxandroid&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -699,6 +1015,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -716,6 +1038,15 @@
      "id": "technology",
      "title": "Technology / E2EE description",
      "url": "https://olvid.io/technology/en/"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=io.olvid.messenger&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -725,6 +1056,12 @@
      {
       "t": "Archived privacy policy",
       "u": "/archive/olvid/privacy.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "e2ee",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -742,6 +1079,15 @@
      "id": "security",
      "title": "Security page",
      "url": "https://wire.com/en/security"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.wire&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -751,6 +1097,12 @@
      {
       "t": "Archived privacy policy",
       "u": "/archive/wire/privacy.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "e2ee",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -767,6 +1119,15 @@
      "id": "privacy",
      "title": "Privacy Policy",
      "url": "https://element.io/privacy"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=im.vector.app&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -776,6 +1137,12 @@
      {
       "t": "Archived privacy policy",
       "u": "/archive/element/privacy.txt"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "e2ee",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -802,6 +1169,15 @@
      "id": "terms",
      "title": "Terms & Conditions",
      "url": "https://tuta.com/terms"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=de.tutao.tutanota&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -815,6 +1191,12 @@
      {
       "t": "Tuta: Privacy Policy",
       "u": "https://tuta.com/privacy-policy"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "e2ee",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -832,6 +1214,15 @@
      "id": "terms",
      "title": "Terms & Conditions",
      "url": "https://www.gmx.com/company/terms/"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=de.gmx.mobile.android.mail&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -845,6 +1236,12 @@
      {
       "t": "Overview of derogation users (Patrick Breyer)",
       "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "unclear",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -861,6 +1258,15 @@
      "id": "privacy",
      "title": "Privacy Policy (EU)",
      "url": "https://legal.yahoo.com/ie/en/yahoo/privacy/index.html"
+    },
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.yahoo.mobile.client.android.mail&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
     }
    ],
    "chatControl": {
@@ -870,6 +1276,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -881,7 +1293,17 @@
     "id": 431946152,
     "expect": "Roblox"
    },
-   "docs": [],
+   "docs": [
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=com.roblox.client&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
+    }
+   ],
    "chatControl": {
     "status": "global",
     "note": "Extensive automated child-safety moderation and NCMEC reporting under US law. Not named in Commission reporting on the derogation. Its policy pages currently block archiving — the block is recorded.",
@@ -890,20 +1312,42 @@
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
      }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
+     }
     ]
    }
   },
   {
    "name": "Yubo",
    "slug": "yubo",
-   "docs": [],
+   "docs": [
+    {
+     "id": "play-safety",
+     "title": "Google Play Data Safety",
+     "url": "https://play.google.com/store/apps/datasafety?id=co.yellw.yellowapp&hl=en",
+     "ignore": [
+      "^All prices include VAT",
+      "\\(English\\)$"
+     ]
+    }
+   ],
    "chatControl": {
     "status": "confirmed",
-    "note": "French platform for teens; among the five providers that submitted the mandatory reports under the derogation for both 2023 and 2024 (COM(2025) 740). Its policy pages currently block automated archiving — the block is recorded.",
+    "note": "French social-discovery app for teens. Files the derogation's own transparency reports — reports that exist only for providers scanning under Chat Control (COM(2025) 740 names Yubo among the five filers for both 2023 and 2024). Its policy pages currently block automated archiving; the block itself is recorded.",
     "sources": [
      {
       "t": "COM(2025) 740 — Commission implementation report",
       "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "confirmed",
+      "since": "2026-07-26"
      }
     ]
    }
@@ -919,6 +1363,12 @@
      {
       "t": "NCMEC CyberTipline data (US law)",
       "u": "https://www.missingkids.org/cybertiplinedata"
+     }
+    ],
+    "statusHistory": [
+     {
+      "status": "global",
+      "since": "2026-07-26"
      }
     ]
    }

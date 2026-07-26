@@ -192,6 +192,7 @@ stands on.</p>
 
 const GLOSSARY = [
   ["Chat Control", "The colloquial name for two EU instruments: the ePrivacy derogation in force ('1.0', voluntary scanning, until April 2028) and the draft CSA Regulation ('2.0', potentially mandatory detection). Most confusion about Chat Control comes from mixing them up."],
+  ["Derogation report (Article 3(1)(g)(vii))", "The transparency report the derogation itself requires from every provider that scans under it — no scanning, nothing to file. This is why filing one is the strongest public evidence of Chat Control use, and it is a different thing from DSA transparency reports, which all large platforms must publish whether they scan private messages or not. The Commission's COM(2025) 740 names exactly five filers for 2023 and 2024: Google, LinkedIn, Meta, Microsoft, Yubo."],
   ["ePrivacy derogation (Regulation 2021/1232)", "The exception to EU confidentiality rules that lets providers voluntarily scan private communications for child sexual abuse material. Reinstated in July 2026 and in force until April 2028; end-to-end encrypted communications are formally excluded."],
   ["CSA Regulation (“Chat Control 2.0”)", "The proposed permanent regulation (2022) whose detection orders could make scanning mandatory, including via scanning on the user's device. Still in negotiation; not law."],
   ["End-to-end encryption (E2EE)", "Encryption where only the communicating devices hold the keys — the provider cannot read message content, so it has nothing meaningful to scan server-side. Signal, WhatsApp, Threema, Olvid, Wire and Element use it by default."],
@@ -484,6 +485,9 @@ footer.site .feye svg { width:100%; height:auto; display:block; }
 .st-inst .dot { background:#34579F; }
 .st-inst .mg { border-color:#34579F; background:rgba(52,87,159,.08); }
 .banner.st-inst { border-left-color:#34579F; }
+.toc { font-size:.88rem; color:var(--dim); margin:1.4rem 0 .2rem; max-width:46rem; line-height:2; }
+.toc a { text-decoration-color:var(--faint); }
+.stathist { margin-top:-.6rem; margin-bottom:1.4rem; }
 /* utilities — the CSP bans style="" attributes, so spacing one-offs live here */
 .mt-04 { margin-top:.45rem; } .mt-06 { margin-top:.6rem; } .mt-10 { margin-top:1rem; }
 .mt-12 { margin-top:1.2rem; } .mt-14 { margin-top:1.4rem; } .mt-16 { margin-top:1.6rem; } .mt-20 { margin-top:2rem; }
@@ -514,7 +518,7 @@ function page({ title, desc, path, active, body, alt, image }) {
   const navLink = (href, label, key) =>
     `<a href="${href}"${active === key ? ' aria-current="page"' : ""}>${label}</a>`;
   const alts = alt
-    ? { en: path, fr: alt, de: "/de" + alt.slice(3), es: "/es" + alt.slice(3) }
+    ? { en: path, ...Object.fromEntries(Object.keys(LOCALES).map((c) => [c, "/" + c + alt.slice(3)])) }
     : { en: path };
   const hreflang = alt
     ? Object.entries(alts)
@@ -529,6 +533,7 @@ function page({ title, desc, path, active, body, alt, image }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${SITE}${path}">
+<link rel="alternate" type="application/rss+xml" title="ScanRecords — recorded changes" href="${SITE}/feed.xml">
 ${hreflang}
 <link rel="icon" href="${FAVICON}">
 <link rel="manifest" href="/manifest.webmanifest">
@@ -856,7 +861,10 @@ for (const c of [...companies, ...institutions]) {
     ${cc.quote ? `<div class="quote">“${esc(cc.quote)}” <span class="who">— from ${esc(c.name)}'s ${esc(cc.quoteDoc ?? "own documents")}, as archived here</span></div>` : ""}
     <div class="srcs">${srcs ? `Sources: ${srcs} · ` : ""}<a href="/chat-control/">what this status means</a> · <a href="${REPO}/issues">dispute it</a></div>
   </div>
-  <div class="watchfor"><b>What we watch for</b> — ${WATCH[cc.status in WATCH ? cc.status : "unclear"](esc(shortName(c)))}</div>`;
+  <div class="watchfor"><b>What we watch for</b> — ${WATCH[cc.status in WATCH ? cc.status : "unclear"](esc(shortName(c)))}</div>
+  <p class="note stathist">Status in this archive: ${(cc.statusHistory ?? [{ status: cc.status, since: ASSESSED }])
+    .map((h) => `<strong>${(STATUS[h.status] ?? { label: h.status }).label}</strong> since ${fmtDate(h.since)}`)
+    .join(" → ")}${(cc.statusHistory ?? []).length > 1 ? "" : " — no status changes recorded."}</p>`;
   const docRows = c.docs
     .map((d) => {
       const m = a.docs.get(d.id) ?? {};
@@ -867,7 +875,7 @@ for (const c of [...companies, ...institutions]) {
         <td class="mono dim">${m.fetchedAt ? fmtDate(m.fetchedAt) : "—"}</td>
         <td class="mono dim">${m.textChars ? m.textChars.toLocaleString("en-US") + " chars" : "—"}</td>
         <td class="mono faint" title="SHA-256 of extracted text">${m.textHash ? m.textHash.slice(0, 12) : "—"}</td>
-        <td><a class="dim" href="/archive/${c.slug}/${d.id}.txt">text</a> · <a class="dim" href="/archive/${c.slug}/${d.id}.html" title="Original page bytes, kept as evidence — renders without its styling here">raw</a></td>
+        <td><a class="dim" href="/archive/${c.slug}/${d.id}.txt">text</a> · <a class="dim" href="/archive/${c.slug}/${d.id}.html" title="Original page bytes, kept as evidence — renders without its styling here">raw</a> · <a class="dim" href="https://web.archive.org/web/*/${esc(d.url)}" title="Every Internet Archive capture of this URL — including from before this record began">wayback</a></td>
       </tr>`;
     })
     .join("");
@@ -1004,7 +1012,11 @@ for (const e of realChanges) {
   </section>
   <div class="about">
 
-  <h2>What Chat Control is</h2>
+  <nav class="toc" aria-label="On this page">On this page:
+  <a href="#what">What it is</a> · <a href="#timeline">Timeline</a> · <a href="#one-vs-two">1.0 vs 2.0</a> ·
+  <a href="#paper-trail">The paper trail</a> · <a href="#who">Who uses it</a> · <a href="#us-law">US law ≠ Chat Control</a> ·
+  <a href="#for-you">For you</a> · <a href="#statuses">The five statuses</a> · <a href="#faq">FAQ</a></nav>
+  <h2 id="what">What Chat Control is</h2>
   <p>Under the EU's ePrivacy rules, reading private communications is normally forbidden —
   for providers too. The ePrivacy derogation (Regulation 2021/1232, widely called
   <strong>"Chat Control 1.0"</strong>) carves out an exception: providers <em>may</em> scan
@@ -1017,7 +1029,7 @@ for (const e of realChanges) {
   device before encryption — remains under negotiation between the Council and Parliament.
   It is not law. If that changes, what these pages track — and this page — will change with it.</p>
 
-  <h2>How we got here</h2>
+  <h2 id="timeline">How we got here</h2>
   <ol class="tl">
     <li><b>Dec 2020</b> — New EU telecom rules extend ePrivacy confidentiality to messengers; Facebook pauses CSAM scanning in the EU overnight.</li>
     <li><b>Jul 2021</b> — Regulation 2021/1232 enters into force: voluntary scanning becomes legal again. Chat Control 1.0.</li>
@@ -1032,7 +1044,7 @@ for (const e of realChanges) {
     <li><b>Jun–Jul 2026</b> — The supposedly final 2.0 trilogue collapses over suspicionless scanning; negotiations continue.</li>
   </ol>
 
-  <h2>1.0 vs 2.0 — don't mix them up</h2>
+  <h2 id="one-vs-two">1.0 vs 2.0 — don't mix them up</h2>
   <div class="scroll"><table class="cmp">
     <thead><tr><th></th><th>Chat Control 1.0 (in force)</th><th>Chat Control 2.0 (draft)</th></tr></thead>
     <tbody>
@@ -1054,7 +1066,7 @@ for (const e of realChanges) {
   <a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> ·
   <a href="https://edri.org/our-work/csa-regulation-document-pool/">EDRi's document pool</a></p>
 
-  <h2>The paper trail — we archive the law's own pages too</h2>
+  <h2 id="paper-trail">The paper trail — we archive the law's own pages too</h2>
   <p>Companies aren't the only ones who quietly edit their pages. The institutions writing
   Chat Control publish policy pages and status trackers of their own — so those are in the
   archive under the same rules: fetched daily, diffed, and preserved. If the Commission
@@ -1065,7 +1077,7 @@ for (const e of realChanges) {
     ${i.docs.map((d) => `<a href="${esc(d.url)}">${esc(d.title)}</a> (<a class="dim" href="/archive/${i.slug}/${d.id}.txt">archived text</a>)`).join(" · ")}</li>`).join("\n    ")}
   </ul>
 
-  <h2>Who actually uses it</h2>
+  <h2 id="who">Who actually uses it</h2>
   <p>Providers scanning under the derogation must file annual reports, and the Commission's
   latest implementation report names exactly five: <em>“Google, LinkedIn, Meta, Microsoft and
   Yubo submitted reports, for both 2023 and 2024”</em>
@@ -1078,7 +1090,7 @@ for (const e of realChanges) {
   <a href="https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2021-8-2_2021-12-31_en_v1.pdf">Google's report under Regulation 2021/1232</a> and
   <a href="https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports">Microsoft's jurisdictional reports</a> — both tracked by this archive.</p>
 
-  <h2>Scanning under US law is not Chat Control</h2>
+  <h2 id="us-law">Scanning under US law is not Chat Control</h2>
   <p>Most large US platforms scan uploads for known abuse material and report to
   <a href="https://www.missingkids.org/cybertiplinedata">NCMEC</a> — that is a <strong>US legal
   regime</strong>, and it says nothing about whether a company invokes the EU derogation to scan
@@ -1086,7 +1098,7 @@ for (const e of realChanges) {
   EU evidence; a hollow red dot means US-law scanning with no EU evidence found. Conflating the
   two overstates the record, so we don't.</p>
 
-  <h2>What this means for you</h2>
+  <h2 id="for-you">What this means for you</h2>
   <ul>
     <li><strong>If you use Gmail, Facebook or Instagram messaging, Outlook, or LinkedIn in the
     EU</strong> — the provider scans under the derogation, legally and by its own choice. Scanning
@@ -1102,7 +1114,7 @@ for (const e of realChanges) {
     <a href="/company/telegram/">Its page</a> records what is known.</li>
   </ul>
 
-  <h2>The five statuses</h2>
+  <h2 id="statuses">The five statuses</h2>
   <ul>
     ${groups.map((g) => `<li><span class="${g.cls}"><span class="dot"></span><strong>${g.label}</strong></span> — ${g.blurb}</li>`).join("")}
   </ul>
@@ -1127,7 +1139,7 @@ for (const e of realChanges) {
   records every morning. When it does, the change appears on the
   <a href="/">front page</a> with its full before and after, and the status gets re-assessed.</p>
 
-  <h2>Common questions</h2>
+  <h2 id="faq">Common questions</h2>
   <details><summary>Is someone reading my WhatsApp or Signal messages?</summary>
   <p>Not under Chat Control 1.0. Both are end-to-end encrypted, E2EE apps are formally excluded,
   and the provider has no readable content to scan. The pressure point for encrypted apps is the
@@ -1286,22 +1298,25 @@ for (const e of realChanges) {
   <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0740">COM(2025)&nbsp;740</a>
   (27 November 2025) — the EU's own accounting of the scanning it permits.</p>
 
-  <h2>Reports about the EU are falling…</h2>
+  <nav class="toc" aria-label="On this page">On this page:
+  <a href="#reports">Reports falling</a> · <a href="#files">Files exploding</a> · <a href="#e2ee-effect">The E2EE effect</a> ·
+  <a href="#errors">Error rates</a> · <a href="#caveats">Caveats</a></nav>
+  <h2 id="reports">Reports about the EU are falling…</h2>
   <p class="groupnote">NCMEC reports concerning the EU, in millions.</p>
   ${hbar(N_REPORTS, "M", 1.6)}
 
-  <h2>…while the files inside them exploded</h2>
+  <h2 id="files">…while the files inside them exploded</h2>
   <p class="groupnote">Images, videos and other files contained in those reports, in millions —
   fourteen times more files in 2024 than 2022, inside fewer reports.</p>
   ${hbar(N_FILES, "M", 110)}
 
-  <h2>The E2EE effect</h2>
+  <h2 id="e2ee-effect">The E2EE effect</h2>
   <p class="groupnote">Reports by service type, in thousands. Reports from chat, messaging and email
   scanning collapsed by two-thirds after Meta turned on end-to-end encryption for Messenger in
   December 2023 — from 68% of everything reported about the EU to 36%.</p>
   ${typeChart}
 
-  <h2>What the scanners get wrong</h2>
+  <h2 id="errors">What the scanners get wrong</h2>
   <p class="groupnote">Error ratios (false positives), as tabulated in the report — each provider
   measures errors differently, which the Commission itself flags as a problem.</p>
   <div class="scroll"><table>
@@ -1315,7 +1330,7 @@ for (const e of realChanges) {
   The report's own summary: flagged material is <em>"overwhelmingly confirmed"</em> on human
   review, and <em>"a small fraction may turn out, upon human review, not to be CSAM."</em></p>
 
-  <h2>The Commission's own caveats</h2>
+  <h2 id="caveats">The Commission's own caveats</h2>
   <p>The report notes <em>"considerable disparities in the reporting"</em> by both providers and
   member states, calls for <em>"greater standardisation"</em>, and says the gaps between NCMEC
   data and member-state data <em>"have significant shortcomings"</em>. Several member states
@@ -1395,7 +1410,10 @@ for (const e of realChanges) {
   <p class="lede">Everything on this page follows from the record: what is scanned today, what
   cannot be, and which settings quietly undo your protection. No products to buy — just choices.</p>
 
-  <h2>1. The only real opt-out is the app you use</h2>
+  <nav class="toc" aria-label="On this page">On this page:
+  <a href="#apps">Apps</a> · <a href="#backups">Backups</a> · <a href="#email">Email</a> ·
+  <a href="#vpn">VPN</a> · <a href="#metadata">Metadata</a> · <a href="#scope">Scope</a></nav>
+  <h2 id="apps">1. The only real opt-out is the app you use</h2>
   <p>Scanning under Chat Control happens <strong>at the provider</strong>, with the provider's
   keys. End-to-end encrypted apps have nothing readable to scan and are formally excluded from
   the derogation. These are the tracked apps that cannot read your messages:</p>
@@ -1405,29 +1423,29 @@ for (const e of realChanges) {
       <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">Can't read your messages</span></span></a>`)
     .join("")}</div>
 
-  <h2>2. Mind the backup trap</h2>
+  <h2 id="backups">2. Mind the backup trap</h2>
   <p>WhatsApp chats are E2EE — but an <strong>unencrypted cloud backup</strong> hands a readable
   copy to Apple's or Google's servers anyway. Either disable chat backups or turn on
   <em>end-to-end encrypted backup</em> (Settings → Chats → Chat backup). The same logic applies
   anywhere: encryption in transit means little if a plaintext copy rests somewhere else.</p>
 
-  <h2>3. Email is the scanned zone</h2>
+  <h2 id="email">3. Email is the scanned zone</h2>
   <p>Gmail and Outlook are scanned in the EU under the derogation — their operators are two of the
   <a href="/notes/five-providers-verbatim/">five providers filing its reports</a>. Proton states it
   does not scan content and cannot read stored mail; GMX makes no clear statement. If your
   correspondence is sensitive, the mailbox provider is a bigger decision than any setting inside it.</p>
 
-  <h2>4. A VPN does not help here</h2>
+  <h2 id="vpn">4. A VPN does not help here</h2>
   <p>A VPN moves your traffic, not your messages — scanning happens where the message is
   processed, at the provider. Against Chat Control specifically, a VPN changes nothing. Choose
   the app, not the tunnel.</p>
 
-  <h2>5. Know what still leaks</h2>
+  <h2 id="metadata">5. Know what still leaks</h2>
   <p>E2EE protects <strong>content</strong>. Metadata — who you talk to, when, how often — is
   visible to most providers regardless (Signal and Threema minimize even that). And nothing here
   protects a device someone else unlocks.</p>
 
-  <h2>6. What this doesn't cover</h2>
+  <h2 id="scope">6. What this doesn't cover</h2>
   <p>All of the above concerns the rules in force today. The draft
   <a href="/chat-control/">Chat Control 2.0</a> could reach into E2EE apps via scanning on your
   device, before encryption — which is why the sentence "we cannot read your messages" is one of
@@ -1650,6 +1668,7 @@ function pageLoc(code, L, { title, desc, path, active, body, alts }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${SITE}${path}">
+<link rel="alternate" type="application/rss+xml" title="ScanRecords — recorded changes" href="${SITE}/feed.xml">
 ${hreflang}
 <link rel="icon" href="${FAVICON}">
 <link rel="manifest" href="/manifest.webmanifest">
@@ -1722,7 +1741,7 @@ writeFileSync(
     path: "/404", active: "none",
     body: `<h1>Not in the record.</h1>
   <p class="lede">Whatever was here, we have no snapshot of it.</p>
-  <p class="note"><a href="/">Latest changes</a> · <a href="/companies/">Tracked companies</a> · <a href="/about/">About</a></p>`,
+  <p class="note"><a href="/">Check your app</a> · <a href="/companies/">Tracked companies</a> · <a href="/changes/">The full record</a> · <a href="/chat-control/">What is Chat Control?</a> · <a href="/about/">About</a></p>`,
   })
 );
 SITEMAP.pop(); // 404 is not a sitemap entry

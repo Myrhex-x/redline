@@ -1,0 +1,59 @@
+#!/usr/bin/env node
+/**
+ * ScanRecords quote verifier.
+ *
+ * Every chatControl.quote in companies.json is presented on the site as
+ * "from <company>'s own documents, as archived here". This tool enforces
+ * that claim mechanically: each quote must literally appear in one of that
+ * company's archived snapshot texts. If a company edits the quoted line
+ * away, the daily run fails this check and the quote must be updated or
+ * removed — quotes are never allowed to rot into fiction.
+ *
+ * Run: node tools/verify-quotes.mjs      (exit 0 = all verified, 2 = rot)
+ */
+import { readFileSync, readdirSync, existsSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+
+// Normalize typography so a straight-vs-curly quote or collapsed whitespace
+// never causes a false alarm — only real wording changes should.
+const norm = (s) =>
+  s
+    .replace(/[‘’ʼ]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/…/g, "...")
+    .replace(/[–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
+
+const { companies, institutions = [] } = JSON.parse(
+  readFileSync(join(ROOT, "companies.json"), "utf8")
+);
+
+let checked = 0, missing = [];
+for (const c of [...companies, ...institutions]) {
+  const quote = c.chatControl?.quote;
+  if (!quote) continue;
+  checked++;
+  const dir = join(ROOT, "archive", c.slug);
+  const texts = existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith(".txt")) : [];
+  const hit = texts.find((f) => norm(readFileSync(join(dir, f), "utf8")).includes(norm(quote)));
+  if (hit) {
+    console.log(`ok   ${c.slug}: quote found in archive/${c.slug}/${hit}`);
+  } else {
+    missing.push(c.slug);
+    console.error(`ROT  ${c.slug}: quote not found in any archived text — "${quote.slice(0, 80)}…"`);
+  }
+}
+
+console.log(`\n${checked} quotes checked, ${missing.length} missing`);
+if (missing.length) {
+  console.error(
+    "A quoted line no longer exists in the archived documents. Either the company " +
+    "changed the document (update or drop the quote, and record the change) or the " +
+    "snapshot regressed. Do not ship a quote the archive cannot back."
+  );
+  process.exit(2);
+}
