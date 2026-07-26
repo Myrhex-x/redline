@@ -176,7 +176,7 @@ ${body}
 <footer class="site"><div class="wrap">
   <span>No cookies, no analytics, no accounts — nothing to consent to.</span>
   <a href="/about/">Method</a>
-  <a href="/legal.html">Legal &amp; privacy</a>
+  <a href="/legal">Legal &amp; privacy</a>
   <a href="${REPO}/blob/main/POLICY.md">Editorial policy</a>
   <a href="/feed.xml">RSS</a>
 </div></footer>
