@@ -6,6 +6,11 @@ export default async function handler(req, res) {
   const { endpoint } = req.body ?? {};
   if (typeof endpoint !== "string" || endpoint.length > 1024) return res.status(400).end();
   const sql = neon(process.env.DATABASE_URL);
-  await sql`DELETE FROM push_subs WHERE endpoint = ${endpoint}`;
+  // Tolerate a fresh database where subscribe has never run.
+  try {
+    await sql`DELETE FROM push_subs WHERE endpoint = ${endpoint}`;
+  } catch (e) {
+    if (!/does not exist/.test(e.message)) throw e;
+  }
   return res.status(204).end();
 }
