@@ -526,6 +526,117 @@ footer.site .feye svg { width:100%; height:auto; display:block; }
 .toc { font-size:.88rem; color:var(--dim); margin:1.4rem 0 .2rem; max-width:46rem; line-height:2; }
 .toc a { text-decoration-color:var(--faint); }
 .stathist { margin-top:-.6rem; margin-bottom:1.4rem; }
+/* ——— v4: surfaces, rhythm, density ————————————————————————————
+   Layered last, refining the earlier passes rather than replacing them.
+   Fixes: the hero wrapped its stats and chips into orphan rows at desktop
+   widths and stood 1048px tall on a phone; page and card shared one flat
+   surface in both themes; cards in a row had ragged heights. */
+
+/* Page and panel are now distinct surfaces, so cards read as objects. */
+:root { --panel:#ffffff; }
+@media (prefers-color-scheme: light) { :root {
+  --bg:#f6f6f5; --line:#e3e2e0; --soft:#efefed; --faint:#8e8e8b; } }
+@media (prefers-color-scheme: dark) { :root {
+  --bg:#08080a; --panel:#101114; --line:#212228; --soft:#131418; } }
+.card, .bigcard, .label-card, .watchfor, .trust, .empty, .diff, .facts,
+main details, .langmenu .panel, .mailinput, .banner, .chip:not(.hero .chip) {
+  background:var(--panel); }
+.hero { border-color:#23262c; box-shadow:0 24px 60px rgb(0 0 0 / .10); }
+@media (prefers-color-scheme: dark) { .hero { box-shadow:0 24px 70px rgb(0 0 0 / .45); } }
+
+/* Hero: the eye sits in the top-right corner and only the prose yields to
+   it, so the bar, the stats and the chips keep the full width. */
+@media (min-width:1180px) {
+  .hero:not(.cc-hero) { padding-right:clamp(1.8rem, 4.5vw, 3.4rem); }
+  .heroeye { top:clamp(1.6rem, 3vw, 2.6rem); transform:none; width:212px; opacity:.96; }
+  .hero:not(.cc-hero) h1, .hero:not(.cc-hero) p.lede { max-width:min(46rem, calc(100% - 260px)); }
+}
+.hero .eyebrow { font-size:.72rem; letter-spacing:.16em; margin-bottom:1.1rem; }
+.hero h1 { letter-spacing:-.035em; }
+.hero p.lede { font-size:1.08rem; line-height:1.6; }
+.bar { height:15px; border-radius:99px; margin:2.3rem 0 1.4rem; }
+.bignums { display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:1.2rem; }
+.bignums a { display:block; padding-top:.7rem; border-top:1px solid rgba(255,255,255,.10);
+  transition:border-color .15s ease; }
+.bignums a:hover { border-top-color:rgba(255,255,255,.34); }
+.bignums b { font-size:1.85rem; line-height:1.1; }
+.bignums span { display:block; font-size:.79rem; line-height:1.35; margin-top:.2rem; }
+.herochips { margin-top:2rem; gap:.45rem; }
+.hero .chip { font-size:.83rem; padding:.32rem .7rem; border-radius:8px; }
+
+/* Section heads read as dividers, with the count as a quiet pill. */
+.grouphead { border-top:1px solid var(--line); padding-top:1.1rem; margin-top:3.4rem; }
+.grouphead .count { font-size:.78rem; font-weight:600; color:var(--dim);
+  border:1px solid var(--line); border-radius:99px; padding:.1rem .55rem; background:var(--panel); }
+p.groupnote { max-width:60ch; }
+
+/* Cards: equal heights in a row, status tint on the edge, calmer hover. */
+.cards { gap:.75rem; }
+.card { align-items:flex-start; gap:.8rem; padding:.9rem 1rem; border-radius:13px;
+  box-shadow:0 1px 2px rgb(0 0 0 / .04); }
+.card:hover { transform:translateY(-1px); box-shadow:0 8px 22px rgb(0 0 0 / .10); }
+.card .mg { flex-basis:34px; width:34px; height:34px; font-size:.92rem; border-width:1.5px; }
+.card .nm { font-size:.95rem; line-height:1.25; }
+.card .vd { font-size:.76rem; line-height:1.3; display:block; margin-top:.15rem; }
+.bigcard { box-shadow:0 1px 2px rgb(0 0 0 / .04); }
+
+/* A company's headline facts, as a strip instead of loose sentences. */
+.facts { display:grid; grid-template-columns:repeat(auto-fit, minmax(9.5rem, 1fr));
+  border:1px solid var(--line); border-radius:14px; overflow:hidden; margin:1.5rem 0 2rem; }
+.facts > div { padding:.85rem 1.1rem; border-right:1px solid var(--line); }
+.facts > div:last-child { border-right:0; }
+.facts dt { font-size:.7rem; text-transform:uppercase; letter-spacing:.09em; color:var(--faint);
+  font-weight:600; margin-bottom:.28rem; }
+.facts dd { font-size:.92rem; font-weight:550; line-height:1.35; }
+.facts .dot { width:.5em; height:.5em; }
+@media (max-width:760px) {
+  .facts { grid-template-columns:1fr 1fr; }
+  .facts > div { border-bottom:1px solid var(--line); }
+  .facts > div:nth-child(2n) { border-right:0; }
+}
+
+/* Tables: roomier rows, quieter rules, numerals that line up. */
+th { font-size:.7rem; letter-spacing:.08em; padding-bottom:.6rem; }
+td { padding:.72rem .9rem .72rem 0; }
+tbody tr:last-child td { border-bottom:0; }
+tr:hover td { background:var(--soft); }
+.doclist td, .cmp td { font-variant-numeric:tabular-nums; }
+
+/* Boxes and prose. */
+.banner { border-radius:13px; box-shadow:0 1px 2px rgb(0 0 0 / .04); }
+.watchfor { border-style:solid; border-radius:13px; }
+.about p, .about li { max-width:64ch; }
+.note { max-width:62ch; }
+p.lede { max-width:58ch; }
+.tl li { padding-left:1.5rem; }
+.trust { border-radius:14px; }
+
+/* Phones: the hero was taller than the screen twice over. */
+@media (max-width:700px) {
+  header.top .wrap { padding-top:12px; padding-bottom:10px; gap:.35rem .9rem; }
+  .wm { font-size:1rem; }
+  nav.site { font-size:.84rem; gap:.3rem .8rem; line-height:1.5; }
+  .langmenu summary { font-size:.74rem; padding:.24rem .45rem; }
+  .hero { padding:1.5rem 1.25rem 1.7rem; border-radius:16px; }
+  .hero .eyebrow { font-size:.66rem; letter-spacing:.11em; margin-bottom:.85rem; }
+  h1 { font-size:1.85rem; line-height:1.14; }
+  .hero p.lede { font-size:1rem; line-height:1.5; }
+  .bar { height:12px; margin:1.6rem 0 1.1rem; }
+  .bignums { grid-template-columns:1fr 1fr; gap:.9rem 1rem; }
+  .bignums b { font-size:1.5rem; }
+  .bignums span { font-size:.75rem; }
+  .herochips { margin-top:1.4rem; }
+  .hero .chip { font-size:.8rem; padding:.28rem .6rem; }
+  main { padding-top:1.2rem; }
+  h2 { font-size:1.14rem; }
+  .grouphead { margin-top:2.6rem; }
+  .cards { grid-template-columns:1fr; }
+  .steps, .bigcards { gap:.7rem; }
+  .crow { grid-template-columns:4.2rem 1fr 4.2rem; gap:.6rem; font-size:.84rem; }
+  .feed li, .notes-list li { gap:.4rem .8rem; }
+  .feed .date, .notes-list .date { flex-basis:100%; }
+}
+
 /* utilities — the CSP bans style="" attributes, so spacing one-offs live here */
 .mt-04 { margin-top:.45rem; } .mt-06 { margin-top:.6rem; } .mt-10 { margin-top:1rem; }
 .mt-12 { margin-top:1.2rem; } .mt-14 { margin-top:1.4rem; } .mt-16 { margin-top:1.6rem; } .mt-20 { margin-top:2rem; }
@@ -908,9 +1019,9 @@ for (const c of [...companies, ...institutions]) {
     <div class="srcs">${srcs ? `Sources: ${srcs} · ` : ""}<a href="/chat-control/">what this status means</a> · <a href="${REPO}/issues">dispute it</a></div>
   </div>
   <div class="watchfor"><b>What we watch for</b> — ${WATCH[cc.status in WATCH ? cc.status : "unclear"](esc(shortName(c)))}</div>
-  <p class="note stathist">Status in this archive: ${(cc.statusHistory ?? [{ status: cc.status, since: ASSESSED }])
-    .map((h) => `<strong>${(STATUS[h.status] ?? { label: h.status }).label}</strong> since ${fmtDate(h.since)}`)
-    .join(" → ")}${(cc.statusHistory ?? []).length > 1 ? "" : " — no status changes recorded."}</p>`;
+  ${(cc.statusHistory ?? []).length > 1 ? `<p class="note stathist">Status history: ${cc.statusHistory
+    .map((h) => `<strong>${(STATUS[h.status] ?? { label: h.status }).label}</strong> from ${fmtDate(h.since)}`)
+    .join(" → ")}</p>` : ""}`;
   const docRows = c.docs
     .map((d) => {
       const m = a.docs.get(d.id) ?? {};
@@ -935,7 +1046,13 @@ for (const c of [...companies, ...institutions]) {
     <div><h1>${esc(c.name)}</h1><span class="vd idvd">${st.verdict}</span></div>
   </div>
   ${banner}
-  <p class="lede">${c.docs.length} document${c.docs.length === 1 ? "" : "s"} tracked${a.label ? " · App Store privacy label tracked" : ""}${real.length ? ` · ${real.length} change${real.length === 1 ? "" : "s"} recorded` : " · no changes since baseline"}.</p>
+  <dl class="facts">
+    <div><dt>Status</dt><dd class="${st.cls}"><span class="dot"></span>${inst ? "Institutional source" : st.verdict}</dd></div>
+    ${inst ? "" : `<div><dt>Held since</dt><dd>${fmtDate((cc.statusHistory ?? [{ since: ASSESSED }])[0].since)}</dd></div>`}
+    <div><dt>Documents</dt><dd>${c.docs.length || "none"}${c.docs.length ? " tracked" : " trackable"}</dd></div>
+    ${a.label ? `<div><dt>App Store label</dt><dd>Tracked</dd></div>` : ""}
+    <div><dt>Changes recorded</dt><dd>${real.length ? `${real.length} — latest ${fmtDate(real[0].date)}` : "None since baseline"}</dd></div>
+  </dl>
   ${c.docs.length ? `<h2>Tracked documents</h2>
   <div class="scroll"><table class="doclist">
     <thead><tr><th>Document</th><th>Last fetched</th><th>Size</th><th>Hash</th><th>Snapshot</th></tr></thead>
