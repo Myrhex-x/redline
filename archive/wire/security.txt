@@ -1,0 +1,415 @@
+Skip to main content
+
+English
+
+Deutsch
+
+Español
+
+Français
+
+Product
+
+Product
+
+Overview
+
+Features
+
+Explore powerful features designed to enhance communication, productivity, and team collaboration securely.
+
+Security
+
+Built with end-to-end encryption, Wire ensures your conversations and data stay private and protected at all times.
+
+Deployment
+
+Choose flexible deployment options: cloud, on-premises, or hybrid to meet your organization’s specific needs.
+
+Highlights
+
+Testimonials
+
+Discover how public and private organizations globally trust Wire for secure communication through real testimonials.
+
+Wire vs. Alternatives
+
+Compare Wire to alternative secure communication tools. See how Wire stands out on security, compliance, and sovereignty for enterprises and governments.
+
+Pydio Cells
+
+Secure, self-hosted file sharing and collaboration platform for enterprises. Keep full control of your data with flexible deployment, granular permissions, and compliance-ready security.
+
+Schwarz Gruppe Trusts Wire
+
+From Headquarters to Storefront: How Wire Powers Secure Communication at Scale for Schwarz Gruppe
+
+Read the case study
+
+Solutions
+
+Solutions
+
+Use Cases
+
+Crisis communication
+
+Coordinate fast during emergencies with secure, real-time messaging that works across teams and devices, anywhere, anytime.
+
+Confidential communication
+
+Protect sensitive data with a secure, encrypted channel for trusted, cross-team response.
+
+MS Teams & Slack alternative
+
+Collaborate confidently with full encryption, no surveillance, and simple onboarding. Ideal for security-first teams.
+
+NIS2 compliance
+
+Stay compliant and avoid fines with secure messaging, access controls, and encrypted collaboration built for EU regulations.
+
+State and municipal government
+
+Keep public data safe with encrypted, user-friendly communication that scales across departments and ensures compliance.
+
+Explore more Wire use cases
+
+Organisation Type
+
+SMB
+
+Protect client data and boost team productivity with easy, encrypted messaging, calls, and file sharing, anywhere you work.
+
+Enterprise
+
+Enable secure, scalable collaboration across teams and partners with E2EE, SSO, and full control at enterprise scale.
+
+Government
+
+Gain full digital sovereignty with secure, on-premises communication built for classified, compliant collaboration.
+
+More Wire Use Cases
+
+Join 1,800+ organisations using Wire for secure collaboration, law enforcement ops, and as a Teams alternative.
+
+Learn more
+
+Resources
+
+Resources
+
+Research
+
+Knowledge Hub
+
+Find practical guides, whitepapers, and compliance insights to help your team collaborate securely and effectively.
+
+Blog
+
+Stay informed with news, product updates, and thought leadership on privacy, security, and collaboration trends.
+
+Wire Uncut
+
+Discover candid conversations with Europe’s tech leaders on digital sovereignty, secure collaboration, and the future of independent innovation.
+
+Support
+
+App download
+
+Get the Wire app for desktop or mobile and start collaborating securely. Anytime, anywhere, on any device.
+
+GitHub
+
+Explore Wire’s open-source codebase, contribute to development, or audit our security for full transparency.
+
+Help Center
+
+Need help? Reach our support team for fast, secure assistance with setup, troubleshooting, or feature questions.
+
+Developers
+
+Learn how Wire-Server works, deploy it in your own environment, or extend it with code — a guide for power users, administrators, and developers.
+
+About
+
+Partner Program
+
+Join Wire’s Partner Program to deliver secure collaboration solutions and grow your business with expert support.
+
+About us
+
+Learn how Wire is redefining secure communication built in Europe, open-source, and trusted worldwide.
+
+Careers
+
+Build the future of secure collaboration. Explore open roles and join our mission to protect digital communication.
+
+Secure Collaboration Blog
+
+Stay informed with news, product updates, and thought leadership on privacy, security, and collaboration trends.
+
+Learn more
+
+Pricing
+
+Log in
+
+Contact Sales
+
+en
+
+DE
+
+FR
+
+ES
+
+Security & Privacy
+
+Simply secure
+
+End-to-end encryption gives you the confidence to talk, message, and share documents across teams and with clients through a single app — available on all your devices.
+
+Contact Sales
+
+German government endorses Wire
+
+In our collaboration, we are used by tens of thousands of German government employees. All governmental institutions can use Wire for their sensitive communication.
+
+Compliance requirements
+
+As all data is encrypted, there’s no risk of it reaching third parties (including Wire) and your organization is fully compliant with the European privacy legislation.
+
+Data thriftiness
+
+Wire doesn’t collect or store unnecessary user data. The data we need from you makes sure you can use Wire properly.
+
+Messaging Layer Security
+
+Scalable, verified security by design
+
+Enterprise-grade protection: Wire is the only platform fully secured by MLS, co-developed for secure collaboration.
+
+Full-feature MLS coverage: Messages, calls, and files are end-to-end encrypted by default.
+
+Scales with your teams: MLS supports large groups with fast, efficient key exchange.
+
+Post-quantum ready: Built for cryptographic agility to withstand future threats.
+
+Open-source and auditable: Wire’s MLS code is fully transparent and verifiable.
+
+Learn more
+
+End-to-end encryption
+
+Protect your communication and document sharing
+
+All communication through Wire is end-to-end encrypted - messages, conference calls, and files.
+
+Each message is encrypted with a new key. No one, except the participants in a conversation can decrypt information.
+
+Wire’s encryption works transparently in the background and doesn’t need to be activated - it’s always on.
+
+Learn more in Wire’s Security Whitepaper
+
+Transparency
+
+Open and verifiable
+
+Wire’s source code is fully transparent and 100% open source. It is available on GitHub for anyone to verify. All our development is open to the public — collaborate with the team and follow our commits, pull requests, issues, and discussions on GitHub.
+
+Wire on GitHub
+
+ISO certified
+
+ISO 27001 & ISO 27701 certification
+
+Wire is proudly ISO 27001 and ISO 27701 certified, demonstrating our commitment to protecting your data and privacy. These internationally recognized certifications ensure confidentiality, integrity, and compliance with regulations like GDPR, helping our customers confidently manage risk and enhance trust in our secure communication platform.
+
+Cyber Essentials
+
+Wire is Cyber Essentials certified.
+
+This certification confirms that Wire meets the UK government-backed baseline for protection against common cyber threats.Cyber Essentials is a certification program backed by the UK government and the National Cyber Security Centre (NCSC). It reinforces our commitment to strong security practices and to providing our customers with a secure and trustworthy communication platform.
+
+Servers in the EU
+
+European data sovereignity
+
+Wire’s servers are in Germany and Ireland. The hosting provider’s server locations are secured following the highest standards and hold certifications such as ISO 27001, FedRAMP, FIPS 140-2, NIST 800-17. The hosting providers are fully compliant with all applicable European Data Protection laws.
+
+Data protection
+
+Privacy by design
+
+Your privacy is always our priority. Wire does not sell analytics or usage data to anyone.
+
+Physical, electronic, and procedural safeguards are provided to protect your information.
+
+Wire stores only the data needed to ensure your conversations stay in sync across devices and troubleshoot issues.
+
+We’re transparent about the data we collect, and what we use it for. Wire uses end-to-end encryption for all messages, media, and calls, as well as Secure Real-Time Transport Protocol (SRTP) with Datagram Transport Layer Security (DTLS) for end-to-end calling encryption.
+
+See Wire’s Security Whitepaper and Privacy Whitepaper for more details about the encryption methods and how Wire protects your privacy.
+
+ID Shield
+
+End-to-end identity with ID Shield
+
+Wire’s ID Shield confirms you're speaking with the right contact. Device checks are automatic and based on certificates, removing the need for manual fingerprint comparisons while ensuring secure identity validation.
+
+Verify devices
+
+Trusted conversations
+
+Verify each conversation partner’s device fingerprints for maximum security. It helps to protect you from a man-in-the-middle attack by ensuring that the person you are communicating with is who they say they are. After verifying a conversation, you will be alerted if your contact starts using Wire on a new device.
+
+Stay in sync
+
+Multi-device management
+
+You can use your Wire account on up to 8 devices with your contacts and conversations always in sync. Log in to your Wire account on mobile, desktop, browser, or tablet to add another device to your device list. You can manage the devices associated with your account at any time.
+
+Frequently Asked Questions
+
+Why is Wire secure?
+
+Wire is a secure messaging app that uses end-to-end encryption (E2EE) for all communications—including messages, calls, and file sharing—ensuring only participants can decrypt the information. E2EE is always enabled by default and cannot be disabled. Wire's open-source code allows anyone to verify its security protocols.
+
+Message Encryption:
+
+Wire employs the Proteus protocol, its implementation of the Axolotl/Double Ratchet protocol, to secure messages between clients. By utilizing pre-keys, Wire allows encrypted conversations to start even when both parties are not online simultaneously. The Proteus protocol incorporates robust cryptographic primitives:
+
+ChaCha20 Stream Cipher
+
+HMAC-SHA256 for message authentication codes
+
+Curve25519 for elliptic curve Diffie-Hellman key exchange
+
+HKDF for key derivation functions
+
+Media Encryption :
+
+For one-to-one audio and video calls, Wire uses the Secure Real-time Transport Protocol (SRTP) , with encryption keys and parameters negotiated through a Datagram Transport Layer Security (DTLS) handshake. Client authenticity is verified via fingerprint exchange over authenticated Proteus sessions. Conference calls are similarly encrypted but leverage Insertable Streams for E2EE of media packets, using:
+
+AES-GCM 256 for payload encryption
+
+HKDF-SHA512 for key derivation
+
+Forward Secrecy (FS) & Post-Compromise Security (PCS):
+
+Wire ensures that all communications benefit from Forward Secrecy (FS) and Post-Compromise Security (PCS):
+
+Forward Secrecy (FS) : Even if an encryption key is compromised, past communications remain secure because each message is encrypted with a unique key.
+
+Post-Compromise Security (PCS) : After detecting a security breach and replacing compromised keys, future communications remain secure, safeguarding against attackers who had access to earlier sessions.
+
+See Wire’s Security Whitepaper for more technical details about the encryption protocols. Or visit our help center to get more details.
+
+Which data does Wire need?
+
+Wire is committed to user privacy by collecting only the minimal data necessary to sync conversations across devices and troubleshoot issues. User profiles include:
+
+Registration email
+
+Username
+
+Profile name
+
+Upon registration, Wire stores metadata per device to enhance notification clarity:
+
+Device class (mobile, tablet, desktop)
+
+Device model (for example, iPhone 14)
+
+User-defined device label
+
+Cookie label for authentication
+
+UTC timestamp of device registration
+
+For more details please see Wire’s Privacy Whitepaper .
+
+Does Wire protect against Man-in-the-Middle (MITM) attacks?
+
+Wire allows users to verify conversations by comparing unique key fingerprints for each client. This process ensures that you're communicating with the intended recipient and helps prevent man-in-the-middle (MITM) attacks. After verification, you'll receive alerts if your contact starts using Wire on a new device.
+
+Learn more about Wire’s crypto protocol
+
+How does Wire protect my data?
+
+Wire uses end-to-end encryption for all messages, media, and calling. We use Secure Real-Time Transport Protocol (SRTP) with Datagram Transport Layer Security (DTLS) for end-to-end calling encryption.
+
+Wire's mobile applications utilize operating system push notification services—Apple Push Notification Service (APN) for iOS and Firebase Cloud Messaging Service (FCM) for Android—to notify the app of updates. Importantly, Wire does not share any message or call data with these services. The app connects directly to Wire's servers to receive E2EE messages. Users preferring not to rely on external push services can download the F-Droid version of the Wire app, which avoids FCM and uses websockets for notifications.
+
+See Wire’s Security Whitepaper and Privacy Whitepaper for more details about the encryption methods Wire uses and about how Wire protects your privacy.
+
+Get started
+
+See Wire in action
+
+Discover how Wire enables secure, compliant, and seamless collaboration for your team - without compromising usability or control.
+
+Contact Sales
+
+Products
+
+Features
+
+Security
+
+Plans & Pricing
+
+Deployment Options
+
+Wire vs. Alternatives
+
+Solutions
+
+Individuals & Business
+
+Enterprise
+
+Government
+
+Contact Sales
+
+Use Cases
+
+Crisis communication
+
+Secure communication
+
+MS Teams alternative
+
+NIS-2 compliance
+
+Public administration
+
+Resources
+
+Download
+
+Support
+
+Blog
+
+GitHub
+
+Vulnerability Reporting
+
+Knowledge Hub
+
+Company
+
+About Us
+
+Career
+
+Brand Portal
+
+Transparency
+
+Wire Cloud Status
+
+Privacy Policy | Legal | Imprint | Copyright 2026 © Wire Swiss GmbH | Show Cookie Banner

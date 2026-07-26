@@ -1,5 +1,60 @@
 [
  {
+  "id": "2026-07-26-apple-transparency-baseline",
+  "date": "2026-07-26",
+  "slug": "apple",
+  "company": "Apple (iMessage, iCloud)",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-discord-law-enforcement-baseline",
+  "date": "2026-07-26",
+  "slug": "discord",
+  "company": "Discord",
+  "doc": "law-enforcement",
+  "docTitle": "Working with Law Enforcement",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-olvid-technology-baseline",
+  "date": "2026-07-26",
+  "slug": "olvid",
+  "company": "Olvid",
+  "doc": "technology",
+  "docTitle": "Technology / E2EE description",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-viber-security-baseline",
+  "date": "2026-07-26",
+  "slug": "viber",
+  "company": "Viber",
+  "doc": "security",
+  "docTitle": "Security / E2EE description",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-wire-security-baseline",
+  "date": "2026-07-26",
+  "slug": "wire",
+  "company": "Wire",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
   "id": "2026-07-26-google-child-safety-baseline",
   "date": "2026-07-26",
   "slug": "google",
@@ -347,17 +402,6 @@
   "company": "Reddit",
   "doc": "appstore-label",
   "docTitle": "App Store privacy label",
-  "kind": "baseline",
-  "added": 0,
-  "removed": 0
- },
- {
-  "id": "2026-07-26-reddit-privacy-baseline",
-  "date": "2026-07-26",
-  "slug": "reddit",
-  "company": "Reddit",
-  "doc": "privacy",
-  "docTitle": "Privacy Policy",
   "kind": "baseline",
   "added": 0,
   "removed": 0

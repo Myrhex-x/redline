@@ -1,0 +1,210 @@
+Make an appointment
+
+Toggle navigation
+
+Enterprises
+
+Pricing
+
+Technology
+
+News
+
+Download
+
+FAQ
+
+En
+
+Français
+English
+
+One giant leap for messaging
+
+Our security model is utterly game-changing. Olvid is the first and only messaging system whose security no longer relies on any trusted third party, either operators or their servers.
+
+Olvid servers get hacked? Not an issue! No one will ever be able to read your messages, including the servers relaying them. It is forever impossible. Nor can any users identities ever be revealed. Olvid is the only system that also encrypts metadata, thus guaranteeing the anonymity of interlocutors. Finally, Olvid guarantees the authentication of users, contrary to all messaging servers that replace trusted third parties...
+
+vpn_key
+
+Cryptographic guarantees
+
+Security ensured solely by cryptographic measures (as opposed to login/password simple access control).
+
+fingerprint
+
+Strong authentication
+
+Users identity guaranteed without the need for a trusted third party
+
+dns
+
+No trust in servers
+
+Persistent security even in case of a compromised server
+
+watch_later
+
+Forward Secrecy
+
+Messages history stays confidential and protected even in case of key compromise. The messages remain inaccessible because each message and file exchanged is encrypted with a single-use ephemeral key.
+
+devices_other
+
+Multi-channel solution
+
+For Android, iPhone, iPad, Mac, Windows, Linux, with synchronization without master device.
+
+security
+
+Anonymity
+
+Inability of the operator to know "who is talking to whom". No third party could ever identify the participants, not even the server. No trace of any metadata.
+
+Read Olvid's technical specifications
+
+Beware, this is indeed "technical." You have been warned 🤓
+
+Don’t take our word for it
+
+We do everything to ensure that Olvid remains the most secure messenger in the world. That’s why we submit our work to the critical scrutiny of outstanding professionals with complementary skills. Judge by yourself. And Olvid is now Open Source !
+
+Scientific validations
+
+To create Olvid, our cryptologists designed custom cryptographic protocols and adapted theoretical protocols to real-world constraints.
+
+The results of this work have been formally validated by Michel Abdalla , Adjunct Professor at ENS , CNRS Senior Researcher and Chairman of the Board of IACR (International Association for Cryptologic Research).
+
+The article formalizing his results is published in this IACR ePrint .
+
+ANSSI Certifications
+
+Olvid is the first and only instant messenger to have received one (then two !) Security Visas issued by ANSSI (CSPN certifications).
+
+Security scope, certification reports and ANSSI certificates are available here for iOS and here for Android .
+
+In a rare move for transparency, we are also publishing the two Technical Evaluation Reports produced by the excellent team at Synacktiv .
+
+iOS Certification Report (fr)
+
+Android Certification Report (fr)
+
+iOS Technical Report (fr)
+
+Android Technical Report (fr)
+
+Security challenges
+
+Authentication + Data Encryption + Metadata Encryption
+
+how_to_reg
+
+Authentication
+
+Guarantee the use of the right key to ensure that you reach the right person.
+
+lock
+
+Data Encryption
+
+Use this key properly, with state-of-the-art mechanisms, to ensure that no third party can ever see your exchanges.
+
+volume_off
+
+Metadata Encryption
+
+Protect all the information with this key in order to preserve the anonymity of exchanges.
+
+Olvid solves 3 issues in one single app
+
+No current means of electronic communication can guarantee these 3 qualities simultaneously:
+
+- Encrypted emails guarantee user authentication but the security level of exchanges is not enough.
+
+- Instant messaging apps offer various encryption qualities but do not guarantee user authentication.
+
+- Emails and instant messaging apps leave traces on servers...
+
+What are the others doing?
+
+Encrypted e-mails
+
+check_circle
+
+Focus on authentication
+
+block
+
+No forward secrecy
+
+block
+
+Plain text unencrypted metadata in the header
+
+Email can never provide an acceptable security level
+
+“Secure” Messaging (consumer grade and professional)
+
+check_circle
+
+Focus on end-to-end encryption
+
+block
+
+Mandatory access to personal data to operate
+
+block
+
+Faillible authentication based on a central server, one or more trusted third parties
+
+What about post-quantum cryptography?
+
+We’ve got you covered!
+
+Resistance of cryptographic algorithms to quantum computers has been a recurring question for the last few years. The symmetric cryptography used inside Olvid today is already resistant to this kind of machines, but this is not the case for the public-key primitives. The reason being that, as of today, no "Post-Quantum" standard exist.
+
+For this reason, the NIST (National Institute of Standards and Technology) has initiated a worldwide competition ( NIST - Post-Quantum Cryptography ) to select one or more quantum-resistant public-key primitives. The winners should be announced later this year. The architecture of the cryptographic engine inside Olvid has been designed from the start to easily accommodate these new algorithms once they are ready. Thanks to this, we will be among the first to implement these new post-quantum standards inside a commercial product.
+
+Home
+
+Enterprises
+
+Use Cases
+
+Features
+
+Security
+
+Pricing
+
+Terms
+
+Technology
+
+Technological breakthrough
+
+Audits and certifications
+
+Security
+
+Post-quantum
+
+FAQ
+
+Daily use
+
+Troubleshooting and Support
+
+Download
+
+News
+
+About us
+
+Contact
+
+Privacy policy
+
+Olvid Web (Android)
+
+Copyright © 2026 Olvid

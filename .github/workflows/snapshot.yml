@@ -25,6 +25,12 @@ jobs:
       - name: Snapshot App Store privacy labels
         run: node tools/labels.mjs
 
+      - name: Headless lane (JS-rendered targets)
+        run: |
+          npm install --no-save --no-package-lock playwright >/dev/null 2>&1 \
+            && npx playwright install --with-deps chromium >/dev/null 2>&1 \
+            && node tools/headless.mjs || echo "headless lane skipped"
+
       - name: Record history entries
         run: node tools/history.mjs
 

@@ -1,0 +1,1117 @@
+Apple
+Store
+
+Mac
+
+iPad
+
+iPhone
+
+Watch
+
+Vision
+
+AirPods
+
+TV & Home
+
+Entertainment
+
+Accessories
+
+Support
+
+0 +
+
+Privacy
+
+Open Menu
+
+Close Menu
+
+Overview
+
+Features
+
+Control
+
+Labels
+
+Transparency Report
+
+Privacy Policy
+
+Transparency Report
+
+Apple is committed to your privacy and being transparent about government requests for customer data globally. This report provides information on government requests received.
+
+Government Requests
+
+Select date range and country/region.
+
+Date Range
+
+Date Range
+
+Country / Region
+
+Country / Region
+
+Globe Image Credit: DigitalGlobe, NASA/NOAA
+
+Date Range
+
+Date Range
+
+Device
+
+Device requests are based on device identifiers such as Apple serial number, IMEI or MEID.
+
+Device requests generally seek information regarding customers associated with devices and device connections to Apple services - for example, law enforcement investigations on behalf of customers regarding lost or stolen devices.
+
+Additionally, Apple regularly receives multi-device requests related to fraud investigations.
+
+View Device Requests
+
+Device Requests by Year - Worldwide
+
+Financial Identifier
+
+Financial Identifier requests are based on financial identifiers such as credit/debit card or iTunes Gift Card.
+
+Financial Identifier requests generally seek information regarding suspected fraudulent transactions - for example, law enforcement investigations on behalf of customers in which a credit card was fraudulently used to purchase Apple products or services.
+
+Apple began reporting on Financial Identifier requests in Transparency Report Period July 1 - December 31, 2016.
+
+View Financial Identifier Requests
+
+Financial Identifier Requests by Year - Worldwide
+
+Account
+
+Account requests are based on account identifiers such as an Apple ID or email address.
+
+Account requests generally seek information regarding customers’ Apple ID accounts, such as account holder name and address and account connections to Apple services - for example, law enforcement investigations where an account may have been used unlawfully. Account requests may also seek customers’ content data, such as photos, email, iOS device backups, contacts or calendars.
+
+View Account Requests
+
+Account Requests by Year - Worldwide
+
+Account Preservation
+
+Account Preservation requests are based on account identifiers such as an Apple ID or email address.
+
+Account Preservation requests ask Apple to preserve a one-time copy of customer account data - for example, law enforcement investigations where an account may have been used unlawfully, and Apple is requested to preserve account data while a valid legal request for the data is obtained.
+
+Apple began reporting on Account Preservation requests in Transparency Report Period July 1 - December 31, 2016.
+
+View Account Preservation Requests
+
+Account Preservation Requests by Year - Worldwide
+
+Requests Received
+
+The number of account preservation requests received worldwide from government agencies.
+
+Accounts where Data Preserved
+
+The number of accounts that resulted in Apple preserving data in response to account preservation requests received worldwide.
+
+Year
+
+Requests Received
+
+Accounts where Data Preserved
+
+2024
+
+17715
+
+43991
+
+2023
+
+13864
+
+34747
+
+2022
+
+11184
+
+28207
+
+2021
+
+9047
+
+20282
+
+2020
+
+7751
+
+14337
+
+2019
+
+5383
+
+10077
+
+2018
+
+3402
+
+6765
+
+2017
+
+2322
+
+3500
+
+2016
+
+- Not Applicable
+
+- Not Applicable
+
+2015
+
+- Not Applicable
+
+- Not Applicable
+
+2014
+
+- Not Applicable
+
+- Not Applicable
+
+2013
+
+- Not Applicable
+
+- Not Applicable
+
+Account Restriction/Deletion
+
+Account Restriction/Deletion requests ask Apple to restrict or delete a customer’s account, for example, law enforcement determines an account was used unlawfully and obtains a court order to restrict or delete the account.
+
+Apple began reporting on Account Restriction requests in Transparency Report Period July 1 - December 31, 2016.
+
+Apple began reporting on Account Deletion requests in Transparency Report Period July 1 - December 31, 2014.
+
+View Account Restriction/Deletion Requests
+
+Account Restriction/Deletion Requests by Year - Worldwide
+
+Push Token
+
+Push Token requests are based on an Apple Push Notification service token identifier. When users allow a currently installed application to receive notifications, a push token is generated and registered to that developer and device.
+
+Push Token requests generally seek identifying details of the Apple Account associated with the device’s push token, such as name, physical address and email address.
+
+Apple was only permitted to disclose information about Push Token requests starting in Transparency Report Period July 1 - December 31, 2022. Prior to this, Push Token requests were included in Account and/or Device request tables.
+
+View Push Token Requests
+
+Push Token Requests by Period - Worldwide
+
+Report Period
+
+H1 represents January 1 through June 30.
+
+H2 represents July 1 through December 31.
+
+Requests Received
+
+The number of push token requests received worldwide from government agencies.
+
+Push Tokens Specified in Requests
+
+The number of push tokens specified in the requests received worldwide from government agencies. One request may contain one or multiple push token identifiers.
+
+Requests where Data Provided
+
+The number of push token requests that resulted in Apple providing data in response to push token requests received worldwide.
+
+Push Token Requests by Period - Worldwide
+
+Reporting Period
+
+Push Token Requests Received
+
+Requests Received
+
+Requests where Data Provided
+
+Percentage of Requests where Data Provided
+
+2025 H1
+
+393
+
+966
+
+278
+
+71%
+
+2024 H2
+
+312
+
+743
+
+191
+
+61%
+
+2024 H1
+
+277
+
+545
+
+164
+
+59%
+
+2023 H2
+
+232
+
+1,180
+
+181
+
+78%
+
+2023 H1
+
+119
+
+234
+
+90
+
+76%
+
+2022 H2
+
+70
+
+794
+
+54
+
+77%
+
+Emergency
+
+Emergency requests relate to circumstances involving imminent danger of death or serious physical injury to any person, and generally seek information regarding customers’ connections to Apple services - for example, instances where law enforcement believe a person is missing and in danger.
+
+Apple began reporting on Emergency requests as a separate category in Transparency Report Period January 1 - June 30, 2015. Prior to this, emergency requests were reported in applicable Account and/or Device request categories.
+
+View Emergency Requests
+
+Emergency Requests by Year - Worldwide
+
+United States National Security
+
+U.S. National Security requests seek customer data in response to national security related investigations. National Security requests include orders received under the Foreign Intelligence Surveillance Act (“FISA”) and National Security Letters (“NSLs”). To date, Apple has not received any orders for bulk data.
+
+Apple reports national security requests received for Apple users/accounts (NSLs and orders received under FISA) within bands permissible by law pursuant to the USA FREEDOM Act of 2015 (“USA Freedom”). Though we want to be more specific, these are currently the ranges and level of detail permitted under USA Freedom for reporting U.S. National Security requests. Apple responds to National Security FISA content requests with information obtained from iCloud. Under the law, Apple cannot further disclose what information or data may be sought through these requests.
+
+View U.S. National Security Requests
+
+U.S. National Security Requests by Period
+
+Report Period
+
+H1 represents January 1 through June 30.
+
+H2 represents July 1 through December 31.
+
+Request Type
+
+National Security Requests: Includes FISA Court-issued orders for non-content and content data as well as National Security Letters issued by the Federal Bureau of Investigation.
+
+FISA Non-Content & Content Requests: FISA Court-issued orders for non-content or content data. Non-content data is data such as subscriber or transactional information and connection logs. Content data is data such as stored photos, email, iOS device backups, contacts or calendars.
+
+National Security Letters (NSLs): Federal Bureau of Investigation-issued requests for non-content data in national security investigations. Non-content data is data such as subscriber data. Apple does not produce transactional information and connection logs in response to National Security Letters.
+
+Requests Received
+
+The number of United States National Security requests received.
+
+For report periods 2013 H1 - 2017 H2, we count each individual request received and report the total number of requests received within bands/ranges permissible by law.
+
+For report periods 2018 H1 and subsequent, we count each individual order and National Security Letter received for Apple users/accounts and report the total number of orders and National Security Letters received within bands/ranges permissible by law. In order to report FISA non-content and content requests in separate categories, we are required by law, under the USA FREEDOM Act, to delay reporting by 6 months and report in bands/ranges of 500.
+
+Reporting the number of requests received for the most current reporting period may be subject to this legally required 6-month reporting delay.
+
+Users/Accounts
+
+The number of accounts where Apple provided data in response to United States National Security requests. We count the number of accounts where we provide data and report the total number of accounts affected within bands/ranges permissible by law. Reporting the number of users/accounts affected for the most current reporting period may be subject to a legally required 6-month reporting delay pursuant to USA FREEDOM Act of 2015.
+
+Report Period
+
+Request Type
+
+Requests Received
+
+Users/Accounts
+
+2025 H1
+
+FISA Non-Content
+
+500 - 999
+
+62,500 - 62,999
+
+2025 H1
+
+FISA Content
+
+500 - 999
+
+75,500 - 75,999
+
+2025 H1
+
+NSLs
+
+0 - 499
+
+500 - 999
+
+2024 H2
+
+FISA Non-Content
+
+500 - 999
+
+55,000 - 55,499
+
+2024 H2
+
+FISA Content
+
+500 - 999
+
+76,000 - 76,499
+
+2024 H2
+
+NSLs
+
+0 - 499
+
+1,000 - 1,499
+
+2024 H1
+
+FISA Non-Content
+
+500 - 999
+
+53,000 - 53,499
+
+2024 H1
+
+FISA Content
+
+500 - 999
+
+65,500 - 65,999
+
+2024 H1
+
+NSLs
+
+0 - 499
+
+500 - 999
+
+2023 H2
+
+FISA Non-Content
+
+500 - 999
+
+37,500 - 37,999
+
+2023 H2
+
+FISA Content
+
+500 - 999
+
+56,500 - 56,999
+
+2023 H2
+
+NSLs
+
+0 - 499
+
+1,000 - 1,499
+
+2023 H1
+
+FISA Non-Content
+
+0 - 499
+
+40,500 - 40,999
+
+2023 H1
+
+FISA Content
+
+500 - 999
+
+50,500 - 50,999
+
+2023 H1
+
+NSLs
+
+0 - 499
+
+1,000 - 1,499
+
+2022 H2
+
+FISA Non-Content
+
+0 - 499
+
+36,000 - 36,499
+
+2022 H2
+
+FISA Content
+
+0 - 499
+
+34,500 - 34,999
+
+2022 H2
+
+NSLs
+
+2 - 499
+
+503 - 999
+
+2022 H1
+
+FISA Non-Content
+
+0 - 499
+
+38,000 - 38,499
+
+2022 H1
+
+FISA Content
+
+0 - 499
+
+33,500 - 33,999
+
+2022 H1
+
+NSLs
+
+2 - 499
+
+503 - 999
+
+2021 H2
+
+FISA Non-Content
+
+0 - 499
+
+25,000 - 25,499
+
+2021 H2
+
+FISA Content
+
+0 - 499
+
+32,000 - 32,499
+
+2021 H2
+
+NSLs
+
+4 - 499
+
+510 - 999
+
+2021 H1
+
+FISA Non-Content
+
+0 - 499
+
+26,000 - 26,499
+
+2021 H1
+
+FISA Content
+
+0 - 499
+
+32,500 - 32,999
+
+2021 H1
+
+NSLs
+
+5 - 499
+
+1,005 - 1,499
+
+2020 H2
+
+FISA Non-Content
+
+0 - 499
+
+19,500 - 19,999
+
+2020 H2
+
+FISA Content
+
+0 - 499
+
+24,000 - 24,499
+
+2020 H2
+
+NSLs
+
+5 - 499
+
+504 - 999
+
+2020 H1
+
+FISA Non-Content
+
+0 - 499
+
+11,000 - 11,499
+
+2020 H1
+
+FISA Content
+
+0 - 499
+
+20,500 - 20,999
+
+2020 H1
+
+NSLs
+
+2 - 499
+
+2 - 499
+
+2019 H2
+
+FISA Non-Content
+
+0 - 499
+
+15,500 - 15,999
+
+2019 H2
+
+FISA Content
+
+0 - 499
+
+17,500 - 17,999
+
+2019 H2
+
+NSLs
+
+6 - 499
+
+1,511 - 1,999
+
+2019 H1
+
+FISA Non-Content
+
+0 - 499
+
+11,000 - 11,499
+
+2019 H1
+
+FISA Content
+
+0 - 499
+
+18,000 - 18,499
+
+2019 H1
+
+NSLs
+
+8 - 499
+
+2,512 - 2,999
+
+2018 H2
+
+FISA Non-Content
+
+0 - 499
+
+9,000 - 9,499
+
+2018 H2
+
+FISA Content
+
+0 - 499
+
+14,000 - 14,499
+
+2018 H2
+
+NSLs
+
+6 - 499
+
+1,508 - 1,999
+
+2018 H1
+
+FISA Non-Content
+
+0 - 499
+
+7,500 - 7,999
+
+2018 H1
+
+FISA Content
+
+0 - 499
+
+13,500 - 13,999
+
+2018 H1
+
+NSLs
+
+3 - 499
+
+1,005 - 1,499
+
+2017 H2
+
+National Security
+
+16,005 - 16,249
+
+8,009 - 8,249
+
+2017 H1
+
+National Security
+
+13,255 - 13,499
+
+9,005 - 9,249
+
+2016 H2
+
+National Security
+
+5,750 - 5,999
+
+4,750 - 4,999
+
+2016 H1
+
+National Security
+
+2,751 - 2,999
+
+2,001 - 2,249
+
+2015 H2
+
+National Security
+
+1,251 - 1,499
+
+1,000 - 1,249
+
+2015 H1
+
+National Security
+
+751 - 999
+
+250 - 499
+
+2014 H2
+
+National Security
+
+250 - 499
+
+0 - 249
+
+2014 H1
+
+National Security
+
+0 - 249
+
+0 - 249
+
+2013 H2
+
+National Security
+
+0 - 249
+
+0 - 249
+
+2013 H1
+
+National Security
+
+0 - 249
+
+0 - 249
+
+United States Private Party
+
+U.S. Private Party (non-government) requests generally seek information about connections to Apple services, purchase transactions, or product registrations relating to an Apple customer - for example, civil or criminal litigation case proceedings where a subpoena is issued for information.
+
+Apple began reporting on U.S. Private Party requests in Transparency Report Period July 1 - December 31, 2016.
+
+View U.S. Private Party Requests
+
+U.S. Private Party Requests by Year
+
+Digital Content Provider Requests
+
+Digital Content Provider requests are based on identifiers such as an app, music item, podcast, or content provider ID.
+
+Digital Content Provider requests generally seek information related to the content provider, such as name, email address, physical address - for example, law enforcement investigations on a digital content provider who may have provided a service or content that is alleged/suspected to violate local law.
+
+Apple began reporting on Digital Content Provider requests in Transparency Report Period January 1 - June 30, 2022.
+
+View Digital Content Provider Requests
+
+Digital Content Provider Requests by Period - Worldwide
+
+Report Period
+
+H1 represents January 1 through June 30.
+
+H2 represents July 1 through December 31.
+
+Requests Received
+
+The number of digital content provider requests received worldwide from government agencies.
+
+Requests where Data Provided
+
+The number of digital content provider requests that resulted in Apple providing data in response to digital content provider requests received worldwide.
+
+Percentage where Data Provided
+
+The percentage of digital content provider requests that resulted in Apple providing data in response to digital content provider requests received worldwide.
+
+Report Period
+
+Requests Received
+
+Requests where Data Provided
+
+Percentage where Data Provided
+
+2025 H1
+
+126
+
+64
+
+51%
+
+2024 H2
+
+69
+
+43
+
+62%
+
+2024 H1
+
+59
+
+42
+
+71%
+
+2023 H2
+
+61
+
+51
+
+84%
+
+2023 H1
+
+77
+
+38
+
+49%
+
+2022 H2
+
+32
+
+25
+
+78%
+
+2022 H1
+
+40
+
+26
+
+65%
+
+App Removal
+
+App removal requests ask Apple to remove an app from the App Store. These requests can be based on alleged/suspected violations of local law and/or of App Store platform policies. For example, law enforcement or regulatory agencies suspect an app may be unlawful or relate to/contain unlawful content, or may violate the App Store platform policies or relate to/contain content violating platform policies.
+
+Apple began reporting on App Removal requests in Transparency Report Period July 1 - December 31, 2018.
+
+Beginning with the 2022 calendar year, Apple publishes government App Store takedown requests in a dedicated App Store Transparency Report that includes data showing takedown demands by government entity and law cited. See https://www.apple.com/legal/more-resources/ .
+
+View App Removal Requests - Legal Violation
+
+View App Removal Requests - Platform Violation
+
+App Removal Requests by Year - Worldwide
+
+Request Type
+
+Legal Violation Requests: Requests received from a government agency seeking to take down a third party application offered on the App Store related to alleged/suspected legal violations.
+
+Platform Violation Requests: Requests received from a government agency seeking to take down a third party application offered on the App Store related to alleged/suspected App Store platform policy violations.
+
+Requests Received
+
+The number of app removal requests received worldwide from government agencies asking Apple to remove an app from the App Store.
+
+Requests where App Removed
+
+The number of app removal requests received worldwide from government agencies where Apple proceeded with removal of app(s) from the App Store.
+
+Apps Removed
+
+The number of apps removed from the App Store in response to app removal requests received worldwide from government agencies.
+
+Year
+
+Request Type
+
+Requests Received
+
+Requests where App Removed
+
+Apps Removed
+
+2021
+
+Legal Violation
+
+114
+
+104
+
+419
+
+2021
+
+Platform Violation
+
+4
+
+4
+
+7
+
+2020
+
+Legal Violation
+
+95
+
+95
+
+445
+
+2020
+
+Platform Violation
+
+22
+
+22
+
+57
+
+2019
+
+Legal Violation
+
+124
+
+114
+
+424
+
+2019
+
+Platform Violation
+
+42
+
+42
+
+134
+
+2018
+
+Legal Violation Not Applicable
+
+- Not Applicable
+
+- Not Applicable
+
+- Not Applicable
+
+2018
+
+Platform Violation Not Applicable
+
+- Not Applicable
+
+- Not Applicable
+
+- Not Applicable
+
+More Information
+
+Report PDFs
+
+About our Transparency Report
+
+Choose your country or region
+
+Report CSVs
+
+Government and Law Enforcement Information
+
+Apple Footer
+
+
+Apple
+
+Transparency Report
+
+Transparency Report
+
+Transparency Report
++
+
+Overview
+
+About Apple’s Transparency Report
+
+Choose your Country or Region
+
+Report PDFs
+
+Report CSVs
+
+Worldwide Requests
+
+Worldwide Requests
++
+
+Device Requests
+
+Financial Identifier Requests
+
+Account Requests
+
+Account Preservation Requests
+
+Account Restriction/Deletion Requests
+
+Push Token Requests
+
+Emergency Requests
+
+Digital Content Provider Requests
+
+App Removal Requests - Legal Violation
+
+App Removal Requests - Platform Violation
+
+Government Information
+
+Government Information
++
+
+Government and Law Enforcement Information
+
+More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE (1-800-692-7753).
+
+United States
+
+Copyright ©
+
+2026
+Apple Inc. All rights reserved.
+
+Privacy Policy
+
+Terms of Use
+
+Sales and Refunds
+
+Legal
+
+Site Map

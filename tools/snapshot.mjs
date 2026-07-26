@@ -19,7 +19,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ARCHIVE = join(ROOT, "archive");
@@ -109,7 +109,7 @@ async function fetchDoc(url, ua) {
  * For per-request noise a site embeds in visible text (trace ids, session
  * tokens) — without this, every fetch looks like a policy change.
  */
-function filterNoise(text, patterns) {
+export function filterNoise(text, patterns) {
   if (!patterns || patterns.length === 0) return text;
   const res = patterns.map((p) => new RegExp(p, "i"));
   return text
@@ -195,6 +195,7 @@ async function main() {
   const rows = [];
   for (const company of targets) {
     for (const doc of company.docs) {
+      if (doc.render === "headless") continue; // captured by tools/headless.mjs
       rows.push(await snapshotDoc(company, doc));
       await sleep(DELAY_BETWEEN_MS);
     }
@@ -227,4 +228,6 @@ async function main() {
   if (failed.length > rows.length / 2) process.exit(1);
 }
 
-main();
+// Run only when invoked directly — headless.mjs imports this module for its
+// extraction helpers and must not trigger a full snapshot as a side effect.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();

@@ -23,6 +23,11 @@
           "id": "guidelines",
           "title": "Community Guidelines",
           "url": "https://discord.com/guidelines"
+        },
+        {
+          "id": "law-enforcement",
+          "title": "Working with Law Enforcement",
+          "url": "https://discord.com/safety/360044157931-working-with-law-enforcement"
         }
       ],
       "chatControl": {
@@ -259,6 +264,11 @@
           "id": "imessage-security",
           "title": "iMessage Security Overview",
           "url": "https://support.apple.com/guide/security/imessage-security-overview-secd9764312f/web"
+        },
+        {
+          "id": "transparency",
+          "title": "Transparency Report",
+          "url": "https://www.apple.com/legal/transparency/"
         }
       ],
       "chatControl": {
@@ -332,7 +342,8 @@
         {
           "id": "guidelines",
           "title": "Community Guidelines",
-          "url": "https://www.tiktok.com/community-guidelines/en/"
+          "url": "https://www.tiktok.com/community-guidelines/en/",
+          "render": "headless"
         }
       ],
       "chatControl": {
@@ -378,13 +389,7 @@
         "id": 1064216828,
         "expect": "Reddit"
       },
-      "docs": [
-        {
-          "id": "privacy",
-          "title": "Privacy Policy",
-          "url": "https://www.reddit.com/policies/privacy-policy"
-        }
-      ],
+      "docs": [],
       "chatControl": {
         "status": "global",
         "note": "Discloses automated CSAM detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
@@ -473,6 +478,11 @@
           "id": "privacy",
           "title": "Privacy Policy",
           "url": "https://www.viber.com/en/terms/viber-privacy-policy/"
+        },
+        {
+          "id": "security",
+          "title": "Security / E2EE description",
+          "url": "https://www.viber.com/en/security/"
         }
       ],
       "chatControl": {
@@ -548,7 +558,8 @@
         {
           "id": "privacy",
           "title": "Privacy Notice",
-          "url": "https://www.twitch.tv/p/en/legal/privacy-notice/"
+          "url": "https://www.twitch.tv/p/en/legal/privacy-notice/",
+          "render": "headless"
         }
       ],
       "chatControl": {
@@ -670,6 +681,11 @@
           "id": "privacy",
           "title": "Privacy Policy",
           "url": "https://olvid.io/privacy/en/"
+        },
+        {
+          "id": "technology",
+          "title": "Technology / E2EE description",
+          "url": "https://olvid.io/technology/en/"
         }
       ],
       "chatControl": {
@@ -691,6 +707,11 @@
           "id": "privacy",
           "title": "Privacy Policy",
           "url": "https://wire.com/en/privacy-policy"
+        },
+        {
+          "id": "security",
+          "title": "Security page",
+          "url": "https://wire.com/en/security"
         }
       ],
       "chatControl": {
@@ -812,23 +833,43 @@
           }
         ]
       }
+    },
+    {
+      "name": "Epic Games (Fortnite)",
+      "slug": "epic",
+      "docs": [],
+      "chatControl": {
+        "status": "global",
+        "note": "Discloses automated detection and NCMEC reporting under US law. Not named in Commission reporting on the derogation.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data (US law)",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     }
   ],
   "blocked": [
     {
+      "name": "Reddit (policy pages)",
+      "url": "https://www.reddit.com/policies/privacy-policy",
+      "reason": "Serves an empty JS shell to plain fetches and a \"blocked by network security\" page to headless Chromium (recorded 2026-07-26). App Store label is tracked meanwhile."
+    },
+    {
       "name": "Roblox (policy pages)",
       "url": "https://en.help.roblox.com/hc/en-us/articles/115004630823",
-      "reason": "Zendesk WAF returns 403 to non-browser TLS fingerprints regardless of user-agent (recorded 2026-07-26). Needs a headless-browser lane. App Store label is tracked meanwhile."
+      "reason": "Zendesk WAF returns 403 to plain fetches and to headless Chromium alike (recorded 2026-07-26). App Store label is tracked meanwhile."
     },
     {
       "name": "Epic Games (policy pages)",
       "url": "https://www.epicgames.com/site/en-US/privacypolicy",
-      "reason": "Cloudflare returns 403 to non-browser TLS fingerprints regardless of user-agent (recorded 2026-07-26). Needs a headless-browser lane. App Store label is tracked meanwhile."
+      "reason": "Cloudflare returns 403 to plain fetches and to headless Chromium alike (recorded 2026-07-26)."
     },
     {
       "name": "Yubo (policy pages)",
       "url": "https://www.yubo.live/legal/privacy-policy",
-      "reason": "WAF returns 403 to non-browser TLS fingerprints regardless of user-agent (recorded 2026-07-26). Needs a headless-browser lane. A confirmed derogation user whose policy pages block archiving."
+      "reason": "WAF returns 403 to plain fetches and to headless Chromium alike (recorded 2026-07-26). A confirmed derogation user whose policy pages block archiving."
     }
   ],
   "assessed": "2026-07-26"

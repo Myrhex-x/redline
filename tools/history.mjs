@@ -92,6 +92,21 @@ function main() {
     const company = bySlug.get(slug);
     const docDef = company?.docs?.find((d) => d.id === doc);
 
+    // Renderer upgrades are not policy changes: if the previous snapshot was a
+    // flagged shell/blocked stub (under 500 chars), this is a recapture — the
+    // baseline entry already covers first recording, and publishing it as a
+    // "change" would put a false event on the front page.
+    if (ext === "txt") {
+      let old = null;
+      try { old = git("show", `HEAD:${path}`); } catch { /* not in HEAD */ }
+      // Anything under 1000 chars was a shell/stub, not a document — the
+      // smallest real tracked document is several thousand characters.
+      if (old !== null && old.trim().length < 1000) {
+        console.log(`recapture ${slug}/${doc} (prior snapshot was a ${old.trim().length}-char stub)`);
+        continue;
+      }
+    }
+
     const diffText = git("diff", "--no-color", "--unified=3", "--", path);
     const { hunks, truncated } = parseUnifiedDiff(diffText);
     if (!hunks.length) continue;

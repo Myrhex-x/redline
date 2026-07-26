@@ -1,0 +1,335 @@
+Skip to main content
+
+Download 1 of 9
+Nitro 2 of 9
+Discover 3 of 9
+
+Resources
+Server Directory 1 of 2 Trending Games 2 of 2
+
+Safety 4 of 9
+
+Resources
+Family Center 1 of 10 Safety Library 2 of 10 Safety News 3 of 10 Teen Charter 4 of 10
+Discord Player's Guide 5 of 10
+
+Hubs
+Parent Hub 6 of 10
+Policy Hub 7 of 10
+Privacy Hub 8 of 10
+Transparency Hub 9 of 10
+Wellbeing Hub 10 of 10
+
+Quests 5 of 9
+
+Resources
+Advertising 1 of 3 Success Stories 2 of 3 Quests FAQ 3 of 3
+
+Support 6 of 9
+
+Resources
+Help Center 1 of 3 Feedback 2 of 3 Submit a Request 3 of 3
+
+Blog 7 of 9
+
+Collections
+Featured 1 of 7 Community 2 of 7 Discord HQ 3 of 7 Engineering & Developers 4 of 7 How to Discord 5 of 7 Policy & Safety 6 of 7 Product & Features 7 of 7
+
+Developers 8 of 9
+
+Learn
+Discord for Game Developers 1 of 10
+Integration 2 of 10
+Social Commerce 3 of 10
+Apps & Activities 4 of 10
+Developer Newsletter 5 of 10
+Developer Case Studies 6 of 10
+
+Build
+Official Game Communities 7 of 10
+
+Developer Portal 8 of 10
+
+Documentation 9 of 10
+
+Developer Help Center 10 of 10
+
+Careers 9 of 9
+
+Log In Log in
+
+Download
+Nitro
+Discover
+
+Discover Resources
+Server Directory
+Trending Games
+
+Safety
+
+Safety Resources
+Family Center
+Safety Library Safety News Teen Charter
+Discord Player's Guide
+
+Hubs
+Parent Hub
+Policy Hub
+Privacy Hub
+Transparency Hub
+Wellbeing Hub
+
+Quests
+
+Quests Resources
+Advertising Success Stories Quests FAQ
+
+Support
+
+Support Resources
+Help Center Feedback Submit a Request
+
+Blog
+
+Blog Collections
+Featured Community Discord HQ Engineering & Developers How to Discord Policy & Safety Product & Features
+
+Developers
+
+Developers Learn
+Discord for Game Developers
+Integration
+Social Commerce
+Apps and Activities
+Developer Newsletter
+Developer Case Studies
+
+Documentation
+Official Game Communities
+
+Developer Portal
+
+Documentation
+
+Developer Help Center
+
+Careers
+
+Log In
+
+App Store
+
+Discord Safety Center >
+Policy Hub >
+Safety Library >
+How Discord Works with Law Enforcement
+
+How We Enforce Rules
+
+How Discord Works with Law Enforcement
+
+Discord
+
+February 16, 2024
+
+Document Version
+
+No items found.
+
+Editor's Note: This article was last updated May 2, 2025.
+
+The information on this page is intended for law enforcement and government officials engaged in the enforcement of the law. This page describes how Discord preserves and provides data to support government investigations and how it accepts illegal content takedown requests from government officials.
+
+What is Discord?
+Discord is the communications platform that enables people aged 13+ to build meaningful connections around the joy of playing games through voice, video and text features.
+Discord users can communicate in two types of spaces:
+Direct messages (DMs) and group direct messages (GDMs) allow users to communicate one-to-one (DMs) or with a small group of people (GDMs) who have all been invited to the conversation. Participants can engage in voice, video, and/or text-based communications within a single DM or GDM.
+
+Servers are digital spaces where groups of friends or communities can come together to communicate. Servers are made up of text and voice/video channels . The vast majority of servers are small, invite-only spaces for groups of friends and communities to stay in touch and spend time together. There are also larger, more open communities, generally centered around specific games or topics.
+
+More information about Discord can be found here .
+
+Contacting Discord
+Discord utilizes its Government Request Portal (“the Portal”) to receive requests from and communicate with governmental law enforcement entities. Discord respectfully requests that all governmental and law enforcement requests relating to user data be submitted via the Portal, not via mail or other means. The Portal is located at https://app.kodexglobal.com/discord/signin .
+Creating a Government Request Portal Account
+An account is necessary to utilize the Portal. To create one, you will need to:
+1. Verify your government email address via the link sent to your email address. Please note that accounts will be approved only for those using a valid governmental email domain.
+2. Provide the required information in the webform regarding your identity and agency.
+Kodex will then complete a verification process with respect to your identity and governmental affiliation.
+Submitting Requests Via the Government Request Portal
+Discord requests that law enforcement submit the following via the Portal:
+Emergency disclosure requests (“EDRs”)
+Preservation requests
+Requests for user data pursuant to valid legal requests
+Content reports and takedown requests
+General questions
+
+When submitting a request, please:
+Include a valid Discord identifier in any request pertaining to user data, as this is necessary for Discord to take appropriate action. Valid Discord identifiers are:
+
+For an account: 17- or 18-digit Discord user identification number, Discord username (case sensitive), email address, or phone number. Please note:
+Information about how to identify a user ID number can be found here .
+A Discord display name is an insufficient identifier, as these are not required to be unique and can be changed at any time. More information about how to determine a username vs. a display name can be found here .
+Usernames are case-sensitive.
+There are two possible username formats. More information about usernames can be found here and here .
+Original usernames: allowed for the use of both upper and lower case letters and always contained a “discriminator” (consisting of a hashtag followed by 4 digits) at the end. Example: Discord#4444
+New usernames: do not contain a discriminator. Can contain only lowercase letters, numbers, periods, and underscores. Example: discord_4444.
+
+Users are able to change their usernames. Discord will be able to locate an account with a username even if its current username is different than the username within the request.
+
+For a server: Discord server identification number. Information about how to identify a server ID number can be found here .
+
+For a message: Discord message identification number. Information about how to identify a message ID number can be found here .
+
+Upload any relevant documents (such as preservation request letters, legal process, and nondisclosure orders) in a non-editable PDF format.
+
+Emergency Disclosure Requests
+Discord discloses data pursuant to emergency disclosure requests submitted by U.S. or foreign law enforcement when it has a good faith belief that an emergency involving an imminent risk of death or serious bodily injury requires disclosure of information without delay. See 18 U.S.C. § 2702(b)(8) & (c)(4). When submitting an emergency disclosure request, please:
+Provide specific details about the nature of the emergency that poses an imminent risk of serious bodily injury or death;
+Identify the specific type(s) of data being requested; and
+Explain how the data you seek will help address the emergency.
+
+Preservation Requests
+Consistent with 18 U.S.C. § 2703(f), Discord will preserve account data in response to a government request for an initial period of 90 days, subject to extension for an additional 90 days upon submission of an extension request. In certain circumstances, Discord may agree to extend a preservation for a longer period of time. Discord also accepts preservation requests directly from foreign law enforcement.
+When submitting legal process to obtain preserved user data, please include the Discord internal reference number (DISC-#####) in the legal process.
+Legal Requests for User Data
+Discord discloses user data in response to valid legal requests and consistent with the federal Stored Communications Act, 18 U.S.C. § 2701 et seq ., the federal Pen Register Act, 18 U.S.C. § 3121 et seq ., and the federal Wiretap Act, 18 U.S.C. § 2510 et seq . U.S. law enforcement should submit the appropriate type of legal process as outlined by those statutes for the data they are seeking.
+In most cases, international law enforcement should utilize mutual legal assistance processes to obtain the disclosure of Discord user data. Requests for the data of users in the European Economic Area should be directed to Discord Netherlands B.V., Schiphol Boulevard 195, 1118 BG Schiphol,
+Netherlands. These should be submitted via a European Investigation Order under Directive 2014/41/EU where possible; where not possible, requests for these users’ information should be directed through Dutch authorities by way of other mutual legal assistance agreements.
+Requests for all other users should be directed to Discord Inc., 444 De Haro Street Suite 200, San Francisco, California 94107. Discord may at its discretion choose to provide Discord user information to foreign law enforcement or government agencies in response to valid legal requests authorized by the law of the requesting country.
+Government Content Reports and Takedown Requests
+Law enforcement can alert Discord to the presence of illegal content and, if empowered to do so, request that it be removed from the platform via submitting a content takedown request. This includes orders against illegal content issued pursuant to Article 9 of the European Union’s Digital Services Act (“DSA”) and reports from trusted flaggers as designated by the United Kingdom’s Online Safety Act (“OSA”). Authorities submitting a content takedown request should be careful to select the appropriate option within Kodex designating the nature of their request to facilitate Discord’s processing.
+
+User Notice
+Discord’s policy is to notify users when government entities seek their account data via legal process and to provide them with a copy of the relevant legal process unless prohibited by law or court order. In order to avoid user notice, U.S. authorities should identify the statute, if any, that prohibits Discord from notifying the user or submit a valid nondisclosure order that is effective for a finite period and issued pursuant to 18 U.S.C. § 2705(b) at the time they submit legal process seeking user data. In its sole discretion, Discord may forego user notice in certain cases, such as those involving child exploitation or an imminent threat to life. Please state at the time of submission of legal process if you believe that one of these exceptions applies to your legal process.
+Discord does not notify users of preservation requests or emergency disclosure requests. In cases where Discord provides notice to a user about a request for user data under this policy, Discord will preserve the information sought by law enforcement prior to providing such notice.
+
+Reimbursement
+Consistent with 18 U.S.C. § 2706, Discord may seek reimbursement of the costs reasonably necessary and directly incurred in responding to a request for user data.
+
+Child Safety Policy
+When we are made aware of potential child safety concerns on our platform, our Trust & Safety team conducts a thorough review and, if appropriate, files a Cybertip report with the National Center for Missing and Exploited Children (NCMEC) . NCMEC will then work with local and international law enforcement as necessary.
+Law enforcement submitting a request for user data relating to a Cybertip should provide the Cybertip number.
+
+‍
+‍
+
+European Contact Points
+Under EU Regulation 2022/2065 (Digital Services Act), Discord’s Article 11 contact point is our Government Request Portal, available at: https://app.kodex.us/discord/signin . English or Dutch may be used to communicate through our contact point.
+Under EU Regulation 2021/784 (Terrorist Content Online Regulation), Discord's Article 15 contact point is counterterrorism@discordapp.com and Discord's Article 17 legal representative is Discord Netherlands BV.
+
+Under the United Kingdom’s Online Safety Act, our dedicated reporting channel for trusted flaggers designated by the statute is our Government Request Portal, available at: https://app.kodex.us/discord/signin .
+
+Still have questions?
+Governmental officials and law enforcement can submit questions via the Portal. These questions will be reviewed and responded to by our Legal Response Team.
+
+Tags
+Policy
+
+Reporting
+
+related articles
+
+Safety
+
+Reporting Applications to Discord
+
+Safety
+
+Four Steps to Keeping Your Account Safer
+
+Safety
+
+Reporting Content or Behavior to Discord
+
+Language
+
+English (US)
+
+Čeština
+
+Dansk
+
+Deutsch
+
+English
+
+English (UK)
+
+Español
+
+Español (América Latina)
+
+Français
+
+Hrvatski
+
+Italiano
+
+lietuvių kalba
+
+Magyar
+
+Nederlands
+
+Norsk
+
+Polski
+
+Português (Brasil)
+
+Română
+
+Suomi
+
+Svenska
+
+Tiếng Việt
+
+Türkçe
+
+Ελληνικά
+
+български
+
+Русский
+
+Українська
+
+हिंदी
+
+ไทย
+
+한국어
+
+中文
+
+中文(繁體)
+
+日本語
+
+Social
+
+Menu
+Product
+Product
+
+Download Nitro Status App Directory Gift Cards
+
+Company
+Company
+
+About Jobs Brand Newsroom
+
+Resources
+Resources
+
+Support Safety Blog Creators Community Developers Quests Official 3rd Party Merch Feedback
+
+Policies
+Policies
+
+Terms Privacy Cookie Settings Guidelines Acknowledgements Licenses Company Information
+
+Social
