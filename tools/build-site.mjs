@@ -577,6 +577,7 @@ function page({ title, desc, path, active, body, alt, image, feed }) {
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${SITE}${path}">
 <link rel="alternate" type="application/rss+xml" title="ScanRecords — recorded changes" href="${SITE}/feed.xml">
+<link rel="me" href="https://mastodon.social/@scanrecords_org">
 ${feed ? `<link rel="alternate" type="application/rss+xml" title="${esc(title)} — changes" href="${SITE}${feed}">` : ""}
 ${hreflang}
 <link rel="icon" href="${FAVICON}">
@@ -627,7 +628,7 @@ ${body}
   </div>
   <div class="fcol"><h4>The record</h4>
     <a href="/companies/">Tracked companies</a><a href="/changes/">All changes</a><a href="/alerts/">Alerts</a>
-    <a href="/data/">Data (CC0)</a><a href="${REPO}">GitHub</a><a href="/feed.xml">RSS</a>
+    <a href="/data/">Data (CC0)</a><a href="${REPO}">GitHub</a><a rel="me" href="https://mastodon.social/@scanrecords_org">Mastodon</a><a href="/feed.xml">RSS</a>
   </div>
   <div class="fcol"><h4>Rules</h4>
     <a href="/about/">Method</a><a href="${REPO}/blob/main/POLICY.md">Editorial policy</a>
@@ -1735,6 +1736,7 @@ function pageLoc(code, L, { title, desc, path, active, body, alts }) {
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${SITE}${path}">
 <link rel="alternate" type="application/rss+xml" title="ScanRecords — recorded changes" href="${SITE}/feed.xml">
+<link rel="me" href="https://mastodon.social/@scanrecords_org">
 ${hreflang}
 <link rel="icon" href="${FAVICON}">
 <link rel="manifest" href="/manifest.webmanifest">
