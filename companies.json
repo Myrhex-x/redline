@@ -4,235 +4,761 @@
     {
       "name": "Discord",
       "slug": "discord",
-      "appstore": { "id": 985746746, "expect": "Discord" },
+      "appstore": {
+        "id": 985746746,
+        "expect": "Discord"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://discord.com/privacy" },
-        { "id": "terms", "title": "Terms of Service", "url": "https://discord.com/terms" },
-        { "id": "guidelines", "title": "Community Guidelines", "url": "https://discord.com/guidelines" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://discord.com/privacy"
+        },
+        {
+          "id": "terms",
+          "title": "Terms of Service",
+          "url": "https://discord.com/terms"
+        },
+        {
+          "id": "guidelines",
+          "title": "Community Guidelines",
+          "url": "https://discord.com/guidelines"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Discord’s safety documentation discloses hash-matching of uploaded media (PhotoDNA) and reporting to the NCMEC CyberTipline.",
+        "sources": [
+          {
+            "t": "Discord Safety hub",
+            "u": "https://discord.com/safety"
+          },
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Telegram",
       "slug": "telegram",
-      "appstore": { "id": 686449807, "expect": "Telegram" },
+      "appstore": {
+        "id": 686449807,
+        "expect": "Telegram"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://telegram.org/privacy" },
-        { "id": "terms", "title": "Terms of Service", "url": "https://telegram.org/tos" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://telegram.org/privacy"
+        },
+        {
+          "id": "terms",
+          "title": "Terms of Service",
+          "url": "https://telegram.org/tos"
+        }
+      ],
+      "chatControl": {
+        "status": "unclear",
+        "note": "Cloud chats are not end-to-end encrypted — Telegram can read them; secret chats are E2EE. In December 2024 Telegram announced use of IWF tools to block known CSAM; its documents do not state whether private cloud chats are proactively scanned.",
+        "sources": [
+          {
+            "t": "Archived privacy policy",
+            "u": "/archive/telegram/privacy.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Signal",
       "slug": "signal",
-      "appstore": { "id": 874139669, "expect": "Signal" },
+      "appstore": {
+        "id": 874139669,
+        "expect": "Signal"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy & Terms", "url": "https://signal.org/legal/" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy & Terms",
+          "url": "https://signal.org/legal/"
+        }
+      ],
+      "chatControl": {
+        "status": "e2ee",
+        "note": "Everything is end-to-end encrypted, always. Signal cannot read message content, so there is nothing a server-side scanner could scan.",
+        "sources": [
+          {
+            "t": "Archived privacy policy",
+            "u": "/archive/signal/privacy.txt"
+          }
+        ]
+      }
     },
     {
       "name": "WhatsApp",
       "slug": "whatsapp",
-      "appstore": { "id": 310633997, "expect": "WhatsApp" },
+      "appstore": {
+        "id": 310633997,
+        "expect": "WhatsApp"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy (EEA)", "url": "https://www.whatsapp.com/legal/privacy-policy-eea" },
-        { "id": "security", "title": "Security / E2EE description", "url": "https://www.whatsapp.com/security" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy (EEA)",
+          "url": "https://www.whatsapp.com/legal/privacy-policy-eea"
+        },
+        {
+          "id": "security",
+          "title": "Security / E2EE description",
+          "url": "https://www.whatsapp.com/security"
+        }
+      ],
+      "chatControl": {
+        "status": "e2ee",
+        "note": "Chats are E2EE by default and excluded from voluntary scanning. Metadata is not E2EE, and unencrypted cloud backups are an optional weak point.",
+        "sources": [
+          {
+            "t": "Archived E2EE description",
+            "u": "/archive/whatsapp/security.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Meta (Facebook, Instagram, Messenger)",
       "slug": "meta",
-      "appstore": { "id": 284882215, "expect": "Facebook" },
+      "appstore": {
+        "id": 284882215,
+        "expect": "Facebook"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.facebook.com/privacy/policy/" },
-        { "id": "law-enforcement", "title": "Law Enforcement Guidelines", "url": "https://www.facebook.com/safety/groups/law/guidelines/" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://www.facebook.com/privacy/policy/"
+        },
+        {
+          "id": "law-enforcement",
+          "title": "Law Enforcement Guidelines",
+          "url": "https://www.facebook.com/safety/groups/law/guidelines/"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Meta is consistently the largest reporter to the NCMEC CyberTipline. Messenger personal chats have been E2EE by default since December 2023; Instagram DMs are not E2EE.",
+        "sources": [
+          {
+            "t": "Meta transparency reports",
+            "u": "https://transparency.meta.com/reports/community-standards-enforcement/"
+          },
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Google (Gmail)",
       "slug": "google",
-      "appstore": { "id": 422689480, "expect": "Gmail" },
+      "appstore": {
+        "id": 422689480,
+        "expect": "Gmail"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://policies.google.com/privacy?hl=en" },
-        { "id": "gov-requests", "title": "Government Information Requests", "url": "https://policies.google.com/terms/information-requests?hl=en" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://policies.google.com/privacy?hl=en"
+        },
+        {
+          "id": "gov-requests",
+          "title": "Government Information Requests",
+          "url": "https://policies.google.com/terms/information-requests?hl=en"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Google discloses automated CSAM detection (hash matching and classifiers) across products including Gmail, with a dedicated transparency report.",
+        "sources": [
+          {
+            "t": "Google CSAM transparency report",
+            "u": "https://transparencyreport.google.com/child-sexual-abuse-material/reporting"
+          }
+        ]
+      }
     },
     {
       "name": "Microsoft (Outlook, Teams)",
       "slug": "microsoft",
-      "ignore": ["^This is the Trace Id: [0-9a-f]+$"],
-      "appstore": { "id": 951937596, "expect": "Outlook" },
+      "ignore": [
+        "^This is the Trace Id: [0-9a-f]+$"
+      ],
+      "appstore": {
+        "id": 951937596,
+        "expect": "Outlook"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Statement", "url": "https://privacy.microsoft.com/en-us/privacystatement" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Statement",
+          "url": "https://privacy.microsoft.com/en-us/privacystatement"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Microsoft invented PhotoDNA and discloses automated detection across consumer services including Outlook.",
+        "sources": [
+          {
+            "t": "PhotoDNA",
+            "u": "https://www.microsoft.com/en-us/photodna"
+          },
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Apple (iMessage, iCloud)",
       "slug": "apple",
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.apple.com/legal/privacy/en-ww/" },
-        { "id": "icloud-security", "title": "iCloud Data Security Overview", "url": "https://support.apple.com/en-us/102651" },
-        { "id": "imessage-security", "title": "iMessage Security Overview", "url": "https://support.apple.com/guide/security/imessage-security-overview-secd9764312f/web" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://www.apple.com/legal/privacy/en-ww/"
+        },
+        {
+          "id": "icloud-security",
+          "title": "iCloud Data Security Overview",
+          "url": "https://support.apple.com/en-us/102651"
+        },
+        {
+          "id": "imessage-security",
+          "title": "iMessage Security Overview",
+          "url": "https://support.apple.com/guide/security/imessage-security-overview-secd9764312f/web"
+        }
+      ],
+      "chatControl": {
+        "status": "e2ee",
+        "note": "iMessage is end-to-end encrypted. Apple abandoned its 2021 on-device photo-scanning plan in 2022; it has separately stated that iCloud Mail attachments are checked for known CSAM.",
+        "sources": [
+          {
+            "t": "Archived iMessage security overview",
+            "u": "/archive/apple/imessage-security.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Snapchat",
       "slug": "snapchat",
-      "appstore": { "id": 447188370, "expect": "Snapchat" },
+      "appstore": {
+        "id": 447188370,
+        "expect": "Snapchat"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://values.snap.com/privacy/privacy-policy" },
-        { "id": "guidelines", "title": "Community Guidelines", "url": "https://values.snap.com/privacy/transparency/community-guidelines" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://values.snap.com/privacy/privacy-policy"
+        },
+        {
+          "id": "guidelines",
+          "title": "Community Guidelines",
+          "url": "https://values.snap.com/privacy/transparency/community-guidelines"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Snap’s transparency reporting discloses PhotoDNA and Google CSAI Match detection and NCMEC reporting.",
+        "sources": [
+          {
+            "t": "Snap transparency hub",
+            "u": "https://values.snap.com/privacy/transparency"
+          }
+        ]
+      }
     },
     {
       "name": "TikTok",
       "slug": "tiktok",
-      "appstore": { "id": 835599320, "expect": "TikTok" },
+      "appstore": {
+        "id": 835599320,
+        "expect": "TikTok"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy (EEA)", "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en" },
-        { "id": "guidelines", "title": "Community Guidelines", "url": "https://www.tiktok.com/community-guidelines/en/" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy (EEA)",
+          "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en"
+        },
+        {
+          "id": "guidelines",
+          "title": "Community Guidelines",
+          "url": "https://www.tiktok.com/community-guidelines/en/"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "TikTok discloses automated detection of child sexual abuse material and NCMEC reporting.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "X",
       "slug": "x",
-      "appstore": { "id": 333903271, "expect": "X" },
+      "appstore": {
+        "id": 333903271,
+        "expect": "X"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://x.com/en/privacy" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://x.com/en/privacy"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "X discloses hash-matching (PhotoDNA) of media and NCMEC reporting.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Reddit",
       "slug": "reddit",
-      "appstore": { "id": 1064216828, "expect": "Reddit" },
+      "appstore": {
+        "id": 1064216828,
+        "expect": "Reddit"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.reddit.com/policies/privacy-policy" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://www.reddit.com/policies/privacy-policy"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Reddit discloses automated CSAM detection and NCMEC reporting in its transparency reports.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Proton",
       "slug": "proton",
-      "appstore": { "id": 979659905, "expect": "Proton Mail" },
+      "appstore": {
+        "id": 979659905,
+        "expect": "Proton Mail"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://proton.me/legal/privacy" },
-        { "id": "security", "title": "Security / E2EE description", "url": "https://proton.me/mail/security" },
-        { "id": "transparency", "title": "Transparency Report", "url": "https://proton.me/legal/transparency" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://proton.me/legal/privacy"
+        },
+        {
+          "id": "security",
+          "title": "Security / E2EE description",
+          "url": "https://proton.me/mail/security"
+        },
+        {
+          "id": "transparency",
+          "title": "Transparency Report",
+          "url": "https://proton.me/legal/transparency"
+        }
+      ],
+      "chatControl": {
+        "status": "denies",
+        "note": "Stored mail is under zero-access encryption; Proton states it does not scan message content and acts on user reports instead.",
+        "sources": [
+          {
+            "t": "Archived privacy policy",
+            "u": "/archive/proton/privacy.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Threema",
       "slug": "threema",
-      "appstore": { "id": 578665578, "expect": "Threema" },
+      "appstore": {
+        "id": 578665578,
+        "expect": "Threema"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://threema.com/en/privacy-policy" },
-        { "id": "security", "title": "Security page", "url": "https://threema.com/en/security" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://threema.com/en/privacy-policy"
+        },
+        {
+          "id": "security",
+          "title": "Security page",
+          "url": "https://threema.com/en/security"
+        }
+      ],
+      "chatControl": {
+        "status": "e2ee",
+        "note": "End-to-end encrypted by default with minimal metadata by design; out of scope of voluntary scanning.",
+        "sources": [
+          {
+            "t": "Archived security page",
+            "u": "/archive/threema/security.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Viber",
       "slug": "viber",
-      "appstore": { "id": 382617920, "expect": "Viber" },
+      "appstore": {
+        "id": 382617920,
+        "expect": "Viber"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.viber.com/en/terms/viber-privacy-policy/" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://www.viber.com/en/terms/viber-privacy-policy/"
+        }
+      ],
+      "chatControl": {
+        "status": "e2ee",
+        "note": "One-to-one and group chats have been E2EE by default since 2016; excluded from voluntary scanning.",
+        "sources": [
+          {
+            "t": "Archived privacy policy",
+            "u": "/archive/viber/privacy.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Slack",
       "slug": "slack",
-      "appstore": { "id": 618783545, "expect": "Slack" },
+      "appstore": {
+        "id": 618783545,
+        "expect": "Slack"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://slack.com/trust/privacy/privacy-policy" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://slack.com/trust/privacy/privacy-policy"
+        }
+      ],
+      "chatControl": {
+        "status": "unclear",
+        "note": "Workspace content is not end-to-end encrypted — Slack can read it. No clear public statement on proactive scanning of private workspaces was found in tracked documents.",
+        "sources": [
+          {
+            "t": "Archived privacy policy",
+            "u": "/archive/slack/privacy.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Zoom",
       "slug": "zoom",
-      "appstore": { "id": 546505307, "expect": "Zoom" },
+      "appstore": {
+        "id": 546505307,
+        "expect": "Zoom"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Statement", "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Statement",
+          "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Zoom reports to the NCMEC CyberTipline. An optional end-to-end encrypted meeting mode exists but is off by default.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Twitch",
       "slug": "twitch",
       "ua": "browser",
-      "appstore": { "id": 460177396, "expect": "Twitch" },
+      "appstore": {
+        "id": 460177396,
+        "expect": "Twitch"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Notice", "url": "https://www.twitch.tv/p/en/legal/privacy-notice/" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Notice",
+          "url": "https://www.twitch.tv/p/en/legal/privacy-notice/"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Twitch discloses detection and NCMEC reporting of child sexual abuse material.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "LinkedIn",
       "slug": "linkedin",
-      "appstore": { "id": 288429040, "expect": "LinkedIn" },
+      "appstore": {
+        "id": 288429040,
+        "expect": "LinkedIn"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.linkedin.com/legal/privacy-policy" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://www.linkedin.com/legal/privacy-policy"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Microsoft-owned; discloses automated detection of exploitation imagery and NCMEC reporting.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Pinterest",
       "slug": "pinterest",
-      "appstore": { "id": 429047995, "expect": "Pinterest" },
+      "appstore": {
+        "id": 429047995,
+        "expect": "Pinterest"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://policy.pinterest.com/en/privacy-policy" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://policy.pinterest.com/en/privacy-policy"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Pinterest discloses automated CSAM detection and NCMEC reporting.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Steam",
       "slug": "steam",
-      "appstore": { "id": 495369748, "expect": "Steam" },
+      "appstore": {
+        "id": 495369748,
+        "expect": "Steam"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://store.steampowered.com/privacy_agreement/?l=english" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://store.steampowered.com/privacy_agreement/?l=english"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Valve appears in NCMEC CyberTipline disclosures; detection concerns uploaded content rather than private messages at scale.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "PlayStation (Sony)",
       "slug": "playstation",
-      "appstore": { "id": 410896080, "expect": "PlayStation" },
+      "appstore": {
+        "id": 410896080,
+        "expect": "PlayStation"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy (EU)", "url": "https://www.playstation.com/en-gb/legal/privacy-policy/" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy (EU)",
+          "url": "https://www.playstation.com/en-gb/legal/privacy-policy/"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Sony Interactive Entertainment discloses content moderation including CSAM reporting to NCMEC.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Olvid",
       "slug": "olvid",
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://olvid.io/privacy/en/" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://olvid.io/privacy/en/"
+        }
+      ],
+      "chatControl": {
+        "status": "e2ee",
+        "note": "End-to-end encrypted by default, certified by France’s ANSSI and used inside the French government; out of scope.",
+        "sources": [
+          {
+            "t": "Archived privacy policy",
+            "u": "/archive/olvid/privacy.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Wire",
       "slug": "wire",
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://wire.com/en/privacy-policy" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://wire.com/en/privacy-policy"
+        }
+      ],
+      "chatControl": {
+        "status": "e2ee",
+        "note": "End-to-end encrypted (Proteus/MLS) by default; out of scope of voluntary scanning.",
+        "sources": [
+          {
+            "t": "Archived privacy policy",
+            "u": "/archive/wire/privacy.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Element (Matrix)",
       "slug": "element",
-      "appstore": { "id": 1083446067, "expect": "Element" },
+      "appstore": {
+        "id": 1083446067,
+        "expect": "Element"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://element.io/privacy" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://element.io/privacy"
+        }
+      ],
+      "chatControl": {
+        "status": "e2ee",
+        "note": "Matrix end-to-end encryption is on by default for private conversations; out of scope.",
+        "sources": [
+          {
+            "t": "Archived privacy policy",
+            "u": "/archive/element/privacy.txt"
+          }
+        ]
+      }
     },
     {
       "name": "GMX (1&1 Mail)",
       "slug": "gmx",
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.gmx.com/company/privacypolicy/" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy",
+          "url": "https://www.gmx.com/company/privacypolicy/"
+        }
+      ],
+      "chatControl": {
+        "status": "unclear",
+        "note": "Mail is not end-to-end encrypted by default. No public statement on voluntary scanning found in tracked documents; German mail providers have generally not joined voluntary scanning.",
+        "sources": [
+          {
+            "t": "Archived privacy policy",
+            "u": "/archive/gmx/privacy.txt"
+          }
+        ]
+      }
     },
     {
       "name": "Yahoo Mail",
       "slug": "yahoo",
-      "appstore": { "id": 577586159, "expect": "Yahoo Mail" },
+      "appstore": {
+        "id": 577586159,
+        "expect": "Yahoo Mail"
+      },
       "docs": [
-        { "id": "privacy", "title": "Privacy Policy (EU)", "url": "https://legal.yahoo.com/ie/en/yahoo/privacy/index.html" }
-      ]
+        {
+          "id": "privacy",
+          "title": "Privacy Policy (EU)",
+          "url": "https://legal.yahoo.com/ie/en/yahoo/privacy/index.html"
+        }
+      ],
+      "chatControl": {
+        "status": "scans",
+        "note": "Yahoo is a long-standing NCMEC reporter and discloses automated detection in its mail services.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     },
     {
       "name": "Roblox",
       "slug": "roblox",
-      "appstore": { "id": 431946152, "expect": "Roblox" },
-      "docs": []
+      "appstore": {
+        "id": 431946152,
+        "expect": "Roblox"
+      },
+      "docs": [],
+      "chatControl": {
+        "status": "scans",
+        "note": "Roblox operates extensive automated child-safety moderation and is among the larger NCMEC reporters. Its policy pages currently block archiving — the block is recorded.",
+        "sources": [
+          {
+            "t": "NCMEC CyberTipline data",
+            "u": "https://www.missingkids.org/cybertiplinedata"
+          }
+        ]
+      }
     }
   ],
   "blocked": [
@@ -246,5 +772,6 @@
       "url": "https://www.epicgames.com/site/en-US/privacypolicy",
       "reason": "Cloudflare returns 403 to non-browser TLS fingerprints regardless of user-agent (recorded 2026-07-26). Needs a headless-browser lane. App Store label is tracked meanwhile."
     }
-  ]
+  ],
+  "assessed": "2026-07-26"
 }

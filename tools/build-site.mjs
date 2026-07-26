@@ -34,10 +34,11 @@ const fmtDate = (iso) => {
   const [y, m, d] = iso.slice(0, 10).split("-").map(Number);
   return `${d} ${MONTHS[m - 1]} ${y}`;
 };
-const daysSince = (iso) => Math.max(0, Math.floor((Date.now() - new Date(iso)) / 86400000));
 
 // ---------------------------------------------------------------- data ----
-const { companies, blocked = [] } = loadJSON(join(ROOT, "companies.json"), { companies: [] });
+const config = loadJSON(join(ROOT, "companies.json"), { companies: [] });
+const { companies, blocked = [] } = config;
+const ASSESSED = config.assessed ?? "2026-07-26";
 const history = loadJSON(join(ROOT, "history.json"), []);
 
 const archive = new Map(); // slug -> { docs: Map(docId -> meta), label, labelMeta }
@@ -68,6 +69,22 @@ const lastFetch = [...archive.values()]
   .at(-1);
 const baselineDate = history.length ? history[history.length - 1].date : "2026-07-26";
 
+// Chat Control status taxonomy. Order = display order (most to least concerning).
+const STATUS = {
+  scans: { label: "States it scans content", cls: "st-scans",
+    blurb: "The company's own public documents or transparency reporting disclose automated detection on user content." },
+  unclear: { label: "No clear public statement", cls: "st-unclear",
+    blurb: "Not end-to-end encrypted, and no clear public statement about scanning private communications was found." },
+  denies: { label: "States it does not scan", cls: "st-denies",
+    blurb: "The company publicly states that it does not scan message content." },
+  e2ee: { label: "End-to-end encrypted — out of scope", cls: "st-e2ee",
+    blurb: "Content is end-to-end encrypted; E2EE communications are formally excluded from Chat Control's voluntary scanning." },
+};
+const groups = Object.keys(STATUS).map((k) => ({
+  key: k, ...STATUS[k],
+  companies: companies.filter((c) => (c.chatControl?.status ?? "unclear") === k),
+}));
+
 // --------------------------------------------------------------- style ----
 const CSS = `
 :root { color-scheme: light dark;
@@ -85,6 +102,9 @@ body { background:var(--bg); color:var(--fg);
 a { color:inherit; text-decoration:none; }
 main a:not(.plain), footer a { text-decoration:underline; text-decoration-color:var(--faint); text-underline-offset:3px; }
 main a:hover, footer a:hover { text-decoration-color:var(--fg); }
+a:focus-visible { outline:2px solid var(--fg); outline-offset:2px; border-radius:2px; }
+.skip { position:absolute; left:-9999px; }
+.skip:focus { left:12px; top:10px; z-index:10; background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:.5rem .9rem; }
 .mono { font-family:ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace; font-size:.86em; }
 .dim { color:var(--dim); } .faint { color:var(--faint); }
 .wrap { max-width:66rem; margin:0 auto; padding:0 22px; }
@@ -92,10 +112,10 @@ header.top { border-bottom:1px solid var(--line); }
 header.top .wrap { display:flex; align-items:baseline; gap:1.4rem; padding-top:18px; padding-bottom:14px; flex-wrap:wrap; }
 .wm { font-weight:650; letter-spacing:-.02em; font-size:1.05rem; }
 .wm .half { color:var(--dim); font-weight:500; }
-nav.site { display:flex; gap:1.1rem; font-size:.92rem; color:var(--dim); margin-left:auto; }
+nav.site { display:flex; gap:1.1rem; font-size:.92rem; color:var(--dim); margin-left:auto; flex-wrap:wrap; }
 nav.site a[aria-current] { color:var(--fg); }
 main { padding:2.6rem 0 3.5rem; }
-h1 { font-size:1.7rem; letter-spacing:-.025em; line-height:1.25; font-weight:650; }
+h1 { font-size:1.7rem; letter-spacing:-.025em; line-height:1.25; font-weight:650; max-width:46rem; }
 h2 { font-size:1.02rem; font-weight:650; letter-spacing:.01em; margin:2.6rem 0 .9rem; }
 p.lede { font-size:1.06rem; max-width:44rem; margin-top:.9rem; color:var(--dim); }
 p.lede strong { color:var(--fg); font-weight:600; }
@@ -103,6 +123,17 @@ p.lede strong { color:var(--fg); font-weight:600; }
 .stat b { display:block; font-size:1.25rem; font-weight:650; letter-spacing:-.02em; }
 .stat span { font-size:.82rem; color:var(--dim); }
 .livedot { display:inline-block; width:.5em; height:.5em; border-radius:50%; background:var(--live); margin-right:.45em; }
+.dot { display:inline-block; width:.55em; height:.55em; border-radius:50%; margin-right:.5em; background:var(--faint); }
+.st-scans .dot { background:var(--del-fg); }
+.st-e2ee .dot { background:var(--live); }
+.st-denies .dot { background:transparent; box-shadow:inset 0 0 0 1.5px var(--live); }
+.st-unclear .dot { background:var(--faint); }
+.legend { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1.6rem; }
+.legend a { border:1px solid var(--line); border-radius:99px; padding:.3rem .85rem; font-size:.86rem; color:var(--dim); text-decoration:none; }
+.legend a b { color:var(--fg); font-weight:650; }
+.grouphead { display:flex; align-items:baseline; gap:.8rem; flex-wrap:wrap; }
+.grouphead .count { color:var(--faint); font-weight:400; }
+p.groupnote { font-size:.88rem; color:var(--dim); max-width:44rem; margin:-.3rem 0 .8rem; }
 table { width:100%; border-collapse:collapse; font-size:.93rem; }
 th { text-align:left; font-size:.74rem; text-transform:uppercase; letter-spacing:.06em; color:var(--faint); font-weight:600; padding:.5rem .8rem .5rem 0; border-bottom:1px solid var(--line); }
 td { padding:.62rem .8rem .62rem 0; border-bottom:1px solid var(--line); vertical-align:top; }
@@ -115,6 +146,11 @@ tr:hover td { background:var(--soft); }
 .delta { white-space:nowrap; }
 .delta .a { color:var(--add-fg); } .delta .r { color:var(--del-fg); }
 .empty { border:1px dashed var(--line); border-radius:10px; padding:1.4rem 1.5rem; color:var(--dim); max-width:44rem; }
+.banner { border:1px solid var(--line); border-left-width:4px; border-radius:10px; padding:1rem 1.2rem; margin:1.5rem 0; max-width:46rem; }
+.banner.st-scans { border-left-color:var(--del-fg); }
+.banner.st-e2ee, .banner.st-denies { border-left-color:var(--live); }
+.banner.st-unclear { border-left-color:var(--faint); }
+.banner .srcs { font-size:.85rem; color:var(--dim); margin-top:.55rem; }
 .diff { border:1px solid var(--line); border-radius:10px; overflow:hidden; margin:1.1rem 0; }
 .diff .hunkhead { padding:.35rem .9rem; background:var(--soft); color:var(--faint); border-top:1px solid var(--line); }
 .diff .hunkhead:first-child { border-top:0; }
@@ -122,6 +158,7 @@ tr:hover td { background:var(--soft); }
 .diff .ln { display:block; padding:.13rem .9rem; white-space:pre-wrap; word-break:break-word; }
 .diff .add { background:var(--add-bg); color:var(--add-fg); }
 .diff .del { background:var(--del-bg); color:var(--del-fg); }
+.cite { background:var(--soft); border:1px solid var(--line); border-radius:10px; padding:1rem 1.2rem; max-width:46rem; overflow-wrap:anywhere; }
 .label-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(15rem,1fr)); gap:1rem; margin-top:1rem; }
 .label-card { border:1px solid var(--line); border-radius:10px; padding:1rem 1.1rem; }
 .label-card h3 { font-size:.92rem; font-weight:650; margin-bottom:.5rem; }
@@ -133,9 +170,16 @@ footer.site { border-top:1px solid var(--line); }
 footer.site .wrap { padding:1.4rem 22px 2.2rem; font-size:.84rem; color:var(--dim); display:flex; gap:1.4rem; flex-wrap:wrap; }
 .note { font-size:.88rem; color:var(--dim); max-width:44rem; }
 .about h2 { margin-top:2.2rem; }
-.about p, .about ul { max-width:44rem; margin-bottom: .9rem; }
+.about p, .about ul { max-width:44rem; margin-bottom:.9rem; }
 .about ul { padding-left:1.2rem; }
 .about li { margin-bottom:.4rem; }
+@media print {
+  header.top nav, footer.site, .legend, .skip { display:none !important; }
+  body { font-size:12px; }
+  main { padding:0; }
+  a { text-decoration:none !important; }
+  .diff, .banner, .cite { break-inside:avoid-page; border-color:#bbb; }
+}
 `;
 
 // --------------------------------------------------------------- shell ----
@@ -145,7 +189,10 @@ const FAVICON =
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#111"/><path d="M8 10h16M8 16h16M8 22h10" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>`
   );
 
+const SITEMAP = [];
+
 function page({ title, desc, path, active, body }) {
+  SITEMAP.push(path);
   const navLink = (href, label, key) =>
     `<a href="${href}"${active === key ? ' aria-current="page"' : ""}>${label}</a>`;
   return `<!doctype html>
@@ -158,19 +205,32 @@ function page({ title, desc, path, active, body }) {
 <link rel="canonical" href="${SITE}${path}">
 <link rel="icon" href="${FAVICON}">
 <link rel="alternate" type="application/rss+xml" title="ScanRecords changes" href="${SITE}/feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ScanRecords">
+<meta property="og:title" content="${esc(title)}">
+<meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${SITE}${path}">
+<meta property="og:image" content="${SITE}/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(desc)}">
+<meta name="twitter:image" content="${SITE}/og.png">
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="wrap">
   <a class="wm plain" href="/">Scan<span class="half">Records</span></a>
   <nav class="site">
     ${navLink("/", "Changes", "home")}
     ${navLink("/companies/", "Companies", "companies")}
+    ${navLink("/chat-control/", "Chat Control", "cc")}
     ${navLink("/about/", "About", "about")}
+    ${navLink("/data/", "Data", "data")}
     <a href="${REPO}">GitHub</a>
   </nav>
 </div></header>
-<main><div class="wrap">
+<main id="main"><div class="wrap">
 ${body}
 </div></main>
 <footer class="site"><div class="wrap">
@@ -208,10 +268,30 @@ function companyRow(c) {
     : `<span class="dim">quiet since baseline</span>`;
   return `<tr>
     <td><a href="/company/${c.slug}/"><strong>${esc(c.name)}</strong></a></td>
-    <td class="dim">${a.docs.size} tracked${a.docs.size !== c.docs.length ? "" : ""}</td>
+    <td class="dim">${a.docs.size ? `${a.docs.size} tracked` : `<span title="Policy pages block archiving">blocked</span>`}</td>
     <td>${a.label ? `<span class="mono dim">✓</span>` : `<span class="faint">—</span>`}</td>
     <td>${status}</td>
   </tr>`;
+}
+
+function legend() {
+  return `<div class="legend">${groups
+    .map((g) => `<a class="${g.cls}" href="#${g.key}"><span class="dot"></span><b>${g.companies.length}</b> ${g.label.toLowerCase()}</a>`)
+    .join("")}</div>`;
+}
+
+function groupedTables() {
+  return groups
+    .map(
+      (g) => `
+  <h2 class="grouphead" id="${g.key}"><span class="${g.cls}"><span class="dot"></span>${g.label}</span> <span class="count">${g.companies.length}</span></h2>
+  <p class="groupnote">${g.blurb}</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Company</th><th>Documents</th><th>App label</th><th>Last change</th></tr></thead>
+    <tbody>${g.companies.map(companyRow).join("")}</tbody>
+  </table></div>`
+    )
+    .join("");
 }
 
 const PRIVACY_ORDER = ["DATA_USED_TO_TRACK_YOU", "DATA_LINKED_TO_YOU", "DATA_NOT_LINKED_TO_YOU", "DATA_NOT_COLLECTED"];
@@ -238,7 +318,7 @@ rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
 
-// index — the change feed
+// index — the checker + the change feed
 {
   const recent = realChanges.slice(0, 40);
   const feed = recent.length
@@ -247,11 +327,13 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
        Quiet is the point — the moment a tracked document changes, the change appears here
        with its full before and after.</div>`;
   const body = `
-  <h1>What communication platforms say they do with your messages — recorded daily.</h1>
-  <p class="lede">ScanRecords keeps a public archive of the privacy policies, terms of service,
-  encryption claims and App Store privacy labels of <strong>${companies.length} communication
-  platforms</strong> serving EU users. When a sentence changes, the record shows
-  <strong>what changed and when</strong>, with the before and after preserved.</p>
+  <h1>Is your messaging app scanning under the EU's Chat Control?</h1>
+  <p class="lede">Under the EU's ePrivacy derogation — <strong>"Chat Control", extended to
+  April 2028</strong> — providers may voluntarily scan private communications.
+  End-to-end encrypted messengers are excluded. ScanRecords tracks what
+  <strong>${companies.length} platforms' own public documents say</strong>, and records every
+  change, daily. <a href="/chat-control/">How statuses are assigned →</a></p>
+  ${legend()}
   <div class="stats">
     <div class="stat"><b>${companies.length}</b><span>companies</span></div>
     <div class="stat"><b>${docCount}</b><span>documents</span></div>
@@ -264,16 +346,12 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
   <p class="note" style="margin-top:1rem">Baseline: ${fmtDate(baselineDate)} — ${docCount} documents
   and ${labelCount} labels first recorded. Every snapshot since is a commit in the
   <a href="${REPO}">public repository</a>; nothing here can be silently rewritten, including by us.</p>
-  <h2>Tracked companies</h2>
-  <div class="scroll"><table>
-    <thead><tr><th>Company</th><th>Documents</th><th>App label</th><th>Status</th></tr></thead>
-    <tbody>${companies.map(companyRow).join("")}</tbody>
-  </table></div>`;
+  ${groupedTables()}`;
   writeFileSync(
     join(OUT, "index.html"),
     page({
-      title: "ScanRecords — the policy change archive",
-      desc: "A public, daily archive of the privacy policies, terms and App Store privacy labels of communication platforms serving EU users. Every change recorded, with the before and after.",
+      title: "ScanRecords — is your app scanning under the EU's Chat Control?",
+      desc: "Check what your messaging app's own documents say about scanning under the EU's Chat Control — recorded daily, every change preserved with its before and after.",
       path: "/", active: "home", body,
     })
   );
@@ -284,11 +362,10 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
   const body = `
   <h1>Tracked companies</h1>
   <p class="lede">${companies.length} platforms, ${docCount} documents, ${labelCount} App Store labels —
-  snapshotted daily at 06:17 UTC.</p>
-  <div class="scroll" style="margin-top:1.6rem"><table>
-    <thead><tr><th>Company</th><th>Documents</th><th>App label</th><th>Status</th></tr></thead>
-    <tbody>${companies.map(companyRow).join("")}</tbody>
-  </table></div>
+  snapshotted daily at 06:17 UTC. Statuses assessed ${fmtDate(ASSESSED)};
+  <a href="/chat-control/">how they're assigned</a>.</p>
+  ${legend()}
+  ${groupedTables()}
   ${blocked.length ? `<h2>Currently untrackable</h2>
   <p class="note">These pages block automated archiving; the block itself is the recorded fact.</p>
   <div class="scroll"><table><thead><tr><th>Target</th><th>Reason</th></tr></thead><tbody>
@@ -297,7 +374,7 @@ writeFileSync(join(OUT, "style.css"), CSS.trim() + "\n");
   mkdirSync(join(OUT, "companies"), { recursive: true });
   writeFileSync(
     join(OUT, "companies", "index.html"),
-    page({ title: "Tracked companies — ScanRecords", desc: "Every platform tracked by the ScanRecords archive.", path: "/companies/", active: "companies", body })
+    page({ title: "Tracked companies — ScanRecords", desc: "Every platform tracked by the ScanRecords archive, grouped by what their own documents say about scanning.", path: "/companies/", active: "companies", body })
   );
 }
 
@@ -306,6 +383,18 @@ for (const c of companies) {
   const a = archive.get(c.slug) ?? { docs: new Map(), label: null, labelMeta: null };
   const evts = changesBySlug.get(c.slug) ?? [];
   const real = evts.filter((e) => e.kind !== "baseline");
+  const cc = c.chatControl ?? { status: "unclear", note: "", sources: [] };
+  const st = STATUS[cc.status] ?? STATUS.unclear;
+  const srcs = (cc.sources ?? [])
+    .map((s) => `<a href="${esc(s.u)}">${esc(s.t)}</a>`)
+    .join(" · ");
+  const banner = `
+  <div class="banner ${st.cls}">
+    <strong><span class="dot"></span>${st.label}</strong>
+    <span class="dim"> — assessed ${fmtDate(ASSESSED)}</span>
+    <div style="margin-top:.45rem">${esc(cc.note)}</div>
+    <div class="srcs">${srcs ? `Sources: ${srcs} · ` : ""}<a href="/chat-control/">what this status means</a> · <a href="${REPO}/issues">dispute it</a></div>
+  </div>`;
   const docRows = c.docs
     .map((d) => {
       const m = a.docs.get(d.id) ?? {};
@@ -326,6 +415,7 @@ for (const c of companies) {
   const body = `
   <p class="crumbs"><a href="/companies/">Companies</a> / ${esc(c.name)}</p>
   <h1>${esc(c.name)}</h1>
+  ${banner}
   <p class="lede">${c.docs.length} document${c.docs.length === 1 ? "" : "s"} tracked${a.label ? " · App Store privacy label tracked" : ""}${real.length ? ` · ${real.length} change${real.length === 1 ? "" : "s"} recorded` : " · no changes since baseline"}.</p>
   ${c.docs.length ? `<h2>Tracked documents</h2>
   <div class="scroll"><table class="doclist">
@@ -341,8 +431,8 @@ for (const c of companies) {
   writeFileSync(
     join(OUT, "company", c.slug, "index.html"),
     page({
-      title: `${c.name} — ScanRecords`,
-      desc: `Recorded policy documents and App Store privacy label for ${c.name}: what changed and when.`,
+      title: `${c.name}: ${st.label} — ScanRecords`,
+      desc: `${c.name} under the EU's Chat Control: ${st.label.toLowerCase()}. ${cc.note}`,
       path: `/company/${c.slug}/`, active: "companies", body,
     })
   );
@@ -353,6 +443,10 @@ const CHANGES_DIR = join(ROOT, "changes");
 for (const e of realChanges) {
   const detail = loadJSON(join(CHANGES_DIR, `${e.id}.json`), null);
   if (!detail) continue;
+  const a = archive.get(e.slug);
+  const meta = e.kind === "label-change" ? a?.labelMeta : a?.docs.get(e.doc);
+  const hash = meta?.labelHash ?? meta?.textHash ?? null;
+  const srcUrl = meta?.finalUrl ?? meta?.url ?? null;
   const diffHtml = detail.hunks
     .map(
       (h) => `<div class="hunkhead mono">${esc(h.header)}</div><pre>${h.lines
@@ -360,6 +454,10 @@ for (const e of realChanges) {
         .join("")}</pre>`
     )
     .join("");
+  const wayback = srcUrl
+    ? `<p class="note">Independent copy: whenever a change is recorded, the Internet Archive is asked to
+       capture the source page the same day — <a href="https://web.archive.org/web/${e.date.replaceAll("-", "")}*/${esc(srcUrl)}">find the same-day Wayback capture</a>.</p>`
+    : "";
   const body = `
   <p class="crumbs"><a href="/company/${e.slug}/">${esc(e.company)}</a> / ${esc(e.docTitle)}</p>
   <h1>${esc(e.company)} changed its ${esc(e.docTitle)}</h1>
@@ -369,7 +467,10 @@ for (const e of realChanges) {
   <div class="diff">${diffHtml}</div>
   ${detail.truncated ? `<p class="note">This diff is large and was truncated for display; the complete change is preserved in the <a href="${REPO}/commits/main">repository history</a>.</p>` : ""}
   <p class="note">Removed lines are how the document read before; added lines are how it reads now.
-  Verify independently: the snapshot files and their history are in the <a href="${REPO}">public repository</a>.</p>`;
+  Verify independently: the snapshot files and their history are in the <a href="${REPO}">public repository</a>.</p>
+  ${wayback}
+  <h2>Cite this record</h2>
+  <div class="cite mono" style="font-size:.85rem">ScanRecords. “${esc(e.company)} changed its ${esc(e.docTitle)}.” Recorded ${fmtDate(e.date)}. ${SITE}/change/${e.id}/${hash ? ` — snapshot SHA-256 (after): ${hash}.` : "."}</div>`;
   mkdirSync(join(OUT, "change", e.id), { recursive: true });
   writeFileSync(
     join(OUT, "change", e.id, "index.html"),
@@ -377,6 +478,67 @@ for (const e of realChanges) {
       title: `${e.company} — ${e.docTitle} changed ${fmtDate(e.date)} — ScanRecords`,
       desc: `${e.company} changed its ${e.docTitle} on ${fmtDate(e.date)}: +${e.added} lines, −${e.removed} lines. Full before/after recorded.`,
       path: `/change/${e.id}/`, active: "home", body,
+    })
+  );
+}
+
+// chat-control explainer
+{
+  const body = `<div class="about">
+  <h1>The EU's Chat Control, and what these statuses mean</h1>
+  <p class="lede">The short version: scanning of private communications in the EU is currently
+  <strong>voluntary, per provider</strong> — and end-to-end encrypted messengers are excluded.
+  So the practical question is what each provider chooses, and says, on its own.</p>
+
+  <h2>What Chat Control is</h2>
+  <p>The ePrivacy derogation (Regulation 2021/1232, widely called <strong>"Chat Control
+  1.0"</strong>) permits — but does not require — communication providers to scan private
+  messages for child sexual abuse material. It lapsed in April 2026, was reinstated by the
+  Council and survived a European Parliament rejection vote in July 2026, and now runs
+  until <strong>April 2028</strong>. An amendment adopted alongside it formally
+  <strong>excludes end-to-end encrypted communications</strong> from its scope.</p>
+  <p>A separate, permanent regulation (the CSA Regulation, <strong>"Chat Control 2.0"</strong>),
+  which could make detection mandatory, remains under negotiation between the Council and
+  Parliament. It is not law. If that changes, what these pages track — and this page —
+  will change with it.</p>
+  <p class="note">Background reading:
+  <a href="https://www.euronews.com/my-europe/2026/07/23/eu-temporarily-extends-controversial-chat-scanning-regime-until-2028">Euronews</a> ·
+  <a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> ·
+  <a href="https://edri.org/our-work/csa-regulation-document-pool/">EDRi's document pool</a></p>
+
+  <h2>The four statuses</h2>
+  <ul>
+    ${groups.map((g) => `<li><span class="${g.cls}"><span class="dot"></span><strong>${g.label}</strong></span> — ${g.blurb}</li>`).join("")}
+  </ul>
+
+  <h2>How statuses are assigned</h2>
+  <ul>
+    <li>Statuses reflect <strong>public statements</strong>: the company's own policies and
+    security pages (which this site snapshots daily), its transparency reports, and public
+    reporting data such as the <a href="https://www.missingkids.org/cybertiplinedata">NCMEC
+    CyberTipline disclosures</a>.</li>
+    <li>They are <strong>observations of what companies say, not measurements of what their
+    software does</strong>. Behavioral measurement is a different and harder project.</li>
+    <li>Each status was last assessed on ${fmtDate(ASSESSED)} and is reviewed when the
+    underlying documents change — which is exactly what the daily snapshots watch for.</li>
+    <li>Companies can dispute a status by <a href="${REPO}/issues">opening an issue</a>;
+    per the <a href="${REPO}/blob/main/POLICY.md">editorial policy</a>, disputes and
+    responses are published.</li>
+  </ul>
+
+  <h2>What would change a status</h2>
+  <p>Their own words. If a provider switches scanning on — or an encrypted messenger weakens
+  the sentence "we cannot read your messages" — it has to surface in the documents this site
+  records every morning. When it does, the change appears on the
+  <a href="/">front page</a> with its full before and after, and the status gets re-assessed.</p>
+  </div>`;
+  mkdirSync(join(OUT, "chat-control"), { recursive: true });
+  writeFileSync(
+    join(OUT, "chat-control", "index.html"),
+    page({
+      title: "What is the EU's Chat Control? — ScanRecords",
+      desc: "Chat Control in plain terms: voluntary scanning until April 2028, E2EE excluded — and how ScanRecords assigns each platform's status.",
+      path: "/chat-control/", active: "cc", body,
     })
   );
 }
@@ -389,9 +551,9 @@ for (const e of realChanges) {
   say they do with your messages — built so that quiet edits stop being quiet.</p>
 
   <h2>Why this exists</h2>
-  <p>Under the EU's ePrivacy derogation (extended to April 2028), scanning of
-  private communications is <em>voluntary</em>: each provider decides for itself
-  whether to scan. That decision is rarely announced. When it appears anywhere,
+  <p>Under the EU's <a href="/chat-control/">Chat Control</a> derogation (extended to April
+  2028), scanning of private communications is <em>voluntary</em>: each provider decides for
+  itself whether to scan. That decision is rarely announced. When it appears anywhere,
   it appears as a small edit to a policy document.</p>
   <p>Nobody was keeping the record, and a record like this cannot be
   reconstructed later — measurements of ${fmtDate(baselineDate)} can only be
@@ -411,14 +573,14 @@ for (const e of realChanges) {
     <li>Every day at 06:17 UTC, a zero-dependency tool fetches each tracked document, extracts its readable text, and stores text, raw HTML, and a SHA-256 hash.</li>
     <li>A snapshot is committed <strong>only when the extracted text actually changed</strong> — presentation churn is filtered, so every recorded change is a real change.</li>
     <li>Git history is the timestamped, tamper-evident record. The <a href="${REPO}">repository</a> is public: anyone can re-run the tools and verify any snapshot.</li>
+    <li>When a change is recorded, the <strong>Internet Archive</strong> is asked to capture the source page the same day — an independent, third-party timestamp of the same document.</li>
     <li>Fetches identify themselves as <span class="mono">ScanRecordsBot</span>. When a site blocks the bot, the block is recorded before any workaround is considered.</li>
   </ul>
 
   <h2>What this is not</h2>
   <p>ScanRecords publishes <strong>observations, not conclusions</strong>. A recorded
   change means the document changed — nothing more. Interpretation is left to the
-  reader; a platform's presence in the archive implies nothing about its behavior.
-  Corrections, vendor responses and takedown requests follow the fixed
+  reader. Corrections, vendor responses and takedown requests follow the fixed
   <a href="${REPO}/blob/main/POLICY.md">editorial policy</a>.</p>
 
   <h2>Limitations</h2>
@@ -436,6 +598,49 @@ for (const e of realChanges) {
     page({ title: "About — ScanRecords", desc: "Why ScanRecords exists, what it tracks, and how the archive works.", path: "/about/", active: "about", body })
   );
 }
+
+// data page
+{
+  const body = `<div class="about">
+  <h1>Data</h1>
+  <p class="lede">Everything this site knows is a plain file you can fetch. Build alerts,
+  dashboards, research — no key, no rate card, no account.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Endpoint</th><th>What it is</th></tr></thead><tbody>
+    <tr><td class="mono"><a href="/history.json">/history.json</a></td><td class="dim">Every recorded event, newest first: company, document, date, kind, +/− line counts, change id.</td></tr>
+    <tr><td class="mono"><a href="/companies.json">/companies.json</a></td><td class="dim">The tracked targets, their documents, App Store ids, and Chat Control statuses with sources.</td></tr>
+    <tr><td class="mono">/archive/&lt;company&gt;/&lt;doc&gt;.txt</td><td class="dim">Current extracted text of a tracked document (also <span class="mono">.html</span> raw, <span class="mono">.meta.json</span> provenance).</td></tr>
+    <tr><td class="mono">/archive/&lt;company&gt;/appstore-label.json</td><td class="dim">Current App Store privacy label, canonicalized.</td></tr>
+    <tr><td class="mono"><a href="/feed.xml">/feed.xml</a></td><td class="dim">RSS of recorded changes.</td></tr>
+    <tr><td class="mono"><a href="/sitemap.xml">/sitemap.xml</a></td><td class="dim">Every page.</td></tr>
+    </tbody></table></div>
+  <h2>Example</h2>
+  <div class="cite mono" style="font-size:.85rem">curl -s ${SITE}/history.json | head</div>
+  <h2>History and provenance</h2>
+  <p>Full version history of every file lives in the <a href="${REPO}">public git repository</a> —
+  each daily snapshot is a commit. The generated data files above are public domain (CC0);
+  archived documents remain the property of their owners, preserved as a public-interest record.</p>
+  </div>`;
+  mkdirSync(join(OUT, "data"), { recursive: true });
+  writeFileSync(
+    join(OUT, "data", "index.html"),
+    page({ title: "Data — ScanRecords", desc: "The whole archive as plain JSON and text endpoints. No key, no account.", path: "/data/", active: "data", body })
+  );
+}
+
+// 404
+writeFileSync(
+  join(OUT, "404.html"),
+  page({
+    title: "Not in the record — ScanRecords",
+    desc: "This page is not in the record.",
+    path: "/404", active: "none",
+    body: `<h1>Not in the record.</h1>
+  <p class="lede">Whatever was here, we have no snapshot of it.</p>
+  <p class="note"><a href="/">Latest changes</a> · <a href="/companies/">Tracked companies</a> · <a href="/about/">About</a></p>`,
+  })
+);
+SITEMAP.pop(); // 404 is not a sitemap entry
 
 // feed.xml — real changes only, plus a launch item
 {
@@ -469,10 +674,26 @@ ${items.join("\n")}
   );
 }
 
+// sitemap.xml
+{
+  const lastmod = (lastFetch ?? new Date().toISOString()).slice(0, 10);
+  writeFileSync(
+    join(OUT, "sitemap.xml"),
+    `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${SITEMAP.map((p) => `<url><loc>${SITE}${p}</loc><lastmod>${lastmod}</lastmod></url>`).join("\n")}
+</urlset>
+`
+  );
+}
+
 // static passthroughs
 cpSync(join(ROOT, "archive"), join(OUT, "archive"), { recursive: true });
 cpSync(join(ROOT, "robots.txt"), join(OUT, "robots.txt"));
 cpSync(join(ROOT, ".well-known"), join(OUT, ".well-known"), { recursive: true });
+cpSync(join(ROOT, "history.json"), join(OUT, "history.json"));
+cpSync(join(ROOT, "companies.json"), join(OUT, "companies.json"));
+if (existsSync(join(ROOT, "assets", "og.png"))) cpSync(join(ROOT, "assets", "og.png"), join(OUT, "og.png"));
 if (existsSync(join(ROOT, "legal.html"))) cpSync(join(ROOT, "legal.html"), join(OUT, "legal.html"));
 
 const pages = [];
