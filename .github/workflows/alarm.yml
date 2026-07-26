@@ -23,13 +23,11 @@ jobs:
           OPEN=$(gh issue list -R "${{ github.repository }}" --state open \
             --search "Daily snapshot failed in:title" --json number --jq 'length')
           if [ "$OPEN" = "0" ]; then
+            BODY=$(printf 'The snapshot workflow concluded **failure** — the record did not update.\n\nRun: %s\n\nInvestigate before gaps accumulate; every unrecorded day is unrecoverable.' \
+              "${{ github.event.workflow_run.html_url }}")
             gh issue create -R "${{ github.repository }}" \
               --title "Daily snapshot failed ($(date -u +%F))" \
-              --body "The snapshot workflow concluded **failure** — the record did not update.
-
-Run: ${{ github.event.workflow_run.html_url }}
-
-Investigate before gaps accumulate; every unrecorded day is unrecoverable."
+              --body "$BODY"
           else
             echo "An open failure issue already exists; not duplicating."
           fi

@@ -42,9 +42,9 @@ jobs:
           node tools/build-site.mjs
           echo "mirror.scanrecords.org" > public/CNAME
 
+# One-time setup: repo Settings → Pages → "Build and deployment" → Source:
+# "GitHub Actions". The workflow token cannot enable Pages by itself here.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
