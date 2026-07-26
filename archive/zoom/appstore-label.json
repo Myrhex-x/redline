@@ -1,0 +1,40 @@
+[
+  {
+    "categories": [
+      {
+        "dataTypes": [],
+        "identifier": "LOCATION",
+        "title": "Location"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "CONTACT_INFO",
+        "title": "Contact Info"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "USER_CONTENT",
+        "title": "User Content"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "IDENTIFIERS",
+        "title": "Identifiers"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "USAGE_DATA",
+        "title": "Usage Data"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "DIAGNOSTICS",
+        "title": "Diagnostics"
+      }
+    ],
+    "detail": "The following data may be collected and linked to your identity:",
+    "identifier": "DATA_LINKED_TO_YOU",
+    "purposes": [],
+    "title": "Data Linked to You"
+  }
+]

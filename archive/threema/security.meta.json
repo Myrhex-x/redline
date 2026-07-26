@@ -1,0 +1,11 @@
+{
+  "company": "Threema",
+  "title": "Security page",
+  "url": "https://threema.com/en/security",
+  "finalUrl": "https://threema.com/en/why-threema/security",
+  "httpStatus": 200,
+  "fetchedAt": "2026-07-26T10:36:10.926Z",
+  "textHash": "da081c571eaae0e2e41247dbc05c7442ab8450e66fdbe01ccb495db2f0c4d521",
+  "textChars": 4848,
+  "htmlBytes": 210665
+}

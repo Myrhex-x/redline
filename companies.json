@@ -1,0 +1,250 @@
+{
+  "comment": "Targets for the ScanRecords archive. One entry per platform. 'docs' are HTML documents tracked by tools/snapshot.mjs. 'appstore' (id + expected name substring) is tracked by tools/labels.mjs. 'ua: browser' opts a target into a browser user-agent when the honest bot UA gets blocked — the block itself is recorded first. 'ignore' is a list of line-regexes stripped before hashing, for per-request noise a site embeds in visible text.",
+  "companies": [
+    {
+      "name": "Discord",
+      "slug": "discord",
+      "appstore": { "id": 985746746, "expect": "Discord" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://discord.com/privacy" },
+        { "id": "terms", "title": "Terms of Service", "url": "https://discord.com/terms" },
+        { "id": "guidelines", "title": "Community Guidelines", "url": "https://discord.com/guidelines" }
+      ]
+    },
+    {
+      "name": "Telegram",
+      "slug": "telegram",
+      "appstore": { "id": 686449807, "expect": "Telegram" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://telegram.org/privacy" },
+        { "id": "terms", "title": "Terms of Service", "url": "https://telegram.org/tos" }
+      ]
+    },
+    {
+      "name": "Signal",
+      "slug": "signal",
+      "appstore": { "id": 874139669, "expect": "Signal" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy & Terms", "url": "https://signal.org/legal/" }
+      ]
+    },
+    {
+      "name": "WhatsApp",
+      "slug": "whatsapp",
+      "appstore": { "id": 310633997, "expect": "WhatsApp" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy (EEA)", "url": "https://www.whatsapp.com/legal/privacy-policy-eea" },
+        { "id": "security", "title": "Security / E2EE description", "url": "https://www.whatsapp.com/security" }
+      ]
+    },
+    {
+      "name": "Meta (Facebook, Instagram, Messenger)",
+      "slug": "meta",
+      "appstore": { "id": 284882215, "expect": "Facebook" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.facebook.com/privacy/policy/" },
+        { "id": "law-enforcement", "title": "Law Enforcement Guidelines", "url": "https://www.facebook.com/safety/groups/law/guidelines/" }
+      ]
+    },
+    {
+      "name": "Google (Gmail)",
+      "slug": "google",
+      "appstore": { "id": 422689480, "expect": "Gmail" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://policies.google.com/privacy?hl=en" },
+        { "id": "gov-requests", "title": "Government Information Requests", "url": "https://policies.google.com/terms/information-requests?hl=en" }
+      ]
+    },
+    {
+      "name": "Microsoft (Outlook, Teams)",
+      "slug": "microsoft",
+      "ignore": ["^This is the Trace Id: [0-9a-f]+$"],
+      "appstore": { "id": 951937596, "expect": "Outlook" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Statement", "url": "https://privacy.microsoft.com/en-us/privacystatement" }
+      ]
+    },
+    {
+      "name": "Apple (iMessage, iCloud)",
+      "slug": "apple",
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.apple.com/legal/privacy/en-ww/" },
+        { "id": "icloud-security", "title": "iCloud Data Security Overview", "url": "https://support.apple.com/en-us/102651" },
+        { "id": "imessage-security", "title": "iMessage Security Overview", "url": "https://support.apple.com/guide/security/imessage-security-overview-secd9764312f/web" }
+      ]
+    },
+    {
+      "name": "Snapchat",
+      "slug": "snapchat",
+      "appstore": { "id": 447188370, "expect": "Snapchat" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://values.snap.com/privacy/privacy-policy" },
+        { "id": "guidelines", "title": "Community Guidelines", "url": "https://values.snap.com/privacy/transparency/community-guidelines" }
+      ]
+    },
+    {
+      "name": "TikTok",
+      "slug": "tiktok",
+      "appstore": { "id": 835599320, "expect": "TikTok" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy (EEA)", "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en" },
+        { "id": "guidelines", "title": "Community Guidelines", "url": "https://www.tiktok.com/community-guidelines/en/" }
+      ]
+    },
+    {
+      "name": "X",
+      "slug": "x",
+      "appstore": { "id": 333903271, "expect": "X" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://x.com/en/privacy" }
+      ]
+    },
+    {
+      "name": "Reddit",
+      "slug": "reddit",
+      "appstore": { "id": 1064216828, "expect": "Reddit" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.reddit.com/policies/privacy-policy" }
+      ]
+    },
+    {
+      "name": "Proton",
+      "slug": "proton",
+      "appstore": { "id": 979659905, "expect": "Proton Mail" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://proton.me/legal/privacy" },
+        { "id": "security", "title": "Security / E2EE description", "url": "https://proton.me/mail/security" },
+        { "id": "transparency", "title": "Transparency Report", "url": "https://proton.me/legal/transparency" }
+      ]
+    },
+    {
+      "name": "Threema",
+      "slug": "threema",
+      "appstore": { "id": 578665578, "expect": "Threema" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://threema.com/en/privacy-policy" },
+        { "id": "security", "title": "Security page", "url": "https://threema.com/en/security" }
+      ]
+    },
+    {
+      "name": "Viber",
+      "slug": "viber",
+      "appstore": { "id": 382617920, "expect": "Viber" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.viber.com/en/terms/viber-privacy-policy/" }
+      ]
+    },
+    {
+      "name": "Slack",
+      "slug": "slack",
+      "appstore": { "id": 618783545, "expect": "Slack" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://slack.com/trust/privacy/privacy-policy" }
+      ]
+    },
+    {
+      "name": "Zoom",
+      "slug": "zoom",
+      "appstore": { "id": 546505307, "expect": "Zoom" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Statement", "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/" }
+      ]
+    },
+    {
+      "name": "Twitch",
+      "slug": "twitch",
+      "ua": "browser",
+      "appstore": { "id": 460177396, "expect": "Twitch" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Notice", "url": "https://www.twitch.tv/p/en/legal/privacy-notice/" }
+      ]
+    },
+    {
+      "name": "LinkedIn",
+      "slug": "linkedin",
+      "appstore": { "id": 288429040, "expect": "LinkedIn" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.linkedin.com/legal/privacy-policy" }
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "slug": "pinterest",
+      "appstore": { "id": 429047995, "expect": "Pinterest" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://policy.pinterest.com/en/privacy-policy" }
+      ]
+    },
+    {
+      "name": "Steam",
+      "slug": "steam",
+      "appstore": { "id": 495369748, "expect": "Steam" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://store.steampowered.com/privacy_agreement/?l=english" }
+      ]
+    },
+    {
+      "name": "PlayStation (Sony)",
+      "slug": "playstation",
+      "appstore": { "id": 410896080, "expect": "PlayStation" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy (EU)", "url": "https://www.playstation.com/en-gb/legal/privacy-policy/" }
+      ]
+    },
+    {
+      "name": "Olvid",
+      "slug": "olvid",
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://olvid.io/privacy/en/" }
+      ]
+    },
+    {
+      "name": "Wire",
+      "slug": "wire",
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://wire.com/en/privacy-policy" }
+      ]
+    },
+    {
+      "name": "Element (Matrix)",
+      "slug": "element",
+      "appstore": { "id": 1083446067, "expect": "Element" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://element.io/privacy" }
+      ]
+    },
+    {
+      "name": "GMX (1&1 Mail)",
+      "slug": "gmx",
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy", "url": "https://www.gmx.com/company/privacypolicy/" }
+      ]
+    },
+    {
+      "name": "Yahoo Mail",
+      "slug": "yahoo",
+      "appstore": { "id": 577586159, "expect": "Yahoo Mail" },
+      "docs": [
+        { "id": "privacy", "title": "Privacy Policy (EU)", "url": "https://legal.yahoo.com/ie/en/yahoo/privacy/index.html" }
+      ]
+    },
+    {
+      "name": "Roblox",
+      "slug": "roblox",
+      "appstore": { "id": 431946152, "expect": "Roblox" },
+      "docs": []
+    }
+  ],
+  "blocked": [
+    {
+      "name": "Roblox (policy pages)",
+      "url": "https://en.help.roblox.com/hc/en-us/articles/115004630823",
+      "reason": "Zendesk WAF returns 403 to non-browser TLS fingerprints regardless of user-agent (recorded 2026-07-26). Needs a headless-browser lane. App Store label is tracked meanwhile."
+    },
+    {
+      "name": "Epic Games (policy pages)",
+      "url": "https://www.epicgames.com/site/en-US/privacypolicy",
+      "reason": "Cloudflare returns 403 to non-browser TLS fingerprints regardless of user-agent (recorded 2026-07-26). Needs a headless-browser lane. App Store label is tracked meanwhile."
+    }
+  ]
+}

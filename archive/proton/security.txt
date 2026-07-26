@@ -1,0 +1,463 @@
+Close
+
+4.5+
+
+Get
+
+Personal Personal
+Business Business
+Pricing
+Download Download
+Discover Proton Discover Proton
+
+Discover Proton Mail
+Proton Mail
+Secure email that protects your privacy
+Create a free account
+
+Features
+Security Bridge Calendar
+Switch from
+Gmail Fastmail Tuta
+
+Resources
+Proton Mail news Learn how encryption works End-to-end encryption Zero-access encryption Privacy guides Create an email without phone number
+
+Pricing
+Personal plans
+Support
+Proton Mail support How to switch to Proton Mail
+
+Discover Proton Mail for Business
+Proton Mail
+Secure your business
+Find your plan
+
+Solutions
+Security Team calendar Appointment scheduling Collaboration Custom email domain Business continuity All features
+
+Security
+Trust center HIPAA GDPR ISO 27001
+Resources
+Business blog Newsletter Partners All resources
+
+Pricing
+Business plans
+Support
+Support for business Set up Mail for business
+
+Download Proton Mail
+
+Scan to get the mobile app
+
+Mobile apps
+iOS (new window) Android (new window)
+
+Desktop apps
+macOS Windows Linux
+
+Web app
+Web app (new window)
+Desktop client add-on
+Bridge
+
+Discover Proton
+Proton
+We believe a better world starts with privacy and digital freedom
+Create a free account
+
+Communicate and browse
+Email VPN (new window) Video conferencing Calendar
+Store, share, collaborate
+Cloud storage Docs Sheets
+
+Private AI
+AI assistant
+Security
+Password manager Two-factor authenticator Bitcoin wallet
+More from Proton
+Hide-my-email aliases (new window) Encrypted notes (new window)
+
+Get started
+Personal plans Business plans
+Company
+About us Impact Social media Open source Team Careers We’re hiring Proton Foundation Proton blog
+
+Get Proton Mail
+Sign in
+
+Open menu
+
+Email that puts your security first
+
+Our top priority is keeping your data safe.
+
+Create a free account Get Mail for Business
+
+Encryption Open source Unique defenses Community
+
+Proton Mail is protected by multiple layers of security and trusted by journalists, security experts, and millions of people around the world.
+
+Encryption
+
+Strong encryption at all times
+
+Proton believes your data belongs to you. That’s why we use end-to-end encryption and zero-access encryption to ensure that only you can read your emails. We cannot read or give anyone else access to your emails. And this encryption happens automatically — no special software or tech skills required.
+
+End-to-end encryption
+
+With Proton Mail, emails are encrypted at all times, so we can never access your messages. The content of your emails is encrypted on your device before being sent to our servers, meaning only you and your intended recipient can decrypt it.
+You can also use our Password-protected Emails feature to quickly send end-to-end encrypted emails to any email address, not just Proton Mail accounts.
+
+Learn about end-to-end encryption
+
+Proton Sentinel
+
+Proton Sentinel is our most advanced account security system, going beyond Proton’s highly secure default protections.
+Accounts enrolled in the Sentinel program are monitored 24/7 by our threat detection platform and teams of security analysts who specialize in detecting infiltration and takeover attempts.
+By combining AI with human expertise, Proton Sentinel ensures a level of security for people at higher risk of attacks that exceeds what is possible with automated systems alone.
+
+Password-protected Emails
+
+The easiest way to send end-to-end encrypted emails is if both the sender and recipient use Proton Mail.
+However, you can use our Password-protected Emails feature to send secure emails to people who don’t use Proton Mail.
+Simply select a password in the composer before you click send, and your email will be inaccessible to both Proton and your recipient’s email provider.
+
+2FA with hardware security keys
+
+Keep your Proton Account safe. You can use hardware security keys to verify your identity via two-factor authentication (2FA) . We support YubiKey and other U2F/FIDO2-compliant keys.
+Due to their physical nature, security keys are one of the best ways to protect your account, as online attackers cannot get their hands on them. No more reaching for your phone to open an authenticator app either.
+
+Enhanced tracking protection
+
+Your emails belong to you, which is why Proton Mail lets you read them without letting advertisers watch you, build a profile on you, or serve you ads based on your mail activity.
+Our web app automatically blocks tracking pixels and hides your IP address using enhanced tracking protection , so you can read your emails without exposing any personal information.
+
+Zero-access encryption
+
+Proton Mail’s zero-access architecture means we can never access your emails. Emails from other service providers are instantly encrypted on our servers using your public key, meaning we do not have the technical ability to decrypt your messages.
+As a result, we cannot hand your emails over to anyone.
+
+It’s hard not to be impressed with the lengths Proton’s gone to shore up security and privacy.
+
+Proton Mail is as easy to use as any webmail service, but it protects your message archive with zero access encryption and offers end-to-end encryption for message transmission. It's an effective solution for encrypted email.
+
+Open source
+
+Open source and independently audited for transparency
+
+Founded by scientists, we believe transparency and peer review lead to better security for our community. All our apps are open source so that anyone can use and improve them. They have also been audited so that anyone can trust them.
+
+Open source
+
+Every app you use to access your Proton Mail inbox is available for inspection. Open sourcing our code increases the security of our apps because it allows us to leverage the global security community to search for vulnerabilities.
+
+Audited
+
+All Proton Mail code has been independently audited by third-party security experts. The results of those audits are publicly available on our website.
+
+Hardware-level security
+
+We have invested heavily in owning and controlling our own server hardware at several locations within Switzerland, so your data never goes to the cloud. Our data centers are located at highly secure sites that require biometric access.
+This provides an extra layer of protection by ensuring your encrypted emails are not easily accessible to third parties. On a system level, our servers utilize fully encrypted hard disks with multiple password layers, preserving data security even if our hardware is seized.
+
+Built-in PGP support
+
+Proton Mail users are more secure when they can use end-to-end encryption to communicate with everyone, not just other Proton Mail users.
+This is why we offer PGP support, which automatically encrypts messages using the public key of your recipient. In fact, you can use Proton Mail to replace your existing PGP client.
+
+Key Transparency
+
+Proton Mail provides a seamless email experience in part because we manage encryption keys behind the scenes. With Key Transparency, Proton automatically checks your contacts’ public keys, so you can be sure you’re emailing the people you intend.
+This protects you against man-in-the-middle attacks and means you don't have to blindly trust Proton to use the correct keys.
+
+Get your encrypted inbox with Proton Mail
+
+Proton Mail is trusted by tens of millions of people worldwide to keep their communications private.
+
+Create a free account
+
+Unique defenses
+
+Unique defenses against attacks
+
+People are the weakest link in any security system, which is why we have added several layers of defense against social engineering attacks and human error. Best of all, these features don’t require any extra steps. Your inbox is secured by default.
+
+PhishGuard
+
+View details
+
+Phishing is one of the most common ways hackers gain access to data, typically by tricking users with emails designed to look like they come from a trusted sender. PhishGuard helps defend against phishing attacks that use Proton Mail accounts by flagging potentially spoofed email addresses and clearly marking them in your inbox.
+
+Learn more
+
+Link protection
+
+View details
+
+It can be difficult on mobile devices to tell if the link you’re tapping actually points to the URL you think it does. Link protection is a feature in Proton Mail for web, iOS, and Android that displays the full URL and requests additional confirmation from you before opening the link.
+
+Learn more
+
+SPF, DKIM, and DMARC
+
+View details
+
+Proton Mail supports Sender Policy Framework (SPF), which helps prevent others from sending emails from your domain, and Domain Keys Identified Mail (DKIM), which ensures that the contents of your message have not been tampered with. We also offer DKIM automatic key rotation. Finally, Proton Mail uses Domain-based Message Authentication, Reporting, and Conformance (DMARC) to prevent abuse emails from being sent to other servers if your email address has been spoofed and fails either SPF or DKIM.
+
+Learn more
+
+DNS Certificate Authority Authorization
+
+View details
+
+Like Expect-CT, DNS CAA attempts to reduce the likelihood of a certificate authority issuing a fake certificate. This DNS record specifies which certificate authorities are allowed to issue certificates for a given domain or sub-domain.
+
+Learn more
+
+Advanced protection
+
+View details
+
+Proton Mail uses advanced algorithms and machine learning to detect sophisticated attacks launched against specific accounts. This allows us to proactively warn you if your account is being targeted or automatically secure your account if we detect that an attacker has successfully compromised your account.
+
+Elliptic curve cryptography
+
+View details
+
+With Proton Mail, encryption and decryption are fast and efficient thanks to elliptic curve cryptography. Unlike RSA cryptography, which uses extremely large numbers to achieve high security, ECC can provide the same level of security with less computational power, saving you time and battery life.
+
+DANE and MTA-STS
+
+View details
+
+When emails travel between Proton Mail accounts, they are always end-to-end encrypted by default. But emails to non-Proton Mail accounts are protected with a different kind of encryption called SMTP TLS. DANE and MTA-STS are two web standards that protect your emails from attacks that remove this encryption, making it much harder for attackers to intercept your emails when communicating outside of Proton.
+
+Learn more
+
+Web Key Directory
+
+View details
+
+This feature makes it easier to send PGP-encrypted emails to people who don’t use Proton Mail. Web Key Directory (WKD) allows domains to serve their own keys rather than relying on potentially untrustworthy keys uploaded to public servers. Our servers automatically use WKD to look for keys on external domains and automatically enable end-to-end encryption whenever possible.
+
+Learn more
+
+Two-factor authentication (2FA)
+
+View details
+
+2FA is available for all Proton accounts. When 2FA is enabled, you must provide a one-time passcode generated by an authenticator app on your device in addition to your username and password. This way, even if your account credentials are compromised, an attacker cannot access your account without also having physical possession of your device.
+
+Learn more
+
+Device-level security
+
+View details
+
+Proton Mail apps are designed to secure your account against unauthorized physical access. PIN Protection in Android allows you to set an app password that can be unlocked using your PIN or biometric authentication. And our AppKey Protection System for iOS defends your Proton account against sophisticated attempts to penetrate your device’s security, such as malware or forensic attacks sometimes used by governments.
+
+Learn more
+
+Encrypted contacts
+
+View details
+
+Proton Contacts uses zero-access encryption and digital signatures to ensure no one can tamper with your contacts or see any details you add, including your contact's phone number or address.
+This lets you add and organize all your contacts' details in one convenient location while knowing that no one, not even Proton, can access that information but you.
+
+Learn more
+
+Post-quantum encryption
+
+View details
+
+Proton Mail supports post-quantum protection to help secure your encrypted emails against future threats from quantum computers.
+When enabled, Proton Mail generates post-quantum-ready keys for new encrypted messages while preserving its existing privacy protections. It’s available on all plans, including free.
+
+Learn about post-quantum protection
+
+Security
+
+Better security through privacy
+
+Better privacy often leads to better security. Proton Mail offers both, empowering you with policies and tools to take control of what information about you is available online.
+
+Based in Switzerland
+
+View details
+
+Proton Mail is based in Switzerland, which means all user data is protected by some of the world’s strictest privacy laws.
+Switzerland is politically neutral and is not a party to any foreign intelligence-sharing surveillance networks. Due to the encryption we use, we do not have access to your inbox, and we only respond to official requests from Swiss authorities, which are subject to strong Swiss privacy laws.
+
+Learn more
+
+Onion address
+
+View details
+
+Proton Mail offers encrypted email over Tor through our onion site (new window) (requires Tor browser).
+Connecting to Proton Mail over Tor helps prevent anyone monitoring your network from knowing you are using Proton Mail and provides access to your encrypted email account even if Proton Mail is blocked by your government.
+
+Learn more
+
+Alternative routing
+
+View details
+
+Sometimes governments attempt to force their citizens to use less secure forms of communication by blocking access to encrypted services.
+Alternative routing is another of our anti-censorship features that help ensure you can always access your email. If your connection is being blocked, Proton Mail apps will automatically seek alternative paths to establish a connection with our servers.
+
+Learn more
+
+Community
+
+Built by and for our community
+
+Thanks to our user-focused business model, Proton is able to work collaboratively to build products that put privacy and security first. This is reflected in the many ways we participate in the security community.
+
+OpenPGP.js
+
+We are the maintainers of the world’s most widely used open-source OpenPGP library in JavaScript.
+
+GopenPGP
+
+We developed and maintain an easy-to-use wrapper library written in Go as well as a fork of the original golang crypto library.
+
+Bug bounty
+
+Because our code is open source, the Proton community benefits from security researchers around the world who participate in our bug bounty program.
+
+Secure your emails with Proton Mail
+
+One account for all Proton services.
+
+Get a free account
+
+Privacy by default
+
+(new window)
+(new window)
+(new window)
+(new window)
+(new window)
+
+(new window)
+(new window)
+(new window)
+(new window)
+(new window)
+(new window)
+(new window)
+(new window)
+
+Proton AG Route de la Galaise 32
+1228 Plan-les-Ouates
+Geneva, Switzerland
+
+Products Proton Mail
+Proton Calendar
+Proton Drive
+Proton VPN (new window)
+Proton Pass
+Proton Wallet
+Proton Docs
+Proton Sheets New
+
+Proton Authenticator
+Proton Meet New
+
+Lumo AI
+Standard Notes (new window)
+Simple Login (new window)
+Proton for Business
+Pricing
+Switch to Proton
+
+Products
+Proton Mail
+Proton Calendar
+Proton Drive
+Proton VPN (new window)
+Proton Pass
+Proton Wallet
+Proton Docs
+Proton Sheets New
+
+Proton Authenticator
+Proton Meet New
+
+Lumo AI
+Standard Notes (new window)
+Simple Login (new window)
+Proton for Business
+Pricing
+Switch to Proton
+
+Privacy Password generator
+Username generator
+Tor
+Open source
+Student discount
+Special reports
+Proton vs. competitors
+
+Privacy
+Password generator
+Username generator
+Tor
+Open source
+Student discount
+Special reports
+Proton vs. competitors
+
+Company About us
+Team
+Impact
+Proton Foundation
+Careers We’re hiring
+
+Shop (new window)
+Donate
+Blog
+
+Company
+About us
+Team
+Impact
+Proton Foundation
+Careers We’re hiring
+
+Shop (new window)
+Donate
+Blog
+
+Connect Social media
+Help and support
+Partners and affiliates
+Referral program
+Press and media
+Contact us
+
+Connect
+Social media
+Help and support
+Partners and affiliates
+Referral program
+Press and media
+Contact us
+
+English
+
+System status (new window)
+Report abuse
+Report a problem
+Report a security issue
+Request a feature (new window)
+
+English
+
+Privacy Policy
+Terms & conditions
+Transparency report
+© 2026 Proton AG. All rights reserved.

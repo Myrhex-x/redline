@@ -1,0 +1,610 @@
+Skip to main content
+
+English
+
+Deutsch
+
+Product
+
+Product
+
+Overview
+
+Features
+
+Explore powerful features designed to enhance communication, productivity, and team collaboration securely.
+
+Security
+
+Built with end-to-end encryption, Wire ensures your conversations and data stay private and protected at all times.
+
+Deployment
+
+Choose flexible deployment options: cloud, on-premises, or hybrid to meet your organization’s specific needs.
+
+Highlights
+
+Testimonials
+
+Discover how public and private organizations globally trust Wire for secure communication through real testimonials.
+
+Wire vs. Alternatives
+
+Compare Wire to alternative secure communication tools. See how Wire stands out on security, compliance, and sovereignty for enterprises and governments.
+
+Pydio Cells
+
+Secure, self-hosted file sharing and collaboration platform for enterprises. Keep full control of your data with flexible deployment, granular permissions, and compliance-ready security.
+
+Schwarz Gruppe Trusts Wire
+
+From Headquarters to Storefront: How Wire Powers Secure Communication at Scale for Schwarz Gruppe
+
+Read the case study
+
+Solutions
+
+Solutions
+
+Use Cases
+
+Crisis communication
+
+Coordinate fast during emergencies with secure, real-time messaging that works across teams and devices, anywhere, anytime.
+
+Confidential communication
+
+Protect sensitive data with a secure, encrypted channel for trusted, cross-team response.
+
+MS Teams & Slack alternative
+
+Collaborate confidently with full encryption, no surveillance, and simple onboarding. Ideal for security-first teams.
+
+NIS2 compliance
+
+Stay compliant and avoid fines with secure messaging, access controls, and encrypted collaboration built for EU regulations.
+
+State and municipal government
+
+Keep public data safe with encrypted, user-friendly communication that scales across departments and ensures compliance.
+
+Explore more Wire use cases
+
+Organisation Type
+
+SMB
+
+Protect client data and boost team productivity with easy, encrypted messaging, calls, and file sharing, anywhere you work.
+
+Enterprise
+
+Enable secure, scalable collaboration across teams and partners with E2EE, SSO, and full control at enterprise scale.
+
+Government
+
+Gain full digital sovereignty with secure, on-premises communication built for classified, compliant collaboration.
+
+More Wire Use Cases
+
+Join 1,800+ organisations using Wire for secure collaboration, law enforcement ops, and as a Teams alternative.
+
+Learn more
+
+Resources
+
+Resources
+
+Research
+
+Knowledge Hub
+
+Find practical guides, whitepapers, and compliance insights to help your team collaborate securely and effectively.
+
+Blog
+
+Stay informed with news, product updates, and thought leadership on privacy, security, and collaboration trends.
+
+Wire Uncut
+
+Discover candid conversations with Europe’s tech leaders on digital sovereignty, secure collaboration, and the future of independent innovation.
+
+Support
+
+App download
+
+Get the Wire app for desktop or mobile and start collaborating securely. Anytime, anywhere, on any device.
+
+GitHub
+
+Explore Wire’s open-source codebase, contribute to development, or audit our security for full transparency.
+
+Help Center
+
+Need help? Reach our support team for fast, secure assistance with setup, troubleshooting, or feature questions.
+
+Developers
+
+Learn how Wire-Server works, deploy it in your own environment, or extend it with code — a guide for power users, administrators, and developers.
+
+About
+
+Partner Program
+
+Join Wire’s Partner Program to deliver secure collaboration solutions and grow your business with expert support.
+
+About us
+
+Learn how Wire is redefining secure communication built in Europe, open-source, and trusted worldwide.
+
+Careers
+
+Build the future of secure collaboration. Explore open roles and join our mission to protect digital communication.
+
+Secure Collaboration Blog
+
+Stay informed with news, product updates, and thought leadership on privacy, security, and collaboration trends.
+
+Learn more
+
+Pricing
+
+Log in
+
+Contact Sales
+
+en
+
+DE
+
+Last updated: October 2025
+
+Wire's Privacy Policy
+
+Table of contents
+
+General Information
+
+Data Processing Details: Collected Data, Purposes, Legal Bases
+
+Website
+
+Wire Messenger and App
+
+Transfer, Storage Period, and Rights
+
+1. General Information
+
+1.1 Our Commitment to Data Protection
+
+Wire Swiss GmbH, Untermüli 9, CH-6300 Zug (" Wire " or " we ") is committed to protecting your data. With this privacy policy, we inform you about the collection, processing, and use of data in connection with our website (" Website "), our messenger (" Messenger "), our app (" App ") and other services (collectively " Wire Services ").
+
+Wire does not rent or sell your data to third parties. Your data is also not used for targeted advertising or other forms of profiling. Unless the context requires otherwise, any reference to "you", "your", or "yourself" in this privacy policy includes the respective organization using the team management functionality of the apps, website, and/or service, the respective team admin, and the respective team member (as defined in our terms of service).
+
+Any inquiries regarding your data, its protection, and how it is handled by Wire can be directed to the Data Protection Officer (“ DPO ”) at privacy@wire.com .
+
+1.2. Scope, Controller
+
+As a company based in Switzerland, Wire and its data processing activities are subject to Swiss data protection law, particularly the Federal Data Protection Act (SR 2351). This privacy policy covers the obligation of Wire for information according to Art. 19 of the Swiss Federal Act of Data Protection (" FADP "). For individuals from the European Union or the European Economic Area, the General Data Protection Regulation (" GDPR ") may also apply.
+
+Unless otherwise stated in this privacy policy, Wire, a limited liability company under Swiss law, based in Zug (Switzerland), with the company identification number CHE 432.881.146, is responsible the processing of data related to the use of Wire Services. You can contact Wire as follows:
+
+Wire Swiss GmbH
+Untermüli 9
+CH-6300 Zug
+Switzerland
+
+E-Mail: legal@wire.com
+
+You can reach our data protection officer Susanne Klein at:
+
+Beiten Burkhardt Services GmbH
+Ganghoferstraße 33
+80339 Munich
+Germany
+
+Email: privacy@wire.com
+
+1.3 EU Representative Pursuant to Article 27 GDPR, Supervisory Authority
+
+Wire designates Wire Germany GmbH, Rosenthaler Straße 41, 10178 Berlin, Germany, as its EU representative pursuant to Article 27 GDPR, registered under HRB 149847 with the local court of Charlottenburg.
+
+Wire's supervisory authority is:
+Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter (EDÖB)
+Feldweg 1
+3003 Bern
+Switzerland
+Phone: +41 58 462 43 95
+
+Contact form for EDÖB
+
+2. Data Processing Details: Collected Data, Purposes, Legal Bases
+
+When you use Wire Services, the following personal data may be collected and processed for the purposes and on the legal basis specified below.
+
+Please note that below information only applies to the extent that Wire is the controller for the relevant data processing. Insofar as Wire processes personal data on behalf of and on the instructions of a Wire customer (acting as a so-called data processor), Wire cannot provide any details on the purposes or legal bases of the data processing. Please refer to the relevant controller (e.g., your employer) for details on the data processing.
+
+2.1 Content of Conversations
+
+Wire transmits and processes the content of conversations from users of the Wire Messenger only to the extent technically required to provide the relevant services. The content of conversations is encrypted with strong encryption on the sender's device and decrypted only on the recipient's device (end-to-end encryption). This includes all text, voice, and video chats, as well as other files and documents shared in the conversations. Wire does not have access to encryption keys and does not use backdoors. Conversations belong to the users, and Wire has no access to them. Users may delete the content of the conversations on their device specifically and generally at any time.
+
+Wire also uses transport encryption to secure metadata. Encrypted messages are temporarily stored on Wire's servers for delivery when users come back online. However, this data is immediately deleted from Wire’s servers as soon as the relevant message has been delivered to the recipient of the message. The legal basis for this data processing is Art. 31 sec. 2 lit. a FADP or Art. 6 sec. 1 lit. b GDPR (contract performance).
+
+2.2 Logs
+
+Technical data ("log files") is collected and processed each time the Wire Services are accessed. This data processing is necessary to provide the Wire Services. If the user has concluded a contract with Wire on the provision of the relevant Wire Service, the legal basis is Art. 31 sec. 2 lit. a FADP or Art. 6 sec. 1 lit. b GDPR (contract performance). Otherwise, the legal basis is Art. 6 sec. 1 lit. f GDPR (legitimate interest), since Wire has a legitimate interest in the provision of Wire Services like our Website.
+
+Logs are kept for a maximum of 90 days to assist troubleshooting, improve service, and prevent abuse. Wire has a legitimate interest in the securing and improving its services. Therefore, the legal basis for this storage is Art. 31 sec. 2 lit. a FADP or Art. 6 sec. 1 lit. f GDPR (legitimate interest).
+
+2.3 Personal User Data
+
+When users create a Wire account, they are required to provide a user name, a display name, and an email address. If a Team-Admin or Team-Member account is created, additional billing information might be required. This profile data is used to provide and support the service and can be displayed to other Wire users who search for or connect with them. Personal data is stored only for the duration of the account. The legal basis for this is contract performance according to Art. 31 sec. 2 lit. a FADP or Art. 6 sec. 1 lit. b GDPR. Wire collects and processes the personal data that users voluntarily provide when registering for a Wire Service. This data is processed for the purpose of operating the relevant Wire Service and providing it to the user.
+
+Users are only required to provide a username, email, and password to register for the Wire Messenger. Adding further information to a user profile is optional. Wire uses the so-called double opt-in procedure as part of the registration process to verify the provided email address. This means that after a user has registered for the Wire Messenger, an email with a verification code is sent to the user to confirm ownership of the email address. If an email address is not verified, the provided data will be deleted after one month. In addition to the information provided by the user in the registration form, Wire may also store the date and time of registration and verification, and the IP address of the device used in the registration process. This data is necessary to prove that the relevant account has been registered by a certain user or to trace the (possible) misuse of a user’s email address later.
+
+The processing is necessary for the provision of the Wire Services to the user and, thus, based on Art. 31 sec. 2 lit. a FADP or Art. 6 sec. 1 lit. b GDPR (contract performance).
+
+2.4 Payment-Related Data
+
+For Team-Admin or Team-Member accounts, additional billing information may be required and shared with the billing provider. To make purchases, admins must provide payment methods and possibly additional account data. Some transaction-related personal information, such as transaction amounts, is also processed.
+
+Wire processes the payment-related data for the billing of our customer's purchases and to comply with tax laws. If you are our customer, i.e. our direct contractual partner, the legal basis for the processing of the above-mentioned is contract performance according to Art. 31 sec. 2 lit. a FADP or Art. 6 sec. 1 lit. b GDPR. Otherwise, for example if your employer is our customer, the data processing is based on Art. 6 sec. 1 lit. f GDPR (legitimate interest), in which case Wire has a legitimate interest in the billing of purchases to its customers. Insofar as we collect and store data for tax reasons, the legal basis is Art. 6 sec. 1 lit. c GDPR (compliance with legal obligations). Data is deleted within 12 months after contract termination or expiration of legal retention periods.
+
+2.5 Processing Data Upon Requests
+
+When users submit inquiries (e.g., via email or a web form), the data they provide, such as their name, email address, telephone number, affiliation with a company, role in the company or other information, is processed to respond to their request. The legal basis is Art. 31 sec. 2 lit. a FADP or Art. 6 sec. 1 lit. b GDPR (pre-contractual measures), insofar as the request serves to prepare a contract with the user. Otherwise, the legal basis is Art. 6 sec. 1 lit. f GDPR (legitimate interest), in which case Wire’s legitimate interest is to appropriately respond to the user’s request. Data is deleted once the inquiry is fully processed and further communication is unnecessary.
+
+2.6 Newsletter Distribution
+
+If users subscribe to Wire's newsletter, their email address and name are processed to send the newsletter. Users can subscribe to Wire's newsletter using the form on our Website. Details on the content of Wire’s newsletter are available in the declaration of consent or in the newsletter subscription form.
+
+Wire uses the so-called double opt-in procedure as part of the registration process to verify the provided email address. This means that after a user has registered for the newsletter, an email with a verification code is sent to the user to confirm the subscription and ownership of the relevant email account. If the subscription is not verified, the provided data will be deleted after one month at the latest. In addition to the information provided by the user in the registration form, Wire may also store the date and time of registration and verification, and the IP address of the device used in the registration process. This data is necessary to prove that the relevant account has been registered by a certain user or to trace the (possible) misuse of a user’s email address later.
+
+We evaluate the use of the newsletter emails (e.g., opening rate, clicks) to improve the newsletter content with the help of so-called tracking pixels. Using the embedded tracking pixel, we can recognize whether and when a newsletter email has been opened and which links in the email have been accessed. By analyzing this information, we can draw conclusions about the recipients' interest in our newsletter content and improve and develop the newsletter accordingly.
+
+The legal basis for the data processing as described above is user consent (Art. 31 sec. 1 FADP or Art. 6 sec. 1 lit. a GDPR). Users can unsubscribe at any time, i.e. users can freely withdraw their consent at any time and with effect for the future, for example by clicking on the unsubscribe link at the bottom of every newsletter email. User data is only retained while the subscription is active.
+
+2.7 Additional Technical Data
+
+Wire collects and processes additional technical data, such as device types, as part of the provision of the Wire Messenger to facilitate the transfer of data between devices. The service is designed to minimize the collection of technical data necessary for service operation. The legal basis for this processing is user consent and contract performance (Art. 31 sec. 1 FADP or Art. 6 sec. 1 lit. a, lit. b GDPR). Further information on additional data can be found in the Privacy Whitepaper and Security Whitepaper .
+
+2.8 Usage Data
+
+We process individual data about the use of the Wire Services in order to compile anonymous usage statistics and crash logs. Furthermore, we may record pseudonymized Team IDs to monitor customer success and enhance our services. Insofar as personal data is processed for this purpose and your consent is not required for processing, we process your data on the basis of a legitimate interest (Art. 31 sec. 2 lit. a FADP or Art. 6 sec. 1 lit. f GDPR). Our legitimate interest is the smooth provision of Wire Services. Insofar as personal data is processed for this purpose and your consent is required for processing, we will only process your data after you have given your consent (Art. 31 sec. 1 FADP or Art. 6 Sec. 1 lit a GDPR). You can prevent the processing of your data for these purposes at any time, see FAQ. This data will be deleted after 365 days latest.
+
+2.9 Support Cases
+
+If you contact Wire customer service, the personal data you provide may be stored for the duration of the support case resolution. Wire uses Zendesk to process customer enquiries. The legal basis for the processing of your data for processing the support request is a legitimate interest (Art. 31 sec. 1, sec. 2 FADP or Art. 6sec. 1 lit. f GDPR). Our legitimate interest is to provide a support service for our customers. We delete your personal data processed for the processing of the support enquiry after the processing of your enquiry has been completed.
+
+2.10 Applications
+
+You can apply to us online via the link on our website. If you apply to us by e-mail, we would like to expressly point out that sending unencrypted e-mails or e-mail attachments is not secure.
+
+Your data will be processed for the purpose of carrying out the application process. The legal basis for data processing is Art. 31 sec. 2 lit. a FADP and Art. 6 sec. 1 lit. b GDPR (preparation of a contract). In addition, your personal data may be processed if this is necessary for the defence of legal claims asserted against us during the application process. The legal basis for this is Art. 31 sec. 2 lit. a GDPR or Art. 6 sec. 1 lit. f GDPR. The legitimate interest in the processing also lies in the aforementioned purposes. If an employment relationship is established between you and us, we may process the personal data that we have already received from you for the purposes of the employment relationship in accordance with Art. 31 sec. 2 lit. a FADP or Art. 6 sec. 1 lit. b GDPR (performance of a contract).
+
+With your consent, we will also pass on your application data to affiliated companies or store your application data for a longer period if we consider your application suitable but are unable to offer you a position. The legal basis for data processing is Art. 31 sec. 1 FADP or Art. 6 sec. 1 lit. a GDPR. You can revoke your consent at any time with effect for the future.
+
+Your application data will not be processed beyond the use described above. Your personal data will be deleted no later than 6 months after the end of the application process, unless deletion conflicts with other legitimate interests on our part or you have not given us your consent to longer storage. Another legitimate interest in this sense is, for example, a burden of proof in proceedings under the General Equal Treatment Act (AGG).
+
+2.11 Cookies
+
+Certain Wire Services use cookies and similar technologies (hereinafter collectively referred to as " Cookies "). Cookies are small text files that are stored on your device by your browser or app. They contain various information, e.g. duration of the website visit or user input. They may be set by Wire as the provider of the Website (so-called first-party cookies) or by third parties whose services are integrated in the Wire Services (so-called third-party cookies). Cookies can be stored for different lengths of time (e.g. duration of page use, several weeks up to a maximum of two years).
+
+Wire uses Cookies for various purposes, which can be roughly differentiated as follows:
+
+Technically necessary Cookies: These Cookies are technically absolutely necessary to use the basic functions and ensure security of Wire Services. They do not collect information for marketing purposes or track the user behavior. Wire is permitted to use necessary Cookies without consent of the user.
+
+Optional Cookies for statistics or marketing purposes: These Cookies can, among other things, track the user’s interactions and behavior. These Cookies are used for analysis, for example to help optimize our Website, or marketing purposes. Wire uses such Cookies (i.e. their storage on your end device and access to these Cookies) only with the user’s explicit and free consent. Users can freely withdraw their consents at any time with effect for the future, e.g. in the relevant settings of the cookie banner.
+
+Regarding the storage periods, the Cookies used by Wire can be roughly differentiated as follows:
+
+Session Cookies: These Cookies are automatically deleted after a session, e.g. when the browser is closed. They contain a so-called session ID. This allows various requests from a browser to be assigned to the shared session and a computer to be recognized when the user returns to the Wire Website.
+
+Persistent Cookies: These Cookies remain stored on the user’s end device and are automatically deleted after a certain period (depending on the specific Cookie, from a few hours to two years) or at the user’s request.
+
+Further details on the functions and storage periods of the Cookies used by Wire can be found in the relevant cookie banner and in the following sections of this privacy policy (in each case for the relevant Wire Service and tool that uses the Cookies).
+
+2.12 Social Media Presence
+
+We maintain a presence (a so-called " Fan Page ") on the social media network LinkedIn, which is offered by LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Ireland (" LinkedIn "), to communicate with customers and inform them about services. Only simple links or plugins that do not connect to social networks upon page loading are used.
+
+We use the technical platform and services of LinkedIn to operate the respective Fan Page. We would like to point out that you use our Fan Page and its functions on your own responsibility. This applies in particular to the use of interactive functions (e.g. commenting, sharing, rating). When you visit our Fan Page, LinkedIn may collect certain technical data (including the IP address of your end device) and other information that is stored on your end device in the form of Cookies. We have no influence on and no details about the processing of your data by LinkedIn. Data processing may differ depending on whether you are registered and logged in to the LinkedIn network or whether you visit the page as a non-registered and/or non-logged-in user. LinkedIn may track your movement on the LinkedIn network or visits on websites with integrated LinkedIn plugins. LinkedIn may assign the collected information to your user profile. This data can be used to personalize content or advertising to you. If you wish to avoid this, you should log out or deactivate the “stay logged in” function, delete the cookies on your device and restart your browser. Please also note that the data collected about you in this context may be transferred to countries outside the European Economic Area (EEA), in particular the USA, by the respective provider of the social network and processed there. Further information on the data processing by LinkedIn are available in their privacy policy at https://www.linkedin.com/legal/privacy-policy .
+
+We operate our Fan Page to communicate with the users active there and to be able to provide the latest news. We process the data from your use of the Fan Page that you provide to us and that require interaction. For example, if you ask us a question via a Fan Page, we process your information in order to answer your query appropriately.
+
+When you visit our Fan Pages, LinkedIn also process personal data to provide us with statistics and insights into the use of our Fan Pages. The statistics help us to adapt our Fan Pages according to user needs and thus to continuously optimize them, which can also be done for market research and advertising purposes. We only receive statistical reports that do not allow us to identify individual users of LinkedIn or draw conclusions about them. The processing of data for statistical purposes is carried out by us and LinkedIn under joint responsibility in accordance with Art. 26 GDPR. We have regulated the conditions and obligations as joint controllers with the providers in an agreement, which is available at https://legal.linkedin.com/pages-joint-controller-addendum .
+
+The aforementioned data processing by us is based on our legitimate interests in the operation of a Fan Page on the LinkedIn network, in the communication and interaction with the LinkedIn users, and in the evaluation of user interactions to improve the Fan Page. The data processing is therefore based in each case on Art. 6 sec. 1 lit. f GDPR.
+
+To exercise your rights as a data subject, you can contact us or the provider of the respective social network. If one party is not responsible for responding or must receive the information from the other party, we or the provider will then forward your request to the respective partner. Please contact the respective provider of the social network directly if you have any questions about the profiling and processing of your data when using the Fan Page. If you have any questions about the processing of your interaction with us on our Fan Page, please write to the contact details provided by us above.
+
+3. Website
+
+3.1 Informative Use of the Website (Logs)
+
+As part of a visit of the Wire Website for information purposes only (i.e. use without registration, login or communication with the provider via the website), information is automatically sent to the provider's server by the user's browser and temporarily stored there in a so-called log file. In this context, Wire collects and processes the following information and personal data in particular:
+
+IP address
+
+Date and time of accessing the Website
+
+Time zone difference to Greenwich Mean Time (GMT)
+
+Content of the request (specific page)
+
+Amount of data transferred
+
+Browser type and browser settings
+
+Language and version of the browser software
+
+Operating system used
+
+Last page visited by the user
+
+Access status/HTTP status code.
+
+This information is technically necessary for Wire to deliver the Website and to ensure its stability and security. The personal data collected when the website is accessed, in particular the user's IP address, will be deleted no later than thirty (30) days after collection, unless an attack or threat by the user has been recognized.
+
+Insofar as Wire collects and processes the user's personal data, in particular the user's IP address, when the Wire Website is accessed and visited, the legal basis for this is Art. 6 sec. 1 lit. f GDPR. Wire has a legitimate interest in providing the Website in a stable, secure, and safe manner. In particular, Wire intends to ensure a level of protection appropriate to the risk for the personal data it processes, to ensure network and information security and to optimize the Wire Website and protect it from attacks, disruptions and damage.
+
+3.2 HubSpot: Hosting, Cookie Banner, CRM, Analytics
+
+We use tools and hosting services provided by HubSpot, Inc., Cambridge, Massachusetts, US ("HubSpot") with a branch in Ireland (HubSpot European Headquarters, Ground Floor, Two Dockland Central, Guild Street, Dublin 1, Ireland) to provide the Website and certain features. In particular:
+
+We host the Website on EU servers operated by HubSpot to make it available on the internet;
+
+We have integrated the HubSpot Cookie Banner on our Website to obtain and document visitors’ consent to the storage of Cookies on our Website;
+
+We have integrated HubSpot Forms on our Website to provide a user-friendly way to contact us via we forms;
+
+We use the HubSpot CRM tool to process requests by visitors, users, or customers properly and efficiently.
+
+When you visit our Website or when you use a service provided by HubSpot (e.g., the HubSpot Cookie Banner or form), certain technical data about your end device (IP address, information about the operating system and browser used, browser language, etc.) and any information entered by you in the respective tool (e.g., cookie settings, entries in the respective forms) are transmitted to Hubspot's servers. We use European server locations (i.e. servers of our partner HubSpot Ireland), so that the data is generally not transmitted to server locations in third countries outside the EU or the EEA. If Hubspot transfers data to the USA in individual cases, this data transfer takes place on the basis of Art. 45 GDPR, as Hubspot is certified according to the so-called EU-US Data Privacy Framework and is therefore subject to an adequacy decision of the EU Commission.
+
+We have concluded a data processing agreement with Hubspot. Hubspot only processes the data in accordance with our instructions and on our behalf. The transfer of data to Hubspot is therefore based on Art. 28 GDPR. Hubspot only uses the data received as part of the CRM system for the technical processing of inquiries and does not pass it on to third parties.
+
+The above data processing is based on Art. 6 sec. 1 lit. f GDPR (legitimate interest). Our legitimate interests are to provide site visitors with our Website featuring a legally compliant and user-friendly cookie banner solution, easy to use contact forms, and to provide us with an efficient CRM system to properly process user requests.
+
+With your consent, HubSpot also uses Cookies to analyze your use of the Website and the use of the newsletter for statistical and marketing purposes. The statistical analyses and evaluations of logged user behavior help us to optimize our Website and further develop it based on user needs. We also use information to determine which of our company's services are of interest to customers and newsletter subscribers and to contact them for advertising purposes.
+
+The HubSpot Cookies are stored for a maximum period of 12 months and then automatically deleted. If this analytics feature is activated, the data collected with HubSpot (including technical information such as IP address, URL and language of the browser, approximate location, duration of a visit, privacy settings, interactions on the Website) can be linked to the information you provide to us in the forms and evaluated together. We receive the raw data collected and the statistical reports from HubSpot.
+
+We only use these functions of HubSpot and the corresponding Cookies if you have given us your consent to the use of marketing Cookies on the Website or to the evaluation of the use of our newsletter (see the section on newsletters above) and the associated data processing.
+
+The service is used on the basis of your consent in accordance with Art. 31 sec. 1 FADP and Art. 6 sec. 1 lit. a GDPR. You can freely withdraw your consent at any time with effect for the future, e.g. in the cookie banner on our Website.
+
+3.3 Google Fonts
+
+Our Website uses Google Fonts for the integration of external fonts, a service provided by Google Ireland Ltd (Gordon House, Barrow Street, Dublin 4, Ireland; hereinafter referred to as ‘Google’).
+
+The integration of Google Fonts takes place locally on our own server, so that no direct connection to Google's servers is established when you visit our Website.
+
+Insofar as data processing is carried out, this is done for the purpose of the uniform presentation of fonts and icons. The legal basis is therefore our legitimate interest in the uniform presentation in accordance with Art. 31 sec. 1 FADP and Art. 6 sec. 1 lit. f GDPR.
+
+This website uses Google Analytics, a web analytics service provided by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland and Google Inc. Mountain View, USA (‘Google’). The purpose of our use of Google Analytics is to analyse your user interactions on our website and to improve our offering and make it more interesting for you as a user based on the statistics and reports obtained.
+
+Google Analytics uses cookies to enable an analysis of your use of the website. During your visit to our website, the following data, among other things, is transmitted to Google and, if necessary, also to Google servers in the USA: pages accessed, your behaviour on the pages (e.g. length of stay, clicks, scroll depth), your approximate location (country and city), your IP address, technical information such as browser, internet provider, device and screen resolution, the source of your visit (i.e. which website or advertising medium brought you to us) and a randomly generated user ID. However, due to IP anonymisation on this website, your IP address will be truncated by Google within member states of the European Union or in other signatory states to the Agreement on the European Economic Area. Only in exceptional cases will the full IP address be transmitted to a Google server in the USA and truncated there.
+
+Google also processes the data collected via Google Analytics for its own purposes in accordance with its own privacy policy. The data may be stored by Google in usage profiles and processed, for example, for product improvement, the development of new products, measuring the effectiveness of certain advertising and market research, and the personalisation of content and advertisements. If you are logged in to Google, your data will be directly associated with your user account. If you do not want your data to be associated with your Google user account, you must log out before activating Google Analytics. We have no influence on the further processing of your data by Google. For more information, please refer to Google's privacy policy at https://policies.google.com/privacy.
+
+The data collected by Google Analytics is stored for a maximum of 14 months. The storage period for the cookies used by Google can be found in the cookie banner. An overview of the cookies used by Google can be found at https://policies.google.com/technologies/cookies?hl=de. The legal basis for the collection and further processing of information is your consent in accordance with Art. 31(1) DSG or Art. 6(1)(a) GDPR.
+
+The legal basis for the use of cookies or similar technologies on your device is also your consent. You may revoke your consent at any time without affecting the lawfulness of processing prior to revocation.
+
+In connection with the above-mentioned functions, Google may also transfer the data processed in this context to servers outside the EU, in particular to Google LLC in the USA, insofar as this is necessary for the provision of these services. For the USA, the EU-U.S. Data Privacy Framework is an adequacy decision by the EU Commission that certifies certified companies as having an adequate level of data protection within the meaning of the GDPR. Google LLC is certified under the EU-U.S. Data Privacy Framework and is also included in the list maintained by the U.S. Department of Commerce (Data Privacy Framework List). When data is transferred to Google LLC servers in the USA, a consistently high level of data protection is therefore guaranteed. Insofar as data is transferred to the USA, such a third-country transfer is based on Art. 45 (1) sentence 1 GDPR.
+
+4. Wire Messenger and App
+
+4.1 Download of the Wire App
+
+When downloading the App, the operator of the app shop through which the App is made available (for example Apple, Inc. for the App Store and Google LLC for the Google Play Store) collects personal data required for the download. This data may include your name, your email address and your postal code, time of download, the IP address, and the individual device identification number of your end device (so-called IMEI), crash-logs as well as your payment information, if applicable. This collection and processing of your personal data is, however, basically carried out solely by the respective app shop operator, without participation or influence by Wire. Further details on this data processing are available in the privacy policy of the relevant app shop operator.
+
+We process the personal data provided by the app store operator only to the extent necessary for the provision of the App. If we process personal data in the course of installation, this is done on the basis of the contract for the download and use of the Wire App that you have concluded, in accordance with Art. 6 sect. 1 lit. b GDPR.
+
+4.2 Messenger Analytics
+
+With your consent, we use the analytics tool " Countly " in Wire cloud to help us fix errors and further optimize the Wire Messenger based on user needs. Countly collects and analyses crash reports and information on certain other events, such as when a particular feature is activated. This gives us statistical information that helps us improve the stability and features of the Messenger.
+
+When Countly is activated, certain information about your use of the Messenger, such as whether and when an error occurs or a certain event occurs (e.g., opening or closing of the App, using of a particular feature), and other technical information (e.g., IP address, app version, device type, operating system) is collected using a pseudonymous ID generated by Countly. The information is transmitted to our (self-hosted) EU servers. Any ID and information stored by Countly are automatically deleted from your device no later than 365.
+
+We do not use the information transmitted by Countly to identify you. We cannot link this information to your Wire account, since it is only sent to a (self-hosted) server which is separated from the Wire servers hosting the Wire user accounts or the Messenger. We also do not store any IP addresses collected by Countly. We do not share the information with third parties. Countly is self-hosted by Wire on EU servers, so no data collected or analyzed by Countly is shared with the tool provider (Countly Ltd, with its principal place of business located at 9th Floor 107 Cheapside London United Kingdom EC2V 6DN) or any other third party. The data is not transferred to countries outside of the EU or EEA. We only use the collected information to create anonymous statistics and reports about the stability, functionality, and usage patterns related to the Messenger.
+
+We only use Countly in the Messenger with your consent which is obtained through a consent banner integrated in our Messenger. Therefore, the legal basis for the data processing as described above is user consent (Art. 31 sec. 1 FADP or Art. 6 sec. 1 lit. a GDPR). You can withdraw your consent at any time with effect for the future. Please make the appropriate settings via our consent banner.
+
+5. Transfer, Storage Period, and Rights
+
+5.1 Third Parties / Data Transfer to Third Countries
+
+To provide Wire services, Wire uses the services of its affiliate companies, in particular Wire Germany GmbH, a limited liability company located in Germany.
+
+For processing data of business prospects and business account users, Wire uses the following third parties:
+
+Subprocessor
+
+Function
+
+Server location
+
+Amazon Web Services (AWS)
+
+Hosting
+
+EU
+
+Google Workplace
+
+E-mail Provider
+
+EU
+
+Google Analytics
+
+Marketing Activities
+
+EU
+
+Box
+
+Signature Management
+
+EU
+
+Zendesk
+
+Customer Support
+
+EU
+
+Countly
+
+Product Analytics
+
+Germany
+
+Stripe
+
+Payment Services
+
+USA
+
+Contract Hero
+
+Contract Management
+
+EU
+
+Salesforce
+
+CRM-Services
+
+Germany
+
+HubSpot
+
+Website Hosting & Marketing Activities, CRM Services
+
+EU
+
+Wire only shares personal data with third parties if and to the extent necessary to provide the third party's service (e.g., to respond to a support request), if legally required, or if it is necessary to enforce the terms of service and/or protect Wire's rights. Wire will not disclose your data to public authorities unless Wire is required to do so under Swiss law.
+
+Additionally, to the extent permitted by data protection law, Wire may disclose your personal data to third parties if we (or our affiliates) are acquired by or involved in a transaction with similar financial implications. In such cases, we will make reasonable efforts to ensure the third party processes your data in accordance with this privacy policy. If your personal data is subsequently used in a manner different from what is described in this policy, we will ask the third party to notify you in advance.
+
+If Wire transfers personal data to third parties located outside Switzerland (see the list of third parties above), Wire ensures that (i) the third party is located in a country recognized by Switzerland and the European Commission as providing an adequate level of data protection, and/or (ii) Wire has entered into "Standard Contractual Clauses" with the third party and/or (iii) another safeguard or an exception under FADP and GDPR applies. If you use third-party services like YouTube, Spotify, Giphy, etc., via the Wire application, any data you share with these services is subject to their privacy policies.
+
+5.2 Storage Period
+
+Where we have not explicitly stated a retention period in this privacy policy, the following applies: We will only process your personal data for as long as is necessary to achieve the purpose of the processing. As soon as the purpose of the processing no longer applies, we will delete your data immediately, unless there are legitimate reasons within the meaning of the applicable legal regulations (e.g. Art. 17 sec. 3 GDPR), such as in particular legally prescribed retention periods, to prevent deletion. In this case, the data will be deleted immediately after the retention period has expired.
+
+Data that we process on the basis of your consent will be deleted immediately after you withdraw your consent, unless statutory regulations prevent deletion.
+
+5.3 Your Legal Rights as a Data Subject
+
+Under the applicable data protection laws, in particular the Swiss Federal Act of Data Protection (FADP) and the General Data Protection Regulation (GDPR), you as the data subject have certain rights in relation to the processing of your personal data. These rights include:
+
+Right of access (Art. 25 FADP / Art. 15 GDPR) : You have the right to request confirmation as to whether we are processing personal data about you. If this is the case, you can request information about the processed data and further information, such as the processing purposes, the categories of data, the recipients and the planned storage period.
+
+Right to rectification (Art. 32 FADP / Art. 16 GDPR) : If your personal data is incorrect or incomplete, you have the right to request the immediate rectification or completion of this data.
+
+Right to erasure (right to be forgotten) (Art. 32 FADP / Art. 17 GDPR) : You have the right to request the erasure of your personal data if one of the following grounds applies
+
+The data is no longer necessary for the purposes for which it was collected.
+
+You withdraw your consent and there is no other legal basis.
+
+The data has been processed unlawfully.
+
+The deletion is necessary to fulfill a legal obligation.
+
+Right to restriction of processing (Art. 32 FADP / Art. 18 GDPR) : You have the right to request the restriction of the processing of your personal data if
+
+You contest the accuracy of the data, for a period enabling us to verify the accuracy.
+
+The processing is unlawful, but you request the restriction of use instead of erasure.
+
+We no longer need the data, but you need it for the establishment, exercise or defense of legal claims.
+
+Right to data portability (Art. 28 FADP / Art. 20 GDPR) : You have the right to receive the personal data that you have provided to us in a structured, commonly used and machine-readable format and to request its transmission to another controller, provided this is technically feasible.
+
+Right to object (Art. 32 FADP / Art. 21 GDPR) : You have the right to object at any time to the processing of your personal data, which is based on a legitimate interest. In this case, we will cease processing unless we can demonstrate compelling legitimate grounds for the processing which override your interests, rights and freedoms.
+
+Right to withdraw consent (Art. 7 sec. 3 GDPR / Art. 31 FADP) : You have the right to withdraw your consent to the processing of your personal data at any time. The revocation applies to the future and does not affect the legality of the processing up to the time of revocation.
+
+Right to lodge a complaint with a supervisory authority (Art. 77 GDPR / Art. 49 FADP) : If you believe that the processing of your personal data violates data protection laws, you have the right to lodge a complaint with a competent data protection supervisory authority. In Switzerland, this is the Federal Data Protection and Information Commissioner (FDPIC); in the EU, you can contact the competent data protection authority in your country of residence.
+
+5.4 No Automated Decision-Making
+
+We do not use automated decision-making in accordance with Art. 22 sec. 1 and 4 GDPR, i.e. we do not use web-based systems to create user profiles and make automated decisions based on them with legal effect or similar detriment to you.
+
+5.5 No Legal Obligation to Provide Data
+
+You are not contractually or legally obliged to provide personal data on the Website, Fan Pages, or other Wire Services. However, without the provision of certain technical data (e.g. the IP address and other log data), Wire Services can generally not be used.
+
+5.6 Notification of Changes
+
+This privacy policy may change from time to time, and we will make the updated policy available on the website.
+
+5.7 Terms of Service
+
+Please refer to the terms of service governing the use of the website and the service, as they also govern the terms of this privacy policy.
+
+Products
+
+Features
+
+Security
+
+Plans & Pricing
+
+Deployment Options
+
+Wire vs. Alternatives
+
+Solutions
+
+Individuals & Business
+
+Enterprise
+
+Government
+
+Contact Sales
+
+Use Cases
+
+Crisis communication
+
+Secure communication
+
+MS Teams alternative
+
+NIS-2 compliance
+
+Public administration
+
+Resources
+
+Download
+
+Support
+
+Blog
+
+GitHub
+
+Vulnerability Reporting
+
+Knowledge Hub
+
+Company
+
+About Us
+
+Career
+
+Brand Portal
+
+Transparency
+
+Wire Cloud Status
+
+Privacy Policy | Legal | Imprint | Copyright 2026 © Wire Swiss GmbH | Show Cookie Banner

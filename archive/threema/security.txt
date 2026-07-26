@@ -1,0 +1,332 @@
+Login
+
+Threema Work
+
+Threema Broadcast
+
+Threema Gateway
+
+en
+
+English
+
+Deutsch
+
+Français
+
+Español
+
+About us
+
+Why Threema
+
+Security and Privacy as the Cornerstones of Digital Communication
+
+Privacy
+
+Privacy Without Compromise
+
+Security
+
+Zero-Knowledge Security and Legal Compliance
+
+Products
+
+Threema Work
+
+Threema OnPrem
+
+Threema Private
+
+Solution
+
+Use Cases
+
+WhatsApp Alternative
+
+MS Teams Alternatives
+
+C-Level Communication
+
+Managing Shadow IT
+
+Fast Internal Communication via Messenger
+
+Mobile Workforce
+
+Business Continuity: Out-of-Band Communication
+
+One-to-Many Communication
+
+GDPR-Compliant Communication
+
+Strengthen Cyber Resilience: NIS2, DORA, and CER
+
+Success Stories
+
+Mercedes-Benz Group AG
+
+EDEKA
+
+City of Frankfurt am Main
+
+Bavarian State Ministry of Justice
+
+TK Elevator
+
+Success Stories
+
+Industries
+
+Public Institutions
+
+Government
+
+Emergency & Bluelight
+
+Healthcare
+
+Education
+
+Financial and Insurance Sectors
+
+Resources
+
+Blog
+
+Messenger Interoperability: Well-Intended, but Bad for Data Privacy
+
+Easier Tag Management in the Management Cockpit
+
+World Emoji Day: Our Emoji Pet Peeves
+
+What We’re Working On
+
+Anonymity at the System Level – The Ultimate Privacy Protection
+
+Blog
+
+FAQ
+
+Threema Private
+
+Threema Work
+
+Threema Broadcast
+
+Support Request
+
+Whitepapers
+
+Cryptography Whitepaper
+
+Secure Messaging in Public Authorities
+
+Business Continuity Management
+
+Comparison of Business Messaging Solutions
+
+WhatsApp Alternative for Businesses
+
+European Cybersecurity Regulations: NIS2, DORA, and CER
+
+The Challenge of Cybersecurity
+
+Study: Cybersecurity and Communication Tools
+
+Quicklinks
+
+Events
+
+Webinars
+
+Partner
+
+NEW
+
+Documents
+
+Download
+
+Pricing
+
+Login
+
+Threema Work
+
+Threema Broadcast
+
+Threema Gateway
+
+Get Started
+
+en
+
+English
+
+Deutsch
+
+Français
+
+Español
+
+Why Threema?
+
+Security
+
+Zero-Knowledge Security and Legal Compliance
+
+Threema protects confidential information, avoids metadata, and is GDPR-compliant – “Security by Design” is our philosophy.
+
+Consistent End-to-End Encryption
+Threema relies on robust end-to-end encryption based on open-source encryption technology to protect all communication. Unlike many other messaging services, Threema not only provides end-to-end encryption for text and voice messages, media, and calls, but also for profile pictures, group names, and the list of group members.
+
+More about encryption
+
+Regular Audits
+Threema is regularly subjected to comprehensive audits by recognized security experts. For instance, the renowned company Cure53 conducted a thorough security audit of the mobile apps in October 2020, and in January 2024, the new desktop app was examined. Additionally, German researchers confirmed the robustness of Threema’s communication protocol Ibex with a formal security proof in July 2023.
+
+More about security audits
+
+Legal Compliance and Adherence to EU Regulations
+Threema is GDPR-compliant and meets all European data protection requirements. Furthermore, Threema is subject to the strict Swiss Federal Act on Data Protection (FADP). Unlike many US services, Threema is not subject to the CLOUD Act. The business messenger helps EU companies meet the requirements of NIS2, DORA, and CER. With its own servers in an “ISO 27001”-certified data center in Zurich, comprehensive data security is ensured.
+
+Privacy-compliant communication
+
+Open Source
+To ensure full transparency, the source code of the Threema apps is publicly accessible. However, you don’t have to take our word for it: thanks to Reproducible Builds (on Android), you can verify for yourself that the published code matches the one underlying the apps in the app stores.
+
+More about open source
+
+Test Now for Free
+Try Threema Work for 30 days with 30 users – no payment details required, no automatic renewal!
+
+Test for free
+
+About us
+
+Why Threema
+
+Privacy
+
+Security
+
+Products
+
+Features
+
+Lighthouse
+
+Threema Work
+
+Threema Private
+
+Threema OnPrem
+
+Threema Gateway
+
+Downloads
+
+Threema Work
+
+Threema OnPrem
+
+Threema Private
+
+Use Cases
+
+WhatsApp Alternative
+
+Complement to MS Teams
+
+C-Level Communication
+
+Fast Internal Communication via Messenger
+
+Mobile Workforce
+
+Business Continuity: Out-of-Band Communication
+
+One-to-Many Communication
+
+GDPR-Compliant Communication
+
+Strengthen Cyber Resilience: NIS2, DORA, and CER
+
+Comparison of Private Messenger
+
+Comparison of Business Messenger
+
+Industries
+
+Public Institutions
+
+Manufacturing
+
+Healthcare
+
+Retail
+
+Tourism / Hospitality
+
+IT
+
+Education
+
+Police / Armed Forces
+
+And many more
+
+Resources
+
+Success Stories
+
+Blog
+
+FAQ
+
+Support
+
+Events
+
+App Configuration
+
+Status
+
+How to activate Threema Work
+
+Changelog
+
+Company
+
+Open Source
+
+Transparency Report
+
+Jobs
+
+Fan Shop
+
+Business Inquiries
+
+Contact
+
+Press
+
+Newsletter
+
+Privacy Policy
+
+Legal Notice
+
+Data Processing Agreement
+
+Pricing
+
+Overview
+
+Get started
+
+Follow us
+
+Made in Switzerland © 2026 Threema AG.

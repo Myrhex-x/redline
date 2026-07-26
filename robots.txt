@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# This site is an archive. Archiving it is encouraged.

@@ -1,0 +1,68 @@
+[
+  {
+    "categories": [
+      {
+        "dataTypes": [],
+        "identifier": "PURCHASES",
+        "title": "Purchases"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "FINANCIAL_INFO",
+        "title": "Financial Info"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "LOCATION",
+        "title": "Location"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "CONTACT_INFO",
+        "title": "Contact Info"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "CONTACTS",
+        "title": "Contacts"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "USER_CONTENT",
+        "title": "User Content"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "IDENTIFIERS",
+        "title": "Identifiers"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "USAGE_DATA",
+        "title": "Usage Data"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "DIAGNOSTICS",
+        "title": "Diagnostics"
+      }
+    ],
+    "detail": "The following data may be collected and linked to your identity:",
+    "identifier": "DATA_LINKED_TO_YOU",
+    "purposes": [],
+    "title": "Data Linked to You"
+  },
+  {
+    "categories": [
+      {
+        "dataTypes": [],
+        "identifier": "SEARCH_HISTORY",
+        "title": "Search History"
+      }
+    ],
+    "detail": "The following data may be collected but it is not linked to your identity:",
+    "identifier": "DATA_NOT_LINKED_TO_YOU",
+    "purposes": [],
+    "title": "Data Not Linked to You"
+  }
+]

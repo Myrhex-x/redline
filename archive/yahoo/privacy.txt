@@ -1,0 +1,737 @@
+Terms
+
+Privacy Centre
+
+Back
+
+Privacy Centre
+
+Privacy Policy
+
+Your Privacy Controls
+
+How Digital Advertising Works
+
+Topics
+
+Cookie Policy
+
+Copyright/IP
+
+Community Guidelines
+
+European Accessibility Act
+
+Back
+
+European Accessibility Act
+
+Yahoo Mail
+
+Terms
+
+Privacy Centre
+
+Privacy Policy
+
+Your Privacy Controls
+
+How Digital Advertising Works
+
+Topics
+
+Cookie Policy
+
+Copyright/IP
+
+Community Guidelines
+
+European Accessibility Act
+
+Yahoo Mail
+
+Yahoo International Limited privacy policy
+
+Yahoo International Limited privacy policy
+
+Expand all
+Collapse all
+
+Version 1.2, last updated January 2026 (see the previous Privacy Policy here ).
+This privacy policy describes who we are, what information we collect from you, how we process your information, who we share it with, and your rights under data protection laws.
+To make it easier for you to navigate this privacy policy, we have put certain words and phrases in bold . You can click on them to see a definition of the word or phrase.
+
+1. Who we are
+We, Yahoo International Limited, are a technology and media company. Yahoo International Limited is a company established under the laws of Ireland and with headquarters located at ####Dublin-v2address#### Ireland. Yahoo International Limited is the data controller, meaning that we are responsible for why and how the personal information we collect through our services is used and held.
+We provide our consumer services , under brands such as Yahoo. We can offer you most of these sites and apps for free, thanks to advertising shown on our consumer services. In order to display, personalise and measure the ads which are shown to you on our sites and apps, we collect certain data as outlined in this privacy policy. Learn more about how digital advertising works.
+
+2. When this privacy policy applies
+This privacy policy applies when:
+you use the consumer services , as described in our Terms of Service , in the United Kingdom, the European Union (EU), the European Economic Area (EEA), the Middle East or Africa, or
+we use your information that was provided to us by others (for example, if we process information about you that we get from partners or publicly accessible websites).
+
+This privacy policy does not apply:
+when you are a business customer (our business to business privacy policy applies instead)
+when you visit other websites and apps through links on our consumer services
+when you do not use our services (our information notice for people who do not use Yahoo services applies instead)
+to our employees, during the course of their work, or
+when the provider of the services you use is another Yahoo company (and not Yahoo International Limited). For the digital advertising services offered by Yahoo EMEA Limited, please refer to their Privacy Policy .
+
+3. Categories of information
+Throughout this privacy policy we refer to different categories of personal information that we process.
+Click on + on the right to learn more about these categories of information.
+
+The table below provides more detail about the categories of information we collect and process.
+Category
+Description
+
+Account information
+Information such as your username, password, log-in activity and the unique identifiers we create for your account.
+
+Approximate geolocation information
+Information about your approximate location (for example, the country or city you are in). This does not include precise geolocation information (as described below).
+
+Call recordings
+Recordings of phone calls you have with us, such as those with our Member Services team.
+
+Commercial emails
+Emails from retailers and other organisations (not personal emails between individuals).
+
+Contact information
+Information such as your name, email address, phone number and postal address.
+
+Declared user-preference information
+Information you provide to customise or improve your use of our consumer services, such as the stock symbols you add to your finance portfolio or the sports teams you follow on our sports site.
+
+Demographic information
+This includes your age, gender, marital status and socioeconomic information (for example, your level of education, employment status and income range).
+
+Device information
+Information about your device, such as your browser (and the version), operating system (and the version), screen resolution and device type.
+
+Email information
+Information about the emails (including commercial emails ) you send and receive through our email service, such as the subject line, the content of incoming and outgoing emails and attachments (in limited circumstances as described in this privacy policy), and metadata about your emails, such as the times they are sent.
+
+Feedback
+Comments, suggestions or survey responses that you give us about our consumer services, or after contacting our Member Services team.
+
+Financial information
+Information such as payment information, including debit card and credit card numbers, expiry dates, card verification codes and PayPal account details.
+
+Identity documents
+Details of official identity documents, such as your driving licence, passport or national ID card, when we need to verify your identity.
+
+Inferred interests
+Interests that we think you have, based on your activity on our consumer services. For example, we assume that you are interested in sports if you visit our sports sites and apps, search for sports related content using our search services, or receive sports-related commercial emails using our email services.
+
+Online activity information
+Information about your interaction with our consumer services, such as your search history.
+
+Precise geolocation information
+Information that describes where you are in a precise way. This can include the coordinates (latitude and longitude) of your device, which are precise enough to locate it at a specific place (for example, an address).
+
+Purchase information
+Information about your purchases, receipts and subscriptions with us.
+
+4. How we collect your information
+We collect information about you at different times and from different sources, depending on:
+how you use our consumer services
+your privacy settings with us
+your privacy settings with other companies who have the right to share information with us, and
+whether we have the right to use your information from publicly available sources.
+
+We collect some of this information by using cookies and similar technologies . Learn more in our cookie policy .
+
+5. When we collect your information
+We collect your information that you provide to us and when you use our consumer services. We also receive information about you from partners and from publicly available sources.
+Click on + on the right to learn more about when we collect your information.
+
+We collect the following information that you provide to us when you use our consumer services.
+Type of information
+When we collect it
+
+Your account information , demographic information , contact information .
+When you sign up for an account.
+
+Your contact information , account information , and identity documents .
+To provide customer support or manage your account in limited cases.
+
+Your feedback and call recordings .
+During phone calls and whenever you interact with our customer support team.
+
+Declared user-preference information you provide to tailor your experience, such as stock symbols and favourite sports teams.
+At the time you provide the information.
+
+Financial information you provide to pay for subscription services.
+When you make the payment or subscribe to our services.
+
+Contact information and user-generated content that you provide in surveys, comments, and Yahoo-sponsored promotions.
+When you provide information on our consumer services in surveys, comments, and Yahoo-sponsored promotions.
+
+We collect the following information when you use our consumer services (direct collection).
+Type of information
+When we collect it
+
+Information about your activity, including the following:
+
+Your online activity information on our consumer services, such as which ads or articles you clicked on, your search queries, apps you’ve installed or used, and the frequency, duration and time of day of your visits.
+When you click on ads or articles or install or use our sites and apps.
+
+Your email information .
+When you use Yahoo email services to send or receive emails.
+
+The site you visited or the app you used immediately before and after using our consumer services .
+When you start using and stop using our consumer services.
+
+Purchase information about the type and duration of your subscriptions or purchases from us on our consumer services .
+When your subscription with us starts and ends, or the purchase is made.
+
+Information that identifies you as a user or your device, including the following:
+
+Device information such as your device’s language settings, geographic region and time zone.
+
+Technical identifiers such as IP addresses, internet service provider, device identifiers and mobile phone network, identifiers stored in cookies, hashed versions of your email address, identifiers derived from your hashed email address or from the statistical matching of other identifiers, and similar network identifiers.
+
+Precise geolocation information and approximate geolocation information , based on your IP address and GPS, Wi-Fi or Bluetooth signals.
+When you use our consumer services .
+
+We collect the following information from partners through contractual agreements, or from publicly available sources.
+Type of information
+When we collect it
+
+Information from publicly available sources, or from our commercial partners and third-party data providers under contracts with them, including technical identifiers , demographic information , device information , online activity information , inferred interests , precise geolocation information and approximate geolocation information .
+When we access the information from publicly available sources or enter into agreements with partners who provide the services to us.
+
+Contact information and demographic information from social media platforms.
+When you use your social media login to use our consumer services .
+
+6. How we use your information and the legal bases we rely on
+When you use our consumer services , we use your information for the following purposes:
+to provide the consumer services to you
+to provide advertising to you, including to build interest profiles to personalise the ads we show to you
+to personalise the content we show you, including to build interest profiles
+to directly market our consumer services to you
+to understand, develop, and improve our services
+to develop and provide insights about our services
+to authenticate our users
+to prevent and detect, for example, fraudulent, abusive, harmful or unlawful activity to protect our systems
+to investigate, identify, bring or defend against legal claims, and
+to keep to relevant laws and regulations (that is, for legal compliance).
+
+When we process information in connection with these purposes, we rely on legal bases (valid legal reasons). The legal bases we rely on are as follows.
+Contract - the processing is necessary for a contract you have with us, or because you have asked us to take specific steps before entering into a contract with us.
+Consent - you have given us clear permission.
+Legitimate interests - the processing is necessary for our legitimate interests or the legitimate interests of a third party, unless there is a good reason to protect your personal information and that takes priority over our or a third party’s legitimate interests.
+Legal obligation - the processing is necessary for us to keep to any law that applies (not including our obligations under any contract).
+Vital interests - the processing is necessary to protect the vital interests of a person, for example to protect someone’s life.
+
+Click on + on the right to learn more.
+
+To perform our contract with you
+We process your information when it is necessary to enter into or keep our contract with you. You can find the terms of the contract in the Terms of Service .
+Processing carried out to provide you with our consumer services
+Category of information we process
+Why we process this information
+
+Account information
+
+Contact information
+
+Identity documents
+To give you secure access to your account, and in certain circumstances to verify your identity when you contact us for customer support. We only ask for identity documents if necessary for security purposes. Identity documents are deleted once your identity is verified.
+
+Contact information
+
+Financial information
+
+Purchase information
+To provide you with a subscription service, process your subscription payment, and provide you with a record of your purchase history.
+
+Device information
+To optimise the version of our consumer services that you request. For example, if you use our consumer services on a mobile device, we will show you the mobile version, and will show you the desktop version if you are on a laptop or desktop computer.
+
+Technical identifiers
+To remember your log-in information when you sign into our consumer services.
+
+Declared user-preference information
+To provide you with features or display content that you have requested on our consumer services. For example, we will save and maintain the stock symbols you add to your finance portfolio or the sports teams you follow on our sports site.
+
+Online activity information
+
+Technical identifiers
+
+Approximate geolocation information
+To process the queries that you type into our search services and provide you with relevant search results.
+To display articles, videos and other content from us and our content partners. We will not personalise the content we show you without your consent .
+
+Online activity information
+
+Technical identifiers
+
+Approximate geolocation information
+
+Device identifiers
+To detect network and system outages, monitor our system and network performance, and balance traffic across our network infrastructure.
+
+Approximate geolocation information
+To provide you with the appropriate consumer services available in your region (for example, providing localised search results such as restaurants near your current location when you search for restaurants). We will not use your precise geolocation information without your consent.
+
+Declared user-preference information
+
+Contact information
+
+Demographic information
+
+Feedback
+To increase engagement with you on our consumer services through promotions you choose to take part in.
+
+With your consent
+We need your consent (permission) to use your information for certain processing activities. This means that we will only perform this processing once you agree by taking an action such as clicking ‘I agree’. You can withdraw your consent for any of the processing stated below (i to v) through your privacy controls .
+Processing carried out to provide certain features of our consumer services
+Category of information we process
+Why we process this information
+
+Email information
+To provide you with product features such as:
+email features (for example, tracking packages, identifying travel-related emails, including those relating to flight and hotel bookings, and one-tap unsubscribing from emails you no longer want to receive), and
+other features across our consumer services (for example, on the Yahoo homepage in certain countries you can view your spending based on the purchase receipts you have been emailed).
+
+If you are using our services in the EEA, UK, or Switzerland you can go to your privacy controls to control how we use your email information for product features.
+
+Contact information
+To send you newsletters that you have subscribed to as part of your use of our consumer services.
+
+Processing carried out to provide tailored advertising, including to build an advertising interest profile
+Category of information we process
+Why we process this information
+
+Account information
+
+Approximate geolocation information
+
+Contact information
+
+Declared user-preference information
+
+Demographic information
+
+Device information
+
+Inferred interests
+
+Online activity information
+
+Precise geolocation information
+
+Purchase information
+
+Technical identifiers
+To target and deliver tailored ads to you on our consumer services .
+To measure how effective our ads are and to create technical identifiers and advertising interest profiles based on your inferred interests.
+If you withhold or withdraw your consent for us to use your personal information to target and deliver advertising to you, we will still show you ads, but these ads will not be tailored to you based on these categories of information.
+Please see how digital advertising works to learn more about how we use your information to provide advertising to you. Yahoo's advertising policies do not allow the processing of data from children known to be under 18 for targeted advertising purposes.
+
+Commercial emails
+To create advertising interest profiles to personalise the ads we show you across our consumer services.
+You can use your privacy controls to control whether we can analyse your commercial emails, such as receipts from retailers, for advertising purposes.
+Please see the ‘Yahoo Mail’ section in our consumer services page for more information.
+
+Processing carried out to provide tailored content to you, including to build a content interest profile
+Category of information we process
+Why we process this information
+
+Account information
+
+Approximate geolocation information
+
+Contact information
+
+Declared user-preference information
+
+Demographic information
+
+Device information
+
+Inferred interests
+
+Online activity information
+
+Precise geolocation information
+
+Purchase information
+
+Technical identifiers
+To provide tailored content to you and to create content interest profiles based on your inferred interests.
+For example, if you frequently read articles on our consumer services about sports or financial markets, we will create profiles that identify you as a ‘sports enthusiast’ or ‘financial news consumer’. When you visit our consumer services in the future, you will see more articles about those interests. Similarly, if you add a company’s stock symbol to your Yahoo stock portfolio, we will show you more news articles about that company.
+If you withhold or withdraw your consent for us to use your personal information to provide tailored content to you, we will still show you content, but it will not be based on your inferred interests. Also, we will not use cookies and similar technologies to measure how you interact with the content we show you.
+
+Commercial emails
+To create content interest profiles to personalise the content we show you on our consumer services.
+You can use your privacy controls to control whether we use your commercial emails to personalise the content we show you.
+Please see the ‘Yahoo Mail’ section in our consumer services page for more information.
+
+Processing carried out to market our services directly to you and promote partners’ products and services
+Category of information we process
+Why we process this information
+
+Contact information
+
+Demographic information
+To directly market our consumer services to you, and promote partners’ products and services, when you:
+sign up for an account with any of our consumer services
+tell us what you are interested in, or
+use certain consumer services for which your information is needed so we can provide the feature you are requesting.
+
+We also use your email address to send you newsletters that you have subscribed to as part of our consumer services.
+
+Processing carried out to perform analytics, understand, develop and improve our consumer services
+Category of information we process
+Why we process this information
+
+Account information
+
+Contact information
+
+Declared user-preference information
+
+Demographic information
+
+Device information
+
+Feedback
+
+Financial information
+
+Approximate geolocation information
+
+Inferred interests
+
+Online activity information
+
+Precise geolocation information
+
+Purchase information
+
+Technical identifiers
+
+User-generated content
+With your consent, we analyse your interactions with our consumer services to understand how our services are performing. This enables us to improve our users’ experience, develop more content, features, products and services that are relevant to our users.
+We do this by:
+tracking how users navigate (move through) our services, analysing user interactions, studying the performance of key user flows (such as our checkout flow) to identify areas for optimisation which improves the usability of our sites and apps.
+understanding user behavior to identify common behavioral patterns such as the most-visited pages and assessing how the changes we make to our sites and apps impact how users engage with our products and services. This helps us improve our products and services and anticipate user needs to enhance the overall user engagement on our consumer services.
+measuring audience engagement and trends and analysing how different user groups or demographic information segments interact with our consumer services features to optimise their experience. For example, we may compare revenue generated for every page viewed based on demographic information or identify key navigation differences between mobile and desktop users.
+
+Based on legitimate interest
+We process your information when it is in our or our partners’ legitimate interests .
+Processing carried out to measure, understand, develop, and improve our consumer services
+Category of information we process
+Why we process this information
+
+Account information
+
+Contact information
+
+Declared user-preference information
+
+Demographic information
+
+Device information
+
+Feedback
+
+Financial information
+
+Approximate geolocation information
+
+Inferred interests
+
+Online activity information
+
+Purchase information
+
+Technical identifiers
+
+User-generated content
+To create insights which help us to:
+measure and understand how our consumer services are working and how they are being used, and
+create more relevant content, services and features for our consumer services
+compile aggregate statistics on the use of our consumer services and create general website metrics (for example, the number of users who visited a Yahoo site, read an article or watched a video on our consumer services).
+
+Examples of this type of processing include:
+counting the number of times an article is read or a video is watched on our consumer services
+counting and comparing the different types of browsers or devices that are used to access our consumer services
+testing for quality assurance (including security testing), bug detection and removal, and measuring service performance (for example, the time it takes our pages and apps to load).
+
+Processing carried out for safety, integrity and security purposes, including to prevent and detect fraudulent, abusive, harmful or unlawful activity
+Category of information we process
+Why we process this information
+
+Account information
+
+Call recordings
+
+Contact information
+
+Identity documents
+For authentication purposes, to verify your identity in certain cases, such as when you forget your password or when you request access to your information. Where you use our call centre, we may record your call for security, fraud detection and prevention, quality assurance and training purposes.
+
+All categories of information
+To prevent and detect fraudulent, abusive, harmful or unlawful activity and to protect your account and our systems.
+We use your IP address to protect our services from fraud and other harmful technologies and activities.
+We also analyse your email information for viruses and other malware that would harm the performance or security of our email services and network, as well as to detect, prevent and protect against fraudulent, abusive, harmful or unlawful behaviour. For example, we use email information for performance monitoring, security analysis, failure and outage detection and repair, troubleshooting and debugging, capacity planning and forecasting, traffic optimisation and load balancing, and to maintain the integrity of our systems and services.
+
+Processing carried out to investigate, identify, bring or defend against legal claims, to share information with other relevant parties, including law-enforcement agencies, and to respond to legal requests
+Category of information we process
+Why we process this information
+
+All categories of information
+To consider, and where appropriate, respond to legal requests, legal claims, litigation or other disputes.
+To detect, investigate or combat:
+fraudulent, abusive, harmful or and other illegal activity, or
+security and technical issues.
+
+This may involve sharing information with other technology companies to protect against security threats and report material or content to law-enforcement agencies, and other authorities or organisations.
+We share your information with our external advisors when we get legal advice, or with others in connection with legal claims and other disputes.
+
+Processing carried out to provide advertising on our consumer services
+Category of information we process
+Why we process this information
+
+Technical identifiers
+To deliver ads to you and protect our consumer services from advertising-related fraud.
+For example, if we do not have your consent to use cookies and similar technologies to provide you with ads, or to personalise the ads we show you, we will show you ads based on information like the page you are on or the time of day (these are often referred to as basic or contextual ads). When we show these ads, we will use your IP address to deliver the ads and make sure that you are not a fraudulent user.
+Please see how digital advertising works to learn more about how we use your information to provide advertising to you.
+
+Meet our legal obligations
+We process your information when it is necessary for us to do so in order to meet our legal obligations.
+Category of information we process
+Why we process this information
+
+Approximate geolocation information
+
+Technical identifiers
+We will process your IP address to determine the jurisdiction and legal terms that apply to you.
+
+Account information
+
+Online activity information
+
+Technical identifiers
+To apply your privacy choices across our services.
+
+All categories of information
+To respond to a valid legal request from a regulator, law-enforcement agency or other public authority. Examples of valid legal requests include search warrants or court orders.
+The following are examples of our legal obligations under Irish and EU laws:
+If public bodies including the Irish Revenue Commissioners and the Office of the Director of Corporate Enforcement ask us for information, we must keep to company and taxation laws (such as the Companies Act 2014).
+If Irish law-enforcement agencies ask us for information relating to a criminal investigation, we must keep to the Criminal Justice (Miscellaneous Provisions) Act 1997 (as amended), where it applies.
+If the Irish Competition and Consumer Protection Commission asks us for information, we must keep to competition and consumer law (such as the Competition and Consumer Protection Act 2014).
+When we collect, process, store and keep personal information we must keep to data protection law (including the General Data Protection Regulation, the Data Protection Act 2018 and the European Communities (Electronic Communications Networks and Services) (Privacy and Electronic Communications) Regulations 2011).
+We must keep to any court order requiring us to provide information relating to legal proceedings, including orders made under regulation (EU) No 1215/2012 on jurisdiction and recognising and enforcing judgments in civil and commercial matters.
+
+Protect vital interests
+We process your information when it is necessary for us to do so in order to protect your vital interests or those of another person.
+Category of information we process
+Why we process this information
+
+All categories of information
+To review and share information, including with law-enforcement agencies and other authorities or organisations, in circumstances where your or someone else’s vital interests need to be protected, such as in an emergency.
+Vital interests include protecting your (and other people’s) life and physical or mental wellbeing, and detecting, removing and reporting fraudulent, abusive, harmful or illegal content.
+When protecting vital interests we aim to combat harmful conduct and promote safety, integrity and security, including when we are investigating reports of harmful behaviour or are taking appropriate action, such as sharing information with relevant authorities when someone needs help.
+
+7. Sharing your information
+Below are the categories of recipients we share your information with.
+Click on + on the right to learn more about these recipients and why we share your information with them.
+
+Category of recipient
+Why we share your information
+
+Yahoo companies (our affiliates)
+We share your information with other Yahoo companies for a variety of purposes, including to:
+provide you with the consumer services that you use
+protect our consumer services and systems, by preventing and detecting unauthorised access or use
+understand how our consumer services work, and
+improve existing services and features, and develop new ones.
+
+Processors acting on our behalf
+We share your information with processors that work on our behalf and process your information as instructed by us. Processors include:
+providers of cloud storage
+application service providers
+subscription-management and payment services
+Advertising technology service providers acting on our behalf
+security partners and service providers, and
+feedback and comments platforms.
+
+Advertising partners
+If you consent to the sharing of your information with our advertising partners for the purposes mentioned below, we will share and allow our advertising partners to collect your online activity information , device information , approximate geolocation information , and technical identifiers so they can:
+show ads on our consumer services to people who are most likely to be interested in seeing them
+match the information they have about you with the information we have about you
+create technical identifiers and advertising interest profiles about you and your device
+create advertising interest profiles about you and your device
+keep track of the number of users who saw or clicked on a particular ad
+analyse the performance and effectiveness of our ads and those of third parties
+develop and improve their services
+reduce fraud and detect non-human traffic, and
+perform auditing, research and reporting for advertisers, including about the audience we reach.
+
+With your consent, Yahoo will also share the inferred interests we have created about you with Taboola so that Taboola can perform the above activities. To learn more about Taboola, you can read their Privacy Policy .
+You can view a list of the advertising partners we work with or manage how they use your information at any time, by clicking on the 'Privacy & cookie settings' or 'Privacy dashboard' links on our sites and apps.
+We take part in the IAB Europe Transparency & Consent Framework and keep to its specifications and policies. Our Consent Management Platform identification number is 14.
+
+Search partners
+When you use our search services, we share your information with search partners to provide our search services. Search partners receive your online activity information , technical identifiers and approximate geolocation information . They may use your information to provide extra search features such as maps, local business listings or flight information. For more information about our search services and how we share your information with search partners, go to our consumer services page.
+
+Content and social media partners
+If we have your consent , we will share your online activity information , device information and approximate geolocation information with our content and social media partners to enable them to provide relevant content and other features as part of our consumer services , such as:
+news and entertainment articles
+embedded social media posts
+buttons that allow you to share or like content on social media platforms, and
+embedded videos, podcasts, and other interactive widgets.
+
+These partners will use your information in line with your privacy settings, their own privacy policies, and our agreements with them. You can view a list of the content and social-media partners we work with or manage how they use your information at any time, by clicking on the 'Privacy & cookie settings' or 'Privacy dashboard' links on our sites and apps.
+
+E-commerce partners
+We work with e-commerce partners to provide product listings, catalogues, shopping carts, price alerts, payment processing and related online commerce functionality. E-commerce partners include AWIN , Skimlinks , Amazon , and Sovrn .
+In our consumer services , our e-commerce partners may, for example, display hyperlinks to third-party goods and services. If you click on those hyperlinks you will be redirected to retailers, manufacturers, or other sites and apps that provide information or the ability to buy those goods and services. These partners will collect information related to your activity and will use that information in line with their policies and our agreements with them.
+
+Government agencies or other third parties
+We share information with third parties and law-enforcement agencies to:
+keep to a court order or similar legal procedure, or to prevent fraud or other illegal activity
+protect the rights, property and safety of us and our users. For example, we may provide information (such as your IP address) to law-enforcement agencies in an emergency where someone’s safety is at risk
+detect, investigate or combat, for example, fraudulent, abusive, harmful or illegal activity, security issues and technical issues. This includes sharing information with other technology companies to protect against security threats, and sharing information with law-enforcement agencies, other authorities or organisations to protect the safety, integrity and security of our systems
+meet legal or regulatory requirements, and
+exercise our legal rights, including investigating cases of our Terms of Service being broken.
+
+New owners
+If the ownership or control of all or part of Yahoo (or one or more of our consumer services ) changes or is proposed to change as a result of a merger, acquisition, or sale of any assets, we may transfer your information to the new (or prospective) owner or controller.
+
+8. Exercising your privacy rights
+You have certain rights over your information, including the right to receive a copy of your personal information, to control how we process certain information, and to correct or delete personal information.
+This section provides further information on your rights and how to exercise them.
+These rights may be limited in certain circumstances. For example, when we:
+cannot verify your identity
+are required by law to restrict your privacy rights
+have a valid business reason to keep your personal information, or
+must protect the rights of others.
+
+Click on + on the right to learn more.
+
+How to exercise your privacy rights
+You can exercise your privacy rights by visiting your privacy controls . You can also exercise your privacy rights by filling in our privacy form .
+Withdraw your consent
+If you have given us your consent to process your information or to use cookies and similar technologies , you can withdraw your consent or change your choices at any time. You can do this by clicking on the 'Privacy & cookie settings' links on our sites and apps or through your privacy controls .
+Please note that withdrawing your consent will not affect the lawfulness of any processing carried out based on your consent before it was withdrawn.
+
+Object to the processing of your information
+You have the right to object to us processing your personal information. You can update your marketing preferences at any time by visiting your privacy controls . You can also object by filling in our privacy form .
+When you make an objection we will consider a number of factors including:
+your reasonable expectations
+the benefits and risks to you, us or other people, and
+other available ways that would achieve the same outcome.
+
+Restrict the processing of your information
+In certain circumstances you can restrict the processing of your information for a period of time, as long as there are valid reasons for doing so. To do this please contact us using our privacy form .
+
+Get copies of your information
+You have the right to ask us for a copy of the personal information we hold about you. You can download a copy of your information from your privacy controls or by using our privacy form .
+
+Get your information in an accessible way
+This right, known as the right to data portability, allows you to receive information that is accessible and machine-readable, and to ask an organisation to transfer your information to another organisation (for example, another email provider). You can arrange this through your privacy controls .
+
+Delete your information
+You have the right, in certain cases, to ask us to delete your information. We will delete the information unless we are required by law to keep it or we have a valid business reason for keeping it.
+You can delete your account and the information associated with it, at any time, by visiting your privacy controls or by contacting us using our privacy form .
+When you ask us to delete your account, we will delete your information or make it anonymous within 30 days, unless there are overriding circumstances for us to keep it (for example, if we are required by law to keep it).
+You can ask for specific URLs to no longer appear in search results for your name on Yahoo Search. This is often referred to as the right to be forgotten. You can make this request by visiting our right to be forgotten page .
+
+Correct your information
+You have the right to correct the information you provided if it is no longer accurate or is incomplete. You can update your information at any time by visiting your account info page or you can contact us using our privacy form .
+
+Raise a concern
+If you have any questions or concerns about how your information is processed, you can contact our Data Protection Officer by emailing dpo-contact@yahooinc.com or by writing to us at the address provided in the how to contact us section below. If you are not satisfied with our response, you also have the right to make a complaint to the data protection regulator in the country you live or work in. Find your local data protection regulator .
+If you live in Switzerland, you can contact the Federal Data Protection and Information Commissioner (FDPIC) .
+If you live in the UK you can contact the Information Commissioner’s Office (ICO) .
+
+9. How we protect your information
+We take protecting your information seriously. We follow a comprehensive information-security program and use technical and organisational measures, such as two-step verification, encryption, pseudonymisation and ongoing security training for our employees, to protect your information. We also continually evaluate emerging threats, the latest security technologies and best practices.
+When you contact us, we will ask you to provide certain information so we can confirm your identity and your right to access the account. This is to make sure your account and associated information are protected from unauthorised access.
+
+10. How long we keep your information
+We generally store your information for as long as is necessary for:
+the purposes described in section 6 of this privacy policy
+other legitimate purposes, such as meeting our legal obligations and enforcing our terms of service, and
+security purposes.
+
+In some cases, we store your information for longer (for example when we need to keep to legal requirements).
+Click on + on the right to learn more.
+
+The period we keep your information for depends on factors such as:
+the type of information
+why it has been collected and is being processed
+business needs (for example, creating backups so we can restore our services after a disaster), and
+any legal requirements we must keep to.
+
+For example, we keep the content of your email account for as long as your account is active. To keep your account active you must log in at least once every 12 months. If your account becomes inactive, your mailbox will be automatically deleted and cannot be restored. If your account continues to be inactive for a further six months, making it inactive for a total of 18 months, your account will be automatically scheduled for deactivation and deletion by our systems. We will tell you using your alternative communications channel (if you have set one up) before this happens. For more information on our account deletion practices, please see information on Inactive mailboxes in Yahoo Mail or Reasons Yahoo deactivates or deletes an account
+
+11. Transferring your information to other countries
+We work with Yahoo companies (our affiliates) and other companies in different countries. These countries may have privacy and data protection laws which are different from those in your country.
+When we transfer your information, we rely on appropriate safeguards being in place to protect information that is transferred to other countries.
+Click on + on the right to learn more about these safeguards.
+
+When we transfer information to our affiliates or companies in other countries, we make sure that safeguards are in place to protect the information. The safeguards we rely on are:
+adequacy decisions , if the recipient is in a country that is considered ‘adequate’ by the EEA and the UK, and
+standard contractual clauses adopted by the European Commission or the United Kingdom.
+
+The countries we transfer personal information to include Australia, the United Kingdom, India, the United States, Canada, Singapore, Taiwan and Israel.
+We may rely on other conditions to transfer your information, such as when the transfer is necessary:
+to keep to a contract that has been entered into, in your interests, between the data controller and another party
+to establish, bring or defend legal claims
+for important reasons of public interest, or
+to protect the vital interests of a person.
+
+For more information, please visit our FAQs on Data Transfers and our Data Transfer page.
+
+If you have any questions about the standard contractual clauses, or would like to get a copy of them, you can contact us using our privacy form or the contact information provided in the section below.
+
+12. How to contact us
+If you have any questions about this privacy policy, want to raise a concern with us, or want to exercise your privacy rights, the quickest and easiest way to do so is to get in touch with us using our online privacy form .
+You can also write to us at:
+The Privacy Team
+Yahoo International Limited
+The EXO Building
+North Wall Quay
+Dublin 1
+D01 W5Y2
+Ireland
+If you want to contact our Data Protection Officer, you can email dpo-contact@yahooinc.com or write to:
+The Data Protection Officer
+Yahoo International Limited
+The EXO Building
+North Wall Quay
+Dublin 1
+D01 W5Y2
+Ireland
+UK residents can also contact our UK GDPR representative by emailing YahooUKGDPRrepresentative@mhcldn.com or writing to:
+MHC U.K. GDPR Representative
+Mason Hayes & Curran LLP
+1 Cornhill, London
+EC3V 3ND
+United Kingdom
+
+13. Changes to this privacy policy
+We will make changes to this privacy policy from time to time.
+Some of our changes will be minor, but if we make a significant change to how we use or share your information we will tell you beforehand.
+
+©2026 Yahoo. All Rights Reserved.
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12

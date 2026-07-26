@@ -1,0 +1,15 @@
+[
+  {
+    "categories": [
+      {
+        "dataTypes": [],
+        "identifier": "CONTACT_INFO",
+        "title": "Contact Info"
+      }
+    ],
+    "detail": "The following data may be collected but it is not linked to your identity:",
+    "identifier": "DATA_NOT_LINKED_TO_YOU",
+    "purposes": [],
+    "title": "Data Not Linked to You"
+  }
+]

@@ -1,0 +1,86 @@
+{
+if (value === false) { // Ensure it only redirects when explicitly false
+setTimeout(() => {
+window.location.href = redirectUrl;
+}, 10000);
+}
+});">
+
+Skip to content
+
+legal
+
+$refs.language_button.focus())"
+x-ref="language_button"
+>
+
+Languages
+
+$refs.language_button.focus())"
+@keydown.down.prevent="$focus.wrap().next()"
+@keydown.up.prevent="$focus.wrap().previous()"
+x-ref="language_dropdown"
+x-trap.inert="languageModalOpen"
+>
+
+Deutsch
+
+English
+
+Español
+
+Français
+
+Italiano
+
+한국어
+
+Nederlands
+
+Polski
+
+Português Brasileiro
+
+Svenska
+
+Back to Twitch
+
+Legal
+
+Terms of Service
+
+Terms of Sale
+
+Privacy Notice
+
+Privacy Choices
+
+Monetized Streamer Agreement
+
+Open Source Attribution
+
+Twitch
+
+About
+
+Careers
+
+Blog
+
+Press
+
+Brand
+
+Developers
+
+Prime
+
+Bits
+
+Extensions
+
+Advertise
+
+Gift Card
+
+/home/ubuntu/actions-runner/_work/legal-hugo/legal-hugo/content/en/legal/privacy-notice.md

@@ -1,0 +1,60 @@
+[
+  {
+    "categories": [
+      {
+        "dataTypes": [],
+        "identifier": "PURCHASES",
+        "title": "Purchases"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "LOCATION",
+        "title": "Location"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "CONTACT_INFO",
+        "title": "Contact Info"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "CONTACTS",
+        "title": "Contacts"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "USER_CONTENT",
+        "title": "User Content"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "SEARCH_HISTORY",
+        "title": "Search History"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "IDENTIFIERS",
+        "title": "Identifiers"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "USAGE_DATA",
+        "title": "Usage Data"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "DIAGNOSTICS",
+        "title": "Diagnostics"
+      },
+      {
+        "dataTypes": [],
+        "identifier": "OTHER",
+        "title": "Other Data"
+      }
+    ],
+    "detail": "The following data may be collected and linked to your identity:",
+    "identifier": "DATA_LINKED_TO_YOU",
+    "purposes": [],
+    "title": "Data Linked to You"
+  }
+]

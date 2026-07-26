@@ -1,0 +1,514 @@
+Apple
+Store
+
+Mac
+
+iPad
+
+iPhone
+
+Watch
+
+Vision
+
+AirPods
+
+TV & Home
+
+Entertainment
+
+Accessories
+
+Support
+
+0 +
+
+Apple Platform Security
+
+Open Menu
+
+Close Menu
+
+Communities
+
+Search this guide
+
+Clear Search
+
+Table of Contents
+
+Apple Platform Security
+
+Welcome
+
+Intro to Apple platform security
+
+Hardware security and biometrics
+
+Hardware security overview
+
+Apple SoC security
+
+The Secure Enclave
+
+Optic ID, Face ID, and Touch ID
+
+Biometric security
+
+Magic Keyboard with Touch ID
+
+Optic ID, Face ID, Touch ID, passcodes, and passwords
+
+Optic ID matching security
+
+Facial matching security
+
+Uses for Optic ID, Face ID, and Touch ID
+
+Secure intent and connections to the Secure Enclave
+
+Hardware microphone disconnect
+
+Mac on-screen camera indicator light
+
+Express Cards with power reserve
+
+System security
+
+System security overview
+
+Secure boot
+
+Boot process for iPad and iPhone devices
+
+Memory safe iBoot implementation
+
+Mac computers with Apple silicon
+
+Boot process
+
+Boot modes
+
+Paired recoveryOS restrictions
+
+Startup Disk security policy control
+
+LocalPolicy signing-key creation and management
+
+Contents of a LocalPolicy file for a Mac with Apple silicon
+
+Intel-based Mac computers
+
+Boot process
+
+Boot modes
+
+Startup Security Utility
+
+Firmware password protection
+
+recoveryOS and diagnostics environments
+
+Signed system volume security
+
+Secure software updates
+
+Background Security Improvements
+
+Operating system integrity
+
+Device pairing and connection security
+
+Physical pairing model security
+
+Activating data connections securely
+
+Verifying accessories
+
+Automatically unlock Apple devices
+
+BlastDoor for Messages and IDS
+
+Lockdown Mode security
+
+Overview of additional macOS system security capabilities
+
+Additional macOS system security capabilities
+
+System Integrity Protection
+
+Trust caches
+
+Peripheral processor security
+
+Rosetta 2 on a Mac with Apple silicon
+
+Direct memory access protections
+
+Securely extending the kernel
+
+Option ROM security
+
+UEFI firmware security in an Intel-based Mac
+
+System security for watchOS
+
+Random number generation
+
+Communicating emergency information using satellites
+
+Apple Security Research Device
+
+Encryption and Data Protection
+
+Encryption and Data Protection overview
+
+Quantum-secure cryptography with Apple devices
+
+Passcodes and passwords
+
+Data Protection
+
+Data Protection overview
+
+Data Protection
+
+Data Protection classes
+
+Keybags for Data Protection
+
+Protecting keys in alternate boot modes
+
+Protecting user data in the face of attack
+
+Sealed Key Protection (SKP)
+
+Role of Apple File System
+
+Keychain data protection
+
+FileVault
+
+Volume encryption with FileVault
+
+Managing FileVault
+
+How Apple protects users’ personal data
+
+Protecting app access to user data
+
+Protecting access to user’s health data
+
+Digital signing and encryption
+
+App security
+
+App security overview
+
+App code signing process
+
+App security in iOS, iPadOS, and visionOS
+
+Intro to app security for iOS, iPadOS, and visionOS
+
+About App Store security
+
+Security of runtime process
+
+App protection and app groups
+
+App security in macOS
+
+Intro to app security for macOS
+
+App code signing process
+
+Gatekeeper and runtime protection
+
+Protecting against malware
+
+Controlling app access to files
+
+Supporting extensions
+
+Secure features in the Notes app
+
+Secure features in the Shortcuts app
+
+Services security
+
+Services security overview
+
+Apple Account and Managed Apple Account
+
+Apple Account security
+
+Managed Apple Account security
+
+iCloud
+
+iCloud security overview
+
+iCloud encryption
+
+Advanced Data Protection for iCloud
+
+iCloud Backup security
+
+iCloud Private Relay security
+
+Account recovery contact security
+
+Legacy Contact security
+
+Passcode and password management
+
+Passcode security overview
+
+Sign in with Apple security
+
+Automatic strong passwords
+
+Password AutoFill security
+
+App access to saved passwords
+
+Password security recommendations
+
+Password Monitoring
+
+Sending passwords
+
+Credential provider extensions
+
+iCloud Keychain
+
+iCloud Keychain security overview
+
+Secure keychain syncing
+
+Secure iCloud Keychain recovery
+
+Escrow security for iCloud Keychain
+
+Apple Pay
+
+Apple Pay security overview
+
+Apple Pay component security
+
+How Apple Pay keeps users’ purchases protected
+
+Credit, debit, and prepaid cards
+
+Card provisioning security overview
+
+Adding credit or debit cards to Apple Pay
+
+Payment authorization with Apple Pay
+
+Paying with cards using Apple Pay
+
+Contactless passes in Apple Pay
+
+Rendering cards unusable with Apple Pay
+
+Apple Card security
+
+Apple Cash security
+
+Tap to Pay on iPhone
+
+Using Apple Wallet
+
+Access using Apple Wallet
+
+Access key types
+
+Car key security
+
+Car key security
+
+Car key transactions
+
+Adding transit and eMoney cards to Apple Wallet
+
+IDs in Apple Wallet
+
+IDs in Apple Wallet
+
+Security of IDs in Apple Wallet
+
+iMessage
+
+iMessage security overview
+
+How iMessage sends and receives messages
+
+Check In security
+
+Secure iMessage name and photo sharing
+
+Secure Apple Messages for Business
+
+FaceTime security
+
+Find My
+
+Find My security
+
+Locating missing devices
+
+Continuity
+
+Continuity security overview
+
+Handoff security
+
+iPhone cellular call relay security
+
+iPhone Text Message Forwarding security
+
+Instant Hotspot security
+
+Network security
+
+Network security overview
+
+TLS security
+
+IPv6 security
+
+VPN security
+
+Wi-Fi security and privacy
+
+Security features when connecting to wireless networks
+
+Wi-Fi security with Apple devices
+
+Privacy features when connecting to wireless networks
+
+Wi-Fi privacy with Apple devices
+
+Bluetooth security
+
+Ultra Wideband security in iOS
+
+Single Sign-on security
+
+AirDrop security
+
+Wi-Fi password sharing security
+
+Firewall security in macOS
+
+Developer kit security
+
+Developer kit security overview
+
+ARKit security
+
+DriverKit security
+
+EnergyKit data security
+
+HomeKit security
+
+Communication security
+
+Data security
+
+Securing routers with HomeKit
+
+Camera security
+
+Security with Apple TV
+
+NFC & SE Platform security
+
+ReplayKit security
+
+SiriKit security
+
+WidgetKit security
+
+Secure device management
+
+Secure device management overview
+
+Device management
+
+Device management security overview
+
+Managed Device Attestation
+
+Attestation process security
+
+Configuration enforcement
+
+Automated Device Enrollment
+
+Activation Lock security
+
+Managed Lost Mode and remote wipe
+
+Shared iPad security
+
+Apple Configurator security
+
+Screen Time security
+
+Glossary
+
+Document revision history
+
+Copyright and trademarks
+
+iMessage security overview
+Apple iMessage is a messaging service for iPad, iPhone, Mac, Apple Watch , and Apple Vision Pro . Relying on the Apple Push Notification service (APNs) , iMessage lets users send texts and attachments like photos, contacts, locations, links, and emoji. Messages sync across all devices, enabling seamless conversations. Apple doesn’t store message content or attachments, which are all secured with end-to-end encryption so that no one but the sender and receiver can access them. Apple canʼt decrypt the data.
+When a user turns on iMessage on a device, the device generates encryption and signing pairs of keys for use with the service. The public keys are sent to Apple Identity Service (IDS) , where they are associated with the user’s phone number or email address, along with the device’s APNs address.
+As users enable additional devices for use with iMessage, their encryption and signing public keys, APNs addresses, and associated phone numbers are added to the directory service. Users can also add more email addresses, which are verified by sending a confirmation link. Phone numbers are verified by the carrier network and SIM. With some networks, this requires using SMS (the user is presented with a confirmation dialog if the SMS isn’t zero rated). Phone number verification may be required for several system services in addition to iMessage, such as FaceTime and iCloud. All of the user’s registered devices display an alert message when a new device, phone number, or email address is added.
+Published Date: December 19, 2024
+See also iCloud security overview Advanced Data Protection for iCloud iCloud Backup security Apple Account security overview
+Download this guide as a PDF
+
+Previous
+Security of IDs in Apple Wallet
+
+Next
+How iMessage sends and receives messages
+
+Helpful?
+
+Yes
+
+No
+
+Character limit:
+250
+
+Please don’t include any personal information in your comment.
+
+Maximum character limit is 250.
+
+Submit
+
+Thanks for your feedback.
+
+Apple Footer
+
+
+Apple
+
+Support
+
+Apple Platform Security
+
+iMessage security overview
+
+United States
+
+Copyright © 2026 Apple Inc. All rights reserved.
+
+Privacy Policy Terms of Use Sales and Refunds Site Map
