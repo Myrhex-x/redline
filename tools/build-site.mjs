@@ -525,7 +525,7 @@ ${body}
   </div>
   <div class="fcol"><h4>Rules</h4>
     <a href="/about/">Method</a><a href="${REPO}/blob/main/POLICY.md">Editorial policy</a>
-    <a href="/legal">Legal &amp; privacy</a>
+    <a href="/legal/">Legal &amp; privacy</a>
   </div>
 </div></footer>
 </body>
@@ -1355,6 +1355,60 @@ for (const e of realChanges) {
   );
 }
 
+// ------------------------------------------------------------ legal ----
+{
+  const body = `
+  <div class="about">
+  <h1>Legal &amp; privacy</h1>
+
+  <h2>Privacy</h2>
+  <p>This site sets <strong>no cookies</strong>, runs <strong>no analytics</strong>,
+  has no accounts and no forms. There is nothing to consent to, which is why
+  there is no banner.</p>
+  <p>The site is served by Vercel Inc., which processes visitors' IP addresses
+  transiently as a technical necessity of serving web requests. We do not
+  receive, retain, sell, or share any visitor data.</p>
+  <p><strong>Optional alerts.</strong> If you subscribe to push alerts on the
+  <a href="/alerts/">alerts page</a>, we store your browser's push endpoint (a
+  random URL it generates) and its two delivery keys — nothing else, and nothing
+  that identifies you. This is the only feature of the site that stores anything,
+  it only happens after you press the button, and unsubscribing deletes the
+  record immediately; endpoints that stop working are deleted automatically.
+  Notifications are delivered by your browser vendor's push service.</p>
+
+  <h2>Mentions légales / Legal notice</h2>
+  <p><strong>FR</strong> — Ce site est édité à titre non professionnel. Conformément à
+  l'article 6, III, 2 de la loi n°2004-575 du 21 juin 2004 pour la confiance dans
+  l'économie numérique (LCEN), l'éditeur, personne physique agissant à titre non
+  professionnel, a communiqué ses éléments d'identification personnelle à
+  l'hébergeur ci-dessous et n'est pas tenu de les rendre publics.</p>
+  <p><strong>EN</strong> — This site is published non-commercially by a private
+  individual. As provided by Article 6, III, 2 of the French LCEN law, the
+  publisher's identity has been provided to the hosting provider below and is
+  not required to be published.</p>
+  <p><strong>Hébergeur / Host:</strong> Vercel Inc., 340 S Lemon Ave #4133,
+  Walnut, CA 91789, United States — <a href="https://vercel.com">vercel.com</a></p>
+  <p><strong>Contact:</strong>
+  <a href="${REPO}/issues">github.com/Myrhex-x/redline/issues</a></p>
+
+  <h2>The archive</h2>
+  <p>Documents in the archive remain the property of their respective owners.
+  They are preserved unmodified, as a public-interest record of documents that
+  were published to the general public. Corrections, vendor responses, and
+  takedown requests are handled per the
+  <a href="${REPO}/blob/main/POLICY.md">editorial policy</a>.</p>
+  </div>`;
+  mkdirSync(join(OUT, "legal"), { recursive: true });
+  writeFileSync(
+    join(OUT, "legal", "index.html"),
+    page({
+      title: "Legal & privacy — ScanRecords",
+      desc: "Legal notice and privacy information for scanrecords.org: no cookies, no analytics, nothing stored unless you opt into alerts.",
+      path: "/legal/", active: "about", body,
+    })
+  );
+}
+
 // per-company status badges (embeddable SVG)
 {
   const BADGE_COLORS = { confirmed: "#c2434d", global: "#c2434d", unclear: "#6b6b6b", denies: "#2f8f4e", e2ee: "#2f8f4e" };
@@ -1599,7 +1653,6 @@ if (existsSync(join(ROOT, "assets", "icons"))) cpSync(join(ROOT, "assets", "icon
 cpSync(join(ROOT, "assets", "manifest.webmanifest"), join(OUT, "manifest.webmanifest"));
 cpSync(join(ROOT, "assets", "sw.js"), join(OUT, "sw.js"));
 cpSync(join(ROOT, "assets", "alerts.js"), join(OUT, "alerts.js"));
-if (existsSync(join(ROOT, "legal.html"))) cpSync(join(ROOT, "legal.html"), join(OUT, "legal.html"));
 
 const pages = [];
 (function count(dir) {
