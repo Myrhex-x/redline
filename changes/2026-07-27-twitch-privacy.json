@@ -1,0 +1,30 @@
+{
+ "id": "2026-07-27-twitch-privacy",
+ "date": "2026-07-27",
+ "slug": "twitch",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -278,4 +278,3 @@ Press",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Brand"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Developers"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

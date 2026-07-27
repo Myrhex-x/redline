@@ -1,5 +1,93 @@
 [
  {
+  "id": "2026-07-27-meta-privacy",
+  "date": "2026-07-27",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 0,
+  "removed": 599
+ },
+ {
+  "id": "2026-07-27-tiktok-guidelines",
+  "date": "2026-07-27",
+  "slug": "tiktok",
+  "company": "TikTok",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
+  "id": "2026-07-27-twitch-privacy",
+  "date": "2026-07-27",
+  "slug": "twitch",
+  "company": "Twitch",
+  "doc": "privacy",
+  "docTitle": "Privacy Notice",
+  "kind": "change",
+  "added": 0,
+  "removed": 1
+ },
+ {
+  "id": "2026-07-26-gmx-privacy-de-baseline",
+  "date": "2026-07-26",
+  "slug": "gmx",
+  "company": "GMX (1&1 Mail)",
+  "doc": "privacy-de",
+  "docTitle": "Datenschutzhinweise (German, full)",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-gmx-security-baseline",
+  "date": "2026-07-26",
+  "slug": "gmx",
+  "company": "GMX (1&1 Mail)",
+  "doc": "security",
+  "docTitle": "E-Mail Sicherheit",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-slack-compliance-baseline",
+  "date": "2026-07-26",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-telegram-safety-baseline",
+  "date": "2026-07-26",
+  "slug": "telegram",
+  "company": "Telegram",
+  "doc": "safety",
+  "docTitle": "Safety & Moderation",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-26-telegram-transparency-baseline",
+  "date": "2026-07-26",
+  "slug": "telegram",
+  "company": "Telegram",
+  "doc": "transparency",
+  "docTitle": "Transparency Reports",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
   "id": "2026-07-26-discord-play-safety-baseline",
   "date": "2026-07-26",
   "slug": "discord",

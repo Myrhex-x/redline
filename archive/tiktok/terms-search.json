@@ -1,10 +1,10 @@
 {
  "company": "TikTok",
- "searchedAt": "2026-07-26",
+ "searchedAt": "2026-07-27",
  "documents": [
   {
    "doc": "guidelines",
-   "chars": 7448
+   "chars": 7427
   },
   {
    "doc": "play-safety",
@@ -15,7 +15,7 @@
    "chars": 46778
   }
  ],
- "totalChars": 59135,
+ "totalChars": 59114,
  "terms": [
   {
    "group": "eu",

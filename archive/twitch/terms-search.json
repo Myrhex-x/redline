@@ -1,6 +1,6 @@
 {
  "company": "Twitch",
- "searchedAt": "2026-07-26",
+ "searchedAt": "2026-07-27",
  "documents": [
   {
    "doc": "play-safety",
@@ -8,10 +8,10 @@
   },
   {
    "doc": "privacy",
-   "chars": 29007
+   "chars": 28996
   }
  ],
- "totalChars": 32577,
+ "totalChars": 32566,
  "terms": [
   {
    "group": "eu",

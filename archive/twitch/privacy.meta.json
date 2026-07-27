@@ -4,9 +4,9 @@
   "url": "https://www.twitch.tv/p/en/legal/privacy-notice/",
   "finalUrl": "https://legal.twitch.com/en/legal/privacy-notice/",
   "httpStatus": 200,
-  "fetchedAt": "2026-07-26T13:09:16.672Z",
+  "fetchedAt": "2026-07-27T10:15:44.345Z",
   "renderer": "headless-chromium",
-  "textHash": "8488e4ff1b712d3bcdbd021c0c4403aa090e9ca2d01dd7ded5aa3b33d5169976",
-  "textChars": 29006,
+  "textHash": "eb59f97b933bbeb149a642de8e2c3d403ba8871af0b58943f7b8a193317970ed",
+  "textChars": 28995,
   "htmlBytes": 121398
 }
