@@ -27,6 +27,9 @@ jobs:
       - name: Relay guards (SSRF, auth, redirect budget)
         run: node tools/test-relay.mjs
 
+      - name: companies.json is structurally sound
+        run: node tools/check-data.mjs
+
       - name: Site builds
         run: node tools/build-site.mjs
 
