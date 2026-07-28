@@ -22,6 +22,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { pendingEvents } from "./new-events.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -33,9 +34,15 @@ function main() {
     ? JSON.parse(readFileSync(join(ROOT, "history.json"), "utf8"))
     : [];
   const today = new Date().toISOString().slice(0, 10);
-  const todays = history.filter((e) => e.date === today && e.kind !== "baseline");
+  // What THIS run recorded, not what carries today's date. Filtering by date
+  // meant a second run on the same day re-flagged the morning's changes and
+  // filed a second, identical issue — which is exactly what happened on
+  // 26 July 2026. It also skips withdrawn records: asking a human to
+  // re-assess a status over a change we have established did not happen is
+  // the same false alarm as mailing it out.
+  const todays = pendingEvents(history);
   if (todays.length === 0) {
-    console.log("triage: no changes today");
+    console.log("triage: no new changes this run");
     return;
   }
 
