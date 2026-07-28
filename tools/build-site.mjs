@@ -1174,9 +1174,14 @@ for (const c of [...companies, ...institutions]) {
     .map((d) => {
       const m = a.docs.get(d.id) ?? {};
       const flagged = m.note ? ` <span class="pill" title="${esc(m.note)}">limited</span>` : "";
+      // A source can be perfectly captured and still be out of date. Saying so
+      // on the row matters more than usual here: two of the sources this
+      // archive links still describe the derogation as expired, and a reader
+      // who checks our own evidence should not conclude the site is wrong.
+      const dated = d.staleNote ? `<br><span class="faint fs-85">${esc(d.staleNote)}</span>` : "";
       return `<tr>
         <td><strong>${esc(d.title)}</strong>${flagged}<br>
-            <a class="dim" href="${esc(d.url)}">${esc(new URL(d.url).hostname)}</a></td>
+            <a class="dim" href="${esc(d.url)}">${esc(new URL(d.url).hostname)}</a>${dated}</td>
         <td class="mono dim">${m.fetchedAt ? fmtDate(m.fetchedAt) : "—"}</td>
         <td class="mono dim">${m.textChars ? m.textChars.toLocaleString("en-US") + " chars" : "—"}</td>
         <td class="mono faint" title="SHA-256 of extracted text">${m.textHash ? m.textHash.slice(0, 12) : "—"}</td>
@@ -1379,6 +1384,13 @@ for (const e of realChanges) {
     over suspicionless scanning; negotiations continue under the Irish Council presidency. Nothing is
     law yet. This box is re-reviewed whenever statuses are.</div>
   </div>
+  <p class="note">The reinstatement and the new end date are on the record in Parliament's own
+  legislative observatory — procedure
+  <a href="https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0429(COD)">2025/0429(COD)</a>,
+  “Text adopted by Parliament, 2nd reading”, <a href="/archive/eu-parliament/derogation-procedure.txt">archived
+  here</a>. Two long-standing trackers this site also archives — Parliament's own legislative train and
+  Patrick Breyer's overview — still describe the derogation as having expired on 3 April 2026. They
+  predate the July 2026 vote rather than contradicting it, and are kept as captured.</p>
   <p class="note">Background reading:
   <a href="https://www.euronews.com/my-europe/2026/07/23/eu-temporarily-extends-controversial-chat-scanning-regime-until-2028">Euronews</a> ·
   <a href="https://fightchatcontrol.eu/">fightchatcontrol.eu</a> ·

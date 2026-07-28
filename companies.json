@@ -1685,7 +1685,14 @@
     {
      "id": "csar-train",
      "title": "Legislative train: combating child sexual abuse online",
-     "url": "https://www.europarl.europa.eu/legislative-train/theme-promoting-our-european-way-of-life/file-combating-child-sexual-abuse-online"
+     "url": "https://www.europarl.europa.eu/legislative-train/theme-promoting-our-european-way-of-life/file-combating-child-sexual-abuse-online",
+     "staleNote": "Describes the derogation as expired on 3 April 2026 — written before the July 2026 reinstatement."
+    },
+    {
+     "id": "derogation-procedure",
+     "title": "Procedure file 2025/0429(COD) — extension of the derogation",
+     "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0429(COD)",
+     "minChars": 500
     }
    ],
    "ua": "browser"
@@ -1700,7 +1707,8 @@
     {
      "id": "chat-control",
      "title": "Chat Control overview",
-     "url": "https://www.patrick-breyer.de/en/posts/chat-control/"
+     "url": "https://www.patrick-breyer.de/en/posts/chat-control/",
+     "staleNote": "Timeline stops at the 3 April 2026 expiry; it does not yet record the July 2026 reinstatement."
     }
    ]
   }
