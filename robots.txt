@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 # This site is an archive. Archiving it is encouraged.
+
+Sitemap: https://scanrecords.org/sitemap.xml
