@@ -17,7 +17,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { newEvents } from "./new-events.mjs";
+import { pendingEvents } from "./new-events.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SITE = "https://scanrecords.org";
@@ -42,7 +42,7 @@ async function main() {
     : [];
   const today = new Date().toISOString().slice(0, 10);
   // Only what this run recorded: no changes, no notification, ever.
-  const events = newEvents(history);
+  const events = pendingEvents(history);
   if (events.length === 0) {
     console.log("push: no changes today, nothing to send");
     return;

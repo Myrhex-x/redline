@@ -3,3 +3,4 @@ node_modules/
 public/
 .cache-fonts/
 .claude/
+.new-events.json

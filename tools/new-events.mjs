@@ -14,8 +14,9 @@
  * nothing is sent. Silence is always the safer error for a notifier.
  */
 import { execFileSync } from "node:child_process";
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -35,4 +36,42 @@ export function newEvents(history) {
   return history.filter(
     (e) => e.kind !== "baseline" && !e.corrected && !previousIds.has(e.id)
   );
+}
+
+/**
+ * What the notifiers should actually send.
+ *
+ * newEvents() answers "what is in the working tree but not in HEAD", which
+ * only holds BEFORE the run commits. But a notification must go out AFTER
+ * the commit: the change page it links to is built from that commit, so mail
+ * sent beforehand points at a URL that does not exist yet. Every alert this
+ * project has ever sent linked to a page that was still 404.
+ *
+ * So the run records its events to a file while the answer is still
+ * computable, and the notifiers — now running after the push — read it back.
+ * Falls through to the git comparison when no file is set, which keeps a
+ * plain `node tools/mail.mjs` working outside the workflow.
+ */
+export function pendingEvents(history) {
+  const file = process.env.NEW_EVENTS_FILE;
+  if (file && existsSync(file)) {
+    return JSON.parse(readFileSync(file, "utf8"));
+  }
+  return newEvents(history);
+}
+
+// `node tools/new-events.mjs --save` — run before the commit step.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const out = process.env.NEW_EVENTS_FILE;
+  if (!out) {
+    console.error("new-events: set NEW_EVENTS_FILE to the path to write");
+    process.exit(1);
+  }
+  const historyPath = join(ROOT, "history.json");
+  const history = existsSync(historyPath)
+    ? JSON.parse(readFileSync(historyPath, "utf8"))
+    : [];
+  const events = newEvents(history);
+  writeFileSync(out, JSON.stringify(events, null, 1) + "\n");
+  console.log(`new-events: recorded ${events.length} event(s) for the notifiers → ${out}`);
 }
