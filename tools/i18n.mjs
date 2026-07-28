@@ -28,6 +28,7 @@ export const LOCALES = {
     htmlLang: "fr", name: "Français",
     ui: {
       skip: "Aller au contenu",
+      except: "sauf",
       nav: [["", "Vérifier", "home"], ["chat-control/", "Chat Control", "cc"], ["switch/", "Se protéger", "switch"], ["alerts/", "Alertes", "alerts"], ["glossary/", "Glossaire", "gloss"]],
       brand: "l'archive des politiques face au Chat Control.",
       brand2: "Relevé quotidien. Pas de cookies, pas de traceurs, pas de comptes — rien à consentir.",
@@ -203,6 +204,7 @@ export const LOCALES = {
     htmlLang: "de", name: "Deutsch",
     ui: {
       skip: "Zum Inhalt springen",
+      except: "außer",
       nav: [["", "Prüfen", "home"], ["chat-control/", "Chatkontrolle", "cc"], ["switch/", "Schützen", "switch"], ["alerts/", "Alarme", "alerts"], ["glossary/", "Glossar", "gloss"]],
       brand: "das Archiv der Richtlinien zur Chatkontrolle.",
       brand2: "Täglich erfasst. Keine Cookies, kein Tracking, keine Konten — nichts, dem man zustimmen müsste.",
@@ -378,6 +380,7 @@ export const LOCALES = {
     htmlLang: "es", name: "Español",
     ui: {
       skip: "Ir al contenido",
+      except: "excepto",
       nav: [["", "Comprobar", "home"], ["chat-control/", "Chat Control", "cc"], ["switch/", "Protegerse", "switch"], ["alerts/", "Alertas", "alerts"], ["glossary/", "Glosario", "gloss"]],
       brand: "el archivo de políticas frente al Chat Control.",
       brand2: "Registro diario. Sin cookies, sin rastreadores, sin cuentas — nada que consentir.",
@@ -553,6 +556,7 @@ export const LOCALES = {
     htmlLang: "pl", name: "Polski",
     ui: {
       skip: "Przejdź do treści",
+      except: "z wyjątkiem",
       nav: [["", "Sprawdź", "home"], ["chat-control/", "Kontrola czatów", "cc"], ["switch/", "Ochrona", "switch"], ["alerts/", "Alerty", "alerts"], ["glossary/", "Słowniczek", "gloss"]],
       brand: "archiwum polityk wobec kontroli czatów.",
       brand2: "Rejestrowane codziennie. Bez cookies, bez śledzenia, bez kont — nie ma na co wyrażać zgody.",
@@ -726,7 +730,7 @@ export const LOCALES = {
 
 /** Render every locale's five pages. ctx supplies data + shell helpers. */
 export function emitLocales(ctx) {
-  const { esc, fmtDate, ASSESSED, companies, shortName, svcLine, EYE_SVG, groupsFor, writePage } = ctx;
+  const { esc, fmtDate, ASSESSED, companies, shortName, svcLine, svcException, EYE_SVG, groupsFor, writePage } = ctx;
   for (const [code, L] of Object.entries(LOCALES)) {
     const groups = groupsFor(L.status);
     const assessed = fmtDate(ASSESSED);
@@ -740,7 +744,7 @@ export function emitLocales(ctx) {
     .map((c) => `<a class="card ${g.cls}" href="/company/${c.slug}/" hreflang="en">
       <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
       <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${g.verdict}</span>
-      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}</span></a>`)
+      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}${svcException(c).length ? `<span class="svcexc">${L.ui.except} ${esc(svcException(c).join(", "))}</span>` : ""}</span></a>`)
     .join("")}</div>`
       )
       .join("");
@@ -792,7 +796,7 @@ export function emitLocales(ctx) {
         (c) => `<a class="card st-e2ee" href="/company/${c.slug}/" hreflang="en">
       <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
       <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${L.status.e2ee.verdict}</span>
-      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}</span></a>`
+      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}${svcException(c).length ? `<span class="svcexc">${L.ui.except} ${esc(svcException(c).join(", "))}</span>` : ""}</span></a>`
       )
       .join("")}</div>`;
 

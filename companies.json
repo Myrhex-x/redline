@@ -509,7 +509,11 @@
    },
    "services": [
     "iMessage",
-    "FaceTime"
+    "FaceTime",
+    "iCloud Mail"
+   ],
+   "servicesNamed": [
+    "iCloud Mail"
    ]
   },
   {

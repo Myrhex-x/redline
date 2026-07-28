@@ -658,6 +658,10 @@ p.lede { max-width:58ch; }
 .correction strong { color:var(--warn-fg); }
 .corrected-row { opacity:.62; }
 .corrected-row .delta { text-decoration:line-through; }
+/* An exception the verdict above does not cover. Must read as a caveat on a
+   reassuring headline, not as decoration. */
+.svcexc { display:block; font-size:.72rem; line-height:1.35; margin-top:.25rem; color:var(--warn-fg); }
+.svcexc-id { font-size:.86rem; margin-top:.35rem; }
 /* Named vs merely operated. Deliberately not green/red: neither group is a
    verdict about the service, only about what the evidence says. */
 .svcev { border:1px solid var(--line); border-radius:6px; padding:1rem 1.15rem; margin:1.1rem 0 1.4rem;
@@ -831,15 +835,21 @@ function serviceEvidenceBlock(c) {
   return `
   <div class="svcev">
     <h3>Which services the evidence names</h3>
+    ${!scansPerVerdict(c) ? `<p><span class="evlbl evlbl-named">Exception</span> The status above describes
+      ${esc(svcUnnamed(c).join(", ")) || esc(shortName(c))}. It does <strong>not</strong> cover
+      ${c.servicesNamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}, which a tracked source names among the
+      services using the derogation. One company can run both a service that cannot be read and a service that is
+      scanned, and this is that case.</p>` : ""}
     <p><span class="evlbl evlbl-named">Named</span> ${c.servicesNamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
       — ${ev.source ? `named in <a href="${esc(ev.source.u)}">${esc(ev.source.t)}</a>, archived
       <a href="/archive/${ev.slug}/${ev.doc}.txt">here</a>` : "named in a tracked source"}:
       <q>${esc(ev.quote)}</q></p>
-    ${unnamed.length ? `<p><span class="evlbl">Not named</span> ${unnamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
+    ${unnamed.length ? `<p><span class="evlbl">${scansPerVerdict(c) ? "Not named" : "Covered by the status"}</span> ${unnamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
       — also operated by ${esc(shortName(c))}, but no source we track names ${unnamed.length === 1 ? "it" : "them"}
       as scanning under the derogation. ${esc(ev.caveat)}</p>` : ""}
-    <p class="note">The Commission's report, which is what puts ${esc(shortName(c))} in this group at all,
-    names the provider and not the service. That is why the two lines above are separate.</p>
+    <p class="note">${scansPerVerdict(c)
+      ? `The Commission's report, which is what puts ${esc(shortName(c))} in this group at all, names the provider and not the service. That is why the two lines above are separate.`
+      : `A status is a claim about a service. Grouping ${esc(shortName(c))} under one verdict would have made the site say something untrue about one of its products, so the exception is stated wherever the status is.`}</p>
   </div>`;
 }
 
@@ -884,7 +894,7 @@ function companyRow(c) {
     ? `<a href="/change/${last.id}/">changed ${fmtDate(last.date)}</a>`
     : `<span class="dim">quiet since baseline</span>`;
   return `<tr>
-    <td><a href="/company/${c.slug}/"><strong>${esc(c.name)}</strong></a>${svcLine(c) ? `<br><span class="svc">${esc(svcLine(c))}</span>` : ""}</td>
+    <td><a href="/company/${c.slug}/"><strong>${esc(c.name)}</strong></a>${svcLine(c) ? `<br><span class="svc">${esc(svcLine(c))}</span>` : ""}${svcException(c).length ? `<span class="svcexc">except ${esc(svcException(c).join(", "))}</span>` : ""}</td>
     <td class="dim">${a.docs.size ? `${a.docs.size} tracked` : `<span title="Policy pages block archiving">blocked</span>`}</td>
     <td>${a.label ? `<span class="mono dim">✓</span>` : `<span class="faint">—</span>`}</td>
     <td>${status}</td>
@@ -943,13 +953,27 @@ const shortName = (c) => c.name.split(" (")[0];
  * invented surfaces ("Signal messages and calls") would assert scope we have
  * not verified. So: name the services only when they add information.
  */
+/**
+ * `servicesNamed` means one thing — a tracked source names this service as
+ * using the derogation — but it stands in opposite relations to the verdict
+ * depending on the verdict.
+ *
+ * Under a scanning verdict the named services are what the verdict is
+ * actually evidenced for, and the company's other products are not; showing
+ * all of them would turn one sourced claim into several unsourced ones.
+ *
+ * Under a NOT-scanning verdict the named service is the exception the
+ * verdict does not cover, and it is the more dangerous case: Apple's card
+ * said "Can't read your messages" over "iMessage · FaceTime" while the
+ * evidence names iCloud Mail, which was not even in the list. A reassuring
+ * headline is exactly where an unstated exception does the most harm.
+ */
+const scansPerVerdict = (c) => (c.chatControl?.status ?? "unclear") === "confirmed";
 const svcLine = (c) => {
-  // Where a source names particular services, the index shows THOSE — a card
-  // reads as "this verdict, these services", so listing every product the
-  // company happens to run under a confirmed-scanning verdict asserts, to a
-  // skim reader, that all of them scan. The full inventory and the
-  // distinction behind it live on the company page.
-  const s = c.servicesNamed ?? c.services ?? [];
+  const all = c.services ?? [];
+  const s = c.servicesNamed
+    ? (scansPerVerdict(c) ? c.servicesNamed : all.filter((x) => !c.servicesNamed.includes(x)))
+    : all;
   if (s.length === 0) return "";
   if (s.length === 1 && s[0].toLowerCase() === shortName(c).toLowerCase()) return "";
   return s.join(" · ");
@@ -957,6 +981,8 @@ const svcLine = (c) => {
 /** Services the company runs that no tracked source names as scanning. */
 const svcUnnamed = (c) =>
   c.servicesNamed ? (c.services ?? []).filter((s) => !c.servicesNamed.includes(s)) : [];
+/** Named services that the company's own verdict does NOT account for. */
+const svcException = (c) => (c.servicesNamed && !scansPerVerdict(c) ? c.servicesNamed : []);
 function groupedCards() {
   return groups
     .map(
@@ -967,7 +993,7 @@ function groupedCards() {
     .map((c) => `<a class="card ${g.cls}" href="/company/${c.slug}/">
       <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
       <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${g.verdict}</span>
-      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}</span>
+      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}${svcException(c).length ? `<span class="svcexc">except ${esc(svcException(c).join(", "))}</span>` : ""}</span>
     </a>`)
     .join("")}</div>`
     )
@@ -1197,6 +1223,7 @@ for (const c of [...companies, ...institutions]) {
   <div class="idrow ${st.cls}">
     <span class="mg mg-lg" aria-hidden="true">${esc(shortName(c)[0])}</span>
     <div><h1>${esc(c.name)}</h1><span class="vd idvd">${st.verdict}</span>
+      ${svcException(c).length ? `<div class="svcexc svcexc-id">except ${esc(svcException(c).join(", "))}</div>` : ""}
       ${svcLine(c) || c.parent ? `<div class="svc svc-id">${esc(svcLine(c))}${c.parent ? `${svcLine(c) ? " " : ""}<span class="faint">${svcLine(c) ? "· " : ""}owned by ${esc(c.parent)}</span>` : ""}</div>` : ""}</div>
   </div>
   ${c.alsoOwns ? `<p class="note siblings">${c.alsoOwns.map((o) => `<strong>${esc(o.name)}</strong> — ${esc(o.why)}. <a href="/company/${o.slug}/">${esc(o.link)} →</a>`).join("<br>")}</p>` : ""}
@@ -1760,7 +1787,7 @@ for (const e of realChanges) {
     .map((c) => `<a class="card st-e2ee" href="/company/${c.slug}/">
       <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
       <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">Can't read your messages</span>
-      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}</span></a>`)
+      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}${svcException(c).length ? `<span class="svcexc">except ${esc(svcException(c).join(", "))}</span>` : ""}</span></a>`)
     .join("")}</div>
 
   <h2 id="backups">2. Mind the backup trap</h2>
@@ -2070,7 +2097,7 @@ ${body}
 }
 
 emitLocales({
-  esc, fmtDate, ASSESSED, companies, shortName, svcLine, EYE_SVG, REPO,
+  esc, fmtDate, ASSESSED, companies, shortName, svcLine, svcException, EYE_SVG, REPO,
   groupsFor: (statusMeta) =>
     Object.keys(statusMeta).map((k) => ({
       key: k, cls: STATUS[k].cls, ...statusMeta[k],
