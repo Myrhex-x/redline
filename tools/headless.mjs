@@ -25,7 +25,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { extractText, filterNoise, clipText, canonicalLines } from "./snapshot.mjs";
+import { extractText, filterNoise, clipText, canonicalLines, STUB_FLOOR } from "./snapshot.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ARCHIVE = join(ROOT, "archive");
@@ -33,7 +33,8 @@ const ARCHIVE = join(ROOT, "archive");
 const NAV_TIMEOUT_MS = 60_000;
 const SETTLE_MS = 3_500; // after load: let hydration finish
 const DELAY_BETWEEN_MS = 2_000;
-const SHORT_TEXT_CHARS = 500;
+// The floor lives in snapshot.mjs. This lane used to keep its own copy at 500,
+// a third value disagreeing with the other two, and ignored per-doc minChars.
 
 const args = process.argv.slice(2);
 const onlyIdx = args.indexOf("--only");
@@ -51,9 +52,9 @@ async function main() {
     return;
   }
 
-  const { companies } = JSON.parse(readFileSync(join(ROOT, "companies.json"), "utf8"));
+  const { companies, institutions = [] } = JSON.parse(readFileSync(join(ROOT, "companies.json"), "utf8"));
   const targets = [];
-  for (const c of companies) {
+  for (const c of [...companies, ...institutions]) {
     if (ONLY && c.slug !== ONLY) continue;
     for (const d of c.docs) if (d.render === "headless") targets.push([c, d]);
   }
@@ -92,13 +93,32 @@ async function main() {
       // Same normalisation pipeline as the plain lane: this one runs on US
       // CI runners without the EU relay, so region-varying page furniture
       // (footer legal links) must be clipped away or every run reports it.
-      if (doc.clip) text = clipText(text, doc.clip);
+      let clipFellThrough = false;
+      if (doc.clip) {
+        const clipped = clipText(text, doc.clip);
+        clipFellThrough = clipped === text;
+        text = clipped;
+      }
       if (doc.canonical === "lines") text = canonicalLines(text);
       const textHash = sha256(text);
-      const short = text.length < SHORT_TEXT_CHARS;
+      const floor = doc.minChars ?? STUB_FLOOR;
+      const short = text.length < floor;
 
       if (prev && prev.textHash === textHash) {
-        rows.push({ company, doc, state: "UNCHANGED", chars: text.length });
+        rows.push({ company, doc, state: "UNCHANGED", chars: text.length, clipFellThrough });
+        continue;
+      }
+
+      // A browser that rendered nothing is a failed read, not an edit. Both
+      // headless targets are JS-rendered by definition, so a slow hydration
+      // or a bot wall lands here routinely — and overwriting a good capture
+      // with the result would corrupt the archive and spend a commit saying
+      // the company rewrote its policy.
+      if (short && prev && prev.textChars >= floor) {
+        rows.push({
+          company, doc, state: "STUB", clipFellThrough,
+          detail: `${text.length} chars < ${floor} — kept prior ${prev.textChars}-char capture`,
+        });
         continue;
       }
       mkdirSync(dir, { recursive: true });
@@ -124,7 +144,7 @@ async function main() {
           2
         ) + "\n"
       );
-      rows.push({ company, doc, state: prev ? "CHANGED" : "NEW", chars: text.length, short });
+      rows.push({ company, doc, state: prev ? "CHANGED" : "NEW", chars: text.length, short, clipFellThrough });
     } catch (e) {
       rows.push({ company, doc, state: "ERROR", detail: e.name === "TimeoutError" ? "timeout" : e.message.slice(0, 80) });
     } finally {
@@ -144,7 +164,14 @@ async function main() {
     console.log(pad(r.company.slug, 14) + pad(r.doc.id, 12) + pad(r.state, 12) + detail);
   }
   const failed = rows.filter((r) => r.state === "ERROR" || r.state.startsWith("HTTP_"));
-  console.log(`\n${rows.length} headless documents: ${rows.length - failed.length} ok, ${failed.length} failed`);
+  const stubs = rows.filter((r) => r.state === "STUB");
+  console.log(
+    `\n${rows.length} headless documents: ${rows.length - failed.length - stubs.length} ok, ` +
+    `${stubs.length} stubbed, ${failed.length} failed`
+  );
+  for (const r of stubs) console.log(`  ⚠ stub: ${r.company.slug}/${r.doc.id} — ${r.detail}`);
+  for (const r of rows.filter((x) => x.clipFellThrough))
+    console.log(`  ⚠ clip fell through: ${r.company.slug}/${r.doc.id} — page furniture is in the record, expect daily churn`);
 }
 
 main();

@@ -1,0 +1,52 @@
+name: checks
+
+# The repository had scheduled jobs but no gate on code changes: a broken
+# build, a rotted quote, a dead internal link or a regressed relay guard
+# would first be noticed by the daily run — in production, on the live site.
+# These checks are fast, network-light and zero-dependency.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Relay guards (SSRF, auth, redirect budget)
+        run: node tools/test-relay.mjs
+
+      - name: Site builds
+        run: node tools/build-site.mjs
+
+      - name: Every displayed quote still exists in the archive
+        run: node tools/verify-quotes.mjs
+
+      - name: No broken internal links
+        run: node tools/check-links.mjs
+
+      # If an ignore/clip rule changed without re-baselining, the stored text
+      # no longer matches the rules that produced it — and the next snapshot
+      # would publish our own config edit as a company policy change.
+      - name: Archive matches current extraction rules
+        run: |
+          OUT=$(node tools/reextract.mjs --dry)
+          echo "$OUT"
+          if ! echo "$OUT" | grep -q "^re-extract: 0 rewritten"; then
+            echo ""
+            echo "::error::Extraction rules changed without re-baselining."
+            echo "Run 'node tools/reextract.mjs' and commit the result WITH the rule change,"
+            echo "so the pipeline never reports our own config edit as a company change."
+            exit 1
+          fi
