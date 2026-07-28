@@ -1,6 +1,6 @@
 {
  "company": "Zoom",
- "searchedAt": "2026-07-27",
+ "searchedAt": "2026-07-28",
  "documents": [
   {
    "doc": "play-safety",
@@ -8,10 +8,10 @@
   },
   {
    "doc": "privacy",
-   "chars": 59285
+   "chars": 59921
   }
  ],
- "totalChars": 63234,
+ "totalChars": 63870,
  "terms": [
   {
    "group": "eu",

@@ -1,6 +1,6 @@
 {
  "company": "Meta (Facebook, Instagram, Messenger)",
- "searchedAt": "2026-07-27",
+ "searchedAt": "2026-07-28",
  "documents": [
   {
    "doc": "law-enforcement",
@@ -12,10 +12,10 @@
   },
   {
    "doc": "privacy",
-   "chars": 1
+   "chars": 48971
   }
  ],
- "totalChars": 13928,
+ "totalChars": 62898,
  "terms": [
   {
    "group": "eu",

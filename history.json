@@ -1,5 +1,38 @@
 [
  {
+  "id": "2026-07-28-gmx-security",
+  "date": "2026-07-28",
+  "slug": "gmx",
+  "company": "GMX (1&1 Mail)",
+  "doc": "security",
+  "docTitle": "E-Mail Sicherheit",
+  "kind": "change",
+  "added": 3,
+  "removed": 1
+ },
+ {
+  "id": "2026-07-28-microsoft-eu-reports",
+  "date": "2026-07-28",
+  "slug": "microsoft",
+  "company": "Microsoft (Outlook, Teams)",
+  "doc": "eu-reports",
+  "docTitle": "EU jurisdictional transparency reports",
+  "kind": "change",
+  "added": 1,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-28-zoom-privacy",
+  "date": "2026-07-28",
+  "slug": "zoom",
+  "company": "Zoom",
+  "doc": "privacy",
+  "docTitle": "Privacy Statement",
+  "kind": "change",
+  "added": 39,
+  "removed": 37
+ },
+ {
   "id": "2026-07-27-meta-privacy",
   "date": "2026-07-27",
   "slug": "meta",

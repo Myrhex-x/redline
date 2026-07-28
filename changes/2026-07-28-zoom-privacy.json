@@ -1,0 +1,718 @@
+{
+ "id": "2026-07-28-zoom-privacy",
+ "date": "2026-07-28",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -216,7 +216,7 @@ Get it on Google Play",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom Privacy Statement"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Last updated: February 02, 2026"
+    },
+    {
+     "t": "+",
+     "s": "Last updated: July 27, 2026"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "This Privacy Statement describes the personal data we collect and/or process (which may include collecting, organizing, structuring, storing, using, or disclosing) to provide products and services offered directly by Zoom Communications, Inc. (“Zoom”), including Zoom’s websites, its meetings, webinars, and messaging platform, related collaborative features, and Zoom App Marketplace (“Zoom products and services” or “products and services”). Zoom products and services covered in this Privacy Statement do not include products or services developed by Zoom that are covered under a separate privacy policy (including those listed here ). California residents, please see our California Privacy Notice at Collection , and California & Other U.S. State Privacy Rights sections ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -260,7 +260,7 @@ Registration Information : Information provided when registering for a Zoom meet",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Device Information : Information about the computers, phones, and other devices used when interacting with Zoom products and services, which may include information about the speakers, microphone, camera, OS version, hard disk ID, PC name, MAC address, IP address (which may be used to infer general location at a city or country level), device attributes (like operating system version and battery level), WiFi information, and other device information (like Bluetooth signals)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Content and Context from Meetings, Webinars, Messaging, and Other Collaborative Features: Content generated in meetings, webinars, messages or through other Zoom products and services to which customer has subscribed (“Customer Content”), which may include audio, video, in-meeting messages, in-meeting and out-of-meeting whiteboards, chat messaging content, transcriptions, transcript edits and recommendations, responses to account owner / host-sponsored post-meeting or webinar feedback requests, responses to polls and Q&A, and files, as well as related context, such as invitation details, meeting or chat name, or meeting agenda. Customer Content may contain your voice and image, depending on the account owner’s settings, what you choose to share, your settings, and what you do on Zoom products and services. As referenced below, Zoom employees do not access or use Customer Content without the authorization of the hosting account owner, or as required for legal, safety, security or support purposes."
+    },
+    {
+     "t": "+",
+     "s": "Content and Context from Meetings, Webinars, Messaging, and Other Collaborative Features: Content generated in meetings, webinars, messages, or through other Zoom products and services to which customer has subscribed (“Customer Content”), which may include audio, video, in-meeting messages, in-meeting and out-of-meeting whiteboards, chat messaging content, transcriptions, transcript edits and recommendations, responses to account owner / host-sponsored post-meeting or webinar feedback requests, responses to polls and Q&A, and files, as well as related context, such as invitation details, meeting or chat name, or meeting agenda. Customer Content may contain your voice and image, depending on the account owner’s settings, what you choose to share, your settings, and what you do on Zoom products and services. As referenced below, Zoom employees do not access or use Customer Content without the authorization of the hosting account owner, or as required for legal, safety, security or support reasons."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Usage Information Regarding Meetings, Webinars, Messaging, Collaborative Features and the Website: Information about how people and their devices interact with Zoom products and services, such as: when participants join and leave a meeting; whether participants sent messages and who they message with; performance data; mouse movements, clicks, keystrokes or actions (such as mute/unmute or video on/off), edits to transcript text, where authorized by the account owner and other inputs that help Zoom to understand feature usage, improve product design, and suggest features; which third-party apps are added to a meeting or other product or service and what information and actions the app is authorized to access and perform; use of third-party apps and the Zoom App Marketplace; features used (such as screen sharing, emojis, or filters); and other usage information and metrics. This also includes information about when and how people visit and interact with Zoom’s websites, including what pages are accessed, interaction with website features including Zoom’s website’s virtual chat feature, and whether or not the person signed up for a Zoom product or service. Some usage data collection is optional and may be controlled by your Diagnostic Data Preferences Setting."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -310,7 +310,7 @@ Vendors: Zoom works with third-party service providers to provide, support, and",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "For Legal Purposes: Zoom may share personal data as needed to: (1) comply with applicable law or respond to, investigate, or participate in valid legal process and proceedings, including from law enforcement or government agencies; (2) enforce or investigate potential violations of its Terms of Service or policies; (3) detect, prevent, or investigate potential fraud, abuse, or safety and security concerns, including threats to the public; (4) meet our corporate and social responsibility commitments; (5) protect our and our customers’ rights and property; and (6) resolve disputes and enforce agreements."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Marketing, Advertising, and Analytics Partners: Zoom uses third-party marketing, advertising, and analytics providers: to provide statistics and analysis about how people are using Zoom products and services, including our website; and to provide advertising and marketing for Zoom products and services, including targeted advertising based on your use of our website. These third-party partners may receive information about your activities on Zoom’s website through third-party cookies placed on Zoom’s website. To opt out of our use of third-party cookies that share data with these partners, visit our cookie management tool, available in Cookies Settings . Where required by law, Zoom will first obtain your consent before engaging in the marketing or advertising activities described."
+    },
+    {
+     "t": "+",
+     "s": "Marketing, Advertising, and Analytics Partners: Zoom uses third-party marketing, advertising, and analytics providers: to provide statistics and analysis about how people are using Zoom products and services, including our website; and to provide advertising and marketing for Zoom products and services, including targeted advertising based on your use of our website. These third-party partners may receive information about your activities on Zoom’s website through third-party cookies and similar technologies placed on Zoom’s website. To opt out of our use of third-party cookies that share data with these partners, visit our cookie management tool, available in Cookies Settings . Where required by law, Zoom will first obtain your consent before engaging in the marketing or advertising activities described. Zoom will not share mobile opt-in data or consent collected through text messaging campaigns with third parties, except as necessary to provide the messaging service requested by the user or as required by law."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Corporate Affiliates: Zoom shares personal information with corporate affiliates, such as Zoom Voice Communications, Inc., to provide integrated and consistent experiences across Zoom products and services (such as enabling an account owner or their user to integrate a Zoom Phone call into a meeting) and to detect, investigate, and prevent fraud, abuse, and threats to public safety."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -322,7 +322,7 @@ Who Can See, Share, and Process My Personal Data When I Join Meetings and Use Ot",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "When you send messages or join meetings and webinars or use other collaborative features on Zoom, other people and organizations, including third parties outside the meeting, webinar, message, or other collaborative features, may be able to see, share, and process content and information that you share:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Account Owner: An account owner is the organization or individual that signs up for a Zoom account. Typically, an account owner designates one or more people (called an “administrator”) to manage their account and can grant privileges to users on the account. Depending on their license with Zoom, the account owner can authorize additional users on their account, and the account owner can create and/or access the profile information for all users on their account. The account owner and their users can invite others (including guests not on their account and unlicensed participants) to meetings or webinars hosted on their account. Zoom gives account owners controls and features that they can use to determine whether certain types of content, such as recordings or Zoom Chat messages, can be created or sent, and what third-party apps can be used, for meetings and webinars hosted on their account. Depending on their settings, account owners and the users they designate can access personal data for participants who join meetings and webinars on their account or send messages to users on their account. Account owners may also be able to determine what information Zoom and others can access and use. Specifically, account owners may have access to:"
+    },
+    {
+     "t": "+",
+     "s": "Account Owner: An account owner is the organization or individual that signs up for a Zoom account. Typically, an account owner designates one or more people (called an “administrator”) to manage their account and can grant privileges to users on the account. Depending on their license with Zoom, the account owner can authorize additional users on their account, and the account owner can create and/or access the profile information for all users on their account. The account owner and their users can invite others (including guests not on their account and unlicensed participants) to meetings or webinars hosted on their account. Zoom gives account owners controls and features that they can use to determine whether certain types of content, such as recordings or Zoom Team Chat messages, can be created or sent, and what third-party apps can be used, for meetings and webinars hosted on their account. Depending on their settings, account owners and the users they designate can access personal data for participants who join meetings and webinars on their account or send messages to users on their account. Account owners may also be able to determine what information Zoom and others can access and use. Specifically, account owners may have access to:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Account Usage:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -332,7 +332,7 @@ Participant List: Information about the participants in a Zoom meeting, webinar,",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Registration Information: Information provided during registration for a webinar, meeting, Zoom Room, or recording hosted by the account."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Zoom Chat and Out-of-Meeting Collaborations: If enabled on their account, account owners and those they authorize can see information about who sent and received Zoom Chat messages, including synced in-meeting messages (e.g., from a dedicated meeting group chat that is synced with Zoom Chat), to users on their account, along with information about the message (for example, date and time, and number of members or participants). Depending on their settings, account owners also can see sender and receiver information, and other messaging data, along with the content of messages sent to and from users on their account (including from in-meeting chat where dedicated meeting group chats are enabled), unless the account owner has enabled Advanced Chat Encryption . Depending on their settings, account owners and those they authorize may also see the content shared through collaborative features, including whiteboards, files, and images shared in Zoom Chat."
+    },
+    {
+     "t": "+",
+     "s": "Zoom Team Chat and Out-of-Meeting Collaborations: If enabled on their account, account owners and those they authorize can see information about who sent and received Zoom Team Chat messages, including synced in-meeting messages (e.g., from a dedicated meeting group chat that is synced with Zoom Team Chat), to users on their account, along with information about the message (for example, date and time, and number of members or participants). Depending on their settings, account owners also can see sender and receiver information, and other messaging data, along with the content of messages sent to and from users on their account (including from in-meeting chat where dedicated meeting group chats are enabled), unless the account owner has enabled Advanced Chat Encryption . Depending on their settings, account owners and those they authorize may also see the content shared through collaborative features, including whiteboards, files, and images shared in Zoom Team Chat."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "In-Meeting/Webinar Messages: Depending on their settings, account owners can see sender and receiver information, along with the content of messages sent to and from users on their account, in the following circumstances:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -342,7 +342,7 @@ Messages sent to the meeting group chat in a meeting when a dedicated meeting gr",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Messages sent to panelists in a webinar that is recorded"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Messages sent in dedicated meeting group chats in Zoom Chat"
+    },
+    {
+     "t": "+",
+     "s": "Messages sent in dedicated meeting group chats in Team Chat"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Direct messages if the account owner has enabled archiving"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -350,11 +350,11 @@ If a participant in a meeting is subject to archiving, their account owner will",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Recordings and Transcripts: Account owners can view and share recordings and transcripts of meetings and webinars hosted on their account, and may be able to view and share other recordings and transcripts generated by or shared with users on their account. Account owners may be able to view and share content generated by intelligent features that use recordings or transcripts."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Other Collaborative Feature Content (e.g., Zoom Email, Zoom Calendar, Zoom Canvas, Clips, Whiteboard, Notes, Polls, Q&A, Feedback): Depending on their settings, account owners and designated account administrators can access content hosted on their account. For example, depending on their settings, account owners and designated account administrators can access email and calendar content sent to and from users on their Zoom Email or Zoom Calendar accounts, even if those Zoom Emails are encrypted. In addition, account owners can see information about who provided responses to their polls, Q&A, or post-meeting or webinar feedback requests, including name and contact information, together with the responses or feedback, unless responses are submitted anonymously."
+    },
+    {
+     "t": "+",
+     "s": "Other Collaborative Feature Content (e.g., Zoom Email, Zoom Calendar, Zoom Docs, Clips, Whiteboard, Notes, Polls, Q&A, Feedback): Depending on their settings, account owners and designated account administrators can access content hosted on their account. For example, depending on their settings, account owners and designated account administrators can access email and calendar content sent to and from users on their Zoom Email or Zoom Calendar accounts, even if those Zoom Emails are encrypted. In addition, account owners can see information about who provided responses to their polls, Q&A, or post-meeting or webinar feedback requests, including name and contact information, together with the responses or feedback, unless responses are submitted anonymously."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Meeting Hosts, Participants, and Invitees: Meeting hosts, participants, and invitees may be able to see your email, display name, profile picture, and presence status, including in Zoom meetings and in Zoom’s native calendar service. Meeting hosts, participants, and invitees may also see, record, save, and share meeting content, audio transcripts, messages sent to Everyone, messages sent to meeting group chats (where enabled, and whether sent in Zoom Chat or in-meeting), or messages sent to them directly, and files, whiteboards or other information shared with them (including during a meeting, or through a dedicated meeting group chat). Meeting hosts may also share meeting assets to Zoom Chat, depending on their account owner’s settings. Meeting hosts may also be able to see responses to Q&A and polls generated during the meeting."
+    },
+    {
+     "t": "+",
+     "s": "Meeting Hosts, Participants, and Invitees: Meeting hosts, participants, and invitees may be able to see your email, display name, profile picture, and presence status, including in Zoom meetings and in Zoom’s native calendar service. Meeting hosts, participants, and invitees may also see, record, save, and share meeting content, audio transcripts, messages sent to Everyone, messages sent to meeting group chats (where enabled, and whether sent in Team Chat or in-meeting), or messages sent to them directly, and files, whiteboards or other information shared with them (including during a meeting, or through a dedicated meeting group chat). Meeting hosts may also share meeting assets to Zoom Team Chat, depending on their account owner’s settings. Meeting hosts may also be able to see responses to Q&A and polls generated during the meeting."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Zoom Email, Calendar and Zoom Chat Recipients: Recipients of Zoom Emails and Zoom Calendar invites can see, save, and share your email and calendar content with others, including by sharing emails to Zoom Chat. If a recipient shares encrypted content with others, for example, by sharing an encrypted Zoom Email to Zoom Chat, or forwarding an encrypted Zoom Email to a third-party recipient without a Zoom Email account, the shared or forwarded content will not be end-to-end encrypted by Zoom. Recipients of Zoom Chats can see your messages, reactions, emojis, and related content, including content from Zoom Emails, Zoom Calendar, and emails from third-party services integrated in the Zoom client, that you or a third-party choose to share to Zoom Chat, and in-meeting messages that participants send that are synced with Zoom Chat through dedicated meeting group chats. Depending on the account owner’s settings, Zoom Chat recipients may record, save, or share your messages."
+    },
+    {
+     "t": "+",
+     "s": "Zoom Email, Calendar and Zoom Team Chat Recipients: Recipients of Zoom Emails and Zoom Calendar invites can see, save, and share your email and calendar content with others, including by sharing emails to Zoom Team Chat. If a recipient shares encrypted content with others, for example, by sharing an encrypted Zoom Email to Zoom Team Chat, or forwarding an encrypted Zoom Email to a third-party recipient without a Zoom Email account, the shared or forwarded content will not be end-to-end encrypted by Zoom. Recipients of Zoom Team Chats can see your messages, reactions, emojis, and related content, including content from Zoom Emails, Zoom Calendar, and emails from third-party services integrated in the Zoom client, that you or a third-party choose to share to Zoom Team Chat, and in-meeting messages that participants send that are synced with Zoom Team Chat through dedicated meeting group chats. Depending on the account owner’s settings, Zoom Team Chat recipients may record, save, or share your messages."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Webinar Panelists and Attendees: Only panelists may be visible to attendees during a webinar, but attendees who agree to unmute can be heard by other attendees. If an attendee agrees to become a panelist during a webinar, they may be visible to other attendees, depending on settings. Panelists and attendees may be able to see the name of a participant who asks a question during a Q&A, along with their question, unless the participant submits the question anonymously."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -414,24 +414,23 @@ San Jose, CA 95113",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Or to our representative in the EU or UK:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Lionheart Squared (Europe) Limited"
+    },
+    {
+     "t": "-",
+     "s": "Attn: Data Privacy"
+    },
+    {
+     "t": "-",
+     "s": "2 Pembroke House"
+    },
+    {
+     "t": "-",
+     "s": "Upper Pembroke Street 28-32"
+    },
+    {
+     "t": "-",
+     "s": "Dublin"
+    },
+    {
+     "t": "-",
+     "s": "DO2 EK84"
+    },
+    {
+     "t": "-",
+     "s": "Republic of lreland"
+    },
+    {
+     "t": "-",
+     "s": "email: zoom@LionheartSquared.eu"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Lionheart Squared Limited"
+    },
+    {
+     "t": "-",
+     "s": "Attn: Data Privacy"
+    },
+    {
+     "t": "-",
+     "s": "17 Glasshouse Studios"
+    },
+    {
+     "t": "-",
+     "s": "Fryern Court Road"
+    },
+    {
+     "t": "-",
+     "s": "Fordingbridge"
+    },
+    {
+     "t": "-",
+     "s": "Hampshire"
+    },
+    {
+     "t": "-",
+     "s": "SP6 1QX"
+    },
+    {
+     "t": "+",
+     "s": "Workvivo Limited"
+    },
+    {
+     "t": "+",
+     "s": "Attention: Zoom EU Representative"
+    },
+    {
+     "t": "+",
+     "s": "4th Floor, City Quarter,"
+    },
+    {
+     "t": "+",
+     "s": "Lapps Quay,"
+    },
+    {
+     "t": "+",
+     "s": "Cork"
+    },
+    {
+     "t": "+",
+     "s": "T12W832"
+    },
+    {
+     "t": "+",
+     "s": "Republic of Ireland"
+    },
+    {
+     "t": "+",
+     "s": "Email: privacy@zoom.us"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "ZVC UK Ltd."
+    },
+    {
+     "t": "+",
+     "s": "Attention: Zoom UK Representative"
+    },
+    {
+     "t": "+",
+     "s": "Part Level 6, Mid City Place,"
+    },
+    {
+     "t": "+",
+     "s": "71 High Holborn,"
+    },
+    {
+     "t": "+",
+     "s": "London"
+    },
+    {
+     "t": "+",
+     "s": "WC1V 6EA"
+    },
+    {
+     "t": " ",
+     "s": "United Kingdom"
+    },
+    {
+     "t": "-",
+     "s": "Contact: zoom@LionheartSquared.co.uk"
+    },
+    {
+     "t": "+",
+     "s": "Email: privacy@zoom.us"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "You can contact our Data Protection Officer by sending an email to privacy@zoom.us ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -475,7 +474,7 @@ We only use your information in a lawful, transparent, and fair manner. Dependin",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "As necessary for our contract: When we enter into a contract directly with you, we process your personal data on the basis of our contract in order to prepare and enter into the contract, as well as to perform and manage our contract (i.e., providing Zoom products and services, features and services to account owners, their users, and those they invite to join meetings and webinars hosted on their accounts, and manage our relationship and contract, including billing, compliance with contractual obligations, and related administration). If we do not process your personal data for these purposes, we may not be able to provide you with all products and services;"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Consistent with specific revocable consents: We rely on your prior consent in order to utilize cookies to engage advertising and analytics partners to deliver tailored advertising and analysis of our website usage. You have the right to withdraw your consent at any time by visiting our cookie management tool, available in Cookies Settings;"
+    },
+    {
+     "t": "+",
+     "s": "Consistent with specific revocable consents: We rely on your prior consent in order to utilize cookies and similar technologies to engage advertising and analytics partners to deliver tailored advertising and analysis of our website usage. You have the right to withdraw your consent at any time by visiting our cookie management tool, available in Cookies Settings;"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "As necessary to comply with our legal obligations: We process your personal data to comply with the legal obligations to which we are subject for the purposes of compliance with EEA laws, regulations, codes of practice, guidelines, or rules applicable to us, and for responses to requests from, and other communications with, competent EEA public, governmental, judicial, or other regulatory authorities. This includes detecting, investigating, preventing, and stopping fraudulent, harmful, unauthorized, or illegal activity (“fraud and abuse detection”) and compliance with privacy laws;"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -489,13 +488,13 @@ Zoom operates globally, which means personal data may be transferred, stored (fo",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Therefore, by using Zoom products and services or providing personal data for any of the purposes stated above, you acknowledge that your personal data may be transferred to or stored in the United States where we are established, as well as in other countries outside of the EEA, Switzerland, and the UK. Such countries may have data protection rules that are different and less protective than those of your country."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We protect your personal data in accordance with this Privacy Statement wherever it is processed and take appropriate contractual or other steps to protect it under applicable laws. Where personal data of users in the EEA, Switzerland, or the UK is being transferred to a recipient located in a country outside the EEA, Switzerland, or the UK which has not been recognized as having an adequate level of data protection, we ensure that the transfer is governed by the European Commission’s standard contractual clauses. Please contact us if you would like further information in that respect."
+    },
+    {
+     "t": "+",
+     "s": "We protect your personal data in accordance with this Privacy Statement wherever it is processed and take appropriate contractual or other steps to protect it under applicable laws. Where personal data of users in the EEA, Switzerland, or the UK is being transferred to a recipient located in a country outside the EEA, Switzerland, or the UK which has not been recognized as having an adequate level of data protection, we ensure that the transfer is governed by the European Commission’s standard contractual clauses or other lawful mechanisms for transfers of personal data. Please contact us if you would like further information in that respect."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Zoom complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce. Zoom has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles (EU-U.S. DPF Principles) with regard to the processing of personal data received from the European Union in reliance on the EU-U.S. DPF and from the United Kingdom (and Gibraltar) in reliance on the UK Extension to the EU-U.S. DPF. Zoom has certified to the U.S. Department of Commerce that it adheres to the Swiss-U.S. Data Privacy Framework Principles (Swiss-U.S. DPF Principles) with regard to the processing of personal data received from Switzerland in reliance on the Swiss-U.S. DPF. If there is any conflict between the terms in this privacy policy and the EU-U.S. DPF Principles and/or the Swiss-U.S. DPF Principles, the Principles shall govern. To learn more about the Data Privacy Framework (DPF) program, and to view our certification, please visit https://www.dataprivacyframework.gov/ ."
+    },
+    {
+     "t": "+",
+     "s": "Zoom complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce. Zoom has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles (EU-U.S. DPF Principles) with regard to the processing of personal data received from the European Union in reliance on the EU-U.S. DPF and from the United Kingdom (and Gibraltar) in reliance on the UK Extension to the EU-U.S. DPF. Zoom has certified to the U.S. Department of Commerce that it adheres to the Swiss-U.S. Data Privacy Framework Principles (Swiss-U.S. DPF Principles) with regard to the processing of personal data received from Switzerland in reliance on the Swiss-U.S. DPF. If there is any conflict between the terms in this Privacy Statement and the EU-U.S. DPF Principles and/or the Swiss-U.S. DPF Principles, the Principles shall govern. To learn more about the Data Privacy Framework (DPF) program, and to view our certification, please visit https://www.dataprivacyframework.gov/ ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "In compliance with the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF, Zoom commits to resolve DPF Principles-related complaints about our collection and use of your personal information. EU and UK and Swiss individuals with inquiries or complaints regarding our handling of personal data received in reliance on the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF should first contact Zoom at: privacy@zoom.us.."
+    },
+    {
+     "t": "+",
+     "s": "In compliance with the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF, Zoom commits to resolve DPF Principles-related complaints about our collection and use of your personal information. EU and UK and Swiss individuals with inquiries or complaints regarding our handling of personal data received in reliance on the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF should first contact Zoom at: privacy@zoom.us."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "In compliance with the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF, Zoom commits to cooperate and comply respectively with the advice of the panel established by the EU data protection authorities (DPAs) and the UK Information Commissioner’s Office (ICO) and the Gibraltar Regulatory Authority (GRA) and the Swiss Federal Data Protection and Information Commissioner (FDPIC) with regard to unresolved complaints concerning our handling of personal data received in reliance on the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF."
+    },
+    {
+     "t": "+",
+     "s": "In compliance with the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF, Zoom commits to cooperate and comply respectively with the advice of the panel established by the EU data protection authorities (DPAs) and the UK Information Commissioner’s Office (ICO) and the Gibraltar Regulatory Authority (GRA) and the Swiss Federal Data Protection and Information Commissioner (FDPIC) with regard to unresolved complaints concerning our handling of personal data received in reliance on the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF. Please contact us if you’d like us to direct you to your data protection authority contacts."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom Communications, Inc., Zoom Voice Communications, Inc., and Solvvy, Inc., are adhering to the DPF Principles. The Federal Trade Commission has jurisdiction over Zoom’s compliance with the EU-U.S. Data Privacy Framework (EU-U.S. DPF) and the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -525,7 +524,7 @@ Delete personal data under certain circumstances;",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Correct personal data under certain circumstances; and"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Opt out of the “sale” of personal data or “sharing” of personal data for targeted advertising purposes. We do not sell your personal data in the conventional sense. However, like many companies, we may use advertising and analytics services that are intended to analyze your interactions with our website or app, based on information obtained from cookies or other trackers, including for delivering advertising to you (such as interest-based, targeted, or cross-context behavioral advertising). You can get more information and opt out of the use of cookies and other trackers on our website and app by clicking the Your Privacy Choices, also on our homepage, and setting your preferences. You will need to set your preferences from each device and each web browser from which you wish to opt out. This feature uses a cookie to remember your preference, so if you clear all cookies from your browser, you will need to re-select your preferred settings. Residents of California, Colorado, Connecticut, Montana, Nebraska, New Hampshire, and Texas may also set the Global Privacy Control (GPC) to opt out of the “sale” or “sharing” of your personal information for targeted advertising for each participating browser system that you use. Zoom does not have actual knowledge that it “sells” or “shares” the personal information of consumers under 16 years of age."
+    },
+    {
+     "t": "+",
+     "s": "Opt out of the “sale” of personal data or “sharing” of personal data for targeted advertising purposes. We do not sell your personal data in the conventional sense. However, like many companies, we may use advertising and analytics services that are intended to analyze your interactions with our website or app, based on information obtained from cookies and similar technologies, including for delivering advertising to you (such as interest-based, targeted, or cross-context behavioral advertising). You can get more information and opt out of the use of cookies and similar technologies on our website and app by clicking the Cookies Settings or Your Privacy Choices, also on our homepage, and setting your preferences. You will need to set your preferences from each device and each web browser from which you wish to opt out. This feature uses a cookie to remember your preference, so if you clear all cookies from your browser, you will need to re-select your preferred settings. Residents of California, Colorado, Connecticut, Montana, Nebraska, New Hampshire, and Texas may also set the Global Privacy Control (GPC) to opt out of the “sale” or “sharing” of your personal information for targeted advertising for each participating browser system that you use. Zoom does not have actual knowledge that it “sells” or “shares” the personal information of consumers under 16 years of age."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Appeal a denial of your request. Some states provide additional rights to their residents. If we decline to process your request, you may have the right to appeal our decision. You can do so by replying directly to our denial or emailing privacy@zoom.us ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -533,7 +532,7 @@ Zoom will not discriminate against you for exercising any of these rights, which",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sensitive Information. Zoom receives information that may be considered sensitive under some state laws, such as certain Account Information (e.g., financial information, log-in information), certain Content and Context from Meetings, Webinars, Messaging, and Other Collaborative Features and certain Limited Information from Zoom Email and Calendar Services (e.g., messaging content in cases described in this statement) as well as voiceprints and facial geometry, if you choose to enable certain features and provide the requisite consent. Zoom processes sensitive personal information to provide Zoom products and services, for product research and development, for authentication, integrity, security, and safety purposes, to communicate with you, for legal purposes, and with your consent. Zoom does not use or disclose sensitive personal information (as defined under CCPA) for purposes of inferring characteristics about a consumer, or in any way that would require Zoom to provide a right to limit under the CCPA. Under certain laws, residents may also be permitted to opt out of certain profiling relating to automated processing analyzing certain categories of an individual’s information that would produce a legal or similarly significant effect. Zoom does not engage in this type of profiling of individuals."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "To exercise your rights, please click here . California residents may also call +1-888-799-0566. To opt out of the use of cookies on our sites for interest-based advertising purposes, follow the instructions above."
+    },
+    {
+     "t": "+",
+     "s": "To exercise your rights, please click here or call +1-888-799-0566. To opt out of the use of cookies and similar technologies on our sites for interest-based advertising purposes, follow the instructions above."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We will acknowledge receipt of your request within 10 business days, and provide a substantive response within 45 calendar days, or inform you of the reason and extension period (up to a total of 90 days) in writing."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -549,11 +548,14 @@ Changes to This Privacy Statement",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We may update this Privacy Statement periodically to account for changes in our collection and/or processing of personal data, and will post the updated Privacy Statement on our website, with a “Last Updated” date at the top and an Update Note at the bottom. If we make material changes to this Privacy Statement, we will notify you and provide you an opportunity to review before you choose to continue using our products and services."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Privacy Statement Update Notes (February 02, 2026):"
+    },
+    {
+     "t": "+",
+     "s": "Privacy Statement Update Notes (July 27, 2026):"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "- Updates to the definition of Customer Content to cover content created using Zoom products and services other than meetings, webinars, and messages"
+    },
+    {
+     "t": "-",
+     "s": "- Updates to what recordings and transcripts an account owner may have access to"
+    },
+    {
+     "t": "-",
+     "s": "- Updates to reflect that Meeting Hosts, Participants, and Invitees may record and share meeting content"
+    },
+    {
+     "t": "+",
+     "s": "- Add statement for 10DLC Compliance that Zoom will not share opt-in or consent data related to messaging campaigns"
+    },
+    {
+     "t": "+",
+     "s": "- Update EU/UK Representatives"
+    },
+    {
+     "t": "+",
+     "s": "- Update data transfer mechanisms to include frameworks beyond the EU Standard Contractual Clauses (SCCs)"
+    },
+    {
+     "t": "+",
+     "s": "- Provide an option for data subjects to contact Zoom for information on how to reach their local data protection authorities"
+    },
+    {
+     "t": "+",
+     "s": "- Clarify that users may submit DSAR via phone"
+    },
+    {
+     "t": "+",
+     "s": "- Clarify that users may set privacy preferences for cookies as well as similar technologies"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Get in touch"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

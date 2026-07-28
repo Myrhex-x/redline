@@ -1,10 +1,10 @@
 {
  "company": "Microsoft (Outlook, Teams)",
- "searchedAt": "2026-07-27",
+ "searchedAt": "2026-07-28",
  "documents": [
   {
    "doc": "eu-reports",
-   "chars": 9360
+   "chars": 9409
   },
   {
    "doc": "photodna",
@@ -19,7 +19,7 @@
    "chars": 214266
   }
  ],
- "totalChars": 231796,
+ "totalChars": 231845,
  "terms": [
   {
    "group": "eu",

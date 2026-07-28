@@ -4,9 +4,8 @@
   "url": "https://www.facebook.com/privacy/policy/",
   "finalUrl": "https://www.facebook.com/privacy/policy/",
   "httpStatus": 200,
-  "fetchedAt": "2026-07-27T10:10:40.960Z",
-  "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "textChars": 0,
-  "htmlBytes": 1306742,
-  "note": "short-extract: likely JS-rendered or blocked"
+  "fetchedAt": "2026-07-28T09:06:09.158Z",
+  "textHash": "8999ad3ac0be93b30779f6cec640cc1731de7df7a37250e0a4213412876c2979",
+  "textChars": 48970,
+  "htmlBytes": 1510203
 }

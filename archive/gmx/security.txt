@@ -11,7 +11,7 @@ Premium
 
 MAX30
 
-Mail App
+GMX App
 
 MailCheck
 
@@ -42,6 +42,8 @@ MAX30
 Speicher erweitern
 
 Sicherheit
+
+Fotos & Dateien
 
 Unsere Verantwortung
 

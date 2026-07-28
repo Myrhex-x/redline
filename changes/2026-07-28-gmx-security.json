@@ -1,0 +1,83 @@
+{
+ "id": "2026-07-28-gmx-security",
+ "date": "2026-07-28",
+ "slug": "gmx",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -11,7 +11,7 @@ Premium",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "MAX30"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Mail App"
+    },
+    {
+     "t": "+",
+     "s": "GMX App"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "MailCheck"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -43,6 +43,8 @@ Speicher erweitern",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sicherheit"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Fotos & Dateien"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Unsere Verantwortung"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Nachhaltigkeit bei GMX"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
