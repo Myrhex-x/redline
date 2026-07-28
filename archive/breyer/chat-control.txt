@@ -1,0 +1,1217 @@
+Skip to content
+
+Home Posts and policy Chat Control: The EU’s CSAM scanner proposal
+
+Sprache ändern: English
+
+Deutsch
+
+Welcome
+
+Posts and Dossiers
+
+Latest posts
+
+Latest videos
+
+Written questions
+
+Chat Control
+
+Going Dark group (Archive)
+
+Data retention
+
+ePrivacy Regulation (Archive)
+
+European Digital Identity (Archive)
+
+European Health Data Space (Archive)
+
+iBorderCtrl (Archive)
+
+Digital Services Act DSA (Archive)
+
+Terrorist Content Online (Archive)
+
+About me / contact
+
+Biography
+
+Responsibilities (Archive)
+
+Wins
+
+MEPs and Staff (archive)
+
+Contact / Privacy Notice
+
+Transparency (Archive)
+
+Events (Archive)
+
+Public Calendar (Archive)
+
+Financial transparency (Archive)
+
+Delegation meetings (Archive)
+
+Lobby Meetings (Archive)
+
+Press relations
+
+Press contact
+
+Press releases
+
+Press photos
+
+Press briefings
+
+Media reports
+
+Get involved
+
+Follow me
+
+OpenRequest
+
+Take action
+
+Chat Control: The EU’s CSAM scanner proposal
+
+🇫🇷 French: Traduction du dossier Chat Control 2.0 , stopchatcontrol.fr
+🇸🇪 Swedish: Chat Control 2.0
+🇩🇰 Danish: chatcontrol.dk
+🇳🇱 Dutch: Chatcontrole
+
+Table of contents:
+
+The End of the Privacy of Digital Correspondence and the End of Anonymous Communication
+
+Take action to stop Chat Control
+
+The Chat Control 2.0 proposal in detail
+
+Negotiating mandate of the European Parliament
+
+Negotiating mandate of Council (EU governments)
+
+The negotiators
+
+The negotiations: Timeline
+
+How does this affect you?
+
+Additional information and arguments
+
+Debunking Myths
+
+Alternatives
+
+Document pool on Chat Control 2.0
+
+Document pool on Chat Control 1.0
+
+Critical commentary and further reading
+
+The End of the Privacy of Digital Correspondence and the End of Anonymous Communication
+
+The EU Commission proposed to oblige providers to search all private chats, messages, and emails automatically for suspicious content – generally and indiscriminately. The stated aim: To prosecute child sexual exploitation material (CSEM). The result: Mass surveillance by means of fully automated real-time surveillance of messaging and chats and the end of privacy of digital correspondence.
+
+Other aspects of the proposal include ineffective network blocking, screening of personal cloud storage including private photos, mandatory age verification resulting in the end of anonymous communication, appstore censorship and excluding minors from the digital world.
+
+Chat Control 1.0
+
+On July 6, 2021, a majority of Members of the European Parliament had already agreed to the voluntary use of chat control (Chat Control 1.0). So far, only unencrypted US communication services such as Gmail, Facebook/Instagram Messenger, Skype, Snapchat, iCloud Mail, or Xbox make use of this (overview here ). In 2024, the EU adopted an extension of the voluntary Chat Control 1.0 regulation by two years, until April 3, 2026 – see timeline and documents. In March 2026, the European Parliament rejected a second extension of the regulation, so that the interim regulation expired on 4 April 2026. However, according to their own statements , Google, Meta, Microsoft and Snap continue their indiscriminate and warrentless scanning of private messages. Users can complain to their data protection authority about this violation of the secrecy of communications (Article 5 Directive 2002/58). An abuse survivor is taking legal action against Chat Control 1.0.
+
+Chat Control 2.0
+
+On 11 May 2022 the European Commission presented a proposal for a follow-up regulation for the mandatory use of chat control by all providers and would even have applied to so far securely end-to-end encrypted communication services (Chat Control 2.0). As a result of the future mandatory chat control, the EU Commission expected an increase in reports from chat controls by 354% . A public consultation by the Commission on this project had revealed that a majority of respondents, both citizens and stakeholders, opposed imposing an obligation to use indiscriminate message and chat control . Over 80% of respondents opposed its application to end-to-end encrypted communications.
+
+Parliament has positioned itself almost unanimously against indiscriminate chat control in 2023. Following protests, mandatory chat control was finally removed also from the EU governments’ draft law late 2025. Nevertheless, the government’s draft regulation remains deeply flawed .
+
+Since December 2025, the crucial negotiations have been underway in which the final legal content of Chat Control 2.0 is being nailed down ( timeline here ). There is a threat of a permanent indiscriminate mass surveillance of private messages at the discretion of providers (“voluntary chat control”), ineffective network blocking censorship, mandatory age verification resulting in the end of anonymous communication, appstore censorship and excluding minors from the digital world.
+
+Explainer video
+
+https://www.patrick-breyer.de/wp-content/uploads/2023/01/chatcontrol-explainer.mp4
+
+Take action to stop Chat Control
+
+The final content of the Chat Control 2.0 regulation is currently being negotiated in a trilogue on the basis of a table comparing the negotiating mandates .
+
+EU governments are negotiating on the basis of a highly dangerous mandate:
+
+Indiscriminate chat control on a “voluntary” basis: The temporary law on Chat Control 1.0, which allows large US providers to scan our chats indiscriminately, in bulk, and without a court order, is to be made permanent without any changes. Private communications can not only be scanned for known illegal images and videos. Even unknown visual content, private chat texts and metadata can be classified by unreliable algorithms and AI as suspicious or not. Under the current voluntary “Chat Control 1.0” scanning scheme, German federal police (BKA) already warn that around 50% of all reports are criminally irrelevant, equating to tens of thousands of leaked legal chats per year.
+
+The End of Anonymous Communication: To reliably identify minors as required by the text, every citizen would have to present their ID or have their face scanned to open an email or messenger account. This is the de facto end of anonymous communication online – a disaster for whistleblowers, journalists, political activists, and people seeking help who rely on the protection of anonymity .
+
+“Digital House Arrest”: Teens under 16 face a blanket ban from WhatsApp, Instagram, online games, and countless other apps with chat functions, allegedly to protect them from grooming. Digital isolation instead of education, protection by exclusion instead of empowerment – this is paternalistic, out of touch with reality, and pedagogical nonsense.
+
+Experts are warning , too.
+
+What is being discussed as a possible compromise would continue to allow American tech giants to screen the private messages of 450 million innocent Europeans en masse for known visuals without reasonable suspicion of any crime and without a warrant. Even when searching for “known” material (hash scanning), opaque international databases do not reflect European criminal law, and algorithms are blind to context and the lack of intent (e.g. motives of outrage, attempted humour, overestimating age, sexting by teenagers) . The result: According to former EU Commissioner Johansson 75% of all flagged chats (300.000 reported EU chats per year) are not actionable, drowning law enforcement in false positives and diverting resources from genuine investigations against producers and abusers. In its own implementation report (COM(2025)740 final), the European Commission admitted that there is no proven link between scanning private messages and actual convictions or children rescued.
+
+Searching chats for already known images does not stop ongoing abuse, nor does it rescue children currently in danger!Perpetrators can easily migrate to other platforms where no scanning takes place.
+
+As we continue the fight against against chat control, we need to expand the resistance:
+
+Explain to your friends why this is an important topic. This short video, translated to all European languages , is a good start – feel free to use and share it. Also available on PeerTube (EN) and YouTube (DE) .
+
+Taking action works better and is more motivating when you work together. So try to find allies and form alliances. Whether it is in a local hackspace or in a sports club: your local action group against chat control can start anywhere. Then you can get creative and decide which type of action suits you best.
+
+Take action now. We are the resistance against Chat Control!
+
+Talk about it! Inform others about the dangers of chat control. Use the sharepics and videos available here , or the sharepics below.
+
+Generate attention on social media! Use the hashtags #chatcontrol and #StopScanningMe
+
+Generate media attention! So far very few media have covered the messaging and chat control plans of the EU. Get in touch with newspapers and ask them to cover the subject – online and offline.
+
+Ask your e-mail, messaging and chat service providers! Avoid Gmail, Facebook Messenger, outlook.com and X-Box, where indiscriminate chat control is already taking place. Ask your email, messaging and chat providers if they generally monitor private messages for suspicious content, or if they plan to do so.
+
+Sharepics and Infographics for you to download and use :
+
+(left click to view, right click to save)
+
+Chat Cops
+
+Answers to Q2 of Survey among minors on chat control
+
+Answers to Q6 of Survey among minors on chat control
+
+Answers to Q14 of Survey among minors on chat control
+
+More sharepics and videos available here
+
+The Chat Control 2.0 proposal in detail
+
+This is what the Commission proposes and how the negotiating mandates of the EU Parliament and EU Council compare (full legal texts here ):
+
+EU Commission’s Chat Control Proposal
+Consequences
+EU Parliament’s mandate
+EU Council’s 2025 draft mandate
+
+Envisaged are chat control, network blocking, mandatory age verification for messages and chats, age verification for app stores and excluding teens under 16 from installing many apps
+
+no chat control, optional network blocking, no mandatory age verification for messages and chats, no general exclusion of teens under 16 from installing many apps
+like Commission plus search engine delisting
+
+All services normally provided for remuneration (including ad-funded services) are in scope, without no threshold in size, number of users etc.
+Only non-commercial services that are not ad-funded, such as many open source software, are out of scope
+like Commission
+like Commission
+
+Providers established outside the EU will also be obliged to implement the Regulation
+See Article 33 of the proposal
+like Commission
+like Commission
+
+The communication services affected include telephony, e-mail, messenger, chats (also as part of games, on part of games, on dating portals, etc.), videoconferencing
+Texts, images, videos and speech (e.g. video meetings, voice messages, phone calls) would have to be scanned
+telephony excluded, no scanning of text messages, but scanning of e-mail, messenger, chat, videoconferencing services
+like Parliament
+
+End-to-end encrypted messenger services are not excluded from the scope
+Providers of end-to-end encrypted communications services will have to scan messages on every smartphone (client-side scanning) and, in case of a hit, report the message to the police. This mandates security loopholes and destroys secure encryption.
+End-to-end encrypted messenger services are excluded from the scope
+like Commission
+
+Hosting services affected include web hosting, social media, video streaming services, file hosting and cloud services
+Even personal storage that is not being shared, such as Apple’s iCloud, will be subject to chat control
+like Commission
+like Commission, additionally search engines
+
+Services that are likely to be used for illegal material or for child grooming are obliged to search the content of personal communication and stored data (chat control) without suspicion and indiscriminately
+Since presumably every service is also used for illegal purposes, all services will be obliged to deploy chat control
+Targeted scanning of specific individuals and groups reasonably suspicious of being linked to child sexual abuse material only
+Providers may search chats at their own discretion (“voluntarily”), without suspicion and without a court order
+
+The authority in the provider’s country of establishment is obliged to order the deployment of chat control
+There is no discretion in when and in what extent chat control is ordered
+like Commission
+The authority of the country of establishment is responsible for enforcement
+
+Chat control involves automated searches for known CSEM images and videos, suspicious messages/files will be reported to the police
+According to the Swiss Federal Police, 80% of the reports they receive (usually based on the method of hashing) are criminally irrelevant. Similarly in Ireland only 20% of NCMEC reports received in 2020 were confirmed as actual “child abuse material”. EU Commissioner Johansson admitted that 75% of NCMEC reports are not of a quality that the police can work with.
+like Commission
+like Commission, but at the provider’s discretion
+
+Chat control also involves automated searches for unknown CSEM pictures and videos, suspicious messages/files will be reported to the police
+Machine searching for unknown abuse representations is an experimental procedure using machine learning (“artificial intelligence”). The algorithms are not accessible to the public and the scientific community, nor does the draft contain any disclosure requirement. The error rate is unknown and is not limited by the draft regulation. Presumably, these technologies result in massive amounts of false reports. The draft legislation allows providers to pass on automated hit reports to the police without humans checking them.
+like Commission
+like Commission, but at the provider’s discretion
+
+Chat control involves machine searches for possible child grooming, suspicious messages will be reported to the police
+Machine searching for potential child grooming is an experimental procedure using machine learning (“artificial intelligence”). The algorithms are not available to the public and the scientific community, nor does the draft contain a disclosure requirement. The error rate is unknown and is not limited by the draft regulation, presumably these technologies result in massive amounts of false reports.
+no searches for grooming
+like Commission, but at the provider’s discretion
+
+Communication services that can be misused for child grooming (thus all) must verify the age of their users
+In practice, age verification involves full user identification, meaning that anonymous communication via email, messenger, etc. will effectively be banned. Whistleblowers, human rights defenders and marginalised groups rely on the protection of anonymity.
+no mandatory age verification for users of communication services
+like Commission
+
+App stores must verify the age of their users and block children/young people under 16 from installing apps that can be misused for solicitation purposes
+All communication services such as messenger apps, dating apps or games can be misused for child grooming (according to surveys ) and would be blocked for children/young people to use.
+Where an app requires consent in data processing, dominant app stores (Google, Apple) are to make a reasonable effort to ensure parental consent for users below 16
+like Commission
+
+Internet access providers can be obliged to block access to prohibited and non-removable images and videos hosted outside the EU by means of network blocking (URL blocking)
+Network blocking is technically ineffective and easy to circumvent, and it results in the construction of a technical censorship infrastructure
+Internet access providers MAY be obliged to block access (discretion)
+like Commission
+
+Negotiating Mandate of the European Parliament
+
+In November 2023, the European Parliament nearly unanimously adopted a negotiating mandate for the draft law. With the Pirate Party MEP Patrick Breyer, the most determined opponent of chat control sat at the negotiating table. The result: Parliament wants to pull the following fangs out of the EU Commission’s extreme draft:
+
+We want to save the digital secrecy of correspondence and stop the plans for blanket chat control , which violate fundamental rights and stand no chance in court. The current voluntary chat control of private messages (not social networks) by US internet companies should expire. Targeted telecommunication surveillance and searches will only be permitted with a judicial warrant and only limited to persons or groups of persons suspected of being linked to child sexual abuse material.
+
+We want to safeguard trust in secure end-to-end encryption . We clearly exclude so-called client-side scanning, i.e. the installation of surveillance functionalities and security vulnerabilities in our smartphones.
+
+We want to guarantee the right to anonymous communication and exclude mandatory age verification for users of communication services. Whistleblowers can thus continue to leak wrong-doings anonymously without having to show their identity card or face.
+
+Removing instead of blocking: Internet access blocking ist to be optional. Under no circumstances must legal content be collaterally blocked.
+
+We prevent the digital house arrest: We don’t want to oblige app stores to prevent young people under 16 from installing messenger apps, social networks and gaming apps ‘for their own protection’ as proposed. The General Data Protection Regulation is maintained.
+
+Parliament wants to protect young people and victims of abuse much more effectively than the EU Commission’s extreme proposal:
+
+Security by design: In order to protect young people from grooming, Parliament wants internet services and apps to be secure by design and default. It must be possible to block and report other users. Only at the request of the user should he or she be publicly addressable and see messages or pictures of other users. Users should be asked for confirmation before sending contact details or nude pictures. Potential perpetrators and victims should be warned where appropriate, for example if they try to search for abuse material using certain search words. Public chats at high risk of grooming are to be moderated.
+
+In order to clean the net of child sexual abuse material, Parliament wants the new EU Child Protection Centre to proactively search publicly accessible internet content automatically for known CSAM. This crawling could also be used in the darknet and is thus more effective than private surveillance measures by providers.
+
+Parliament wants to oblige providers who become aware of clearly illegal material to remove it – unlike in the EU Commission’s proposal. Law enforcement agencies who become aware of illegal material would be obliged to report it to the provider for removal. This is our reaction to the case of the darknet platform Boystown, where the worst abuse material was further disseminated for months with the knowledge of Europol.
+
+Beware: This is only the Parliament’s negotiating mandate , which usually only partially prevails.
+
+Negotiating Mandate of EU governments
+
+After massive protests, the Council removed mandatory chat control. It has also excluded a de facto detection obligation through the back door of Article 4 (“risk mitigation”).
+
+Other massive problems in the adopted negotiating mandate persist:
+
+Scanning of images, texts and metadata: The approach would legitimize and make permanent “voluntary” chat control, at the discretion of providers, far beyond visual content. It allows the highly error-prone analysis of texts for keywords to detect “grooming”. An algorithm cannot distinguish between a joke, sarcasm, and a criminal act. This leads to massive false reports and restricts freedom of expression.
+
+Unreliable “AI” for unknown content: Instead of just searching for known material (CSAM) via hash matching, an AI should be allowed to evaluate unknown content at the discretion of the providers. These technologies are notoriously unreliable and can recognize neither age nor consent. According to the Federal Criminal Police Office, almost 50% of reports are already criminally irrelevant today. This overloads the authorities and exposes innocent, private images to strangers.
+
+The right to anonymous communication is being abolished: To identify minors, every citizen would have to prove their age with an ID or a face scan for an email or messenger account. This threatens whistleblowers, journalists, and people seeking help.
+
+“Digital house arrest” for teenagers: The planned age control would exclude users under 17 from everyday apps like WhatsApp, Instagram, and online games, isolating and disempowering them.
+
+More videos on Chatcontrol are available in this playlist
+
+The negotiators
+
+LIBE MEPs negotiating the Chat Control 2.0 regulation on behalf of the European Parliament (IMCO MEPs are consulted for their opinion only):
+
+EPP (Christian Democrats)
+S&D (Socialists)
+PfE (Far Right)
+Renew (Liberals)
+Greens/ EFA
+The Left
+ECR (National Conservatives)
+ESN (Far Right)
+
+LIBE
+Javier Zarzalejos 🇪🇸 (Rapporteur)
+Alex Aguis Saliba 🇲🇹
+Antonio Tanger Correa 🇵🇹
+Hilde Vautmans 🇧🇪
+Marketa Gregorova 🇨🇿 (Pirates)
+Isabel Serra Sánchez 🇪🇸
+Jadwiga Wisniewska 🇵🇱
+Ewa Zajączkowska-Hernik🇵🇱
+
+IMCO
+
+Alex Aguis Saliba 🇲🇹(Rapporteur for opinion)
+Elisabeth DIERINGER 🇦🇹
+Stéphanie YON-COURTIN 🇫🇷
+Kim VAN SPARRENTAK 🇳🇱
+Hanna GEDIN 🇸🇪
+Piotr MÜLLER 🇵🇱
+
+Negotiating on behalf of the EU Council: national ministers for home affairs (in the lead) are represented in the negotiations by the Council Presidency – Cyprus as of 1/1/2026
+
+Negotiating on behalf of the EU Commission: Internal Affairs Commissioner Magnus Brunner (in the lead)
+
+The negotiations: A timeline
+
+July 2026 (expected): Adoption of the regulation by EU Parliament and Council
+
+29 June 2026: Fifth and final negotiation on chat control 2.0 proposal
+
+10 June 2026: Council law enforcement working party discussion on the final version of chat control 2.0 (leaked cable report from 11 June 2026 in German)
+
+21 May 2026: Council law enforcement working party discussion on the final version of chat control 2.0 (leaked cable report from 21 May 2026 in German)
+
+11 May 2026: Fourth trilogue negotiation on chat control 2.0 proposal (leaked “Report from Brussels” from 18 May 2026 in German)
+
+16 April 2026: Third trilogue negotiation on chat control 2.0 proposal
+
+26 February 2026: Second trilogue negotiation on chat control 2.0 proposal
+
+9 December 2025: First trilogue negotiation on chat control 2.0 proposal
+
+9 December 2025: European Parliament negotiator (Shadows) meeting on chat control 2.0 proposal
+
+4 December 2025: LIBE debate with Commissioner Brunner
+
+26 November 2025: COREPER II meeting endorsed chat control 2.0 without debate
+
+12 November 2025: Council law enforcement working party discussion on chat control 2.0
+
+5 November 2025: COREPER II meeting on chat control 2.0
+
+14 October 2025: vote on mandatory chat control 2.0 by EU interior ministers ( removed from agenda )
+
+8 October 2025: COREPER II meeting
+
+12 September 2025: Council law enforcement working party discussion on mandatory chat control 2.0
+
+11 July 2025: Council law enforcement working party discussion on mandatory chat control 2.0
+
+21 May 2025: Council law enforcement working party discussion on mandatory chat control 2.0
+
+more meetings see Council documents
+
+5 February 2025: Council law enforcement working party discussion on mandatory chat control 2.0
+
+12 December 2024: EU interior ministers discussed mandatory chat control (chat control 2.0) proposal
+
+6 December 2024: COREPER discussion and vote on mandatory chat control 2.0 (no qualified majority)
+
+5 November 2024: Hearing of designated EU Home Affairs Commissioner i.a. on chat control
+
+10 October 2024: EU interior ministers scheduled to discuss mandatory chat control (chat control 2.0) position. Livestream starting at 12.50h and recording here
+
+7 October 2024: COREPER discussion of mandatory chat control 2.0
+
+2 October 2024: COREPER discussion and possibly adoption of mandatory chat control 2.0 (removed from agenda)
+
+23 September 2024: Discussion of the latest proposal on mandatory chat control 2.0 by the Council Justice and Home Affairs Councillors
+
+4 September 2024: Policy debate in COREPER
+
+20 June 2024 : COREPER failed to adopt mandatory chat control (chat control 2.0) position
+
+13 June 2024 : Council Presidency Progress Report and discussion of EU interior ministers
+
+4 June 2024: Council law enforcement working party discussion on mandatory chat control 2.0
+
+24 May 2024 : Council law enforcement working party discussion on mandatory chat control 2.0
+
+8 May 2024: Council law enforcement working party discussion on mandatory chat control 2.0
+
+15 April 2024: Council law enforcement working party discussion on mandatory chat control 2.0
+
+10 April 2024 : European Parliament vote on the trilogue result on extending voluntary chat control (chat control 1.0)
+
+3 April 2024: Council law enforcement working party discussion on mandatory chat control 2.0
+
+19 March 2024: Council law enforcement working party discussion on mandatory chat control 2.0
+
+5 March 2024: EU interior ministers discussion on mandatory chat control (chat control 2.0)
+
+4 March 2024 : LIBE committee vote on the trilogue result on extending voluntary chat control (chat control 1.0)
+
+1 March 2024: Council law enforcement working party discussion on mandatory chat control 2.0
+
+second week of February 2024: Agreement between the European Parliament and EU governments (EU Council) on the extension of voluntary chat control (chat control 1.0)
+
+12 February 2024: Trilogue on extending voluntary chat control 1.0
+
+7 February 2024: Plenary vote on the EP mandate on extending voluntary chat control 1.0
+
+5 February 2024: Announcement of vote in plenary on the EP mandate on extending voluntary chat control 1.0
+
+29 January 2024: LIBE vote on extending voluntary chat control 1.0
+
+25 January 2024: Shadows meeting on extending voluntary chat control 1.0
+
+22 January 2024: Deadline for submitting amendments on extending voluntary chat control 1.0
+
+17 January 2024: Draft report on extending voluntary chat control 1.0
+
+4 December 2023: EU Commission informed the justice and home affairs ministers
+
+1 December 2023: Council Presidency informed the Law Enforcement Working Group about the “state of play”
+
+30 November 2023: Commission proposes extension of voluntary chat control 1.0
+
+23 November 2023: Confirmation of the negotiating mandate adopted in the LIBE Committee by absence of a request for a vote in plenary
+
+14 November 2023: Almost unanimous adoption by the LIBE Committee of the European Parliament’s position and mandate for trilogue negotiations
+
+25 October 2023: LIBE hearing of Commissioner Johansson on lobbying allegations
+
+24 October 2023: Shadows meeting
+
+18 October 2023: Shadows meeting
+
+16 October 2023: Debate among embassadors in COREPER
+
+Shadows meetings see calendar entries “CSAM”
+
+20 September 2023 : Meeting Coreper
+
+17 September 2023 : Council Law Enforcement Working Party ( Draft compromise discussed )
+
+14 September 2023 : Council Law Enforcement Working Party
+
+5 September 2023 : Shadows meeting
+
+19 July 2023 : Shadows meeting
+
+12 July 2023 : Shadows meeting
+
+5 July 2023 : Shadows meeting
+
+28 June 2023 : Shadows meeting
+
+8 & 9 June 2023: Justice and Home Affairs Council to adopt partial general approach ( Draft compromise discussed )
+
+7 June 2023 : Shadows meeting
+
+31 May 2023 : Shadows meeting
+
+31 May 2023 : Meeting Coreper I
+
+25-26 May 2023 : Council Law Enforcement Working Party ( Draft compromise discussed )
+
+8-19 May 2023: Deadline for submitting amendments
+
+25 April 2023 : Council Law Enforcement Working Party ( Draft compromise discussed )
+
+26 April 2023: Presentation of draft report in LIBE
+
+19 April 2023: LIBE Rapporteur submits draft report
+
+13 April 2023: Presentation of Impact Assessment in LIBE
+
+13 April 2023: Statement of German Federal Government
+
+End of March: Substitute Impact Assessment will be submitted
+
+29 March 2023 : Meeting Council Law Enforcement Working Party
+
+21 March 2023 : LIBE Shadows meeting
+
+16 March 2023 : Council Law Enforcement Working Party ( Draft compromise discussed )
+
+7 March 2023 : LIBE Shadows meeting
+
+27 Feburary 2023 : LIBE Shadows meeting
+
+7 Feburary 2023 : LIBE Shadows meeting (Tech Companies)
+
+24 January 2023 : LIBE Shadows meeting (Hearings)
+
+19 & 20 January 2023: Council Law Enforcement Working Party Police meeting
+
+10 January 2023 : LIBE Shadows meeting (Hearings)
+
+14 December 2022 : LIBE Shadows meeting (Hearings)
+
+30 November 2022 : First LIBE Shadows meeting
+
+24 November 2022: Council workshop on age verification and encryption
+
+3 November 2022: Council meeting
+
+19 October 2022 : Meeting Council Law Enforcement Working Party
+
+10 October 2022: The proposal was presented and discussed in the European Parliament’s lead LIBE Committee ( video recording )
+
+5 October 2022 : Meeting Council Law Enforcement Working Party
+
+28 September 2022: Meeting Council workshop on detection technologies
+
+22 September 2022 : Meeting Council Law Enforcement Working Party (Compromise text: Art. 1-2 , 25-39 )
+
+6 September 2022 : Meeting Council Law Enforcement Working Party
+
+20 July 2022 : Meeting Council Law Enforcement Working Party ( Compromise text )
+
+5 July 2022 : Meeting Council Law Enforcement Working Party
+
+22 June 2022 : Meeting Council Law Enforcement Working Party
+
+8 May 2022 : Meeting Council Law Enforcement Working Party
+
+11 Mai 2022: The Commission presented a proposal to make chat control mandatory for service providers.
+
+On 11 May 2022 the EU Commission made a second legislative proposal, in which the EU Commission obliges all providers of chat, messaging and e-mail services to deploy this mass surveillance technology in the absence of any suspicion. However, a representative survey conducted in March 2021 clearly shows that a majority of Europeans oppose the use of chat control ( Detailed poll results here) .
+
+9 May 2022: Member of the European Parliament Patrick Breyer has filed a lawsuit against U.S. company Meta.
+
+According to the case-law of the European Court of Justice the permanent and comprehensive automated analysis of private communications violates fundamental rights and is prohibited (paragraph 177). Former judge of the European Court of Justice Prof. Dr. Ninon Colneric has extensively analysed the plans and concludes in a legal assessment that the EU legislative plans on chat control are not in line with the case law of the European Court of Justice and violate the fundamental rights of all EU citizens to respect for privacy, to data protection and to freedom of expression. On this basis the lawsuit was filed.
+
+6 July 2021: The European Parliament adopted the legislation allowing for chat control .
+
+The European Parliament voted in favour for the ePrivacy Derogation, which allows for voluntary chat control for messaging and email providers. As a result of this some U.S. providers of services such as Gmail and Outlook.com are already performing such automated messaging and chat controls.
+
+2020: The European Commission proposed “temporary” legislation allowing for chat control
+
+The proposed “temporary” legislation allows the searching of all private chats, messages, and emails for illegal depictions of minors and attempted initiation of contacts with minors. This allows the providers of Facebook Messenger, Gmail, et al, to scan every message for suspicious text and images. This takes place in a fully automated process, in part using error-prone “artificial intelligence”. If an algorithm considers a message suspicious, its content and meta-data are disclosed (usually automatically and without human verification) to a private US-based organization and from there to national police authorities worldwide. The reported users are not notified.
+
+How does this affect you?
+
+Messaging and chat control scanning:
+
+All of your chat conversations and emails will be automatically searched for suspicious content. Nothing remains confidential or secret. There is no requirement of a court order or an initial suspicion for searching your messages. It occurs always and automatically.
+
+If an algorithms classifies the content of a message as suspicious, your private or intimate photos may be viewed by staff and contractors of international corporations and police authorities. Also your private nude photos may be looked at by people not known to you, in whose hands your photos are not safe.
+
+Flirts and sexting may be read by staff and contractors of international corporations and police authorities, because text recognition filters looking for “child grooming” frequently falsely flag intimate chats.
+
+You can falsely be reported and investigated for allegedly disseminating child sexual exploitation material. Messaging and chat control algorithms are known to flag completely legal vacation photos of children on a beach, for example. According to Swiss federal police authorities, 80% of all machine-generated reports turn out to be without merit. Similarly in Ireland only 20% of NCMEC reports received in 2020 were confirmed as actual “child abuse material”. Nearly 40% of all criminal investigation procedures initiated in Germany for “child pornography” target minors.
+
+On your next trip overseas, you can expect big problems. Machine-generated reports on your communications may have been passed on to other countries, such as the USA, where there is no data privacy – with incalculable results.
+
+Intelligence services and hackers may be able to spy on your private chats and emails. The door will be open for anyone with the technical means to read your messages if secure encryption is removed in order to be able to screen messages.
+
+This is only the beginning . Once the technology for messaging and chat control has been established, it becomes very easy to use them for other purposes. And who guarantees that these incrimination machines will not be used in the future on our smart phones and laptops?
+
+Age verification:
+
+You can no longer set up anonymous e-mail or messenger accounts or chat anonymously without needing to present an ID or your face, making you identifiable and risking data leaks. This inhibits for instance sensitive chats related to sexuality, anonymous media communications with sources (e.g. whistleblowers) as well as political activity.
+
+If you are under 16, you will no longer be able to install the following apps from the app store (reason given: risk of grooming): Messenger apps such as Whatsapp, Snapchat, Telegram or Twitter, social media apps such as Instagram, TikTok or Facebook, games such as FIFA, Minecraft, GTA, Call of Duty, Roblox, dating apps, video conferencing apps such as Zoom, Skype, Facetime.
+
+If you don’t use an appstore, compliance with the provider’s minimum age will still be verified and enforced. If you are under the minimum age of 16 years you can no longer use Whatsapp due to the proposed age verification requirements; the same applies to the online functions of the game FIFA 23. If you are under 13 years old you’ll no longer be able to use TikTok, Snapchat or Instagram.
+
+Click here for further arguments against messaging and chat control
+
+Click here to find out what you can do to stop messaging and chat control
+
+Additional information and arguments
+
+Debunking Myths
+
+Additional information and arguments
+
+Mass surveillance is the wrong approach to fighting “child pornography” and sexual exploitation
+
+Message and chat control harms everybody
+
+Messaging and chat control harms children and abuse victims
+
+Alternatives
+
+Strengthening the capacity of law enforcement
+
+Addressing not only symptoms, but the root cause
+
+Fast and easily available support for (potential) victims
+
+Improving media literacy
+
+Document pool
+
+Critical commentary and further reading
+
+Debunking Myths
+
+When the draft law on chat control was first presented in May 2022, the EU Commission promoted the controversial plan with various arguments. In the following, various claims are questioned and debunked:
+
+1. “Today, photos and videos depicting child sexual abuse are massively circulated on the Internet. In 2021, 29 million cases were reported to the U.S. National Centre for Missing and Exploited Children.”
+
+To speak exclusively of depictions of child sexual abuse in the context of chat control is misleading. To be sure, child sexual exploitation material (CSEM) is often footage of sexual violence against minors (child sexual abuse material, CSAM). However, an international working group of child protection institutions points out that criminal material also includes recordings of sexual acts or of sexual organs of minors in which no violence is used or no other person is involved. Recordings made in everyday situations are also mentioned, such as a family picture of a girl in a bikini or naked in her mother’s boots. Recordings made or shared without the knowledge of the minor are also covered. Punishable CSEM also includes comics, drawings, manga/anime, and computer-generated depictions of fictional minors. Finally, criminal depictions also include self-made sexual recordings of minors, for example, for forwarding to partners of the same age (“sexting”). The study therefore proposes the term “depictions of sexual exploitation” of minors as a correct description. In this context, recordings of children (up to 14 years of age) and adolescents (up to 18 years of age) are equally punishable.
+
+2. “In 2021 alone, 85 million images and videos of child sexual abuse were reported worldwide.”
+
+There are many misleading claims circulating about how to quantify the extent of sexually exploitative images of minors (CSEM). The figure the EU Commission uses to defend its plans comes from the U.S. nongovernmental organization NCMEC (National Center for Missing and Exploited Children) and includes duplicates because CSEM is shared multiple times and often not deleted. Excluding duplicates, 22 million unique recordings remain of the 85 million reported.
+
+75 percent of all NCMEC reports from 2021 came from Meta (FB, Instagram, Whatsapp). Facebook’s own internal analysis says that “more than 90 percent of [CSEM on Facebook in 2020] was identical or visually similar to previously reported content. And copies of just six videos were responsible for more than half of the child-exploitative content.” So the NCMEC’s much-cited numbers don’t really describe the extent of online recordings of sexual violence against children. Rather, they describe how often Facebook discovers copies of footage it already knows about. That, too, is relevant.
+
+Not all unique recordings reported to NCMEC show violence against children. The 85 million depictions reported by NCMEC also include consensual sexting, for example. The number of depictions of abuse reported to NCMEC in 2021 was 1.4 million.
+
+7% of NCMEC’s global SARs go to the European Union.
+
+Moreover, even on Facebook, where chat control has long been used voluntarily, the numbers for the dissemination of abusive material continue to rise. Chat control is thus not a solution.
+
+Source
+
+3. “64% increase in reports of confirmed child sexual abuse in 2021 compared to the previous year.”
+
+That the voluntary chat control algorithms of large U.S. providers have reported more CSEM does not indicate how the amount of CSEM has evolved overall. The very configuration of the algorithms has a large impact on the number of SARs. Moreover, the increase shows that the circulation of CSEM cannot be controlled by means of chat control.
+
+4. “Europe is the global hub for most of the material.”
+
+7% of global NCMEC SARs go to the European Union. Incidentally, European law enforcement agencies such as Europol and BKA knowingly do not report abusive material to storage services for removal, so the amount of material stored here cannot decrease.
+
+5. “A Europol-backed investigation based on a report from an online service provider led to the rescue of 146 children worldwide, with over 100 suspects identified across the EU.”
+
+The report was made by a cloud storage provider, not a communications service provider. To screen cloud storage, it is not necessary to mandate the monitoring of everyone’s communications. If you want to catch the perpetrators of online crimes related to child abuse material, you should use so-called honeypots and other methods that do not require monitoring the communications of the entire population.
+
+6. “Existing means of detecting and removing child sexual expoitation material will no longer be available when the current interim regulation expires in 2024.”
+
+Hosting service providers (filehosters, clouds) and social media providers will be allowed to continue scanning after the ePrivacy exemption expires. No regulation is needed for removing child sexual exploitation material, either. For providers of communications services, the regulation for voluntary chat scanning (chat control 1) could be extended in time without requiring all providers to scan (as per chat control 2).
+
+7. metaphors: Chat control is “like a spam filter” / “like a magnet looking for a needle in a haystack: the magnet doesn’t see the hay.” / “like a police dog sniffing out letters: it has no idea what’s inside.” The content of your communication will not be seen by anyone if there is no hit. “Detection for cybersecurity purposes is already taking place, such as the detection of links in WhatsApp” or spam filters.
+
+Malware and spam filters do not disclose the content of private communications to third parties and do not result in innocent people being flagged. They do not result in the removal or long-term blocking of profiles in social media or online services.
+
+8. “As far as the detection of new abusive material on the net is concerned, the hit rate is well over 90 %. … Some existing grooming detection technologies (such as Microsoft’s) have an “accuracy rate” of 88%, before human review.”
+
+With the unmanageable number of messages, even a small error rate results in countless false positives that can far exceed the number of correct messages. Even with a 99% hit rate, this would mean that of the 100 billion messages sent daily via Whatsapp alone, 1 billion (i.e., 1,000,000,000) false positives would need to be verified. And that’s every day and only on a single platform. The “human review burden” on law enforcement would be immense, while the backlog and resource overload are already working against them.
+
+Separately, an FOI request from former MEP Felix Reda exposed the fact that these claims about accuracy come from industry – from those who have a vested interest in these claims because they want to sell you detection technology (Thorn, Microsoft). They refuse to submit their technology to independent testing, and we should not take their claims at face value.
+
+The EU’s evaluation of child abuse detection tools is based solely on industry claims taken at face value.
+
+Mass surveillance is the wrong approach to fighting “child pornography” and sexual exploitation
+
+Scanning private messages and chats does not contain the spread of CSEM. Facebook, for example, has been practicing chat control for years, and the number of automated reports has been increasing every year, most recently reaching 22 million in 2021.
+
+Mandatory chat control will not detect the perpetrators who record and share child sexual exploitation material. Abusers do not share their material via commercial email, messenger, or chat services, but organize themselves through self-run secret forums without control algorithms. Abusers also typically upload images and videos as encrypted archives and share only the links and passwords. Chat control algorithms do not recognize encrypted archives or links.
+
+The right approach would be to delete stored CSEM where it is hosted online. However, Europol does not report known CSEM material.
+
+Chat control harms the prosecution of child abuse by flooding investigators will millions of automated reports, most of which are criminally irrelevant.
+
+Message and chat control harms everybody
+
+All citizens are placed under suspicion, without cause, of possibly having committed a crime. Text and photo filters monitor all messages, without exception. No judge is required to order to such monitoring – contrary to the analog world which guarantees the privacy of correspondence and the confidentiality of written communications. According to a judgment by the European Court of Justice, the permanent and general automatic analysis of private communications violates fundamental rights (case C-511/18, Paragraph 192). Nevertheless, the EU now intends to adopt such legislation. For the court to annul it can take years. Therefore we need to prevent the adoption of the legislation in the first place.
+
+The confidentiality of private electronic correspondence is being sacrificed. Users of messenger, chat and e-mail services risk having their private messages read and analyzed. Sensitive photos and text content could be forwarded to unknown entities worldwide and can fall into the wrong hands. NSA staff have reportedly circulated nude photos of female and male citizens in the past. A Google engineer has been reported to stalk minors.
+
+Indiscriminate messaging and chat control wrongfully incriminates hundreds of users every day. According the Swiss Federal Police, 80% of machine-reported content is not illegal, for example harmless holiday photos showing nude children playing at a beach. Similarly in Ireland only 20% of NCMEC reports received in 2020 were confirmed as actual “child abuse material”.
+
+Securely encrypted communication is at risk. Up to now, encrypted messages cannot be searched by the algorithms. To change that back doors would need to be built in to messaging software. As soon as that happens, this security loophole can be exploited by anyone with the technical means needed, for example by foreign intelligence services and criminals. Private communications, business secrets and sensitive government information would be exposed. Secure encryption is needed to protect minorities, LGBTQI people, democratic activists, journalists, etc.
+
+Criminal justice is being privatized. In the future the algorithms of corporations such as Facebook, Google, and Microsoft will decide which user is a suspect and which is not. The proposed legislation contains no transparency requirements for the algorithms used. Under the rule of law the investigation of criminal offences belongs in the hands of independent judges and civil servants under court supervision.
+
+Indiscriminate messaging and chat control creates a precedent and opens the floodgates to more intrusive technologies and legislation . Deploying technology for automatically monitoring all online communications is dangerous: It can very easily be used for other purposes in the future, for example copyright violations, drug abuse, or “harmful content”. In authoritarian states such technology is to identify and arrest government opponents and democracy activists. Once the technology is deployed comprehensively, there is no going back.
+
+Messaging and chat control harms children and abuse victims
+
+Proponents claim indiscriminate messaging and chat control facilitates the prosecution of child sexual exploitation. However, this argument is controversial, even among victims of child sexual abuse. In fact messaging and chat control can hurt victims and potential victims of sexual exploitation:
+
+Safe spaces are destroyed. Victims of sexual violence are especially in need of the ability to communicate safely and confidentially to seek counseling and support, for example to safely exchange among each other, with their therapists or attorneys. The introduction of real-time monitoring takes these safe rooms away from them. This can discourage victims from seeking help and support.
+
+Self-recorded nude photos of minors (sexting) end up in the hands of company employees and police where they do not belong and are not safe.
+
+Minors are being criminalized. Especially young people often share intimate recordings with each other (sexting). With messaging and chat control in place, their photos and videos may end up in the hands of criminal investigators. German crime statistics demonstrate that nearly 40% of all investigations for child pornography target minors.
+
+Indiscriminate messaging and chat control does not contain the circulation of illegal material but actually makes it more difficult to prosecute child sexual exploitation. It encourages offenders to go underground and use private encrypted servers which can be impossible to detect and intercept. Even on open channels, indiscriminate messaging and chat control does not contain the volume of material circulated, as evidenced by the constantly rising number of machine reports.
+
+Talk at Chaos Computer Congress (29 December 2023): It’s not over yet
+
+<p><iframe width=”1024″ height=”576″ src=”https://media.ccc.de/v/37c3-12240-chatkontrolle_-_es_ist_noch_nicht_vorbei/oembed#l=eng” frameborder=”0″ allowfullscreen></iframe></p>
+
+Alternatives
+
+Strengthening the capacity of law enforcement
+
+Currently, the capacity of law enforcement is so inadequate it often takes months and years to follow up on leads and analyse collected data. Known material is often neither analysed nor removed. Those behind the abuse do not share their material via Facebook or similar channels, but on the darknet. To track down perpetrators and producers, undercover police work must take place instead of wasting scarce capacities on checking often irrelevant machine reports. It is also essential to strengthen the responsible investigative units in terms of personnel and funding and financial resources, to ensure long-term, thorough and sustained investigations. Reliable standards/guidelines for the police handling of sexual abuse investgations need to be developed and adhered to.
+
+Addressing not only symptoms, but the root cause
+
+Instead of ineffective technical attempts to contain the spread of exploitation material that has been released, all efforts must focus on preventing such recordings in the first place. Prevention concepts and training play a key role because the vast majority of abuse cases never even become known. Victim protection organisations often suffer from unstable funding.
+
+Fast and easily available support for (potential) victims
+
+Mandatory reporting mechanisms at online services: In order to achieve effective prevention of online abuse and especially grooming, online services should be required to prominently place reporting functions on the platforms. If the service is aimed at and/or used by young people or children, providers should also be required to inform them about the risks of online grooming.
+
+Hotlines and counseling centers: Many national hotlines dealing with cases of reported abuse are struggling with financial problems. It is essential to ensure there is sufficient capacity to follow up on reported cases.
+
+Improving media literacy
+
+Teaching digital literacy at an early age is an essential part of protecting for protecting children and young people online. The children themselves must have the knowledge and tools to navigate the Internet safely. They must be informed that dangers also lurk online and learn to recognise and question patterns of grooming. This could be achieved, for example, through targeted programs in schools and training centers, in which trained staff convey knowledge and lead discussions. Children need to learn to speak up, respond and report abuse, even if the abuse comes from within their sphere of trust (i.e., by people close to them or other people they know and trust), which is often the case. They also need to have access to safe, accessible, and age-appropriate channels to report abuse without fear.
+
+Document pool on chat control 2.0
+
+EP legislative observatory (continuously updated state of play)
+
+Trilogue
+
+Four column-table with track changes (9 December 2025)
+
+Four column-table comparing the negotiating mandates (5 December 2025)
+
+Council of the European Union (Council)
+
+Council documents (continuously updated)
+
+Compromise proposals and state of play (22 June 2026, 10906/26)
+
+Outcome of the interinstitutional technical meeting on 19 June 2026 (22 June 2026, WK 9107/26)
+
+Preparation for the trilogue – State of play and guidance for further work (22 June 2026, 10499/26)
+
+Comments from delegations (17 June 2026, WK 8875/26)
+
+Compromise proposals and state of play (12 June 2026, 10431/26)
+
+Outcome of the interinstitutional technical meetings on 3 and 11 June 2026 (12 June 2026, WK 8615/26)
+
+Presidency compromise texts (29 May 2026, 9835/26)
+
+Presidency compromise texts on detection (26 May 2026, 9659/26)
+
+Four-column table with the outcome of the trilogue on 11 May 2026 (19 May 2026, WK 6982/26)
+
+Outcome of the trilogue on 11 May 2026 and next steps (13 May 2026, 9139/26)
+
+Compromise proposals and state of play (29 April 2026, 8612/26)
+
+Considerations regarding detection (08 April 2026, 8048/26)
+
+Voting record – see #63 (28 November 2025, 16236/25)
+
+Adopted negotiating mandate (13 November 2025, 15318/25)
+
+Explanatory note by Danish Council Presidency (12 November 2025, 15474/25)
+
+Presentation by the Danish Council Presidency (10 November 2025, 15166/25)
+
+Compromise proposal by the Danish Council Presidency (6 November 2025, 14092/25)
+
+Discussion paper by the Danish Council Presidency (30 October 2025, 14032/25)
+
+Compromise proposal by Danish Council Presidency (3 October 2025, 13095/25)
+
+Compromise proposal by Danish Council Presidency (24 July 2025, 11596/25)
+
+Compromise proposal by Danish Council Presidency (1 July 2025, 10131/25)
+
+Presidency information note (1 July 2025, WK 9150/25 INIT)
+
+Progress report (2 June 2025, 9277/25)
+
+Compromise proposal by Polish Council Presidency (13 May 2025, 8621/25)
+
+Briefing on meeting of Home Affairs Counsellors on 29 April 2025 (German)
+
+Briefing on meeting of the Council Law Enforcement Working Party on 8 April 2025 (German)
+
+Compromise proposal by Polish Council Presidency (4 April 2025, 7080/25)
+
+Feedback from Member States (20 March 2025, WK 3471/2025 INIT)
+
+Briefing on meeting of the Council Law Enforcement Working Party on 11 March 2025 (German)
+
+Compromise proposal by Polish Council Presidency (4 March 2025, 6475/25)
+
+Briefing on meeting of the Council Law Enforcement Working Party on 5 February 2025 (German)
+
+Compromise proposal by Polish Council Presidency (28 January 2025, 5352/25)
+
+Reports on meetings of the Law Enforcement Working Party (continuously updated, in German)
+
+Statements by Austria and Slovenia (9 December 2024, 16329/24 ADD 1)
+
+Compromise proposal / draft legislation by Council Presidency (3 December 2024, 16547/24)
+
+Compromise proposal / draft legislation by Council Presidency (29 November 2024, 16329/24)
+
+Compromise proposal / draft legislation by Council Presidency (7 October 2024, 13726/24 REV 1)
+
+Updated full-text compromise proposal / draft legislation by Council Presidency (24 September, 13726/24)
+
+Meeting COREPER (23 September 2024) (German cable)
+
+Full-text compromise proposal/draft legislation by Council Presidency (9 September, 12406/24)
+
+Compromise idea by Council Presidency (29 August, ST 12319/2024 INIT)
+
+Explanatory note of Council Presidency (14 June, WK 8634/2024 INIT)
+
+Compromise proposal of Council Presidency (14 June, ST-11277/24)
+
+Progress report note Council (ST-10666-2024-INIT) (7 June 2024)
+
+Meeting Council Law Enforcement Working Party (4 June 2024) (German)
+
+Compromise proposal of Council Presidency (28 May 2024, ST-9093-2024-INIT)
+
+Meeting Council Law Enforcement Working Party (24 May 2024) (German)
+
+Presentation of Council Presidency (WK 6697/2024 INIT) (8 May 2024)
+
+Meeting Council Law Enforcement Working Party (8 May 2024) (German)
+
+Meeting Council Law Enforcement Working Party (15 April 2024) (German)
+
+Updated risk evaluation criteria (WK 3036/2024 Rev. 2) (10 April 2024)
+
+Compromise proposal of Council Presidency (9 April 2024, ST-8579-2024-INIT)
+
+Meeting Council Law Enforcement Working Party (3 April 2024)
+
+Compromise proposal of Council Presidency (27 March 2024, ST-8019-2024-INIT) with updated risk evaluation criteria (WK 3036/2024 Rev. 1)
+
+Meeting Council Law Enforcement Working Party (19 March 2024)
+
+Compromise proposal of Council Presidency (13 March 2024, ST-7462-2024-INIT)
+
+Meeting Council Law Enforcement Working Party (1 March 2024) (German)
+
+Presentation of Council Presidency (1 March 2024, WK 3413/2024 INIT)
+
+Risk evaluation proposal of Council Presidency (26 February 2024, WK 3036/2024 INIT)
+
+Compromise proposal of Council Presidency (22 February 2024, ST-6850-2024-INIT)
+
+Meeting Council Law Enforcement Working Party (6 December 2023) (German)
+
+Meeting Council Law Enforcement Working Party (4 December 2023) (German)
+
+COREPER 2 meeting (18 October 2023) (German)
+
+COREPER 2 meeting (13 October 2023) (German)
+
+Meeting Council Law Enforcement Working Party (17 September 2023)
+
+Compromise text Council Law Enforcement Working Party (8 September 2023)
+
+Meeting Council Law Enforcement Working Party (14 September 2023)
+
+Public meeting of Justice and Home Affairs Council with Statements of the Swedish Presidency and Commissioner Ylva Johnnson (08 June 2023)
+
+Meeting Coreper I (31 May 2023) (German)
+
+Compromise text Council Law Enforcement Working Party (25-26 May 2023)
+
+Common position of the like-minded group (LMG) of Member States (27 April 2023)
+
+Opinion Council Legal Service (26 April 2023)
+
+Compromise text Council Law Enforcement Working Party (25 April 2023)
+
+Member State Positions on Encryption (12 April 2023)
+
+Member State Positions on Articles 12-15 (12 April 2023)
+
+Meeting Council Law Enforcement Working Party (29 March 2023)
+
+Meeting Council Law Enforcement Working Party (16 March 2023)
+
+Compromise text Council Law Enforcement Working Party (16 March 2023)
+
+Meeting Council Law Enforcement Working Party (Police) (19/20 January 2023)
+
+Meeting Council Law Enforcement Working Party (Police) (24 November 2022)
+
+Meeting Council Law Enforcement Working Party (3 November 2022)
+
+Compromise text Council Law Enforcement Working Party (Art. 1-2 , 25-39 ) (22 September 2022)
+
+Meeting Council Law Enforcement Working Party (20 July 2022)
+
+Compromise text Council Law Enforcement Working Party (20 July 2022)
+
+European Parliament
+
+Negotiating mandate (14 November 2023)
+
+Amendments 277 – 544 (30 May 2023)
+
+Amendments 545 – 953 (30 May 2023)
+
+Amendments 954 – 1332 (30 May 2023)
+
+Amendments 1333 – 1718 (30 May 2023)
+
+Amendments 1719 – 1909 (30 May 2023)
+
+Draft Report of Rapporteur (25 April 2023)
+
+Complementary Impact Assessment by the European Parliament Research Service EPRS (April 2023)
+
+Presentation of findings : Targeted substitute impact assessment on Commission Proposal (25 January 2023)
+
+Briefing: Commission proposal on preventing and combating child sexual abuse: The Commission’s engagement with stakeholders (15 November 2023)
+
+European Commission
+
+Draft child sexual abuse regulation and impact assessment (11 May 2022)
+
+Non-paper Comments of the services of the Commission on some elements of the Draft Final Complementary Impact Assessment (17 May 2023)
+
+Briefing for Commissioner Ylva Johansson for a meeting with a French minister (27 September 2022)
+
+Public consultations by Commission (closed 12 September 2022), see also this analysis of responses
+
+Non-paper Balancing children’s rights with user rights (16 May 2022)
+
+Second Opinion of Regulatory Scrutiny Board (28 March 2022)
+
+Opinion of Regulatory Scrutiny Board (15 February 2022)
+
+Quality Checklist for Regulatory Scrutiny Board (6 November 2021)
+
+Statements and Assessments
+
+Statement of the European Data Protection Board (13 February 2024)
+
+Legal opinion of former ECJ judge Christopher Vajda KC (19 October 2023)
+
+Opinion Council Legal Service (26 April 2023)
+
+Summary of Statement by the Child Protection Association (Der Kinderschutzbund Bundesverband e.V.) on the Public Hearing of the Digital Affairs Committee on “Chat Control”(1 March 2023)
+
+Summary of Statement by the Federal Commissioner for Data Protection and Freedom of Information on the public hearing of the Committee on Digital Affairs of the German Bundestagon the topic of “Chat Control” (1 March 2023)
+
+Summary of Statement Public Prosecutor’s Office, Central and Contact Point Cybercrime (ZAC) on the public hearing of the Digital Affairs Committee of the German Bundestag on “Chat Control” (1 March 2023)
+
+EPRS Briefing (December 2022)
+
+Legal Opinion by German Bundestag Research Service (7 October 2022)
+
+Opinion by European Economic and Social Committee (13 September 2022)
+
+EDPB-EDPS Joint Opinion 4/2022 (28 July 2022)
+
+Opinion by the former ECJ Judge Christopher Vajda KC (19 October 2022)
+
+Polls
+
+ChatControl survey: Children don’t want to be “protected” by scanning or age-restricting messenger and chat apps (7 March 2023)
+
+Poll: 72% of citizens oppose EU plans to search all private messages for allegedly illegal material and report to the police (28 April 2021)
+
+Document pool on voluntary Chat Control 1.0
+
+REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 14 July 2021 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse , no longer in force
+
+Failed legislative procedure intended to extend Chat Control 1.0:
+
+EP legislative observatory (continuously updated state of play on proposed extension)
+
+EU Council Document register (continuously updated list of Council documents)
+
+European Parliament: Amendments to draft mandate (10 February 2026)
+
+European Parliament Rapporteur’s draft mandate (5 February 2026) and my comments
+
+Council mandate (29 January 2026)
+
+EU Commission proposal to extend the Chat Control 1.0 regulation by another two years (19 December 2025)
+
+Report by the Commission to the European Parliament and the Council on the implementation of the ePrivacy derogation on voluntary chat control and my comments (27 November 2025)
+
+Archive:
+
+Amendments (January 2024)
+
+Draft report on extending voluntary chat control (January 2024)
+
+Report by the Commission to the European Parliament and the Council on the implementation of the ePrivacy derogation on voluntary chat control (January 2024)
+
+2021 reporting on voluntary chat control by Meta , Twitter and Google
+
+Leaked opinion of the Commission sets off alarm bells for mass surveillance of private communications (23 March 2022)
+
+Answer by the Commission in reply to a cross-party letter against mandatory chat control (9 March 2022)
+
+Voluntary chat control Regulation
+
+Legal Opinion by German Bundestag Research Service (4 August 2021)
+
+Answers by Europol on statistics regarding the prosecution of child sexual abuse material online (28 April 2021)
+
+Legal Opinion on the Compatibility of Chat Control with the case law of the ECJ (March 2021)
+
+Impact Assessment by the European Parliamentary Research Service (5 February 2021)
+
+Amendments to voluntary chat control proposal (26 November 2020)
+
+Answers given by the Commission to questions of the Members of Parliament (27 October 2020)
+
+Answers given by the Commission to questions of the Members of Parliament (28 September 2020)
+
+Technical solutions to screen end to end encrypted communications (September 2020)
+
+Critical commentary and further reading
+
+Dozens of European technology companies and the European Digital SME Alliance: “ Digital sovereignty cannot be achieved if Europe undermines the security and integrity of its own businesses by mandating client-side scanning or other similar tools or methodologies designed to scan encrypted environments , which technologists have once again confirmed cannot be done without weakening or undermining encryption.” (8 October 2025)
+
+Office of the High Commissioner for Human Rights : “ Report on the right to privacy in the digital age ” (4 August 2022)
+
+“Governments seeking to limit encryption have often failed to show that the restrictions they would impose are necessary to meet a particular legitimate interest, given the availability of various other tools and approaches that provide the information needed for specific law enforcement or other legitimate purposes. Such alternative measures include improved, better-resourced traditional policing, undercover operations, metadata analysis and strengthened international police cooperation.”
+
+UN Committee on the Rights of the Child , General comment No. 25 (2021) :
+
+“Any digital surveillance of children, together with any associated automated processing of personal data, should respect the child’s right to privacy and should not be conducted routinely, indiscriminately or without the child’s knowledge…”
+
+Prostasia Foundation: “ How the War against Child Abuse Material was lost ” (19 August 2020)
+
+European Digital Rights (EDRi) : “ Is surveilling children really protecting them? Our concerns on the interim CSAM regulation ” (24 September 2020)
+
+Civil Society Organizations : “ Open Letter: Civil society views on defending privacy while preventing criminal acts ” (27 Oktober 2020)
+
+“we suggest that the Commission prioritise this non-technical work, and more rapid take-down of offending websites, over client-side filtering […]”
+
+European Data Protection Supervisor : “ Opinion on the proposal for temporary derogations from Directive 2002/58/EC for the purpose of combatting child sexual abuse online ” (10 November 2020)
+
+“Due to the absence of an impact assessment accompanying the Proposal, the Commission has yet to demonstrate that the measures envisaged by the Proposal are strictly necessary, effective and proportionate for achieving their intended objective.”
+
+Alexander Hanff (victim of child abuse and privacy professional): “ Why I don’t support privacy invasive measures to tackle child abuse. ” (11 November 2020)
+
+“As an abuse survivor, I (and millions of other survivors across the world) rely on confidential communications to both find support and report the crimes against us – to remove our rights to privacy and confidentiality is to subject us to further injury and frankly, we have suffered enough. […] it doesn’t matter what steps we take to find abusers, it doesn’t matter how many freedoms or constitutional rights we destroy in order to meet that agenda – it WILL NOT stop children from being abused, it will simply push the abuse further underground, make it more and more difficult to detect and ultimately lead to more children being abused as the end result.”
+
+Irish victim of child sexual abuse (5 June 2022):
+
+“Using the veil of morality and the guise of protecting the most vulnerable and beloved in our societies to introduce this potential monster of an initiative is despicable.”
+
+German victim of child sexual abuse (25 May 2022):
+
+“Especially being a victim of sexual abuse, it is important to me that trusted communication is possible, e.g. in self-help groups and with therapists. If encryption is undermined, this also weakens the possibilities for those affected by sexual abuse to seek help.”
+
+French victim of child sexual abuse (23 May 2022):
+
+“Having been a victim of sexual violence myself as a child, I am convinced that the only way to move forward on this issue is through education. Generalized surveillance of communications will not help children to stop suffering from this unacceptable violence.”
+
+AccessNow : “ The fundamental rights concerns at the heart of new EU online content rules ” (19 November 2020)
+
+“In practice this means that they would put private companies in charge of a matter that public authorities should handle”
+
+Federal Bar Association (BRAK) (in German): “ Stellungnahme zur Übergangsverordnung gegen Kindesmissbrauch im Internet ” (24 November 2020)
+
+„the assessment of child abuse-related facts is part of the legal profession’s area of responsibility. Accordingly, the communication exchanged between lawyers and clients will often contain relevant keywords. […] According to the Commission’s proposals, it is to be feared that in all of the aforementioned constellations there will regularly be a breach of confidentiality due to the unavoidable use of relevant terms.”
+
+Alexander Hanff (Victim of Child Abuse and Privacy Activist): “ EU Parliament are about to pass a derogation which will result in the total surveillance of over 500M Europeans ” (4 December 2020)
+
+“I didn’t have confidential communications tools when I was raped; all my communications were monitored by my abusers – there was nothing I could do, there was no confidence. […] I can’t help but wonder how much different my life would have been had I had access to these modern technologies. [The planned vote on the e-Privacy Derogation] will drive abuse underground making it far more difficult to detect; it will inhibit support groups from being able to help abuse victims – IT WILL DESTROY LIVES.”
+
+German Data Protection Supervisor (in German): „ BfDI kritisiert versäumte Umsetzung von EU Richtlinie “ (17 December 2020)
+
+“A blanket and unprovoked monitoring of digital communication channels is neither proportionate nor necessary to detect online child abuse. The fight against sexualised violence against children must be tackled with targeted and specific measures. The investigative work is the task of the law enforcement authorities and must not be outsourced to private operators of messenger services.”
+
+European Digital Rights (EDRi): Wiretapping children’s private communications: Four sets of fundamental rights problems for children (and everyone else) (10 February 2021)
+
+“As with other types of content scanning (whether on platforms like YouTube or in private communications) scanning everything from everyone all the time creates huge risks of leading to mass surveillance by failing the necessity and proportionality test. Furthermore, it creates a slippery slope where we start scanning for less harmful cases (copyright) and then we move on to harder issues (child sexual abuse, terrorism) and before you realise what happened scanning everything all the time becomes the new normal.”
+
+German Bar Association (DAV): “Indiscriminate communications scanning is disproportionate” (9 March 2021)
+
+“The DAV is explicitly in favour of combating the preparation and commission of child sexual abuse and its dissemination via the internet through effective measures at EU-level. However, the Interim Regulation proposed by the Commission would allow blatantly disproportionate infringements on the fundamental rights of users of internet-based communication services. Furthermore, the proposed Interim Regulation lacks sufficient procedural safeguards for those affected. This is why the legislative proposal should be rejected as a whole.”
+
+Letter from the President of the German Bar Association (DAV) and the President of the Federal Bar Association (BRAK) (in German) (8 March 2021)
+
+“Positive hits with subsequent disclosure to governmental and non-governmental agencies would be feared not only by accused persons but above all by victims of child sexual abuse. In this context, the absolute confidentiality of legal counselling is indispensable in the interest of the victims, especially in these matters which are often fraught with shame. In these cases in particular, the client must retain the authority to decide which contents of the mandate may be disclosed to whom. Otherwise, it is to be feared that victims of child sexual abuse will not seek legal advice.”
+
+Strategic autonomy in danger: European Tech companies warn of lowering data protection levels in the EU (15 April 2021)
+
+“In the course of the initiative “Fighting child sexual abuse: detection, removal, and reporting of illegal content”, the European Union plans to abolish the digital privacy of correspondence. In order to automatically detect illegal content, all private chat messages are to be screened in the future. This should also apply to content that has so far been protected with strong end-to-end encryption. If this initiative is implemented according to the current plan it would enormously damage our European ideals and the indisputable foundations of our democracy, namely freedom of expression and the protection of privacy […]. The initiative would also severely harm Europe’s strategic autonomy and thus EU-based companies.
+
+Article in “ Welt.de: Crime scanners on every smartphone – EU plans major surveillance attack “ (in German) (4 November 2021)
+
+Experts from the police and academia are rather critical of the EU’s plan: on the one hand, they fear many false reports by the scanners, and on the other hand, an alibi function of the law. Daniel Kretzschmar, spokesman for the Federal Board of the Association of German Criminal Investigators, says that the fight against child abuse depictions is “enormously important” to his association. Nevertheless, he is skeptical: unsuspected persons could easily become the focus of investigations. At the same time, he says, privatizing these initiative investigations means “making law enforcement dependent on these companies, which is actually a state and sovereign task. “
+
+Thomas-Gabriel Rüdiger, head of the Institute for Cybercriminology at the Brandenburg Police University, is also rather critical of the EU project. “In the end, it will probably mainly hit minors again,” he told WELT. Rüdiger refers to figures from the crime statistics, according to which 43 percent of the recorded crimes in the area of child pornographic content would be traced back to children and adolescents themselves. This is the case, for example, with so-called “sexting” and “schoolyard pornography “, when 13- and 14-year-olds send each other lewd pictures.
+
+Real perpetrators, who you actually want to catch, would probably rather not be caught. “They are aware of what they have done and use alternatives. Presumably, USB sticks and other data carriers will then be increasingly used again,” Rüdiger continues.
+
+European Digital Rights (EDRi) : Chat control: 10 principles to defend children in the digital age (9 February 2022)
+
+“In accordance with EU fundamental rights law, the surveillance or interception of private communications or their metadata for detecting, investigating or prosecuting online CSAM must be limited to genuine suspects against whom there is reasonable suspicion, must be duly justified and specifically warranted, and must follow national and EU rules on policing, due process, good administration, non-discrimination and fundamental rights safeguards.”
+
+European Digital Rights (EDRi) : Leaked opinion of the Commission sets off alarm bells for mass surveillance of private communications (23 March 2022)
+
+In the run-up to the official proposal later this year, we urge all European Commissioners to remember their responsibilities to human rights, and to ensure that a proposal which threatens the very core of people’s right to privacy, and the cornerstone of democratic society, is not put forward.
+
+Council of European Professional Informatics Societies (CEPIS): Europe has a right to secure communication and effective encryption (March 2022)
+
+“In the view of our experts, academics and IT professionals, all efforts to intercept and extensively monitor chat communication via client site scanning has a tremendous negative impact on the IT security of millions of European internet users and businesses. Therefore, a European right to secure communication and effective encryption for all must become a standard.”
+
+Related topics
+
+24. July 2026
+
+EU governments adopt return of Chat Control 1.0 – Breyer: “The true losers are our children”
+
+Freedom, democracy and transparency
+
+0
+
+09. July 2026
+
+EU Parliament greenlights Chat Control 1.0 – Breyer: “Our children lose out”
+
+European Parliament
+Freedom, democracy and transparency
+
+0
+
+06. July 2026
+
+Procedural Trick Before Summer Recess Pushes EU Parliament Towards Capitulation on “Chat Control”
+
+European Parliament
+Freedom, democracy and transparency
+Press releases
+
+0
+
+1
+2
+…
+40
+Next page
+
+Interesting too
+
+Kategorien
+
+Artificial Intelligence
+
+communications screening
+
+Europaparlament
+
+European Parliament
+
+Freedom, democracy and transparency
+
+Freiheit, Demokratie und Transparenz
+
+Job offers
+
+Media reports
+
+Nicht kategorisiert
+
+Other
+
+Press briefings
+
+Press releases
+
+Pressemitteilungen
+
+Pressemitteilungen (SH)
+
+Sonstiges
+
+Keep in touch
+with me !
+
+@echo_pbreyer
+
+@echo_pbreyer
+
+@patrickbreyer_mep
+
+PIRATE PARTY
+
+About us
+
+Pirate Party Germany
+
+European Pirate Party
+
+Pirate Party International
+
+Communal Pirates
+
+All content on this site – unless indicated otherwise – is free to use under a Creative Commons license .
+
+Contact / Privacy Notice

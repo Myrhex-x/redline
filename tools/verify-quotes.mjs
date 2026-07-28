@@ -28,11 +28,27 @@ const norm = (s) =>
     .replace(/\s+/g, " ")
     .trim();
 
-const { companies, institutions = [] } = JSON.parse(
+const { companies, institutions = [], serviceEvidence } = JSON.parse(
   readFileSync(join(ROOT, "companies.json"), "utf8")
 );
 
 let checked = 0, missing = [];
+
+// The service-level claim rests on one quoted sentence, and company pages use
+// it to say which services a source actually names. If Breyer rewrites that
+// line, every "Named / Not named" split on the site silently loses its
+// footing — so it is held to the same standard as a company's own quote.
+if (serviceEvidence?.quote) {
+  checked++;
+  const f = join(ROOT, "archive", serviceEvidence.slug, `${serviceEvidence.doc}.txt`);
+  const ok = existsSync(f) && norm(readFileSync(f, "utf8")).includes(norm(serviceEvidence.quote));
+  if (ok) {
+    console.log(`ok   serviceEvidence: quote found in archive/${serviceEvidence.slug}/${serviceEvidence.doc}.txt`);
+  } else {
+    missing.push("serviceEvidence");
+    console.error(`ROT  serviceEvidence: the service-naming quote is no longer in archive/${serviceEvidence.slug}/${serviceEvidence.doc}.txt`);
+  }
+}
 for (const c of [...companies, ...institutions]) {
   const quote = c.chatControl?.quote;
   if (!quote) continue;

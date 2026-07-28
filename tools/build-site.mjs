@@ -59,6 +59,9 @@ for (const dir of existsSync(ARCH) ? readdirSync(ARCH) : []) {
 // The manifest records which status each card was drawn with — on drift the
 // page falls back to the generic card rather than sharing a stale verdict.
 const OG_CARDS = loadJSON(join(ROOT, "assets", "og", "cards.json"), {});
+// The one source that speaks at service level; quoted once, verified against
+// its own archived copy by tools/verify-quotes.mjs.
+const SERVICE_EVIDENCE = config.serviceEvidence ?? {};
 
 const changesBySlug = new Map();
 for (const e of history) {
@@ -655,6 +658,18 @@ p.lede { max-width:58ch; }
 .correction strong { color:var(--warn-fg); }
 .corrected-row { opacity:.62; }
 .corrected-row .delta { text-decoration:line-through; }
+/* Named vs merely operated. Deliberately not green/red: neither group is a
+   verdict about the service, only about what the evidence says. */
+.svcev { border:1px solid var(--line); border-radius:6px; padding:1rem 1.15rem; margin:1.1rem 0 1.4rem;
+  background:var(--soft); }
+.svcev h3 { margin:0 0 .7rem; font-size:.95rem; }
+.svcev p { margin:0 0 .6rem; font-size:.92rem; line-height:1.6; }
+.svcev p:last-child { margin-bottom:0; }
+.svcev q { font-style:italic; color:var(--dim); }
+.evlbl { display:inline-block; font-size:.7rem; letter-spacing:.06em; text-transform:uppercase;
+  border:1px solid var(--line); border-radius:3px; padding:.1rem .4rem; margin-right:.45rem;
+  color:var(--dim); vertical-align:.08em; }
+.evlbl-named { border-color:var(--warn-fg); color:var(--warn-fg); }
 .termtable td:nth-child(3) { font-size:.85rem; line-height:1.5; }
 .termtable td:nth-child(2) { text-align:right; padding-right:1.4rem; }
 .termtable th:nth-child(2) { text-align:right; padding-right:1.4rem; }
@@ -794,6 +809,40 @@ function feedRow(e) {
   </li>`;
 }
 
+/**
+ * Which services the evidence actually names.
+ *
+ * The Commission's report names a PROVIDER — "Google, LinkedIn, Meta,
+ * Microsoft and Yubo submitted reports". It does not say which of that
+ * provider's services the scanning applies to. Listing every product a
+ * confirmed filer operates directly under a confirmed-scanning verdict
+ * quietly converts one sourced claim into four unsourced ones.
+ *
+ * So the two are separated: the services a source names, and the services
+ * the company also runs that no source names. The second group is not a
+ * denial — Breyer's list is explicitly illustrative — and the wording here
+ * has to keep saying so, because "not named" is the kind of absence a reader
+ * will happily round to "safe".
+ */
+function serviceEvidenceBlock(c) {
+  if (!c.servicesNamed?.length) return "";
+  const ev = SERVICE_EVIDENCE;
+  const unnamed = svcUnnamed(c);
+  return `
+  <div class="svcev">
+    <h3>Which services the evidence names</h3>
+    <p><span class="evlbl evlbl-named">Named</span> ${c.servicesNamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
+      — ${ev.source ? `named in <a href="${esc(ev.source.u)}">${esc(ev.source.t)}</a>, archived
+      <a href="/archive/${ev.slug}/${ev.doc}.txt">here</a>` : "named in a tracked source"}:
+      <q>${esc(ev.quote)}</q></p>
+    ${unnamed.length ? `<p><span class="evlbl">Not named</span> ${unnamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
+      — also operated by ${esc(shortName(c))}, but no source we track names ${unnamed.length === 1 ? "it" : "them"}
+      as scanning under the derogation. ${esc(ev.caveat)}</p>` : ""}
+    <p class="note">The Commission's report, which is what puts ${esc(shortName(c))} in this group at all,
+    names the provider and not the service. That is why the two lines above are separate.</p>
+  </div>`;
+}
+
 /** Receipts for a negative: the published vocabulary, what matched, what did not. */
 function termSearch(a, c) {
   const t = a.terms;
@@ -895,11 +944,19 @@ const shortName = (c) => c.name.split(" (")[0];
  * not verified. So: name the services only when they add information.
  */
 const svcLine = (c) => {
-  const s = c.services ?? [];
+  // Where a source names particular services, the index shows THOSE — a card
+  // reads as "this verdict, these services", so listing every product the
+  // company happens to run under a confirmed-scanning verdict asserts, to a
+  // skim reader, that all of them scan. The full inventory and the
+  // distinction behind it live on the company page.
+  const s = c.servicesNamed ?? c.services ?? [];
   if (s.length === 0) return "";
   if (s.length === 1 && s[0].toLowerCase() === shortName(c).toLowerCase()) return "";
   return s.join(" · ");
 };
+/** Services the company runs that no tracked source names as scanning. */
+const svcUnnamed = (c) =>
+  c.servicesNamed ? (c.services ?? []).filter((s) => !c.servicesNamed.includes(s)) : [];
 function groupedCards() {
   return groups
     .map(
@@ -1108,7 +1165,7 @@ for (const c of [...companies, ...institutions]) {
     ${cc.quote ? `<div class="quote">“${esc(cc.quote)}” <span class="who">— from ${esc(c.name)}'s ${esc(cc.quoteDoc ?? "own documents")}, as archived here</span></div>` : ""}
     <div class="srcs">${srcs ? `Sources: ${srcs} · ` : ""}<a href="/chat-control/">what this status means</a> · <a href="${REPO}/issues">dispute it</a></div>
   </div>
-  ${c.servicesNote ? `<p class="note svcnote">${esc(c.servicesNote)}</p>` : ""}
+  ${serviceEvidenceBlock(c)}
   <div class="watchfor"><b>What we watch for</b> — ${WATCH[cc.status in WATCH ? cc.status : "unclear"](esc(shortName(c)))}</div>
   ${(cc.statusHistory ?? []).length > 1 ? `<p class="note stathist">Status history: ${cc.statusHistory
     .map((h) => `<strong>${(STATUS[h.status] ?? { label: h.status }).label}</strong> from ${fmtDate(h.since)}`)
@@ -1140,7 +1197,7 @@ for (const c of [...companies, ...institutions]) {
   ${c.alsoOwns ? `<p class="note siblings">${c.alsoOwns.map((o) => `<strong>${esc(o.name)}</strong> — ${esc(o.why)}. <a href="/company/${o.slug}/">${esc(o.link)} →</a>`).join("<br>")}</p>` : ""}
   ${banner}
   <dl class="facts">
-    ${svcLine(c) ? `<div><dt>Services</dt><dd>${esc(c.services.join(", "))}</dd></div>` : ""}
+    ${svcLine(c) ? `<div><dt>Services</dt><dd>${esc(c.services.join(", "))}${c.servicesNamed ? ` <span class="faint">(evidence names ${esc(c.servicesNamed.join(", "))})</span>` : ""}</dd></div>` : ""}
     <div><dt>Status</dt><dd class="${st.cls}"><span class="dot"></span>${inst ? "Institutional source" : st.verdict}</dd></div>
     ${inst ? "" : `<div><dt>Held since</dt><dd>${fmtDate((cc.statusHistory ?? [{ since: ASSESSED }])[0].since)}</dd></div>`}
     <div><dt>Documents</dt><dd>${c.docs.length || "none"}${c.docs.length ? " tracked" : " trackable"}</dd></div>

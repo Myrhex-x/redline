@@ -309,6 +309,10 @@
      "why": "end-to-end encrypted, so it is out of scope for this list",
      "link": "WhatsApp's record"
     }
+   ],
+   "servicesNamed": [
+    "Facebook Messenger",
+    "Instagram DMs"
    ]
   },
   {
@@ -373,7 +377,9 @@
     "Google Chat",
     "Google Photos"
    ],
-   "servicesNote": "The Commission's report names the provider, not the service. Breyer's tracking names Gmail specifically."
+   "servicesNamed": [
+    "Gmail"
+   ]
   },
   {
    "name": "Microsoft (Outlook, Teams)",
@@ -449,7 +455,10 @@
      "link": "LinkedIn's record"
     }
    ],
-   "servicesNote": "The Commission's report names the provider, not the service. Breyer's tracking names Skype and Xbox specifically; Skype was retired in 2025."
+   "servicesNamed": [
+    "Skype (retired 2025)",
+    "Xbox messaging"
+   ]
   },
   {
    "name": "Apple (iMessage, iCloud)",
@@ -1680,6 +1689,30 @@
     }
    ],
    "ua": "browser"
+  },
+  {
+   "slug": "breyer",
+   "name": "Patrick Breyer (MEP, 2019–2024)",
+   "short": "Breyer",
+   "note": "Former MEP and the most-cited public tracker of which providers actually use the derogation. Named as a source on several company pages, so the page it is cited from is archived here rather than merely linked.",
+   "ua": "browser",
+   "docs": [
+    {
+     "id": "chat-control",
+     "title": "Chat Control overview",
+     "url": "https://www.patrick-breyer.de/en/posts/chat-control/"
+    }
+   ]
   }
- ]
+ ],
+ "serviceEvidence": {
+  "quote": "only unencrypted US communication services such as Gmail, Facebook/Instagram Messenger, Skype, Snapchat, iCloud Mail, or Xbox make use of this",
+  "slug": "breyer",
+  "doc": "chat-control",
+  "source": {
+   "t": "Patrick Breyer — Chat Control overview",
+   "u": "https://www.patrick-breyer.de/en/posts/chat-control/"
+  },
+  "caveat": "The list is illustrative — Breyer writes “such as”. A service missing from it is not thereby excluded; it simply is not named by any source we track."
+ }
 }
