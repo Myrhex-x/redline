@@ -830,7 +830,10 @@ function feedRow(e) {
  */
 function serviceEvidenceBlock(c) {
   if (!c.servicesNamed?.length) return "";
-  const ev = SERVICE_EVIDENCE;
+  // A provider naming its own services beats anyone else describing them, so a
+  // company-specific filing overrides the shared third-party overview.
+  const ev = c.servicesEvidence ?? SERVICE_EVIDENCE;
+  const quotes = ev.quotes ?? (ev.quote ? [ev.quote] : []);
   const unnamed = svcUnnamed(c);
   return `
   <div class="svcev">
@@ -840,13 +843,16 @@ function serviceEvidenceBlock(c) {
       ${c.servicesNamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}, which a tracked source names among the
       services using the derogation. One company can run both a service that cannot be read and a service that is
       scanned, and this is that case.</p>` : ""}
+    ${ev.lead ? `<p>${esc(ev.lead)}</p>` : ""}
     <p><span class="evlbl evlbl-named">Named</span> ${c.servicesNamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
       — ${ev.source ? `named in <a href="${esc(ev.source.u)}">${esc(ev.source.t)}</a>, archived
       <a href="/archive/${ev.slug}/${ev.doc}.txt">here</a>` : "named in a tracked source"}:
-      <q>${esc(ev.quote)}</q></p>
-    ${unnamed.length ? `<p><span class="evlbl">${scansPerVerdict(c) ? "Not named" : "Covered by the status"}</span> ${unnamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
+      ${quotes.map((q) => `<q>${esc(q)}</q>`).join(" ")}</p>
+    ${unnamed.length ? `<p><span class="evlbl">${ev.unnamedLabel ?? (scansPerVerdict(c) ? "Not named" : "Covered by the status")}</span> ${ev.unnamed
+      ? esc(ev.unnamed)
+      : `${unnamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
       — also operated by ${esc(shortName(c))}, but no source we track names ${unnamed.length === 1 ? "it" : "them"}
-      as scanning under the derogation. ${esc(ev.caveat)}</p>` : ""}
+      as scanning under the derogation. ${esc(ev.caveat ?? SERVICE_EVIDENCE.caveat ?? "")}`}</p>` : ""}
     <p class="note">${scansPerVerdict(c)
       ? `The Commission's report, which is what puts ${esc(shortName(c))} in this group at all, names the provider and not the service. That is why the two lines above are separate.`
       : `A status is a claim about a service. Grouping ${esc(shortName(c))} under one verdict would have made the site say something untrue about one of its products, so the exception is stated wherever the status is.`}</p>

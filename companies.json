@@ -421,7 +421,7 @@
    ],
    "chatControl": {
     "status": "confirmed",
-    "note": "Files the derogation's own transparency reports — reports that exist only for providers scanning under Chat Control (COM(2025) 740 names Microsoft among the five filers for both 2023 and 2024); its EU jurisdictional transparency reports cover the same ground. Microsoft co-developed PhotoDNA, the hash-matching technology much of this scanning runs on. Skype, historically the flagship covered service, was retired in 2025.",
+    "note": "Files the derogation's own transparency reports — reports that exist only for providers scanning under Chat Control (COM(2025) 740 names Microsoft among the five filers for both 2023 and 2024); its EU jurisdictional transparency reports cover the same ground. Microsoft co-developed PhotoDNA, the hash-matching technology much of this scanning runs on. Skype, historically the flagship covered service, was retired in 2025; the 2025 reports are filed separately for Outlook, Teams, GroupMe and Skype.",
     "quote": "We use scanning technologies (like hash matching) to help prevent harm to our systems, our users, and others as described in our Code of Conduct, and to help prevent child exploitation.",
     "quoteDoc": "privacy statement",
     "sources": [
@@ -443,9 +443,10 @@
    },
    "services": [
     "Outlook.com",
-    "Xbox messaging",
     "Microsoft Teams",
-    "Skype (retired 2025)"
+    "Skype (retired 2025)",
+    "GroupMe",
+    "Xbox messaging"
    ],
    "alsoOwns": [
     {
@@ -456,9 +457,28 @@
     }
    ],
    "servicesNamed": [
+    "Outlook.com",
+    "Microsoft Teams",
     "Skype (retired 2025)",
-    "Xbox messaging"
-   ]
+    "GroupMe"
+   ],
+   "servicesEvidence": {
+    "slug": "microsoft",
+    "doc": "eu-reports",
+    "source": {
+     "t": "Microsoft jurisdictional transparency reports",
+     "u": "https://www.microsoft.com/en/digitalsafety/transparency-reports/jurisdictional-reports"
+    },
+    "quotes": [
+     "EU CSAM Interim Regulation Report (GroupMe)",
+     "EU CSAM Interim Regulation Report (Outlook)",
+     "EU CSAM Interim Regulation Report (Skype)",
+     "EU CSAM Interim Regulation Report (Teams)"
+    ],
+    "lead": "Microsoft publishes a separate derogation report for each service it scans under. Under its own “EU Regulation 2021/1232” heading, the 2025 reports are filed for these four. This is the provider naming its own services, which is better evidence than anyone else describing them.",
+    "unnamed": "Xbox messaging is also operated by Microsoft, and Breyer’s overview lists Xbox among derogation services — but Microsoft’s own reports do not file for it. Where the provider and a third party disagree, this page shows what the provider files, and says that the other source differs.",
+    "unnamedLabel": "Sources differ"
+   }
   },
   {
    "name": "Apple (iMessage, iCloud)",

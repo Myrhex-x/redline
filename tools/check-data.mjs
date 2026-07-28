@@ -53,6 +53,17 @@ for (const c of companies) {
   }
 }
 
+// A per-company filing must point at a document that company actually tracks.
+for (const c of companies) {
+  const ev = c.servicesEvidence;
+  if (!ev) continue;
+  if (!c.servicesNamed?.length) fail(`"${c.slug}" has servicesEvidence but no servicesNamed`);
+  const owner = [...companies, ...institutions].find((x) => x.slug === ev.slug);
+  if (!owner) fail(`"${c.slug}" servicesEvidence points at unknown slug "${ev.slug}"`);
+  else if (!(owner.docs ?? []).some((d) => d.id === ev.doc)) fail(`"${c.slug}" servicesEvidence points at untracked doc "${ev.slug}/${ev.doc}"`);
+  if (!(ev.quotes?.length || ev.quote)) fail(`"${c.slug}" servicesEvidence has no quote`);
+}
+
 // Doc ids become archive filenames.
 for (const x of [...companies, ...institutions]) {
   const ids = (x.docs ?? []).map((d) => d.id);

@@ -38,6 +38,21 @@ let checked = 0, missing = [];
 // it to say which services a source actually names. If Breyer rewrites that
 // line, every "Named / Not named" split on the site silently loses its
 // footing — so it is held to the same standard as a company's own quote.
+// Per-company service evidence: a provider's own filing naming its own
+// services. Same rule — if the quote is not in the archive, the "Named" list
+// on that page is unsourced.
+for (const c of companies) {
+  const ev = c.servicesEvidence;
+  if (!ev) continue;
+  for (const q of ev.quotes ?? (ev.quote ? [ev.quote] : [])) {
+    checked++;
+    const f = join(ROOT, "archive", ev.slug, `${ev.doc}.txt`);
+    const ok = existsSync(f) && norm(readFileSync(f, "utf8")).includes(norm(q));
+    if (ok) console.log(`ok   ${c.slug} servicesEvidence: "${q.slice(0, 46)}…" in archive/${ev.slug}/${ev.doc}.txt`);
+    else { missing.push(`${c.slug} servicesEvidence`); console.error(`ROT  ${c.slug} servicesEvidence: "${q}" not in archive/${ev.slug}/${ev.doc}.txt`); }
+  }
+}
+
 if (serviceEvidence?.quote) {
   checked++;
   const f = join(ROOT, "archive", serviceEvidence.slug, `${serviceEvidence.doc}.txt`);
