@@ -29,5 +29,10 @@ export function newEvents(history) {
   } catch {
     return [];
   }
-  return history.filter((e) => e.kind !== "baseline" && !previousIds.has(e.id));
+  // Baselines are not news, and a withdrawn record is the opposite of news:
+  // announcing a change we have already established did not happen is how a
+  // correction turns into a second false alarm.
+  return history.filter(
+    (e) => e.kind !== "baseline" && !e.corrected && !previousIds.has(e.id)
+  );
 }
