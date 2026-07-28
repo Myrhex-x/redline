@@ -20,6 +20,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 
 import { execFileSync } from "node:child_process";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { STUB_FLOOR } from "./snapshot.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ARCHIVE = join(ROOT, "archive");
@@ -100,12 +101,21 @@ function main() {
       let old = null;
       try { old = git("show", `HEAD:${path}`); } catch { /* not in HEAD */ }
       // Anything under the stub floor was a shell/block page, not a document.
-      // The floor is 1000 chars by default, but clipped declaration docs
-      // (Play data safety) are legitimately tiny — the most private apps
-      // declare the least — so a doc can set its own `minChars`.
-      const stubFloor = docDef?.minChars ?? 1000;
+      // Clipped declaration docs (Play data safety) are legitimately tiny —
+      // the most private apps declare the least — so a doc can set its own
+      // `minChars`. The floor must match snapshot.mjs exactly.
+      const stubFloor = docDef?.minChars ?? STUB_FLOOR;
       if (old !== null && old.trim().length < stubFloor) {
         console.log(`recapture ${slug}/${doc} (prior snapshot was a ${old.trim().length}-char stub)`);
+        continue;
+      }
+      // The mirror image, and the one that actually bit us: a good capture
+      // replaced by a shell. snapshot.mjs now refuses to write this, but the
+      // guard belongs on both sides — losing a document is never an edit to
+      // it, and it must never reach the front page or the mailing list.
+      const now = readFileSync(join(ROOT, path), "utf8").trim();
+      if (now.length < stubFloor) {
+        console.log(`stub      ${slug}/${doc} (${now.length}-char capture — failed read, not a change)`);
         continue;
       }
     }

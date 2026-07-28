@@ -31,7 +31,15 @@ const BROWSER_UA =
 
 const FETCH_TIMEOUT_MS = 30_000;
 const DELAY_BETWEEN_MS = 1_500; // politeness: sequential, spaced out
-const SHORT_TEXT_CHARS = 500; // below this, likely a JS shell or a block page
+/**
+ * Below this many characters an extract is a JS shell or a block page, not a
+ * document. Shared with history.mjs, which must apply the identical floor:
+ * if the two disagree, a capture can be archived here and then classified
+ * differently there, which is exactly how a fetch failure becomes a published
+ * "change". Docs that are legitimately tiny (clipped Play declarations — the
+ * most private apps declare the least) set their own `minChars`.
+ */
+export const STUB_FLOOR = 1_000;
 
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry");
@@ -135,7 +143,13 @@ export function clipText(text, { from, to }) {
   const lines = text.split("\n");
   const fromRe = new RegExp(from), toRe = new RegExp(to);
   const i = lines.findIndex((l) => fromRe.test(l.trim()));
-  if (i === -1) return text;
+  if (i === -1) {
+    // Same failure as a missing end marker, and it used to pass silently:
+    // the whole page — nav, footer, region-varying chrome — becomes the
+    // document, and churns forever. Both boundaries must fail loudly.
+    console.warn(`  ⚠ clip: start marker /${from}/ not found — keeping full text, expect churn`);
+    return text;
+  }
   const rest = lines.slice(i + 1).findIndex((l) => toRe.test(l.trim()));
   if (rest === -1) {
     // Fail loudly rather than silently keeping the page furniture: an
@@ -203,13 +217,33 @@ async function snapshotDoc(company, doc) {
     extractText(html),
     [...(company.ignore ?? []), ...(doc.ignore ?? [])]
   );
-  if (doc.clip) text = clipText(text, doc.clip);
+  let clipFellThrough = false;
+  if (doc.clip) {
+    const clipped = clipText(text, doc.clip);
+    // Fall-through means the page furniture is now inside the record: it will
+    // churn every day and bury real edits. Surface it next to the summary
+    // rather than leaving one warn() line buried in a 90-document log.
+    clipFellThrough = clipped === text;
+    text = clipped;
+  }
   if (doc.canonical === "lines") text = canonicalLines(text);
   const textHash = sha256(text);
-  const short = text.length < (doc.minChars ?? SHORT_TEXT_CHARS);
+  const floor = doc.minChars ?? STUB_FLOOR;
+  const short = text.length < floor;
 
   if (prev && prev.textHash === textHash) {
-    return { company, doc, state: "UNCHANGED", chars: text.length };
+    return { company, doc, state: "UNCHANGED", chars: text.length, clipFellThrough };
+  }
+
+  // A shell or block page is a failure to read the document, not an edit to
+  // it. Archiving it would destroy a good capture and — because the stored
+  // text really did change — publish "Meta removed its entire Privacy Policy"
+  // to the front page and to every subscriber. Keep what we have and say so.
+  if (short && prev && prev.textChars >= floor) {
+    return {
+      company, doc, state: "STUB",
+      detail: `${text.length} chars < ${floor} — kept prior ${prev.textChars}-char capture`,
+    };
   }
 
   if (!DRY) {
@@ -242,6 +276,7 @@ async function snapshotDoc(company, doc) {
     state: prev ? "CHANGED" : "NEW",
     chars: text.length,
     short,
+    clipFellThrough,
   };
 }
 
@@ -281,12 +316,23 @@ async function main() {
 
   const failed = rows.filter((r) => r.state === "ERROR" || r.state.startsWith("HTTP_"));
   const changed = rows.filter((r) => r.state === "CHANGED" || r.state === "NEW");
+  const stubs = rows.filter((r) => r.state === "STUB");
   console.log("");
   console.log(
     `${rows.length} documents: ${changed.length} new/changed, ` +
-    `${rows.length - changed.length - failed.length} unchanged, ${failed.length} failed` +
+    `${rows.length - changed.length - failed.length - stubs.length} unchanged, ` +
+    `${stubs.length} stubbed, ${failed.length} failed` +
     (DRY ? "  (dry run — nothing written)" : "")
   );
+  // A stub is a silent staleness risk: the prior capture is preserved, so the
+  // archive looks healthy while we have in fact stopped reading the document.
+  // One bad day is noise; a target that stubs every day needs a headless lane.
+  for (const r of stubs) {
+    console.log(`  ⚠ stub: ${r.company.slug}/${r.doc.id} — ${r.detail}`);
+  }
+  for (const r of rows.filter((x) => x.clipFellThrough)) {
+    console.log(`  ⚠ clip fell through: ${r.company.slug}/${r.doc.id} — page furniture is in the record, expect daily churn`);
+  }
 
   // A partially-down internet must not fail the daily run; a mostly-down one should.
   if (failed.length > rows.length / 2) process.exit(1);

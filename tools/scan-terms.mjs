@@ -81,20 +81,30 @@ for (const company of [...companies, ...institutions]) {
     return { group: g, label, pattern: re.source, count, samples: found };
   });
 
-  writeFileSync(
-    join(dir, "terms-search.json"),
+  // No timestamp here, deliberately. This search is a pure function of the
+  // archived text: same documents in, same answer out. Stamping it with the
+  // clock made all 31 files change every single day, so a repo whose entire
+  // premise is "a commit means something changed" published ~30 companies of
+  // fake churn per run and buried the real edits. The result's currency comes
+  // from the documents it names, which carry their own fetch dates.
+  const payload =
     JSON.stringify(
       {
         company: company.name,
-        searchedAt: new Date().toISOString().slice(0, 10),
         documents: texts.map((t) => ({ doc: t.doc, chars: t.text.length })),
         totalChars: texts.reduce((n, t) => n + t.text.length, 0),
         terms: results,
       },
       null,
       1
-    ) + "\n"
-  );
+    ) + "\n";
+
+  const path = join(dir, "terms-search.json");
+  if (existsSync(path) && readFileSync(path, "utf8") === payload) continue;
+  writeFileSync(path, payload);
   wrote++;
 }
-console.log(`term search: ${wrote} companies, ${TERMS.length} terms each`);
+console.log(
+  `term search: ${TERMS.length} terms per company; ` +
+  `${wrote} file${wrote === 1 ? "" : "s"} updated (unchanged results are not rewritten)`
+);

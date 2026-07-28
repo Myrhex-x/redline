@@ -41,7 +41,8 @@
   "docTitle": "Privacy Policy",
   "kind": "change",
   "added": 0,
-  "removed": 599
+  "removed": 599,
+  "corrected": "Recorded in error. The fetch on 27 Jul 2026 returned an empty page — a failed read, not an edit by Meta. The Privacy Policy was unchanged, and the archive recaptured it in full the next day. This entry is kept, and the empty capture with it, because deleting a mistake is not the same as correcting one. The snapshot and history tools now refuse to record a failed read as a change."
  },
  {
   "id": "2026-07-27-tiktok-guidelines",

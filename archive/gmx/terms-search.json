@@ -1,6 +1,5 @@
 {
  "company": "GMX (1&1 Mail)",
- "searchedAt": "2026-07-28",
  "documents": [
   {
    "doc": "play-safety",
@@ -16,14 +15,14 @@
   },
   {
    "doc": "security",
-   "chars": 5253
+   "chars": 4502
   },
   {
    "doc": "terms",
    "chars": 10534
   }
  ],
- "totalChars": 126830,
+ "totalChars": 126079,
  "terms": [
   {
    "group": "eu",

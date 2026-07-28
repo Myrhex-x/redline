@@ -6,7 +6,7 @@
   "httpStatus": 200,
   "fetchedAt": "2026-07-27T10:15:44.345Z",
   "renderer": "headless-chromium",
-  "textHash": "eb59f97b933bbeb149a642de8e2c3d403ba8871af0b58943f7b8a193317970ed",
-  "textChars": 28995,
+  "textHash": "6a01dc22252b9bd326005d280253f14d9a4562390e72c082cb3eaf9a248f65bd",
+  "textChars": 28823,
   "htmlBytes": 121398
 }

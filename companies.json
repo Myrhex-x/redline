@@ -585,7 +585,7 @@
      "render": "headless",
      "clip": {
       "from": "^Community Guidelines$",
-      "to": "^TikTok for Developers$"
+      "to": "^Was it helpful\\?$"
      }
     },
     {
@@ -984,7 +984,7 @@
      "render": "headless",
      "clip": {
       "from": "^Twitch Privacy Notice$|^Privacy Notice$",
-      "to": "^Developers$"
+      "to": "^Legal$"
      }
     },
     {
@@ -1448,7 +1448,11 @@
     {
      "id": "security",
      "title": "E-Mail Sicherheit",
-     "url": "https://www.gmx.net/mail/sicherheit/"
+     "url": "https://www.gmx.net/mail/sicherheit/",
+     "clip": {
+      "from": "^GMX Sicherheit$",
+      "to": "^Aktuelles rund um Sicherheit$"
+     }
     }
    ],
    "chatControl": {

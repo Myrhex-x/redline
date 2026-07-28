@@ -66,6 +66,12 @@ for (const e of history) {
   changesBySlug.get(e.slug).push(e);
 }
 const realChanges = history.filter((e) => e.kind !== "baseline");
+/**
+ * A withdrawn record still gets its page — the correction has to live
+ * somewhere citable — but it is not a change, so it must never be counted
+ * as one, headline a company row, or be syndicated as an edit.
+ */
+const countsAsChange = (e) => e.kind !== "baseline" && !e.corrected;
 const docCount = [...archive.values()].reduce((n, a) => n + a.docs.size, 0);
 const labelCount = [...archive.values()].filter((a) => a.label).length;
 const lastFetch = [...archive.values()]
@@ -643,6 +649,12 @@ p.lede { max-width:58ch; }
 .svc-id { font-size:.88rem; color:var(--dim); margin-top:.3rem; }
 .siblings { border-left:2px solid var(--line); padding-left:.9rem; margin:.9rem 0 0; }
 .svcnote { margin-top:-.6rem; margin-bottom:1.2rem; font-size:.86rem; }
+/* A withdrawn record. Amber, not red: this is our error, not a company's. */
+.correction { border-left:3px solid var(--warn-fg); background:var(--warn-bg); color:var(--warn-fg);
+  padding:.9rem 1.1rem; margin:1rem 0 1.2rem; font-size:.92rem; line-height:1.55; border-radius:4px; }
+.correction strong { color:var(--warn-fg); }
+.corrected-row { opacity:.62; }
+.corrected-row .delta { text-decoration:line-through; }
 .termtable td:nth-child(3) { font-size:.85rem; line-height:1.5; }
 .termtable td:nth-child(2) { text-align:right; padding-right:1.4rem; }
 .termtable th:nth-child(2) { text-align:right; padding-right:1.4rem; }
@@ -774,10 +786,10 @@ function feedRow(e) {
       ? `first recording`
       : `<span class="delta mono"><span class="a">+${e.added}</span> <span class="r">−${e.removed}</span></span>`;
   const target = e.kind === "baseline" ? `/company/${e.slug}/` : `/change/${e.id}/`;
-  return `<li>
+  return `<li${e.corrected ? ' class="corrected-row"' : ""}>
     <span class="date mono dim">${fmtDate(e.date)}</span>
     <span><a href="${target}"><strong>${esc(e.company)}</strong></a> — ${esc(e.docTitle)}</span>
-    <span class="pill">${e.kind === "label-change" ? "App Store label" : e.kind === "baseline" ? "baseline" : "document"}</span>
+    <span class="pill">${e.corrected ? "withdrawn" : e.kind === "label-change" ? "App Store label" : e.kind === "baseline" ? "baseline" : "document"}</span>
     <span class="ml-auto">${what}</span>
   </li>`;
 }
@@ -799,11 +811,12 @@ function termSearch(a, c) {
     .join("");
   return `
   <h2>What we searched for</h2>
-  <p class="note">A status that rests on absence is only as good as the search behind it. On
-  ${fmtDate(t.searchedAt)} every one of ${esc(c.name)}'s ${t.documents.length} archived
+  <p class="note">A status that rests on absence is only as good as the search behind it. Every one of
+  ${esc(c.name)}'s ${t.documents.length} archived
   document${t.documents.length === 1 ? "" : "s"} (${t.totalChars.toLocaleString("en-US")} characters)
   was searched for the same published vocabulary used on every company here — in English, German and
-  French. Re-run it against this archive yourself with
+  French. The search is a plain function of the archived text and re-runs whenever that text changes,
+  so it always describes the documents listed above. Re-run it against this archive yourself with
   <a href="${REPO}/blob/main/tools/scan-terms.mjs">tools/scan-terms.mjs</a>.</p>
   ${found.length ? `<div class="scroll"><table class="termtable">
     <thead><tr><th>Term</th><th>Hits</th><th>In context</th></tr></thead>
@@ -816,7 +829,7 @@ function termSearch(a, c) {
 
 function companyRow(c) {
   const a = archive.get(c.slug) ?? { docs: new Map(), label: null };
-  const evts = (changesBySlug.get(c.slug) ?? []).filter((e) => e.kind !== "baseline");
+  const evts = (changesBySlug.get(c.slug) ?? []).filter(countsAsChange);
   const last = evts[0];
   const status = last
     ? `<a href="/change/${last.id}/">changed ${fmtDate(last.date)}</a>`
@@ -1072,7 +1085,7 @@ for (const c of [...companies, ...institutions]) {
   const inst = !!c.institution;
   const a = archive.get(c.slug) ?? { docs: new Map(), label: null, labelMeta: null };
   const evts = changesBySlug.get(c.slug) ?? [];
-  const real = evts.filter((e) => e.kind !== "baseline");
+  const real = evts.filter(countsAsChange);
   const cc = c.chatControl ?? { status: "unclear", note: "", sources: [] };
   const st = inst
     ? { label: "Institutional source", cls: "st-inst", verdict: "The law's own paper trail" }
@@ -1186,23 +1199,26 @@ for (const e of realChanges) {
     : "";
   const body = `
   <p class="crumbs"><a href="/company/${e.slug}/">${esc(e.company)}</a> / ${esc(e.docTitle)}</p>
-  <h1>${esc(e.company)} changed its ${esc(e.docTitle)}</h1>
+  <h1>${e.corrected ? `Withdrawn: ${esc(e.company)} did not change its ${esc(e.docTitle)}` : `${esc(e.company)} changed its ${esc(e.docTitle)}`}</h1>
+  ${e.corrected ? `<div class="correction"><strong>This record was withdrawn.</strong> ${esc(e.corrected)}</div>` : ""}
   <p class="lede">Recorded ${fmtDate(e.date)} —
     <span class="delta mono"><span class="a">+${e.added}</span> lines added, <span class="r">−${e.removed}</span> removed</span>.
-    This page shows the exact difference between the previous snapshot and the new one.</p>
+    ${e.corrected ? "The difference below is what the faulty capture produced. It is kept as evidence of the error, and is not an edit by the company." : "This page shows the exact difference between the previous snapshot and the new one."}</p>
   <div class="diff">${diffHtml}</div>
   ${detail.truncated ? `<p class="note">This diff is large and was truncated for display; the complete change is preserved in the <a href="${REPO}/commits/main">repository history</a>.</p>` : ""}
   <p class="note">Removed lines are how the document read before; added lines are how it reads now.
   Verify independently: the snapshot files and their history are in the <a href="${REPO}">public repository</a>.</p>
   ${wayback}
   <h2>Cite this record</h2>
-  <div class="cite mono fs-85">ScanRecords. “${esc(e.company)} changed its ${esc(e.docTitle)}.” Recorded ${fmtDate(e.date)}. ${SITE}/change/${e.id}/${hash ? ` — snapshot SHA-256 (after): ${hash}.` : "."}</div>`;
+  <div class="cite mono fs-85">ScanRecords. “${e.corrected ? `Withdrawn record: ${esc(e.company)} did not change its ${esc(e.docTitle)}` : `${esc(e.company)} changed its ${esc(e.docTitle)}`}.” Recorded ${fmtDate(e.date)}. ${SITE}/change/${e.id}/${hash ? ` — snapshot SHA-256 (after): ${hash}.` : "."}</div>`;
   mkdirSync(join(OUT, "change", e.id), { recursive: true });
   writeFileSync(
     join(OUT, "change", e.id, "index.html"),
     page({
       title: `${e.company} — ${e.docTitle} changed ${fmtDate(e.date)} — ScanRecords`,
-      desc: `${e.company} changed its ${e.docTitle} on ${fmtDate(e.date)}: +${e.added} lines, −${e.removed} lines. Full before/after recorded.`,
+      desc: e.corrected
+        ? `Withdrawn record: ${e.company} did not change its ${e.docTitle} on ${fmtDate(e.date)}. The capture failed; the correction is on the page.`
+        : `${e.company} changed its ${e.docTitle} on ${fmtDate(e.date)}: +${e.added} lines, −${e.removed} lines. Full before/after recorded.`,
       path: `/change/${e.id}/`, active: "home", body,
     })
   );
@@ -2018,7 +2034,7 @@ SITEMAP.pop(); // 404 is not a sitemap entry
 {
   const items = realChanges.slice(0, 50).map(
     (e) => `<item>
-  <title>${esc(`${e.company} changed its ${e.docTitle}`)}</title>
+  <title>${esc(e.corrected ? `Withdrawn: ${e.company} did not change its ${e.docTitle}` : `${e.company} changed its ${e.docTitle}`)}</title>
   <link>${SITE}/change/${e.id}/</link>
   <guid isPermaLink="true">${SITE}/change/${e.id}/</guid>
   <pubDate>${new Date(e.date + "T06:30:00Z").toUTCString()}</pubDate>
@@ -2062,7 +2078,7 @@ ${items.join("\n")}
     const evts = (changesBySlug.get(c.slug) ?? []).filter((e) => e.kind !== "baseline");
     const items = evts.slice(0, 50).map(
       (e) => `<item>
-  <title>${esc(`${e.company} changed its ${e.docTitle}`)}</title>
+  <title>${esc(e.corrected ? `Withdrawn: ${e.company} did not change its ${e.docTitle}` : `${e.company} changed its ${e.docTitle}`)}</title>
   <link>${SITE}/change/${e.id}/</link>
   <guid isPermaLink="true">${SITE}/change/${e.id}/</guid>
   <pubDate>${new Date(e.date + "T06:30:00Z").toUTCString()}</pubDate>
