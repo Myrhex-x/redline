@@ -33,12 +33,16 @@ export default async function handler(req, res) {
       `More people subscribed today than the mail quota allows — a good problem, but a real one. Use <a href="/alerts/">push alerts</a> or <a href="/feed.xml">RSS</a> now, or come back tomorrow; nothing about the record itself is affected.`);
 
   const existing = await sql`SELECT confirmed, created, token FROM email_subs WHERE email = ${email}`;
-  if (existing.length && existing[0].confirmed)
-    return page(res, 200, "Already subscribed.", "This address already receives alerts. Every alert email has a one-click unsubscribe.");
+  // Every per-address outcome answers identically. Saying "already subscribed"
+  // to one address and "on its way" to another turns this endpoint into a
+  // lookup for whether a given person subscribes to a Chat Control watchdog —
+  // which is precisely the kind of metadata the readers of this site have
+  // reason to care about. The behaviour still differs; only the answer does not.
+  if (existing.length && existing[0].confirmed) return sent(res);
   // Throttle: one confirmation mail per address per 24 h — this endpoint must
   // not be usable to bombard someone else's inbox.
   if (existing.length && Date.now() - new Date(existing[0].created).getTime() < 86_400_000)
-    return page(res, 200, "Check your inbox.", "A confirmation link was already sent to this address recently. It's valid — look in spam too.");
+    return sent(res);
 
   const token = randomBytes(24).toString("hex");
   await sql`INSERT INTO email_subs (email, token, confirmed, created) VALUES (${email}, ${token}, false, now())
@@ -96,8 +100,19 @@ export default async function handler(req, res) {
   });
   if (!r.ok) return page(res, 502, "Couldn't send the confirmation email.", "Please try again in a minute.");
 
+  return sent(res);
+}
+
+/**
+ * The single answer given for any valid address, whether it is new, pending
+ * or already subscribed. Worded so it is honest in all three cases rather
+ * than merely vague.
+ */
+function sent(res) {
   return page(res, 200, "Check your inbox.",
-    "One confirmation link is on its way. Click it and you're in — after that, you'll only ever hear from us when a tracked document actually changes.");
+    "If that address isn't already receiving alerts, a confirmation link is on its way — click it and you're in. " +
+    "Look in spam too. After that you'll only ever hear from us when a tracked document actually changes, " +
+    "and every alert carries a one-click unsubscribe.");
 }
 
 // The form posts without JavaScript, so the response is a tiny real page.
