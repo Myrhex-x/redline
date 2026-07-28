@@ -44,12 +44,17 @@ let checked = 0, missing = [];
 for (const c of companies) {
   const ev = c.servicesEvidence;
   if (!ev) continue;
-  for (const q of ev.quotes ?? (ev.quote ? [ev.quote] : [])) {
+  for (const entry of ev.quotes ?? (ev.quote ? [ev.quote] : [])) {
+    // A quote may carry its own document: Apple's case rests on two separate
+    // first-party pages, and pinning each to the wrong one would "verify" it
+    // against a file that never contained it.
+    const q = typeof entry === "string" ? entry : entry.q;
+    const doc = typeof entry === "string" ? ev.doc : (entry.doc ?? ev.doc);
     checked++;
-    const f = join(ROOT, "archive", ev.slug, `${ev.doc}.txt`);
+    const f = join(ROOT, "archive", ev.slug, `${doc}.txt`);
     const ok = existsSync(f) && norm(readFileSync(f, "utf8")).includes(norm(q));
-    if (ok) console.log(`ok   ${c.slug} servicesEvidence: "${q.slice(0, 46)}…" in archive/${ev.slug}/${ev.doc}.txt`);
-    else { missing.push(`${c.slug} servicesEvidence`); console.error(`ROT  ${c.slug} servicesEvidence: "${q}" not in archive/${ev.slug}/${ev.doc}.txt`); }
+    if (ok) console.log(`ok   ${c.slug} servicesEvidence: "${q.slice(0, 46)}…" in archive/${ev.slug}/${doc}.txt`);
+    else { missing.push(`${c.slug} servicesEvidence`); console.error(`ROT  ${c.slug} servicesEvidence: "${q}" not in archive/${ev.slug}/${doc}.txt`); }
   }
 }
 

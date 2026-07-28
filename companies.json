@@ -275,6 +275,13 @@
      },
      "minChars": 300,
      "canonical": "lines"
+    },
+    {
+     "id": "derogation-report",
+     "title": "EU CSAM derogation report (Regulation (EU) 2021/1232)",
+     "url": "https://transparency.meta.com/sr/eu-csam-derogation-report-2025/",
+     "type": "pdf",
+     "minChars": 2000
     }
    ],
    "chatControl": {
@@ -298,22 +305,36 @@
     ]
    },
    "services": [
-    "Facebook Messenger",
-    "Instagram DMs",
+    "Messenger",
+    "Instagram Direct",
     "Facebook"
    ],
    "alsoOwns": [
     {
      "name": "WhatsApp",
      "slug": "whatsapp",
-     "why": "end-to-end encrypted, so it is out of scope for this list",
+     "why": "end-to-end encrypted, and Meta’s own filing says the scanning runs only on surfaces that are not end-to-end encrypted",
      "link": "WhatsApp's record"
     }
    ],
    "servicesNamed": [
-    "Facebook Messenger",
-    "Instagram DMs"
-   ]
+    "Messenger",
+    "Instagram Direct"
+   ],
+   "servicesEvidence": {
+    "slug": "meta",
+    "doc": "derogation-report",
+    "source": {
+     "t": "Meta EU CSAM derogation report",
+     "u": "https://transparency.meta.com/sr/eu-csam-derogation-report-2025/"
+    },
+    "quotes": [
+     "We run our media matching technology on images and video (media) across Messenger and Instagram Direct on surfaces that are not end-to-end encrypted."
+    ],
+    "lead": "Meta’s own filing under the derogation names the services and adds a limit of its own: the scanning runs on surfaces that are not end-to-end encrypted. The service names below are Meta’s wording, not ours.",
+    "unnamed": "Facebook itself is also operated by Meta. The filing does not name it, and no other source we track names it as scanning under the derogation.",
+    "unnamedLabel": "Not named"
+   }
   },
   {
    "name": "Google (Gmail)",
@@ -348,6 +369,12 @@
      },
      "minChars": 300,
      "canonical": "lines"
+    },
+    {
+     "id": "derogation-report",
+     "title": "Transparency report under Regulation (EU) 2021/1232",
+     "url": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2025-1-1_2025-12-31_en_v1.pdf",
+     "type": "pdf"
     }
    ],
    "chatControl": {
@@ -378,8 +405,24 @@
     "Google Photos"
    ],
    "servicesNamed": [
-    "Gmail"
-   ]
+    "Gmail",
+    "Google Chat"
+   ],
+   "servicesEvidence": {
+    "slug": "google",
+    "doc": "derogation-report",
+    "source": {
+     "t": "Google Ireland transparency report under Regulation (EU) 2021/1232",
+     "u": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2025-1-1_2025-12-31_en_v1.pdf"
+    },
+    "quotes": [
+     "The numbers below cover the consumer version of Google Chat and Gmail for the relevant time period for EU users.",
+     "Specific number-independent interpersonal communications service concerned Gmail Google Chat"
+    ],
+    "lead": "The derogation requires filers to name, on a standard form, the “specific number-independent interpersonal communications service concerned”. Google’s own report answers with two services. This is the provider’s filing to the Commission, not a third party’s description of it.",
+    "unnamed": "Google Photos is also operated by Google and is not a messaging service, so it falls outside the kind of service this derogation covers. No source we track names it. Breyer’s overview names only Gmail, which the filing itself now supersedes.",
+    "unnamedLabel": "Not named"
+   }
   },
   {
    "name": "Microsoft (Outlook, Teams)",
@@ -534,7 +577,28 @@
    ],
    "servicesNamed": [
     "iCloud Mail"
-   ]
+   ],
+   "servicesEvidence": {
+    "slug": "apple",
+    "doc": "privacy",
+    "source": {
+     "t": "Apple’s own Privacy Policy and iCloud security overview",
+     "u": "https://www.apple.com/legal/privacy/en-ww/"
+    },
+    "quotes": [
+     {
+      "q": "prescreening or scanning uploaded content for potentially illegal content, including child sexual exploitation material",
+      "doc": "privacy"
+     },
+     {
+      "q": "iCloud Mail does not use end-to-end encryption because of the need to interoperate with the global email system",
+      "doc": "icloud-security"
+     }
+    ],
+    "lead": "Apple is not one of the five providers that file the derogation’s reports, so unlike Google, Meta and Microsoft there is no filing here naming a service. What Apple does say in its own documents is that it prescreens uploaded content for child sexual exploitation material, and that iCloud Mail is not end-to-end encrypted. Breyer’s overview separately lists iCloud Mail among derogation services. The exception is drawn from those together, and that is a weaker chain than a filing — stated here so you can judge it rather than take it.",
+    "unnamed": "iMessage and FaceTime are end-to-end encrypted, which Apple documents and which puts them outside the scope of this derogation entirely.",
+    "unnamedLabel": "Covered by the status"
+   }
   },
   {
    "name": "Snapchat",

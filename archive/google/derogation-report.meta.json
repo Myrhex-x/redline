@@ -1,0 +1,12 @@
+{
+  "company": "Google (Gmail)",
+  "title": "Transparency report under Regulation (EU) 2021/1232",
+  "url": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2025-1-1_2025-12-31_en_v1.pdf",
+  "finalUrl": "https://storage.googleapis.com/transparencyreport/report-downloads/pdf-report-23_2025-1-1_2025-12-31_en_v1.pdf",
+  "httpStatus": 200,
+  "fetchedAt": "2026-07-28T16:35:41.391Z",
+  "format": "pdf",
+  "textHash": "482230f522c6377c9af8141291aad7470a411ef84257ef9f0815de3abd118123",
+  "textChars": 45515,
+  "pdfBytes": 399445
+}

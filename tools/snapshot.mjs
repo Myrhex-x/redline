@@ -20,6 +20,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { pdfText } from "./pdf.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ARCHIVE = join(ROOT, "archive");
@@ -96,6 +97,24 @@ function safeFromCode(code) {
   } catch {
     return " ";
   }
+}
+
+/**
+ * PDFs are fetched directly, not through the EU relay.
+ *
+ * The relay hands back `res.text()`, which mangles binary. These documents are
+ * static files on a CDN rather than the region-varying HTML the relay exists
+ * for — a filing published under an EU regulation does not have a US edition —
+ * so reading them from the runner is safe in a way that a policy page is not.
+ */
+async function fetchPdf(url, ua) {
+  const res = await fetch(url, {
+    redirect: "follow",
+    signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    headers: { "user-agent": ua, accept: "application/pdf" },
+  });
+  const bytes = Buffer.from(await res.arrayBuffer());
+  return { status: res.status, finalUrl: res.url, bytes };
 }
 
 async function fetchDoc(url, ua) {
@@ -193,6 +212,46 @@ export function filterNoise(text, patterns) {
     .join("\n");
 }
 
+/** Same contract as snapshotDoc, but the source of truth is a PDF. */
+async function snapshotPdf(company, doc, dir, metaPath, prev, ua) {
+  let res;
+  try {
+    res = await fetchPdf(doc.url, ua);
+  } catch (e) {
+    return { company, doc, state: "ERROR", detail: e.name === "TimeoutError" ? "timeout" : String(e.cause?.code ?? e.message) };
+  }
+  if (res.status >= 400) return { company, doc, state: "HTTP_" + res.status, detail: res.finalUrl };
+
+  let text;
+  try {
+    text = filterNoise(pdfText(res.bytes), [...(company.ignore ?? []), ...(doc.ignore ?? [])]);
+  } catch (e) {
+    return { company, doc, state: "ERROR", detail: `pdf parse: ${String(e.message).slice(0, 60)}` };
+  }
+  if (doc.clip) text = clipText(text, doc.clip);
+
+  const textHash = sha256(text);
+  const floor = doc.minChars ?? STUB_FLOOR;
+  if (prev && prev.textHash === textHash) return { company, doc, state: "UNCHANGED", chars: text.length };
+  // A PDF that suddenly yields almost nothing means the producer changed, not
+  // that the filing was emptied. Same rule as a shell page: keep what we have.
+  if (text.length < floor && prev && prev.textChars >= floor) {
+    return { company, doc, state: "STUB", detail: `${text.length} chars < ${floor} — kept prior ${prev.textChars}-char capture` };
+  }
+
+  if (!DRY) {
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(join(dir, `${doc.id}.pdf`), res.bytes);
+    writeFileSync(join(dir, `${doc.id}.txt`), text + "\n");
+    writeFileSync(metaPath, JSON.stringify({
+      company: company.name, title: doc.title, url: doc.url, finalUrl: res.finalUrl,
+      httpStatus: res.status, fetchedAt: new Date().toISOString(), format: "pdf",
+      textHash, textChars: text.length, pdfBytes: res.bytes.length,
+    }, null, 2) + "\n");
+  }
+  return { company, doc, state: prev ? "CHANGED" : "NEW", chars: text.length };
+}
+
 async function snapshotDoc(company, doc) {
   const dir = join(ARCHIVE, company.slug);
   const metaPath = join(dir, `${doc.id}.meta.json`);
@@ -201,6 +260,9 @@ async function snapshotDoc(company, doc) {
     : null;
 
   const ua = company.ua === "browser" ? BROWSER_UA : BOT_UA;
+
+  if (doc.type === "pdf") return snapshotPdf(company, doc, dir, metaPath, prev, ua);
+
   let result;
   try {
     result = await fetchDoc(doc.url, ua);

@@ -847,7 +847,11 @@ function serviceEvidenceBlock(c) {
     <p><span class="evlbl evlbl-named">Named</span> ${c.servicesNamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
       — ${ev.source ? `named in <a href="${esc(ev.source.u)}">${esc(ev.source.t)}</a>, archived
       <a href="/archive/${ev.slug}/${ev.doc}.txt">here</a>` : "named in a tracked source"}:
-      ${quotes.map((q) => `<q>${esc(q)}</q>`).join(" ")}</p>
+      ${quotes.map((entry) => {
+        const q = typeof entry === "string" ? entry : entry.q;
+        const d = typeof entry === "string" ? ev.doc : (entry.doc ?? ev.doc);
+        return `<q><a class="plain" href="/archive/${ev.slug}/${d}.txt">${esc(q)}</a></q>`;
+      }).join(" ")}</p>
     ${unnamed.length ? `<p><span class="evlbl">${ev.unnamedLabel ?? (scansPerVerdict(c) ? "Not named" : "Covered by the status")}</span> ${ev.unnamed
       ? esc(ev.unnamed)
       : `${unnamed.map((s) => `<strong>${esc(s)}</strong>`).join(", ")}
@@ -1217,7 +1221,7 @@ for (const c of [...companies, ...institutions]) {
         <td class="mono dim">${m.fetchedAt ? fmtDate(m.fetchedAt) : "—"}</td>
         <td class="mono dim">${m.textChars ? m.textChars.toLocaleString("en-US") + " chars" : "—"}</td>
         <td class="mono faint" title="SHA-256 of extracted text">${m.textHash ? m.textHash.slice(0, 12) : "—"}</td>
-        <td><a class="dim" href="/archive/${c.slug}/${d.id}.txt">text</a> · <a class="dim" href="/archive/${c.slug}/${d.id}.html" title="Original page bytes, kept as evidence — renders without its styling here">raw</a> · <a class="dim" href="https://web.archive.org/web/*/${esc(d.url)}" title="Every Internet Archive capture of this URL — including from before this record began">wayback</a></td>
+        <td><a class="dim" href="/archive/${c.slug}/${d.id}.txt">text</a> · <a class="dim" href="/archive/${c.slug}/${d.id}.${d.type === "pdf" ? "pdf" : "html"}" title="${d.type === "pdf" ? "The filing as published, kept as evidence" : "Original page bytes, kept as evidence — renders without its styling here"}">raw</a> · <a class="dim" href="https://web.archive.org/web/*/${esc(d.url)}" title="Every Internet Archive capture of this URL — including from before this record began">wayback</a></td>
       </tr>`;
     })
     .join("");

@@ -29,6 +29,7 @@ import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { extractText, filterNoise, clipText, canonicalLines } from "./snapshot.mjs";
+import { pdfText } from "./pdf.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ARCHIVE = join(ROOT, "archive");
@@ -54,18 +55,19 @@ let changed = 0, same = 0, skipped = 0;
 for (const company of targets) {
   for (const doc of company.docs) {
     const dir = join(ARCHIVE, company.slug);
-    const htmlPath = join(dir, `${doc.id}.html`);
+    // The archived original: page bytes for HTML, the filing itself for PDFs.
+    const isPdf = doc.type === "pdf";
+    const srcPath = join(dir, `${doc.id}.${isPdf ? "pdf" : "html"}`);
     const txtPath = join(dir, `${doc.id}.txt`);
     const metaPath = join(dir, `${doc.id}.meta.json`);
-    if (!existsSync(htmlPath) || !existsSync(txtPath)) { skipped++; continue; }
+    if (!existsSync(srcPath) || !existsSync(txtPath)) { skipped++; continue; }
 
-    const html = readFileSync(htmlPath, "utf8");
     let text = filterNoise(
-      extractText(html),
+      isPdf ? pdfText(readFileSync(srcPath)) : extractText(readFileSync(srcPath, "utf8")),
       [...(company.ignore ?? []), ...(doc.ignore ?? [])]
     );
     if (doc.clip) text = clipText(text, doc.clip);
-    if (doc.canonical === "lines") text = canonicalLines(text);
+    if (!isPdf && doc.canonical === "lines") text = canonicalLines(text);
 
     const before = readFileSync(txtPath, "utf8");
     const after = text + "\n";

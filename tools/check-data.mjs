@@ -62,6 +62,11 @@ for (const c of companies) {
   if (!owner) fail(`"${c.slug}" servicesEvidence points at unknown slug "${ev.slug}"`);
   else if (!(owner.docs ?? []).some((d) => d.id === ev.doc)) fail(`"${c.slug}" servicesEvidence points at untracked doc "${ev.slug}/${ev.doc}"`);
   if (!(ev.quotes?.length || ev.quote)) fail(`"${c.slug}" servicesEvidence has no quote`);
+  for (const entry of ev.quotes ?? []) {
+    const doc = typeof entry === "string" ? ev.doc : (entry.doc ?? ev.doc);
+    if (owner && !(owner.docs ?? []).some((d) => d.id === doc))
+      fail(`"${c.slug}" servicesEvidence quote points at untracked doc "${ev.slug}/${doc}"`);
+  }
 }
 
 // Doc ids become archive filenames.
