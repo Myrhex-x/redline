@@ -62,7 +62,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Discord DMs",
+    "Discord servers"
+   ]
   },
   {
    "name": "Telegram",
@@ -133,7 +137,11 @@
     ],
     "quote": "public images are automatically checked against a hash database of CSAM banned by our moderators over the past decade",
     "quoteDoc": "safety page"
-   }
+   },
+   "services": [
+    "Telegram cloud chats",
+    "Secret Chats (E2EE)"
+   ]
   },
   {
    "name": "Signal",
@@ -175,7 +183,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Signal"
+   ]
   },
   {
    "name": "WhatsApp",
@@ -222,7 +233,19 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "WhatsApp"
+   ],
+   "parent": "Meta",
+   "alsoOwns": [
+    {
+     "name": "Messenger and Instagram DMs",
+     "slug": "meta",
+     "why": "same owner, not end-to-end encrypted, and scanning under Chat Control",
+     "link": "Meta's record"
+    }
+   ]
   },
   {
    "name": "Meta (Facebook, Instagram, Messenger)",
@@ -273,7 +296,20 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Facebook Messenger",
+    "Instagram DMs",
+    "Facebook"
+   ],
+   "alsoOwns": [
+    {
+     "name": "WhatsApp",
+     "slug": "whatsapp",
+     "why": "end-to-end encrypted, so it is out of scope for this list",
+     "link": "WhatsApp's record"
+    }
+   ]
   },
   {
    "name": "Google (Gmail)",
@@ -331,7 +367,13 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Gmail",
+    "Google Chat",
+    "Google Photos"
+   ],
+   "servicesNote": "The Commission's report names the provider, not the service. Breyer's tracking names Gmail specifically."
   },
   {
    "name": "Microsoft (Outlook, Teams)",
@@ -392,7 +434,22 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Outlook.com",
+    "Xbox messaging",
+    "Microsoft Teams",
+    "Skype (retired 2025)"
+   ],
+   "alsoOwns": [
+    {
+     "name": "LinkedIn",
+     "slug": "linkedin",
+     "why": "also a Microsoft company, and files its own derogation report",
+     "link": "LinkedIn's record"
+    }
+   ],
+   "servicesNote": "The Commission's report names the provider, not the service. Breyer's tracking names Skype and Xbox specifically; Skype was retired in 2025."
   },
   {
    "name": "Apple (iMessage, iCloud)",
@@ -440,7 +497,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "iMessage",
+    "FaceTime"
+   ]
   },
   {
    "name": "Snapchat",
@@ -495,7 +556,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Snapchat"
+   ],
+   "parent": "Snap Inc."
   },
   {
    "name": "TikTok",
@@ -550,7 +615,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "TikTok direct messages"
+   ],
+   "parent": "ByteDance"
   },
   {
    "name": "X",
@@ -592,7 +661,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "X direct messages"
+   ]
   },
   {
    "name": "Reddit",
@@ -629,7 +701,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Reddit chat and DMs"
+   ]
   },
   {
    "name": "Proton",
@@ -681,7 +756,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Proton Mail"
+   ]
   },
   {
    "name": "Threema",
@@ -728,7 +806,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Threema"
+   ]
   },
   {
    "name": "Viber",
@@ -775,7 +856,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Rakuten Viber"
+   ],
+   "parent": "Rakuten"
   },
   {
    "name": "Slack",
@@ -831,7 +916,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Slack DMs and channels"
+   ],
+   "parent": "Salesforce"
   },
   {
    "name": "Zoom",
@@ -873,7 +962,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Zoom Meetings",
+    "Zoom Team Chat"
+   ]
   },
   {
    "name": "Twitch",
@@ -921,7 +1014,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Twitch chat and Whispers"
+   ],
+   "parent": "Amazon"
   },
   {
    "name": "LinkedIn",
@@ -968,7 +1065,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "LinkedIn messaging"
+   ],
+   "parent": "Microsoft"
   },
   {
    "name": "Pinterest",
@@ -1015,7 +1116,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Pinterest messages"
+   ]
   },
   {
    "name": "Steam",
@@ -1062,7 +1166,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Steam Chat"
+   ],
+   "parent": "Valve"
   },
   {
    "name": "PlayStation (Sony)",
@@ -1104,7 +1212,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "PlayStation Network messages"
+   ],
+   "parent": "Sony Interactive Entertainment"
   },
   {
    "name": "Olvid",
@@ -1147,7 +1259,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Olvid"
+   ]
   },
   {
    "name": "Wire",
@@ -1190,7 +1305,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Wire"
+   ]
   },
   {
    "name": "Element (Matrix)",
@@ -1232,7 +1350,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Element (Matrix)"
+   ]
   },
   {
    "name": "Tuta (Tutanota)",
@@ -1288,7 +1409,11 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Tuta Mail",
+    "Tuta Calendar"
+   ]
   },
   {
    "name": "GMX (1&1 Mail)",
@@ -1347,7 +1472,11 @@
     ],
     "quote": "auf Viren, Malware und Ähnliches gescannt",
     "quoteDoc": "German privacy notice"
-   }
+   },
+   "services": [
+    "GMX Mail"
+   ],
+   "parent": "United Internet (1&1)"
   },
   {
    "name": "Yahoo Mail",
@@ -1389,7 +1518,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Yahoo Mail"
+   ]
   },
   {
    "name": "Roblox",
@@ -1426,7 +1558,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Roblox chat"
+   ]
   },
   {
    "name": "Yubo",
@@ -1459,7 +1594,10 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Yubo"
+   ]
   },
   {
    "name": "Epic Games (Fortnite)",
@@ -1480,7 +1618,12 @@
       "since": "2026-07-26"
      }
     ]
-   }
+   },
+   "services": [
+    "Fortnite chat",
+    "Epic Games friends chat"
+   ],
+   "parent": "Epic Games"
   }
  ],
  "blocked": [

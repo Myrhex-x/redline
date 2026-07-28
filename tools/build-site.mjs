@@ -638,6 +638,11 @@ p.lede { max-width:58ch; }
   .feed .date, .notes-list .date { flex-basis:100%; }
 }
 
+.svc { display:block; font-size:.75rem; line-height:1.35; color:var(--faint); margin-top:.2rem; }
+.card .svc { margin-top:.28rem; }
+.svc-id { font-size:.88rem; color:var(--dim); margin-top:.3rem; }
+.siblings { border-left:2px solid var(--line); padding-left:.9rem; margin:.9rem 0 0; }
+.svcnote { margin-top:-.6rem; margin-bottom:1.2rem; font-size:.86rem; }
 .termtable td:nth-child(3) { font-size:.85rem; line-height:1.5; }
 .termtable td:nth-child(2) { text-align:right; padding-right:1.4rem; }
 .termtable th:nth-child(2) { text-align:right; padding-right:1.4rem; }
@@ -817,7 +822,7 @@ function companyRow(c) {
     ? `<a href="/change/${last.id}/">changed ${fmtDate(last.date)}</a>`
     : `<span class="dim">quiet since baseline</span>`;
   return `<tr>
-    <td><a href="/company/${c.slug}/"><strong>${esc(c.name)}</strong></a></td>
+    <td><a href="/company/${c.slug}/"><strong>${esc(c.name)}</strong></a>${svcLine(c) ? `<br><span class="svc">${esc(svcLine(c))}</span>` : ""}</td>
     <td class="dim">${a.docs.size ? `${a.docs.size} tracked` : `<span title="Policy pages block archiving">blocked</span>`}</td>
     <td>${a.label ? `<span class="mono dim">✓</span>` : `<span class="faint">—</span>`}</td>
     <td>${status}</td>
@@ -869,6 +874,19 @@ ${euStars(280, 180, 62, 11)}
 
 /** The checker: per-status card grids — the fastest possible "find your app". */
 const shortName = (c) => c.name.split(" (")[0];
+/**
+ * The service line under a card. Jan Penfrat's point: the claim is about a
+ * service, not a corporate entity. For single-service providers the company
+ * name IS the service, so repeating it says nothing — and padding it with
+ * invented surfaces ("Signal messages and calls") would assert scope we have
+ * not verified. So: name the services only when they add information.
+ */
+const svcLine = (c) => {
+  const s = c.services ?? [];
+  if (s.length === 0) return "";
+  if (s.length === 1 && s[0].toLowerCase() === shortName(c).toLowerCase()) return "";
+  return s.join(" · ");
+};
 function groupedCards() {
   return groups
     .map(
@@ -878,7 +896,8 @@ function groupedCards() {
   <div class="cards">${g.companies
     .map((c) => `<a class="card ${g.cls}" href="/company/${c.slug}/">
       <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
-      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${g.verdict}</span></span>
+      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${g.verdict}</span>
+      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}</span>
     </a>`)
     .join("")}</div>`
     )
@@ -1076,6 +1095,7 @@ for (const c of [...companies, ...institutions]) {
     ${cc.quote ? `<div class="quote">“${esc(cc.quote)}” <span class="who">— from ${esc(c.name)}'s ${esc(cc.quoteDoc ?? "own documents")}, as archived here</span></div>` : ""}
     <div class="srcs">${srcs ? `Sources: ${srcs} · ` : ""}<a href="/chat-control/">what this status means</a> · <a href="${REPO}/issues">dispute it</a></div>
   </div>
+  ${c.servicesNote ? `<p class="note svcnote">${esc(c.servicesNote)}</p>` : ""}
   <div class="watchfor"><b>What we watch for</b> — ${WATCH[cc.status in WATCH ? cc.status : "unclear"](esc(shortName(c)))}</div>
   ${(cc.statusHistory ?? []).length > 1 ? `<p class="note stathist">Status history: ${cc.statusHistory
     .map((h) => `<strong>${(STATUS[h.status] ?? { label: h.status }).label}</strong> from ${fmtDate(h.since)}`)
@@ -1101,10 +1121,13 @@ for (const c of [...companies, ...institutions]) {
   <p class="crumbs"><a href="/companies/">Companies</a> / ${esc(c.name)}</p>
   <div class="idrow ${st.cls}">
     <span class="mg mg-lg" aria-hidden="true">${esc(shortName(c)[0])}</span>
-    <div><h1>${esc(c.name)}</h1><span class="vd idvd">${st.verdict}</span></div>
+    <div><h1>${esc(c.name)}</h1><span class="vd idvd">${st.verdict}</span>
+      ${svcLine(c) || c.parent ? `<div class="svc svc-id">${esc(svcLine(c))}${c.parent ? `${svcLine(c) ? " " : ""}<span class="faint">${svcLine(c) ? "· " : ""}owned by ${esc(c.parent)}</span>` : ""}</div>` : ""}</div>
   </div>
+  ${c.alsoOwns ? `<p class="note siblings">${c.alsoOwns.map((o) => `<strong>${esc(o.name)}</strong> — ${esc(o.why)}. <a href="/company/${o.slug}/">${esc(o.link)} →</a>`).join("<br>")}</p>` : ""}
   ${banner}
   <dl class="facts">
+    ${svcLine(c) ? `<div><dt>Services</dt><dd>${esc(c.services.join(", "))}</dd></div>` : ""}
     <div><dt>Status</dt><dd class="${st.cls}"><span class="dot"></span>${inst ? "Institutional source" : st.verdict}</dd></div>
     ${inst ? "" : `<div><dt>Held since</dt><dd>${fmtDate((cc.statusHistory ?? [{ since: ASSESSED }])[0].since)}</dd></div>`}
     <div><dt>Documents</dt><dd>${c.docs.length || "none"}${c.docs.length ? " tracked" : " trackable"}</dd></div>
@@ -1651,7 +1674,8 @@ for (const e of realChanges) {
   <div class="cards">${e2eeApps
     .map((c) => `<a class="card st-e2ee" href="/company/${c.slug}/">
       <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
-      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">Can't read your messages</span></span></a>`)
+      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">Can't read your messages</span>
+      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}</span></a>`)
     .join("")}</div>
 
   <h2 id="backups">2. Mind the backup trap</h2>
@@ -1961,7 +1985,7 @@ ${body}
 }
 
 emitLocales({
-  esc, fmtDate, ASSESSED, companies, shortName, EYE_SVG, REPO,
+  esc, fmtDate, ASSESSED, companies, shortName, svcLine, EYE_SVG, REPO,
   groupsFor: (statusMeta) =>
     Object.keys(statusMeta).map((k) => ({
       key: k, cls: STATUS[k].cls, ...statusMeta[k],

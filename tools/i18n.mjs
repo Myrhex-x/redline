@@ -726,7 +726,7 @@ export const LOCALES = {
 
 /** Render every locale's five pages. ctx supplies data + shell helpers. */
 export function emitLocales(ctx) {
-  const { esc, fmtDate, ASSESSED, companies, shortName, EYE_SVG, groupsFor, writePage } = ctx;
+  const { esc, fmtDate, ASSESSED, companies, shortName, svcLine, EYE_SVG, groupsFor, writePage } = ctx;
   for (const [code, L] of Object.entries(LOCALES)) {
     const groups = groupsFor(L.status);
     const assessed = fmtDate(ASSESSED);
@@ -739,7 +739,8 @@ export function emitLocales(ctx) {
   <div class="cards">${g.companies
     .map((c) => `<a class="card ${g.cls}" href="/company/${c.slug}/" hreflang="en">
       <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
-      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${g.verdict}</span></span></a>`)
+      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${g.verdict}</span>
+      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}</span></a>`)
     .join("")}</div>`
       )
       .join("");
@@ -790,7 +791,8 @@ export function emitLocales(ctx) {
       .companies.map(
         (c) => `<a class="card st-e2ee" href="/company/${c.slug}/" hreflang="en">
       <span class="mg" aria-hidden="true">${esc(shortName(c)[0])}</span>
-      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${L.status.e2ee.verdict}</span></span></a>`
+      <span><span class="nm">${esc(shortName(c))}</span><br><span class="vd">${L.status.e2ee.verdict}</span>
+      ${svcLine(c) ? `<span class="svc">${esc(svcLine(c))}</span>` : ""}</span></a>`
       )
       .join("")}</div>`;
 
