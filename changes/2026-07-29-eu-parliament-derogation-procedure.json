@@ -1,0 +1,136 @@
+{
+ "id": "2026-07-29-eu-parliament-derogation-procedure",
+ "date": "2026-07-29",
+ "slug": "eu-parliament",
+ "doc": "derogation-procedure",
+ "hunks": [
+  {
+   "header": "@@ -6,10 +6,10 @@ Direct access to search menu (press \"Enter\")",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "EN - English"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "EN - English"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "FR - français"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "EN - English"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "News"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Topics"
+    }
+   ]
+  },
+  {
+   "header": "@@ -533,7 +533,7 @@ LIBE",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "06/05/2026"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Council of the EU"
+    },
+    {
+     "t": "+",
+     "s": "German Permanent Representation to the EU"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "SIPPEL Birgit"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -543,7 +543,7 @@ LIBE",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "06/05/2026"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "German Permanent Representation to the EU"
+    },
+    {
+     "t": "+",
+     "s": "Council of the EU"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "SIPPEL Birgit"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

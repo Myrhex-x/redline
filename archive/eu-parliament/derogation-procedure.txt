@@ -6,9 +6,9 @@ Direct access to search menu (press "Enter")
 
 EN - English
 
-EN - English
-
 FR - français
+
+EN - English
 
 News
 
@@ -533,7 +533,7 @@ LIBE
 
 06/05/2026
 
-Council of the EU
+German Permanent Representation to the EU
 
 SIPPEL Birgit
 
@@ -543,7 +543,7 @@ LIBE
 
 06/05/2026
 
-German Permanent Representation to the EU
+Council of the EU
 
 SIPPEL Birgit
 

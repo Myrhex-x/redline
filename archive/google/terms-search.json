@@ -6,6 +6,10 @@
    "chars": 10643
   },
   {
+   "doc": "derogation-report",
+   "chars": 45516
+  },
+  {
    "doc": "gov-requests",
    "chars": 7488
   },
@@ -18,21 +22,39 @@
    "chars": 90069
   }
  ],
- "totalChars": 112565,
+ "totalChars": 158081,
  "terms": [
   {
    "group": "eu",
    "label": "Regulation 2021/1232",
    "pattern": "2021\\s*\\/\\s*1232",
-   "count": 0,
-   "samples": []
+   "count": 6,
+   "samples": [
+    {
+     "doc": "derogation-report",
+     "quote": "Google Ireland Transparency Report Under Regulations (EU) 2021/1232 and (EU) 2024/2916 Regulation (EU) 2021/1232, as amended by Regulation (EU) 2024/1307, introduced a temporary…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "Google Ireland Transparency Report Under Regulations (EU) 2021/1232 and (EU) 2024/2916 Regulation (EU) 2021/1232, as amended by Regulation (EU) 2024/1307, introduced a temporary derogation from certain provisions of Direct…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…l report on the processing of personal data under Article 3(1), point (g), subpoint (vii), of Regulation (EU) 2021/1232. This report provides information on the processing of personal data for the purpose of detecting and removin…"
+    }
+   ]
   },
   {
    "group": "eu",
    "label": "derogation / Ausnahmeregelung / dérogation",
    "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
-   "count": 0,
-   "samples": []
+   "count": 1,
+   "samples": [
+    {
+     "doc": "derogation-report",
+     "quote": "…and (EU) 2024/2916 Regulation (EU) 2021/1232, as amended by Regulation (EU) 2024/1307, introduced a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-ind…"
+    }
+   ]
   },
   {
    "group": "eu",
@@ -52,7 +74,7 @@
    "group": "csam",
    "label": "CSAM / CSAE",
    "pattern": "\\bCSAM\\b|\\bCSAE\\b",
-   "count": 21,
+   "count": 177,
    "samples": [
     {
      "doc": "child-safety",
@@ -72,7 +94,7 @@
    "group": "csam",
    "label": "child sexual abuse / Kindesmissbrauch",
    "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
-   "count": 22,
+   "count": 46,
    "samples": [
     {
      "doc": "child-safety",
@@ -92,7 +114,7 @@
    "group": "csam",
    "label": "NCMEC / CyberTipline",
    "pattern": "NCMEC|cybertipline",
-   "count": 7,
+   "count": 35,
    "samples": [
     {
      "doc": "child-safety",
@@ -119,7 +141,7 @@
    "group": "csam",
    "label": "hash matching / hash database",
    "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
-   "count": 3,
+   "count": 6,
    "samples": [
     {
      "doc": "child-safety",
@@ -139,11 +161,19 @@
    "group": "csam",
    "label": "Internet Watch Foundation",
    "pattern": "internet watch foundation|\\bIWF\\b",
-   "count": 1,
+   "count": 3,
    "samples": [
     {
      "doc": "child-safety",
      "quote": "…al abuse imagery is illegal, with information on how to report this content to trusted organizations like the Internet Watch Foundation in the UK, the Canadian Centre for Child Protection and Te Protejo in Colombia. When these warnings are shown…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…e database (please specify) Google obtains hashes of known CSAM from a variety of trusted sources, including: Internet Watch Foundation (IWF), NCMEC; and others, including content we find on our platforms and subsequently hash. These unverified…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…Google obtains hashes of known CSAM from a variety of trusted sources, including: Internet Watch Foundation (IWF), NCMEC; and others, including content we find on our platforms and subsequently hash. These unverified hashe…"
     }
    ]
   },
@@ -158,14 +188,19 @@
    "group": "scan",
    "label": "automated detection / automatisierte Erkennung",
    "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
-   "count": 0,
-   "samples": []
+   "count": 1,
+   "samples": [
+    {
+     "doc": "derogation-report",
+     "quote": "…s work around-the-clock to identify, remove, and report this content, using a combination of industry-leading automated detection tools and specially-trained human reviewers. We report CSAM to NCMEC, the clearinghouse and comprehensive rep…"
+    }
+   ]
   },
   {
    "group": "scan",
    "label": "classifier / machine learning detection",
    "pattern": "classifier|machine learning (?:model|detection)",
-   "count": 6,
+   "count": 15,
    "samples": [
     {
      "doc": "child-safety",
@@ -176,8 +211,8 @@
      "quote": "…ed for previously unseen image and video content For many years, Google has been working on machine learning classifiers to allow us to proactively identify never-before-seen CSAM imagery so it can be reviewed and, if confirmed a…"
     },
     {
-     "doc": "privacy",
-     "quote": "…dio technologies. We use publicly available information online or from other public sources to help train new machine learning models and build foundational technologies that power various Google products such as Google Translate, Gemini Apps…"
+     "doc": "derogation-report",
+     "quote": "…of text processed for detection of solicitation of children in relation to EU users Google does not use text classifiers in its NI-ICS. Number of bytes of text processed for detection of solicitation of children in relation to no…"
     }
    ]
   },

@@ -1,0 +1,211 @@
+{
+ "company": "Patrick Breyer (MEP, 2019–2024)",
+ "documents": [
+  {
+   "doc": "chat-control",
+   "chars": 77084
+  }
+ ],
+ "totalChars": 77084,
+ "terms": [
+  {
+   "group": "eu",
+   "label": "Regulation 2021/1232",
+   "pattern": "2021\\s*\\/\\s*1232",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "chat-control",
+     "quote": "…terial and report to the police (28 April 2021) Document pool on voluntary Chat Control 1.0 REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 14 July 2021 on a temporary derogation from certain provisio…"
+    }
+   ]
+  },
+  {
+   "group": "eu",
+   "label": "derogation / Ausnahmeregelung / dérogation",
+   "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
+   "count": 6,
+   "samples": [
+    {
+     "doc": "chat-control",
+     "quote": "…adopted the legislation allowing for chat control . The European Parliament voted in favour for the ePrivacy Derogation, which allows for voluntary chat control for messaging and email providers. As a result of this some U.S. pro…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…l 1.0 REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 14 July 2021 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-ind…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…5) Report by the Commission to the European Parliament and the Council on the implementation of the ePrivacy derogation on voluntary chat control and my comments (27 November 2025) Archive: Amendments (January 2024) Draft repo…"
+    }
+   ]
+  },
+  {
+   "group": "eu",
+   "label": "Chat Control / Chatkontrolle",
+   "pattern": "chat[\\s-]?control|chatkontrolle",
+   "count": 169,
+   "samples": [
+    {
+     "doc": "chat-control",
+     "quote": "Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…prache ändern: English Deutsch Welcome Posts and Dossiers Latest posts Latest videos Written questions Chat Control Going Dark group (Archive) Data retention ePrivacy Regulation (Archive) European Digital Identity (Archiv…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…ss releases Press photos Press briefings Media reports Get involved Follow me OpenRequest Take action Chat Control: The EU’s CSAM scanner proposal 🇫🇷 French: Traduction du dossier Chat Control 2.0 , stopchatcontrol.fr 🇸\ud83c…"
+    }
+   ]
+  },
+  {
+   "group": "eu",
+   "label": "ePrivacy",
+   "pattern": "e-?privacy",
+   "count": 6,
+   "samples": [
+    {
+     "doc": "chat-control",
+     "quote": "…rs Latest posts Latest videos Written questions Chat Control Going Dark group (Archive) Data retention ePrivacy Regulation (Archive) European Digital Identity (Archive) European Health Data Space (Archive) iBorderCtrl…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…rliament adopted the legislation allowing for chat control . The European Parliament voted in favour for the ePrivacy Derogation, which allows for voluntary chat control for messaging and email providers. As a result of this so…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…ice providers (filehosters, clouds) and social media providers will be allowed to continue scanning after the ePrivacy exemption expires. No regulation is needed for removing child sexual exploitation material, either. For provi…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "CSAM / CSAE",
+   "pattern": "\\bCSAM\\b|\\bCSAE\\b",
+   "count": 8,
+   "samples": [
+    {
+     "doc": "chat-control",
+     "quote": "Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts Latest videos…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…os Press briefings Media reports Get involved Follow me OpenRequest Take action Chat Control: The EU’s CSAM scanner proposal 🇫🇷 French: Traduction du dossier Chat Control 2.0 , stopchatcontrol.fr 🇸🇪 Swedish: Chat…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…EU Child Protection Centre to proactively search publicly accessible internet content automatically for known CSAM. This crawling could also be used in the darknet and is thus more effective than private surveillance measure…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "child sexual abuse / Kindesmissbrauch",
+   "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
+   "count": 30,
+   "samples": [
+    {
+     "doc": "chat-control",
+     "quote": "…nd emails automatically for suspicious content – generally and indiscriminately. The stated aim: To prosecute child sexual exploitation material (CSEM). The result: Mass surveillance by means of fully automated real-time surveillance of messagin…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…oy chat control Targeted scanning of specific individuals and groups reasonably suspicious of being linked to child sexual abuse material only Providers may search chats at their own discretion (“voluntarily”), without suspicion and witho…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…rmitted with a judicial warrant and only limited to persons or groups of persons suspected of being linked to child sexual abuse material. We want to safeguard trust in secure end-to-end encryption . We clearly exclude so-called client-s…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "NCMEC / CyberTipline",
+   "pattern": "NCMEC|cybertipline",
+   "count": 12,
+   "samples": [
+    {
+     "doc": "chat-control",
+     "quote": "…receive (usually based on the method of hashing) are criminally irrelevant. Similarly in Ireland only 20% of NCMEC reports received in 2020 were confirmed as actual “child abuse material”. EU Commissioner Johansson admitted…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…eived in 2020 were confirmed as actual “child abuse material”. EU Commissioner Johansson admitted that 75% of NCMEC reports are not of a quality that the police can work with. like Commission like Commission, but at the provi…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…horities, 80% of all machine-generated reports turn out to be without merit. Similarly in Ireland only 20% of NCMEC reports received in 2020 were confirmed as actual “child abuse material”. Nearly 40% of all criminal investig…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "PhotoDNA",
+   "pattern": "photodna",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "csam",
+   "label": "hash matching / hash database",
+   "pattern": "hash[- ](?:match|database|list|value-based)|hash-datenbank",
+   "count": 1,
+   "samples": [
+    {
+     "doc": "chat-control",
+     "quote": "…of expression. Unreliable “AI” for unknown content: Instead of just searching for known material (CSAM) via hash matching, an AI should be allowed to evaluate unknown content at the discretion of the providers. These technologie…"
+    }
+   ]
+  },
+  {
+   "group": "csam",
+   "label": "Internet Watch Foundation",
+   "pattern": "internet watch foundation|\\bIWF\\b",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "scan / scanning / gescannt",
+   "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
+   "count": 32,
+   "samples": [
+    {
+     "doc": "chat-control",
+     "quote": "…ding to their own statements , Google, Meta, Microsoft and Snap continue their indiscriminate and warrentless scanning of private messages. Users can complain to their data protection authority about this violation of the secrec…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…hat control on a “voluntary” basis: The temporary law on Chat Control 1.0, which allows large US providers to scan our chats indiscriminately, in bulk, and without a court order, is to be made permanent without any changes.…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…nd without a court order, is to be made permanent without any changes. Private communications can not only be scanned for known illegal images and videos. Even unknown visual content, private chat texts and metadata can be clas…"
+    }
+   ]
+  },
+  {
+   "group": "scan",
+   "label": "automated detection / automatisierte Erkennung",
+   "pattern": "automat(?:ed|ic) (?:detection|review|scanning|means)|automatisierte? (?:erkennung|prüfung|verfahren)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "classifier / machine learning detection",
+   "pattern": "classifier|machine learning (?:model|detection)",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "group": "scan",
+   "label": "monitor content / review content",
+   "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
+   "count": 0,
+   "samples": []
+  }
+ ]
+}

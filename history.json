@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-07-29-eu-parliament-derogation-procedure",
+  "date": "2026-07-29",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "derogation-procedure",
+  "docTitle": "Procedure file 2025/0429(COD) — extension of the derogation",
+  "kind": "change",
+  "added": 4,
+  "removed": 4
+ },
+ {
+  "id": "2026-07-29-eu-parliament-derogation-procedure-baseline",
+  "date": "2026-07-29",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "derogation-procedure",
+  "docTitle": "Procedure file 2025/0429(COD) — extension of the derogation",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
   "id": "2026-07-28-gmx-security",
   "date": "2026-07-28",
   "slug": "gmx",
@@ -31,6 +53,39 @@
   "kind": "change",
   "added": 39,
   "removed": 37
+ },
+ {
+  "id": "2026-07-28-breyer-chat-control-baseline",
+  "date": "2026-07-28",
+  "slug": "breyer",
+  "company": "Patrick Breyer (MEP, 2019–2024)",
+  "doc": "chat-control",
+  "docTitle": "Chat Control overview",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-28-google-derogation-report-baseline",
+  "date": "2026-07-28",
+  "slug": "google",
+  "company": "Google (Gmail)",
+  "doc": "derogation-report",
+  "docTitle": "Transparency report under Regulation (EU) 2021/1232",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
+ },
+ {
+  "id": "2026-07-28-meta-derogation-report-baseline",
+  "date": "2026-07-28",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "derogation-report",
+  "docTitle": "EU CSAM derogation report (Regulation (EU) 2021/1232)",
+  "kind": "baseline",
+  "added": 0,
+  "removed": 0
  },
  {
   "id": "2026-07-27-meta-privacy",

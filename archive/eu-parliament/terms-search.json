@@ -4,22 +4,35 @@
   {
    "doc": "csar-train",
    "chars": 17517
+  },
+  {
+   "doc": "derogation-procedure",
+   "chars": 6890
   }
  ],
- "totalChars": 17517,
+ "totalChars": 24407,
  "terms": [
   {
    "group": "eu",
    "label": "Regulation 2021/1232",
    "pattern": "2021\\s*\\/\\s*1232",
-   "count": 0,
-   "samples": []
+   "count": 2,
+   "samples": [
+    {
+     "doc": "derogation-procedure",
+     "quote": "…25/0429(COD) COD - Ordinary legislative procedure (ex-codecision procedure) Regulation Amending Regulation 2021/1232 2020/0259(COD) Subject 1.20.09 Protection of privacy and data protection 3.30.05 Electronic and mobile com…"
+    },
+    {
+     "doc": "derogation-procedure",
+     "quote": "…ocedure subtype Legislation Legislative instrument Regulation Amendments and repeals Amending Regulation 2021/1232 2020/0259(COD) Legal basis Rules of Procedure EP 170-p6 Treaty on the Functioning of the European Union TF…"
+    }
+   ]
   },
   {
    "group": "eu",
    "label": "derogation / Ausnahmeregelung / dérogation",
    "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
-   "count": 3,
+   "count": 4,
    "samples": [
     {
      "doc": "csar-train",
@@ -46,7 +59,7 @@
    "group": "eu",
    "label": "ePrivacy",
    "pattern": "e-?privacy",
-   "count": 3,
+   "count": 4,
    "samples": [
     {
      "doc": "csar-train",
@@ -73,7 +86,7 @@
    "group": "csam",
    "label": "child sexual abuse / Kindesmissbrauch",
    "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
-   "count": 23,
+   "count": 24,
    "samples": [
     {
      "doc": "csar-train",
@@ -114,8 +127,17 @@
    "group": "csam",
    "label": "Internet Watch Foundation",
    "pattern": "internet watch foundation|\\bIWF\\b",
-   "count": 0,
-   "samples": []
+   "count": 2,
+   "samples": [
+    {
+     "doc": "derogation-procedure",
+     "quote": "…e Chairs Name Role Committee Date Interest representatives SIPPEL Birgit Rapporteur LIBE 12/06/2026 Internet Watch Foundation SIPPEL Birgit Rapporteur LIBE 08/05/2026 Internet Watch Foundation SIPPEL Birgit Rapporteur LIBE 06/…"
+    },
+    {
+     "doc": "derogation-procedure",
+     "quote": "…Birgit Rapporteur LIBE 12/06/2026 Internet Watch Foundation SIPPEL Birgit Rapporteur LIBE 08/05/2026 Internet Watch Foundation SIPPEL Birgit Rapporteur LIBE 06/05/2026 German Permanent Representation to the EU SIPPEL Birgit Rappo…"
+    }
+   ]
   },
   {
    "group": "scan",

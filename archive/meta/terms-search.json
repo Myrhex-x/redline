@@ -2,6 +2,10 @@
  "company": "Meta (Facebook, Instagram, Messenger)",
  "documents": [
   {
+   "doc": "derogation-report",
+   "chars": 5421
+  },
+  {
    "doc": "law-enforcement",
    "chars": 5341
   },
@@ -14,21 +18,43 @@
    "chars": 48971
   }
  ],
- "totalChars": 62898,
+ "totalChars": 68319,
  "terms": [
   {
    "group": "eu",
    "label": "Regulation 2021/1232",
    "pattern": "2021\\s*\\/\\s*1232",
-   "count": 0,
-   "samples": []
+   "count": 2,
+   "samples": [
+    {
+     "doc": "derogation-report",
+     "quote": "Processing under EU Regulation 2021/1232 Summary : This is a report made by Meta Platforms Ireland Limited (Meta Ireland) in accordance with EU Regula…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…ary : This is a report made by Meta Platforms Ireland Limited (Meta Ireland) in accordance with EU Regulation 2021/1232 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies…"
+    }
+   ]
   },
   {
    "group": "eu",
    "label": "derogation / Ausnahmeregelung / dérogation",
    "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
-   "count": 0,
-   "samples": []
+   "count": 7,
+   "samples": [
+    {
+     "doc": "derogation-report",
+     "quote": "…de by Meta Platforms Ireland Limited (Meta Ireland) in accordance with EU Regulation 2021/1232 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-ind…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…for the processing of personal and other data for the purpose of combating online child sexual abuse (EU CSAM Derogation). Article 3(1)(g)(vii) of the EU CSAM Derogation requires service providers to publish a report which relates…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…the purpose of combating online child sexual abuse (EU CSAM Derogation). Article 3(1)(g)(vii) of the EU CSAM Derogation requires service providers to publish a report which relates to its processing of personal data in reliance o…"
+    }
+   ]
   },
   {
    "group": "eu",
@@ -48,22 +74,53 @@
    "group": "csam",
    "label": "CSAM / CSAE",
    "pattern": "\\bCSAM\\b|\\bCSAE\\b",
-   "count": 0,
-   "samples": []
+   "count": 14,
+   "samples": [
+    {
+     "doc": "derogation-report",
+     "quote": "…ices for the processing of personal and other data for the purpose of combating online child sexual abuse (EU CSAM Derogation). Article 3(1)(g)(vii) of the EU CSAM Derogation requires service providers to publish a report wh…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…a for the purpose of combating online child sexual abuse (EU CSAM Derogation). Article 3(1)(g)(vii) of the EU CSAM Derogation requires service providers to publish a report which relates to its processing of personal data in…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…service providers to publish a report which relates to its processing of personal data in reliance of the EU CSAM Derogation. This report is published for the purposes of compliance with this reporting obligation and provid…"
+    }
+   ]
   },
   {
    "group": "csam",
    "label": "child sexual abuse / Kindesmissbrauch",
    "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
-   "count": 0,
-   "samples": []
+   "count": 5,
+   "samples": [
+    {
+     "doc": "derogation-report",
+     "quote": "…nal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse (EU CSAM Derogation). Article 3(1)(g)(vii) of the EU CSAM Derogation requires service providers to publish a…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…ng obligation and provides data relating to our use of technology for the detection, reporting and removal of child sexual abuse material (CSAM). Specifically, this report covers the period from January 1, 2024 to December 31, 2024 inclus…"
+    },
+    {
+     "doc": "derogation-report",
+     "quote": "…mission for the internal transfers to Meta Platforms Inc. as its processor. (4) The number of cases of online child sexual abuse identified, differentiating between online child sexual abuse material and solicitation of children: Between…"
+    }
+   ]
   },
   {
    "group": "csam",
    "label": "NCMEC / CyberTipline",
    "pattern": "NCMEC|cybertipline",
-   "count": 0,
-   "samples": []
+   "count": 1,
+   "samples": [
+    {
+     "doc": "derogation-report",
+     "quote": "…ich data has been shared pursuant to this Regulation: The National Center for Missing and Exploited Children (NCMEC). Date of report: January 30, 2025"
+    }
+   ]
   },
   {
    "group": "csam",
