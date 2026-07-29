@@ -21,6 +21,7 @@ import { execFileSync } from "node:child_process";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { STUB_FLOOR } from "./snapshot.mjs";
+import { assessDiff } from "./significance.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ARCHIVE = join(ROOT, "archive");
@@ -56,6 +57,37 @@ function parseUnifiedDiff(text) {
     total++;
   }
   return { hunks: hunks.filter((h) => h.lines.length), truncated: total >= MAX_HUNK_LINES };
+}
+
+/**
+ * Is this diff purely a reordering of the same lines?
+ *
+ * Universal, because the alternative is discovering each site's shuffle one
+ * false alarm at a time. The EU Parliament's procedure file lists the same
+ * entries in a different order between renders; two of them swapped and the
+ * archive told subscribers Parliament had amended a filing. Google Play does
+ * the same thing and needed a per-document `canonical` flag to stop it.
+ *
+ * If the added lines are a permutation of the removed lines then no text
+ * exists now that did not exist before, and none has gone: nothing was
+ * edited. Git still holds the reordering; it just is not an event.
+ *
+ * Safe against real edits by construction — changing so much as one character
+ * on one line breaks the multiset equality and the change is recorded.
+ */
+function isPureReordering(hunks) {
+  const added = [], removed = [];
+  for (const h of hunks) {
+    for (const l of h.lines) {
+      const s = l.s.trim();
+      if (!s) continue;
+      if (l.t === "+") added.push(s);
+      else if (l.t === "-") removed.push(s);
+    }
+  }
+  if (!added.length || added.length !== removed.length) return false;
+  const a = added.slice().sort(), b = removed.slice().sort();
+  return a.every((x, i) => x === b[i]);
 }
 
 function main() {
@@ -123,9 +155,16 @@ function main() {
     const diffText = git("diff", "--no-color", "--unified=3", "--", path);
     const { hunks, truncated } = parseUnifiedDiff(diffText);
     if (!hunks.length) continue;
+    if (isPureReordering(hunks)) {
+      console.log(`reorder   ${slug}/${doc} (same lines, different order — not an edit)`);
+      seen.add(`${slug}/${doc}`);
+      continue;
+    }
     const added = hunks.reduce((n, h) => n + h.lines.filter((l) => l.t === "+").length, 0);
     const removed = hunks.reduce((n, h) => n + h.lines.filter((l) => l.t === "-").length, 0);
 
+    // Recorded either way; announced only if it is more than page furniture.
+    const sig = assessDiff(hunks);
     const id = uniqueId(`${today}-${slug}-${doc}`);
     mkdirSync(CHANGES, { recursive: true });
     writeFileSync(
@@ -142,6 +181,7 @@ function main() {
       kind: isLabel ? "label-change" : "change",
       added,
       removed,
+      ...(sig.substantive ? {} : { minor: true, minorReason: sig.reason }),
     });
     // This run has now spoken for the doc. Without this the baseline pass below
     // still sees it as "never mentioned in history" and files a baseline for
@@ -149,7 +189,10 @@ function main() {
     // file, whose first recorded event was a change and a first-recording at
     // once. A document is either being met for the first time or changing.
     seen.add(`${slug}/${doc}`);
-    console.log(`change    ${id}  +${added} −${removed}${truncated ? " (truncated)" : ""}`);
+    console.log(
+      `change    ${id}  +${added} −${removed}${truncated ? " (truncated)" : ""}` +
+      (sig.substantive ? "" : `  [minor, not announced: ${sig.reason.slice(0, 70)}]`)
+    );
   }
 
   // 2) Baseline events: recorded docs that history has never mentioned.

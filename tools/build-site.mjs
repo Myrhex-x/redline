@@ -808,7 +808,7 @@ function feedRow(e) {
   return `<li${e.corrected ? ' class="corrected-row"' : ""}>
     <span class="date mono dim">${fmtDate(e.date)}</span>
     <span><a href="${target}"><strong>${esc(e.company)}</strong></a> — ${esc(e.docTitle)}</span>
-    <span class="pill">${e.corrected ? "withdrawn" : e.kind === "label-change" ? "App Store label" : e.kind === "baseline" ? "baseline" : "document"}</span>
+    <span class="pill"${e.minor ? ` title="${esc(e.minorReason ?? "")}"` : ""}>${e.corrected ? "withdrawn" : e.minor ? "minor" : e.kind === "label-change" ? "App Store label" : e.kind === "baseline" ? "baseline" : "document"}</span>
     <span class="ml-auto">${what}</span>
   </li>`;
 }
@@ -1300,6 +1300,10 @@ for (const e of realChanges) {
   <p class="crumbs"><a href="/company/${e.slug}/">${esc(e.company)}</a> / ${esc(e.docTitle)}</p>
   <h1>${e.corrected ? `Withdrawn: ${esc(e.company)} did not change its ${esc(e.docTitle)}` : `${esc(e.company)} changed its ${esc(e.docTitle)}`}</h1>
   ${e.corrected ? `<div class="correction"><strong>This record was withdrawn.</strong> ${esc(e.corrected)}</div>` : ""}
+  ${e.minor ? `<div class="svcev"><strong>Recorded, not announced.</strong> This change is page furniture rather than
+    policy: ${esc(e.minorReason ?? "")}. It is kept because the archive records every change to a tracked
+    document, but subscribers were not emailed about it. Anything containing a sentence, or any of the
+    scanning and encryption vocabulary this archive follows, is always announced.</div>` : ""}
   <p class="lede">Recorded ${fmtDate(e.date)} —
     <span class="delta mono"><span class="a">+${e.added}</span> lines added, <span class="r">−${e.removed}</span> removed</span>.
     ${e.corrected ? "The difference below is what the faulty capture produced. It is kept as evidence of the error, and is not an edit by the company." : "This page shows the exact difference between the previous snapshot and the new one."}</p>

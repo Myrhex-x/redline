@@ -27,6 +27,9 @@ jobs:
       - name: Relay guards (SSRF, auth, redirect budget)
         run: node tools/test-relay.mjs
 
+      - name: False-alarm guards (and that they do not silence real changes)
+        run: node tools/test-guards.mjs
+
       - name: PDF extraction (derogation filings)
         run: node tools/test-pdf.mjs
 

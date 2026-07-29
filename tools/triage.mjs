@@ -26,8 +26,9 @@ import { pendingEvents } from "./new-events.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
-const RELEVANT =
-  /\b(scan(?:s|ned|ning)?|detect(?:s|ed|ion|ing)?|CSAM|child sexual|hash[- ]?match|PhotoDNA|CSAI|end[- ]?to[- ]?end|E2EE|encrypt(?:ed|ion)?|law enforcement|government request|derogation|2021\/1232|monitor(?:s|ed|ing)?)\b/i;
+// One vocabulary, shared with the notification gate, so the thing that opens
+// a review issue and the thing that sends the mail cannot drift apart.
+import { RELEVANT } from "./significance.mjs";
 
 function main() {
   const history = existsSync(join(ROOT, "history.json"))

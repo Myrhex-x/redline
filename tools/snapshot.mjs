@@ -252,6 +252,21 @@ async function snapshotPdf(company, doc, dir, metaPath, prev, ua) {
   return { company, doc, state: prev ? "CHANGED" : "NEW", chars: text.length };
 }
 
+const CONFIRM_DELAY_MS = 8_000; // long enough to land on a different backend
+
+/** Fetch -> text, exactly as the archive stores it. Used twice per change. */
+function toArchiveText(html, company, doc) {
+  let text = filterNoise(extractText(html), [...(company.ignore ?? []), ...(doc.ignore ?? [])]);
+  let clipFellThrough = false;
+  if (doc.clip) {
+    const clipped = clipText(text, doc.clip);
+    clipFellThrough = clipped === text;
+    text = clipped;
+  }
+  if (doc.canonical === "lines") text = canonicalLines(text);
+  return { text, clipFellThrough };
+}
+
 async function snapshotDoc(company, doc) {
   const dir = join(ARCHIVE, company.slug);
   const metaPath = join(dir, `${doc.id}.meta.json`);
@@ -275,20 +290,10 @@ async function snapshotDoc(company, doc) {
     return { company, doc, state: "HTTP_" + status, detail: finalUrl };
   }
 
-  let text = filterNoise(
-    extractText(html),
-    [...(company.ignore ?? []), ...(doc.ignore ?? [])]
-  );
-  let clipFellThrough = false;
-  if (doc.clip) {
-    const clipped = clipText(text, doc.clip);
-    // Fall-through means the page furniture is now inside the record: it will
-    // churn every day and bury real edits. Surface it next to the summary
-    // rather than leaving one warn() line buried in a 90-document log.
-    clipFellThrough = clipped === text;
-    text = clipped;
-  }
-  if (doc.canonical === "lines") text = canonicalLines(text);
+  // Clip fall-through means the page furniture is now inside the record: it
+  // will churn every day and bury real edits. Surfaced next to the summary
+  // rather than left as one warn() line in a 90-document log.
+  let { text, clipFellThrough } = toArchiveText(html, company, doc);
   const textHash = sha256(text);
   const floor = doc.minChars ?? STUB_FLOOR;
   const short = text.length < floor;
@@ -306,6 +311,45 @@ async function snapshotDoc(company, doc) {
       company, doc, state: "STUB",
       detail: `${text.length} chars < ${floor} — kept prior ${prev.textChars}-char capture`,
     };
+  }
+
+  // Before recording that a company changed its policy, read the page again.
+  //
+  // This is what a person would do, and the pipeline never did. Sites serve
+  // different renders from different backends, run A/B variants, and rebuild
+  // caches mid-crawl; any of those produces a diff that is not an edit. A
+  // second read costs one request on the handful of documents that changed,
+  // and the archive only ever claimed to report what a document says, not
+  // what one request happened to return.
+  //
+  // It does NOT catch a page whose ordering drifts across days but is stable
+  // within a minute — the EU Parliament's procedure file is exactly that, and
+  // the reordering guard in history.mjs is what covers it. Two mechanisms,
+  // because one of them was never going to be enough.
+  if (prev && !DRY) {
+    await sleep(CONFIRM_DELAY_MS);
+    let confirm;
+    try {
+      confirm = await fetchDoc(doc.url, ua);
+    } catch {
+      return { company, doc, state: "UNCONFIRMED", detail: "second read failed — keeping prior capture" };
+    }
+    if (confirm.status >= 400) {
+      return { company, doc, state: "UNCONFIRMED", detail: `second read HTTP ${confirm.status} — keeping prior capture` };
+    }
+    const second = toArchiveText(confirm.html, company, doc).text;
+    if (sha256(second) === prev.textHash) {
+      return {
+        company, doc, state: "FLAPPED",
+        detail: "second read matches the PREVIOUS capture — the page varies between reads, not an edit",
+      };
+    }
+    if (sha256(second) !== textHash) {
+      return {
+        company, doc, state: "FLAPPED",
+        detail: "two reads disagree with each other — unstable page, keeping prior capture",
+      };
+    }
   }
 
   if (!DRY) {
@@ -379,13 +423,19 @@ async function main() {
   const failed = rows.filter((r) => r.state === "ERROR" || r.state.startsWith("HTTP_"));
   const changed = rows.filter((r) => r.state === "CHANGED" || r.state === "NEW");
   const stubs = rows.filter((r) => r.state === "STUB");
+  const flapped = rows.filter((r) => r.state === "FLAPPED" || r.state === "UNCONFIRMED");
   console.log("");
   console.log(
     `${rows.length} documents: ${changed.length} new/changed, ` +
-    `${rows.length - changed.length - failed.length - stubs.length} unchanged, ` +
-    `${stubs.length} stubbed, ${failed.length} failed` +
+    `${rows.length - changed.length - failed.length - stubs.length - flapped.length} unchanged, ` +
+    `${stubs.length} stubbed, ${flapped.length} unconfirmed, ${failed.length} failed` +
     (DRY ? "  (dry run — nothing written)" : "")
   );
+  // A document that fails confirmation repeatedly is either genuinely unstable
+  // or quietly frozen in the archive. Either way somebody has to look.
+  for (const r of flapped) {
+    console.log(`  ⚠ unconfirmed: ${r.company.slug}/${r.doc.id} — ${r.detail}`);
+  }
   // A stub is a silent staleness risk: the prior capture is preserved, so the
   // archive looks healthy while we have in fact stopped reading the document.
   // One bad day is noise; a target that stubs every day needs a headless lane.

@@ -33,8 +33,12 @@ export function newEvents(history) {
   // Baselines are not news, and a withdrawn record is the opposite of news:
   // announcing a change we have already established did not happen is how a
   // correction turns into a second false alarm.
+  // Minor events stay in the record and on the site; they simply are not
+  // worth an email. Three of the first seven alerts this project sent were
+  // about a footer link, and a list that cries wolf is not read on the day
+  // it matters.
   return history.filter(
-    (e) => e.kind !== "baseline" && !e.corrected && !previousIds.has(e.id)
+    (e) => e.kind !== "baseline" && !e.corrected && !e.minor && !previousIds.has(e.id)
   );
 }
 

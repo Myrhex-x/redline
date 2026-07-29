@@ -121,6 +121,36 @@ async function main() {
         });
         continue;
       }
+      // Same confirmation as the plain lane. A headless render has MORE ways
+      // to differ between reads, not fewer: hydration timing, lazy sections,
+      // experiment buckets. Re-read before calling it an edit.
+      if (prev) {
+        await sleep(4_000);
+        let second = null;
+        try {
+          await page.reload({ waitUntil: "domcontentloaded", timeout: NAV_TIMEOUT_MS });
+          await page.waitForLoadState("networkidle", { timeout: 15_000 }).catch(() => {});
+          await sleep(SETTLE_MS);
+          const h2 = await page.content();
+          let t2 = filterNoise(extractText(h2), [...(company.ignore ?? []), ...(doc.ignore ?? [])]);
+          if (doc.clip) t2 = clipText(t2, doc.clip);
+          if (doc.canonical === "lines") t2 = canonicalLines(t2);
+          second = sha256(t2);
+        } catch { /* fall through to unconfirmed */ }
+        if (second === null) {
+          rows.push({ company, doc, state: "UNCONFIRMED", clipFellThrough, detail: "second render failed — kept prior capture" });
+          continue;
+        }
+        if (second === prev.textHash) {
+          rows.push({ company, doc, state: "FLAPPED", clipFellThrough, detail: "second render matches the PREVIOUS capture — varies between renders, not an edit" });
+          continue;
+        }
+        if (second !== textHash) {
+          rows.push({ company, doc, state: "FLAPPED", clipFellThrough, detail: "two renders disagree — unstable page, kept prior capture" });
+          continue;
+        }
+      }
+
       mkdirSync(dir, { recursive: true });
       writeFileSync(join(dir, `${doc.id}.html`), html);
       writeFileSync(join(dir, `${doc.id}.txt`), text + "\n");
@@ -165,6 +195,8 @@ async function main() {
   }
   const failed = rows.filter((r) => r.state === "ERROR" || r.state.startsWith("HTTP_"));
   const stubs = rows.filter((r) => r.state === "STUB");
+  for (const r of rows.filter((x) => x.state === "FLAPPED" || x.state === "UNCONFIRMED"))
+    console.log(`  ⚠ unconfirmed: ${r.company.slug}/${r.doc.id} — ${r.detail}`);
   console.log(
     `\n${rows.length} headless documents: ${rows.length - failed.length - stubs.length} ok, ` +
     `${stubs.length} stubbed, ${failed.length} failed`
