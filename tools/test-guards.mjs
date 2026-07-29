@@ -86,6 +86,69 @@ for (const [name, h] of mustAnnounce) {
   check(`announces: ${name}`, a.substantive, a.reason);
 }
 
+console.log("declaration records ALWAYS announce (the false negative that mattered)");
+// Every line in a Play data-safety page or an App Store label is short and
+// unpunctuated, i.e. shaped exactly like a footer link. Judged on shape, a
+// provider switching on message collection would be filed as chrome.
+const declarations = [
+  ["starts collecting Messages", hunk(["+", "Messages"])],
+  ["adds precise location", hunk(["+", "Location"], ["+", "Precise location"])],
+  ["flips from collecting nothing", hunk(["-", "No data collected"], ["+", "Messages"])],
+  ["adds photos and videos", hunk(["+", "Photos and videos"])],
+  ["removes a declaration", hunk(["-", "Messages"])],
+];
+for (const [name, h] of declarations) {
+  check(`play-safety announces: ${name}`, assessDiff(h, { docId: "play-safety" }).substantive);
+  check(`appstore-label announces: ${name}`, assessDiff(h, { docId: "appstore-label" }).substantive);
+  // the same lines on an ordinary page are still chrome
+  check(`  ...but not on an ordinary page: ${name}`, !assessDiff(h, { docId: "privacy" }).substantive || h[0].lines.length > 6);
+}
+
+console.log("truncation cannot make a real rewrite look like a reordering");
+{
+  // a prefix that is a permutation, followed by a genuine edit beyond the cap
+  const lines = [];
+  for (let i = 0; i < 5; i++) { lines.push(["-", `line ${i}`]); }
+  for (let i = 4; i >= 0; i--) { lines.push(["+", `line ${i}`]); }
+  const permOnly = hunk(...lines);
+  check("a genuine permutation is still a reordering", isPureReordering(permOnly));
+  const withEdit = hunk(...lines, ["+", "We now scan your messages"]);
+  check("one extra real line breaks it", !isPureReordering(withEdit));
+}
+
+console.log("dates: rollover is silent, meaning is not");
+const dateCases = [
+  ["copyright rollover", hunk(["-", "Copyright © 2026 Apple Inc. All rights reserved."], ["+", "Copyright © 2027 Apple Inc. All rights reserved."]), false],
+  ["short-form copyright", hunk(["-", "© 2026 Discord Inc."], ["+", "© 2027 Discord Inc."]), false],
+  ["copyright plus a nav link", hunk(["-", "© 2026 X"], ["+", "© 2027 X"], ["-", "Developers"]), false],
+  ["the derogation's end date", hunk(["-", "in force until April 2026"], ["+", "in force until April 2028"]), true],
+  ["a revision stamp", hunk(["-", "Last updated: 2 February 2026"], ["+", "Last updated: 27 July 2026"]), true],
+  ["an effective date", hunk(["-", "Effective 2026"], ["+", "Effective 2027"]), true],
+  ["a retention period", hunk(["+", "We keep this until 2030"]), true],
+  ["copyright plus a real edit", hunk(["-", "© 2026 Meta"], ["+", "© 2027 Meta"], ["+", "We scan uploads."]), true],
+];
+for (const [name, h, want] of dateCases) {
+  const a = assessDiff(h);
+  check(`${want ? "announces" : "silent  "}: ${name}`, a.substantive === want, a.reason);
+}
+// The whole archive, on 1 January.
+{
+  let would = 0;
+  const dirs = readFileSync(join(ROOT, "companies.json"), "utf8") && null;
+  const { readdirSync } = await import("node:fs");
+  for (const d of readdirSync(join(ROOT, "archive"))) {
+    for (const f of readdirSync(join(ROOT, "archive", d)).filter((x) => x.endsWith(".txt"))) {
+      for (const line of readFileSync(join(ROOT, "archive", d, f), "utf8").split("\n")) {
+        const s = line.trim();
+        if (!/©|Copyright/i.test(s) || !/20\d\d/.test(s)) continue;
+        const next = s.replace(/20(2[0-9])/g, (m, y) => "20" + String(+y + 1).padStart(2, "0"));
+        if (next !== s && assessDiff(hunk(["-", s], ["+", next])).substantive) would++;
+      }
+    }
+  }
+  check("no copyright line in the archive emails on 1 January", would === 0, `${would} would`);
+}
+
 console.log("the vocabulary is shared, not duplicated");
 check("triage imports it", /from "\.\/significance\.mjs"/.test(readFileSync(join(ROOT, "tools/triage.mjs"), "utf8")));
 check("matches scanning words", RELEVANT.test("we scan messages"));

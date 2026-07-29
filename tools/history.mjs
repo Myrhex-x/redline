@@ -38,7 +38,7 @@ function loadJSON(path, fallback) {
 }
 
 /** Parse `git diff --unified` output into hunks of typed lines. */
-function parseUnifiedDiff(text) {
+function parseUnifiedDiff(text, cap = MAX_HUNK_LINES) {
   const hunks = [];
   let hunk = null;
   let total = 0;
@@ -49,14 +49,14 @@ function parseUnifiedDiff(text) {
       continue;
     }
     if (!hunk) continue; // skip file header lines
-    if (total >= MAX_HUNK_LINES) continue;
+    if (total >= cap) continue;
     if (line.startsWith("+")) hunk.lines.push({ t: "+", s: line.slice(1) });
     else if (line.startsWith("-")) hunk.lines.push({ t: "-", s: line.slice(1) });
     else if (line.startsWith(" ")) hunk.lines.push({ t: " ", s: line.slice(1) });
     else continue; // "\ No newline at end of file" etc.
     total++;
   }
-  return { hunks: hunks.filter((h) => h.lines.length), truncated: total >= MAX_HUNK_LINES };
+  return { hunks: hunks.filter((h) => h.lines.length), truncated: total >= cap };
 }
 
 /**
@@ -155,7 +155,12 @@ function main() {
     const diffText = git("diff", "--no-color", "--unified=3", "--", path);
     const { hunks, truncated } = parseUnifiedDiff(diffText);
     if (!hunks.length) continue;
-    if (isPureReordering(hunks)) {
+    // Judge reordering on the WHOLE diff, never the capped parse. A large edit
+    // truncated at MAX_HUNK_LINES can leave a prefix that happens to be a
+    // permutation while the part beyond the cap is a real rewrite, and
+    // suppressing on that would silence the change permanently.
+    const full = truncated ? parseUnifiedDiff(diffText, Infinity).hunks : hunks;
+    if (isPureReordering(full)) {
       console.log(`reorder   ${slug}/${doc} (same lines, different order — not an edit)`);
       seen.add(`${slug}/${doc}`);
       continue;
@@ -164,7 +169,7 @@ function main() {
     const removed = hunks.reduce((n, h) => n + h.lines.filter((l) => l.t === "-").length, 0);
 
     // Recorded either way; announced only if it is more than page furniture.
-    const sig = assessDiff(hunks);
+    const sig = assessDiff(hunks, { docId: doc });
     const id = uniqueId(`${today}-${slug}-${doc}`);
     mkdirSync(CHANGES, { recursive: true });
     writeFileSync(
