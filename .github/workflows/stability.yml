@@ -1,0 +1,67 @@
+name: stability
+
+# Every false alert this archive has sent was discovered by arriving in
+# someone's inbox. The EU Parliament's procedure file was added on a Monday
+# and announced a fake amendment on the Tuesday, because nothing had ever
+# asked whether a page reads the same twice.
+#
+# This asks. Weekly, and on demand after adding a document. It reads each
+# tracked page twice and compares both reads against each other and against
+# the archive, which is what catches a page that is stable within a minute but
+# reorders across days.
+#
+# Deliberately not part of the daily run: it doubles the request count, and
+# the daily run's own confirmation step already covers the within-minute case.
+
+on:
+  schedule:
+    - cron: "23 5 * * 1" # Mondays, before the week's snapshots
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  stability:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Probe every tracked document for read-to-read instability
+        id: probe
+        env:
+          RELAY_URL: https://scanrecords.org/api/fetch-relay
+          RELAY_TOKEN: ${{ secrets.RELAY_TOKEN }}
+        run: |
+          set +e
+          node tools/stability.mjs > stability.txt 2>&1
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          cat stability.txt
+
+      - name: Open an issue for documents that reorder between reads
+        if: steps.probe.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          OPEN=$(gh issue list -R "${{ github.repository }}" --state open \
+            --search "Unstable tracked documents in:title" --json number --jq 'length')
+          if [ "$OPEN" = "0" ]; then
+            {
+              echo "One or more tracked documents return the same lines in a different order between reads."
+              echo
+              echo "Left alone this produces a change event, an email and a public post about an edit that did not happen."
+              echo 'Fix: set \`canonical: "lines"\` on the document in companies.json, then run \`node tools/reextract.mjs\` and commit both together so the re-baseline does not itself look like a change.'
+              echo
+              echo '```'
+              tail -40 stability.txt
+              echo '```'
+            } > body.md
+            gh issue create -R "${{ github.repository }}" \
+              --title "Unstable tracked documents ($(date -u +%F))" \
+              --body-file body.md
+          fi
