@@ -121,6 +121,17 @@ async function fetchDoc(url, ua) {
   // When the EU relay is configured (CI runs on US machines), every document
   // fetch rides through it — the archive reads the web as the EU sees it.
   const { RELAY_URL, RELAY_TOKEN } = process.env;
+  // Half-configured is the dangerous state. If the URL is set and the token is
+  // not, this used to fall through to a direct fetch and quietly capture the
+  // wrong vantage for every document in the run — Meta alone serves text that
+  // differs by tens of thousands of characters, so a missing secret would look
+  // like the entire web rewriting its policies overnight.
+  if (RELAY_URL && !RELAY_TOKEN) {
+    throw Object.assign(
+      new Error("RELAY_URL is set but RELAY_TOKEN is missing — refusing to fetch from the wrong vantage"),
+      { name: "RelayMisconfigured" }
+    );
+  }
   if (RELAY_URL && RELAY_TOKEN) {
     const res = await fetch(`${RELAY_URL}?url=${encodeURIComponent(url)}`, {
       signal: AbortSignal.timeout(FETCH_TIMEOUT_MS + 5_000),

@@ -31,7 +31,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { extractText, filterNoise, clipText, canonicalLines } from "./snapshot.mjs";
+import { extractText, filterNoise, clipText, canonicalLines, STUB_FLOOR } from "./snapshot.mjs";
 import { pdfText } from "./pdf.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -111,8 +111,15 @@ for (const [company, doc] of targets.slice(0, limit)) {
   const archivePath = join(ROOT, "archive", company.slug, `${doc.id}.txt`);
   const stored = existsSync(archivePath) ? readFileSync(archivePath, "utf8").trim() : null;
 
+  // A page that hands back nothing is a failed read, not a changed document.
+  // Meta's privacy policy does this to direct requests, which is how the very
+  // first false alert happened; calling it "drifted" would hide that.
+  const floor = doc.minChars ?? STUB_FLOOR;
   let verdict, detail = "";
-  if (sha(a) !== sha(b)) {
+  if (a.trim().length < floor || b.trim().length < floor) {
+    verdict = "unreadable";
+    detail = `read returned ${Math.min(a.trim().length, b.trim().length)} chars (floor ${floor}) — blocked or JS-rendered from here`;
+  } else if (sha(a) !== sha(b)) {
     verdict = sameLineSet(a, b) ? "reordering" : "unstable";
     detail = verdict === "reordering" ? "two reads differ only in line order" : "two reads differ in content";
   } else if (stored !== null && sha(a.trim()) !== sha(stored)) {
@@ -124,7 +131,7 @@ for (const [company, doc] of targets.slice(0, limit)) {
     verdict = "stable";
   }
   rows.push({ key, verdict, detail });
-  const mark = { stable: "ok  ", reordering: "⚠ RE", unstable: "⚠ UN", drifted: "·  D", error: "ERR " }[verdict];
+  const mark = { stable: "ok  ", reordering: "⚠ RE", unstable: "⚠ UN", drifted: "·  D", unreadable: "·  U", error: "ERR " }[verdict];
   console.log(`  ${mark} ${key.padEnd(34)} ${detail}`);
   await sleep(POLITE_MS);
 }
@@ -132,7 +139,8 @@ for (const [company, doc] of targets.slice(0, limit)) {
 const by = (v) => rows.filter((r) => r.verdict === v);
 console.log(
   `\n${rows.length} documents: ${by("stable").length} stable, ${by("drifted").length} drifted, ` +
-  `${by("reordering").length} REORDERING, ${by("unstable").length} UNSTABLE, ${by("error").length} error`
+  `${by("unreadable").length} unreadable, ${by("reordering").length} REORDERING, ` +
+  `${by("unstable").length} UNSTABLE, ${by("error").length} error`
 );
 for (const r of [...by("reordering"), ...by("unstable")]) {
   console.log(`  → ${r.key}: ${r.verdict === "reordering" ? 'set canonical:"lines" on this doc' : "investigate before it emits a false change"}`);
