@@ -8,7 +8,8 @@
   "docTitle": "Procedure file 2025/0429(COD) — extension of the derogation",
   "kind": "change",
   "added": 4,
-  "removed": 4
+  "removed": 4,
+  "corrected": "Recorded in error. Nothing in the procedure file changed: the page lists the same entries in a different order between renders, and two of them swapped places. Fetching it twice now returns identical text, and the capture from the day before has the same set of lines as the day after. The document is now canonicalised before hashing, so ordering can no longer be mistaken for an edit."
  },
  {
   "id": "2026-07-29-eu-parliament-derogation-procedure-baseline",

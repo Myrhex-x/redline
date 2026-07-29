@@ -1780,7 +1780,8 @@
      "id": "derogation-procedure",
      "title": "Procedure file 2025/0429(COD) — extension of the derogation",
      "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0429(COD)",
-     "minChars": 500
+     "minChars": 500,
+     "canonical": "lines"
     }
    ],
    "ua": "browser"

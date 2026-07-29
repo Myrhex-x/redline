@@ -143,6 +143,12 @@ function main() {
       added,
       removed,
     });
+    // This run has now spoken for the doc. Without this the baseline pass below
+    // still sees it as "never mentioned in history" and files a baseline for
+    // the same document on the same day — which happened to the EP procedure
+    // file, whose first recorded event was a change and a first-recording at
+    // once. A document is either being met for the first time or changing.
+    seen.add(`${slug}/${doc}`);
     console.log(`change    ${id}  +${added} −${removed}${truncated ? " (truncated)" : ""}`);
   }
 
