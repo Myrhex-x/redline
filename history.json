@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-07-30-eu-parliament-derogation-procedure",
+  "date": "2026-07-30",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "derogation-procedure",
+  "docTitle": "Procedure file 2025/0429(COD) — extension of the derogation",
+  "kind": "change",
+  "added": 9,
+  "removed": 2
+ },
+ {
   "id": "2026-07-29-eu-parliament-derogation-procedure",
   "date": "2026-07-29",
   "slug": "eu-parliament",

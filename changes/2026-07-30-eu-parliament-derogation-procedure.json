@@ -1,0 +1,198 @@
+{
+ "id": "2026-07-30-eu-parliament-derogation-procedure",
+ "date": "2026-07-30",
+ "slug": "eu-parliament",
+ "doc": "derogation-procedure",
+ "hunks": [
+  {
+   "header": "@@ -45,6 +45,7 @@ Access to page content (press \"Enter\")",
+   "lines": [
+    {
+     "t": " ",
+     "s": "26/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "26/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "27/01/2026"
+    },
+    {
+     "t": "+",
+     "s": "28/07/2026"
+    },
+    {
+     "t": " ",
+     "s": "3.30.05 Electronic and mobile communications, personal communications"
+    },
+    {
+     "t": " ",
+     "s": "3.30.25 International information networks and society, internet"
+    },
+    {
+     "t": " ",
+     "s": "A10-0040/2026"
+    }
+   ]
+  },
+  {
+   "header": "@@ -169,6 +170,10 @@ Event",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Events"
+    },
+    {
+     "t": " ",
+     "s": "Facebook"
+    },
+    {
+     "t": " ",
+     "s": "Facebook"
+    },
+    {
+     "t": "+",
+     "s": "Final act"
+    },
+    {
+     "t": "+",
+     "s": "Final act"
+    },
+    {
+     "t": "+",
+     "s": "Final act"
+    },
+    {
+     "t": "+",
+     "s": "Final act published in Official Journal"
+    },
+    {
+     "t": " ",
+     "s": "Final act signed"
+    },
+    {
+     "t": " ",
+     "s": "Find a procedure"
+    },
+    {
+     "t": " ",
+     "s": "Find out more"
+    }
+   ]
+  },
+  {
+   "header": "@@ -240,6 +245,7 @@ National parliaments",
+   "lines": [
+    {
+     "t": " ",
+     "s": "News"
+    },
+    {
+     "t": " ",
+     "s": "News"
+    },
+    {
+     "t": " ",
+     "s": "News"
+    },
+    {
+     "t": "+",
+     "s": "OJ OJ L 28.07.2026"
+    },
+    {
+     "t": " ",
+     "s": "Open Data Portal"
+    },
+    {
+     "t": " ",
+     "s": "Ordinary legislative procedure"
+    },
+    {
+     "t": " ",
+     "s": "Other institutions and bodies"
+    }
+   ]
+  },
+  {
+   "header": "@@ -261,8 +267,8 @@ Plenary sitting",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Presidency"
+    },
+    {
+     "t": " ",
+     "s": "Press Service"
+    },
+    {
+     "t": " ",
+     "s": "Privacy policy"
+    },
+    {
+     "t": "-",
+     "s": "Procedure completed, awaiting publication in Official Journal"
+    },
+    {
+     "t": "-",
+     "s": "Procedure completed, awaiting publication in Official Journal"
+    },
+    {
+     "t": "+",
+     "s": "Procedure completed"
+    },
+    {
+     "t": "+",
+     "s": "Procedure completed"
+    },
+    {
+     "t": " ",
+     "s": "Procedure file"
+    },
+    {
+     "t": " ",
+     "s": "Procedure reference"
+    },
+    {
+     "t": " ",
+     "s": "Procedure subtype"
+    }
+   ]
+  },
+  {
+   "header": "@@ -286,6 +292,7 @@ Reference",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Register"
+    },
+    {
+     "t": " ",
+     "s": "Regulation"
+    },
+    {
+     "t": " ",
+     "s": "Regulation"
+    },
+    {
+     "t": "+",
+     "s": "Regulation 2026/1881"
+    },
+    {
+     "t": " ",
+     "s": "Results of vote in Parliament"
+    },
+    {
+     "t": " ",
+     "s": "Results of vote in Parliament"
+    },
+    {
+     "t": " ",
+     "s": "Role"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -45,6 +45,7 @@ Access to page content (press "Enter")
 26/03/2026
 26/03/2026
 27/01/2026
+28/07/2026
 3.30.05 Electronic and mobile communications, personal communications
 3.30.25 International information networks and society, internet
 A10-0040/2026
@@ -169,6 +170,10 @@ Event
 Events
 Facebook
 Facebook
+Final act
+Final act
+Final act
+Final act published in Official Journal
 Final act signed
 Find a procedure
 Find out more
@@ -240,6 +245,7 @@ National parliaments
 News
 News
 News
+OJ OJ L 28.07.2026
 Open Data Portal
 Ordinary legislative procedure
 Other institutions and bodies
@@ -261,8 +267,8 @@ Plenary sitting
 Presidency
 Press Service
 Privacy policy
-Procedure completed, awaiting publication in Official Journal
-Procedure completed, awaiting publication in Official Journal
+Procedure completed
+Procedure completed
 Procedure file
 Procedure reference
 Procedure subtype
@@ -286,6 +292,7 @@ Reference
 Register
 Regulation
 Regulation
+Regulation 2026/1881
 Results of vote in Parliament
 Results of vote in Parliament
 Role
