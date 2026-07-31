@@ -1,0 +1,62 @@
+{
+ "id": "2026-07-31-apple-imessage-security",
+ "date": "2026-07-31",
+ "slug": "apple",
+ "doc": "imessage-security",
+ "hunks": [
+  {
+   "header": "@@ -25,12 +25,6 @@ Support",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Apple Platform Security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Open Menu"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Close Menu"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Communities"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Search this guide"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Clear Search"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

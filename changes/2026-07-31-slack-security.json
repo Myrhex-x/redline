@@ -1,0 +1,83 @@
+{
+ "id": "2026-07-31-slack-security",
+ "date": "2026-07-31",
+ "slug": "slack",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -99,7 +99,7 @@ Find new agents and apps that fit your team’s needs.",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Browse marketplace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Feature Releases"
+    },
+    {
+     "t": "-",
+     "s": "Partner Apps MCP, and more"
+    },
+    {
+     "t": "+",
+     "s": "Canvas Table of Contents, and more"
+    },
+    {
+     "t": " ",
+     "s": "See what’s new"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is Slack?"
+    }
+   ]
+  },
+  {
+   "header": "@@ -294,7 +294,7 @@ Find new agents and apps that fit your team’s needs.",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Browse marketplace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Feature Releases"
+    },
+    {
+     "t": "-",
+     "s": "Partner Apps MCP, and more"
+    },
+    {
+     "t": "+",
+     "s": "Canvas Table of Contents, and more"
+    },
+    {
+     "t": " ",
+     "s": "See what’s new"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is Slack?"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

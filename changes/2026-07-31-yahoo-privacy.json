@@ -1,0 +1,99 @@
+{
+ "id": "2026-07-31-yahoo-privacy",
+ "date": "2026-07-31",
+ "slug": "yahoo",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -8,6 +8,10 @@ Privacy Centre",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy Policy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Information for Children"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Information for Non-Users"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Your Privacy Controls"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "How Digital Advertising Works"
+    }
+   ]
+  },
+  {
+   "header": "@@ -34,6 +38,10 @@ Privacy Centre",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy Policy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Information for Children"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Information for Non-Users"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Your Privacy Controls"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "How Digital Advertising Works"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
