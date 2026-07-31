@@ -238,7 +238,7 @@ stands on.</p>
 const GLOSSARY = [
   ["Chat Control", "The colloquial name for two EU instruments: the ePrivacy derogation in force ('1.0', voluntary scanning, until April 2028) and the draft CSA Regulation ('2.0', potentially mandatory detection). Most confusion about Chat Control comes from mixing them up."],
   ["Derogation report (Article 3(1)(g)(vii))", "The transparency report the derogation itself requires from every provider that scans under it — no scanning, nothing to file. This is why filing one is the strongest public evidence of Chat Control use, and it is a different thing from DSA transparency reports, which all large platforms must publish whether they scan private messages or not. The Commission's COM(2025) 740 names exactly five filers for 2023 and 2024: Google, LinkedIn, Meta, Microsoft, Yubo."],
-  ["ePrivacy derogation (Regulation 2021/1232)", "The exception to EU confidentiality rules that lets providers voluntarily scan private communications for child sexual abuse material. Reinstated in July 2026 and in force until April 2028; end-to-end encrypted communications are formally excluded."],
+  ["ePrivacy derogation (Regulation 2021/1232)", "The exception to EU confidentiality rules that lets providers voluntarily scan private communications for child sexual abuse material. Reinstated in July 2026 by Regulation (EU) 2026/1881, published in the Official Journal on 28 July 2026, and in force until 3 April 2028; end-to-end encrypted communications are formally excluded."],
   ["CSA Regulation (“Chat Control 2.0”)", "The proposed permanent regulation (2022) whose detection orders could make scanning mandatory, including via scanning on the user's device. Still in negotiation; not law."],
   ["End-to-end encryption (E2EE)", "Encryption where only the communicating devices hold the keys — the provider cannot read message content, so it has nothing meaningful to scan server-side. Signal, WhatsApp, Threema, Olvid, Wire and Element use it by default."],
   ["Client-side scanning", "Scanning content on the user's device before encryption is applied. The mechanism by which mandatory detection could reach E2EE apps, and the central controversy of Chat Control 2.0."],
@@ -1364,7 +1364,7 @@ for (const e of realChanges) {
     <div class="beam" aria-hidden="true"></div>
     <div class="cc-grid">
       <div>
-        <div class="eyebrow">Regulation (EU) 2021/1232 — in force until April 2028</div>
+        <div class="eyebrow">Regulation (EU) 2021/1232, extended by 2026/1881 — in force until April 2028</div>
         <h1>What is the EU's Chat&nbsp;Control?</h1>
         <p class="lede">The rule that lets communication providers <strong>voluntarily scan
         private messages</strong> in the EU. Not mandatory, not universal, and end-to-end
@@ -1404,7 +1404,7 @@ for (const e of realChanges) {
     <li><b>Jun 2024</b> — Council's "upload moderation" compromise fails to find a majority; the vote is pulled.</li>
     <li><b>Dec 2025</b> — Council and Parliament begin trilogue negotiations on 2.0.</li>
     <li><b>Mar–Apr 2026</b> — Parliament rejects extending 1.0 (311–228); the derogation lapses on 3 April.</li>
-    <li><b>Jul 2026</b> — The Council reinstates it; a Parliament rejection motion gets more no than yes votes (314–276) but misses the 361 absolute majority. Extended to <b>April 2028</b>, with E2EE formally excluded.</li>
+    <li><b>Jul 2026</b> — The Council reinstates it; a Parliament rejection motion gets more no than yes votes (314–276) but misses the 361 absolute majority. Extended to <b>April 2028</b>, with E2EE formally excluded. Published in the Official Journal on 28 July 2026 as <b>Regulation (EU) 2026/1881</b>.</li>
     <li><b>Jun–Jul 2026</b> — The supposedly final 2.0 trilogue collapses over suspicionless scanning; negotiations continue.</li>
   </ol>
 
@@ -1425,11 +1425,15 @@ for (const e of realChanges) {
     over suspicionless scanning; negotiations continue under the Irish Council presidency. Nothing is
     law yet. This box is re-reviewed whenever statuses are.</div>
   </div>
-  <p class="note">The reinstatement and the new end date are on the record in Parliament's own
-  legislative observatory — procedure
+  <p class="note">This is now law with a number. The extension was published in the Official Journal
+  on 28 July 2026 as <strong>Regulation (EU) 2026/1881</strong>, recorded in Parliament's own legislative
+  observatory — procedure
   <a href="https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0429(COD)">2025/0429(COD)</a>,
-  “Text adopted by Parliament, 2nd reading”, <a href="/archive/eu-parliament/derogation-procedure.txt">archived
-  here</a>. Two long-standing trackers this site also archives — Parliament's own legislative train and
+  “Final act published in Official Journal”, <a href="/archive/eu-parliament/derogation-procedure.txt">archived
+  here</a>. This archive caught that publication the morning it happened: the procedure file moved from
+  “awaiting publication” to the final act overnight, and the
+  <a href="/change/2026-07-30-eu-parliament-derogation-procedure/">recorded difference</a> is the moment it
+  became law. Two long-standing trackers this site also archives — Parliament's own legislative train and
   Patrick Breyer's overview — still describe the derogation as having expired on 3 April 2026. They
   predate the July 2026 vote rather than contradicting it, and are kept as captured.</p>
   <p class="note">Background reading:
