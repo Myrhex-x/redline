@@ -1,0 +1,165 @@
+{
+ "id": "2026-08-04-apple-imessage-security",
+ "date": "2026-08-04",
+ "slug": "apple",
+ "doc": "imessage-security",
+ "hunks": [
+  {
+   "header": "@@ -221,6 +221,8 @@ Gatekeeper and runtime protection",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Protecting against malware"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Terminal and script protections"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Controlling app access to files"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Supporting extensions"
+    }
+   ]
+  },
+  {
+   "header": "@@ -233,7 +235,7 @@ Services security",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Services security overview"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Apple Account and Managed Apple Account"
+    },
+    {
+     "t": "+",
+     "s": "Apple Accounts and Managed Apple Accounts"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Apple Account security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -249,6 +251,8 @@ Advanced Data Protection for iCloud",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "iCloud Backup security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Search on iCloud.com security"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "iCloud Private Relay security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Account recovery contact security"
+    }
+   ]
+  },
+  {
+   "header": "@@ -347,6 +351,10 @@ Secure Apple Messages for Business",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "FaceTime security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "SharePlay security"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Nearby sharing security"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Find My"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Find My security"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

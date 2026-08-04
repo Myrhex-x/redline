@@ -221,6 +221,8 @@ Gatekeeper and runtime protection
 
 Protecting against malware
 
+Terminal and script protections
+
 Controlling app access to files
 
 Supporting extensions
@@ -233,7 +235,7 @@ Services security
 
 Services security overview
 
-Apple Account and Managed Apple Account
+Apple Accounts and Managed Apple Accounts
 
 Apple Account security
 
@@ -248,6 +250,8 @@ iCloud encryption
 Advanced Data Protection for iCloud
 
 iCloud Backup security
+
+Search on iCloud.com security
 
 iCloud Private Relay security
 
@@ -346,6 +350,10 @@ Secure iMessage name and photo sharing
 Secure Apple Messages for Business
 
 FaceTime security
+
+SharePlay security
+
+Nearby sharing security
 
 Find My
 

@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-08-04-apple-imessage-security",
+  "date": "2026-08-04",
+  "slug": "apple",
+  "company": "Apple (iMessage, iCloud)",
+  "doc": "imessage-security",
+  "docTitle": "iMessage Security Overview",
+  "kind": "change",
+  "added": 9,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "6 short labels, no prose and no tracked vocabulary: \"Terminal and script protecti\", \"Apple Account and Managed Ap\", \"Apple Accounts and Managed A\", \"Search on iCloud.com securit\", \"SharePlay security\", \"Nearby sharing security\""
+ },
+ {
+  "id": "2026-08-04-tuta-encryption",
+  "date": "2026-08-04",
+  "slug": "tuta",
+  "company": "Tuta (Tutanota)",
+  "doc": "encryption",
+  "docTitle": "Encryption",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
   "id": "2026-07-31-apple-imessage-security",
   "date": "2026-07-31",
   "slug": "apple",

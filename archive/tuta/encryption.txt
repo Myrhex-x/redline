@@ -26,7 +26,7 @@ And the entire search index.
 
 Tuta automatically encrypts all emails between Tuta users end-to-end, which makes a great difference to online security as a whole. Tuta even lets you send end-to-end encrypted emails to anyone regardless of the email provider that they use.
 
-Encrypted emails to anyone
+Password-protected emails
 Tuta uses symmetric (AES 256) and asymmetric encryption (RSA 2048 or ECC (x25519) and Kyber-1024 as quantum-safe algorithms ) to encrypt emails end-to-end. When both parties use Tuta, all emails are automatically end-to-end encrypted (asymmetric encryption). For an encrypted email to an external recipient, a password for encrypting & decrypting the email (symmetric encryption) must be exchanged once. You can then use the same password for any conversation with that specific contact: With Tuta you don’t need to set a new password for each email sent to the same contact.
 
 Tuta’s automatic encryption works easily on all mobile and desktop devices. The encryption key is never shared with anyone else, including Tuta. Therefore, even if a malicious attacker intercepts the email message, they will not be able to read its content or attachments.
