@@ -1,0 +1,144 @@
+{
+ "id": "2026-08-05-tuta-encryption",
+ "date": "2026-08-05",
+ "slug": "tuta",
+ "doc": "encryption",
+ "hunks": [
+  {
+   "header": "@@ -63,7 +63,7 @@ To secure the login password, Tuta uses Argon2 and SHA256. Thus, the login passw",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "This is shown by the following picture and explained in the text below:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Argon2 modifies the password so that it becomes the “AES password key”. This AES password key is used to encrypt the private RSA-key (though via an indirection with the private symmetric “AES user group key”)."
+    },
+    {
+     "t": "+",
+     "s": "Argon2 takes the password as input to derive the “AES password key”. This AES password key is used to encrypt the private keys (though via an indirection with the private symmetric “AES user group key”)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "The AES password key itself, however, is not used to authenticate the user with the server, but it is hashed to become the “password verifier”."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -78,11 +78,11 @@ The decryption process takes place locally on the device of the user once the us",
+   "lines": [
+    {
+     "t": " ",
+     "s": "By encrypting the private key with the user’s password, Tuta can automatize the entire encryption process without ever having access to your private key."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why does Tuta Mail not use PGP?"
+    },
+    {
+     "t": "-",
+     "s": "Tuta uses standard algorithms also being used by PGP (AES and RSA or ECC) for encrypting the entire mailbox. In addition, Tuta Mail already uses post-quantum cryptography (Kyber) for quantum safe accounts, which is still a work in progress for PGP. Furthermore, Tuta does not use an implementation of PGP itself because PGP lacks important requirements that we have for Tuta:"
+    },
+    {
+     "t": "+",
+     "s": "Tuta uses standard algorithms also being used by PGP (AES and x25519 with Kyber/ML-KEM) for encrypting the entire mailbox. Furthermore, Tuta does not use an implementation of PGP itself because PGP lacks important requirements that we have for Tuta:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "PGP does not encrypt the subject line (already achieved in Tuta),"
+    },
+    {
+     "t": "+",
+     "s": "PGP does not encrypt the subject line (already achieved in Tuta)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "PGP algorithms can't be easily updated, e.g. to post-quantum secure ones like in Tuta Mail,"
+    },
+    {
+     "t": "+",
+     "s": "PGP algorithms can't be easily updated (We were able to migrate to post-quantum secure encryption much faster)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "PGP has no option for Perfect Forward Secrecy (already achieved for Tuta in a prototype)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -98,7 +98,7 @@ However, in May 2018, the Electronic Frontier Foundation (EFF) announced critica",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Post-quantum secure encryption"
+    },
+    {
+     "t": " ",
+     "s": "Tuta is not only the most secure email service at the moment, it already offers post-quantum secure encryption."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Tuta was the first email provider to implement a protocol for post-quantum secure encryption. Since March 2024, we have been rolling out this protection to Tuta accounts. This lets us encrypt emails with a hybrid approach combining our proven encryption algorithms with post-quantum secure algorithms."
+    },
+    {
+     "t": "+",
+     "s": "Tuta was the first email provider to implement a protocol, TutaCrypt , for post-quantum secure encryption, which has been formally proven secure. Since March 2024, we have been rolling out this protection to Tuta accounts. This lets us encrypt emails with a hybrid approach combining our proven encryption algorithms with post-quantum secure algorithms."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "By already using post-quantum cryptography , Tuta protects your data against \"harvest now, decrypt later\" attacks and helps keep it secure when quantum computers are able to break today's commonly used encryption algorithms."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -11,10 +11,10 @@
   },
   {
    "doc": "privacy",
-   "chars": 37036
+   "chars": 38831
   }
  ],
- "totalChars": 58342,
+ "totalChars": 60137,
  "terms": [
   {
    "group": "eu",
@@ -103,15 +103,11 @@
    "group": "scan",
    "label": "scan / scanning / gescannt",
    "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
-   "count": 2,
+   "count": 1,
    "samples": [
     {
      "doc": "privacy",
-     "quote": "…lp protect your account and can send you email or text messages if we notice any suspicious activity. We also scan URLs sent on Snapchat to see if that webpage is potentially harmful and can give you a warning about it. Cont…"
-    },
-    {
-     "doc": "privacy",
-     "quote": "…offered by our integrated partners. Examples include integrations in Lenses, Camera editing tools, to provide Scan results and third-party developer integrations. Through these integrations, you may be providing information…"
+     "quote": "…lp protect your account and can send you email or text messages if we notice any suspicious activity. We also scan URLs sent on Snapchat to see if that webpage is potentially harmful and can give you a warning about it. We m…"
     }
    ]
   },
@@ -138,7 +134,7 @@
     },
     {
      "doc": "privacy",
-     "quote": "…their input training data and then generate new data that has similar characteristics). We use algorithms and machine learning models for personalisation, advertising, safety and security, fairness and inclusivity, augmented reality and to pr…"
+     "quote": "…of their input training data and then generate new data that has similar characteristics). We use algorithms, machine learning models and generative AI for personalisation, advertising, safety and security, fairness and inclusivity, augmented…"
     }
    ]
   },

@@ -1,5 +1,40 @@
 [
  {
+  "id": "2026-08-05-eu-commission-csa-policy",
+  "date": "2026-08-05",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "change",
+  "added": 0,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Statistics\""
+ },
+ {
+  "id": "2026-08-05-snapchat-privacy",
+  "date": "2026-08-05",
+  "slug": "snapchat",
+  "company": "Snapchat",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 36,
+  "removed": 29
+ },
+ {
+  "id": "2026-08-05-tuta-encryption",
+  "date": "2026-08-05",
+  "slug": "tuta",
+  "company": "Tuta (Tutanota)",
+  "doc": "encryption",
+  "docTitle": "Encryption",
+  "kind": "change",
+  "added": 5,
+  "removed": 5
+ },
+ {
   "id": "2026-08-04-apple-imessage-security",
   "date": "2026-08-04",
   "slug": "apple",
