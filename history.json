@@ -1,5 +1,71 @@
 [
  {
+  "id": "2026-08-06-meta-privacy",
+  "date": "2026-08-06",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 230,
+  "removed": 145
+ },
+ {
+  "id": "2026-08-06-proton-privacy",
+  "date": "2026-08-06",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
+  "id": "2026-08-06-proton-transparency",
+  "date": "2026-08-06",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
+  "id": "2026-08-06-wire-privacy",
+  "date": "2026-08-06",
+  "slug": "wire",
+  "company": "Wire",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 2,
+  "removed": 6
+ },
+ {
+  "id": "2026-08-06-wire-security",
+  "date": "2026-08-06",
+  "slug": "wire",
+  "company": "Wire",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "change",
+  "added": 2,
+  "removed": 6
+ },
+ {
+  "id": "2026-08-06-zoom-privacy",
+  "date": "2026-08-06",
+  "slug": "zoom",
+  "company": "Zoom",
+  "doc": "privacy",
+  "docTitle": "Privacy Statement",
+  "kind": "change",
+  "added": 3,
+  "removed": 3
+ },
+ {
   "id": "2026-08-05-eu-commission-csa-policy",
   "date": "2026-08-05",
   "slug": "eu-commission",

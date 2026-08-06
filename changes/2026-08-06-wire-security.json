@@ -1,0 +1,74 @@
+{
+ "id": "2026-08-06-wire-security",
+ "date": "2026-08-06",
+ "slug": "wire",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -60,13 +60,9 @@ Confidential communication",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Protect sensitive data with a secure, encrypted channel for trusted, cross-team response."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "MS Teams & Slack alternative"
+    },
+    {
+     "t": "+",
+     "s": "WhatsApp & Signal alternative"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Collaborate confidently with full encryption, no surveillance, and simple onboarding. Ideal for security-first teams."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "NIS2 compliance"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Stay compliant and avoid fines with secure messaging, access controls, and encrypted collaboration built for EU regulations."
+    },
+    {
+     "t": "+",
+     "s": "Give employees the speed and simplicity of consumer apps, with the governance, security, and compliance your organization is accountable for."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "State and municipal government"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

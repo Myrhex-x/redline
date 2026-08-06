@@ -1,0 +1,120 @@
+{
+ "id": "2026-08-06-zoom-privacy",
+ "date": "2026-08-06",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -103,7 +103,7 @@ Revenue Accelerator Webinars & Events Bonsai BrightHire",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom CX"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contact Center AI Expert Assist Workforce Engagement CX Insights"
+    },
+    {
+     "t": "+",
+     "s": "Contact Center AI Expert Assist Workforce Management Quality Management CX Insights"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom AI"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -139,7 +139,7 @@ BrightHire",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom CX Zoom CX"
+    },
+    {
+     "t": " ",
+     "s": "Powerful solutions to help Customer Experience teams deliver better, more impactful customer service. Learn more"
+    },
+    {
+     "t": "-",
+     "s": "Contact Center Workforce Engagement Virtual Agent CX Insights AI Expert Assist"
+    },
+    {
+     "t": "+",
+     "s": "Contact Center Workforce Management Virtual Agent Quality Management AI Expert Assist CX Insights"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom AI Zoom AI"
+    },
+    {
+     "t": " ",
+     "s": "AI that turns conversations into action. Learn more"
+    }
+   ]
+  },
+  {
+   "header": "@@ -185,7 +185,7 @@ Learn more about AI at Zoom. Get AI support",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Success Guides: Zoom AI Success Guides: ZoomMate AI Privacy and Security AI ROI Calculator"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "By industry"
+    },
+    {
+     "t": "-",
+     "s": "Education Financial Services Professionals Government Healthcare Manufacturing Retail Frontline Broadcast"
+    },
+    {
+     "t": "+",
+     "s": "Education Financial Services Professionals Government Healthcare Manufacturing Retail Broadcast"
+    },
+    {
+     "t": " ",
+     "s": "By audience"
+    },
+    {
+     "t": " ",
+     "s": "Small and midsize business Enterprise"
+    },
+    {
+     "t": " ",
+     "s": "Information Technology Customer Experience Sales and Revenue Facilities Marketing and Events"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

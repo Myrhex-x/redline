@@ -45,9 +45,9 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 </style>
 
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-<link rel="stylesheet" href="https://wire.com/hubfs/hub_generated/template_assets/1/111203702265/1784886519525/template_main.min.css">
-<link rel="stylesheet" href="https://wire.com/hubfs/hub_generated/template_assets/1/113573520861/1780486980501/template_child.min.css">
-<link rel="stylesheet" href="https://wire.com/hubfs/hub_generated/template_assets/1/111207047154/1784886517484/template_responsive.min.css">
+<link rel="stylesheet" href="https://wire.com/hubfs/hub_generated/template_assets/1/111203702265/1785943720001/template_main.min.css">
+<link rel="stylesheet" href="https://wire.com/hubfs/hub_generated/template_assets/1/113573520861/1785943711488/template_child.min.css">
+<link rel="stylesheet" href="https://wire.com/hubfs/hub_generated/template_assets/1/111207047154/1785943715268/template_responsive.min.css">
 <link rel="stylesheet" href="https://wire.com/hubfs/hub_generated/module_assets/1/113573557969/1747059201898/module_Navbar_with_Menu.min.css">
 <link rel="stylesheet" href="/hs/hsstatic/cos-LanguageSwitcher/static-1.336/sass/LanguageSwitcher.css">
 
@@ -1543,52 +1543,6 @@ margin-bottom: 0px;
     
 
     
-<!--  Added by GoogleAnalytics4 integration -->
-<script>
-var _hsp = window._hsp = window._hsp || [];
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-
-var useGoogleConsentModeV2 = true;
-var waitForUpdateMillis = 1000;
-
-
-if (!window._hsGoogleConsentRunOnce) {
-  window._hsGoogleConsentRunOnce = true;
-
-  gtag('consent', 'default', {
-    'ad_storage': 'denied',
-    'analytics_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'wait_for_update': waitForUpdateMillis
-  });
-
-  if (useGoogleConsentModeV2) {
-    _hsp.push(['useGoogleConsentModeV2'])
-  } else {
-    _hsp.push(['addPrivacyConsentListener', function(consent){
-      var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
-      var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
-
-      gtag('consent', 'update', {
-        'ad_storage': hasAdsConsent ? 'granted' : 'denied',
-        'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
-        'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
-        'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
-      });
-    }]);
-  }
-}
-
-gtag('js', new Date());
-gtag('set', 'developer_id.dZTQ1Zm', true);
-gtag('config', 'G-E1H0TRCTTD');
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E1H0TRCTTD"></script>
-
-<!-- /Added by GoogleAnalytics4 integration -->
-
 <!--  Added by GoogleTagManager integration -->
 <script>
 var _hsp = window._hsp = window._hsp || [];
@@ -1650,6 +1604,7 @@ _hsp.push(['addPrivacyConsentListener', function(consent){
     }
   })();
 </script>
+
 <!-- ✅ Consent logic (only runs if needed) -->
 <script>
 (function () {
@@ -1702,6 +1657,39 @@ _hsp.push(['addPrivacyConsentListener', function(consent){
       `;
       document.head.appendChild(fixStyle);
     };
+
+    // ✅ Remove overlay when consent choices are saved by category
+    var _hsp = window._hsp = window._hsp || [];
+    _hsp.push([
+      'addPrivacyConsentListener',
+      function (consent) {
+        if (!consent) return;
+
+        const categories = consent.categories || {};
+
+        const decisionRecorded =
+          typeof consent.allowed === 'boolean' ||
+          typeof categories.analytics === 'boolean' ||
+          typeof categories.advertisement === 'boolean' ||
+          typeof categories.functionality === 'boolean';
+
+        if (decisionRecorded) {
+          unblock();
+        }
+      }
+    ]);
+
+    // ✅ Remove overlay when category preferences are saved
+    document.addEventListener('click', function (event) {
+      const saveSettingsButton = event.target.closest('#hs-modal-save-settings');
+
+      if (!saveSettingsButton) return;
+
+      // Allow HubSpot to process and close the preferences modal first
+      setTimeout(() => {
+        unblock();
+      }, 100);
+    }, true);
 
     const interval = setInterval(() => {
       const accept = document.getElementById('hs-eu-confirmation-button');
@@ -1785,44 +1773,6 @@ _hsp.push(['addPrivacyConsentListener', function(consent){
 })();
 </script>
 
-<!-- ✅ Geo Redirect -->
-<script>
-(function(g,e,o,t,a,r,ge,tl,y,s){
-g.getElementsByTagName(o)[0].insertAdjacentHTML('afterbegin','<style id="georedirect1705499207128style">body{opacity:0.0 !important;}</style>');
-s=function(){g.getElementById('georedirect1705499207128style').innerHTML='body{opacity:1.0 !important;}';};
-t=g.getElementsByTagName(o)[0];y=g.createElement(e);y.async=true;
-y.src='https://g10498469755.co/gr?id=-NoMf9Je_7lQ1OwnH9kk&refurl='+g.referrer+'&winurl='+encodeURIComponent(window.location);
-t.parentNode.insertBefore(y,t);y.onerror=function(){s()};
-georedirect1705499207128loaded=function(redirect){var to=0;if(redirect){to=5000};
-setTimeout(function(){s();},to)};
-})(document,'script','head');
-</script>
-
-<script>
-(function(g,e,o,t,a,r,ge,tl,y){
-t=g.getElementsByTagName(o)[0];y=g.createElement(e);y.async=true;
-y.src='https://g9904216750.co/gb?id=-NoMc0Eevgcb2UYeqDXI&refurl='+g.referrer+'&winurl='+encodeURIComponent(window.location);
-t.parentNode.insertBefore(y,t);
-})(document,'script','head');
-</script>
-
-<!-- ✅ LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "438649";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);
-})(window.lintrk);
-</script>
 
 <script type="application/ld+json">
   {
@@ -1832,10 +1782,6 @@ s.parentNode.insertBefore(b, s);
     "logo": "https://wire.com/hubfs/brand%20portal/Short%20logo%20on%20black.svg"
   }
 </script>
-
-<!-- ✅ Contact Sales redirect based on organisation size + language -->
-
-
 <meta property="og:url" content="https://wire.com/en/security">
 <meta name="twitter:card" content="summary">
 <meta http-equiv="content-language" content="en">
@@ -1846,7 +1792,7 @@ s.parentNode.insertBefore(b, s);
 
 
 
-<link rel="stylesheet" href="https://wire.com/hubfs/hub_generated/template_assets/1/113573520861/1780486980501/template_child.min.css">
+<link rel="stylesheet" href="https://wire.com/hubfs/hub_generated/template_assets/1/113573520861/1785943711488/template_child.min.css">
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -2309,44 +2255,9 @@ s.parentNode.insertBefore(b, s);
   
 
   
-    <a href="https://wire.com/en/use-cases/secure-ms-teams-slack-alternative1">
-                    <h3>MS Teams &amp; Slack alternative</h3>
-<p>Collaborate confidently with full encryption, no surveillance, and simple onboarding. Ideal for security-first teams.</p>
-                    </a>
-  </div>
-                  <div class="kl-navbar__description">
-                    
-
-  
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    <a href="https://wire.com/en/use-cases/nis2-compliance1">
-                    <h3>NIS2 compliance</h3>
-<p>Stay compliant and avoid fines with secure messaging, access controls, and encrypted collaboration built for EU regulations.</p>
+    <a href="https://wire.com/en/use-case-shadow-app-collaboration-replacement">
+                    <h3>WhatsApp &amp; Signal alternative</h3>
+<p>Give employees the speed and simplicity of consumer apps, with the governance, security, and compliance your organization is accountable for.</p>
                     </a>
   </div>
                   <div class="kl-navbar__description">
@@ -5528,9 +5439,9 @@ s.parentNode.insertBefore(b, s);
 <!-- HubSpot performance collection script -->
 <script defer src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://wire.com/hubfs/hub_generated/template_assets/1/111203703005/1784886513027/template_main.min.js"></script>
-<script src="https://wire.com/hubfs/hub_generated/template_assets/1/113573507796/1780486977633/template_child.min.js"></script>
-<script src="https://wire.com/hubfs/hub_generated/template_assets/1/111203703004/1784886511704/template_helper.min.js"></script>
+<script src="https://wire.com/hubfs/hub_generated/template_assets/1/111203703005/1785943727525/template_main.min.js"></script>
+<script src="https://wire.com/hubfs/hub_generated/template_assets/1/113573507796/1785943709159/template_child.min.js"></script>
+<script src="https://wire.com/hubfs/hub_generated/template_assets/1/111203703004/1785943722893/template_helper.min.js"></script>
 <script>
 var hsVars = hsVars || {}; hsVars['language'] = 'en';
 </script>
@@ -5565,8 +5476,8 @@ _hsq.push(["setContentMetadata", {
 
 <script type="text/javascript">
 var hsVars = {
-    render_id: "4d0dcd83-d188-464f-9c18-19b5f0bc56ba",
-    ticks: 1783399950282,
+    render_id: "c37a8fff-6e8c-4638-a99a-f3b269fc3890",
+    ticks: 1785943763870,
     page_id: 114237322179,
     
     content_group_id: 0,
@@ -5587,42 +5498,254 @@ var hsVars = {
 
 <script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js"></script>
 
-<noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=438649&amp;fmt=gif">
-</noscript>
-
 <script>
-  <!-- ✅ Clay Code for website -->
+// ✅ Sync Advertisement consent to the HubSpot checkbox property
 (function () {
-  if (localStorage.getItem('cookieConsentGiven') === 'true') {
-    loadClay();
-    return;
+  const CONSENT_COOKIE = '__hs_cookie_cat_pref';
+
+  const CONSENT_FIELD_SELECTOR =
+    'input[name="ads_data_sharing_consent"]';
+
+  const CONSENT_FIELD_WRAPPER =
+    '.hs_ads_data_sharing_consent';
+
+  function injectFieldHidingStyle() {
+    if (
+      document.getElementById(
+        'ads-consent-field-style'
+      )
+    ) {
+      return;
+    }
+
+    const style =
+      document.createElement('style');
+
+    style.id = 'ads-consent-field-style';
+
+    style.textContent = `
+      ${CONSENT_FIELD_WRAPPER} {
+        display: none !important;
+      }
+    `;
+
+    document.head.appendChild(style);
   }
 
-  window.dataLayer = window.dataLayer || [];
-  const originalPush = window.dataLayer.push;
+  function getCookieValue(cookieName) {
+    const cookiePrefix = cookieName + '=';
 
-  window.dataLayer.push = function () {
-    for (let i = 0; i < arguments.length; i++) {
-      if (arguments[i] && arguments[i].event === "cookieConsentAccepted") {
-        loadClay();
+    const cookies = document.cookie
+      ? document.cookie.split(';')
+      : [];
+
+    for (
+      let i = 0;
+      i < cookies.length;
+      i++
+    ) {
+      const cookie = cookies[i].trim();
+
+      if (
+        cookie.indexOf(cookiePrefix) === 0
+      ) {
+        const rawValue =
+          cookie.substring(
+            cookiePrefix.length
+          );
+
+        try {
+          return decodeURIComponent(
+            rawValue
+          );
+        } catch (error) {
+          return rawValue;
+        }
       }
     }
-    return originalPush.apply(this, arguments);
-  };
 
-  function loadClay() {
-    if (window.__clayLoaded) return;
-    window.__clayLoaded = true;
+    return '';
+  }
 
-    var s = document.createElement("script");
-    s.src = "https://static.claydar.com/init.v1.js?id=cE3Ko65L4Z";
-    s.async = true;
-    document.body.appendChild(s);
+  function hasAdvertisementConsent() {
+    const consentValue =
+      getCookieValue(CONSENT_COOKIE);
+
+    return consentValue
+      .split('_')
+      .some(function (category) {
+        return category === '2:true';
+      });
+  }
+
+  function updateConsentField(field) {
+    if (
+      !field ||
+      field.type !== 'checkbox'
+    ) {
+      return;
+    }
+
+    const shouldBeChecked =
+      hasAdvertisementConsent();
+
+    if (
+      field.checked === shouldBeChecked
+    ) {
+      return;
+    }
+
+    const checkedSetter =
+      Object.getOwnPropertyDescriptor(
+        HTMLInputElement.prototype,
+        'checked'
+      ).set;
+
+    checkedSetter.call(
+      field,
+      shouldBeChecked
+    );
+
+    field.dispatchEvent(
+      new Event(
+        'input',
+        { bubbles: true }
+      )
+    );
+
+    field.dispatchEvent(
+      new Event(
+        'change',
+        { bubbles: true }
+      )
+    );
+  }
+
+  function syncAllConsentFields(root) {
+    const searchRoot =
+      root || document;
+
+    if (
+      searchRoot.nodeType === 1 &&
+      searchRoot.matches &&
+      searchRoot.matches(
+        CONSENT_FIELD_SELECTOR
+      )
+    ) {
+      updateConsentField(searchRoot);
+    }
+
+    if (
+      searchRoot.querySelectorAll
+    ) {
+      searchRoot
+        .querySelectorAll(
+          CONSENT_FIELD_SELECTOR
+        )
+        .forEach(
+          updateConsentField
+        );
+    }
+  }
+
+  function scheduleConsentSync() {
+    [
+      0,
+      100,
+      300,
+      750,
+      1500,
+      3000
+    ].forEach(function (delay) {
+      setTimeout(function () {
+        syncAllConsentFields(
+          document
+        );
+      }, delay);
+    });
+  }
+
+  function startConsentFieldSync() {
+    injectFieldHidingStyle();
+    scheduleConsentSync();
+
+    const observer =
+      new MutationObserver(
+        function (mutations) {
+          mutations.forEach(
+            function (mutation) {
+              mutation.addedNodes.forEach(
+                function (node) {
+                  if (
+                    node.nodeType === 1
+                  ) {
+                    syncAllConsentFields(
+                      node
+                    );
+                  }
+                }
+              );
+            }
+          );
+        }
+      );
+
+    observer.observe(
+      document.body,
+      {
+        childList: true,
+        subtree: true
+      }
+    );
+
+    document.addEventListener(
+      'click',
+      function (event) {
+        const consentButton =
+          event.target.closest(
+            '#hs-eu-confirmation-button,' +
+            '#hs-eu-decline-button,' +
+            '#hs-modal-accept-all,' +
+            '#hs-modal-decline-all,' +
+            '#hs-modal-save-settings'
+          );
+
+        if (!consentButton) {
+          return;
+        }
+
+        // Give HubSpot time to update
+        // the category consent cookie.
+        scheduleConsentSync();
+      },
+      true
+    );
+
+    document.addEventListener(
+      'submit',
+      function (event) {
+        syncAllConsentFields(
+          event.target
+        );
+      },
+      true
+    );
+  }
+
+  if (
+    document.readyState === 'loading'
+  ) {
+    document.addEventListener(
+      'DOMContentLoaded',
+      startConsentFieldSync
+    );
+  } else {
+    startConsentFieldSync();
   }
 })();
 </script>
 
+<!-- Footer checkbox consent sync deployment v4 -->
 
 
     

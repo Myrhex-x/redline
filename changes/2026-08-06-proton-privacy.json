@@ -1,0 +1,46 @@
+{
+ "id": "2026-08-06-proton-privacy",
+ "date": "2026-08-06",
+ "slug": "proton",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -165,7 +165,7 @@ Reports and insights",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Investigative reports Proton VPN observatory (new window) Data breach observatory Tech fines tracker Europe’s tech sovereignty watch European alternatives Proton’s guide to AI"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Videos about privacy"
+    },
+    {
+     "t": "-",
+     "s": "Mass surveillance explained (new window) How employers spy on you (new window) Should security cost your privacy (new window) How to disappear online (new window) See all videos (new window)"
+    },
+    {
+     "t": "+",
+     "s": "Mass surveillance explained (new window) How employers spy on you (new window) The data you leak in 24 hours (new window) How to disappear online (new window) See all videos (new window)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Tools"
+    },
+    {
+     "t": " ",
+     "s": "What is my IP address? (new window) Password generator Username generator PDF watermark Image watermark"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
