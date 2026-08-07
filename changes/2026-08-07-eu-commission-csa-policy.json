@@ -1,0 +1,66 @@
+{
+ "id": "2026-08-07-eu-commission-csa-policy",
+ "date": "2026-08-07",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -380,13 +380,9 @@ See all",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Migration management in EU Member States Digital border and migration management in the EU"
+    },
+    {
+     "t": " ",
+     "s": "Effective system of solidarity and responsibility for managing asylum and migration in the EU"
+    },
+    {
+     "t": "-",
+     "s": "Migration Management in Italy"
+    },
+    {
+     "t": "-",
+     "s": "Migration Management in Spain"
+    },
+    {
+     "t": "-",
+     "s": "Migration management in Cyprus"
+    },
+    {
+     "t": " ",
+     "s": "Relocation: EU solidarity in practice"
+    },
+    {
+     "t": " ",
+     "s": "Search and rescue"
+    },
+    {
+     "t": " ",
+     "s": "Welcoming displaced people from Ukraine"
+    },
+    {
+     "t": "-",
+     "s": "Migration management in Greece"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-08-07-eu-commission-csa-policy",
+  "date": "2026-08-07",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "change",
+  "added": 0,
+  "removed": 4,
+  "minor": true,
+  "minorReason": "4 short labels, no prose and no tracked vocabulary: \"Migration Management in Ital\", \"Migration Management in Spai\", \"Migration management in Cypr\", \"Migration management in Gree\""
+ },
+ {
+  "id": "2026-08-07-meta-privacy",
+  "date": "2026-08-07",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 145,
+  "removed": 230
+ },
+ {
   "id": "2026-08-06-meta-privacy",
   "date": "2026-08-06",
   "slug": "meta",
