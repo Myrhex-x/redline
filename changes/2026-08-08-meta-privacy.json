@@ -1,0 +1,2494 @@
+{
+ "id": "2026-08-08-meta-privacy",
+ "date": "2026-08-08",
+ "slug": "meta",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -20,7 +20,7 @@ How do we share information with third parties?",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "How do the Meta Companies work together?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "How can you manage or delete your information and exercise your rights?"
+    },
+    {
+     "t": "+",
+     "s": "What is our legal basis for processing your information, and what are your rights?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "How long do we keep your information?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -32,7 +32,7 @@ How will you know the Policy has changed?",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "How to contact Meta with questions"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Why and how we process your information"
+    },
+    {
+     "t": "+",
+     "s": "Legal basis information"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Other policies and articles"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -40,11 +40,7 @@ Settings",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy Policy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Updated on Jul 23, 2026"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We've updated our Privacy Policy with details about agentic AI capabilities and how we personalise your AI experiences."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "View details"
+    },
+    {
+     "t": "+",
+     "s": "Policy updated on Jul 23, 2026."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is the Privacy Policy and what does it cover?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -99,9 +95,9 @@ How do we use your information?",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Highlights"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We use information we collect to provide a personalized experience to you, including ads, along with the other purposes we explain in detail below."
+    },
+    {
+     "t": "+",
+     "s": "We use information we collect to provide a personalized experience to you, including ads (if we show you ads), along with the other purposes we explain in detail below."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "For some of these purposes, we use information across our Products and across your devices . The information we use for these purposes is automatically processed by our systems. But in some cases, we also use manual review to access and review your information."
+    },
+    {
+     "t": "+",
+     "s": "For some of these purposes, we use information across Meta Company Products from the accounts you choose to add to your Accounts Center, and across your devices . The information we use for these purposes is automatically processed by our systems. But in some cases, we also use manual review to access and review your information."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "To use less information that’s connected to individual users, in some cases we de-identify or aggregate information or anonymize it so that it no longer identifies you. We use this information in the same ways we use your information as described in this section."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -112,13 +108,13 @@ To provide, personalize and improve our Products",
+   "lines": [
+    {
+     "t": " ",
+     "s": "We use information we have to provide and improve our Products . This includes:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Seeing if our Products are working correctly, such as troubleshooting, and fixing it when it’s not working"
+    },
+    {
+     "t": "-",
+     "s": "Personalizing features, content and recommendations , such as your Facebook Feed , Instagram Feed , Meta AI, Stories and ads."
+    },
+    {
+     "t": "+",
+     "s": "Personalizing features, content and recommendations , such as your Facebook Feed , Instagram Feed , Meta AI, Stories and ads (if we show you ads)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We use information with special protections you choose to provide for these purposes, but not to show you ads."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Read more about how we use information to provide, personalize and improve our Products:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "How we show ads and other sponsored or commercial content"
+    },
+    {
+     "t": "+",
+     "s": "How we show ads (if we show you ads)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "How we use information to improve Meta Products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -150,10 +146,6 @@ We use information we have, information from researchers and datasets from publi",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Learn more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "More in the Privacy Policy"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Why and how we process your information"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "How is your information shared on Meta Products or with integrated partners?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Highlights"
+    }
+   ]
+  },
+  {
+   "header": "@@ -197,7 +189,7 @@ Here’s more detail about who we share information with:",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Partners"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Advertisers and Audience Network publishers"
+    },
+    {
+     "t": "+",
+     "s": "Advertisers and Audience Network publishers (if we show you ads)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Partners who use our analytics services"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -241,8 +233,7 @@ Why we share across the Meta Companies",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Meta Products share information with other Meta Companies:"
+    },
+    {
+     "t": " ",
+     "s": "To promote safety, security and integrity and comply with applicable laws"
+    },
+    {
+     "t": "-",
+     "s": "To personalize offers, ads and other sponsored or commercial content"
+    },
+    {
+     "t": "-",
+     "s": "To develop, provide and personalize features and integrations"
+    },
+    {
+     "t": "+",
+     "s": "To provide optional features and integrations"
+    },
+    {
+     "t": " ",
+     "s": "To understand how people use and interact with Meta Company Products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "See some examples of why we share."
+    }
+   ]
+  },
+  {
+   "header": "@@ -252,38 +243,29 @@ More resources",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Review the privacy policies of the other Meta Companies"
+    },
+    {
+     "t": " ",
+     "s": "Facebook Help Center"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "How can you manage or delete your information and exercise your rights?"
+    },
+    {
+     "t": "+",
+     "s": "What is our legal basis for processing your information, and what are your rights?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Highlights"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We offer you a variety of tools to view, manage, download and delete your information below. You can also manage your information by visiting the settings of the Products you use. You may also have other privacy rights under applicable laws."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "To exercise your rights, visit our Help Centers, your settings for Facebook and Instagram and your device-based settings."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Take a privacy checkup"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Take a privacy checkup"
+    },
+    {
+     "t": "-",
+     "s": "Be guided through Facebook privacy settings"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "View and manage your information"
+    },
+    {
+     "t": "+",
+     "s": "Under applicable data protection law, companies must have a legal basis to process personal data. When we talk about \"processing personal data,\" we mean the ways we collect, use and share your information, as we described in the other sections of this Policy above."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Access your information"
+    },
+    {
+     "t": "+",
+     "s": "What is our legal basis?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Your information and permissions"
+    },
+    {
+     "t": "+",
+     "s": "You have the following rights under GDPR and other relevant data protection laws:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Ad preferences"
+    },
+    {
+     "t": "+",
+     "s": "Access and correct information"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Manage your data"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Port, download or delete your information"
+    },
+    {
+     "t": "+",
+     "s": "Withdraw consent"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Port your information"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Download your information"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Delete your information or account"
+    },
+    {
+     "t": "+",
+     "s": "Erase information"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Object"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "You can learn more about how privacy works on Facebook and on Instagram , and in the Facebook Help Center . If you have questions about this policy, you can contact us as described below. In some countries, you may also be able to contact the Data Protection Officer for Meta Platforms, Inc., and depending on your jurisdiction, you may also contact your local Data Protection Authority (“DPA”) directly."
+    },
+    {
+     "t": "+",
+     "s": "Make a complaint"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "How long do we keep your information?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -326,43 +308,99 @@ We'll notify you before we make material changes to this Policy. You’ll have t",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "How to contact Meta with questions"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "You can learn more about how privacy works on Facebook and on Instagram and in the Facebook Help Center . If you have questions about this Policy or have questions, complaints or requests regarding your information, you can contact us as described below."
+    },
+    {
+     "t": "+",
+     "s": "You can learn more about how privacy works on Facebook and on Instagram , and in the Facebook Help Center . If you have questions about this Policy, or have questions, complaints or requests regarding your information, you can contact us as described below."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "You can contact us online or by mail at:"
+    },
+    {
+     "t": "+",
+     "s": "The data controller responsible for your information is Meta Platforms Ireland Limited, which you can contact online , or by mail at:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Meta Platforms, Inc."
+    },
+    {
+     "t": "+",
+     "s": "Meta Platforms Ireland Limited"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "ATTN: Privacy Operations"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "1 Meta Way"
+    },
+    {
+     "t": "+",
+     "s": "Merrion Road"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Menlo Park, CA 94025"
+    },
+    {
+     "t": "+",
+     "s": "Dublin 4"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Why and how we process your information"
+    },
+    {
+     "t": "+",
+     "s": "D04 X2K5, Ireland"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "The categories of information we use, and why and how information is processed, are set out below:"
+    },
+    {
+     "t": "+",
+     "s": "Contact the Data Protection Officer for Meta Platforms Ireland Limited."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Personalizing Meta Products"
+    },
+    {
+     "t": "+",
+     "s": "You also have the right to lodge a complaint with Meta Platforms Ireland's lead supervisory authority, the Irish Data Protection Commission, or your local supervisory authority."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Legal basis information"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Consent"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "We process information as described below when you have given us your consent to do so, which we may ask through in-product experiences, to enable particular features, or to enable device-based settings. The categories of information we use and why and how they are processed are set out below:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Processing information with special protections"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Our systems automatically process information we've collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalized experiences on and across the Meta Company Products in accordance with our terms. This is how we:"
+    },
+    {
+     "t": "+",
+     "s": "Processing information with special protections that you provide so we can share it with those you choose, to provide, personalise and improve our Products and to undertake analytics. We'll collect, store, publish and apply automated, or sometimes manual, processing for these purposes."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Personalize features and content (such as your Facebook Feed , Instagram Feed , our features that are part of AI at Meta and Stories);"
+    },
+    {
+     "t": "-",
+     "s": "Personalize the ads people see, and"
+    },
+    {
+     "t": "-",
+     "s": "Make suggestions for you (such as people you may know, groups or events that you may be interested in or topics that you may want to follow) on and off our Products."
+    },
+    {
+     "t": "+",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": "+",
+     "s": "Any information with special protections that you choose to provide, such as your religious views, your sexual orientation, political views, health, racial or ethnic origin, philosophical beliefs or trade union membership, or as part of surveys you choose to participate in, and where you have given your explicit consent"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Personalizing ads"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "If we show you ads, depending on your settings , we will use your information across the account(s) in your Accounts Centre to show you ads, including using cookies, to personalize your ads on and off the Meta Company Products, including apps using Meta Audience Network, and measure how those ads perform."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "If we show you ads, our ads system automatically processes information that we've collected and stored associated with you. In accordance with your Ad preferences, our ads system uses this information to understand your interests and your preferences and personalize your ads on and off the Meta Company Products. Learn more about your Ad preferences."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Our ads system prioritizes what ad to show you based on what audience advertisers want to reach. Then we match the ad to people who might be interested. Learn more about how our ads system works."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Learn more about how we choose the ads that you see."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "You can change your choice at any time in your Ad Preferences."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Your activity and information that you provide :"
+    },
+    {
+     "t": "+",
+     "s": "Content that you create, such as posts, comments or audio"
+    },
+    {
+     "t": "+",
+     "s": "Content that you provide through our camera feature or your camera roll settings, or through our voice-enabled features"
+    },
+    {
+     "t": "+",
+     "s": "Metadata about content"
+    },
+    {
+     "t": "+",
+     "s": "Types of content, including ads, that you view or interact with, and how you interact with it"
+    },
+    {
+     "t": "+",
+     "s": "Apps and features that you use and what actions you take in them"
+    },
+    {
+     "t": "+",
+     "s": "Purchases or other transactions that you make"
+    },
+    {
+     "t": "+",
+     "s": "Hashtags you use"
+    },
+    {
+     "t": "+",
+     "s": "The time, frequency and duration of your activities on our Products"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Friends, followers and other connections"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "App, browser and device information :"
+    },
+    {
+     "t": "+",
+     "s": "Device characteristics and device software"
+    },
+    {
+     "t": "+",
+     "s": "What you're doing on your device, such as whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)"
+    },
+    {
+     "t": "+",
+     "s": "Identifiers that tell your device apart from other users'"
+    },
+    {
+     "t": "+",
+     "s": "Device signals"
+    },
+    {
+     "t": "+",
+     "s": "Information that you've shared through your device settings (e.g. GPS location)"
+    },
+    {
+     "t": "+",
+     "s": "Information about the network that you connect your device to"
+    },
+    {
+     "t": "+",
+     "s": "Location-related information"
+    },
+    {
+     "t": "+",
+     "s": "Reports about our Products' performance on your device"
+    },
+    {
+     "t": "+",
+     "s": "Information from cookies and similar technologies"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "For WhatsApp users, learn more about what information is shared with Meta"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Associating your accounts"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "If you add a WhatsApp account to an Accounts Center with other accounts on Meta Company Products:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "To associate your accounts on Meta Company Products with your WhatsApp account in the same Accounts Center and share your information with WhatsApp."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Note: the list below is about information from Meta. For information that WhatsApp shares with Meta, see the WhatsApp in Accounts Centre Supplemental Privacy Policy ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": " ",
+     "s": "Content you create, like posts, comments or audio"
+    },
+    {
+     "t": " ",
+     "s": "Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features"
+    },
+    {
+     "t": "-",
+     "s": "Metadata about content and messages, subject to applicable law"
+    },
+    {
+     "t": "-",
+     "s": "Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features"
+    },
+    {
+     "t": "+",
+     "s": "Metadata about content"
+    },
+    {
+     "t": "+",
+     "s": "Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features."
+    },
+    {
+     "t": " ",
+     "s": "Types of content you view or interact with, and how you interact with it"
+    },
+    {
+     "t": " ",
+     "s": "Apps and features you use, and what actions you take in them"
+    },
+    {
+     "t": " ",
+     "s": "Purchases or other transactions you make"
+    }
+   ]
+  },
+  {
+   "header": "@@ -373,36 +411,103 @@ Friends, followers and other connections",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "App, browser and device information :"
+    },
+    {
+     "t": " ",
+     "s": "Device characteristics and device software"
+    },
+    {
+     "t": "-",
+     "s": "What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)"
+    },
+    {
+     "t": "-",
+     "s": "Identifiers that tell your device apart from other users’"
+    },
+    {
+     "t": "+",
+     "s": "What you're doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)"
+    },
+    {
+     "t": "+",
+     "s": "Identifiers that tell your device apart from other users'"
+    },
+    {
+     "t": " ",
+     "s": "Device signals"
+    },
+    {
+     "t": "-",
+     "s": "Information you’ve shared through your device settings (like GPS location)"
+    },
+    {
+     "t": "+",
+     "s": "Information you've shared through your device settings"
+    },
+    {
+     "t": " ",
+     "s": "Location-related information"
+    },
+    {
+     "t": "-",
+     "s": "Information about the network you connect your device to"
+    },
+    {
+     "t": "-",
+     "s": "Reports about our products’ performance on your device"
+    },
+    {
+     "t": "+",
+     "s": "Information about the network you connect your device to and your connection, including your IP address"
+    },
+    {
+     "t": "+",
+     "s": "Reports about our Products' performance on your device"
+    },
+    {
+     "t": " ",
+     "s": "Information from cookies and similar technologies"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Using information from third parties for personalizing ads"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Using information from partners, vendors and other third parties to tailor the ads you see: If we show you ads with your consent we'll use information that partners, vendors and other third parties provide us about activity off the Meta Company Products and that we have associated with you to personalize the ads you see on and across the Meta Company Products, and on websites, apps and devices that use our advertising services. We receive this information whether or not you're logged in or have an account on our Products, see the Cookies Policy for more information."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information from partners, vendors and third parties"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "For WhatsApp users, learn more about what information is shared with Meta."
+    },
+    {
+     "t": "+",
+     "s": "Sharing information with third parties at your request when you use some of our Products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Associating your accounts"
+    },
+    {
+     "t": "+",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "The type of third party and categories of information shared depend on the circumstances of what you ask us to share. For example, when you direct us we share your email address or other information that you might choose to share with an advertiser so that they can contact you with additional information about a promoted product."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": "+",
+     "s": "Content you create, like your contact, profile or other information, like posts or comments"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Receiving information from device settings"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "If you add a WhatsApp account to an Accounts Center with other accounts on Meta Company Products: To associate your accounts on Meta Company Products with your WhatsApp account in the same Accounts Center and share your information with WhatsApp."
+    },
+    {
+     "t": "+",
+     "s": "Collecting information that you allow us to receive through the device-based settings you enable (such as access to your GPS location, camera or photos) which we use to provide the features or services described when you enable the setting."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Note: the list below is about information from Meta. For information that WhatsApp shares with Meta see the WhatsApp Help Center article ."
+    },
+    {
+     "t": "+",
+     "s": "App, browser and device information :"
+    },
+    {
+     "t": "+",
+     "s": "Information from device settings"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Verifying your identity"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Your activity and information you provide"
+    },
+    {
+     "t": "+",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Verifying your identity or account, or helping to protect against suspicious activity including impersonation and identity misuse, using face analysis which may include facial recognition technology if you select it."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": "+",
+     "s": "Your account information, account photos, or"
+    },
+    {
+     "t": "+",
+     "s": "your photo or video selfie, if you choose to provide it"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "When we process information that you provide to us based on your consent, you have the right to withdraw your consent at any time without affecting the lawfulness of processing based on consent before its withdrawal. You also have the right to port that information you provide to us based on your consent. To exercise your rights, visit your device-based settings, and visit the Facebook settings and Instagram settings and our Help Centers."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Performance of a contract"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "For all people who have the legal capacity to enter into an enforceable contract (for example, by being the age of majority or above in their country of residence), we process information as necessary to conclude and perform our contracts with you (the Meta Terms and Instagram Terms , the Supplemental Meta Platforms Technologies Terms of Service , the Supplemental Portal Terms of Service , the Meta AI Terms of Service and the Supplemental Meta View Terms of Service , together, the “terms\"). The purposes for which we process information for our contracts, the categories of information we use and how information is processed are set out below:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Personalizing Meta Products other than ads"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Our systems automatically process information we have collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalised experiences across the Meta Products in accordance with our terms. This is how we:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Personalise features and content (such as your Facebook Feed , Instagram Feed and Stories); and"
+    },
+    {
+     "t": "+",
+     "s": "Make suggestions for you (such as people you may know, groups or events that you may be interested in or topics that you may want to follow) on and off our Products."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": "+",
+     "s": "Content you create, like posts, comments or audio"
+    },
+    {
+     "t": "+",
+     "s": "Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features"
+    },
+    {
+     "t": "+",
+     "s": "Messages you send and receive, including their content and metadata, for optional features you choose to use, and subject to applicable law ."
+    },
+    {
+     "t": "+",
+     "s": "Metadata about content"
+    },
+    {
+     "t": "+",
+     "s": "Types of content you view or interact with, and how you interact with it"
+    },
+    {
+     "t": "+",
+     "s": "Apps and features you use, and what actions you take in them"
+    },
+    {
+     "t": "+",
+     "s": "Purchases or other transactions you make"
+    },
+    {
+     "t": "+",
+     "s": "Hashtags you use"
+    },
+    {
+     "t": "+",
+     "s": "The time, frequency and duration of your activities on our Products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Friends, followers and other connections"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "App, browser and device information"
+    },
+    {
+     "t": "+",
+     "s": "App, browser and device information :"
+    },
+    {
+     "t": "+",
+     "s": "Device characteristics and device software"
+    },
+    {
+     "t": "+",
+     "s": "What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)"
+    },
+    {
+     "t": "+",
+     "s": "Identifiers that tell your device apart from other users’"
+    },
+    {
+     "t": "+",
+     "s": "Device signals"
+    },
+    {
+     "t": "+",
+     "s": "Information you’ve shared through your device settings (like GPS location)"
+    },
+    {
+     "t": "+",
+     "s": "Location-related information"
+    },
+    {
+     "t": "+",
+     "s": "Information about the network you connect your device to"
+    },
+    {
+     "t": "+",
+     "s": "Reports about our Products’ performance on your device"
+    },
+    {
+     "t": "+",
+     "s": "Information from cookies and similar technologies"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Providing and improving Meta Products"
+    },
+    {
+     "t": "+",
+     "s": "Information from partners, vendors and third parties"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Providing Meta Products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -413,18 +518,12 @@ Connect your Meta Products account, including your public profile information, t",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Facilitate the sharing of content and status"
+    },
+    {
+     "t": " ",
+     "s": "Provide and curate features"
+    },
+    {
+     "t": " ",
+     "s": "Provide messaging services, the ability to make voice and video calls and connect with others"
+    },
+    {
+     "t": "-",
+     "s": "Provide advertising products"
+    },
+    {
+     "t": "-",
+     "s": "Provide our features that are part of AI at Meta that do things like create and understand content (like text, audio, images and videos) and perform actions"
+    },
+    {
+     "t": "+",
+     "s": "Provide our features that are part of AI at Meta that do things like create and understand content (like text, audio, images and videos, including by understanding and recognising your use of content in the features) and perform actions"
+    },
+    {
+     "t": " ",
+     "s": "Undertake analytics"
+    },
+    {
+     "t": " ",
+     "s": "Facilitate your purchases and payments on Meta Pay or other Meta checkout experiences"
+    },
+    {
+     "t": " ",
+     "s": "See if our Products are working correctly, such as troubleshooting, and fixing it when it’s not working"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We also use information to develop, research and test improvements to Meta Products. We use information we have to:"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Develop and improve products and features"
+    },
+    {
+     "t": " ",
+     "s": "Build and test out new products and features to see if they work"
+    },
+    {
+     "t": "-",
+     "s": "Get feedback on our ideas for products or features"
+    },
+    {
+     "t": "-",
+     "s": "Conduct surveys and other research about what you like about our Products and brands and on what we can do better for Meta Products and brands"
+    },
+    {
+     "t": "+",
+     "s": "Get feedback on Meta Products and ideas for products or features"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -456,37 +555,21 @@ Information from cookies and similar technologies",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information from partners, vendors and third parties"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Developing and improving AI at Meta"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Develop and improve AI at Meta for Meta Products and for third parties."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": "-",
+     "s": "Public content you or others create or share, like posts, comments or audio on Meta Products"
+    },
+    {
+     "t": "-",
+     "s": "Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Information from partners, vendors and third parties"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Promoting safety, integrity and security on and across the Meta Products"
+    },
+    {
+     "t": "+",
+     "s": "Promoting safety, integrity and security on and across Meta Products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "The Meta Products are designed to research and help ensure the safety, integrity and security of those services and those people who enjoy them, on and off Meta Products. We process information we have associated with you and apply automated processing techniques and, in some instances, conduct manual (human) review to:"
+    },
+    {
+     "t": "+",
+     "s": "The Meta Products are designed to help ensure the safety, integrity and security of those services and those people who enjoy them. We process information we have associated with you and apply automated processing techniques and, in some instances, conduct manual (human) review to:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Verify accounts and activity"
+    },
+    {
+     "t": "+",
+     "s": "Verify accounts, identity and activity"
+    },
+    {
+     "t": " ",
+     "s": "Find and address violations of our terms or policies. In some cases, the decisions we make about violations are reviewed by the Oversight Board"
+    },
+    {
+     "t": " ",
+     "s": "Investigate suspicious activity"
+    },
+    {
+     "t": " ",
+     "s": "Detect, prevent and combat harmful or unlawful behavior, such as to review and, in some cases, remove content reported to us"
+    },
+    {
+     "t": "-",
+     "s": "Identify and combat disparities and racial bias against historically marginalized communities"
+    },
+    {
+     "t": "-",
+     "s": "Protect the life, physical or mental health, well-being or integrity of our users or others"
+    },
+    {
+     "t": "-",
+     "s": "Detect and prevent spam, other security matters and other bad experiences"
+    },
+    {
+     "t": "+",
+     "s": "Detect and prevent spam and other bad experiences"
+    },
+    {
+     "t": " ",
+     "s": "Detect and stop threats to our personnel and property"
+    },
+    {
+     "t": " ",
+     "s": "Maintain the integrity of our Products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "For more information on safety, integrity and security generally on Meta Products, visit the Facebook Security Help Center and Instagram Security Tips ."
+    },
+    {
+     "t": "+",
+     "s": "For more information on safety, integrity and security generally on Meta Products, visit the Facebook Security Help Center and Instagram Security Tips."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -525,7 +608,7 @@ We use information you’ve given us (like contact information on your profile)",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We’ll contact you via email or in-product notifications in relation to the Meta Products, product-related issues, research or to let you know about our terms and policies."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We also use contact information like your email address to respond when you contact us."
+    },
+    {
+     "t": "+",
+     "s": "We also use contact information like your e-mail address to respond when you contact us."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -542,18 +625,16 @@ Device signals",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Information you’ve shared through your device settings"
+    },
+    {
+     "t": " ",
+     "s": "Location-related information"
+    },
+    {
+     "t": " ",
+     "s": "Information about the network you connect your device to, including your IP address"
+    },
+    {
+     "t": "-",
+     "s": "Information from cookies and similar technologies."
+    },
+    {
+     "t": "+",
+     "s": "Information from cookies and similar technologies"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Transferring, storing or processing your information globally"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Transferring, storing or processing your information across borders, including from and to the United States and other countries: We share information we collect globally, both internally across our offices and data centers and externally with our partners , third parties and service providers . Because Meta is global, with users, partners, vendors and employees around the world, transfers are necessary:"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "To operate and provide the services described in the terms that apply to the Meta Product(s) you are using. This includes allowing you to share information and connect with your family and friends around the globe; and"
+    },
+    {
+     "t": "-",
+     "s": "To fix, analyze and improve our Products."
+    },
+    {
+     "t": "+",
+     "s": "We share information we collect globally, both internally across our offices and data centers and externally with our partners, third parties and service providers. Because Meta is global, with users, partners and employees around the world, transfers are necessary to:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "For more information, see the \"How do we transfer information?\" section of the Meta Privacy Policy."
+    },
+    {
+     "t": "+",
+     "s": "Operate and provide the services described in the terms that apply to the Meta Product(s) you are using. This includes allowing you to share information and connect with your family and friends around the globe; and"
+    },
+    {
+     "t": "+",
+     "s": "So we can fix, analyze and improve our Products."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -583,94 +664,98 @@ Information from cookies and similar technologies",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information from partners, vendors and third parties"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Processing information with special protections"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "+",
+     "s": "We'll use the information we have to provide these services; if you choose not to provide certain information (other than limited account information which is necessary to create a Facebook account or an Instagram account ), your experience using the Meta Products may be affected. For example, you may see less relevant recommendations on the Products, or your use of the Products may be restricted."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Processing information subject to special protections under applicable laws that you provide so we can share it with those you choose, to provide, personalize and improve our Products and to undertake analytics. We’ll collect, store, publish and apply automated, or sometimes manual (human), processing for these purposes."
+    },
+    {
+     "t": "+",
+     "s": "When we process information that you provide to us as necessary for concluding or performing our contracts with you, you have the right to port it under the GDPR. To exercise your rights, visit the Facebook settings and Instagram settings, or learn more in our Help Centers."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "+",
+     "s": "Compliance with a legal obligation"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": "-",
+     "s": "Any information with special protections that you choose to provide, such as your religious views, your sexual orientation, political views, health, racial or ethnic origin, philosophical beliefs or trade union membership, or as part of surveys you choose to participate in, or where you have given your explicit consent"
+    },
+    {
+     "t": "+",
+     "s": "The categories of information we use, why we process your information based on compliance with a legal obligation and how it’s processed are set out below:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Using information from third parties for personalizing ads"
+    },
+    {
+     "t": "+",
+     "s": "Processing information when required by law"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Receiving and using information from third parties to tailor the ads you see: We’ll use information that advertisers, businesses and other partners provide us about activity off the Meta Company Products that we have associated with you to personalize ads that we show you on our Products, and on websites, apps and devices that use our advertising services. We receive this information whether or not you’re logged in or have an account on our Products, see the Cookies Policy for more information."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": "-",
+     "s": "Information and content you provide, such as your name or email address"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Information from partners, vendors and third parties"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Sharing information with third parties at your request"
+    },
+    {
+     "t": "+",
+     "s": "Where we are under an obligation to disclose information such as, for example, if we receive a valid legal request for certain information (such as an Irish search warrant), we will access, preserve and / or share your information with regulators, law enforcement or others."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "+",
+     "s": "The way in which the information will be processed depends on the specific circumstances, see How do we respond to legal requests, prevent harm and promote safety and integrity? for more. Information for Law Enforcement Authorities provides information on the operational guidelines law enforcement needs to follow."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "The type of third party and categories of information shared depend on the circumstances of what you ask us to share. For example:"
+    },
+    {
+     "t": "+",
+     "s": "Examples of Irish and EU laws enforceable in Ireland that could give rise to an obligation requiring us to process the information we hold about you are:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We share your email (or other contact information) or other information you might choose when you direct us to share it with an advertiser so they can contact you with additional information about a promoted product, and"
+    },
+    {
+     "t": "+",
+     "s": "Civil and commercial matters: where we are in receipt of a court order or otherwise required to disclose information for the purposes of court proceedings, such as under Regulation (EU) No 1215/2012 on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters."
+    },
+    {
+     "t": "+",
+     "s": "Criminal matters: to comply with requests from Irish law enforcement to provide information in relation to an investigation, such as under Section 10 of the Criminal Justice (Miscellaneous Provisions) Act 1997 as amended by 6(1)(a) of the Criminal Justice Act 2006, or to take steps to report information to law enforcement where required."
+    },
+    {
+     "t": "+",
+     "s": "Consumer matters: to comply with our obligations under consumer law such as the Competition and Consumer Protection Act 2014."
+    },
+    {
+     "t": "+",
+     "s": "Corporate and taxation matters: to comply with our obligations such as the Companies Act 2014."
+    },
+    {
+     "t": "+",
+     "s": "Regulatory matters: to comply with our obligations to engage with regulators, such as the Data Protection Commission under the General Data Protection Regulation and the Data Protection Act 2018."
+    },
+    {
+     "t": "+",
+     "s": "Financial matters: to comply with our obligations under applicable financial services law such as the European Union (Payment Services) Regulations 2018"
+    },
+    {
+     "t": "+",
+     "s": "Access matters: to provide data to public sector bodies, the EU Commission, EU Central Bank or other EU bodies upon request from them, to provide data to you or your requested third party when requested by you, for example under EU Regulation 2023/2854 (Data Act)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "If you choose to integrate other apps, games or websites with Meta Products and log in, we’ll share your information with the app, game or website to log you in."
+    },
+    {
+     "t": "+",
+     "s": "View the current list of laws which are enforceable in Ireland that give rise to a legal obligation for Meta which results in the processing of information. New laws may be enacted or other obligations may become binding on our processing of your information which may require us to process your information and we will update this list from time to time."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": "-",
+     "s": "Information such as your contact or profile information"
+    },
+    {
+     "t": "-",
+     "s": "Content you create, like posts or comments"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Providing measurement, analytics and business services"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Our systems automatically, as well as with some manual (human) processing, process information we have collected and stored about you and others. We use this information to:"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Provide insights and measurement reports to businesses, advertisers and other partners to help them measure the effectiveness and distribution of their or their clients’ ads, content and services, to understand the kinds of people who are seeing their content and ads, and how their content and ads are performing on and off Meta Products, and"
+    },
+    {
+     "t": "-",
+     "s": "Provide aggregated user analytics and insights reports that help users, businesses, advertisers and other partners better understand the audiences with whom they may want to connect, as well as the types of people who use their services and how people interact with their content, websites, apps and services."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": "+",
+     "s": "The categories of information depend on the specific circumstances of each mandatory request or obligation. Only the information necessary to comply with the relevant legal obligation will be processed. For example, for civil matters, this will typically include limited information (such as contact details and login information). However, depending on the circumstances it could include the following:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": " ",
+     "s": "Content you create, like posts, comments or audio"
+    },
+    {
+     "t": " ",
+     "s": "Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features"
+    },
+    {
+     "t": "-",
+     "s": "Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features"
+    },
+    {
+     "t": "+",
+     "s": "Messages you send and receive, including their content, subject to applicable law"
+    },
+    {
+     "t": "+",
+     "s": "Metadata about content and messages, subject to applicable law"
+    },
+    {
+     "t": "+",
+     "s": "Interactions with our features that are part of AI at Meta and related metadata. For example, information you or others exchange with these features"
+    },
+    {
+     "t": " ",
+     "s": "Types of content you view or interact with, and how you interact with it"
+    },
+    {
+     "t": " ",
+     "s": "Apps and features you use, and what actions you take in them"
+    },
+    {
+     "t": "-",
+     "s": "Purchases or other transactions you make"
+    },
+    {
+     "t": "+",
+     "s": "Purchases or other transactions you make, including truncated credit card information"
+    },
+    {
+     "t": " ",
+     "s": "Hashtags you use"
+    },
+    {
+     "t": " ",
+     "s": "The time, frequency and duration of your activities on our Products"
+    },
+    {
+     "t": "+",
+     "s": "Your photo or video selfie if you provide it when you contact us for account support"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Friends, followers and other connections"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "App, browser and device information :"
+    },
+    {
+     "t": " ",
+     "s": "Device characteristics and device software"
+    },
+    {
+     "t": " ",
+     "s": "What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)"
+    },
+    {
+     "t": "-",
+     "s": "Identifiers that tell your device apart from other users"
+    },
+    {
+     "t": "+",
+     "s": "Identifiers that tell your device apart from other users’"
+    },
+    {
+     "t": " ",
+     "s": "Device signals"
+    },
+    {
+     "t": " ",
+     "s": "Information you’ve shared through your device settings"
+    },
+    {
+     "t": " ",
+     "s": "Location-related information"
+    },
+    {
+     "t": " ",
+     "s": "Information about the network you connect your device to, including your IP address"
+    },
+    {
+     "t": " ",
+     "s": "Information from cookies and similar technologies"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Providing a seamless experience"
+    },
+    {
+     "t": "+",
+     "s": "Information from partners, vendors and third parties"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Legitimate interests"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "We rely on our legitimate interests or the legitimate interests of a third party, where they are not outweighed by your interests or fundamental rights and freedoms (\"legitimate interests\"). The categories of information we use, the legitimate interests relied on and why and how it’s processed are set out below:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Personalizing Meta Products"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "For registered users of the Meta Products under the age of majority (under 18, in most applicable countries) who have a limited ability to enter into an enforceable contract only, where we may be unable to process your information on the grounds of contractual necessity."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why and how we process your information:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Sharing of information across the Meta Companies:"
+    },
+    {
+     "t": "+",
+     "s": "Our systems automatically process information we have collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalised experiences across the Meta Products in accordance with our terms. This is how we:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Personalise features and content (such as your News Feed , Instagram Feed and Stories),"
+    },
+    {
+     "t": "+",
+     "s": "Make suggestions for you (such as people you may know, groups or events that you may be interested in or topics that you may want to follow) on and off our Products."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Our ads system prioritizes what ad to show you based on what audience advertisers want to reach. Then we match the ad to people who might be interested. Learn more about how our ads system works."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Learn more about how we choose the ads that you see."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Legitimate interests relied on:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "To provide a seamless, consistent and richer, innovative experience across the Meta Company Products to enable cross app interactions, sharing, viewing and engaging with content, including posts and videos."
+    },
+    {
+     "t": "+",
+     "s": "To create, provide, support and maintain innovative products and features that enable people under the age of majority to express themselves, communicate, discover and engage with information and communities relevant to their interests, build community and utilise tools and features that promote their well-being."
+    },
+    {
+     "t": "+",
+     "s": "To share meaningful updates with our users under the age of majority about our Products and promoting our Products."
+    },
+    {
+     "t": "+",
+     "s": "To provide, personalize and improve the Meta Products in a consistent manner while ensuring additional safeguards for those under their Member State's age of consent."
+    },
+    {
+     "t": "+",
+     "s": "The legitimate interest of our users in being able to access the Meta Products and those Products being personalised to each user."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Information categories we use (see ' What Information do we collect? ' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Your activity and information you provide :"
+    },
+    {
+     "t": " ",
+     "s": "Content you create, like posts, comments or audio"
+    },
+    {
+     "t": " ",
+     "s": "Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features"
+    },
+    {
+     "t": "-",
+     "s": "Metadata about content and messages, subject to applicable law"
+    },
+    {
+     "t": "-",
+     "s": "Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features"
+    },
+    {
+     "t": "+",
+     "s": "Messages you send and receive, including their content and metadata, for optional features you choose to use, and subject to applicable law ."
+    },
+    {
+     "t": "+",
+     "s": "Metadata about content"
+    },
+    {
+     "t": " ",
+     "s": "Types of content you view or interact with, and how you interact with it"
+    },
+    {
+     "t": " ",
+     "s": "Apps and features you use, and what actions you take in them"
+    },
+    {
+     "t": " ",
+     "s": "Purchases or other transactions you make"
+    }
+   ]
+  },
+  {
+   "header": "@@ -682,41 +767,70 @@ Friends, followers and other connections",
+   "lines": [
+    {
+     "t": " ",
+     "s": "App, browser and device information :"
+    },
+    {
+     "t": " ",
+     "s": "Device characteristics and device software"
+    },
+    {
+     "t": " ",
+     "s": "What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)"
+    },
+    {
+     "t": "-",
+     "s": "Identifiers that tell your device apart from other users'"
+    },
+    {
+     "t": "+",
+     "s": "Identifiers that tell your device apart from other users’"
+    },
+    {
+     "t": " ",
+     "s": "Device signals"
+    },
+    {
+     "t": "-",
+     "s": "Information you’ve shared through your device settings"
+    },
+    {
+     "t": "+",
+     "s": "Information you’ve shared through your device settings (like GPS location)"
+    },
+    {
+     "t": " ",
+     "s": "Location-related information"
+    }
+   ]
+  }
+ ],
+ "truncated": true
+}
