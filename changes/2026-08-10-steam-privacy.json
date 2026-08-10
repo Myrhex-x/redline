@@ -1,0 +1,78 @@
+{
+ "id": "2026-08-10-steam-privacy",
+ "date": "2026-08-10",
+ "slug": "steam",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -330,13 +330,11 @@ Bellevue, WA 98009",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "EU representative for data protection questions:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Valve GmbH i.L."
+    },
+    {
+     "t": "+",
+     "s": "RIVACY GmbH"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Att. Legal"
+    },
+    {
+     "t": "+",
+     "s": "Mexikoring 33"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Alstertwiete 3"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "D-20099 Hamburg"
+    },
+    {
+     "t": "+",
+     "s": "22297 Hamburg"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Germany"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
