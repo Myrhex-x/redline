@@ -1,0 +1,46 @@
+{
+ "id": "2026-08-12-viber-security",
+ "date": "2026-08-12",
+ "slug": "viber",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -118,7 +118,7 @@ Privacy Policy",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Ads Policy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "US Do Not Sell or Share My Personal Information"
+    },
+    {
+     "t": "+",
+     "s": "US Privacy Settings"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Caller ID Opt Out"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-08-12-viber-privacy",
+  "date": "2026-08-12",
+  "slug": "viber",
+  "company": "Viber",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
+  "id": "2026-08-12-viber-security",
+  "date": "2026-08-12",
+  "slug": "viber",
+  "company": "Viber",
+  "doc": "security",
+  "docTitle": "Security / E2EE description",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
   "id": "2026-08-10-steam-privacy",
   "date": "2026-08-10",
   "slug": "steam",
