@@ -647,9 +647,9 @@ Zoom Cares Zoom Cares
 
 Media Kit
 
-How To Videos
-
 Developer Platform
+
+AI Research AI Research
 
 Zoom Ventures
 
@@ -708,6 +708,8 @@ Feedback
 Contact Us Contact Us
 
 Accessibility
+
+How To Videos
 
 Developer Support
 

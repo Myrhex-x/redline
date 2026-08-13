@@ -1,0 +1,46 @@
+{
+ "id": "2026-08-13-gmx-privacy",
+ "date": "2026-08-13",
+ "slug": "gmx",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -93,7 +93,7 @@ Germany",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Managing Directors:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Alexander Charles, Dr. Verena Patzelt, Thomas Ludwig, Dr. Michael Hagenau"
+    },
+    {
+     "t": "+",
+     "s": "Alexander Charles, Thomas Ludwig, Dr. Verena Patzelt, Marc Sier"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Headquarters: Montabaur, Germany"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

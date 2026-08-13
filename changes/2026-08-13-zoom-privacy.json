@@ -1,0 +1,99 @@
+{
+ "id": "2026-08-13-zoom-privacy",
+ "date": "2026-08-13",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -647,10 +647,10 @@ Zoom Cares Zoom Cares",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Media Kit"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "How To Videos"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Developer Platform"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "AI Research AI Research"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom Ventures"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom Merchandise Store Zoom Merchandise Store"
+    }
+   ]
+  },
+  {
+   "header": "@@ -709,6 +709,8 @@ Contact Us Contact Us",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Accessibility"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "How To Videos"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Developer Support"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy, Security, Legal Policies, and Modern Slavery Act Transparency Statement"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

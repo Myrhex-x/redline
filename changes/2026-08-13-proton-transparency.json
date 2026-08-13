@@ -1,0 +1,46 @@
+{
+ "id": "2026-08-13-proton-transparency",
+ "date": "2026-08-13",
+ "slug": "proton",
+ "doc": "transparency",
+ "hunks": [
+  {
+   "header": "@@ -42,6 +42,8 @@ Protect your business Identity",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Business password manager"
+    },
+    {
+     "t": " ",
+     "s": "Industries"
+    },
+    {
+     "t": " ",
+     "s": "Tech Healthcare Nonprofits News and media"
+    },
+    {
+     "t": "+",
+     "s": "Switch from"
+    },
+    {
+     "t": "+",
+     "s": "Microsoft 365 Google Workspace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Pricing"
+    },
+    {
+     "t": " ",
+     "s": "Business plans"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -1,0 +1,46 @@
+{
+ "id": "2026-08-13-proton-security",
+ "date": "2026-08-13",
+ "slug": "proton",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -35,6 +35,8 @@ Find your plan",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Solutions"
+    },
+    {
+     "t": " ",
+     "s": "Security Team calendar Appointment scheduling Collaboration Custom email domain Business continuity All features"
+    },
+    {
+     "t": "+",
+     "s": "Switch from"
+    },
+    {
+     "t": "+",
+     "s": "Microsoft 365 Google Workspace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security"
+    },
+    {
+     "t": " ",
+     "s": "Trust center HIPAA GDPR ISO 27001"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

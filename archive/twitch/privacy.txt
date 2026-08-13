@@ -46,7 +46,7 @@ Additional Information for Certain Jurisdictions
 
 Last modified on
 
-01/15/2026
+08/12/2026
 
 See prior versions of Privacy Notice
 
@@ -120,7 +120,7 @@ Information from Other Sources: We may obtain additional information from third 
 
 How Twitch Uses Personal Information
 
-Twitch uses such information to operate, maintain, enhance, provide, create, and develop all of the features, functionality, and services (new or existing) found on the Twitch Services; provide security for our websites, products, software, applications, or live (in-person) events; manage relationships with Twitch account holders ( for example, Partners, Affiliates), including making or receiving payment; improve users’ experience with Twitch by providing content recommendations and by delivering content that we hope users will find relevant and interesting, including advertising and marketing messages; allow you to comment on content, and participate in online games, contests, or rewards programs; prevent fraud and abuse; and understand the usage trends of our users.
+Twitch uses such information to operate, maintain, enhance, provide, create, and develop all of the features, functionality, and services (new or existing) found on the Twitch Services; provide security for our websites, products, software, applications, or live (in-person) events; manage relationships with Twitch account holders (for example, Partners, Affiliates), including making or receiving payment; improve users’ experience with Twitch by providing content recommendations and by delivering content that we hope users will find relevant and interesting, including advertising and marketing messages; allow you to comment on content, and participate in online games, contests, or rewards programs; prevent fraud and abuse; understand the usage trends of our users; and to test and improve technology, including machine learning and artificial intelligence, to support and enhance the customer experience across our products and services. This includes using data to develop or deploy our generative AI models and services. See Amazon’s Generative AI Development Disclosure for more information.
 
 We use your email address and/or telephone number to communicate with you, including to notify you of Twitch Services updates, for customer service, or to contact you regarding any content that you have posted or downloaded from the Twitch Services.
 
