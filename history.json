@@ -1,5 +1,38 @@
 [
  {
+  "id": "2026-08-15-roblox-appstore-label",
+  "date": "2026-08-15",
+  "slug": "roblox",
+  "company": "Roblox",
+  "doc": "appstore-label",
+  "docTitle": "App Store privacy label",
+  "kind": "label-change",
+  "added": 0,
+  "removed": 5
+ },
+ {
+  "id": "2026-08-15-threema-privacy",
+  "date": "2026-08-15",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 2,
+  "removed": 2
+ },
+ {
+  "id": "2026-08-15-threema-security",
+  "date": "2026-08-15",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "change",
+  "added": 2,
+  "removed": 2
+ },
+ {
   "id": "2026-08-13-gmx-privacy",
   "date": "2026-08-13",
   "slug": "gmx",

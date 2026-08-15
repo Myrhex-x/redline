@@ -94,6 +94,8 @@ Resources
 
 Blog
 
+DDoS Attacks on Threema
+
 Messenger Interoperability: Well-Intended, but Bad for Data Privacy
 
 Easier Tag Management in the Management Cockpit
@@ -101,8 +103,6 @@ Easier Tag Management in the Management Cockpit
 World Emoji Day: Our Emoji Pet Peeves
 
 What We’re Working On
-
-Anonymity at the System Level – The Ultimate Privacy Protection
 
 Blog
 

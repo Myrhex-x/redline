@@ -1,0 +1,83 @@
+{
+ "id": "2026-08-15-threema-privacy",
+ "date": "2026-08-15",
+ "slug": "threema",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -94,6 +94,8 @@ Resources",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Blog"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "DDoS Attacks on Threema"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Messenger Interoperability: Well-Intended, but Bad for Data Privacy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Easier Tag Management in the Management Cockpit"
+    }
+   ]
+  },
+  {
+   "header": "@@ -102,8 +104,6 @@ World Emoji Day: Our Emoji Pet Peeves",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What We’re Working On"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Anonymity at the System Level – The Ultimate Privacy Protection"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Blog"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "FAQ"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

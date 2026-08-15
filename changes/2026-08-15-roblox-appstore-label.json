@@ -1,0 +1,58 @@
+{
+ "id": "2026-08-15-roblox-appstore-label",
+ "date": "2026-08-15",
+ "slug": "roblox",
+ "doc": "appstore-label",
+ "hunks": [
+  {
+   "header": "@@ -49,11 +49,6 @@",
+   "lines": [
+    {
+     "t": " ",
+     "s": "  },"
+    },
+    {
+     "t": " ",
+     "s": "  {"
+    },
+    {
+     "t": " ",
+     "s": "    \"categories\": ["
+    },
+    {
+     "t": "-",
+     "s": "      {"
+    },
+    {
+     "t": "-",
+     "s": "        \"dataTypes\": [],"
+    },
+    {
+     "t": "-",
+     "s": "        \"identifier\": \"CONTACT_INFO\","
+    },
+    {
+     "t": "-",
+     "s": "        \"title\": \"Contact Info\""
+    },
+    {
+     "t": "-",
+     "s": "      },"
+    },
+    {
+     "t": " ",
+     "s": "      {"
+    },
+    {
+     "t": " ",
+     "s": "        \"dataTypes\": [],"
+    },
+    {
+     "t": " ",
+     "s": "        \"identifier\": \"USER_CONTENT\","
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

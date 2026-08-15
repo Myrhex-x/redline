@@ -51,11 +51,6 @@
     "categories": [
       {
         "dataTypes": [],
-        "identifier": "CONTACT_INFO",
-        "title": "Contact Info"
-      },
-      {
-        "dataTypes": [],
         "identifier": "USER_CONTENT",
         "title": "User Content"
       }
