@@ -1,5 +1,64 @@
 [
  {
+  "id": "2026-08-19-eu-parliament-derogation-procedure",
+  "date": "2026-08-19",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "derogation-procedure",
+  "docTitle": "Procedure file 2025/0429(COD) — extension of the derogation",
+  "kind": "change",
+  "added": 0,
+  "removed": 57
+ },
+ {
+  "id": "2026-08-19-google-child-safety",
+  "date": "2026-08-19",
+  "slug": "google",
+  "company": "Google (Gmail)",
+  "doc": "child-safety",
+  "docTitle": "How Google fights CSAM",
+  "kind": "change",
+  "added": 18,
+  "removed": 100
+ },
+ {
+  "id": "2026-08-19-proton-privacy",
+  "date": "2026-08-19",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 1,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Pricing\""
+ },
+ {
+  "id": "2026-08-19-proton-transparency",
+  "date": "2026-08-19",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 1,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Pricing\""
+ },
+ {
+  "id": "2026-08-19-telegram-faq",
+  "date": "2026-08-19",
+  "slug": "telegram",
+  "company": "Telegram",
+  "doc": "faq",
+  "docTitle": "FAQ",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
   "id": "2026-08-15-roblox-appstore-label",
   "date": "2026-08-15",
   "slug": "roblox",

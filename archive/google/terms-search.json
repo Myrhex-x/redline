@@ -3,7 +3,7 @@
  "documents": [
   {
    "doc": "child-safety",
-   "chars": 10643
+   "chars": 10513
   },
   {
    "doc": "derogation-report",
@@ -22,7 +22,7 @@
    "chars": 90069
   }
  ],
- "totalChars": 158081,
+ "totalChars": 157951,
  "terms": [
   {
    "group": "eu",
@@ -78,7 +78,7 @@
    "samples": [
     {
      "doc": "child-safety",
-     "quote": "Jump to Content Overview Introduction Fighting abuse on our own platform and services Tools to fight CSAM Alliances & Programs Tools for partners Toolkit benefits Learn about our tools Testimonials FAQs Toolk…"
+     "quote": "…artners Toolkit interest form Introduction Fighting abuse on our own platform and services Tools to fight CSAM Alliances & Programs Fighting child sexual abuse online Google is committed to fighting online child sexua…"
     },
     {
      "doc": "child-safety",
@@ -98,11 +98,11 @@
    "samples": [
     {
      "doc": "child-safety",
-     "quote": "…ls for partners Toolkit benefits Learn about our tools Testimonials FAQs Toolkit interest form Fighting child sexual abuse online Google is committed to fighting online child sexual abuse and exploitation and preventing our service…"
+     "quote": "…duction Fighting abuse on our own platform and services Tools to fight CSAM Alliances & Programs Fighting child sexual abuse online Google is committed to fighting online child sexual abuse and exploitation and preventing our service…"
     },
     {
      "doc": "child-safety",
-     "quote": "…ials FAQs Toolkit interest form Fighting child sexual abuse online Google is committed to fighting online child sexual abuse and exploitation and preventing our services from being used to spread child sexual abuse material (CSAM). W…"
+     "quote": "…fight CSAM Alliances & Programs Fighting child sexual abuse online Google is committed to fighting online child sexual abuse and exploitation and preventing our services from being used to spread child sexual abuse material (CSAM). W…"
     },
     {
      "doc": "child-safety",
@@ -153,7 +153,7 @@
     },
     {
      "doc": "child-safety",
-     "quote": "…faster and with more precision so they can report it to the authorities. Used by CSAI Match Used for Video hash matching In 2014, YouTube engineers developed and adopted technology to tag and remove known CSAM videos from our…"
+     "quote": "…ion so they can report it to the authorities. USED BY Facebook Snapchat Safernet CSAI Match USED FOR VIDEO HASH MATCHING In 2014, YouTube engineers developed and adopted technology to tag and remove known CSAM videos from our…"
     }
    ]
   },
@@ -208,7 +208,7 @@
     },
     {
      "doc": "child-safety",
-     "quote": "…ed for previously unseen image and video content For many years, Google has been working on machine learning classifiers to allow us to proactively identify never-before-seen CSAM imagery so it can be reviewed and, if confirmed a…"
+     "quote": "…ED FOR PREVIOUSLY UNSEEN IMAGE AND VIDEO CONTENT For many years, Google has been working on machine learning classifiers to allow us to proactively identify never-before-seen CSAM imagery so it can be reviewed and, if confirmed a…"
     },
     {
      "doc": "derogation-report",

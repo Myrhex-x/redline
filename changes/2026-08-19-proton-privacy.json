@@ -1,0 +1,42 @@
+{
+ "id": "2026-08-19-proton-privacy",
+ "date": "2026-08-19",
+ "slug": "proton",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -3,6 +3,7 @@ Business Business",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Download"
+    },
+    {
+     "t": " ",
+     "s": "Discover Proton Discover Proton"
+    },
+    {
+     "t": " ",
+     "s": "Resources"
+    },
+    {
+     "t": "+",
+     "s": "Pricing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover Proton"
+    },
+    {
+     "t": " ",
+     "s": "Proton"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

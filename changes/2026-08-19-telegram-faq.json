@@ -1,0 +1,46 @@
+{
+ "id": "2026-08-19-telegram-faq",
+ "date": "2026-08-19",
+ "slug": "telegram",
+ "doc": "faq",
+ "hunks": [
+  {
+   "header": "@@ -357,7 +357,7 @@ Q: Is Telegram a “very large online platform” according to the EU Digital Se",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "No. The EU Digital Services Act (DSA) requires certain services (which it describes as “online platforms”) to publish information about their average monthly active users in the European Union."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Some non-essential elements of the services provided by Telegram may qualify as “online platforms” under the DSA. As of February 2026, these services had significantly fewer than 45 million average monthly active recipients in the EU over the preceding 6 months — which is below the threshold required for designation as a “very large online platform.”"
+    },
+    {
+     "t": "+",
+     "s": "Some non-essential elements of the services provided by Telegram may qualify as “online platforms” under the DSA. As of August 2026, these services had significantly fewer than 45 million average monthly active recipients in the EU over the preceding 6 months — which is below the threshold required for designation as a “very large online platform.”"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: A bot or channel is infringing on my copyright. What do I do?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

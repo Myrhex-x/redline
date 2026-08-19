@@ -1,0 +1,802 @@
+{
+ "id": "2026-08-19-google-child-safety",
+ "date": "2026-08-19",
+ "slug": "google",
+ "doc": "child-safety",
+ "hunks": [
+  {
+   "header": "@@ -2,6 +2,10 @@ Jump to Content",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Overview"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Tools for partners"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Toolkit interest form"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Introduction"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Fighting abuse on our own platform and services"
+    }
+   ]
+  },
+  {
+   "header": "@@ -10,18 +14,6 @@ Tools to fight CSAM",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Alliances & Programs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Tools for partners"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Toolkit benefits"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Learn about our tools"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Testimonials"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "FAQs"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Toolkit interest form"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Fighting child sexual abuse online"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Google is committed to fighting online child sexual abuse and exploitation and preventing our services from being used to spread child sexual abuse material (CSAM)."
+    }
+   ]
+  },
+  {
+   "header": "@@ -70,10 +62,6 @@ Te Protejo",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Content policies for Google Search"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Show more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Show less"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "YouTube’s work to combat exploitative videos and materials"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We have always had clear policies against videos, playlists, thumbnails and comments on YouTube that sexualise or exploit children. We use machine learning systems to proactively detect violations of these policies and have human reviewers around the world who quickly remove violations detected by our systems or flagged by users and our trusted flaggers."
+    }
+   ]
+  },
+  {
+   "header": "@@ -88,10 +76,6 @@ YouTube trusted flaggers",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Restricting live features"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Show more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Show less"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Our CSAM Transparency Report"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "In 2021, we launched a transparency report on Google’s efforts to combat online child sexual abuse material, detailing how many reports we made to NCMEC. The report also provides data around our efforts on YouTube, how we detect and remove CSAM results from Search, and how many accounts are disabled for CSAM violations across our services."
+    }
+   ]
+  },
+  {
+   "header": "@@ -104,10 +88,6 @@ Google transparency report",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "YouTube child safety efforts"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Show more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Show less"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Reporting inappropriate behavior on our products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We want to protect children using our products from experiencing grooming, sextortion, trafficking and other forms of child sexual exploitation. As part of our work to make our products safe for children to use, we provide useful information to help users report child sexual abuse material to the relevant authorities."
+    }
+   ]
+  },
+  {
+   "header": "@@ -128,29 +108,27 @@ YouTube's Community Guidelines",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Google Safety Center"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Show more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Show less"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Developing and sharing tools to fight child sexual abuse"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We use our technical expertise and innovation to protect children and support others to do the same. We offer our cutting-edge technology free-of-charge for qualifying organizations to make their operations better, faster and safer, and encourage interested organizations to apply to use our child safety tools."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Content Safety API"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Used for previously unseen image and video content"
+    },
+    {
+     "t": "+",
+     "s": "USED FOR PREVIOUSLY UNSEEN IMAGE AND VIDEO CONTENT"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "For many years, Google has been working on machine learning classifiers to allow us to proactively identify never-before-seen CSAM imagery so it can be reviewed and, if confirmed as CSAM, removed and reported as quickly as possible. This technology powers the Content Safety API, which helps organizations classify and prioritize potential abuse content for review. Every month, our partners use the Content Safety API to classify billions of files, helping them identify problematic content faster and with more precision so they can report it to the authorities."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Used by"
+    },
+    {
+     "t": "+",
+     "s": "USED BY"
+    },
+    {
+     "t": "+",
+     "s": "Facebook Snapchat Safernet"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "CSAI Match"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Used for Video hash matching"
+    },
+    {
+     "t": "+",
+     "s": "USED FOR VIDEO HASH MATCHING"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "In 2014, YouTube engineers developed and adopted technology to tag and remove known CSAM videos from our services. We share this technology with others through CSAI Match , an API that helps identify re-uploads of previously identified child sexual abuse material in videos. CSAI Match is used by NGOs and companies to help them identify matches against our database of known abusive content so they can responsibly action it in accordance with local laws and regulations."
+    },
+    {
+     "t": "+",
+     "s": "In 2014, YouTube engineers developed and adopted technology to tag and remove known CSAM videos from our services. We share this technology with others through CSAI Match, an API that helps identify re-uploads of previously identified child sexual abuse material in videos. CSAI Match is used by NGOs and companies to help them identify matches against our database of known abusive content so they can responsibly action it in accordance with local laws and regulations."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Used by"
+    },
+    {
+     "t": "+",
+     "s": "USED BY"
+    },
+    {
+     "t": "+",
+     "s": "Reddit Yahoo Adobe"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Alliances & Programs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -160,11 +138,15 @@ Together we fund child safety research and share tools and knowledge, such as ou",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "In partnership with"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "1"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "/"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Ad Grants through Google.org"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Google.org offers grants to organizations leading the fight against child sexual abuse and exploitation, like INHOPE and ECPAT International. Additionally, since 2003, Google.org has given approximately $90 million in free advertising budget to NGOs and charities who operate child sexual abuse reporting hotlines, helping them reach those who need support the most."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Relevant Links"
+    },
+    {
+     "t": "+",
+     "s": "Relevant links"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "ECPAT International"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -174,7 +156,7 @@ Google Fellow program",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We fund technical fellowships at organisations dedicated to fighting child sexual abuse like NCMEC and Thorn. In addition, Google provides training to law enforcement officials investigating online crimes against children through forums such as the Crimes Against Children Conference and the National Law Enforcement Training on Child Exploitation."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Relevant Links"
+    },
+    {
+     "t": "+",
+     "s": "Relevant links"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Thorn"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -194,68 +176,4 @@ Cookies management controls",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Help"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "English"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "বাংলা (ভারত)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Deutsch (Deutschland)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "English (Australia)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "English (India)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "English (United Kingdom)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Español (Latinoamérica)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Español (Argentina)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Español (España)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Español (México)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Filipino (Pilipinas)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Français (Belgique)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Français (Canada)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Français (France)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "ગુજરાતી (ભારત)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "हिन्दी (भारत)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Indonesia (Indonesia)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Italiano (Italia)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "日本語 (日本)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "ಕನ್ನಡ (ಭಾರತ)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "한국어 (대한민국)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "മലയാളം (ഇന്ത്യ)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "मराठी (भारत)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Nederlands"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Nederlands (België)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Nederlands (Nederland)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Português (Brasil)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "தமிழ் (இந்தியா)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "తెలుగు (భారతదేశం)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Tiếng Việt (Việt Nam)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "中文 (简体)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "中文"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "中文 (繁體)"
+    },
+    {
+     "t": "+",
+     "s": "English Deutsch (Deutschland) English (Australia) English (India) English (United Kingdom) Español (Argentina) Español (España) Español (Latinoamérica) Español (México) Filipino (Pilipinas) Français (Belgique) Français (Canada) Français (France) Indonesia (Indonesia) Italiano (Italia) Nederlands Nederlands (België) Nederlands (Nederland) Português (Brasil) Tiếng Việt (Việt Nam) मराठी (भारत) हिन्दी (भारत) বাংলা (ভারত) ગુજરાતી (ભારત) தமிழ் (இந்தியா) తెలుగు (భారతదేశం) ಕನ್ನಡ (ಭಾರತ) മലയാളം (ഇന്ത്യ) 中文 中文 (简体) 中文 (繁體) 日本語 (日本) 한국어 (대한민국)"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
