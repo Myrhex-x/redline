@@ -1,0 +1,54 @@
+{
+ "id": "2026-08-20-tiktok-guidelines",
+ "date": "2026-08-20",
+ "slug": "tiktok",
+ "doc": "guidelines",
+ "hunks": [
+  {
+   "header": "@@ -13,7 +13,9 @@ For You feed Eligibility Standards",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Accounts and Features"
+    },
+    {
+     "t": " ",
+     "s": "Enforcement"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Released August 14, 2025 • Effective September 13, 2025"
+    },
+    {
+     "t": "+",
+     "s": "Released August 14, 2025"
+    },
+    {
+     "t": "+",
+     "s": "Effective September 13, 2025"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "TikTok is where people discover things they love, build communities, and express themselves. Our mission is simple: we want to inspire creativity and bring joy."
+    },
+    {
+     "t": " ",
+     "s": "We have Community Guidelines to help keep TikTok a safe and positive experience. These rules apply to everyone and everything on our platform."
+    },
+    {
+     "t": " ",
+     "s": "You're in the right place if you're wondering:"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

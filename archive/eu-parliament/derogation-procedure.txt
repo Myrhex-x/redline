@@ -1,6 +1,10 @@
 Access to page content (press "Enter")
 00014/2026/LEX
+01/07/2026
+02/03/2026
 02/07/2026
+02/07/2026
+03/03/2026
 03/03/2026
 03/03/2026
 03/07/2026
@@ -8,11 +12,17 @@ Access to page content (press "Enter")
 06/03/2026
 06/05/2026
 06/05/2026
+06/07/2026
 08/05/2026
+09/07/2026
 09/07/2026
 1.20.09 Protection of privacy and data protection
 10/02/2026
 11/03/2026
+11/03/2026
+11/03/2026
+11/03/2026
+11261/1/2026
 11261/1/2026
 12/06/2026
 15/01/2026
@@ -21,6 +31,7 @@ Access to page content (press "Enter")
 17/03/2026
 18/02/2026
 19/12/2025
+19/12/2025
 2020/0259(COD)
 2020/0259(COD)
 2025/0429(COD)
@@ -28,14 +39,25 @@ Access to page content (press "Enter")
 2025/0429(COD)
 21/01/2026
 23/07/2026
+23/07/2026
+24/07/2026
 26/03/2026
+26/03/2026
+26/03/2026
+27/01/2026
+28/07/2026
 3.30.05 Electronic and mobile communications, personal communications
 3.30.25 International information networks and society, internet
+A10-0040/2026
 A10-0040/2026
 About Parliament
 About Parliament
 About Parliament
 Accessibility
+Act approved by Council, 2nd reading
+Additional information
+Additional information
+Additional information
 Amending Regulation 2021/1232
 Amending Regulation 2021/1232
 Amendments and repeals
@@ -57,6 +79,7 @@ COD - Ordinary legislative procedure (ex-codecision procedure)
 COD - Ordinary legislative procedure (ex-codecision procedure)
 COM(2025)0797
 COM(2025)0797
+COM(2025)0797
 COM(2026)0357
 COM(2026)0393
 Commission communication on Council's position
@@ -67,6 +90,9 @@ Committee
 Committee
 Committee dossier
 Committee draft report
+Committee referral announced in Parliament, 1st reading
+Committee referral announced in Parliament, 2nd reading
+Committee report tabled for plenary, 1st reading
 Committee report tabled for plenary, 1st reading/single reading
 Committee responsible
 Committees
@@ -82,6 +108,7 @@ Council of the EU
 Council of the European Union
 Council of the European Union
 Council position
+Council position published
 Council register
 Data Protection Notice
 Date
@@ -90,6 +117,11 @@ Date
 Date
 Date
 Date
+Date
+Date
+Decision by Parliament, 1st reading
+Decision by Parliament, 1st reading
+Decision by Parliament, 2nd reading
 Delegated acts register
 Delegations
 Delegations
@@ -98,6 +130,7 @@ Delegations
 Delegations calendar
 Direct access to language menu (press "Enter")
 Direct access to search menu (press "Enter")
+Document
 Document type
 Document type
 Document type
@@ -119,6 +152,8 @@ EU budget
 EU budget
 EU budget
 EUR-Lex
+EUR-Lex
+European Commission
 European Commission
 European Commission
 European Commission
@@ -131,12 +166,15 @@ European Parliament
 European Parliament
 European Parliament
 European Parliament
+Event
 Events
 Facebook
 Facebook
 Final act
 Final act
 Final act
+Final act published in Official Journal
+Final act signed
 Find a procedure
 Find out more
 Flickr
@@ -158,6 +196,9 @@ Internet Watch Foundation
 IT_CHAMBER
 JOVEVA Irena
 JOVEVA Irena
+Key events
+Key events
+Key events
 Key players
 Key players
 Key players
@@ -171,6 +212,7 @@ Legislative Observatory
 Legislative Observatory
 Legislative priorities
 Legislative proposal
+Legislative proposal published
 Legislative texts adopted
 Legislative train
 Liaison offices
@@ -188,6 +230,7 @@ LIBE/10/06314
 LinkedIn
 LinkedIn
 Mandatory consultation of other institutions
+Matter referred back to the committee responsible for interinstitutional negotiations
 Meetings
 Meetings with interest representatives published in line with the Rules of Procedure
 Menu
@@ -245,10 +288,13 @@ Reference
 Reference
 Reference
 Reference
+Reference
 Register
 Regulation
 Regulation
 Regulation 2026/1881
+Results of vote in Parliament
+Results of vote in Parliament
 Role
 Rules of Procedure EP 170-p6
 Search
@@ -266,6 +312,7 @@ SIPPEL Birgit
 SIPPEL Birgit
 SIPPEL Birgit (S&D)
 Sitemap
+Source
 Stage reached in procedure
 Status
 Subject
@@ -278,9 +325,17 @@ Summary
 Summary
 Summary
 Summary
+Summary
+Summary
+Summary
+Summary
+Summary
 Supporting analyses
 T10-0070/2026
+T10-0070/2026
 T10-0095/2026
+T10-0095/2026
+T10-0266/2026
 T10-0266/2026
 Technical information
 Technical information
@@ -301,8 +356,10 @@ Treaty on the Functioning of the European Union TFEU 016-p2
 Treaty on the Functioning of the European Union TFEU 114-p1
 Treaty on the Functioning of the European Union TFEU 294-p7-ac
 Twitter
+Urgent procedure requested by a political group
 View other websites
 Visits
+Vote in committee, 1st reading
 Whatsapp
 X
 YouTube

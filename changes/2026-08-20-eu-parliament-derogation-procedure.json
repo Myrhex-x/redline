@@ -1,0 +1,875 @@
+{
+ "id": "2026-08-20-eu-parliament-derogation-procedure",
+ "date": "2026-08-20",
+ "slug": "eu-parliament",
+ "doc": "derogation-procedure",
+ "hunks": [
+  {
+   "header": "@@ -1,6 +1,10 @@",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Access to page content (press \"Enter\")"
+    },
+    {
+     "t": " ",
+     "s": "00014/2026/LEX"
+    },
+    {
+     "t": "+",
+     "s": "01/07/2026"
+    },
+    {
+     "t": "+",
+     "s": "02/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "02/07/2026"
+    },
+    {
+     "t": "+",
+     "s": "02/07/2026"
+    },
+    {
+     "t": "+",
+     "s": "03/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "03/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "03/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "03/07/2026"
+    }
+   ]
+  },
+  {
+   "header": "@@ -8,11 +12,17 @@ Access to page content (press \"Enter\")",
+   "lines": [
+    {
+     "t": " ",
+     "s": "06/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "06/05/2026"
+    },
+    {
+     "t": " ",
+     "s": "06/05/2026"
+    },
+    {
+     "t": "+",
+     "s": "06/07/2026"
+    },
+    {
+     "t": " ",
+     "s": "08/05/2026"
+    },
+    {
+     "t": " ",
+     "s": "09/07/2026"
+    },
+    {
+     "t": "+",
+     "s": "09/07/2026"
+    },
+    {
+     "t": " ",
+     "s": "1.20.09 Protection of privacy and data protection"
+    },
+    {
+     "t": " ",
+     "s": "10/02/2026"
+    },
+    {
+     "t": " ",
+     "s": "11/03/2026"
+    },
+    {
+     "t": "+",
+     "s": "11/03/2026"
+    },
+    {
+     "t": "+",
+     "s": "11/03/2026"
+    },
+    {
+     "t": "+",
+     "s": "11/03/2026"
+    },
+    {
+     "t": "+",
+     "s": "11261/1/2026"
+    },
+    {
+     "t": " ",
+     "s": "11261/1/2026"
+    },
+    {
+     "t": " ",
+     "s": "12/06/2026"
+    },
+    {
+     "t": " ",
+     "s": "15/01/2026"
+    }
+   ]
+  },
+  {
+   "header": "@@ -21,6 +31,7 @@ Access to page content (press \"Enter\")",
+   "lines": [
+    {
+     "t": " ",
+     "s": "17/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "18/02/2026"
+    },
+    {
+     "t": " ",
+     "s": "19/12/2025"
+    },
+    {
+     "t": "+",
+     "s": "19/12/2025"
+    },
+    {
+     "t": " ",
+     "s": "2020/0259(COD)"
+    },
+    {
+     "t": " ",
+     "s": "2020/0259(COD)"
+    },
+    {
+     "t": " ",
+     "s": "2025/0429(COD)"
+    }
+   ]
+  },
+  {
+   "header": "@@ -28,14 +39,25 @@ Access to page content (press \"Enter\")",
+   "lines": [
+    {
+     "t": " ",
+     "s": "2025/0429(COD)"
+    },
+    {
+     "t": " ",
+     "s": "21/01/2026"
+    },
+    {
+     "t": " ",
+     "s": "23/07/2026"
+    },
+    {
+     "t": "+",
+     "s": "23/07/2026"
+    },
+    {
+     "t": "+",
+     "s": "24/07/2026"
+    },
+    {
+     "t": "+",
+     "s": "26/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "26/03/2026"
+    },
+    {
+     "t": "+",
+     "s": "26/03/2026"
+    },
+    {
+     "t": "+",
+     "s": "27/01/2026"
+    },
+    {
+     "t": "+",
+     "s": "28/07/2026"
+    },
+    {
+     "t": " ",
+     "s": "3.30.05 Electronic and mobile communications, personal communications"
+    },
+    {
+     "t": " ",
+     "s": "3.30.25 International information networks and society, internet"
+    },
+    {
+     "t": " ",
+     "s": "A10-0040/2026"
+    },
+    {
+     "t": "+",
+     "s": "A10-0040/2026"
+    },
+    {
+     "t": " ",
+     "s": "About Parliament"
+    },
+    {
+     "t": " ",
+     "s": "About Parliament"
+    },
+    {
+     "t": " ",
+     "s": "About Parliament"
+    },
+    {
+     "t": " ",
+     "s": "Accessibility"
+    },
+    {
+     "t": "+",
+     "s": "Act approved by Council, 2nd reading"
+    },
+    {
+     "t": "+",
+     "s": "Additional information"
+    },
+    {
+     "t": "+",
+     "s": "Additional information"
+    },
+    {
+     "t": "+",
+     "s": "Additional information"
+    },
+    {
+     "t": " ",
+     "s": "Amending Regulation 2021/1232"
+    },
+    {
+     "t": " ",
+     "s": "Amending Regulation 2021/1232"
+    },
+    {
+     "t": " ",
+     "s": "Amendments and repeals"
+    }
+   ]
+  },
+  {
+   "header": "@@ -57,6 +79,7 @@ COD - Ordinary legislative procedure (ex-codecision procedure)",
+   "lines": [
+    {
+     "t": " ",
+     "s": "COD - Ordinary legislative procedure (ex-codecision procedure)"
+    },
+    {
+     "t": " ",
+     "s": "COM(2025)0797"
+    },
+    {
+     "t": " ",
+     "s": "COM(2025)0797"
+    },
+    {
+     "t": "+",
+     "s": "COM(2025)0797"
+    },
+    {
+     "t": " ",
+     "s": "COM(2026)0357"
+    },
+    {
+     "t": " ",
+     "s": "COM(2026)0393"
+    },
+    {
+     "t": " ",
+     "s": "Commission communication on Council's position"
+    }
+   ]
+  },
+  {
+   "header": "@@ -67,6 +90,9 @@ Committee",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Committee"
+    },
+    {
+     "t": " ",
+     "s": "Committee dossier"
+    },
+    {
+     "t": " ",
+     "s": "Committee draft report"
+    },
+    {
+     "t": "+",
+     "s": "Committee referral announced in Parliament, 1st reading"
+    },
+    {
+     "t": "+",
+     "s": "Committee referral announced in Parliament, 2nd reading"
+    },
+    {
+     "t": "+",
+     "s": "Committee report tabled for plenary, 1st reading"
+    },
+    {
+     "t": " ",
+     "s": "Committee report tabled for plenary, 1st reading/single reading"
+    },
+    {
+     "t": " ",
+     "s": "Committee responsible"
+    },
+    {
+     "t": " ",
+     "s": "Committees"
+    }
+   ]
+  },
+  {
+   "header": "@@ -82,6 +108,7 @@ Council of the EU",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Council of the European Union"
+    },
+    {
+     "t": " ",
+     "s": "Council of the European Union"
+    },
+    {
+     "t": " ",
+     "s": "Council position"
+    },
+    {
+     "t": "+",
+     "s": "Council position published"
+    },
+    {
+     "t": " ",
+     "s": "Council register"
+    },
+    {
+     "t": " ",
+     "s": "Data Protection Notice"
+    },
+    {
+     "t": " ",
+     "s": "Date"
+    }
+   ]
+  },
+  {
+   "header": "@@ -90,6 +117,11 @@ Date",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Date"
+    },
+    {
+     "t": " ",
+     "s": "Date"
+    },
+    {
+     "t": " ",
+     "s": "Date"
+    },
+    {
+     "t": "+",
+     "s": "Date"
+    },
+    {
+     "t": "+",
+     "s": "Date"
+    },
+    {
+     "t": "+",
+     "s": "Decision by Parliament, 1st reading"
+    },
+    {
+     "t": "+",
+     "s": "Decision by Parliament, 1st reading"
+    },
+    {
+     "t": "+",
+     "s": "Decision by Parliament, 2nd reading"
+    },
+    {
+     "t": " ",
+     "s": "Delegated acts register"
+    },
+    {
+     "t": " ",
+     "s": "Delegations"
+    },
+    {
+     "t": " ",
+     "s": "Delegations"
+    }
+   ]
+  },
+  {
+   "header": "@@ -98,6 +130,7 @@ Delegations",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Delegations calendar"
+    },
+    {
+     "t": " ",
+     "s": "Direct access to language menu (press \"Enter\")"
+    },
+    {
+     "t": " ",
+     "s": "Direct access to search menu (press \"Enter\")"
+    },
+    {
+     "t": "+",
+     "s": "Document"
+    },
+    {
+     "t": " ",
+     "s": "Document type"
+    },
+    {
+     "t": " ",
+     "s": "Document type"
+    },
+    {
+     "t": " ",
+     "s": "Document type"
+    }
+   ]
+  },
+  {
+   "header": "@@ -119,6 +152,8 @@ EU budget",
+   "lines": [
+    {
+     "t": " ",
+     "s": "EU budget"
+    },
+    {
+     "t": " ",
+     "s": "EU budget"
+    },
+    {
+     "t": " ",
+     "s": "EUR-Lex"
+    },
+    {
+     "t": "+",
+     "s": "EUR-Lex"
+    },
+    {
+     "t": "+",
+     "s": "European Commission"
+    },
+    {
+     "t": " ",
+     "s": "European Commission"
+    },
+    {
+     "t": " ",
+     "s": "European Commission"
+    },
+    {
+     "t": " ",
+     "s": "European Commission"
+    }
+   ]
+  },
+  {
+   "header": "@@ -131,12 +166,15 @@ European Parliament",
+   "lines": [
+    {
+     "t": " ",
+     "s": "European Parliament"
+    },
+    {
+     "t": " ",
+     "s": "European Parliament"
+    },
+    {
+     "t": " ",
+     "s": "European Parliament"
+    },
+    {
+     "t": "+",
+     "s": "Event"
+    },
+    {
+     "t": " ",
+     "s": "Events"
+    },
+    {
+     "t": " ",
+     "s": "Facebook"
+    },
+    {
+     "t": " ",
+     "s": "Facebook"
+    },
+    {
+     "t": " ",
+     "s": "Final act"
+    },
+    {
+     "t": " ",
+     "s": "Final act"
+    },
+    {
+     "t": " ",
+     "s": "Final act"
+    },
+    {
+     "t": "+",
+     "s": "Final act published in Official Journal"
+    },
+    {
+     "t": "+",
+     "s": "Final act signed"
+    },
+    {
+     "t": " ",
+     "s": "Find a procedure"
+    },
+    {
+     "t": " ",
+     "s": "Find out more"
+    },
+    {
+     "t": " ",
+     "s": "Flickr"
+    }
+   ]
+  },
+  {
+   "header": "@@ -158,6 +196,9 @@ Internet Watch Foundation",
+   "lines": [
+    {
+     "t": " ",
+     "s": "IT_CHAMBER"
+    },
+    {
+     "t": " ",
+     "s": "JOVEVA Irena"
+    },
+    {
+     "t": " ",
+     "s": "JOVEVA Irena"
+    },
+    {
+     "t": "+",
+     "s": "Key events"
+    },
+    {
+     "t": "+",
+     "s": "Key events"
+    },
+    {
+     "t": "+",
+     "s": "Key events"
+    },
+    {
+     "t": " ",
+     "s": "Key players"
+    },
+    {
+     "t": " ",
+     "s": "Key players"
+    },
+    {
+     "t": " ",
+     "s": "Key players"
+    }
+   ]
+  },
+  {
+   "header": "@@ -171,6 +212,7 @@ Legislative Observatory",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Legislative Observatory"
+    },
+    {
+     "t": " ",
+     "s": "Legislative priorities"
+    },
+    {
+     "t": " ",
+     "s": "Legislative proposal"
+    },
+    {
+     "t": "+",
+     "s": "Legislative proposal published"
+    },
+    {
+     "t": " ",
+     "s": "Legislative texts adopted"
+    },
+    {
+     "t": " ",
+     "s": "Legislative train"
+    },
+    {
+     "t": " ",
+     "s": "Liaison offices"
+    }
+   ]
+  },
+  {
+   "header": "@@ -188,6 +230,7 @@ LIBE/10/06314",
+   "lines": [
+    {
+     "t": " ",
+     "s": "LinkedIn"
+    },
+    {
+     "t": " ",
+     "s": "LinkedIn"
+    },
+    {
+     "t": " ",
+     "s": "Mandatory consultation of other institutions"
+    },
+    {
+     "t": "+",
+     "s": "Matter referred back to the committee responsible for interinstitutional negotiations"
+    },
+    {
+     "t": " ",
+     "s": "Meetings"
+    },
+    {
+     "t": " ",
+     "s": "Meetings with interest representatives published in line with the Rules of Procedure"
+    },
+    {
+     "t": " ",
+     "s": "Menu"
+    }
+   ]
+  },
+  {
+   "header": "@@ -245,10 +288,13 @@ Reference",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Reference"
+    },
+    {
+     "t": " ",
+     "s": "Reference"
+    },
+    {
+     "t": " ",
+     "s": "Reference"
+    },
+    {
+     "t": "+",
+     "s": "Reference"
+    },
+    {
+     "t": " ",
+     "s": "Register"
+    },
+    {
+     "t": " ",
+     "s": "Regulation"
+    },
+    {
+     "t": " ",
+     "s": "Regulation"
+    },
+    {
+     "t": " ",
+     "s": "Regulation 2026/1881"
+    },
+    {
+     "t": "+",
+     "s": "Results of vote in Parliament"
+    },
+    {
+     "t": "+",
+     "s": "Results of vote in Parliament"
+    },
+    {
+     "t": " ",
+     "s": "Role"
+    },
+    {
+     "t": " ",
+     "s": "Rules of Procedure EP 170-p6"
+    },
+    {
+     "t": " ",
+     "s": "Search"
+    }
+   ]
+  },
+  {
+   "header": "@@ -266,6 +312,7 @@ SIPPEL Birgit",
+   "lines": [
+    {
+     "t": " ",
+     "s": "SIPPEL Birgit"
+    },
+    {
+     "t": " ",
+     "s": "SIPPEL Birgit (S&D)"
+    },
+    {
+     "t": " ",
+     "s": "Sitemap"
+    },
+    {
+     "t": "+",
+     "s": "Source"
+    },
+    {
+     "t": " ",
+     "s": "Stage reached in procedure"
+    },
+    {
+     "t": " ",
+     "s": "Status"
+    },
+    {
+     "t": " ",
+     "s": "Subject"
+    }
+   ]
+  },
+  {
+   "header": "@@ -278,10 +325,18 @@ Summary",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Summary"
+    },
+    {
+     "t": " ",
+     "s": "Summary"
+    },
+    {
+     "t": " ",
+     "s": "Summary"
+    },
+    {
+     "t": "+",
+     "s": "Summary"
+    },
+    {
+     "t": "+",
+     "s": "Summary"
+    },
+    {
+     "t": "+",
+     "s": "Summary"
+    },
+    {
+     "t": "+",
+     "s": "Summary"
+    },
+    {
+     "t": "+",
+     "s": "Summary"
+    },
+    {
+     "t": " ",
+     "s": "Supporting analyses"
+    },
+    {
+     "t": " ",
+     "s": "T10-0070/2026"
+    },
+    {
+     "t": "+",
+     "s": "T10-0070/2026"
+    },
+    {
+     "t": "+",
+     "s": "T10-0095/2026"
+    },
+    {
+     "t": " ",
+     "s": "T10-0095/2026"
+    },
+    {
+     "t": " ",
+     "s": "T10-0266/2026"
+    },
+    {
+     "t": "+",
+     "s": "T10-0266/2026"
+    },
+    {
+     "t": " ",
+     "s": "Technical information"
+    },
+    {
+     "t": " ",
+     "s": "Technical information"
+    },
+    {
+     "t": " ",
+     "s": "Technical information"
+    }
+   ]
+  },
+  {
+   "header": "@@ -301,8 +356,10 @@ Treaty on the Functioning of the European Union TFEU 016-p2",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Treaty on the Functioning of the European Union TFEU 114-p1"
+    },
+    {
+     "t": " ",
+     "s": "Treaty on the Functioning of the European Union TFEU 294-p7-ac"
+    },
+    {
+     "t": " ",
+     "s": "Twitter"
+    },
+    {
+     "t": "+",
+     "s": "Urgent procedure requested by a political group"
+    },
+    {
+     "t": " ",
+     "s": "View other websites"
+    },
+    {
+     "t": " ",
+     "s": "Visits"
+    },
+    {
+     "t": "+",
+     "s": "Vote in committee, 1st reading"
+    },
+    {
+     "t": " ",
+     "s": "Whatsapp"
+    },
+    {
+     "t": " ",
+     "s": "X"
+    },
+    {
+     "t": " ",
+     "s": "YouTube"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
