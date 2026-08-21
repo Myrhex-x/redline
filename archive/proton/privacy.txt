@@ -5,51 +5,36 @@ Discover Proton Discover Proton
 Resources
 Pricing
 
+Encrypted email Proton Mail VPN Proton VPN (new window) AI assistant Lumo AI Video conferencing Proton Meet Private scheduling Proton Calendar
+
+Cloud storage Proton Drive Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window)
+
+Password manager Proton Pass Two-factor authenticator Proton Authenticator Hide-my-email aliases SimpleLogin (new window)
+
 Discover Proton
+Personal plans
+
 Proton
 Choose an internet where your privacy comes first
 Create a free account
 
-Communicate and browse
-Email VPN (new window) Video conferencing Calendar
-Store, share, collaborate
-Cloud storage Docs Sheets
+Business email Proton Mail Business VPN Proton VPN Business AI assistant Lumo AI Business video conferencing Proton Meet Business calendar Proton Calendar Business password manager Proton Pass Business cloud storage Proton Drive
 
-Private AI
-AI assistant
-Security
-Password manager Two-factor authentication Bitcoin wallet
-More from Proton
-Hide-my-email aliases (new window) Encrypted notes (new window)
-
-Pricing
-Personal plans
-Get started
-Switch to Proton
-
-Discover Proton for Business
-Proton for Business
-Simple, encrypted solutions to protect your business
-Find your plan
-
-Secure business communication
-Business email Business VPN Business video conferencing Business calendar
-Protect your team files
-Business cloud storage Docs Sheets
-
-Confidential AI for professionals
-Business AI assistant
-Protect your business Identity
-Business password manager
+Business documents Proton Docs Business spreadsheets Proton Sheets
 Industries
 Tech Healthcare Nonprofits News and media
+
+Business resources
+Trust center HIPAA GDPR Data Breach Observatory ISO 27001 Business blog
 Switch from
 Microsoft 365 Google Workspace
 
-Pricing
+Discover Proton for Business
 Business plans
-Business resources
-Trust center HIPAA GDPR Data breach observatory ISO 27001 Business blog
+
+Proton for Business
+Simple, encrypted solutions to protect your business
+Find your plan
 
 Proton Mail Proton VPN Proton Drive Proton Pass Lumo AI Proton Calendar Proton Meet Proton Authenticator Proton Wallet
 
@@ -145,11 +130,6 @@ iOS (new window) Android (new window)
 Web app
 Web app (new window)
 
-Discover Proton
-Proton
-We believe a better world starts with privacy and digital freedom
-Discover Proton
-
 Company
 About us Impact Team Careers We’re hiring Proton Foundation Proton blog
 
@@ -158,6 +138,13 @@ Open source Zero-access encryption Big Tech alternatives
 
 Connect
 Partners and affiliates Social media Media contact
+
+Discover Proton
+Personal plans
+
+Proton
+We believe a better world starts with privacy and digital freedom
+Discover Proton
 
 Get started with Proton
 Beginner video guides (new window) Learn about encryption Business resources

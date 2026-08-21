@@ -1,0 +1,146 @@
+{
+ "id": "2026-08-21-proton-security",
+ "date": "2026-08-21",
+ "slug": "proton",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -63,28 +63,17 @@ Web app (new window)",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Desktop client add-on"
+    },
+    {
+     "t": " ",
+     "s": "Bridge"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Discover Proton"
+    },
+    {
+     "t": "-",
+     "s": "Proton"
+    },
+    {
+     "t": "-",
+     "s": "We believe a better world starts with privacy and digital freedom"
+    },
+    {
+     "t": "-",
+     "s": "Create a free account"
+    },
+    {
+     "t": "+",
+     "s": "Encrypted email Proton Mail VPN Proton VPN (new window) AI assistant Lumo AI Video conferencing Proton Meet Private scheduling Proton Calendar"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Communicate and browse"
+    },
+    {
+     "t": "-",
+     "s": "Email VPN (new window) Video conferencing Calendar"
+    },
+    {
+     "t": "-",
+     "s": "Store, share, collaborate"
+    },
+    {
+     "t": "-",
+     "s": "Cloud storage Docs Sheets"
+    },
+    {
+     "t": "+",
+     "s": "Cloud storage Proton Drive Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Private AI"
+    },
+    {
+     "t": "-",
+     "s": "AI assistant"
+    },
+    {
+     "t": "-",
+     "s": "Security"
+    },
+    {
+     "t": "-",
+     "s": "Password manager Two-factor authenticator Bitcoin wallet"
+    },
+    {
+     "t": "-",
+     "s": "More from Proton"
+    },
+    {
+     "t": "-",
+     "s": "Hide-my-email aliases (new window) Encrypted notes (new window)"
+    },
+    {
+     "t": "+",
+     "s": "Password manager Proton Pass Two-factor authenticator Proton Authenticator Hide-my-email aliases SimpleLogin (new window)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Get started"
+    },
+    {
+     "t": "-",
+     "s": "Personal plans Business plans"
+    },
+    {
+     "t": " ",
+     "s": "Company"
+    },
+    {
+     "t": " ",
+     "s": "About us Impact Social media Open source Team Careers We’re hiring Proton Foundation Proton blog"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Discover Proton"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Get Proton Mail"
+    },
+    {
+     "t": " ",
+     "s": "Sign in"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

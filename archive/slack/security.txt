@@ -61,6 +61,10 @@ Workflow Builder
 Automate everyday tasks
 
 INTELLIGENCE
+Slack Code
+
+Write, review, and ship code with agents
+
 AI in Slack
 
 Save time and work smarter with powerfully simple AI
@@ -256,6 +260,10 @@ Workflow Builder
 Automate everyday tasks
 
 INTELLIGENCE
+Slack Code
+
+Write, review, and ship code with agents
+
 AI in Slack
 
 Save time and work smarter with powerfully simple AI

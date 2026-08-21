@@ -190,7 +190,7 @@ H. Newsletters ;
 I. Press Releases ;
 J. Misuse Protection (hCaptcha) ;
 K. Affiliate Links (Cookies) .
-Threema as the data controller is a limited liability company under Swiss law with its registered office in Pfäffikon SZ (municipality of Freienbach), Switzerland, and business identification number (hereinafter “ UID ”) CHE-221.440.104.
+Threema as the data controller is a company limited by shares under Swiss law with its registered office in Pfäffikon SZ (municipality of Freienbach), Switzerland, and business identification number (hereinafter “ UID ”) CHE-487.082.806.
 When a Visitor visits and interacts with the Threema Website, personal data is, unless otherwise stated in this Privacy Policy, processed and, if necessary, stored exclusively on Threema’s own servers in two data centers of an “ISO 27001”-certified colocation partner located in Zurich, Switzerland (hereinafter “ Threema Servers ”).
 As a company with its registered office in Switzerland, Threema and the data processing it carries out are subject to Swiss data protection law (Federal Act on Data Protection of September 25, 2020, SR 235.1; hereinafter “ FADP ”). For data subjects residing in the territory of the EU or the EEA (marked with “ for EU/EEA ”), European data protection law (Regulation (EU) 2016/679 of April 27, 2016, General Data Protection Regulation; hereinafter “ GDPR ”) may additionally apply.
 Personal data pursuant to Art. 5 lit. a FADP [for EU/EEA: Art. 4 No. 1 GDPR] is information that relates to an identified or identifiable natural person.
@@ -199,7 +199,7 @@ Threema AG
 Churerstrasse 82
 8808 Pfäffikon SZ
 Switzerland
-UID: CHE-221.440.104
+UID: CHE-487.082.806
 C. Data Protection Officer
 Threema AG
 Data Protection Officer

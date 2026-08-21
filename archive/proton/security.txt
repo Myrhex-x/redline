@@ -63,27 +63,16 @@ Web app (new window)
 Desktop client add-on
 Bridge
 
-Discover Proton
-Proton
-We believe a better world starts with privacy and digital freedom
-Create a free account
+Encrypted email Proton Mail VPN Proton VPN (new window) AI assistant Lumo AI Video conferencing Proton Meet Private scheduling Proton Calendar
 
-Communicate and browse
-Email VPN (new window) Video conferencing Calendar
-Store, share, collaborate
-Cloud storage Docs Sheets
+Cloud storage Proton Drive Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window)
 
-Private AI
-AI assistant
-Security
-Password manager Two-factor authenticator Bitcoin wallet
-More from Proton
-Hide-my-email aliases (new window) Encrypted notes (new window)
+Password manager Proton Pass Two-factor authenticator Proton Authenticator Hide-my-email aliases SimpleLogin (new window)
 
-Get started
-Personal plans Business plans
 Company
 About us Impact Social media Open source Team Careers We’re hiring Proton Foundation Proton blog
+
+Discover Proton
 
 Get Proton Mail
 Sign in

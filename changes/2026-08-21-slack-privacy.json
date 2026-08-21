@@ -1,0 +1,99 @@
+{
+ "id": "2026-08-21-slack-privacy",
+ "date": "2026-08-21",
+ "slug": "slack",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -61,6 +61,10 @@ Workflow Builder",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Automate everyday tasks"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "INTELLIGENCE"
+    },
+    {
+     "t": "+",
+     "s": "Slack Code"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Write, review, and ship code with agents"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "AI in Slack"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Save time and work smarter with powerfully simple AI"
+    }
+   ]
+  },
+  {
+   "header": "@@ -256,6 +260,10 @@ Workflow Builder",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Automate everyday tasks"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "INTELLIGENCE"
+    },
+    {
+     "t": "+",
+     "s": "Slack Code"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Write, review, and ship code with agents"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "AI in Slack"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Save time and work smarter with powerfully simple AI"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

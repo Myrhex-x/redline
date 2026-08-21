@@ -1,0 +1,46 @@
+{
+ "id": "2026-08-21-zoom-privacy",
+ "date": "2026-08-21",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -182,7 +182,7 @@ Canvas Sheets Slides Paper",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "AI Resources AI Resources"
+    },
+    {
+     "t": " ",
+     "s": "Learn more about AI at Zoom. Get AI support"
+    },
+    {
+     "t": "-",
+     "s": "Success Guides: Zoom AI Success Guides: ZoomMate AI Privacy and Security AI ROI Calculator"
+    },
+    {
+     "t": "+",
+     "s": "Success Guides: Zoom AI Success Guides: ZoomMate AI Privacy and Security AI ROI Calculator AI Research"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "By industry"
+    },
+    {
+     "t": " ",
+     "s": "Education Financial Services Professionals Government Healthcare Manufacturing Retail Broadcast"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
