@@ -1,5 +1,49 @@
 [
  {
+  "id": "2026-08-22-slack-compliance",
+  "date": "2026-08-22",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "change",
+  "added": 10,
+  "removed": 10
+ },
+ {
+  "id": "2026-08-22-slack-privacy",
+  "date": "2026-08-22",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 10,
+  "removed": 10
+ },
+ {
+  "id": "2026-08-22-slack-security",
+  "date": "2026-08-22",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "security",
+  "docTitle": "Security",
+  "kind": "change",
+  "added": 10,
+  "removed": 10
+ },
+ {
+  "id": "2026-08-22-telegram-privacy",
+  "date": "2026-08-22",
+  "slug": "telegram",
+  "company": "Telegram",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 23,
+  "removed": 5
+ },
+ {
   "id": "2026-08-21-proton-privacy",
   "date": "2026-08-21",
   "slug": "proton",

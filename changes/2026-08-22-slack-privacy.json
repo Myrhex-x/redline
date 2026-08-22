@@ -1,0 +1,243 @@
+{
+ "id": "2026-08-22-slack-privacy",
+ "date": "2026-08-22",
+ "slug": "slack",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -63,23 +63,23 @@ Automate everyday tasks",
+   "lines": [
+    {
+     "t": " ",
+     "s": "INTELLIGENCE"
+    },
+    {
+     "t": " ",
+     "s": "Slack Code"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Write, review, and ship code with agents"
+    },
+    {
+     "t": "+",
+     "s": "Write and ship code with agents"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "AI in Slack"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Save time and work smarter with powerfully simple AI"
+    },
+    {
+     "t": "+",
+     "s": "Built-in AI, right where you work"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Slackbot"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Power productivity with your personal AI agent"
+    },
+    {
+     "t": "+",
+     "s": "Your AI teammate"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Agentforce"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Empower your whole team with AI-powered agents in Slack"
+    },
+    {
+     "t": "+",
+     "s": "Salesforce agents, natively in Slack"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Enterprise Search"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Find anything, all from a single search bar"
+    },
+    {
+     "t": "+",
+     "s": "Search anything. Find everything."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "ADMIN & SECURITY"
+    },
+    {
+     "t": " ",
+     "s": "Security"
+    }
+   ]
+  },
+  {
+   "header": "@@ -262,23 +262,23 @@ Automate everyday tasks",
+   "lines": [
+    {
+     "t": " ",
+     "s": "INTELLIGENCE"
+    },
+    {
+     "t": " ",
+     "s": "Slack Code"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Write, review, and ship code with agents"
+    },
+    {
+     "t": "+",
+     "s": "Write and ship code with agents"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "AI in Slack"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Save time and work smarter with powerfully simple AI"
+    },
+    {
+     "t": "+",
+     "s": "Built-in AI, right where you work"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Slackbot"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Power productivity with your personal AI agent"
+    },
+    {
+     "t": "+",
+     "s": "Your AI teammate"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Agentforce"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Empower your whole team with AI-powered agents in Slack"
+    },
+    {
+     "t": "+",
+     "s": "Salesforce agents, natively in Slack"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Enterprise Search"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Find anything, all from a single search bar"
+    },
+    {
+     "t": "+",
+     "s": "Search anything. Find everything."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "ADMIN & SECURITY"
+    },
+    {
+     "t": " ",
+     "s": "Security"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

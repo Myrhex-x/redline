@@ -63,23 +63,23 @@ Automate everyday tasks
 INTELLIGENCE
 Slack Code
 
-Write, review, and ship code with agents
+Write and ship code with agents
 
 AI in Slack
 
-Save time and work smarter with powerfully simple AI
+Built-in AI, right where you work
 
 Slackbot
 
-Power productivity with your personal AI agent
+Your AI teammate
 
 Agentforce
 
-Empower your whole team with AI-powered agents in Slack
+Salesforce agents, natively in Slack
 
 Enterprise Search
 
-Find anything, all from a single search bar
+Search anything. Find everything.
 
 ADMIN & SECURITY
 Security
@@ -262,23 +262,23 @@ Automate everyday tasks
 INTELLIGENCE
 Slack Code
 
-Write, review, and ship code with agents
+Write and ship code with agents
 
 AI in Slack
 
-Save time and work smarter with powerfully simple AI
+Built-in AI, right where you work
 
 Slackbot
 
-Power productivity with your personal AI agent
+Your AI teammate
 
 Agentforce
 
-Empower your whole team with AI-powered agents in Slack
+Salesforce agents, natively in Slack
 
 Enterprise Search
 
-Find anything, all from a single search bar
+Search anything. Find everything.
 
 ADMIN & SECURITY
 Security
