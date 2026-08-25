@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-08-25-meta-privacy",
+  "date": "2026-08-25",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 146,
+  "removed": 229
+ },
+ {
+  "id": "2026-08-25-tiktok-guidelines",
+  "date": "2026-08-25",
+  "slug": "tiktok",
+  "company": "TikTok",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "change",
+  "added": 2,
+  "removed": 0
+ },
+ {
   "id": "2026-08-24-meta-privacy",
   "date": "2026-08-24",
   "slug": "meta",
