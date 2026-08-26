@@ -1,0 +1,196 @@
+{
+ "id": "2026-08-26-telegram-transparency",
+ "date": "2026-08-26",
+ "slug": "telegram",
+ "doc": "transparency",
+ "hunks": [
+  {
+   "header": "@@ -33,6 +33,10 @@ Safety",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Recent News"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Aug 25"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Welcome Messages, Buttons in Messages and Signed Gifts"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Jul 14"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs"
+    }
+   ]
+  },
+  {
+   "header": "@@ -41,10 +45,6 @@ Jun 11",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "May 7"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji & Sticker Search and Much More"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "a new era of messaging"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Telegram for Android"
+    }
+   ]
+  },
+  {
+   "header": "@@ -61,17 +61,17 @@ Telegram for macOS",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Recent News"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs"
+    },
+    {
+     "t": "+",
+     "s": "Welcome Messages, Buttons in Messages and Signed Gifts"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Introducing a rich text editor to format and generate text, Telegram Communities linking together several groups, channels and bots, ephemeral…"
+    },
+    {
+     "t": "+",
+     "s": "Introducing Welcome Messages to greet new members of groups or channels, Buttons in Messages to make any text interactive, Inline Documents…"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Jul 14, 2026"
+    },
+    {
+     "t": "+",
+     "s": "Aug 25, 2026"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More"
+    },
+    {
+     "t": "+",
+     "s": "Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Today’s update brings Telegram to Apple Watch and Android smartwatches, adds filthy rich text for bots, lets AI admins screen new group…"
+    },
+    {
+     "t": "+",
+     "s": "Introducing a rich text editor to format and generate text, Telegram Communities linking together several groups, channels and bots, ephemeral…"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Jun 11, 2026"
+    },
+    {
+     "t": "+",
+     "s": "Jul 14, 2026"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why Telegram?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

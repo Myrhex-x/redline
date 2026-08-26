@@ -33,6 +33,10 @@ Safety
 
 Recent News
 
+Aug 25
+
+Welcome Messages, Buttons in Messages and Signed Gifts
+
 Jul 14
 
 Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs
@@ -40,10 +44,6 @@ Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs
 Jun 11
 
 Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More
-
-May 7
-
-Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji & Sticker Search and Much More
 
 a new era of messaging
 
@@ -61,17 +61,17 @@ Telegram for macOS
 
 Recent News
 
+Welcome Messages, Buttons in Messages and Signed Gifts
+
+Introducing Welcome Messages to greet new members of groups or channels, Buttons in Messages to make any text interactive, Inline Documents…
+
+Aug 25, 2026
+
 Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs
 
 Introducing a rich text editor to format and generate text, Telegram Communities linking together several groups, channels and bots, ephemeral…
 
 Jul 14, 2026
-
-Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More
-
-Today’s update brings Telegram to Apple Watch and Android smartwatches, adds filthy rich text for bots, lets AI admins screen new group…
-
-Jun 11, 2026
 
 Why Telegram?
 

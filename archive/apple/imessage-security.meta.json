@@ -2,10 +2,10 @@
   "company": "Apple (iMessage, iCloud)",
   "title": "iMessage Security Overview",
   "url": "https://support.apple.com/guide/security/imessage-security-overview-secd9764312f/web",
-  "finalUrl": "https://support.apple.com/guide/security/imessage-security-overview-secd9764312f/web",
+  "finalUrl": "https://support.apple.com/en-euro/guide/security/secd9764312f/web",
   "httpStatus": 200,
-  "fetchedAt": "2026-08-04T09:10:57.879Z",
-  "textHash": "63cc1a612b2b4c5b64eb90d9ae9a453a784752e5e3194d449c2d376460c668e2",
-  "textChars": 8663,
-  "htmlBytes": 724785
+  "fetchedAt": "2026-08-26T07:11:10.725Z",
+  "textHash": "a651d4e34221347d25dabcf65917640367482dc46b14abcb02fe748d4fd12325",
+  "textChars": 8492,
+  "htmlBytes": 636988
 }

@@ -1,0 +1,199 @@
+{
+ "id": "2026-08-26-apple-imessage-security",
+ "date": "2026-08-26",
+ "slug": "apple",
+ "doc": "imessage-security",
+ "hunks": [
+  {
+   "header": "@@ -1,34 +1,7 @@",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Apple"
+    },
+    {
+     "t": "-",
+     "s": "Store"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Mac"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "iPad"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "iPhone"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Watch"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Vision"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "AirPods"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "TV & Home"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Entertainment"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Accessories"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Support"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "0 +"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Apple Platform Security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Search this guide"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Clear Search"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Table of Contents"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Apple Platform Security"
+    }
+   ]
+  },
+  {
+   "header": "@@ -509,8 +482,9 @@ Apple Platform Security",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "iMessage security overview"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "United States"
+    },
+    {
+     "t": "+",
+     "s": "EURO"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Copyright © 2026 Apple Inc. All rights reserved."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Privacy Policy Terms of Use Sales and Refunds Site Map"
+    },
+    {
+     "t": "+",
+     "s": "Terms of Use"
+    },
+    {
+     "t": "+",
+     "s": "Privacy Policy"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
