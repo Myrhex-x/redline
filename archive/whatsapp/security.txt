@@ -116,9 +116,9 @@ Privacy
 
 Use WhatsApp
 
-Android
-iPhone
-Mac/PC
+Mobile
+Desktop
+Tablet
 WhatsApp Web
 
 Need help?

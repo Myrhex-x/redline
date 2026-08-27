@@ -1,0 +1,62 @@
+{
+ "id": "2026-08-27-whatsapp-security",
+ "date": "2026-08-27",
+ "slug": "whatsapp",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -116,9 +116,9 @@ Privacy",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Use WhatsApp"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Android"
+    },
+    {
+     "t": "-",
+     "s": "iPhone"
+    },
+    {
+     "t": "-",
+     "s": "Mac/PC"
+    },
+    {
+     "t": "+",
+     "s": "Mobile"
+    },
+    {
+     "t": "+",
+     "s": "Desktop"
+    },
+    {
+     "t": "+",
+     "s": "Tablet"
+    },
+    {
+     "t": " ",
+     "s": "WhatsApp Web"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Need help?"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
