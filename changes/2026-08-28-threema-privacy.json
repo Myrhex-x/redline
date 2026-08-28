@@ -1,0 +1,118 @@
+{
+ "id": "2026-08-28-threema-privacy",
+ "date": "2026-08-28",
+ "slug": "threema",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -207,11 +207,22 @@ Churerstrasse 82",
+   "lines": [
+    {
+     "t": " ",
+     "s": "8808 Pfäffikon SZ"
+    },
+    {
+     "t": " ",
+     "s": "Switzerland"
+    },
+    {
+     "t": " ",
+     "s": "Email: privacy at threema dot ch"
+    },
+    {
+     "t": "-",
+     "s": "D. Representative in the EU (Art. 27 GDPR)"
+    },
+    {
+     "t": "-",
+     "s": "ACC Datenschutz UG"
+    },
+    {
+     "t": "-",
+     "s": "Messestrasse 6"
+    },
+    {
+     "t": "-",
+     "s": "94036 Passau"
+    },
+    {
+     "t": "+",
+     "s": "D. Representative in the EU / UK"
+    },
+    {
+     "t": "+",
+     "s": "Representative in the EU (Art. 27 GDPR)"
+    },
+    {
+     "t": "+",
+     "s": "IT.LAW GmbH"
+    },
+    {
+     "t": "+",
+     "s": "- Threema AG -"
+    },
+    {
+     "t": "+",
+     "s": "Colmantstraße 15"
+    },
+    {
+     "t": "+",
+     "s": "53115 Bonn"
+    },
+    {
+     "t": " ",
+     "s": "Germany"
+    },
+    {
+     "t": "+",
+     "s": "art-27-rep-threema@it.law"
+    },
+    {
+     "t": "+",
+     "s": "Representative in the United Kingdom (“UK GDPR representative”)"
+    },
+    {
+     "t": "+",
+     "s": "Rickert Services Ltd UK"
+    },
+    {
+     "t": "+",
+     "s": "- Threema AG -"
+    },
+    {
+     "t": "+",
+     "s": "PO Box 1487"
+    },
+    {
+     "t": "+",
+     "s": "Peterborough"
+    },
+    {
+     "t": "+",
+     "s": "PE1 9XX"
+    },
+    {
+     "t": "+",
+     "s": "United Kingdom"
+    },
+    {
+     "t": "+",
+     "s": "art-27-rep-threema@rickert-services.uk"
+    },
+    {
+     "t": " ",
+     "s": "E. Swiss Supervisory Authority"
+    },
+    {
+     "t": " ",
+     "s": "Federal Data Protection and Information Commissioner (FDPIC)"
+    },
+    {
+     "t": " ",
+     "s": "Feldweg 1"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

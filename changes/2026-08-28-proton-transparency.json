@@ -1,0 +1,58 @@
+{
+ "id": "2026-08-28-proton-transparency",
+ "date": "2026-08-28",
+ "slug": "proton",
+ "doc": "transparency",
+ "hunks": [
+  {
+   "header": "@@ -168,9 +168,10 @@ Sign in",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Open menu"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Last modified: January 6, 2026"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Transparency report"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Updated January 6, 2026"
+    },
+    {
+     "t": " ",
+     "s": "Proton VPN"
+    },
+    {
+     "t": " ",
+     "s": "To be counted here as a legal request for information, the request must come through official Swiss channels. The only legally binding requests are ones from the Swiss authorities. Under Swiss regulations, we cannot legally comply with foreign requests that are not supported by Swiss authorities (such as the ones addressed directly to us by foreign law enforcement authorities)."
+    },
+    {
+     "t": " ",
+     "s": "Under Swiss law (new window) , Proton VPN is not obligated to save any activity logs, and we adhere to a strict no-logs VPN policy (new window) . Therefore, we are unable to comply with requests for user activity logs, even if they are legally binding."
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

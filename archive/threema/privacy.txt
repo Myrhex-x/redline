@@ -207,11 +207,22 @@ Churerstrasse 82
 8808 Pfäffikon SZ
 Switzerland
 Email: privacy at threema dot ch
-D. Representative in the EU (Art. 27 GDPR)
-ACC Datenschutz UG
-Messestrasse 6
-94036 Passau
+D. Representative in the EU / UK
+Representative in the EU (Art. 27 GDPR)
+IT.LAW GmbH
+- Threema AG -
+Colmantstraße 15
+53115 Bonn
 Germany
+art-27-rep-threema@it.law
+Representative in the United Kingdom (“UK GDPR representative”)
+Rickert Services Ltd UK
+- Threema AG -
+PO Box 1487
+Peterborough
+PE1 9XX
+United Kingdom
+art-27-rep-threema@rickert-services.uk
 E. Swiss Supervisory Authority
 Federal Data Protection and Information Commissioner (FDPIC)
 Feldweg 1
