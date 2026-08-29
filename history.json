@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-08-29-whatsapp-security",
+  "date": "2026-08-29",
+  "slug": "whatsapp",
+  "company": "WhatsApp",
+  "doc": "security",
+  "docTitle": "Security / E2EE description",
+  "kind": "change",
+  "added": 63,
+  "removed": 1
+ },
+ {
   "id": "2026-08-28-proton-transparency",
   "date": "2026-08-28",
   "slug": "proton",
