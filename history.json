@@ -1,5 +1,38 @@
 [
  {
+  "id": "2026-08-30-meta-privacy",
+  "date": "2026-08-30",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 229,
+  "removed": 146
+ },
+ {
+  "id": "2026-08-30-whatsapp-privacy",
+  "date": "2026-08-30",
+  "slug": "whatsapp",
+  "company": "WhatsApp",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy (EEA)",
+  "kind": "change",
+  "added": 63,
+  "removed": 1
+ },
+ {
+  "id": "2026-08-30-whatsapp-security",
+  "date": "2026-08-30",
+  "slug": "whatsapp",
+  "company": "WhatsApp",
+  "doc": "security",
+  "docTitle": "Security / E2EE description",
+  "kind": "change",
+  "added": 1,
+  "removed": 63
+ },
+ {
   "id": "2026-08-29-whatsapp-security",
   "date": "2026-08-29",
   "slug": "whatsapp",
