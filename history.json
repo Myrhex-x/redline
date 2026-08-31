@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-08-31-whatsapp-privacy",
+  "date": "2026-08-31",
+  "slug": "whatsapp",
+  "company": "WhatsApp",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy (EEA)",
+  "kind": "change",
+  "added": 1,
+  "removed": 63
+ },
+ {
   "id": "2026-08-30-meta-privacy",
   "date": "2026-08-30",
   "slug": "meta",
