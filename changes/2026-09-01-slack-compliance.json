@@ -1,0 +1,83 @@
+{
+ "id": "2026-09-01-slack-compliance",
+ "date": "2026-09-01",
+ "slug": "slack",
+ "doc": "compliance",
+ "hunks": [
+  {
+   "header": "@@ -103,7 +103,7 @@ Find new agents and apps that fit your team’s needs.",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Browse marketplace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Feature Releases"
+    },
+    {
+     "t": "-",
+     "s": "Canvas Table of Contents, and more"
+    },
+    {
+     "t": "+",
+     "s": "Slack Code, and more"
+    },
+    {
+     "t": " ",
+     "s": "See what’s new"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is Slack?"
+    }
+   ]
+  },
+  {
+   "header": "@@ -302,7 +302,7 @@ Find new agents and apps that fit your team’s needs.",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Browse marketplace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Feature Releases"
+    },
+    {
+     "t": "-",
+     "s": "Canvas Table of Contents, and more"
+    },
+    {
+     "t": "+",
+     "s": "Slack Code, and more"
+    },
+    {
+     "t": " ",
+     "s": "See what’s new"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is Slack?"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -1,0 +1,75 @@
+{
+ "id": "2026-09-01-microsoft-eu-reports",
+ "date": "2026-09-01",
+ "slug": "microsoft",
+ "doc": "eu-reports",
+ "hunks": [
+  {
+   "header": "@@ -50,6 +50,7 @@ The DSA is a regulation of the European Parliament and of the Council of the EU",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Bing EU Digital Services Act (DSA) Transparency Report"
+    },
+    {
+     "t": " ",
+     "s": "The DSA is a regulation of the European Parliament and of the Council of the EU on a single market for digital services and amending Directive 2000/31/EC. On April 25, 2023, the European Commission designated Bing as a Very Large Online Search Engine under DSA Article 33(4). This report is prepared semi-annually, beginning in October 2023, pursuant to the requirements of the EU Digital Services Act (DSA)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "August 2026 Microsoft Bing Transparency Report – EU Digital Services Act Report"
+    },
+    {
+     "t": " ",
+     "s": "February 2026 Microsoft Bing Transparency Report - Updated – EU Digital Services Act Report"
+    },
+    {
+     "t": " ",
+     "s": "February 2026 Microsoft Bing Transparency Report – EU Digital Services Act Report"
+    },
+    {
+     "t": " ",
+     "s": "August 2025 Microsoft Bing Transparency Report – EU Digital Services Act Report"
+    }
+   ]
+  },
+  {
+   "header": "@@ -85,6 +86,7 @@ CY2025 EU DSA Code of Conduct Hate Speech",
+   "lines": [
+    {
+     "t": " ",
+     "s": "India Monthly Report under the Information Technology (Intermediary Guidelines and Digital Ethics Code) Rules, 2021"
+    },
+    {
+     "t": " ",
+     "s": "Microsoft publishes monthly transparency reports on complaints received from users in India and the actions taken thereon, as well the number of content actioned in pursuance to proactive monitoring across Microsoft’s services that are classified as “Significant Social Media Intermediaries” (“SSMIs”)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "July 2026 - India Intermediary Guidelines Report"
+    },
+    {
+     "t": " ",
+     "s": "June 2026 - India Intermediary Guidelines Report"
+    },
+    {
+     "t": " ",
+     "s": "May 2026 - India Intermediary Guidelines Report"
+    },
+    {
+     "t": " ",
+     "s": "April 2026 - India Intermediary Guidelines Report"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

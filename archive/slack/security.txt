@@ -103,7 +103,7 @@ Find new agents and apps that fit your team’s needs.
 Browse marketplace
 
 Feature Releases
-Canvas Table of Contents, and more
+Slack Code, and more
 See what’s new
 
 What is Slack?
@@ -302,7 +302,7 @@ Find new agents and apps that fit your team’s needs.
 Browse marketplace
 
 Feature Releases
-Canvas Table of Contents, and more
+Slack Code, and more
 See what’s new
 
 What is Slack?

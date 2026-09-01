@@ -1,0 +1,282 @@
+{
+ "id": "2026-09-01-whatsapp-security",
+ "date": "2026-09-01",
+ "slug": "whatsapp",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -133,4 +133,66 @@ Download",
+   "lines": [
+    {
+     "t": " ",
+     "s": "2026 © WhatsApp LLC"
+    },
+    {
+     "t": " ",
+     "s": "Terms & Privacy Policy Sitemap"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Azərbaycan Afrikaans Bahasa Indonesia Melayu Català čeština Dansk Deutsch Eesti English Español Français Gaeilge Hrvatski Italiano Kiswahili Latviešu Lietuvių Magyar Nederlands Norsk bokmål O‘zbek Filipino Polski Português (Brasil) Português (Portugal) Română Shqip Slovenčina Slovenščina Suomi Svenska Tiếng Việt Türkçe Ελληνικά български қазақ тілі македонски русский српски українська עברית العربية فارسی اردو বাংলা हिन्दी ગુજરાતી ಕನ್ನಡ मराठी ਪੰਜਾਬੀ தமிழ் తెలుగు മലയാളം ไทย 简体中文 繁體中文（台灣） 繁體中文（香港） 日本語 한국어 azərbaycan Afrikaans Bahasa Indonesia Melayu català čeština dansk Deutsch eesti English español français Gaeilge hrvatski italiano Kiswahili latviešu lietuvių magyar Nederlands norsk bokmål o‘zbek Filipino polski Português (Brasil) Português (Portugal) română shqip slovenčina slovenščina suomi svenska Tiếng Việt Türkçe Ελληνικά български қазақ тілі македонски русский српски українська עברית العربية فارسی اردو বাংলা हिन्दी ગુજરાતી ಕನ್ನಡ मराठी ਪੰਜਾਬੀ தமிழ் తెలుగు മലയാളം ไทย 简体中文 繁體中文（台灣） 繁體中文（香港） 日本語 한국어"
+    },
+    {
+     "t": "+",
+     "s": "English"
+    },
+    {
+     "t": "+",
+     "s": "Select a region All languages (60) Africa and the Middle East (6) Americas (4) Asia-Pacific (22) Eastern Europe (17) Western Europe (14)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Afrikaans"
+    },
+    {
+     "t": "+",
+     "s": "azərbaycan"
+    },
+    {
+     "t": "+",
+     "s": "Bahasa Indonesia"
+    },
+    {
+     "t": "+",
+     "s": "català"
+    },
+    {
+     "t": "+",
+     "s": "čeština"
+    },
+    {
+     "t": "+",
+     "s": "dansk"
+    },
+    {
+     "t": "+",
+     "s": "Deutsch"
+    },
+    {
+     "t": "+",
+     "s": "eesti"
+    },
+    {
+     "t": "+",
+     "s": "English"
+    },
+    {
+     "t": "+",
+     "s": "español"
+    },
+    {
+     "t": "+",
+     "s": "Filipino"
+    },
+    {
+     "t": "+",
+     "s": "français"
+    },
+    {
+     "t": "+",
+     "s": "Gaeilge"
+    },
+    {
+     "t": "+",
+     "s": "hrvatski"
+    },
+    {
+     "t": "+",
+     "s": "italiano"
+    },
+    {
+     "t": "+",
+     "s": "Kiswahili"
+    },
+    {
+     "t": "+",
+     "s": "latviešu"
+    },
+    {
+     "t": "+",
+     "s": "lietuvių"
+    },
+    {
+     "t": "+",
+     "s": "magyar"
+    },
+    {
+     "t": "+",
+     "s": "Melayu"
+    },
+    {
+     "t": "+",
+     "s": "Nederlands"
+    },
+    {
+     "t": "+",
+     "s": "norsk bokmål"
+    },
+    {
+     "t": "+",
+     "s": "o‘zbek"
+    },
+    {
+     "t": "+",
+     "s": "polski"
+    },
+    {
+     "t": "+",
+     "s": "Português (Brasil)"
+    },
+    {
+     "t": "+",
+     "s": "Português (Portugal)"
+    },
+    {
+     "t": "+",
+     "s": "română"
+    },
+    {
+     "t": "+",
+     "s": "shqip"
+    },
+    {
+     "t": "+",
+     "s": "slovenčina"
+    },
+    {
+     "t": "+",
+     "s": "slovenščina"
+    },
+    {
+     "t": "+",
+     "s": "suomi"
+    },
+    {
+     "t": "+",
+     "s": "svenska"
+    },
+    {
+     "t": "+",
+     "s": "Tiếng Việt"
+    },
+    {
+     "t": "+",
+     "s": "Türkçe"
+    },
+    {
+     "t": "+",
+     "s": "Ελληνικά"
+    },
+    {
+     "t": "+",
+     "s": "български"
+    },
+    {
+     "t": "+",
+     "s": "қазақ тілі"
+    },
+    {
+     "t": "+",
+     "s": "македонски"
+    },
+    {
+     "t": "+",
+     "s": "русский"
+    },
+    {
+     "t": "+",
+     "s": "српски"
+    },
+    {
+     "t": "+",
+     "s": "українська"
+    },
+    {
+     "t": "+",
+     "s": "עברית"
+    },
+    {
+     "t": "+",
+     "s": "اردو"
+    },
+    {
+     "t": "+",
+     "s": "العربية"
+    },
+    {
+     "t": "+",
+     "s": "فارسی"
+    },
+    {
+     "t": "+",
+     "s": "मराठी"
+    },
+    {
+     "t": "+",
+     "s": "हिन्दी"
+    },
+    {
+     "t": "+",
+     "s": "বাংলা"
+    },
+    {
+     "t": "+",
+     "s": "ਪੰਜਾਬੀ"
+    },
+    {
+     "t": "+",
+     "s": "ગુજરાતી"
+    },
+    {
+     "t": "+",
+     "s": "தமிழ்"
+    },
+    {
+     "t": "+",
+     "s": "తెలుగు"
+    },
+    {
+     "t": "+",
+     "s": "ಕನ್ನಡ"
+    },
+    {
+     "t": "+",
+     "s": "മലയാളം"
+    },
+    {
+     "t": "+",
+     "s": "ไทย"
+    },
+    {
+     "t": "+",
+     "s": "한국어"
+    },
+    {
+     "t": "+",
+     "s": "日本語"
+    },
+    {
+     "t": "+",
+     "s": "简体中文"
+    },
+    {
+     "t": "+",
+     "s": "繁體中文（台灣）"
+    },
+    {
+     "t": "+",
+     "s": "繁體中文（香港）"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

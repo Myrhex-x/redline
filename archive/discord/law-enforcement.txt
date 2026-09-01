@@ -205,15 +205,20 @@ User Notice
 Discord’s policy is to notify users when government entities seek their account data via legal process and to provide them with a copy of the relevant legal process unless prohibited by law or court order. In order to avoid user notice, U.S. authorities should identify the statute, if any, that prohibits Discord from notifying the user or submit a valid nondisclosure order that is effective for a finite period and issued pursuant to 18 U.S.C. § 2705(b) at the time they submit legal process seeking user data. In its sole discretion, Discord may forego user notice in certain cases, such as those involving child exploitation or an imminent threat to life. Please state at the time of submission of legal process if you believe that one of these exceptions applies to your legal process.
 Discord does not notify users of preservation requests or emergency disclosure requests. In cases where Discord provides notice to a user about a request for user data under this policy, Discord will preserve the information sought by law enforcement prior to providing such notice.
 
+‍
+‍
+
+Tags
+Policy
+
+Reporting
+
 Reimbursement
 Consistent with 18 U.S.C. § 2706, Discord may seek reimbursement of the costs reasonably necessary and directly incurred in responding to a request for user data.
 
 Child Safety Policy
 When we are made aware of potential child safety concerns on our platform, our Trust & Safety team conducts a thorough review and, if appropriate, files a Cybertip report with the National Center for Missing and Exploited Children (NCMEC) . NCMEC will then work with local and international law enforcement as necessary.
 Law enforcement submitting a request for user data relating to a Cybertip should provide the Cybertip number.
-
-‍
-‍
 
 European Contact Points
 Under EU Regulation 2022/2065 (Digital Services Act), Discord’s Article 11 contact point is our Government Request Portal, available at: https://app.kodex.us/discord/signin . English or Dutch may be used to communicate through our contact point.
@@ -223,11 +228,6 @@ Under the United Kingdom’s Online Safety Act, our dedicated reporting channel 
 
 Still have questions?
 Governmental officials and law enforcement can submit questions via the Portal. These questions will be reviewed and responded to by our Legal Response Team.
-
-Tags
-Policy
-
-Reporting
 
 related articles
 
