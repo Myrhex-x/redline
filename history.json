@@ -1,5 +1,38 @@
 [
  {
+  "id": "2026-09-02-microsoft-photodna",
+  "date": "2026-09-02",
+  "slug": "microsoft",
+  "company": "Microsoft (Outlook, Teams)",
+  "doc": "photodna",
+  "docTitle": "PhotoDNA",
+  "kind": "change",
+  "added": 157,
+  "removed": 0
+ },
+ {
+  "id": "2026-09-02-pinterest-guidelines",
+  "date": "2026-09-02",
+  "slug": "pinterest",
+  "company": "Pinterest",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "change",
+  "added": 2,
+  "removed": 0
+ },
+ {
+  "id": "2026-09-02-pinterest-privacy",
+  "date": "2026-09-02",
+  "slug": "pinterest",
+  "company": "Pinterest",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 2,
+  "removed": 0
+ },
+ {
   "id": "2026-09-01-meta-privacy",
   "date": "2026-09-01",
   "slug": "meta",

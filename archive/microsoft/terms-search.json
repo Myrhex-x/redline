@@ -7,7 +7,7 @@
   },
   {
    "doc": "photodna",
-   "chars": 4268
+   "chars": 5441
   },
   {
    "doc": "play-safety",
@@ -18,7 +18,7 @@
    "chars": 214623
   }
  ],
- "totalChars": 231158,
+ "totalChars": 232331,
  "terms": [
   {
    "group": "eu",
@@ -126,19 +126,19 @@
    "group": "csam",
    "label": "PhotoDNA",
    "pattern": "photodna",
-   "count": 18,
+   "count": 22,
    "samples": [
     {
      "doc": "photodna",
-     "quote": "PhotoDNA Help stop the spread of child exploitation In 2009, Microsoft partnered with Dartmouth College to develop P…"
+     "quote": "Skip to main content Microsoft PhotoDNA PhotoDNA PhotoDNA Home PhotoDNA Cloud Service FAQ Documentation Terms of Use Contact Us More All Mi…"
     },
     {
      "doc": "photodna",
-     "quote": "…A Help stop the spread of child exploitation In 2009, Microsoft partnered with Dartmouth College to develop PhotoDNA, a technology that aids in finding and removing known images of child exploitation. Today, PhotoDNA is used b…"
+     "quote": "Skip to main content Microsoft PhotoDNA PhotoDNA PhotoDNA Home PhotoDNA Cloud Service FAQ Documentation Terms of Use Contact Us More All Microsoft G…"
     },
     {
      "doc": "photodna",
-     "quote": "…o develop PhotoDNA, a technology that aids in finding and removing known images of child exploitation. Today, PhotoDNA is used by organizations around the world and has assisted in the detection, disruption, and reporting of mil…"
+     "quote": "Skip to main content Microsoft PhotoDNA PhotoDNA PhotoDNA Home PhotoDNA Cloud Service FAQ Documentation Terms of Use Contact Us More All Microsoft Global Mic…"
     }
    ]
   },

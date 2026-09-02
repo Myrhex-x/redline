@@ -1,0 +1,46 @@
+{
+ "id": "2026-09-02-pinterest-privacy",
+ "date": "2026-09-02",
+ "slug": "pinterest",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -40,6 +40,8 @@ Our policy on children's information",
+   "lines": [
+    {
+     "t": " ",
+     "s": "How we make changes to this policy"
+    },
+    {
+     "t": " ",
+     "s": "Contact us"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "We're updating our Privacy Policy, effective November 12, 2026. You can preview the updated Privacy Policy here ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "State Privacy Law Disclosure & Notice at Collection"
+    },
+    {
+     "t": " ",
+     "s": "This U.S. State Privacy Law Disclosure & Notice at Collection applies only if you are a resident of a U.S. state governed by a state-level privacy law. This page also serves as our California Notice at Collection."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
