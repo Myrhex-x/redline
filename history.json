@@ -1,5 +1,51 @@
 [
  {
+  "id": "2026-09-04-eu-parliament-csar-train",
+  "date": "2026-09-04",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "csar-train",
+  "docTitle": "Legislative train: combating child sexual abuse online",
+  "kind": "change",
+  "added": 4,
+  "removed": 3
+ },
+ {
+  "id": "2026-09-04-pinterest-guidelines",
+  "date": "2026-09-04",
+  "slug": "pinterest",
+  "company": "Pinterest",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "change",
+  "added": 7,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "6 short labels, no prose and no tracked vocabulary: \"Table of Contents\", \"Our mission\", \"Content safety\", \"Intellectual property and ot\", \"Site security and access\", \"Spam\""
+ },
+ {
+  "id": "2026-09-04-pinterest-privacy",
+  "date": "2026-09-04",
+  "slug": "pinterest",
+  "company": "Pinterest",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 16,
+  "removed": 0
+ },
+ {
+  "id": "2026-09-04-snapchat-guidelines",
+  "date": "2026-09-04",
+  "slug": "snapchat",
+  "company": "Snapchat",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "change",
+  "added": 2,
+  "removed": 2
+ },
+ {
   "id": "2026-09-02-microsoft-photodna",
   "date": "2026-09-02",
   "slug": "microsoft",

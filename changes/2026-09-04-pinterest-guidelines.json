@@ -1,0 +1,66 @@
+{
+ "id": "2026-09-04-pinterest-guidelines",
+ "date": "2026-09-04",
+ "slug": "pinterest",
+ "doc": "guidelines",
+ "hunks": [
+  {
+   "header": "@@ -283,6 +283,13 @@ Don't attempt to evade our anti-spam systems. For example, don’t use redirecti",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Last updated: May 2026"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Table of Contents"
+    },
+    {
+     "t": "+",
+     "s": "Our mission"
+    },
+    {
+     "t": "+",
+     "s": "Content safety"
+    },
+    {
+     "t": "+",
+     "s": "Intellectual property and other rights"
+    },
+    {
+     "t": "+",
+     "s": "Site security and access"
+    },
+    {
+     "t": "+",
+     "s": "Spam"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Skip to navigation English (US)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "English (US)"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

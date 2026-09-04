@@ -3,14 +3,14 @@
  "documents": [
   {
    "doc": "csar-train",
-   "chars": 17517
+   "chars": 17611
   },
   {
    "doc": "derogation-procedure",
    "chars": 6581
   }
  ],
- "totalChars": 24098,
+ "totalChars": 24192,
  "terms": [
   {
    "group": "eu",
@@ -36,7 +36,7 @@
    "samples": [
     {
      "doc": "csar-train",
-     "quote": "…nd expired on 3 April 2026 as its new extension was not agreed ( see the related wagon: 'e-Privacy Directive: Derogation to combat child sexual abuse online' and 'EU Strategy for a more effective fight against child sexual' abuse'…"
+     "quote": "…t it was approved again and it is in force since 1 August 2026 ( see the related wagon: 'e-Privacy Directive: Derogation to combat child sexual abuse online' and 'EU Strategy for a more effective fight against child sexual' abuse'…"
     },
     {
      "doc": "csar-train",
@@ -67,7 +67,7 @@
     },
     {
      "doc": "csar-train",
-     "quote": "…s was extended once and expired on 3 April 2026 as its new extension was not agreed ( see the related wagon: 'e-Privacy Directive: Derogation to combat child sexual abuse online' and 'EU Strategy for a more effective fight agains…"
+     "quote": "…d on 3 April 2026. Yet it was approved again and it is in force since 1 August 2026 ( see the related wagon: 'e-Privacy Directive: Derogation to combat child sexual abuse online' and 'EU Strategy for a more effective fight agains…"
     },
     {
      "doc": "csar-train",
