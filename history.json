@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-09-05-apple-transparency",
+  "date": "2026-09-05",
+  "slug": "apple",
+  "company": "Apple (iMessage, iCloud)",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 72,
+  "removed": 90
+ },
+ {
   "id": "2026-09-04-eu-parliament-csar-train",
   "date": "2026-09-04",
   "slug": "eu-parliament",
