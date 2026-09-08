@@ -11,7 +11,6 @@ App functionality, Analytics, Advertising or marketing, Fraud prevention, securi
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
 App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization
-App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 App functionality, Analytics, Advertising or marketing, Personalization
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
 App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management
@@ -29,7 +28,7 @@ App info and performance
 App interactions
 App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions
 Approximate location
-Approximate location and Precise location
+Approximate location
 Audio
 Contacts
 Contacts
@@ -75,7 +74,6 @@ Phone number &middot; Optional
 Photos &middot; Optional
 Photos and videos
 Photos and Videos
-Precise location &middot; Optional
 Purchase history
 Purchase history &middot; Optional
 Security practices

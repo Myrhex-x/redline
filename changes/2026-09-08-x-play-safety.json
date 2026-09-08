@@ -1,0 +1,112 @@
+{
+ "id": "2026-09-08-x-play-safety",
+ "date": "2026-09-08",
+ "slug": "x",
+ "doc": "play-safety",
+ "hunks": [
+  {
+   "header": "@@ -11,7 +11,6 @@ App functionality, Analytics, Advertising or marketing, Fraud prevention, securi",
+   "lines": [
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization"
+    },
+    {
+     "t": "-",
+     "s": "App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Advertising or marketing, Personalization"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management"
+    },
+    {
+     "t": " ",
+     "s": "App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management"
+    }
+   ]
+  },
+  {
+   "header": "@@ -29,7 +28,7 @@ App info and performance",
+   "lines": [
+    {
+     "t": " ",
+     "s": "App interactions"
+    },
+    {
+     "t": " ",
+     "s": "App interactions, In-app search history, Installed apps, Other user-generated content, and Other actions"
+    },
+    {
+     "t": " ",
+     "s": "Approximate location"
+    },
+    {
+     "t": "-",
+     "s": "Approximate location and Precise location"
+    },
+    {
+     "t": "+",
+     "s": "Approximate location"
+    },
+    {
+     "t": " ",
+     "s": "Audio"
+    },
+    {
+     "t": " ",
+     "s": "Contacts"
+    },
+    {
+     "t": " ",
+     "s": "Contacts"
+    }
+   ]
+  },
+  {
+   "header": "@@ -75,7 +74,6 @@ Phone number &middot; Optional",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Photos &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "Photos and videos"
+    },
+    {
+     "t": " ",
+     "s": "Photos and Videos"
+    },
+    {
+     "t": "-",
+     "s": "Precise location &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "Purchase history"
+    },
+    {
+     "t": " ",
+     "s": "Purchase history &middot; Optional"
+    },
+    {
+     "t": " ",
+     "s": "Security practices"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

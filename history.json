@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-09-08-meta-privacy",
+  "date": "2026-09-08",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 229,
+  "removed": 146
+ },
+ {
+  "id": "2026-09-08-x-play-safety",
+  "date": "2026-09-08",
+  "slug": "x",
+  "company": "X",
+  "doc": "play-safety",
+  "docTitle": "Google Play Data Safety",
+  "kind": "change",
+  "added": 1,
+  "removed": 3
+ },
+ {
   "id": "2026-09-05-apple-transparency",
   "date": "2026-09-05",
   "slug": "apple",
