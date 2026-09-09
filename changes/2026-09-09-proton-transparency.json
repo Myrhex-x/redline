@@ -1,0 +1,46 @@
+{
+ "id": "2026-09-09-proton-transparency",
+ "date": "2026-09-09",
+ "slug": "proton",
+ "doc": "transparency",
+ "hunks": [
+  {
+   "header": "@@ -36,7 +36,7 @@ Proton for Business",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Simple, encrypted solutions to protect your business"
+    },
+    {
+     "t": " ",
+     "s": "Find your plan"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Proton Mail Proton VPN Proton Drive Proton Pass Lumo AI Proton Calendar Proton Meet Proton Authenticator Proton Wallet"
+    },
+    {
+     "t": "+",
+     "s": "Proton Mail Proton VPN Proton Drive Proton Pass Lumo AI Proton Meet Proton Calendar Proton Authenticator Proton Wallet"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Scan to get the mobile app"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

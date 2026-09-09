@@ -3,7 +3,7 @@
  "documents": [
   {
    "doc": "guidelines",
-   "chars": 16763
+   "chars": 19029
   },
   {
    "doc": "play-safety",
@@ -11,10 +11,10 @@
   },
   {
    "doc": "privacy",
-   "chars": 38831
+   "chars": 39056
   }
  ],
- "totalChars": 60283,
+ "totalChars": 62774,
  "terms": [
   {
    "group": "eu",
@@ -55,7 +55,7 @@
    "group": "csam",
    "label": "child sexual abuse / Kindesmissbrauch",
    "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
-   "count": 3,
+   "count": 4,
    "samples": [
     {
      "doc": "guidelines",
@@ -63,11 +63,11 @@
     },
     {
      "doc": "guidelines",
-     "quote": "…al Content We prohibit any activity that invlolves sexual exploitation or abuse of a minor, including sharing child sexual exploitation or abuse imagery, grooming for sexual purposes, sexual extortion (sextortion), or attempts to persuade, trick…"
+     "quote": "…ibit any activity that involves sexual exploitation or abuse, or sexualization, of a minor, including sharing child sexual exploitation or abuse imagery, grooming for sexual purposes, sexual extortion (sextortion), or attempts to persuade, trick…"
     },
     {
      "doc": "guidelines",
-     "quote": "…ohibit sexual extortion (sextortion), or the sexualisation of children. We report all identified instances of child sexual exploitation to authorities, including attempts to engage in such conduct. Never post, save, send, forward, distribute or…"
+     "quote": "…nder the age of 18 (this includes sending or saving such images of yourself). We prohibit any engagement with child sexual exploitation or abuse imagery, regardless of intention, even the sharing of such content is to raise awareness or express…"
     }
    ]
   },
@@ -75,8 +75,17 @@
    "group": "csam",
    "label": "NCMEC / CyberTipline",
    "pattern": "NCMEC|cybertipline",
-   "count": 0,
-   "samples": []
+   "count": 2,
+   "samples": [
+    {
+     "doc": "guidelines",
+     "quote": "…uch conduct to the appropriate authorities, including the National Center for Missing and Exploited Children (NCMEC), in line with legal requirements. We prohibit promoting, distributing, or sharing pornographic content, inc…"
+    },
+    {
+     "doc": "guidelines",
+     "quote": "…t threat to human life. We also report information to the National Center for Missing and Exploited Children (NCMEC), in line with legal requirements. Learn more in our Moderation explainer . Do you consider off-platform beh…"
+    }
+   ]
   },
   {
    "group": "csam",
@@ -107,7 +116,7 @@
    "samples": [
     {
      "doc": "privacy",
-     "quote": "…lp protect your account and can send you email or text messages if we notice any suspicious activity. We also scan URLs sent on Snapchat to see if that webpage is potentially harmful and can give you a warning about it. We m…"
+     "quote": "…lp protect your account and can send you email or text messages if we notice any suspicious activity. We also scan URLs sent on Snapchat to see if that webpage is potentially harmful, and can give you a warning about it. We…"
     }
    ]
   },
@@ -134,7 +143,7 @@
     },
     {
      "doc": "privacy",
-     "quote": "…of their input training data and then generate new data that has similar characteristics). We use algorithms, machine learning models and generative AI for personalisation, advertising, safety and security, fairness and inclusivity, augmented…"
+     "quote": "…of their input training data and then generate new data that has similar characteristics). We use algorithms, machine learning models , and generative AI for personalization, advertising, safety and security, fairness and inclusivity, augment…"
     }
    ]
   },
