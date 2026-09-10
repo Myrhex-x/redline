@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-09-10-microsoft-privacy",
+  "date": "2026-09-10",
+  "slug": "microsoft",
+  "company": "Microsoft (Outlook, Teams)",
+  "doc": "privacy",
+  "docTitle": "Privacy Statement",
+  "kind": "change",
+  "added": 15,
+  "removed": 13
+ },
+ {
+  "id": "2026-09-10-zoom-privacy",
+  "date": "2026-09-10",
+  "slug": "zoom",
+  "company": "Zoom",
+  "doc": "privacy",
+  "docTitle": "Privacy Statement",
+  "kind": "change",
+  "added": 2,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Analyst Coverage Analyst Cov\""
+ },
+ {
   "id": "2026-09-09-meta-privacy",
   "date": "2026-09-09",
   "slug": "meta",

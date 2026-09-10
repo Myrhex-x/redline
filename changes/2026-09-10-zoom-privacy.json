@@ -1,0 +1,46 @@
+{
+ "id": "2026-09-10-zoom-privacy",
+ "date": "2026-09-10",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -635,6 +635,8 @@ Careers",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Integrations"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Analyst Coverage Analyst Coverage"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Partners"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Investors"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
