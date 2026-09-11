@@ -1,0 +1,42 @@
+{
+ "id": "2026-09-11-eu-commission-csa-policy",
+ "date": "2026-09-11",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -494,7 +494,6 @@ See all",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Agencies"
+    },
+    {
+     "t": " ",
+     "s": "Networks Networks The DG for Migration and Home Affairs organises and supports networks where members exchange views and information on policies, such as: child sexual abuse, radicalisation, drugs, protection of critical infrastructure and migration."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "CERIS - Community for European Research and Innovation for Security About CERIS"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

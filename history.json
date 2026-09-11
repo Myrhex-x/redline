@@ -1,5 +1,18 @@
 [
  {
+  "id": "2026-09-11-eu-commission-csa-policy",
+  "date": "2026-09-11",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "change",
+  "added": 0,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Agencies\""
+ },
+ {
   "id": "2026-09-10-microsoft-privacy",
   "date": "2026-09-10",
   "slug": "microsoft",
