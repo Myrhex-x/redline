@@ -1,4 +1,4 @@
-EEA/UK/CH
+EEA, UK and Switzerland
 
 Privacy Policy
 

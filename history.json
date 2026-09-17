@@ -1,5 +1,18 @@
 [
  {
+  "id": "2026-09-17-tiktok-privacy",
+  "date": "2026-09-17",
+  "slug": "tiktok",
+  "company": "TikTok",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy (EEA)",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"EEA/UK/CH\", \"EEA, UK and Switzerland\""
+ },
+ {
   "id": "2026-09-15-meta-privacy",
   "date": "2026-09-15",
   "slug": "meta",
