@@ -1,0 +1,58 @@
+{
+ "id": "2026-09-18-microsoft-eu-reports",
+ "date": "2026-09-18",
+ "slug": "microsoft",
+ "doc": "eu-reports",
+ "hunks": [
+  {
+   "header": "@@ -83,6 +83,11 @@ The EU Code of Conduct on Countering Hateful Conduct Online (the “Code”) is",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "CY2025 EU DSA Code of Conduct Hate Speech"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Brazil ECA Digital Transparency Report"
+    },
+    {
+     "t": "+",
+     "s": "Brazil's Digital Statute for Children and Adolescents (ECA Digital) was established by Law No. 15,211 of 2025 and regulated by Decree No. 12,880 of 2026. The law requires providers to publish semi-annual transparency reports on complaint channels, content and account moderation measures and amounts, child safety mechanisms, parental consent verification, and details of the methods used and the presentation of the results of risk assessments and management of risk to the safety and health of children and adolescents."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "CY2026 H1 Brazil ECA Digital Transparency Report"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "India Monthly Report under the Information Technology (Intermediary Guidelines and Digital Ethics Code) Rules, 2021"
+    },
+    {
+     "t": " ",
+     "s": "Microsoft publishes monthly transparency reports on complaints received from users in India and the actions taken thereon, as well the number of content actioned in pursuance to proactive monitoring across Microsoft’s services that are classified as “Significant Social Media Intermediaries” (“SSMIs”)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

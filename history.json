@@ -1,5 +1,49 @@
 [
  {
+  "id": "2026-09-18-microsoft-eu-reports",
+  "date": "2026-09-18",
+  "slug": "microsoft",
+  "company": "Microsoft (Outlook, Teams)",
+  "doc": "eu-reports",
+  "docTitle": "EU jurisdictional transparency reports",
+  "kind": "change",
+  "added": 5,
+  "removed": 0
+ },
+ {
+  "id": "2026-09-18-slack-compliance",
+  "date": "2026-09-18",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
+  "id": "2026-09-18-slack-privacy",
+  "date": "2026-09-18",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
+  "id": "2026-09-18-zoom-privacy",
+  "date": "2026-09-18",
+  "slug": "zoom",
+  "company": "Zoom",
+  "doc": "privacy",
+  "docTitle": "Privacy Statement",
+  "kind": "change",
+  "added": 5,
+  "removed": 10
+ },
+ {
   "id": "2026-09-17-tiktok-privacy",
   "date": "2026-09-17",
   "slug": "tiktok",

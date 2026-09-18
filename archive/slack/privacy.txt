@@ -1,195 +1,83 @@
 Skip to main content
 
-Features COLLABORATION
-Channels
+Product COLLABORATE
+Channels Chat and work together
+Slack Connect Work with external partners
+Meetings & Video Video chat with your team
+Canvas Create, edit, and share docs
+Lists Manage projects in Slack
 
-Organize teams and work
+WORK WITH AI
+Slackbot Meet your new AI teammate
+Slack Code New Build with people and agents
+Native AI Save time with built-in AI
+Agentforce Team up with Salesforce agents
 
-Slack Connect
+CONNECT
+App & Integrations Connect your favorite tools
+Native CRM Grow customer relationships
+Salesforce in Slack Put customer data to work
+Enterprise Search Find answers from anywhere
 
-Work with external partners
+BUILD
+Agentic Platform All your people, apps, and agents
+Workflow Builder Automate everyday tasks
+Trust & Security Keep work private and secure
 
-Messaging
+What's new See latest feature releases Slack Marketplace Browse over 2,600 apps
 
-Chat with your team
-
-Huddles
-
-Meet with audio and video
-
-Clips
-
-Record and share updates
-
-CRM
-Salesforce in Slack
-
-Bring Salesforce into the flow of work
-
-Slack CRM for Small Business
-
-Manage customers in Slack with the help of Slackbot
-
-PROJECT MANAGEMENT
-Templates
-
-Start any task, fast
-
-Canvas
-
-Create rich, flexible docs
-
-Lists
-
-Organize, track and manage projects
-
-File Sharing
-
-Bring files to the flow of work
-
-PLATFORM
-Agentic Platform
-
-Customize, extend, and unify your tech stack in Slack
-
-Apps & Integrations
-
-Connect your tools with Slack
-
-Workflow Builder
-
-Automate everyday tasks
-
-INTELLIGENCE
-Slack Code
-
-Write and ship code with agents
-
-AI in Slack
-
-Built-in AI, right where you work
-
-Slackbot
-
-Your AI teammate
-
-Agentforce
-
-Salesforce agents, natively in Slack
-
-Enterprise Search
-
-Search anything. Find everything.
-
-ADMIN & SECURITY
-Security
-
-Protect data, ensure compliance
-
-Enterprise Key Management
-
-Monitor and revoke access
-
-Slack Atlas
-
-Discover rich profiles and org charts
-
-Watch demo
-Download Slack
-See all features
-
-Slack Marketplace
-Find new agents and apps that fit your team’s needs.
-Browse marketplace
-
-Feature Releases
-Slack Code, and more
-See what’s new
-
-What is Slack?
-Slack vs. Teams
-Accessibility
+Watch demo Download Slack
+See all features →
 
 Solutions BY DEPARTMENT
 Engineering
-
 IT
-
 Customer Service
-
 Sales
-
 Project Management
-
 Marketing
-
 Human Resources
-
 Security
 
 BY INDUSTRY
 Manufacturing, Auto & Energy
-
 Technology
-
 Media
-
 Small Business
-
 Financial Services
-
 Retail
-
+Public Sector
 Education
-
 Health & Life Sciences
 
-Watch demo
-Download Slack
-See all solutions
+Template gallery Start work faster with templates
 
-TEMPLATE GALLERY
-Start work faster with pre-made templates for every task.
-See all templates
-
-Task Management
-Scale
-Engagement
-Trust
+Watch demo Download Slack
+See all solutions →
 
 Enterprise
 
-Resources Resources Library
-
-What’s New
-
-Product Tour
-
+Resources Discover
+What's New
+Resources Library
+Customer Stories
 Events
 
-Developers
-
-Partner Program
-
-Customer Stories
-
-Community
-
-Slack Certified
-
+Learn
 Blog
-
-Slack Marketplace
-
-Watch demo
-Download Slack
-
-FEATURED
-Winning in the AI era of work.
-Learn more
-
+Product Tour
 Help Center
-Customer Support
+Slack vs Teams
+
+Build
+Developers
+Slack Community
+Partner Program
+Partner Offers
+
+AI era of work The future of enterprise growth
+
+Watch demo Download Slack
 
 Pricing
 
@@ -199,200 +87,80 @@ Sign in Request a demo Get started
 Get started
 
 Back
-Features COLLABORATION
-Channels
+Product COLLABORATE
+Channels Chat and work together
+Slack Connect Work with external partners
+Meetings & Video Video chat with your team
+Canvas Create, edit, and share docs
+Lists Manage projects in Slack
 
-Organize teams and work
+WORK WITH AI
+Slackbot Meet your new AI teammate
+Slack Code New Build with people and agents
+Native AI Save time with built-in AI
+Agentforce Team up with Salesforce agents
 
-Slack Connect
+CONNECT
+App & Integrations Connect your favorite tools
+Native CRM Grow customer relationships
+Salesforce in Slack Put customer data to work
+Enterprise Search Find answers from anywhere
 
-Work with external partners
+BUILD
+Agentic Platform All your people, apps, and agents
+Workflow Builder Automate everyday tasks
+Trust & Security Keep work private and secure
 
-Messaging
-
-Chat with your team
-
-Huddles
-
-Meet with audio and video
-
-Clips
-
-Record and share updates
-
-CRM
-Salesforce in Slack
-
-Bring Salesforce into the flow of work
-
-Slack CRM for Small Business
-
-Manage customers in Slack with the help of Slackbot
-
-PROJECT MANAGEMENT
-Templates
-
-Start any task, fast
-
-Canvas
-
-Create rich, flexible docs
-
-Lists
-
-Organize, track and manage projects
-
-File Sharing
-
-Bring files to the flow of work
-
-PLATFORM
-Agentic Platform
-
-Customize, extend, and unify your tech stack in Slack
-
-Apps & Integrations
-
-Connect your tools with Slack
-
-Workflow Builder
-
-Automate everyday tasks
-
-INTELLIGENCE
-Slack Code
-
-Write and ship code with agents
-
-AI in Slack
-
-Built-in AI, right where you work
-
-Slackbot
-
-Your AI teammate
-
-Agentforce
-
-Salesforce agents, natively in Slack
-
-Enterprise Search
-
-Search anything. Find everything.
-
-ADMIN & SECURITY
-Security
-
-Protect data, ensure compliance
-
-Enterprise Key Management
-
-Monitor and revoke access
-
-Slack Atlas
-
-Discover rich profiles and org charts
-
-Watch demo
-Download Slack
-See all features
-
-Slack Marketplace
-Find new agents and apps that fit your team’s needs.
-Browse marketplace
-
-Feature Releases
-Slack Code, and more
-See what’s new
-
-What is Slack?
-Slack vs. Teams
-Accessibility
+What's new See latest feature releases Slack Marketplace Browse over 2,600 apps
 
 Solutions BY DEPARTMENT
 Engineering
-
 IT
-
 Customer Service
-
 Sales
-
 Project Management
-
 Marketing
-
 Human Resources
-
 Security
 
 BY INDUSTRY
 Manufacturing, Auto & Energy
-
 Technology
-
 Media
-
 Small Business
-
 Financial Services
-
 Retail
-
+Public Sector
 Education
-
 Health & Life Sciences
 
-Watch demo
-Download Slack
-See all solutions
-
-TEMPLATE GALLERY
-Start work faster with pre-made templates for every task.
-See all templates
-
-Task Management
-Scale
-Engagement
-Trust
+Template gallery Start work faster with templates
 
 Enterprise
 
-Resources Resources Library
-
-What’s New
-
-Product Tour
-
+Resources Discover
+What's New
+Resources Library
+Customer Stories
 Events
 
-Developers
-
-Partner Program
-
-Customer Stories
-
-Community
-
-Slack Certified
-
+Learn
 Blog
-
-Slack Marketplace
-
-Watch demo
-Download Slack
-
-FEATURED
-Winning in the AI era of work.
-Learn more
-
+Product Tour
 Help Center
-Customer Support
+Slack vs Teams
+
+Build
+Developers
+Slack Community
+Partner Program
+Partner Offers
+
+AI era of work The future of enterprise growth
 
 Pricing
 
-Sign in Request a demo Get started
+Request a demo Get started Sign in
 
 Privacy Policy
 

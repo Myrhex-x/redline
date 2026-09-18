@@ -1,0 +1,1947 @@
+{
+ "id": "2026-09-18-slack-privacy",
+ "date": "2026-09-18",
+ "slug": "slack",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -1,195 +1,83 @@",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Skip to main content"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Features COLLABORATION"
+    },
+    {
+     "t": "-",
+     "s": "Channels"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Organize teams and work"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Connect"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Work with external partners"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Messaging"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Chat with your team"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Huddles"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Meet with audio and video"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Clips"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Record and share updates"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "CRM"
+    },
+    {
+     "t": "-",
+     "s": "Salesforce in Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Bring Salesforce into the flow of work"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack CRM for Small Business"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Manage customers in Slack with the help of Slackbot"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "PROJECT MANAGEMENT"
+    },
+    {
+     "t": "-",
+     "s": "Templates"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Start any task, fast"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Canvas"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Create rich, flexible docs"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Lists"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Organize, track and manage projects"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "File Sharing"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Bring files to the flow of work"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "PLATFORM"
+    },
+    {
+     "t": "-",
+     "s": "Agentic Platform"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Customize, extend, and unify your tech stack in Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Apps & Integrations"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Connect your tools with Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Workflow Builder"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Automate everyday tasks"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "INTELLIGENCE"
+    },
+    {
+     "t": "-",
+     "s": "Slack Code"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Write and ship code with agents"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "AI in Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Built-in AI, right where you work"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slackbot"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Your AI teammate"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Agentforce"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Salesforce agents, natively in Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Enterprise Search"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Search anything. Find everything."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "ADMIN & SECURITY"
+    },
+    {
+     "t": "-",
+     "s": "Security"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Protect data, ensure compliance"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Enterprise Key Management"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Monitor and revoke access"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Atlas"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Discover rich profiles and org charts"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Watch demo"
+    },
+    {
+     "t": "-",
+     "s": "Download Slack"
+    },
+    {
+     "t": "-",
+     "s": "See all features"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Marketplace"
+    },
+    {
+     "t": "-",
+     "s": "Find new agents and apps that fit your team’s needs."
+    },
+    {
+     "t": "-",
+     "s": "Browse marketplace"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Feature Releases"
+    },
+    {
+     "t": "-",
+     "s": "Slack Code, and more"
+    },
+    {
+     "t": "-",
+     "s": "See what’s new"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "What is Slack?"
+    },
+    {
+     "t": "-",
+     "s": "Slack vs. Teams"
+    },
+    {
+     "t": "-",
+     "s": "Accessibility"
+    },
+    {
+     "t": "+",
+     "s": "Product COLLABORATE"
+    },
+    {
+     "t": "+",
+     "s": "Channels Chat and work together"
+    },
+    {
+     "t": "+",
+     "s": "Slack Connect Work with external partners"
+    },
+    {
+     "t": "+",
+     "s": "Meetings & Video Video chat with your team"
+    },
+    {
+     "t": "+",
+     "s": "Canvas Create, edit, and share docs"
+    },
+    {
+     "t": "+",
+     "s": "Lists Manage projects in Slack"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "WORK WITH AI"
+    },
+    {
+     "t": "+",
+     "s": "Slackbot Meet your new AI teammate"
+    },
+    {
+     "t": "+",
+     "s": "Slack Code New Build with people and agents"
+    },
+    {
+     "t": "+",
+     "s": "Native AI Save time with built-in AI"
+    },
+    {
+     "t": "+",
+     "s": "Agentforce Team up with Salesforce agents"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "CONNECT"
+    },
+    {
+     "t": "+",
+     "s": "App & Integrations Connect your favorite tools"
+    },
+    {
+     "t": "+",
+     "s": "Native CRM Grow customer relationships"
+    },
+    {
+     "t": "+",
+     "s": "Salesforce in Slack Put customer data to work"
+    },
+    {
+     "t": "+",
+     "s": "Enterprise Search Find answers from anywhere"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "BUILD"
+    },
+    {
+     "t": "+",
+     "s": "Agentic Platform All your people, apps, and agents"
+    },
+    {
+     "t": "+",
+     "s": "Workflow Builder Automate everyday tasks"
+    },
+    {
+     "t": "+",
+     "s": "Trust & Security Keep work private and secure"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "What's new See latest feature releases Slack Marketplace Browse over 2,600 apps"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Watch demo Download Slack"
+    },
+    {
+     "t": "+",
+     "s": "See all features →"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Solutions BY DEPARTMENT"
+    },
+    {
+     "t": " ",
+     "s": "Engineering"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "IT"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Customer Service"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sales"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Project Management"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Marketing"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Human Resources"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "BY INDUSTRY"
+    },
+    {
+     "t": " ",
+     "s": "Manufacturing, Auto & Energy"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Technology"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Media"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Small Business"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Financial Services"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Retail"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Public Sector"
+    },
+    {
+     "t": " ",
+     "s": "Education"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Health & Life Sciences"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Watch demo"
+    },
+    {
+     "t": "-",
+     "s": "Download Slack"
+    },
+    {
+     "t": "-",
+     "s": "See all solutions"
+    },
+    {
+     "t": "+",
+     "s": "Template gallery Start work faster with templates"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "TEMPLATE GALLERY"
+    },
+    {
+     "t": "-",
+     "s": "Start work faster with pre-made templates for every task."
+    },
+    {
+     "t": "-",
+     "s": "See all templates"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Task Management"
+    },
+    {
+     "t": "-",
+     "s": "Scale"
+    },
+    {
+     "t": "-",
+     "s": "Engagement"
+    },
+    {
+     "t": "-",
+     "s": "Trust"
+    },
+    {
+     "t": "+",
+     "s": "Watch demo Download Slack"
+    },
+    {
+     "t": "+",
+     "s": "See all solutions →"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Enterprise"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Resources Resources Library"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "What’s New"
+    },
+    {
+     "t": "+",
+     "s": "Resources Discover"
+    },
+    {
+     "t": "+",
+     "s": "What's New"
+    },
+    {
+     "t": "+",
+     "s": "Resources Library"
+    },
+    {
+     "t": "+",
+     "s": "Customer Stories"
+    },
+    {
+     "t": "+",
+     "s": "Events"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Learn"
+    },
+    {
+     "t": "+",
+     "s": "Blog"
+    },
+    {
+     "t": " ",
+     "s": "Product Tour"
+    },
+    {
+     "t": "+",
+     "s": "Help Center"
+    },
+    {
+     "t": "+",
+     "s": "Slack vs Teams"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Events"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Build"
+    },
+    {
+     "t": " ",
+     "s": "Developers"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Slack Community"
+    },
+    {
+     "t": " ",
+     "s": "Partner Program"
+    },
+    {
+     "t": "+",
+     "s": "Partner Offers"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Customer Stories"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Community"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Certified"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Blog"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Marketplace"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Watch demo"
+    },
+    {
+     "t": "-",
+     "s": "Download Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "FEATURED"
+    },
+    {
+     "t": "-",
+     "s": "Winning in the AI era of work."
+    },
+    {
+     "t": "-",
+     "s": "Learn more"
+    },
+    {
+     "t": "+",
+     "s": "AI era of work The future of enterprise growth"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Help Center"
+    },
+    {
+     "t": "-",
+     "s": "Customer Support"
+    },
+    {
+     "t": "+",
+     "s": "Watch demo Download Slack"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Pricing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -199,200 +87,80 @@ Sign in Request a demo Get started",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Get started"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Back"
+    },
+    {
+     "t": "-",
+     "s": "Features COLLABORATION"
+    },
+    {
+     "t": "-",
+     "s": "Channels"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Organize teams and work"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Connect"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Work with external partners"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Messaging"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Chat with your team"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Huddles"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Meet with audio and video"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Clips"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Record and share updates"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "CRM"
+    },
+    {
+     "t": "-",
+     "s": "Salesforce in Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Bring Salesforce into the flow of work"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack CRM for Small Business"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Manage customers in Slack with the help of Slackbot"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "PROJECT MANAGEMENT"
+    },
+    {
+     "t": "-",
+     "s": "Templates"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Start any task, fast"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Canvas"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Create rich, flexible docs"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Lists"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Organize, track and manage projects"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "File Sharing"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Bring files to the flow of work"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "PLATFORM"
+    },
+    {
+     "t": "-",
+     "s": "Agentic Platform"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Customize, extend, and unify your tech stack in Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Apps & Integrations"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Connect your tools with Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Workflow Builder"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Automate everyday tasks"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "INTELLIGENCE"
+    },
+    {
+     "t": "-",
+     "s": "Slack Code"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Write and ship code with agents"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "AI in Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Built-in AI, right where you work"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slackbot"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Your AI teammate"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Agentforce"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Salesforce agents, natively in Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Enterprise Search"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Search anything. Find everything."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "ADMIN & SECURITY"
+    },
+    {
+     "t": "-",
+     "s": "Security"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Protect data, ensure compliance"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Enterprise Key Management"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Monitor and revoke access"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Atlas"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Discover rich profiles and org charts"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Watch demo"
+    },
+    {
+     "t": "-",
+     "s": "Download Slack"
+    },
+    {
+     "t": "-",
+     "s": "See all features"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Marketplace"
+    },
+    {
+     "t": "-",
+     "s": "Find new agents and apps that fit your team’s needs."
+    },
+    {
+     "t": "-",
+     "s": "Browse marketplace"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Feature Releases"
+    },
+    {
+     "t": "-",
+     "s": "Slack Code, and more"
+    },
+    {
+     "t": "-",
+     "s": "See what’s new"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "What is Slack?"
+    },
+    {
+     "t": "-",
+     "s": "Slack vs. Teams"
+    },
+    {
+     "t": "-",
+     "s": "Accessibility"
+    },
+    {
+     "t": "+",
+     "s": "Product COLLABORATE"
+    },
+    {
+     "t": "+",
+     "s": "Channels Chat and work together"
+    },
+    {
+     "t": "+",
+     "s": "Slack Connect Work with external partners"
+    },
+    {
+     "t": "+",
+     "s": "Meetings & Video Video chat with your team"
+    },
+    {
+     "t": "+",
+     "s": "Canvas Create, edit, and share docs"
+    },
+    {
+     "t": "+",
+     "s": "Lists Manage projects in Slack"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "WORK WITH AI"
+    },
+    {
+     "t": "+",
+     "s": "Slackbot Meet your new AI teammate"
+    },
+    {
+     "t": "+",
+     "s": "Slack Code New Build with people and agents"
+    },
+    {
+     "t": "+",
+     "s": "Native AI Save time with built-in AI"
+    },
+    {
+     "t": "+",
+     "s": "Agentforce Team up with Salesforce agents"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "CONNECT"
+    },
+    {
+     "t": "+",
+     "s": "App & Integrations Connect your favorite tools"
+    },
+    {
+     "t": "+",
+     "s": "Native CRM Grow customer relationships"
+    },
+    {
+     "t": "+",
+     "s": "Salesforce in Slack Put customer data to work"
+    },
+    {
+     "t": "+",
+     "s": "Enterprise Search Find answers from anywhere"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "BUILD"
+    },
+    {
+     "t": "+",
+     "s": "Agentic Platform All your people, apps, and agents"
+    },
+    {
+     "t": "+",
+     "s": "Workflow Builder Automate everyday tasks"
+    },
+    {
+     "t": "+",
+     "s": "Trust & Security Keep work private and secure"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "What's new See latest feature releases Slack Marketplace Browse over 2,600 apps"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Solutions BY DEPARTMENT"
+    },
+    {
+     "t": " ",
+     "s": "Engineering"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "IT"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Customer Service"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sales"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Project Management"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Marketing"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Human Resources"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "BY INDUSTRY"
+    },
+    {
+     "t": " ",
+     "s": "Manufacturing, Auto & Energy"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Technology"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Media"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Small Business"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Financial Services"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Retail"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Public Sector"
+    },
+    {
+     "t": " ",
+     "s": "Education"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Health & Life Sciences"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Watch demo"
+    },
+    {
+     "t": "-",
+     "s": "Download Slack"
+    },
+    {
+     "t": "-",
+     "s": "See all solutions"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "TEMPLATE GALLERY"
+    },
+    {
+     "t": "-",
+     "s": "Start work faster with pre-made templates for every task."
+    },
+    {
+     "t": "-",
+     "s": "See all templates"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Task Management"
+    },
+    {
+     "t": "-",
+     "s": "Scale"
+    },
+    {
+     "t": "-",
+     "s": "Engagement"
+    },
+    {
+     "t": "-",
+     "s": "Trust"
+    },
+    {
+     "t": "+",
+     "s": "Template gallery Start work faster with templates"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Enterprise"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Resources Resources Library"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "What’s New"
+    },
+    {
+     "t": "+",
+     "s": "Resources Discover"
+    },
+    {
+     "t": "+",
+     "s": "What's New"
+    },
+    {
+     "t": "+",
+     "s": "Resources Library"
+    },
+    {
+     "t": "+",
+     "s": "Customer Stories"
+    },
+    {
+     "t": "+",
+     "s": "Events"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Learn"
+    },
+    {
+     "t": "+",
+     "s": "Blog"
+    },
+    {
+     "t": " ",
+     "s": "Product Tour"
+    },
+    {
+     "t": "+",
+     "s": "Help Center"
+    },
+    {
+     "t": "+",
+     "s": "Slack vs Teams"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Events"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Build"
+    },
+    {
+     "t": " ",
+     "s": "Developers"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Slack Community"
+    },
+    {
+     "t": " ",
+     "s": "Partner Program"
+    },
+    {
+     "t": "+",
+     "s": "Partner Offers"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Customer Stories"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Community"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Certified"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Blog"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Slack Marketplace"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Watch demo"
+    },
+    {
+     "t": "-",
+     "s": "Download Slack"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "FEATURED"
+    },
+    {
+     "t": "-",
+     "s": "Winning in the AI era of work."
+    },
+    {
+     "t": "-",
+     "s": "Learn more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Help Center"
+    },
+    {
+     "t": "-",
+     "s": "Customer Support"
+    },
+    {
+     "t": "+",
+     "s": "AI era of work The future of enterprise growth"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Pricing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Sign in Request a demo Get started"
+    },
+    {
+     "t": "+",
+     "s": "Request a demo Get started Sign in"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy Policy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

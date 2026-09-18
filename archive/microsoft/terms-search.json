@@ -3,7 +3,7 @@
  "documents": [
   {
    "doc": "eu-reports",
-   "chars": 9538
+   "chars": 10150
   },
   {
    "doc": "photodna",
@@ -18,7 +18,7 @@
    "chars": 214831
   }
  ],
- "totalChars": 232539,
+ "totalChars": 233151,
  "terms": [
   {
    "group": "eu",
