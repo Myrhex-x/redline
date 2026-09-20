@@ -1,5 +1,38 @@
 [
  {
+  "id": "2026-09-20-meta-privacy",
+  "date": "2026-09-20",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 146,
+  "removed": 229
+ },
+ {
+  "id": "2026-09-20-slack-privacy",
+  "date": "2026-09-20",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 319,
+  "removed": 87
+ },
+ {
+  "id": "2026-09-20-slack-security",
+  "date": "2026-09-20",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "security",
+  "docTitle": "Security",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
   "id": "2026-09-19-meta-privacy",
   "date": "2026-09-19",
   "slug": "meta",
