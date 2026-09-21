@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-09-21-slack-security",
+  "date": "2026-09-21",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "security",
+  "docTitle": "Security",
+  "kind": "change",
+  "added": 319,
+  "removed": 87
+ },
+ {
   "id": "2026-09-20-meta-privacy",
   "date": "2026-09-20",
   "slug": "meta",
