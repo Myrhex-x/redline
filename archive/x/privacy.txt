@@ -39,7 +39,7 @@ s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L13.4,12z" />
 <path d="M22.06 19.94l-3.73-3.73C19.38 14.737 20 12.942 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c1.943 0 3.738-.622 5.21-1.67l3.73 3.73c.292.294.676.44 1.06.44s.768-.146 1.06-.44c.586-.585.586-1.535 0-2.12zM11 17c-3.308 0-6-2.692-6-6s2.692-6 6-6 6 2.692 6 6-2.692 6-6 6z" />
 </svg>" data-icon-search-submit="<svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="none" class="twtr-icon">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M16.33 14.21L20.06 17.94C20.646 18.525 20.646 19.475 20.06 20.06C19.768 20.354 19.384 20.5 19 20.5C18.616 20.5 18.232 20.354 17.94 20.06L14.21 16.33C12.738 17.378 10.943 18 9 18C4.03 18 0 13.97 0 9C0 4.03 4.03 0 9 0C13.97 0 18 4.03 18 9C18 10.942 17.38 12.737 16.33 14.21ZM3 9C3 12.308 5.692 15 9 15C12.308 15 15 12.308 15 9C15 5.692 12.308 3 9 3C5.692 3 3 5.692 3 9Z" fill="white" />
-</svg>" data-bg-color="white-neutral" data-root-page-title="Privacy Policy" data-search-placeholder="Search" data-search-query-key="q" data-search-query-type="?" data-scribe-element="1BJ8" data-scribe-section="u01b-navigation" data-cta-enabled="true" data-cta-text="Download PDF" data-cta-link=" https://legal.x.com/content/dam/legal-twitter/site-assets/x-privacy-policy-2026-07-15/en/x-privacy-policy-2026-07-15.pdf" data-cta-link-new-tab="true">
+</svg>" data-bg-color="white-neutral" data-root-page-title="Privacy Policy" data-search-placeholder="Search" data-search-query-key="q" data-search-query-type="?" data-scribe-element="1BJ8" data-scribe-section="u01b-navigation" data-cta-enabled="true" data-cta-text="Download PDF" data-cta-link=" https://legal.x.com/content/dam/legal-twitter/site-assets/x-privacy-policy-2026-09-21/en/x-privacy-policy-2026-09-21.pdf" data-cta-link-new-tab="true">
 
 X Privacy Policy
 
@@ -372,12 +372,9 @@ We want to hear from you if you have thoughts or questions about this Privacy Po
 If you live in the United States or any other country outside of the European Union, EFTA States, or the United Kingdom, the data controller responsible for your personal data is X Corp., with an address of:
 
 X Corp.
-
 Attn: Privacy Policy Inquiry
-
-865 FM 1209, Building 2
-
-Bastrop, TX 78602
+800 W Cesar Chavez St.
+Austin, TX 78701
 
 If you live in the European Union, EFTA States, or the United Kingdom, the data controller responsible for your personal data is X Internet Unlimited Company, with an address of:
 

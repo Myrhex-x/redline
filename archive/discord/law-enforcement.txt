@@ -208,11 +208,6 @@ Discord does not notify users of preservation requests or emergency disclosure r
 ‍
 ‍
 
-Tags
-Policy
-
-Reporting
-
 Reimbursement
 Consistent with 18 U.S.C. § 2706, Discord may seek reimbursement of the costs reasonably necessary and directly incurred in responding to a request for user data.
 
@@ -228,6 +223,11 @@ Under the United Kingdom’s Online Safety Act, our dedicated reporting channel 
 
 Still have questions?
 Governmental officials and law enforcement can submit questions via the Portal. These questions will be reviewed and responded to by our Legal Response Team.
+
+Tags
+Policy
+
+Reporting
 
 related articles
 

@@ -139,15 +139,11 @@ https://www.patrick-breyer.de/wp-content/uploads/2023/01/chatcontrol-explainer.m
 
 Take action to stop Chat Control
 
-The final content of the Chat Control 2.0 regulation is currently being negotiated in a trilogue on the basis of a table comparing the negotiating mandates .
+The final content of the Chat Control 2.0 regulation is currently being negotiated in a trilogue on the basis of a table comparing the negotiating mandates . The potentially final trilogue will take place on 29 September.
 
 EU governments are negotiating on the basis of a highly dangerous mandate:
 
 Indiscriminate chat control on a “voluntary” basis: The temporary law on Chat Control 1.0, which allows large US providers to scan our chats indiscriminately, in bulk, and without a court order, is to be made permanent without any changes. Private communications can not only be scanned for known illegal images and videos. Even unknown visual content, private chat texts and metadata can be classified by unreliable algorithms and AI as suspicious or not. Under the current voluntary “Chat Control 1.0” scanning scheme, German federal police (BKA) already warn that around 50% of all reports are criminally irrelevant, equating to tens of thousands of leaked legal chats per year.
-
-The End of Anonymous Communication: To reliably identify minors as required by the text, every citizen would have to present their ID or have their face scanned to open an email or messenger account. This is the de facto end of anonymous communication online – a disaster for whistleblowers, journalists, political activists, and people seeking help who rely on the protection of anonymity .
-
-“Digital House Arrest”: Teens under 16 face a blanket ban from WhatsApp, Instagram, online games, and countless other apps with chat functions, allegedly to protect them from grooming. Digital isolation instead of education, protection by exclusion instead of empowerment – this is paternalistic, out of touch with reality, and pedagogical nonsense.
 
 Experts are warning , too.
 
@@ -344,7 +340,9 @@ The negotiations: A timeline
 
 July 2026 (expected): Adoption of the regulation by EU Parliament and Council
 
-29 June 2026: Fifth and final negotiation on chat control 2.0 proposal
+29 September 2026: Sixth and potentially final trilogue negotiation on chat control 2.0 proposal
+
+29 June 2026: Fifth negotiation on chat control 2.0 proposal
 
 10 June 2026: Council law enforcement working party discussion on the final version of chat control 2.0 (leaked cable report from 11 June 2026 in German)
 
@@ -740,7 +738,27 @@ Council of the European Union (Council)
 
 Council documents (continuously updated)
 
-Compromise proposals and state of play (22 June 2026, 10906/26)
+Preparation for the trilogue (18 September 2026, 13158/26)
+
+Presentation of the Commission (15 September 2026, WK 14059/26)
+
+Four-column table with the outcome of the interinstitutional technical meeting on 10 September 2026 (11 September 2026, WK 13816/26)
+
+State of play and way forward (10 September 2026, 11956/26)
+
+Reflection paper on detection obligations / own-initiative searches (24 July 2026, WK 10939/26)
+
+Reflection paper on detection obligations / own-initiative searches (24 July 2026, WK 10940/26)
+
+Amendments to some lines in the four-column table (17 July 2026, WK 10719/26)
+
+Outcome of the trilogue on 29 June 2026 and next steps (7 July 2026, 11501/26)
+
+Four-column table with the outcome of the trilogue on 29 June 2026 (2 July 2026, WK 9794/26)
+
+Presentation of incoming Irish Presidency (30 June 2026, WK 9625/26)
+
+State of play of interinstitutional negotiations and Presidency compromise texts (22 June 2026, 10906/26)
 
 Outcome of the interinstitutional technical meeting on 19 June 2026 (22 June 2026, WK 9107/26)
 
@@ -748,7 +766,7 @@ Preparation for the trilogue – State of play and guidance for further work (22
 
 Comments from delegations (17 June 2026, WK 8875/26)
 
-Compromise proposals and state of play (12 June 2026, 10431/26)
+State of play of interinstitutional negotiations and Presidency compromise texts (12 June 2026, 10431/26)
 
 Outcome of the interinstitutional technical meetings on 3 and 11 June 2026 (12 June 2026, WK 8615/26)
 

@@ -1,0 +1,281 @@
+{
+ "id": "2026-09-22-breyer-chat-control",
+ "date": "2026-09-22",
+ "slug": "breyer",
+ "doc": "chat-control",
+ "hunks": [
+  {
+   "header": "@@ -139,16 +139,12 @@ https://www.patrick-breyer.de/wp-content/uploads/2023/01/chatcontrol-explainer.m",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Take action to stop Chat Control"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "The final content of the Chat Control 2.0 regulation is currently being negotiated in a trilogue on the basis of a table comparing the negotiating mandates ."
+    },
+    {
+     "t": "+",
+     "s": "The final content of the Chat Control 2.0 regulation is currently being negotiated in a trilogue on the basis of a table comparing the negotiating mandates . The potentially final trilogue will take place on 29 September."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "EU governments are negotiating on the basis of a highly dangerous mandate:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Indiscriminate chat control on a “voluntary” basis: The temporary law on Chat Control 1.0, which allows large US providers to scan our chats indiscriminately, in bulk, and without a court order, is to be made permanent without any changes. Private communications can not only be scanned for known illegal images and videos. Even unknown visual content, private chat texts and metadata can be classified by unreliable algorithms and AI as suspicious or not. Under the current voluntary “Chat Control 1.0” scanning scheme, German federal police (BKA) already warn that around 50% of all reports are criminally irrelevant, equating to tens of thousands of leaked legal chats per year."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "The End of Anonymous Communication: To reliably identify minors as required by the text, every citizen would have to present their ID or have their face scanned to open an email or messenger account. This is the de facto end of anonymous communication online – a disaster for whistleblowers, journalists, political activists, and people seeking help who rely on the protection of anonymity ."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "“Digital House Arrest”: Teens under 16 face a blanket ban from WhatsApp, Instagram, online games, and countless other apps with chat functions, allegedly to protect them from grooming. Digital isolation instead of education, protection by exclusion instead of empowerment – this is paternalistic, out of touch with reality, and pedagogical nonsense."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Experts are warning , too."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is being discussed as a possible compromise would continue to allow American tech giants to screen the private messages of 450 million innocent Europeans en masse for known visuals without reasonable suspicion of any crime and without a warrant. Even when searching for “known” material (hash scanning), opaque international databases do not reflect European criminal law, and algorithms are blind to context and the lack of intent (e.g. motives of outrage, attempted humour, overestimating age, sexting by teenagers) . The result: According to former EU Commissioner Johansson 75% of all flagged chats (300.000 reported EU chats per year) are not actionable, drowning law enforcement in false positives and diverting resources from genuine investigations against producers and abusers. In its own implementation report (COM(2025)740 final), the European Commission admitted that there is no proven link between scanning private messages and actual convictions or children rescued."
+    }
+   ]
+  },
+  {
+   "header": "@@ -344,7 +340,9 @@ The negotiations: A timeline",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "July 2026 (expected): Adoption of the regulation by EU Parliament and Council"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "29 June 2026: Fifth and final negotiation on chat control 2.0 proposal"
+    },
+    {
+     "t": "+",
+     "s": "29 September 2026: Sixth and potentially final trilogue negotiation on chat control 2.0 proposal"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "29 June 2026: Fifth negotiation on chat control 2.0 proposal"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "10 June 2026: Council law enforcement working party discussion on the final version of chat control 2.0 (leaked cable report from 11 June 2026 in German)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -740,7 +738,27 @@ Council of the European Union (Council)",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Council documents (continuously updated)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Compromise proposals and state of play (22 June 2026, 10906/26)"
+    },
+    {
+     "t": "+",
+     "s": "Preparation for the trilogue (18 September 2026, 13158/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Presentation of the Commission (15 September 2026, WK 14059/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Four-column table with the outcome of the interinstitutional technical meeting on 10 September 2026 (11 September 2026, WK 13816/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "State of play and way forward (10 September 2026, 11956/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Reflection paper on detection obligations / own-initiative searches (24 July 2026, WK 10939/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Reflection paper on detection obligations / own-initiative searches (24 July 2026, WK 10940/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Amendments to some lines in the four-column table (17 July 2026, WK 10719/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Outcome of the trilogue on 29 June 2026 and next steps (7 July 2026, 11501/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Four-column table with the outcome of the trilogue on 29 June 2026 (2 July 2026, WK 9794/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Presentation of incoming Irish Presidency (30 June 2026, WK 9625/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "State of play of interinstitutional negotiations and Presidency compromise texts (22 June 2026, 10906/26)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Outcome of the interinstitutional technical meeting on 19 June 2026 (22 June 2026, WK 9107/26)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -748,7 +766,7 @@ Preparation for the trilogue – State of play and guidance for further work (22",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Comments from delegations (17 June 2026, WK 8875/26)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Compromise proposals and state of play (12 June 2026, 10431/26)"
+    },
+    {
+     "t": "+",
+     "s": "State of play of interinstitutional negotiations and Presidency compromise texts (12 June 2026, 10431/26)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Outcome of the interinstitutional technical meetings on 3 and 11 June 2026 (12 June 2026, WK 8615/26)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

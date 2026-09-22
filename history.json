@@ -1,5 +1,49 @@
 [
  {
+  "id": "2026-09-22-breyer-chat-control",
+  "date": "2026-09-22",
+  "slug": "breyer",
+  "company": "Patrick Breyer (MEP, 2019–2024)",
+  "doc": "chat-control",
+  "docTitle": "Chat Control overview",
+  "kind": "change",
+  "added": 26,
+  "removed": 8
+ },
+ {
+  "id": "2026-09-22-snapchat-guidelines",
+  "date": "2026-09-22",
+  "slug": "snapchat",
+  "company": "Snapchat",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "change",
+  "added": 50,
+  "removed": 51
+ },
+ {
+  "id": "2026-09-22-snapchat-privacy",
+  "date": "2026-09-22",
+  "slug": "snapchat",
+  "company": "Snapchat",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 85,
+  "removed": 85
+ },
+ {
+  "id": "2026-09-22-x-privacy",
+  "date": "2026-09-22",
+  "slug": "x",
+  "company": "X",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 3,
+  "removed": 6
+ },
+ {
   "id": "2026-09-21-slack-security",
   "date": "2026-09-21",
   "slug": "slack",
