@@ -1,0 +1,429 @@
+{
+ "id": "2026-09-23-zoom-privacy",
+ "date": "2026-09-23",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -11,7 +11,7 @@ English",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sign In"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contact Sales"
+    },
+    {
+     "t": "+",
+     "s": "Contact sales"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Get in touch"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -19,9 +19,9 @@ Get in touch",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sign Up Free"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contact Sales"
+    },
+    {
+     "t": "+",
+     "s": "Contact sales"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contact Sales"
+    },
+    {
+     "t": "+",
+     "s": "Contact sales"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What's New"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -57,18 +57,52 @@ Meet",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Join a meeting"
+    },
+    {
+     "t": " ",
+     "s": "Host a meeting"
+    },
+    {
+     "t": "+",
+     "s": "Schedule a meeting"
+    },
+    {
+     "t": " ",
+     "s": "Download app"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sign In"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Support"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contact Sales"
+    },
+    {
+     "t": "+",
+     "s": "Contact sales"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sign Up Free"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What's New"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Zoom Workplace"
+    },
+    {
+     "t": "+",
+     "s": "View All"
+    },
+    {
+     "t": "+",
+     "s": "Meetings Chat Phone Mail & Calendar Scheduler Whiteboard Clips Zoom Marketplace"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Business Services"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Revenue Accelerator Webinars & Events Bonsai BrightHire"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Zoom CX"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Contact Center AI Expert Assist Workforce Management Quality Management CX Insights"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Zoom AI"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "ZoomMate My Notes Virtual Agent AI Services AI On-Prem AI Productivity Suite Canvas Slides Sheets Paper"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Developers"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Overview Video SDK Co-Browse"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Discover Product"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "New Meeting"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "With Video Off"
+    },
+    {
+     "t": "+",
+     "s": "With Video On"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Join"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Schedule"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Contact sales"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Open user profile menu"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "My Account"
+    }
+   ]
+  },
+  {
+   "header": "@@ -93,28 +127,6 @@ Get it on",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Google Play"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Zoom Workplace"
+    },
+    {
+     "t": "-",
+     "s": "View All"
+    },
+    {
+     "t": "-",
+     "s": "Meetings Chat Phone Mail & Calendar Scheduler Whiteboard Clips Zoom Marketplace"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Business Services"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Revenue Accelerator Webinars & Events Bonsai BrightHire"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Zoom CX"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contact Center AI Expert Assist Workforce Management Quality Management CX Insights"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Zoom AI"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "ZoomMate My Notes Virtual Agent AI Services AI On-Prem AI Productivity Suite Canvas Slides Sheets Paper"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Developers"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Overview Video SDK Co-Browse"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contact Sales"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Popular Popular"
+    },
+    {
+     "t": " ",
+     "s": "What’s hot, what’s trending, what’s building buzz — the solutions Zoom customers are into right now."
+    },
+    {
+     "t": " ",
+     "s": "My Notes Meetings ZoomMate Rooms Phone Canvas Contact Center CX Insights Bonsai"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

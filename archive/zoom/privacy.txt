@@ -11,7 +11,7 @@ English
 
 Sign In
 
-Contact Sales
+Contact sales
 
 Get in touch
 
@@ -19,9 +19,9 @@ Get in touch
 
 Sign Up Free
 
-Contact Sales
+Contact sales
 
-Contact Sales
+Contact sales
 
 What's New
 
@@ -57,17 +57,51 @@ Meet
 
 Join a meeting
 Host a meeting
+Schedule a meeting
 Download app
 
 Sign In
 
 Support
 
-Contact Sales
+Contact sales
 
 Sign Up Free
 
 What's New
+
+Zoom Workplace
+View All
+Meetings Chat Phone Mail & Calendar Scheduler Whiteboard Clips Zoom Marketplace
+
+Business Services
+
+Revenue Accelerator Webinars & Events Bonsai BrightHire
+
+Zoom CX
+
+Contact Center AI Expert Assist Workforce Management Quality Management CX Insights
+
+Zoom AI
+
+ZoomMate My Notes Virtual Agent AI Services AI On-Prem AI Productivity Suite Canvas Slides Sheets Paper
+
+Developers
+
+Overview Video SDK Co-Browse
+
+Discover Product
+
+New Meeting
+
+With Video Off
+With Video On
+
+Join
+
+Schedule
+
+Contact sales
 
 Open user profile menu
 
@@ -92,28 +126,6 @@ App Store
 Get it on
 
 Google Play
-
-Zoom Workplace
-View All
-Meetings Chat Phone Mail & Calendar Scheduler Whiteboard Clips Zoom Marketplace
-
-Business Services
-
-Revenue Accelerator Webinars & Events Bonsai BrightHire
-
-Zoom CX
-
-Contact Center AI Expert Assist Workforce Management Quality Management CX Insights
-
-Zoom AI
-
-ZoomMate My Notes Virtual Agent AI Services AI On-Prem AI Productivity Suite Canvas Slides Sheets Paper
-
-Developers
-
-Overview Video SDK Co-Browse
-
-Contact Sales
 
 Popular Popular
 What’s hot, what’s trending, what’s building buzz — the solutions Zoom customers are into right now.
