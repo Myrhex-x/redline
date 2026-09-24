@@ -1,0 +1,83 @@
+{
+ "id": "2026-09-24-slack-security",
+ "date": "2026-09-24",
+ "slug": "slack",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -14,7 +14,7 @@ Native AI Save time with built-in AI",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Agentforce Team up with Salesforce agents"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "CONNECT"
+    },
+    {
+     "t": "-",
+     "s": "App & Integrations Connect your favorite tools"
+    },
+    {
+     "t": "+",
+     "s": "Apps & Integrations Connect your favorite tools"
+    },
+    {
+     "t": " ",
+     "s": "Native CRM Grow customer relationships"
+    },
+    {
+     "t": " ",
+     "s": "Salesforce in Slack Put customer data to work"
+    },
+    {
+     "t": " ",
+     "s": "Enterprise Search Find answers from anywhere"
+    }
+   ]
+  },
+  {
+   "header": "@@ -101,7 +101,7 @@ Native AI Save time with built-in AI",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Agentforce Team up with Salesforce agents"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "CONNECT"
+    },
+    {
+     "t": "-",
+     "s": "App & Integrations Connect your favorite tools"
+    },
+    {
+     "t": "+",
+     "s": "Apps & Integrations Connect your favorite tools"
+    },
+    {
+     "t": " ",
+     "s": "Native CRM Grow customer relationships"
+    },
+    {
+     "t": " ",
+     "s": "Salesforce in Slack Put customer data to work"
+    },
+    {
+     "t": " ",
+     "s": "Enterprise Search Find answers from anywhere"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

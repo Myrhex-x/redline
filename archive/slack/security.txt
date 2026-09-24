@@ -14,7 +14,7 @@ Native AI Save time with built-in AI
 Agentforce Team up with Salesforce agents
 
 CONNECT
-App & Integrations Connect your favorite tools
+Apps & Integrations Connect your favorite tools
 Native CRM Grow customer relationships
 Salesforce in Slack Put customer data to work
 Enterprise Search Find answers from anywhere
@@ -101,7 +101,7 @@ Native AI Save time with built-in AI
 Agentforce Team up with Salesforce agents
 
 CONNECT
-App & Integrations Connect your favorite tools
+Apps & Integrations Connect your favorite tools
 Native CRM Grow customer relationships
 Salesforce in Slack Put customer data to work
 Enterprise Search Find answers from anywhere

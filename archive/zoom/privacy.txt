@@ -11,7 +11,7 @@ English
 
 Sign In
 
-Contact sales
+Contact Sales
 
 Get in touch
 
@@ -19,9 +19,9 @@ Get in touch
 
 Sign Up Free
 
-Contact sales
+Contact Sales
 
-Contact sales
+Contact Sales
 
 What's New
 
@@ -64,7 +64,7 @@ Sign In
 
 Support
 
-Contact sales
+Contact Sales
 
 Sign Up Free
 
@@ -101,7 +101,7 @@ Join
 
 Schedule
 
-Contact sales
+Contact Sales
 
 Open user profile menu
 

@@ -3,7 +3,7 @@
  "documents": [
   {
    "doc": "compliance",
-   "chars": 10957
+   "chars": 12275
   },
   {
    "doc": "play-safety",
@@ -15,10 +15,10 @@
   },
   {
    "doc": "security",
-   "chars": 11114
+   "chars": 11116
   }
  ],
- "totalChars": 70607,
+ "totalChars": 71927,
  "terms": [
   {
    "group": "eu",

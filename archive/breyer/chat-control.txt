@@ -139,33 +139,33 @@ https://www.patrick-breyer.de/wp-content/uploads/2023/01/chatcontrol-explainer.m
 
 Take action to stop Chat Control
 
-The final content of the Chat Control 2.0 regulation is currently being negotiated in a trilogue on the basis of a table comparing the negotiating mandates . The potentially final trilogue will take place on 29 September.
+The final content of the Chat Control 2.0 regulation is currently being decided. A potentially final and decisive trilogue will take place on 29 September. EU negotiators are under immense pressure to force a “dirty deal” that would normalize mass surveillance across Europe. Read the details in leaked documents .
 
-EU governments are negotiating on the basis of a highly dangerous mandate:
+Exposing the “Fake Targeting” Trap
 
-Indiscriminate chat control on a “voluntary” basis: The temporary law on Chat Control 1.0, which allows large US providers to scan our chats indiscriminately, in bulk, and without a court order, is to be made permanent without any changes. Private communications can not only be scanned for known illegal images and videos. Even unknown visual content, private chat texts and metadata can be classified by unreliable algorithms and AI as suspicious or not. Under the current voluntary “Chat Control 1.0” scanning scheme, German federal police (BKA) already warn that around 50% of all reports are criminally irrelevant, equating to tens of thousands of leaked legal chats per year.
+EU governments are currently trying to replace the European Parliament’s demand for targeted warrants against specific suspects with a dangerous “compromise.” They want to allow authorities to issue broad “search plans” to scan “parts of a service.” In practice, this can still result in scanning every group chat or every user in the EU . This is mass surveillance by another name.
 
-Experts are warning , too.
+Even the Council’s own Legal Service has warned that this is likely illegal. In a leaked internal analysis (par. 47), they admitted that scanning entire service components is “highly probable” to be considered “general and indiscriminate” and would be struck down by the courts. Pushing this deal anyway is a betrayal of the rule of law and a false promise to victims, as the law would eventually collapse in court.
 
-What is being discussed as a possible compromise would continue to allow American tech giants to screen the private messages of 450 million innocent Europeans en masse for known visuals without reasonable suspicion of any crime and without a warrant. Even when searching for “known” material (hash scanning), opaque international databases do not reflect European criminal law, and algorithms are blind to context and the lack of intent (e.g. motives of outrage, attempted humour, overestimating age, sexting by teenagers) . The result: According to former EU Commissioner Johansson 75% of all flagged chats (300.000 reported EU chats per year) are not actionable, drowning law enforcement in false positives and diverting resources from genuine investigations against producers and abusers. In its own implementation report (COM(2025)740 final), the European Commission admitted that there is no proven link between scanning private messages and actual convictions or children rescued.
+The “Voluntary” Loophole (Chat Control 1.0)
 
-Searching chats for already known images does not stop ongoing abuse, nor does it rescue children currently in danger!Perpetrators can easily migrate to other platforms where no scanning takes place.
+There is a severe risk that negotiators could agree to a permanent Regulation 2.0 which allows the failed “Chat Control 1.0” (voluntary mass scanning) to be made permanent as a parallel loophole. This system is a proven disaster: German police data shows that over half of investigations target minors themselves for consensual sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully terminated.
 
-As we continue the fight against against chat control, we need to expand the resistance:
+Take action
+
+As we enter the final week of negotiations, we must expand the resistance:
+
+Contact your MEPs immediately via fightchatcontrol.eu ! Use the tool below to send an email to your representatives. Tell them to stand by the Parliament’s mandate: Judicial warrants for specific suspects only. No broad “search plans.” No loopholes for voluntary mass scanning.
 
 Explain to your friends why this is an important topic. This short video, translated to all European languages , is a good start – feel free to use and share it. Also available on PeerTube (EN) and YouTube (DE) .
 
-Taking action works better and is more motivating when you work together. So try to find allies and form alliances. Whether it is in a local hackspace or in a sports club: your local action group against chat control can start anywhere. Then you can get creative and decide which type of action suits you best.
-
 Take action now. We are the resistance against Chat Control!
 
-Talk about it! Inform others about the dangers of chat control. Use the sharepics and videos available here , or the sharepics below.
+Write to your MEP! Use the template provided by fightchatcontrol.eu to warn them against the “fake targeting” compromise and the voluntary mass scanning loophole. Focus on the EPP and S&D (especially the Spanish delegation).
+
+Talk about it! Inform others about the dangers of chat control. Use the sharepics and videos available here .
 
 Generate attention on social media! Use the hashtags #chatcontrol and #StopScanningMe
-
-Generate media attention! So far very few media have covered the messaging and chat control plans of the EU. Get in touch with newspapers and ask them to cover the subject – online and offline.
-
-Ask your e-mail, messaging and chat service providers! Avoid Gmail, Facebook Messenger, outlook.com and X-Box, where indiscriminate chat control is already taking place. Ask your email, messaging and chat providers if they generally monitor private messages for suspicious content, or if they plan to do so.
 
 Sharepics and Infographics for you to download and use :
 
@@ -320,8 +320,8 @@ Antonio Tanger Correa 🇵🇹
 Hilde Vautmans 🇧🇪
 Marketa Gregorova 🇨🇿 (Pirates)
 Isabel Serra Sánchez 🇪🇸
-Jadwiga Wisniewska 🇵🇱
-Ewa Zajączkowska-Hernik🇵🇱
+Nicolas Bay 🇫🇷
+Mary Khan 🇩🇪
 
 IMCO
 
@@ -332,7 +332,7 @@ Kim VAN SPARRENTAK 🇳🇱
 Hanna GEDIN 🇸🇪
 Piotr MÜLLER 🇵🇱
 
-Negotiating on behalf of the EU Council: national ministers for home affairs (in the lead) are represented in the negotiations by the Council Presidency – Cyprus as of 1/1/2026
+Negotiating on behalf of the EU Council: national ministers for home affairs (in the lead) are represented in the negotiations by the Council Presidency – Ireland as of 1/7/2026
 
 Negotiating on behalf of the EU Commission: Internal Affairs Commissioner Magnus Brunner (in the lead)
 

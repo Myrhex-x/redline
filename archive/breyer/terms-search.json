@@ -3,10 +3,10 @@
  "documents": [
   {
    "doc": "chat-control",
-   "chars": 77413
+   "chars": 76532
   }
  ],
- "totalChars": 77413,
+ "totalChars": 76532,
  "terms": [
   {
    "group": "eu",
@@ -44,7 +44,7 @@
    "group": "eu",
    "label": "Chat Control / Chatkontrolle",
    "pattern": "chat[\\s-]?control|chatkontrolle",
-   "count": 170,
+   "count": 167,
    "samples": [
     {
      "doc": "chat-control",
@@ -170,7 +170,7 @@
    "group": "scan",
    "label": "scan / scanning / gescannt",
    "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
-   "count": 31,
+   "count": 32,
    "samples": [
     {
      "doc": "chat-control",
@@ -178,11 +178,11 @@
     },
     {
      "doc": "chat-control",
-     "quote": "…hat control on a “voluntary” basis: The temporary law on Chat Control 1.0, which allows large US providers to scan our chats indiscriminately, in bulk, and without a court order, is to be made permanent without any changes.…"
+     "quote": "…cific suspects with a dangerous “compromise.” They want to allow authorities to issue broad “search plans” to scan “parts of a service.” In practice, this can still result in scanning every group chat or every user in the EU…"
     },
     {
      "doc": "chat-control",
-     "quote": "…nd without a court order, is to be made permanent without any changes. Private communications can not only be scanned for known illegal images and videos. Even unknown visual content, private chat texts and metadata can be clas…"
+     "quote": "…authorities to issue broad “search plans” to scan “parts of a service.” In practice, this can still result in scanning every group chat or every user in the EU . This is mass surveillance by another name. Even the Council’s own…"
     }
    ]
   },
