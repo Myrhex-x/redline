@@ -1,3 +1,5 @@
+fightchatcontrol.eu
+
 Skip to content
 
 Home Posts and policy Chat Control: The EU’s CSAM scanner proposal
@@ -139,17 +141,17 @@ https://www.patrick-breyer.de/wp-content/uploads/2023/01/chatcontrol-explainer.m
 
 Take action to stop Chat Control
 
-The final content of the Chat Control 2.0 regulation is currently being decided. A potentially final and decisive trilogue will take place on 29 September. EU negotiators are under immense pressure to force a “dirty deal” that would normalize mass surveillance across Europe. Read the details in leaked documents .
+The final content of the Chat Control 2.0 regulation is currently being negotiated behind closed doors. A potentially final and decisive trilogue will take place on Tuesday, 29 September. EU negotiators are under immense pressure to force a “dirty deal” that would permanently normalize mass surveillance across Europe. Read the details in leaked documents .
 
 Exposing the “Fake Targeting” Trap
 
-EU governments are currently trying to replace the European Parliament’s demand for targeted warrants against specific suspects with a dangerous “compromise.” They want to allow authorities to issue broad “search plans” to scan “parts of a service.” In practice, this can still result in scanning every group chat or every user in the EU . This is mass surveillance by another name.
+EU governments are currently trying to replace the European Parliament’s demand for targeted warrants against specific suspects with a dangerous “compromise.” They want to allow authorities to authorize broad “search plans” of communications service providers to scan “parts of a service.” In practice, this can still result in scanning the chats of every user in the EU . This is mass surveillance by another name. Our chats could be reported to police if providers’ unreliable algorithms – including “artificial intelligence” – believe they have found classified images/videos in them, or automatically evaluate our photos and chat history as ‘suspicious.’
 
-Even the Council’s own Legal Service has warned that this is likely illegal. In a leaked internal analysis (par. 47), they admitted that scanning entire service components is “highly probable” to be considered “general and indiscriminate” and would be struck down by the courts. Pushing this deal anyway is a betrayal of the rule of law and a false promise to victims, as the law would eventually collapse in court.
+Even the Council’s own Legal Service has warned that this is likely illegal. In a leaked internal analysis (par. 47), they admitted that scanning entire “parts of a service” is “highly probable” to be considered “general and indiscriminate” and would be struck down by the courts. Pushing this deal anyway is a betrayal of the rule of law and a false promise to victims, as the law would eventually collapse in court.
 
 The “Voluntary” Loophole (Chat Control 1.0)
 
-There is a severe risk that negotiators could agree to a permanent Regulation 2.0 which allows the failed “Chat Control 1.0” (voluntary mass scanning) to be made permanent as a parallel loophole. This system is a proven disaster: German police data shows that over half of investigations target minors themselves for consensual sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully terminated.
+There is a severe risk that negotiators could alternatively agree to a permanent Regulation 2.0 which allows the failed interim “Chat Control 1.0” regulation (voluntary mass scanning) to continue to exist as a parallel loophole. This system is a proven disaster: German police data shows that over half of investigations target minors themselves for consensual sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully phased out and replaced.
 
 Take action
 

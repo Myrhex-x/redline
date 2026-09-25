@@ -1,0 +1,83 @@
+{
+ "id": "2026-09-25-microsoft-eu-reports",
+ "date": "2026-09-25",
+ "slug": "microsoft",
+ "doc": "eu-reports",
+ "hunks": [
+  {
+   "header": "@@ -128,7 +128,7 @@ February 2024 - India Intermediary Guidelines Report",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Surface Book 3"
+    },
+    {
+     "t": " ",
+     "s": "Surface Pro"
+    },
+    {
+     "t": "-",
+     "s": "Microsoft Copilot"
+    },
+    {
+     "t": "+",
+     "s": "Explore Copilot"
+    },
+    {
+     "t": " ",
+     "s": "Microsoft 365"
+    },
+    {
+     "t": " ",
+     "s": "Windows 11 apps"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -154,7 +154,7 @@ Azure",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Dynamics 365"
+    },
+    {
+     "t": " ",
+     "s": "Microsoft 365"
+    },
+    {
+     "t": " ",
+     "s": "Microsoft Advertising"
+    },
+    {
+     "t": "-",
+     "s": "Microsoft 365 Copilot"
+    },
+    {
+     "t": "+",
+     "s": "Microsoft Copilot"
+    },
+    {
+     "t": " ",
+     "s": "Microsoft Teams"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Microsoft Developer"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -63,11 +63,11 @@ Web app (new window)
 Desktop client add-on
 Bridge
 
-Encrypted email Proton Mail VPN Proton VPN (new window) AI assistant Lumo AI Video conferencing Proton Meet Private scheduling Proton Calendar
+Encrypted email Proton Mail VPN Proton VPN (new window) Cloud storage Proton Drive Password manager Proton Pass AI assistant Lumo AI
 
-Cloud storage Proton Drive Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window)
+Video conferencing Proton Meet Private scheduling Proton Calendar Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Two-factor authenticator Proton Authenticator
 
-Password manager Proton Pass Two-factor authenticator Proton Authenticator Hide-my-email aliases SimpleLogin (new window)
+Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window) Hide-my-email aliases SimpleLogin (new window)
 
 Company
 About us Impact Social media Open source Team Careers We’re hiring Proton Foundation Proton blog

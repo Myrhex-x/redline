@@ -1,0 +1,42 @@
+{
+ "id": "2026-09-25-playstation-privacy",
+ "date": "2026-09-25",
+ "slug": "playstation",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -185,7 +185,6 @@ Accessories",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Games"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Values"
+    },
+    {
+     "t": "-",
+     "s": "Environment"
+    },
+    {
+     "t": " ",
+     "s": "Accessibility"
+    },
+    {
+     "t": " ",
+     "s": "Online safety"
+    },
+    {
+     "t": " ",
+     "s": "Diversity, equity & inclusion"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

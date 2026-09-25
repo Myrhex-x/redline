@@ -3,11 +3,11 @@
  "documents": [
   {
    "doc": "eu-reports",
-   "chars": 10150
+   "chars": 10144
   },
   {
    "doc": "photodna",
-   "chars": 5445
+   "chars": 5405
   },
   {
    "doc": "play-safety",
@@ -18,7 +18,7 @@
    "chars": 214831
   }
  ],
- "totalChars": 233155,
+ "totalChars": 233109,
  "terms": [
   {
    "group": "eu",

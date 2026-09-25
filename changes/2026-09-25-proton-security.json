@@ -1,0 +1,70 @@
+{
+ "id": "2026-09-25-proton-security",
+ "date": "2026-09-25",
+ "slug": "proton",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -63,11 +63,11 @@ Web app (new window)",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Desktop client add-on"
+    },
+    {
+     "t": " ",
+     "s": "Bridge"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Encrypted email Proton Mail VPN Proton VPN (new window) AI assistant Lumo AI Video conferencing Proton Meet Private scheduling Proton Calendar"
+    },
+    {
+     "t": "+",
+     "s": "Encrypted email Proton Mail VPN Proton VPN (new window) Cloud storage Proton Drive Password manager Proton Pass AI assistant Lumo AI"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Cloud storage Proton Drive Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window)"
+    },
+    {
+     "t": "+",
+     "s": "Video conferencing Proton Meet Private scheduling Proton Calendar Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Two-factor authenticator Proton Authenticator"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Password manager Proton Pass Two-factor authenticator Proton Authenticator Hide-my-email aliases SimpleLogin (new window)"
+    },
+    {
+     "t": "+",
+     "s": "Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window) Hide-my-email aliases SimpleLogin (new window)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Company"
+    },
+    {
+     "t": " ",
+     "s": "About us Impact Social media Open source Team Careers We’re hiring Proton Foundation Proton blog"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

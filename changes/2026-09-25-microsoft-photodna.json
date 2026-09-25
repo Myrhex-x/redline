@@ -1,0 +1,91 @@
+{
+ "id": "2026-09-25-microsoft-photodna",
+ "date": "2026-09-25",
+ "slug": "microsoft",
+ "doc": "photodna",
+ "hunks": [
+  {
+   "header": "@@ -204,9 +204,7 @@ Surface Laptop Ultra",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Surface RTX Spark Dev Box"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Copilot for organizations"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Copilot for personal use"
+    },
+    {
+     "t": "+",
+     "s": "Explore Copilot"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Explore Microsoft products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -262,7 +260,7 @@ Microsoft Power Platform",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Microsoft Teams"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Microsoft 365 Copilot"
+    },
+    {
+     "t": "+",
+     "s": "Microsoft Copilot"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Small Business"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

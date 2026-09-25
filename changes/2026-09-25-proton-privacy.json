@@ -1,0 +1,107 @@
+{
+ "id": "2026-09-25-proton-privacy",
+ "date": "2026-09-25",
+ "slug": "proton",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -5,11 +5,11 @@ Discover Proton Discover Proton",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Resources"
+    },
+    {
+     "t": " ",
+     "s": "Pricing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Encrypted email Proton Mail VPN Proton VPN (new window) AI assistant Lumo AI Video conferencing Proton Meet Private scheduling Proton Calendar"
+    },
+    {
+     "t": "+",
+     "s": "Encrypted email Proton Mail VPN Proton VPN (new window) Cloud storage Proton Drive Password manager Proton Pass AI assistant Lumo AI"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Cloud storage Proton Drive Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window)"
+    },
+    {
+     "t": "+",
+     "s": "Video conferencing Proton Meet Private scheduling Proton Calendar Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Two-factor authenticator Proton Authenticator"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Password manager Proton Pass Two-factor authenticator Proton Authenticator Hide-my-email aliases SimpleLogin (new window)"
+    },
+    {
+     "t": "+",
+     "s": "Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window) Hide-my-email aliases SimpleLogin (new window)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover Proton"
+    },
+    {
+     "t": " ",
+     "s": "Personal plans"
+    }
+   ]
+  },
+  {
+   "header": "@@ -18,7 +18,7 @@ Proton",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Choose an internet where your privacy comes first"
+    },
+    {
+     "t": " ",
+     "s": "Create a free account"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Business email Proton Mail Business VPN Proton VPN Business AI assistant Lumo AI Business video conferencing Proton Meet Business calendar Proton Calendar Business password manager Proton Pass Business cloud storage Proton Drive"
+    },
+    {
+     "t": "+",
+     "s": "Business email Proton Mail Business VPN Proton VPN Business cloud storage Proton Drive Business password manager Proton Pass Business AI assistant Lumo AI Business video conferencing Proton Meet Business calendar Proton Calendar"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Business documents Proton Docs Business spreadsheets Proton Sheets"
+    },
+    {
+     "t": " ",
+     "s": "Industries"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -128,7 +128,7 @@ February 2024 - India Intermediary Guidelines Report
 
 Surface Book 3
 Surface Pro
-Microsoft Copilot
+Explore Copilot
 Microsoft 365
 Windows 11 apps
 
@@ -154,7 +154,7 @@ Azure
 Dynamics 365
 Microsoft 365
 Microsoft Advertising
-Microsoft 365 Copilot
+Microsoft Copilot
 Microsoft Teams
 
 Microsoft Developer

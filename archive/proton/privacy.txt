@@ -5,11 +5,11 @@ Discover Proton Discover Proton
 Resources
 Pricing
 
-Encrypted email Proton Mail VPN Proton VPN (new window) AI assistant Lumo AI Video conferencing Proton Meet Private scheduling Proton Calendar
+Encrypted email Proton Mail VPN Proton VPN (new window) Cloud storage Proton Drive Password manager Proton Pass AI assistant Lumo AI
 
-Cloud storage Proton Drive Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window)
+Video conferencing Proton Meet Private scheduling Proton Calendar Collaborative documents Proton Docs Collaborative spreadsheets Proton Sheets Two-factor authenticator Proton Authenticator
 
-Password manager Proton Pass Two-factor authenticator Proton Authenticator Hide-my-email aliases SimpleLogin (new window)
+Bitcoin wallet Proton Wallet Encrypted notes Standard Notes (new window) Hide-my-email aliases SimpleLogin (new window)
 
 Discover Proton
 Personal plans
@@ -18,7 +18,7 @@ Proton
 Choose an internet where your privacy comes first
 Create a free account
 
-Business email Proton Mail Business VPN Proton VPN Business AI assistant Lumo AI Business video conferencing Proton Meet Business calendar Proton Calendar Business password manager Proton Pass Business cloud storage Proton Drive
+Business email Proton Mail Business VPN Proton VPN Business cloud storage Proton Drive Business password manager Proton Pass Business AI assistant Lumo AI Business video conferencing Proton Meet Business calendar Proton Calendar
 
 Business documents Proton Docs Business spreadsheets Proton Sheets
 Industries

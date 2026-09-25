@@ -3,10 +3,10 @@
  "documents": [
   {
    "doc": "chat-control",
-   "chars": 76532
+   "chars": 76921
   }
  ],
- "totalChars": 76532,
+ "totalChars": 76921,
  "terms": [
   {
    "group": "eu",
@@ -44,19 +44,19 @@
    "group": "eu",
    "label": "Chat Control / Chatkontrolle",
    "pattern": "chat[\\s-]?control|chatkontrolle",
-   "count": 167,
+   "count": 168,
    "samples": [
     {
      "doc": "chat-control",
-     "quote": "Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts…"
+     "quote": "fightchatcontrol.eu Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: Engl…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "fightchatcontrol.eu Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts…"
     },
     {
      "doc": "chat-control",
      "quote": "…prache ändern: English Deutsch Welcome Posts and Dossiers Latest posts Latest videos Written questions Chat Control Going Dark group (Archive) Data retention ePrivacy Regulation (Archive) European Digital Identity (Archiv…"
-    },
-    {
-     "doc": "chat-control",
-     "quote": "…ss releases Press photos Press briefings Media reports Get involved Follow me OpenRequest Take action Chat Control: The EU’s CSAM scanner proposal 🇫🇷 French: Traduction du dossier Chat Control 2.0 , stopchatcontrol.fr 🇸\ud83c…"
     }
    ]
   },
@@ -88,7 +88,7 @@
    "samples": [
     {
      "doc": "chat-control",
-     "quote": "Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts Latest videos…"
+     "quote": "fightchatcontrol.eu Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts Latest videos…"
     },
     {
      "doc": "chat-control",
@@ -178,11 +178,11 @@
     },
     {
      "doc": "chat-control",
-     "quote": "…cific suspects with a dangerous “compromise.” They want to allow authorities to issue broad “search plans” to scan “parts of a service.” In practice, this can still result in scanning every group chat or every user in the EU…"
+     "quote": "…ise.” They want to allow authorities to authorize broad “search plans” of communications service providers to scan “parts of a service.” In practice, this can still result in scanning the chats of every user in the EU . This…"
     },
     {
      "doc": "chat-control",
-     "quote": "…authorities to issue broad “search plans” to scan “parts of a service.” In practice, this can still result in scanning every group chat or every user in the EU . This is mass surveillance by another name. Even the Council’s own…"
+     "quote": "…lans” of communications service providers to scan “parts of a service.” In practice, this can still result in scanning the chats of every user in the EU . This is mass surveillance by another name. Our chats could be reported to…"
     }
    ]
   },

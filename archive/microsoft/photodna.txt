@@ -204,9 +204,7 @@ Surface Laptop Ultra
 
 Surface RTX Spark Dev Box
 
-Copilot for organizations
-
-Copilot for personal use
+Explore Copilot
 
 Explore Microsoft products
 
@@ -262,7 +260,7 @@ Microsoft Power Platform
 
 Microsoft Teams
 
-Microsoft 365 Copilot
+Microsoft Copilot
 
 Small Business
 
