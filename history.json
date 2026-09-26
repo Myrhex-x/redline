@@ -1,5 +1,40 @@
 [
  {
+  "id": "2026-09-26-eu-commission-csa-policy",
+  "date": "2026-09-26",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "change",
+  "added": 1,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Calls and Announcements\""
+ },
+ {
+  "id": "2026-09-26-slack-privacy",
+  "date": "2026-09-26",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 319,
+  "removed": 87
+ },
+ {
+  "id": "2026-09-26-slack-security",
+  "date": "2026-09-26",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "security",
+  "docTitle": "Security",
+  "kind": "change",
+  "added": 319,
+  "removed": 87
+ },
+ {
   "id": "2026-09-25-breyer-chat-control",
   "date": "2026-09-25",
   "slug": "breyer",

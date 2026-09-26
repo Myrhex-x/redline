@@ -1,0 +1,42 @@
+{
+ "id": "2026-09-26-eu-commission-csa-policy",
+ "date": "2026-09-26",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -518,6 +518,7 @@ Welcome Package",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Expert Database"
+    },
+    {
+     "t": " ",
+     "s": "Media"
+    },
+    {
+     "t": " ",
+     "s": "PCVE & Strategic Communications"
+    },
+    {
+     "t": "+",
+     "s": "Calls and Announcements"
+    },
+    {
+     "t": " ",
+     "s": "The Root Causes of Violent Extremism - The Basics"
+    },
+    {
+     "t": " ",
+     "s": "Strategic Orientations on a coordinated EU approach to prevention of radicalisation"
+    },
+    {
+     "t": " ",
+     "s": "A Way Out From Violent Extremism"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
