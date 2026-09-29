@@ -1,0 +1,302 @@
+{
+ "id": "2026-09-29-zoom-privacy",
+ "date": "2026-09-29",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -35,23 +35,23 @@ Google Play",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Search"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "English"
+    },
+    {
+     "t": " ",
+     "s": "Deutsch"
+    },
+    {
+     "t": "-",
+     "s": "Français"
+    },
+    {
+     "t": "+",
+     "s": "English"
+    },
+    {
+     "t": " ",
+     "s": "Español"
+    },
+    {
+     "t": "-",
+     "s": "Svenska"
+    },
+    {
+     "t": "+",
+     "s": "Français"
+    },
+    {
+     "t": "+",
+     "s": "Indonesia"
+    },
+    {
+     "t": "+",
+     "s": "Italiano"
+    },
+    {
+     "t": "+",
+     "s": "日本語"
+    },
+    {
+     "t": "+",
+     "s": "한국어"
+    },
+    {
+     "t": " ",
+     "s": "Nederlands"
+    },
+    {
+     "t": "-",
+     "s": "Tiếng Việt"
+    },
+    {
+     "t": "-",
+     "s": "Türkçe"
+    },
+    {
+     "t": "-",
+     "s": "Русский"
+    },
+    {
+     "t": "-",
+     "s": "Português"
+    },
+    {
+     "t": " ",
+     "s": "Polski"
+    },
+    {
+     "t": "-",
+     "s": "한국어"
+    },
+    {
+     "t": "-",
+     "s": "日本語"
+    },
+    {
+     "t": "-",
+     "s": "Italiano"
+    },
+    {
+     "t": "-",
+     "s": "Indonesia"
+    },
+    {
+     "t": "-",
+     "s": "中文（繁體，台灣）"
+    },
+    {
+     "t": "+",
+     "s": "Português"
+    },
+    {
+     "t": "+",
+     "s": "Русский"
+    },
+    {
+     "t": "+",
+     "s": "Svenska"
+    },
+    {
+     "t": "+",
+     "s": "Türkçe"
+    },
+    {
+     "t": "+",
+     "s": "Tiếng Việt"
+    },
+    {
+     "t": " ",
+     "s": "中文（简体，中国）"
+    },
+    {
+     "t": "+",
+     "s": "中文（繁體，台灣）"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Meet"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -129,7 +129,7 @@ Google Play",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Popular Popular"
+    },
+    {
+     "t": " ",
+     "s": "What’s hot, what’s trending, what’s building buzz — the solutions Zoom customers are into right now."
+    },
+    {
+     "t": "-",
+     "s": "My Notes Meetings ZoomMate Rooms Phone Canvas Contact Center CX Insights Bonsai"
+    },
+    {
+     "t": "+",
+     "s": "My Notes Meetings ZoomMate Rooms Phone Canvas Contact Center CX Insights Bonsai Webinar"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom Workplace Zoom Workplace"
+    },
+    {
+     "t": " ",
+     "s": "Collaboration tools in an AI-first work platform. Learn more"
+    }
+   ]
+  },
+  {
+   "header": "@@ -210,7 +210,7 @@ Partner Solutions Find a Partner Become a Partner Partner Portal Partner Learnin",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Select a language"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "English Deutsch Français Español Svenska Nederlands Tiếng Việt Türkçe Русский Português Polski 한국어 日本語 Italiano Indonesia 中文（繁體，台灣） 中文（简体，中国）"
+    },
+    {
+     "t": "+",
+     "s": "Deutsch English Español Français Indonesia Italiano 日本語 한국어 Nederlands Polski Português Русский Svenska Türkçe Tiếng Việt 中文（简体，中国） 中文（繁體，台灣）"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Install on desktop"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -648,7 +648,7 @@ Partners",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Investors"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Press"
+    },
+    {
+     "t": "+",
+     "s": "Press Press"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sustainability & ESG"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -692,7 +692,7 @@ Plans & Pricing",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Request a Demo"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Webinars and Events"
+    },
+    {
+     "t": "+",
+     "s": "Webinars and Events Webinars and Events"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom Experience Center Zoom Experience Center"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

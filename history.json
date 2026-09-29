@@ -1,5 +1,62 @@
 [
  {
+  "id": "2026-09-29-breyer-chat-control",
+  "date": "2026-09-29",
+  "slug": "breyer",
+  "company": "Patrick Breyer (MEP, 2019–2024)",
+  "doc": "chat-control",
+  "docTitle": "Chat Control overview",
+  "kind": "change",
+  "added": 40,
+  "removed": 11
+ },
+ {
+  "id": "2026-09-29-eu-commission-csa-policy",
+  "date": "2026-09-29",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "change",
+  "added": 1,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"EU Academy\""
+ },
+ {
+  "id": "2026-09-29-playstation-privacy",
+  "date": "2026-09-29",
+  "slug": "playstation",
+  "company": "PlayStation (Sony)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy (EU)",
+  "kind": "change",
+  "added": 205,
+  "removed": 141
+ },
+ {
+  "id": "2026-09-29-slack-compliance",
+  "date": "2026-09-29",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
+  "id": "2026-09-29-zoom-privacy",
+  "date": "2026-09-29",
+  "slug": "zoom",
+  "company": "Zoom",
+  "doc": "privacy",
+  "docTitle": "Privacy Statement",
+  "kind": "change",
+  "added": 16,
+  "removed": 16
+ },
+ {
   "id": "2026-09-28-eu-parliament-derogation-procedure",
   "date": "2026-09-28",
   "slug": "eu-parliament",

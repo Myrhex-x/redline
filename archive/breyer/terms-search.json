@@ -3,10 +3,10 @@
  "documents": [
   {
    "doc": "chat-control",
-   "chars": 76921
+   "chars": 79368
   }
  ],
- "totalChars": 76921,
+ "totalChars": 79368,
  "terms": [
   {
    "group": "eu",
@@ -44,7 +44,7 @@
    "group": "eu",
    "label": "Chat Control / Chatkontrolle",
    "pattern": "chat[\\s-]?control|chatkontrolle",
-   "count": 168,
+   "count": 175,
    "samples": [
     {
      "doc": "chat-control",
@@ -84,7 +84,7 @@
    "group": "csam",
    "label": "CSAM / CSAE",
    "pattern": "\\bCSAM\\b|\\bCSAE\\b",
-   "count": 8,
+   "count": 9,
    "samples": [
     {
      "doc": "chat-control",
@@ -96,7 +96,7 @@
     },
     {
      "doc": "chat-control",
-     "quote": "…EU Child Protection Centre to proactively search publicly accessible internet content automatically for known CSAM. This crawling could also be used in the darknet and is thus more effective than private surveillance measure…"
+     "quote": "…service providers (including social media and cloud providers) to scan publicly accessible content for known CSAM. These platforms would be forced to continuously monitor all public uploads (not limited to uploads by users…"
     }
    ]
   },
@@ -170,7 +170,7 @@
    "group": "scan",
    "label": "scan / scanning / gescannt",
    "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
-   "count": 32,
+   "count": 43,
    "samples": [
     {
      "doc": "chat-control",
@@ -178,11 +178,11 @@
     },
     {
      "doc": "chat-control",
-     "quote": "…ise.” They want to allow authorities to authorize broad “search plans” of communications service providers to scan “parts of a service.” In practice, this can still result in scanning the chats of every user in the EU . This…"
+     "quote": "…orities (not only courts) can order hosting service providers (including social media and cloud providers) to scan publicly accessible content for known CSAM. These platforms would be forced to continuously monitor all publi…"
     },
     {
      "doc": "chat-control",
-     "quote": "…lans” of communications service providers to scan “parts of a service.” In practice, this can still result in scanning the chats of every user in the EU . This is mass surveillance by another name. Our chats could be reported to…"
+     "quote": "…ced to continuously monitor all public uploads (not limited to uploads by users suspected of a crime). Public scanning orders could be issued to any hosting provider regardless of size. Permanent “voluntary” Chat Control (own-i…"
     }
    ]
   },

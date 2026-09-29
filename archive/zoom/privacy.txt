@@ -35,23 +35,23 @@ Google Play
 
 Search
 
-English
 Deutsch
-Français
+English
 Español
-Svenska
-Nederlands
-Tiếng Việt
-Türkçe
-Русский
-Português
-Polski
-한국어
-日本語
-Italiano
+Français
 Indonesia
-中文（繁體，台灣）
+Italiano
+日本語
+한국어
+Nederlands
+Polski
+Português
+Русский
+Svenska
+Türkçe
+Tiếng Việt
 中文（简体，中国）
+中文（繁體，台灣）
 
 Meet
 
@@ -129,7 +129,7 @@ Google Play
 
 Popular Popular
 What’s hot, what’s trending, what’s building buzz — the solutions Zoom customers are into right now.
-My Notes Meetings ZoomMate Rooms Phone Canvas Contact Center CX Insights Bonsai
+My Notes Meetings ZoomMate Rooms Phone Canvas Contact Center CX Insights Bonsai Webinar
 
 Zoom Workplace Zoom Workplace
 Collaboration tools in an AI-first work platform. Learn more
@@ -210,7 +210,7 @@ Partner Solutions Find a Partner Become a Partner Partner Portal Partner Learnin
 
 Select a language
 
-English Deutsch Français Español Svenska Nederlands Tiếng Việt Türkçe Русский Português Polski 한국어 日本語 Italiano Indonesia 中文（繁體，台灣） 中文（简体，中国）
+Deutsch English Español Français Indonesia Italiano 日本語 한국어 Nederlands Polski Português Русский Svenska Türkçe Tiếng Việt 中文（简体，中国） 中文（繁體，台灣）
 
 Install on desktop
 
@@ -648,7 +648,7 @@ Partners
 
 Investors
 
-Press
+Press Press
 
 Sustainability & ESG
 
@@ -692,7 +692,7 @@ Plans & Pricing
 
 Request a Demo
 
-Webinars and Events
+Webinars and Events Webinars and Events
 
 Zoom Experience Center Zoom Experience Center
 

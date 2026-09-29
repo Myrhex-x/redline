@@ -143,19 +143,49 @@ Take action to stop Chat Control
 
 The final content of the Chat Control 2.0 regulation is currently being negotiated behind closed doors. A potentially final and decisive trilogue will take place on Tuesday, 29 September. EU negotiators are under immense pressure to force a “dirty deal” that would permanently normalize mass surveillance across Europe. Read the details in leaked documents .
 
+What is on the negotiating table
+
+This is what Council (EU governments) is proposing in the trilogue:
+
+Detection orders in publicly accessible content
+
+Administrative authorities (not only courts) can order hosting service providers (including social media and cloud providers) to scan publicly accessible content for known CSAM. These platforms would be forced to continuously monitor all public uploads (not limited to uploads by users suspected of a crime). Public scanning orders could be issued to any hosting provider regardless of size.
+
+Permanent “voluntary” Chat Control (own-initiative searches by providers in non-public content)
+
+Providers may choose to scan non-public content (including messenger chats and non-public hosted content).
+
+Fake “targeted” scanning: Allows providers to scan large parts or their service or chat groups without limiting the scanning to individual criminal suspects.
+
+Automatic “silent approval”: Providers can submit a scanning (“search”) plan and start searching private chats and content automatically unless an authority actively steps in to veto it.
+
+Permanent voluntary Chat Control: The proposal would make permanent what the Chat Control 1.0 interim regulation allows only until 2028.
+
+“Voluntary” scanning made mandatory: The proposal sneaks voluntary searches into enforceable “risk mitigation” rules, meaning platforms could be forced to scan private chats just to avoid heavy regulatory fines.
+
+Permanent “mandatory” Chat Control (detection orders in non-public content)
+
+Administrative authorities can order communications and hosting service providers to scan non-public content (including messenger chats and e-mails).
+
+Mass surveillance without a specific suspect: Weak legal thresholds so that orders to intercept private messages are not limited to users suspected of a crime.
+
+AI-based classification: Extends chat detection beyond known illegal images to AI-powered image and text analysis for “suspected content”, risking massive false positives on innocent private conversations.
+
+No court order required: Grants non-judicial administrative agencies the power to order the interception of private communications without approval from a court.
+
 Exposing the “Fake Targeting” Trap
 
-EU governments are currently trying to replace the European Parliament’s demand for targeted warrants against specific suspects with a dangerous “compromise.” They want to allow authorities to authorize broad “search plans” of communications service providers to scan “parts of a service.” In practice, this can still result in scanning the chats of every user in the EU . This is mass surveillance by another name. Our chats could be reported to police if providers’ unreliable algorithms – including “artificial intelligence” – believe they have found classified images/videos in them, or automatically evaluate our photos and chat history as ‘suspicious.’
+EU governments are thus trying to replace the European Parliament’s demand for targeted court warrants against specific suspects with allowing administrative authorities to authorize broad “search plans” of communications service providers to scan “parts” of their service. In practice, this would still result in scanning the chats of every user in the EU . This is mass surveillance by another name. Our chats could be reported to police if providers’ unreliable algorithms – including “artificial intelligence” – believe they have found classified images/videos in them, or automatically evaluate our photos and chat history as ‘suspicious.’
 
 Even the Council’s own Legal Service has warned that this is likely illegal. In a leaked internal analysis (par. 47), they admitted that scanning entire “parts of a service” is “highly probable” to be considered “general and indiscriminate” and would be struck down by the courts. Pushing this deal anyway is a betrayal of the rule of law and a false promise to victims, as the law would eventually collapse in court.
 
 The “Voluntary” Loophole (Chat Control 1.0)
 
-There is a severe risk that negotiators could alternatively agree to a permanent Regulation 2.0 which allows the failed interim “Chat Control 1.0” regulation (voluntary mass scanning) to continue to exist as a parallel loophole. This system is a proven disaster: German police data shows that over half of investigations target minors themselves for consensual sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully phased out and replaced.
+If the European Parliament refuses indiscriminate Chat Control powers, Council will likely propose to maintain the interim “Chat Control 1.0” regulation, which allows for voluntary mass scanning until 2028. While the mandate of the European Parliament is to replace indiscriminate Chat Control with detection court orders targeting specific suspects, there is a severe risk that negotiators could instead compromise on keeping “Chat Control 1.0” as a parallel loophole. This system is a proven disaster : German police data shows that over half of investigations target minors themselves for consensual sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully phased out and replaced.
 
 Take action
 
-As we enter the final week of negotiations, we must expand the resistance:
+As we enter the final round of negotiations, we must expand the resistance:
 
 Contact your MEPs immediately via fightchatcontrol.eu ! Use the tool below to send an email to your representatives. Tell them to stand by the Parliament’s mandate: Judicial warrants for specific suspects only. No broad “search plans.” No loopholes for voluntary mass scanning.
 
@@ -1144,6 +1174,15 @@ Council of European Professional Informatics Societies (CEPIS): Europe has a rig
 
 Related topics
 
+28. September 2026
+
+EU Chat Control: Governments push “Search Plans” to permanently legalise chat mass scanning in Final Trilogue Showdown
+
+European Parliament
+Freedom, democracy and transparency
+
+0
+
 24. July 2026
 
 EU governments adopt return of Chat Control 1.0 – Breyer: “The true losers are our children”
@@ -1158,16 +1197,6 @@ EU Parliament greenlights Chat Control 1.0 – Breyer: “Our children lose out�
 
 European Parliament
 Freedom, democracy and transparency
-
-0
-
-06. July 2026
-
-Procedural Trick Before Summer Recess Pushes EU Parliament Towards Capitulation on “Chat Control”
-
-European Parliament
-Freedom, democracy and transparency
-Press releases
 
 0
 

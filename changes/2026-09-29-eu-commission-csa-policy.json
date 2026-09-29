@@ -1,0 +1,42 @@
+{
+ "id": "2026-09-29-eu-commission-csa-policy",
+ "date": "2026-09-29",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -514,6 +514,7 @@ Knowledge Transfer",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Inspiring Practices Repository"
+    },
+    {
+     "t": " ",
+     "s": "Prev. Inspiring Practices Repository"
+    },
+    {
+     "t": " ",
+     "s": "Thematic Panels"
+    },
+    {
+     "t": "+",
+     "s": "EU Academy"
+    },
+    {
+     "t": " ",
+     "s": "Welcome Package"
+    },
+    {
+     "t": " ",
+     "s": "Expert Database"
+    },
+    {
+     "t": " ",
+     "s": "Media"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

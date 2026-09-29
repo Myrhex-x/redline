@@ -1,0 +1,375 @@
+{
+ "id": "2026-09-29-breyer-chat-control",
+ "date": "2026-09-29",
+ "slug": "breyer",
+ "doc": "chat-control",
+ "hunks": [
+  {
+   "header": "@@ -143,19 +143,49 @@ Take action to stop Chat Control",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "The final content of the Chat Control 2.0 regulation is currently being negotiated behind closed doors. A potentially final and decisive trilogue will take place on Tuesday, 29 September. EU negotiators are under immense pressure to force a “dirty deal” that would permanently normalize mass surveillance across Europe. Read the details in leaked documents ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "What is on the negotiating table"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "This is what Council (EU governments) is proposing in the trilogue:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Detection orders in publicly accessible content"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Administrative authorities (not only courts) can order hosting service providers (including social media and cloud providers) to scan publicly accessible content for known CSAM. These platforms would be forced to continuously monitor all public uploads (not limited to uploads by users suspected of a crime). Public scanning orders could be issued to any hosting provider regardless of size."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Permanent “voluntary” Chat Control (own-initiative searches by providers in non-public content)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Providers may choose to scan non-public content (including messenger chats and non-public hosted content)."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Fake “targeted” scanning: Allows providers to scan large parts or their service or chat groups without limiting the scanning to individual criminal suspects."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Automatic “silent approval”: Providers can submit a scanning (“search”) plan and start searching private chats and content automatically unless an authority actively steps in to veto it."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Permanent voluntary Chat Control: The proposal would make permanent what the Chat Control 1.0 interim regulation allows only until 2028."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "“Voluntary” scanning made mandatory: The proposal sneaks voluntary searches into enforceable “risk mitigation” rules, meaning platforms could be forced to scan private chats just to avoid heavy regulatory fines."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Permanent “mandatory” Chat Control (detection orders in non-public content)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Administrative authorities can order communications and hosting service providers to scan non-public content (including messenger chats and e-mails)."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Mass surveillance without a specific suspect: Weak legal thresholds so that orders to intercept private messages are not limited to users suspected of a crime."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "AI-based classification: Extends chat detection beyond known illegal images to AI-powered image and text analysis for “suspected content”, risking massive false positives on innocent private conversations."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "No court order required: Grants non-judicial administrative agencies the power to order the interception of private communications without approval from a court."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Exposing the “Fake Targeting” Trap"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "EU governments are currently trying to replace the European Parliament’s demand for targeted warrants against specific suspects with a dangerous “compromise.” They want to allow authorities to authorize broad “search plans” of communications service providers to scan “parts of a service.” In practice, this can still result in scanning the chats of every user in the EU . This is mass surveillance by another name. Our chats could be reported to police if providers’ unreliable algorithms – including “artificial intelligence” – believe they have found classified images/videos in them, or automatically evaluate our photos and chat history as ‘suspicious.’"
+    },
+    {
+     "t": "+",
+     "s": "EU governments are thus trying to replace the European Parliament’s demand for targeted court warrants against specific suspects with allowing administrative authorities to authorize broad “search plans” of communications service providers to scan “parts” of their service. In practice, this would still result in scanning the chats of every user in the EU . This is mass surveillance by another name. Our chats could be reported to police if providers’ unreliable algorithms – including “artificial intelligence” – believe they have found classified images/videos in them, or automatically evaluate our photos and chat history as ‘suspicious.’"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Even the Council’s own Legal Service has warned that this is likely illegal. In a leaked internal analysis (par. 47), they admitted that scanning entire “parts of a service” is “highly probable” to be considered “general and indiscriminate” and would be struck down by the courts. Pushing this deal anyway is a betrayal of the rule of law and a false promise to victims, as the law would eventually collapse in court."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "The “Voluntary” Loophole (Chat Control 1.0)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "There is a severe risk that negotiators could alternatively agree to a permanent Regulation 2.0 which allows the failed interim “Chat Control 1.0” regulation (voluntary mass scanning) to continue to exist as a parallel loophole. This system is a proven disaster: German police data shows that over half of investigations target minors themselves for consensual sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully phased out and replaced."
+    },
+    {
+     "t": "+",
+     "s": "If the European Parliament refuses indiscriminate Chat Control powers, Council will likely propose to maintain the interim “Chat Control 1.0” regulation, which allows for voluntary mass scanning until 2028. While the mandate of the European Parliament is to replace indiscriminate Chat Control with detection court orders targeting specific suspects, there is a severe risk that negotiators could instead compromise on keeping “Chat Control 1.0” as a parallel loophole. This system is a proven disaster : German police data shows that over half of investigations target minors themselves for consensual sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully phased out and replaced."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Take action"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "As we enter the final week of negotiations, we must expand the resistance:"
+    },
+    {
+     "t": "+",
+     "s": "As we enter the final round of negotiations, we must expand the resistance:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Contact your MEPs immediately via fightchatcontrol.eu ! Use the tool below to send an email to your representatives. Tell them to stand by the Parliament’s mandate: Judicial warrants for specific suspects only. No broad “search plans.” No loopholes for voluntary mass scanning."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -1144,30 +1174,29 @@ Council of European Professional Informatics Societies (CEPIS): Europe has a rig",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Related topics"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "24. July 2026"
+    },
+    {
+     "t": "+",
+     "s": "28. September 2026"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "EU governments adopt return of Chat Control 1.0 – Breyer: “The true losers are our children”"
+    },
+    {
+     "t": "+",
+     "s": "EU Chat Control: Governments push “Search Plans” to permanently legalise chat mass scanning in Final Trilogue Showdown"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "European Parliament"
+    },
+    {
+     "t": " ",
+     "s": "Freedom, democracy and transparency"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "0"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "09. July 2026"
+    },
+    {
+     "t": "+",
+     "s": "24. July 2026"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "EU Parliament greenlights Chat Control 1.0 – Breyer: “Our children lose out”"
+    },
+    {
+     "t": "+",
+     "s": "EU governments adopt return of Chat Control 1.0 – Breyer: “The true losers are our children”"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "European Parliament"
+    },
+    {
+     "t": " ",
+     "s": "Freedom, democracy and transparency"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "0"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "06. July 2026"
+    },
+    {
+     "t": "+",
+     "s": "09. July 2026"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Procedural Trick Before Summer Recess Pushes EU Parliament Towards Capitulation on “Chat Control”"
+    },
+    {
+     "t": "+",
+     "s": "EU Parliament greenlights Chat Control 1.0 – Breyer: “Our children lose out”"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "European Parliament"
+    },
+    {
+     "t": " ",
+     "s": "Freedom, democracy and transparency"
+    },
+    {
+     "t": "-",
+     "s": "Press releases"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "0"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

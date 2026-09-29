@@ -7,10 +7,10 @@
   },
   {
    "doc": "privacy",
-   "chars": 30159
+   "chars": 36059
   }
  ],
- "totalChars": 32742,
+ "totalChars": 38642,
  "terms": [
   {
    "group": "eu",
@@ -100,8 +100,13 @@
    "group": "scan",
    "label": "classifier / machine learning detection",
    "pattern": "classifier|machine learning (?:model|detection)",
-   "count": 0,
-   "samples": []
+   "count": 1,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…erfaces, game performance, or new technologies, including developing and training artificial intelligence and machine learning models. In addition, we may use information that does not identify you individually (such as de-identified or aggr…"
+    }
+   ]
   },
   {
    "group": "scan",
