@@ -1,0 +1,727 @@
+{
+ "id": "2026-09-30-eu-parliament-derogation-procedure",
+ "date": "2026-09-30",
+ "slug": "eu-parliament",
+ "doc": "derogation-procedure",
+ "hunks": [
+  {
+   "header": "@@ -9,7 +9,11 @@ Access to page content (press \"Enter\")",
+   "lines": [
+    {
+     "t": " ",
+     "s": "03/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "03/07/2026"
+    },
+    {
+     "t": " ",
+     "s": "05/02/2026"
+    },
+    {
+     "t": "+",
+     "s": "06/03/2026"
+    },
+    {
+     "t": "+",
+     "s": "06/05/2026"
+    },
+    {
+     "t": "+",
+     "s": "06/05/2026"
+    },
+    {
+     "t": " ",
+     "s": "06/07/2026"
+    },
+    {
+     "t": "+",
+     "s": "08/05/2026"
+    },
+    {
+     "t": " ",
+     "s": "09/07/2026"
+    },
+    {
+     "t": " ",
+     "s": "09/07/2026"
+    },
+    {
+     "t": " ",
+     "s": "1.20.09 Protection of privacy and data protection"
+    }
+   ]
+  },
+  {
+   "header": "@@ -20,8 +24,12 @@ Access to page content (press \"Enter\")",
+   "lines": [
+    {
+     "t": " ",
+     "s": "11/03/2026"
+    },
+    {
+     "t": " ",
+     "s": "11261/1/2026"
+    },
+    {
+     "t": " ",
+     "s": "11261/1/2026"
+    },
+    {
+     "t": "+",
+     "s": "12/06/2026"
+    },
+    {
+     "t": " ",
+     "s": "15/01/2026"
+    },
+    {
+     "t": " ",
+     "s": "15/07/2026"
+    },
+    {
+     "t": "+",
+     "s": "17/02/2026"
+    },
+    {
+     "t": "+",
+     "s": "17/03/2026"
+    },
+    {
+     "t": "+",
+     "s": "18/02/2026"
+    },
+    {
+     "t": " ",
+     "s": "19/12/2025"
+    },
+    {
+     "t": " ",
+     "s": "19/12/2025"
+    },
+    {
+     "t": " ",
+     "s": "2020/0259(COD)"
+    }
+   ]
+  },
+  {
+   "header": "@@ -64,6 +72,7 @@ Basic information",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Basic information"
+    },
+    {
+     "t": " ",
+     "s": "BRUNNER Magnus"
+    },
+    {
+     "t": " ",
+     "s": "CES0083/2026"
+    },
+    {
+     "t": "+",
+     "s": "Chaos Computer Club e.V."
+    },
+    {
+     "t": " ",
+     "s": "Civil Liberties, Justice and Home Affairs"
+    },
+    {
+     "t": " ",
+     "s": "Civil Liberties, Justice and Home Affairs"
+    },
+    {
+     "t": " ",
+     "s": "COD - Ordinary legislative procedure (ex-codecision procedure)"
+    }
+   ]
+  },
+  {
+   "header": "@@ -78,6 +87,7 @@ Commission DG",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Commission opinion on Parliament's position at 2nd reading"
+    },
+    {
+     "t": " ",
+     "s": "Commissioner"
+    },
+    {
+     "t": " ",
+     "s": "Committee"
+    },
+    {
+     "t": "+",
+     "s": "Committee"
+    },
+    {
+     "t": " ",
+     "s": "Committee dossier"
+    },
+    {
+     "t": " ",
+     "s": "Committee draft report"
+    },
+    {
+     "t": " ",
+     "s": "Committee referral announced in Parliament, 1st reading"
+    }
+   ]
+  },
+  {
+   "header": "@@ -94,6 +104,7 @@ Contact us",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Contracts and Grants"
+    },
+    {
+     "t": " ",
+     "s": "Contribution"
+    },
+    {
+     "t": " ",
+     "s": "Council of the EU"
+    },
+    {
+     "t": "+",
+     "s": "Council of the EU"
+    },
+    {
+     "t": " ",
+     "s": "Council of the European Union"
+    },
+    {
+     "t": " ",
+     "s": "Council of the European Union"
+    },
+    {
+     "t": " ",
+     "s": "Council position"
+    }
+   ]
+  },
+  {
+   "header": "@@ -107,6 +118,7 @@ Date",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Date"
+    },
+    {
+     "t": " ",
+     "s": "Date"
+    },
+    {
+     "t": " ",
+     "s": "Date"
+    },
+    {
+     "t": "+",
+     "s": "Date"
+    },
+    {
+     "t": " ",
+     "s": "Decision by Parliament, 1st reading"
+    },
+    {
+     "t": " ",
+     "s": "Decision by Parliament, 1st reading"
+    },
+    {
+     "t": " ",
+     "s": "Decision by Parliament, 2nd reading"
+    }
+   ]
+  },
+  {
+   "header": "@@ -128,6 +140,7 @@ Documentation gateway",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Documentation gateway"
+    },
+    {
+     "t": " ",
+     "s": "Documentation gateway"
+    },
+    {
+     "t": " ",
+     "s": "Documents"
+    },
+    {
+     "t": "+",
+     "s": "DOT Europe"
+    },
+    {
+     "t": " ",
+     "s": "Draft final act"
+    },
+    {
+     "t": " ",
+     "s": "Economic and Social Committee: opinion, report"
+    },
+    {
+     "t": " ",
+     "s": "EESC"
+    }
+   ]
+  },
+  {
+   "header": "@@ -170,19 +183,26 @@ Former committee responsible",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Former rapporteur"
+    },
+    {
+     "t": " ",
+     "s": "FR - français"
+    },
+    {
+     "t": " ",
+     "s": "Full procedure"
+    },
+    {
+     "t": "+",
+     "s": "German Permanent Representation to the EU"
+    },
+    {
+     "t": " ",
+     "s": "Home"
+    },
+    {
+     "t": " ",
+     "s": "Home"
+    },
+    {
+     "t": " ",
+     "s": "Home"
+    },
+    {
+     "t": " ",
+     "s": "Home"
+    },
+    {
+     "t": " ",
+     "s": "Instagram"
+    },
+    {
+     "t": " ",
+     "s": "Institution/body"
+    },
+    {
+     "t": "+",
+     "s": "Interest representatives"
+    },
+    {
+     "t": "+",
+     "s": "Internet Watch Foundation"
+    },
+    {
+     "t": "+",
+     "s": "Internet Watch Foundation"
+    },
+    {
+     "t": " ",
+     "s": "IT_CHAMBER"
+    },
+    {
+     "t": "+",
+     "s": "JOVEVA Irena"
+    },
+    {
+     "t": "+",
+     "s": "JOVEVA Irena"
+    },
+    {
+     "t": " ",
+     "s": "Key events"
+    },
+    {
+     "t": " ",
+     "s": "Key events"
+    },
+    {
+     "t": " ",
+     "s": "Key events"
+    },
+    {
+     "t": " ",
+     "s": "Key players"
+    },
+    {
+     "t": " ",
+     "s": "Key players"
+    },
+    {
+     "t": " ",
+     "s": "Key players"
+    },
+    {
+     "t": "+",
+     "s": "Landtag Niedersachsen"
+    },
+    {
+     "t": " ",
+     "s": "Legal basis"
+    },
+    {
+     "t": " ",
+     "s": "Legal notice"
+    },
+    {
+     "t": " ",
+     "s": "Legislation"
+    }
+   ]
+  },
+  {
+   "header": "@@ -198,12 +218,21 @@ Legislative train",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Liaison offices"
+    },
+    {
+     "t": " ",
+     "s": "LIBE"
+    },
+    {
+     "t": " ",
+     "s": "LIBE"
+    },
+    {
+     "t": "+",
+     "s": "LIBE"
+    },
+    {
+     "t": "+",
+     "s": "LIBE"
+    },
+    {
+     "t": "+",
+     "s": "LIBE"
+    },
+    {
+     "t": "+",
+     "s": "LIBE"
+    },
+    {
+     "t": "+",
+     "s": "LIBE"
+    },
+    {
+     "t": "+",
+     "s": "LIBE"
+    },
+    {
+     "t": "+",
+     "s": "LIBE"
+    },
+    {
+     "t": "+",
+     "s": "LIBE"
+    },
+    {
+     "t": " ",
+     "s": "LIBE/10/06314"
+    },
+    {
+     "t": " ",
+     "s": "LinkedIn"
+    },
+    {
+     "t": " ",
+     "s": "LinkedIn"
+    },
+    {
+     "t": " ",
+     "s": "Mandatory consultation of other institutions"
+    },
+    {
+     "t": " ",
+     "s": "Matter referred back to the committee responsible for interinstitutional negotiations"
+    },
+    {
+     "t": " ",
+     "s": "Meetings"
+    },
+    {
+     "t": "+",
+     "s": "Meetings with interest representatives published in line with the Rules of Procedure"
+    },
+    {
+     "t": " ",
+     "s": "Menu"
+    },
+    {
+     "t": " ",
+     "s": "MEPs"
+    },
+    {
+     "t": " ",
+     "s": "MEPs"
+    }
+   ]
+  },
+  {
+   "header": "@@ -211,6 +240,7 @@ MEPs",
+   "lines": [
+    {
+     "t": " ",
+     "s": "MEPs"
+    },
+    {
+     "t": " ",
+     "s": "Migration and Home Affairs"
+    },
+    {
+     "t": " ",
+     "s": "Multimedia Centre"
+    },
+    {
+     "t": "+",
+     "s": "Name"
+    },
+    {
+     "t": " ",
+     "s": "National parliaments"
+    },
+    {
+     "t": " ",
+     "s": "News"
+    },
+    {
+     "t": " ",
+     "s": "News"
+    }
+   ]
+  },
+  {
+   "header": "@@ -224,6 +254,7 @@ Parliament register",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Parliament/Chamber"
+    },
+    {
+     "t": " ",
+     "s": "PE784.310"
+    },
+    {
+     "t": " ",
+     "s": "PE784.377"
+    },
+    {
+     "t": "+",
+     "s": "Permanent Representation of Cyprus to the EU"
+    },
+    {
+     "t": " ",
+     "s": "Pinterest"
+    },
+    {
+     "t": " ",
+     "s": "Please fill in this field to find a procedure"
+    },
+    {
+     "t": " ",
+     "s": "Please go to Documentation gateway for any follow-up documents."
+    }
+   ]
+  },
+  {
+   "header": "@@ -244,6 +275,13 @@ Procedure subtype",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Procedure type"
+    },
+    {
+     "t": " ",
+     "s": "Questions and declarations"
+    },
+    {
+     "t": " ",
+     "s": "Rapporteur"
+    },
+    {
+     "t": "+",
+     "s": "Rapporteur"
+    },
+    {
+     "t": "+",
+     "s": "Rapporteur"
+    },
+    {
+     "t": "+",
+     "s": "Rapporteur"
+    },
+    {
+     "t": "+",
+     "s": "Rapporteur"
+    },
+    {
+     "t": "+",
+     "s": "Rapporteur"
+    },
+    {
+     "t": "+",
+     "s": "Rapporteur"
+    },
+    {
+     "t": "+",
+     "s": "Rapporteurs, Shadow Rapporteurs and Committee Chairs"
+    },
+    {
+     "t": " ",
+     "s": "Reddit"
+    },
+    {
+     "t": " ",
+     "s": "Reference"
+    },
+    {
+     "t": " ",
+     "s": "Reference"
+    }
+   ]
+  },
+  {
+   "header": "@@ -257,12 +295,21 @@ Regulation",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Regulation 2026/1881"
+    },
+    {
+     "t": " ",
+     "s": "Results of vote in Parliament"
+    },
+    {
+     "t": " ",
+     "s": "Results of vote in Parliament"
+    },
+    {
+     "t": "+",
+     "s": "Role"
+    },
+    {
+     "t": " ",
+     "s": "Rules of Procedure EP 170-p6"
+    },
+    {
+     "t": " ",
+     "s": "Search"
+    },
+    {
+     "t": " ",
+     "s": "Search"
+    },
+    {
+     "t": " ",
+     "s": "Search"
+    },
+    {
+     "t": " ",
+     "s": "Secretariat-general"
+    },
+    {
+     "t": "+",
+     "s": "Shadow rapporteur"
+    },
+    {
+     "t": "+",
+     "s": "Shadow rapporteur"
+    },
+    {
+     "t": " ",
+     "s": "Share this page"
+    },
+    {
+     "t": "+",
+     "s": "SIPPEL Birgit"
+    },
+    {
+     "t": "+",
+     "s": "SIPPEL Birgit"
+    },
+    {
+     "t": "+",
+     "s": "SIPPEL Birgit"
+    },
+    {
+     "t": "+",
+     "s": "SIPPEL Birgit"
+    },
+    {
+     "t": "+",
+     "s": "SIPPEL Birgit"
+    },
+    {
+     "t": "+",
+     "s": "SIPPEL Birgit"
+    },
+    {
+     "t": " ",
+     "s": "SIPPEL Birgit (S&D)"
+    },
+    {
+     "t": " ",
+     "s": "Sitemap"
+    },
+    {
+     "t": " ",
+     "s": "Source"
+    }
+   ]
+  },
+  {
+   "header": "@@ -302,6 +349,9 @@ Tools",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Topics"
+    },
+    {
+     "t": " ",
+     "s": "Topics"
+    },
+    {
+     "t": " ",
+     "s": "Topics"
+    },
+    {
+     "t": "+",
+     "s": "Transparency"
+    },
+    {
+     "t": "+",
+     "s": "Transparency"
+    },
+    {
+     "t": "+",
+     "s": "Transparency"
+    },
+    {
+     "t": " ",
+     "s": "Treaty on the Functioning of the European Union TFEU 016-p2"
+    },
+    {
+     "t": " ",
+     "s": "Treaty on the Functioning of the European Union TFEU 114-p1"
+    },
+    {
+     "t": " ",
+     "s": "Treaty on the Functioning of the European Union TFEU 294-p7-ac"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

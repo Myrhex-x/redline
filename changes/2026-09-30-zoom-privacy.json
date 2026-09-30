@@ -1,0 +1,46 @@
+{
+ "id": "2026-09-30-zoom-privacy",
+ "date": "2026-09-30",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -129,7 +129,7 @@ Google Play",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Popular Popular"
+    },
+    {
+     "t": " ",
+     "s": "What’s hot, what’s trending, what’s building buzz — the solutions Zoom customers are into right now."
+    },
+    {
+     "t": "-",
+     "s": "My Notes Meetings ZoomMate Rooms Phone Canvas Contact Center CX Insights Bonsai Webinar"
+    },
+    {
+     "t": "+",
+     "s": "My Notes Meetings ZoomMate Rooms Phone Canvas Contact Center CX Insights Bonsai Webinars & Events"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom Workplace Zoom Workplace"
+    },
+    {
+     "t": " ",
+     "s": "Collaboration tools in an AI-first work platform. Learn more"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

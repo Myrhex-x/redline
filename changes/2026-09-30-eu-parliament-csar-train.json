@@ -1,0 +1,46 @@
+{
+ "id": "2026-09-30-eu-parliament-csar-train",
+ "date": "2026-09-30",
+ "slug": "eu-parliament",
+ "doc": "csar-train",
+ "hunks": [
+  {
+   "header": "@@ -145,7 +145,7 @@ PPE",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "PP"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "LIBE JURI LIBE JURI PECH"
+    },
+    {
+     "t": "+",
+     "s": "LIBE JURI PECH"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "See profile on Europarl"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

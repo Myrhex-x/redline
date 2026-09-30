@@ -9,7 +9,11 @@ Access to page content (press "Enter")
 03/03/2026
 03/07/2026
 05/02/2026
+06/03/2026
+06/05/2026
+06/05/2026
 06/07/2026
+08/05/2026
 09/07/2026
 09/07/2026
 1.20.09 Protection of privacy and data protection
@@ -20,8 +24,12 @@ Access to page content (press "Enter")
 11/03/2026
 11261/1/2026
 11261/1/2026
+12/06/2026
 15/01/2026
 15/07/2026
+17/02/2026
+17/03/2026
+18/02/2026
 19/12/2025
 19/12/2025
 2020/0259(COD)
@@ -64,6 +72,7 @@ Basic information
 Basic information
 BRUNNER Magnus
 CES0083/2026
+Chaos Computer Club e.V.
 Civil Liberties, Justice and Home Affairs
 Civil Liberties, Justice and Home Affairs
 COD - Ordinary legislative procedure (ex-codecision procedure)
@@ -77,6 +86,7 @@ Commission communication on Council's position
 Commission DG
 Commission opinion on Parliament's position at 2nd reading
 Commissioner
+Committee
 Committee
 Committee dossier
 Committee draft report
@@ -94,12 +104,14 @@ Contact us
 Contracts and Grants
 Contribution
 Council of the EU
+Council of the EU
 Council of the European Union
 Council of the European Union
 Council position
 Council position published
 Council register
 Data Protection Notice
+Date
 Date
 Date
 Date
@@ -128,6 +140,7 @@ Documentation gateway
 Documentation gateway
 Documentation gateway
 Documents
+DOT Europe
 Draft final act
 Economic and Social Committee: opinion, report
 EESC
@@ -170,19 +183,26 @@ Former committee responsible
 Former rapporteur
 FR - français
 Full procedure
+German Permanent Representation to the EU
 Home
 Home
 Home
 Home
 Instagram
 Institution/body
+Interest representatives
+Internet Watch Foundation
+Internet Watch Foundation
 IT_CHAMBER
+JOVEVA Irena
+JOVEVA Irena
 Key events
 Key events
 Key events
 Key players
 Key players
 Key players
+Landtag Niedersachsen
 Legal basis
 Legal notice
 Legislation
@@ -198,12 +218,21 @@ Legislative train
 Liaison offices
 LIBE
 LIBE
+LIBE
+LIBE
+LIBE
+LIBE
+LIBE
+LIBE
+LIBE
+LIBE
 LIBE/10/06314
 LinkedIn
 LinkedIn
 Mandatory consultation of other institutions
 Matter referred back to the committee responsible for interinstitutional negotiations
 Meetings
+Meetings with interest representatives published in line with the Rules of Procedure
 Menu
 MEPs
 MEPs
@@ -211,6 +240,7 @@ MEPs
 MEPs
 Migration and Home Affairs
 Multimedia Centre
+Name
 National parliaments
 News
 News
@@ -224,6 +254,7 @@ Parliament register
 Parliament/Chamber
 PE784.310
 PE784.377
+Permanent Representation of Cyprus to the EU
 Pinterest
 Please fill in this field to find a procedure
 Please go to Documentation gateway for any follow-up documents.
@@ -244,6 +275,13 @@ Procedure subtype
 Procedure type
 Questions and declarations
 Rapporteur
+Rapporteur
+Rapporteur
+Rapporteur
+Rapporteur
+Rapporteur
+Rapporteur
+Rapporteurs, Shadow Rapporteurs and Committee Chairs
 Reddit
 Reference
 Reference
@@ -257,12 +295,21 @@ Regulation
 Regulation 2026/1881
 Results of vote in Parliament
 Results of vote in Parliament
+Role
 Rules of Procedure EP 170-p6
 Search
 Search
 Search
 Secretariat-general
+Shadow rapporteur
+Shadow rapporteur
 Share this page
+SIPPEL Birgit
+SIPPEL Birgit
+SIPPEL Birgit
+SIPPEL Birgit
+SIPPEL Birgit
+SIPPEL Birgit
 SIPPEL Birgit (S&D)
 Sitemap
 Source
@@ -302,6 +349,9 @@ Tools
 Topics
 Topics
 Topics
+Transparency
+Transparency
+Transparency
 Treaty on the Functioning of the European Union TFEU 016-p2
 Treaty on the Functioning of the European Union TFEU 114-p1
 Treaty on the Functioning of the European Union TFEU 294-p7-ac

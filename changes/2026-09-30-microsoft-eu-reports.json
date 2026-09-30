@@ -1,0 +1,42 @@
+{
+ "id": "2026-09-30-microsoft-eu-reports",
+ "date": "2026-09-30",
+ "slug": "microsoft",
+ "doc": "eu-reports",
+ "hunks": [
+  {
+   "header": "@@ -91,6 +91,7 @@ CY2026 H1 Brazil ECA Digital Transparency Report",
+   "lines": [
+    {
+     "t": " ",
+     "s": "India Monthly Report under the Information Technology (Intermediary Guidelines and Digital Ethics Code) Rules, 2021"
+    },
+    {
+     "t": " ",
+     "s": "Microsoft publishes monthly transparency reports on complaints received from users in India and the actions taken thereon, as well the number of content actioned in pursuance to proactive monitoring across Microsoft’s services that are classified as “Significant Social Media Intermediaries” (“SSMIs”)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "August 2026 - India Intermediary Guidelines Report"
+    },
+    {
+     "t": " ",
+     "s": "July 2026 - India Intermediary Guidelines Report"
+    },
+    {
+     "t": " ",
+     "s": "June 2026 - India Intermediary Guidelines Report"
+    },
+    {
+     "t": " ",
+     "s": "May 2026 - India Intermediary Guidelines Report"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -3,14 +3,14 @@
  "documents": [
   {
    "doc": "csar-train",
-   "chars": 17611
+   "chars": 17601
   },
   {
    "doc": "derogation-procedure",
-   "chars": 5799
+   "chars": 6581
   }
  ],
- "totalChars": 23410,
+ "totalChars": 24182,
  "terms": [
   {
    "group": "eu",
@@ -127,8 +127,17 @@
    "group": "csam",
    "label": "Internet Watch Foundation",
    "pattern": "internet watch foundation|\\bIWF\\b",
-   "count": 0,
-   "samples": []
+   "count": 2,
+   "samples": [
+    {
+     "doc": "derogation-procedure",
+     "quote": "…an Permanent Representation to the EU Home Home Home Home Instagram Institution/body Interest representatives Internet Watch Foundation Internet Watch Foundation IT_CHAMBER JOVEVA Irena JOVEVA Irena Key events Key events Key events Key players K…"
+    },
+    {
+     "doc": "derogation-procedure",
+     "quote": "…n to the EU Home Home Home Home Instagram Institution/body Interest representatives Internet Watch Foundation Internet Watch Foundation IT_CHAMBER JOVEVA Irena JOVEVA Irena Key events Key events Key events Key players Key players Key players Lan…"
+    }
+   ]
   },
   {
    "group": "scan",
