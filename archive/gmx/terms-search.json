@@ -11,7 +11,7 @@
   },
   {
    "doc": "privacy",
-   "chars": 49098
+   "chars": 49085
   },
   {
    "doc": "security",
@@ -19,10 +19,10 @@
   },
   {
    "doc": "terms",
-   "chars": 10534
+   "chars": 10521
   }
  ],
- "totalChars": 126069,
+ "totalChars": 126043,
  "terms": [
   {
    "group": "eu",

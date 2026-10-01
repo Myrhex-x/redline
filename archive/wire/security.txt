@@ -26,6 +26,8 @@ Deployment
 
 Choose flexible deployment options: cloud, on-premises, or hybrid to meet your organization’s specific needs.
 
+Wire Drive
+
 Highlights
 
 Testimonials
@@ -40,9 +42,9 @@ Pydio Cells
 
 Secure, self-hosted file sharing and collaboration platform for enterprises. Keep full control of your data with flexible deployment, granular permissions, and compliance-ready security.
 
-Schwarz Gruppe Trusts Wire
+IPW Trusts Wire
 
-From Headquarters to Storefront: How Wire Powers Secure Communication at Scale for Schwarz Gruppe
+How a 1,000-employee psychiatric institution navigated US Cloud Act restrictions to deploy sovereign, encrypted communication
 
 Read the case study
 

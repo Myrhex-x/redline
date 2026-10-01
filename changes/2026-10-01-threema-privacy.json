@@ -1,0 +1,83 @@
+{
+ "id": "2026-10-01-threema-privacy",
+ "date": "2026-10-01",
+ "slug": "threema",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -84,8 +84,6 @@ Government",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Emergency & Bluelight"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Healthcare"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Education"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Financial and Insurance Sectors"
+    }
+   ]
+  },
+  {
+   "header": "@@ -598,8 +596,6 @@ Public Institutions",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Manufacturing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Healthcare"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Retail"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Tourism / Hospitality"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

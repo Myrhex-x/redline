@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-01-gmx-privacy",
+ "date": "2026-10-01",
+ "slug": "gmx",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -726,8 +726,6 @@ Data Collection",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "CA Do Not Sell My Info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Environment"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Jobs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Help Center"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

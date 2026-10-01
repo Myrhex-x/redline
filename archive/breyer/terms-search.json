@@ -3,10 +3,10 @@
  "documents": [
   {
    "doc": "chat-control",
-   "chars": 79368
+   "chars": 79417
   }
  ],
- "totalChars": 79368,
+ "totalChars": 79417,
  "terms": [
   {
    "group": "eu",
@@ -170,7 +170,7 @@
    "group": "scan",
    "label": "scan / scanning / gescannt",
    "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
-   "count": 43,
+   "count": 44,
    "samples": [
     {
      "doc": "chat-control",

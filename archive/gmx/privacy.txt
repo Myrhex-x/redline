@@ -726,8 +726,6 @@ Data Collection
 
 CA Do Not Sell My Info
 
-Environment
-
 Jobs
 
 Help Center

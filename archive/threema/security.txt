@@ -84,8 +84,6 @@ Government
 
 Emergency & Bluelight
 
-Healthcare
-
 Education
 
 Financial and Insurance Sectors
@@ -262,8 +260,6 @@ Industries
 Public Institutions
 
 Manufacturing
-
-Healthcare
 
 Retail
 

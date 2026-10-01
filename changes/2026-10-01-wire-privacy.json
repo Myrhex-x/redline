@@ -1,0 +1,95 @@
+{
+ "id": "2026-10-01-wire-privacy",
+ "date": "2026-10-01",
+ "slug": "wire",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -22,6 +22,8 @@ Deployment",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Choose flexible deployment options: cloud, on-premises, or hybrid to meet your organization’s specific needs."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Wire Drive"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Highlights"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Testimonials"
+    }
+   ]
+  },
+  {
+   "header": "@@ -36,9 +38,9 @@ Pydio Cells",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Secure, self-hosted file sharing and collaboration platform for enterprises. Keep full control of your data with flexible deployment, granular permissions, and compliance-ready security."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Schwarz Gruppe Trusts Wire"
+    },
+    {
+     "t": "+",
+     "s": "IPW Trusts Wire"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "From Headquarters to Storefront: How Wire Powers Secure Communication at Scale for Schwarz Gruppe"
+    },
+    {
+     "t": "+",
+     "s": "How a 1,000-employee psychiatric institution navigated US Cloud Act restrictions to deploy sovereign, encrypted communication"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Read the case study"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

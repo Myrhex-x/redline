@@ -1,0 +1,83 @@
+{
+ "id": "2026-10-01-google-privacy",
+ "date": "2026-10-01",
+ "slug": "google",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -645,7 +645,7 @@ deliver our services",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Examples of how we use your information to deliver our services include:"
+    },
+    {
+     "t": " ",
+     "s": "We use the IP address assigned to your device to send you the data you requested, such as loading a YouTube video"
+    },
+    {
+     "t": " ",
+     "s": "We use unique identifiers stored in cookies on your device to help us authenticate you as the person who should have access to your Google Account"
+    },
+    {
+     "t": "-",
+     "s": "Photos and videos you upload to Google Photos are used to help you create albums, collages, and other creations that you can share. Learn more"
+    },
+    {
+     "t": "+",
+     "s": "Photos and videos you upload to Google Photos are used to help you create albums, collages, and other creations that you can share."
+    },
+    {
+     "t": " ",
+     "s": "A flight confirmation email you receive may be used to create a “check-in” button that appears in your Gmail"
+    },
+    {
+     "t": " ",
+     "s": "When you purchase services or physical goods from us, you may provide us information like your shipping address or delivery instructions. We use this information for things like processing, fulfilling, and delivering your order, and to provide support in connection with the product or service you purchase."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -710,7 +710,7 @@ Google Duo, for making and receiving video calls and sending and receiving messa",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Google Fi, for a phone plan"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "show trends"
+    },
+    {
+     "t": "-",
+     "s": "When lots of people start searching for something, it can provide useful information about particular trends at that time. Google Trends samples Google web searches to estimate the popularity of searches over a certain period of time and shares those results publicly in aggregated terms. Learn more"
+    },
+    {
+     "t": "+",
+     "s": "When lots of people start searching for something, it can provide useful information about particular trends at that time. Google Trends samples Google web searches to estimate the popularity of searches over a certain period of time and shares those results publicly in aggregated terms."
+    },
+    {
+     "t": " ",
+     "s": "similar information related to your physical or mental health"
+    },
+    {
+     "t": " ",
+     "s": "If you use fitness products and apps we offer, such as Fitbit, Pixel Watch, Nest or Google Fit, we collect data you provide, like your height and weight. We also collect information from these apps and devices, such as your sleep patterns, heart rate, skin temperature, calories burned, and steps taken. specific Google services"
+    },
+    {
+     "t": " ",
+     "s": "For example, you can delete your blog from Blogger or a Google Site you own from Google Sites. You can also delete reviews you’ve left on apps, games, and other content in the Play Store."
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

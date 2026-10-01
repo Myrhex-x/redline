@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-01-zoom-privacy",
+ "date": "2026-10-01",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -72,7 +72,7 @@ What's New",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zoom Workplace"
+    },
+    {
+     "t": " ",
+     "s": "View All"
+    },
+    {
+     "t": "-",
+     "s": "Meetings Chat Phone Mail & Calendar Scheduler Whiteboard Clips Zoom Marketplace"
+    },
+    {
+     "t": "+",
+     "s": "Meetings Chat Phone Mail & Calendar Scheduler Whiteboard Clips Rooms Zoom Marketplace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Business Services"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

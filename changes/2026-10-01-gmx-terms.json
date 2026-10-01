@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-01-gmx-terms",
+ "date": "2026-10-01",
+ "slug": "gmx",
+ "doc": "terms",
+ "hunks": [
+  {
+   "header": "@@ -163,8 +163,6 @@ Data Collection",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "CA Do Not Sell My Info"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Environment"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Jobs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Help Center"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -1,0 +1,42 @@
+{
+ "id": "2026-10-01-whatsapp-privacy",
+ "date": "2026-10-01",
+ "slug": "whatsapp",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -1,6 +1,6 @@",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Features"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Calling Messaging Groups Channels Meta AI Status Security WhatsApp Plus"
+    },
+    {
+     "t": "+",
+     "s": "Calling Messaging Groups Channels Meta AI Status Security Parental controls"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy Blog Apps Help Center For Business"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
