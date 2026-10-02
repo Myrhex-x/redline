@@ -1,5 +1,86 @@
 [
  {
+  "id": "2026-10-02-eu-parliament-csar-train",
+  "date": "2026-10-02",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "csar-train",
+  "docTitle": "Legislative train: combating child sexual abuse online",
+  "kind": "change",
+  "added": 10,
+  "removed": 2
+ },
+ {
+  "id": "2026-10-02-gmx-security",
+  "date": "2026-10-02",
+  "slug": "gmx",
+  "company": "GMX (1&1 Mail)",
+  "doc": "security",
+  "docTitle": "E-Mail Sicherheit",
+  "kind": "change",
+  "added": 194,
+  "removed": 42
+ },
+ {
+  "id": "2026-10-02-google-privacy",
+  "date": "2026-10-02",
+  "slug": "google",
+  "company": "Google (Gmail)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
+  "id": "2026-10-02-meta-privacy",
+  "date": "2026-10-02",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 229,
+  "removed": 146
+ },
+ {
+  "id": "2026-10-02-olvid-privacy",
+  "date": "2026-10-02",
+  "slug": "olvid",
+  "company": "Olvid",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 4,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"New\", \"Messaging Benchmark\""
+ },
+ {
+  "id": "2026-10-02-olvid-technology",
+  "date": "2026-10-02",
+  "slug": "olvid",
+  "company": "Olvid",
+  "doc": "technology",
+  "docTitle": "Technology / E2EE description",
+  "kind": "change",
+  "added": 4,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"New\", \"Messaging Benchmark\""
+ },
+ {
+  "id": "2026-10-02-slack-compliance",
+  "date": "2026-10-02",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
   "id": "2026-10-01-breyer-chat-control",
   "date": "2026-10-01",
   "slug": "breyer",

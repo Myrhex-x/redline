@@ -3,14 +3,14 @@
  "documents": [
   {
    "doc": "csar-train",
-   "chars": 17601
+   "chars": 17708
   },
   {
    "doc": "derogation-procedure",
    "chars": 6581
   }
  ],
- "totalChars": 24182,
+ "totalChars": 24289,
  "terms": [
   {
    "group": "eu",

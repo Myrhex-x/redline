@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-02-google-privacy",
+ "date": "2026-10-02",
+ "slug": "google",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -59,7 +59,7 @@ Privacy Checkup",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Looking to change your privacy settings?"
+    },
+    {
+     "t": " ",
+     "s": "Take the Privacy Checkup"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Effective April 2, 2026 | Archived versions | Download PDF"
+    },
+    {
+     "t": "+",
+     "s": "Effective October 1, 2026 | Archived versions | Download PDF"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Contents"
+    },
+    {
+     "t": " ",
+     "s": "Introduction"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

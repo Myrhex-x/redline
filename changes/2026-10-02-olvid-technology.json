@@ -1,0 +1,54 @@
+{
+ "id": "2026-10-02-olvid-technology",
+ "date": "2026-10-02",
+ "slug": "olvid",
+ "doc": "technology",
+ "hunks": [
+  {
+   "header": "@@ -2,6 +2,10 @@ Make an appointment",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Toggle navigation"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "New"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Messaging Benchmark"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Enterprises"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Pricing"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

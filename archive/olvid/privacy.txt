@@ -7,6 +7,10 @@ body-classes: profile-page
 
 Toggle navigation
 
+New
+
+Messaging Benchmark
+
 Enterprises
 
 Pricing

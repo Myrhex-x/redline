@@ -1,88 +1,240 @@
-GMX Sicherheit
+gmx.net
+E-Mail
 
-Sicheres E-Mail-Postfach, sichere Daten: GMX schützt Sie umfassend und gibt Sicherheits-Tipps für Ihren Online-Alltag.
+E-Mail
+
+E-Mail
+
+Freemail
+
+Premium
+
+MAX30
+
+GMX App
+
+MailCheck
+
+Sicherheit
+
+Postfachfunktionen
+
+Kalender
+
+Adressbuch
+
+Intelligentes Postfach
+
+Briefankündigung
+
+Cloud
+
+GMX Cloud
+
+Online Office
+
+GMX Cloud für Windows
+
+GMX Cloud für macOS
+
+MAX30
+
+Speicher erweitern
+
+Sicherheit
+
+Fotos & Dateien
+
+Unsere Verantwortung
+
+GMX Blog
+
+Registrieren
+
+E-Mail-Sicherheit bei GMX
+
+GMX schützt deine E-Mails mit verlässlichen Sicherheitsstandards
 
 Noch keine GMX Adresse?
 
-Wie GMX Sie schützt
+Datenschutz nach deutschen und europäischen Vorgaben
 
-Mit "E-Mail made in Germany" & "Cloud made in Germany" setzt GMX höchste Maßstäbe bei Datenschutz und Sicherheit.
+Spam- und Phishing-Schutz für eingehende E-Mails
 
-Mehr zum GMX Datenschutz
+Hinweise bei sicherheits-relevanten Kontoänderungen
 
-Mehr Schutz für Ihr Postfach
+Anmeldung per Passkey, Passwort oder 2FA
+
+Verschlüsselte Übertragung von Login- und Nutzungsdaten
+
+Wiederherstellungsoptionen bei verlorenem Zugang
+
+Dein GMX Postfach sicher im Griff
+
+Verlässlicher Schutz. Klare Einstellungen. Kontrolle bei dir.
+
+Aktiv gegen Spam und unerwünschte E-Mails
+
+Der GMX Spamfilter erkennt verdächtige Nachrichten automatisch. Markierst du unerwünschte E-Mails zusätzlich als Spam, unterstützt du die Erkennung ähnlicher Inhalte.
+
+Phishing-Mails und -Links erkennen
+
+Das E-Mail-Siegel kennzeichnet Nachrichten geprüfter Absender und macht sie leichter erkennbar. Prüfe unerwartete Links, Anhänge und Anfragen nach Zugangsdaten trotzdem sorgfältig.
+
+Sicherheitsrelevante Änderungen im Blick behalten
+
+Bei sicherheitsrelevanten Änderungen informiert dich GMX per E-Mail. Warst du es nicht selbst, ändere sofort dein Passwort und kontrolliere hinterlegten Kontaktdaten und aktiven Zugänge.
+
+Für GMX ein eigenes Passwort verwenden
+
+Nutze für GMX ein starkes Passwort, das du bei keinem anderen Dienst verwendest. So schützt du deinen Account auch dann, wenn Zugangsdaten eines anderen Anbieters bekannt werden.
+
+Sicher mit Passkey bei GMX anmelden
+
+Richte einmalig einen Passkey ein und melde dich anschließend sicher und bequem per Gesichtserkennung, Fingerabdruck oder PIN bei deinem GMX Account an.
+
+Zwei-Faktor-Authentifizierung einrichten und Konto schützen
+
+Aktiviere die optionale Zwei-Faktor-Authentifizierung und ergänze dein Passwort um einen zweiten Sicherheitsfaktor für zusätzlichen Schutz deines GMX Accounts.
+
+E-Mails sicher und verschlüsselt übertragen
+
+Beim Abrufen und Versenden schützt SSL/TLS die Verbindung zwischen Browser oder GMX App und den GMX Servern sowie deine übertragenen Postfachdaten.
+
+Datenschutz nach deutschen Standards
+
+Sicheres E-Mail-Postfach, sichere Daten
+
+Bei GMX gelten deutsche und europäische Vorgaben für den Schutz deiner E-Mails und persönlichen Daten. Die Speicherung in Deutschland, klare Datenschutzregeln und nachvollziehbare Einstellungen helfen dir dabei, den Umgang mit deinen Daten besser zu verstehen und selbst zu steuern. Auch deine Fotos und Dateien kannst du mit der GMX Cloud sicher in Deutschland speichern .
+
+Unsere Sicherheitsstandards
+
+E-Mails in Deutschland speichern
+
+Deine E-Mails und Postfachdaten werden ausschließlich in deutschen Rechenzentren gespeichert. Die Standorte werden professionell betrieben und rund um die Uhr überwacht.
+
+Deutscher Datenschutz & DSGVO
+
+Für dein GMX Account gelten deutsches Datenschutzrecht und die DSGVO. Sie regeln, wie deine E-Mails und personenbezogenen Daten verarbeitet werden und welche Rechte du hast.
+
+E-Mail made in Germany
+
+GMX gehört zum Verbund „ E-Mail made in Germany “. Mails zwischen teilnehmenden Anbietern werden verschlüsselt übertragen und unterliegen gemeinsamen Datenschutzstandards.
+
+So schützen deine Geräte dein Postfach
 
 Einfach selbst einrichten
 
-E-Mail-Inhalte verschlüsseln
+Aktuelle Software, bewusst gesetzte Zugriffsrechte und passende Geräteeinstellungen helfen dabei, dein GMX Postfach zusätzlich zu schützen. Entscheidend ist, dass du jederzeit nachvollziehen kannst, welche Apps und Geräte auf dein Konto zugreifen.
 
-Bei GMX können Sie bei jeder E-Mail individuell entscheiden, ob Sie sie zusätzlich durch Ende-zu-Ende-Verschlüsselung schützen wollen. Etwa dann, wenn es sich um besonders sensible E-Mail-Inhalte wie Arztbriefe, Urkunden oder Verträge handelt. Das geprüfte PGP-Verfahren ist kostenlos verfügbar, schnell auf dem PC, Tablet oder Smartphone eingerichet. Im Handumdrehen machen Sie damit die Inhalte nur noch für Sie selbst und die Empfängerin/den Empfänger Ihrer Mail lesbar.
+Geräte, Browser und Apps aktuell halten
 
-Mehr über PGP
+Installiere Updates für Betriebssystem, Browser, Apps und Sicherheitssoftware regelmäßig. So werden bekannte Sicherheitslücken geschlossen. Das gilt für alle Geräte, über die du auf dein Postfach zugreifst.
 
-Postfachzugang doppelt absichern
+Deine GMX App zusätzlich sperren
 
-Sie möchten Ihrem GMX Postfach eine Extraportion Schutz verleihen? Dann aktivieren Sie die Zwei-Faktor-Authentifizierung! Die Nutzung dieser Funktion ist für Sie selbstverständlich kostenfrei und optional – und dank Einrichtungshilfe werden Sie ganz unkompliziert Schritt für Schritt durch die Aktivierung geführt. Anschließend ist Ihr Postfach sowohl am PC als auch in der GMX Mail App auf Ihrem Tablet oder Smartphone zusätzlich vor unbefugten Zugriffen geschützt.
+Du kannst die GMX App auf deinem Smartphone mit einer PIN schützen und festlegen, wann sie erneut gesperrt wird. Je nach Gerät ist auch die Entsperrung per Fingerabdruck oder Gesichtserkennung möglich.
 
-Mehr über 2FA
+Deine Apps und Berechtigungen prüfen
 
-Sicherheits-Tipps für Ihr Postfach
+Installiere Apps aus vertrauenswürdigen Quellen und prüfe, welche Zugriffsrechte sie benötigen. In den Einstellungen deines Smartphones kannst du nachvollziehen und ändern, welche Apps auf Daten und Funktionen zugreifen dürfen.
 
-E-Mails schützen – so geht's!
+Netzwerkverbindungen bewusst nutzen
 
-Achtung bei Anhängen
+In öffentlichen WLAN -Netzwerken solltest du Verbindungen sorgfältig prüfen. Deaktiviere WLAN und Bluetooth bei Nichtgebrauch und schütze dein privates WLAN mit einem starken Passwort und aktiver Firewall.
 
-Öffnen Sie keine Mail-Anhänge unbekannten Mail-Adressen – sie könnten mit Schädlingen verseucht sein. Bei bekannten Adressen gilt im Zweifel: Lieber kurz persönlich nachhaken, ob die E-Mail wirklich von diesen stammt.
+POP3-, IMAP- und SMTP-Zugänge verwalten
 
-Aktiv gegen Spam!
+Externe E-Mail-Programme und native Mail-Apps greifen über POP3, IMAP oder SMTP auf dein GMX Postfach zu. Diese Zugänge sind standardmäßig deaktiviert und werden nur bei Bedarf aktiviert. Danach kannst du sie wieder ausschalten.
 
-Spam im Postfach oder im Kalender ? Kein Problem: Sie haben es selbst mit in der Hand! Trainieren Sie einfach zusätzlich Ihren Spamfilter und helfen Sie, die Spam-Erkennung zu verbessern – so lernt Ihr Postfach automatisch dazu.
+Mobilen Zugang bei Geräteverlust zurücksetzen
 
-Vorsicht: Phishing
+Geht ein Smartphone oder Tablet mit aktiver GMX App verloren, kannst du den mobilen Zugang zu deinem Konto zurücksetzen . So verhinderst du weitere Zugriffe über dieses Gerät.
 
-E-Mails, die Sie zur Eingabe von Zugangsdaten drängen: ignorieren! Hier findet gezieltes "Phishing" von Passwort & Co. statt. Wie Sie diese Betrugsmails erkennen, lesen Sie im Tipp , geprüfte "Post" garantiert das E-Mail-Siegel .
+Häufige Fragen
 
-Sicheres E-Mail-Passwort
+Mehr zur E-Mail Sicherheit bei GMX
 
-Ihr Generalschlüssel
+Ist GMX ein sicherer E-Mail-Anbieter?
 
-Ein sicheres Passwort ist die Voraussetzung für den Schutz Ihrer Privatsphäre. Als "Generalschlüssel" sichert es den Zugang zu Ihrem Postfach mit Ihren E-Mails und Kontaktdaten, Ihren personenbezogenen Daten und auch Ihren Cloud-Dateien. Lesen Sie, wie Sie ein starkes, sicheres Passwort finden, und welche Wiederherstellungs-Möglichkeiten Sie für das Passwort haben, sollten Sie es mal vergessen.
+Ja. GMX schützt dein Postfach mit Spam- und Phishing-Schutz, verschlüsselter Datenübertragung und sicheren Anmeldeverfahren wie Passkey oder Zwei-Faktor-Authentifizierung. Deine E-Mails werden ausschließlich in deutschen Rechenzentren gespeichert und nach deutschen sowie europäischen Datenschutzvorgaben verarbeitet. Zusätzliche Sicherheitseinstellungen kannst du selbst verwalten und an deine Bedürfnisse anpassen.
 
-Zur Passwort-Seite
+Woran erkenne ich einen sicheren E-Mail-Anbieter?
 
-Ihre Kundendaten wurden geändert?
+Ein sicherer E-Mail-Anbieter sollte deine Daten nach klaren Datenschutzvorgaben verarbeiten, E-Mails verschlüsselt übertragen und wirksamen Schutz vor Spam und Phishing bieten. Wichtig sind außerdem sichere Anmeldeverfahren wie Passkey oder Zwei-Faktor-Authentifizierung sowie Funktionen, mit denen du Zugänge und Sicherheitseinstellungen selbst verwalten kannst. Auch die Speicherung der E-Mails in deutschen Rechenzentren kann ein wichtiges Auswahlkriterium sein.
 
-GMX informiert Sie direkt!
+Werden meine E-Mails in Deutschland gespeichert?
 
-Bei der geringsten Änderung Ihrer persönlichen sicherheitsrelevanten Daten erhalten Sie direkt eine E-Mail von GMX. Bekommen Sie also eine solche E-Mail OHNE dass Sie selbst eine Änderung gemacht haben, könnte es sein, dass jemand Ihr Postfach gehackt hat. Dann heißt es für Sie: Sofort Schutzmaßnahmen für Ihr Postfach ergreifen.
+Ja. Deine E-Mails werden bei GMX ausschließlich in Deutschland gespeichert. Auch Dateien in der GMX Cloud liegen in deutschen Rechenzentren. Wenn du einen E-Mail-Anbieter mit sicherer Speicherung in Deutschland suchst, ist das ein wichtiger Punkt. Innerhalb von „E-Mail made in Germany“ werden E-Mails außerdem verschlüsselt übertragen. So verbindet GMX sichere E-Mail-Nutzung mit deutschem Datenschutz.
 
-Zu den Sofortmaßnahmen
+Wie schützt GMX mein Postfach vor Spam und Phishing?
 
-Tipps zur Geräte-Sicherheit
+GMX schützt dein Postfach mit Spamfiltern, die unerwünschte und gefährliche E-Mails automatisch erkennen. Sie prüfen unter anderem technische Merkmale, gefälschte Absender, bekannte Spam-Quellen und auffällige Links. Das E-Mail-Siegel hilft zusätzlich: Es kennzeichnet geprüfte Absender, damit du echte Nachrichten leichter erkennst. So unterstützt GMX Sicherheit bei Spam und Phishing im Alltag.
 
-PC, Smartphone & Co. schützen
+Was ist ein Passkey und wie schützt er mein GMX Konto?
 
-Antiviren-Programme nutzen
+Ein Passkey ist eine sichere Login-Methode ohne Passwort. Er besteht aus zwei digitalen Schlüsseln: Einer liegt bei GMX, der andere bleibt auf deinem Gerät oder in einer sicheren Cloud. Beim Login bestätigst du dich zum Beispiel per Fingerabdruck, Gesichtserkennung oder PIN. Das macht dein GMX Konto sicherer, weil Passkeys nur auf der echten GMX Webseite funktionieren und vor Phishing schützen.
 
-Antiviren-Software ist nicht nur für Ihren PC sinnvoll: auch für Ihre Mobilgeräte und für Ihre USB-Sticks. Vor allem, wenn Sie die Sticks auch an anderen Rechnern als zuhause nutzen.
+Brauche ich zusätzlich eine Zwei-Faktor-Authentifizierung?
 
-Programme aktuell halten
+Die Zwei-Faktor-Authentifizierung ist optional, aber sinnvoll für mehr Schutz. Beim Login brauchst du dann neben deinem Passwort einen 6-stelligen Code aus einer Authentifizierungs-App. So bleibt dein E-Mail-Account besser geschützt, selbst wenn dein Passwort in fremde Hände gerät.
 
-Beim Thema Updates gilt: Unbedingt regelmäßig Aktualisierungen für Ihre Antiviren-Software, Ihr Betriebssystem etc. vornehmen. Das schließt potentielle Sicherheitslücken. Mehr dazu in unserem Blog !
+Wie erkenne ich unbefugte Zugriffe auf mein GMX Konto?
 
-Firewall installieren
+Achte auf GMX Sicherheitshinweise, zum Beispiel zu geänderten persönlichen Daten. Hast du die Änderung nicht selbst vorgenommen, solltest du sofort handeln. Auch auffällige Aktivitäten im Postfach können ein Warnzeichen sein. Prüfe dann deine Kontodaten, Filterregeln und Weiterleitungen. Ändere außerdem dein GMX Passwort, damit dein E-Mail-Konto wieder sicher ist.
 
-Zur Kontrolle des Datenflusses auf Ihrem Rechner richten Sie eine Firewall ein. Bei Smartphones heißt es bei der Installation neuer Apps: Seien Sie vorsichtig bei der Rechtevergabe.
+Was soll ich tun, wenn mein Smartphone mit der GMX App verloren geht?
 
-App-Download mit Bedacht.
+Setze deine mobilen Zugänge zurück. Logge dich über die GMX Webseite ein, gehe zu „Account verwalten“ und dann zu „Sicherheit“. Unter „Automatischer Login für GMX App & MailCheck“ kannst du den Login zurücksetzen. Danach müssen sich alle Apps und mobilen Zugänge neu anmelden. Das schützt dein Postfach, wenn dein Smartphone verloren oder verkauft wurde.
 
-Laden Sie nur Apps herunter, die Sie wirklich brauchen. Greifen Sie dabei zum Beispiel auf GMX Mobile oder andere seriöse Quellen zu. Kundenbewertungen bieten auch gute Orientierung. Mehr dazu im GMX Blog !
+Hat GMX einen Virenschutz?
 
-WLAN und Bluetooth
+Ja. Der GMX Virenschutz prüft automatisch ein- und ausgehende E-Mails inklusive Anhängen auf Viren. Infizierte E-Mails werden gelöscht. Wird eine an dich adressierte E-Mail abgefangen, bekommst du eine Benachrichtigung. Der Virenschutz ist standardmäßig eingeschaltet. Du kannst ihn zwar deaktivieren, solltest das aber nur in Ausnahmefällen tun und dann einen aktuellen Virenschutz auf deinem Gerät nutzen.
 
-Wenn Sie WLAN und Bluetooth nicht benötigen, deaktivieren Sie beides. In öffentlichen WLAN-Hotspots sind Passwörter und Zugangskennungen oft im Klartext zu sehen. Stellen Sie außerdem sicher, dass Ihr privates WLAN gut geschützt ist !
+Wie aktiviere ich den Spamschutz bei GMX?
 
-Mobilen Zugang absichern
+Der GMX Spamschutz ist in deinem Postfach standardmäßig aktiv und kostenlos nutzbar. Er sortiert unerwünschte E-Mails automatisch in den Spam-Ordner. Du kannst ihn verbessern, indem du E-Mails als „Spam“ oder „Kein Spam“ markierst. In den Einstellungen unter „Sicherheit“ und „Spam-Erkennung“ kannst du außerdem helfen, neue Spam-Merkmale besser zu erkennen.
 
-Nutzen Sie die GMX Mail App und kommt Ihr Smartphone abhanden, schützen Sie Ihren E-Mail-Account vor Fremdzugriff: Setzen Sie dazu einfach Ihren mobilen Zugang zurück .
+Wie sehe ich, ob mein GMX gehackt wurde?
 
+Mögliche Warnzeichen sind GMX Hinweise zu Änderungen, die du nicht selbst vorgenommen hast, oder auffällige Aktivitäten im Postfach. Prüfe deine persönlichen Daten, Weiterleitungen und Filterregeln. Führe außerdem einen Virenscan auf deinen Geräten durch und ändere dein GMX Passwort. Nutze für ein sicheres Login bei GMX am besten ein starkes Passwort, Passkey oder Zwei-Faktor-Authentifizierung.
+
+Aktuelle Tipps rund um E-Mail-Sicherheit
+
+Zum GMX Blog
+
+GMX Mail & Cloud
+
+E-Mail-Postfach
+
+GMX FreeMail
+
+GMX Cloud
+
+GMX App
+
+Tipps & Infos
+
+GMX Blog
+
+GMX Hilfe
+
+GMX Sicherheit
+
+Sicherheitsinitiativen von GMX
+
+Sitemap
+
+Impressum
+
+Verträge hier kündigen/widerrufen
+
+AGB
+
+Datenschutz
+
+Datenschutz-Einstellungen
+
+Barrierefreiheit
+
+Jobs
