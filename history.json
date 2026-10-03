@@ -1,5 +1,51 @@
 [
  {
+  "id": "2026-10-03-eu-parliament-derogation-procedure",
+  "date": "2026-10-03",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "derogation-procedure",
+  "docTitle": "Procedure file 2025/0429(COD) — extension of the derogation",
+  "kind": "change",
+  "added": 1,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Summary\""
+ },
+ {
+  "id": "2026-10-03-meta-privacy",
+  "date": "2026-10-03",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 146,
+  "removed": 229
+ },
+ {
+  "id": "2026-10-03-slack-compliance",
+  "date": "2026-10-03",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "change",
+  "added": 319,
+  "removed": 87
+ },
+ {
+  "id": "2026-10-03-slack-privacy",
+  "date": "2026-10-03",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 319,
+  "removed": 87
+ },
+ {
   "id": "2026-10-02-eu-parliament-csar-train",
   "date": "2026-10-02",
   "slug": "eu-parliament",

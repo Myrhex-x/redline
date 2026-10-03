@@ -1,0 +1,42 @@
+{
+ "id": "2026-10-03-eu-parliament-derogation-procedure",
+ "date": "2026-10-03",
+ "slug": "eu-parliament",
+ "doc": "derogation-procedure",
+ "hunks": [
+  {
+   "header": "@@ -330,6 +330,7 @@ Summary",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Summary"
+    },
+    {
+     "t": " ",
+     "s": "Summary"
+    },
+    {
+     "t": " ",
+     "s": "Summary"
+    },
+    {
+     "t": "+",
+     "s": "Summary"
+    },
+    {
+     "t": " ",
+     "s": "Supporting analyses"
+    },
+    {
+     "t": " ",
+     "s": "T10-0070/2026"
+    },
+    {
+     "t": " ",
+     "s": "T10-0070/2026"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
