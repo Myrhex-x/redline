@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-10-04-snapchat-guidelines",
+  "date": "2026-10-04",
+  "slug": "snapchat",
+  "company": "Snapchat",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "change",
+  "added": 4,
+  "removed": 1
+ },
+ {
   "id": "2026-10-03-eu-parliament-derogation-procedure",
   "date": "2026-10-03",
   "slug": "eu-parliament",
