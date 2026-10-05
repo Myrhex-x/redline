@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-10-05-slack-compliance",
+  "date": "2026-10-05",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
   "id": "2026-10-04-snapchat-guidelines",
   "date": "2026-10-04",
   "slug": "snapchat",
