@@ -1,0 +1,147 @@
+{
+ "id": "2026-10-07-gmx-privacy-de",
+ "date": "2026-10-07",
+ "slug": "gmx",
+ "doc": "privacy-de",
+ "hunks": [
+  {
+   "header": "@@ -260,7 +260,7 @@ GMX Features",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Schreib- und Leseassistent"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Bei Nutzung unseres Schreib- und Leseassistenten, verarbeiten wir deine Anfragen und ggf. Inhalte von E-Mails. Deine Daten werden nicht an Dritte weitergegeben. Anfrage und Antwort werden nicht gespeichert. Die Verarbeitung ist erforderlich, um dir den Dienst zur Verfügung zu stellen (Vertragserfüllung)."
+    },
+    {
+     "t": "+",
+     "s": "Bei Nutzung unseres Schreib- und Leseassistenten verarbeiten wir deine Anfragen und ggf. Inhalte von E-Mails. Deine Daten werden nicht an Dritte weitergegeben. Anfrage und Antwort werden nicht gespeichert. Die Verarbeitung ist erforderlich, um dir den Dienst zur Verfügung zu stellen (Vertragserfüllung)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "GMX Suche"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -452,19 +452,17 @@ Datenschutzerklärung",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "GMX Mobilfunk"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "GMX All-Net-Flat"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Wir vermarkten die Mobilfunk- und DSL-Tarife unserer Konzernschwester 1&1 Telecom GmbH. An diese übermitteln wir Daten im Rahmen der Bestellung (insbesondere Bestandsdaten wie Name und Adresse oder Zahlungsdaten, gegebenenfalls aber auch Ausweisdaten). Diese Datenverarbeitung ist zur Vertragserfüllung erforderlich. Informationen zum Datenschutz bei der 1&1 Telecom GmbH findest du hier . Darüber hinaus holen wir für die 1&1 Telecom GmbH eine Einwilligung ein. Weitere Informationen dazu findest du hier ."
+    },
+    {
+     "t": "+",
+     "s": "GMX Mobile"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "GMX Handytarif Vergleich"
+    },
+    {
+     "t": "+",
+     "s": "Für die Bereitstellung und Abrechnung von GMX Mobile sind wir eine Partnerschaft mit unserer Konzernschwester, der 1&1 Telecom GmbH, eingegangen. Die Daten im Kontext der Bestellung (insbesondere Bestandsdaten wie Name und Adresse, Kontaktdaten, wie E-Mail und Telefonnummer), sind für die Vertragserfüllung erforderlich und werden von uns an die 1&1 Telecom GmbH übermittelt. Mehr zum Datenschutz bei der 1&1 Telecom GmbH findest du hier ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Bei unserem GMX Handytarif-Vergleich, arbeiten wir mit unserem Partner TARIFFUXX GmbH zusammen. Informationen zum Datenschutz bei der TARIFFUXX GmbH findest du hier ."
+    },
+    {
+     "t": "+",
+     "s": "GMX All-Net-Flat"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Bei Bestellung eines Tarifs der Konzernschwester Drillisch Online GmbH, werden Daten im Zusammenhang mit der Bestellung (insbesondere Bestandsdaten wie Name und Adresse oder Zahlungsdaten) von uns an die Konzernschwester Drillisch Online GmbH übermittelt (Vertragserfüllung). Informationen zum Datenschutz bei der Drillisch Online GmbH findest du hier . Bei Bestellung anderer Tarife wirst du auf die Websites der jeweiligen Anbieter weitergeleitet."
+    },
+    {
+     "t": "+",
+     "s": "Wir vermarkten die Mobilfunk- und DSL-Tarife unserer Konzernschwester 1&1 Telecom GmbH. An diese übermitteln wir Daten im Rahmen der Bestellung (insbesondere Bestandsdaten wie Name und Adresse oder Zahlungsdaten, gegebenenfalls aber auch Ausweisdaten). Diese Datenverarbeitung ist zur Vertragserfüllung erforderlich. Informationen zum Datenschutz bei der 1&1 Telecom GmbH findest du hier . Überdies holen wir für die 1&1 Telecom GmbH eine Einwilligung ein. Weitere Informationen dazu findest du hier ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "GMX FreePhone"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Für die Bereitstellung und Abrechnung des GMX FreePhone Produktes sind wir eine Partnerschaft mit unserer Konzernschwester, der Drillisch Online GmbH, eingegangen. Die Daten im Zusammenhang mit der Bestellung (insbesondere Bestandsdaten wie Name und Adresse oder Zahlungsdaten) sowie die Information, dass dein Gerät eSIM-fähig ist, sind für die Vertragserfüllung erforderlich und werden von uns an die Drillisch Online GmbH übermittelt. Mehr zum Datenschutz bei der Drillisch Online GmbH findest du hier ."
+    },
+    {
+     "t": "+",
+     "s": "Für die Bereitstellung und Abrechnung des GMX FreePhone Produktes sind wir eine Partnerschaft mit unserer Konzernschwester, der Drillisch Online GmbH, eingegangen. Die Daten im Kontext der Bestellung (insbesondere Bestandsdaten wie Name und Adresse oder Zahlungsdaten) sowie die Information, dass dein Gerät eSIM-fähig ist, sind für die Vertragserfüllung erforderlich und werden von uns an die Drillisch Online GmbH übermittelt. Mehr zum Datenschutz bei der Drillisch Online GmbH findest du hier ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "GMX Lotto"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

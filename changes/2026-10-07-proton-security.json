@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-07-proton-security",
+ "date": "2026-10-07",
+ "slug": "proton",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -74,6 +74,8 @@ About us Impact Social media Open source Team Careers We’re hiring Proton Foun",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover Proton"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Change language"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Get Proton Mail"
+    },
+    {
+     "t": " ",
+     "s": "Sign in"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

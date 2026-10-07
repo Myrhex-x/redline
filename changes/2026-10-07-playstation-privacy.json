@@ -1,0 +1,42 @@
+{
+ "id": "2026-10-07-playstation-privacy",
+ "date": "2026-10-07",
+ "slug": "playstation",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -254,6 +254,7 @@ Online safety",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Diversity, equity & inclusion"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Support"
+    },
+    {
+     "t": "+",
+     "s": "Order status"
+    },
+    {
+     "t": " ",
+     "s": "Support hub"
+    },
+    {
+     "t": " ",
+     "s": "PlayStation Safety"
+    },
+    {
+     "t": " ",
+     "s": "Status"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

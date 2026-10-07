@@ -1,5 +1,68 @@
 [
  {
+  "id": "2026-10-07-gmx-privacy-de",
+  "date": "2026-10-07",
+  "slug": "gmx",
+  "company": "GMX (1&1 Mail)",
+  "doc": "privacy-de",
+  "docTitle": "Datenschutzhinweise (German, full)",
+  "kind": "change",
+  "added": 6,
+  "removed": 8
+ },
+ {
+  "id": "2026-10-07-playstation-privacy",
+  "date": "2026-10-07",
+  "slug": "playstation",
+  "company": "PlayStation (Sony)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy (EU)",
+  "kind": "change",
+  "added": 1,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Order status\""
+ },
+ {
+  "id": "2026-10-07-proton-privacy",
+  "date": "2026-10-07",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 2,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Change language\""
+ },
+ {
+  "id": "2026-10-07-proton-security",
+  "date": "2026-10-07",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "security",
+  "docTitle": "Security / E2EE description",
+  "kind": "change",
+  "added": 2,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Change language\""
+ },
+ {
+  "id": "2026-10-07-proton-transparency",
+  "date": "2026-10-07",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 2,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"Change language\""
+ },
+ {
   "id": "2026-10-05-slack-compliance",
   "date": "2026-10-05",
   "slug": "slack",

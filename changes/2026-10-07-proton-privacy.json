@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-07-proton-privacy",
+ "date": "2026-10-07",
+ "slug": "proton",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -163,6 +163,8 @@ What is my IP address? (new window) Password generator Username generator PDF wa",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Support"
+    },
+    {
+     "t": " ",
+     "s": "Help center Contact us"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Change language"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Create a free account"
+    },
+    {
+     "t": " ",
+     "s": "Sign in"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
