@@ -514,7 +514,6 @@ Knowledge Transfer
 Inspiring Practices Repository
 Prev. Inspiring Practices Repository
 Thematic Panels
-EU Academy
 Welcome Package
 Expert Database
 Media
@@ -624,8 +623,10 @@ Discover more
 Who we are Who we are About DG Migration & Home affairs
 
 About us
-Job opportunities
+Commissioner for internal affairs and migration
+Director-General Beate Gminder
 Contact us
+Agencies
 
 Discover more
 
@@ -797,8 +798,9 @@ Migration and Home Affairs
 This site is managed by:
 Directorate-General for Migration and Home Affairs
 
-Contact us
+About us
 Contact our DG
+Job opportunities
 
 Follow the European Commission
 Mastodon

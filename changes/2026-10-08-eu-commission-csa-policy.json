@@ -1,0 +1,136 @@
+{
+ "id": "2026-10-08-eu-commission-csa-policy",
+ "date": "2026-10-08",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -514,7 +514,6 @@ Knowledge Transfer",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Inspiring Practices Repository"
+    },
+    {
+     "t": " ",
+     "s": "Prev. Inspiring Practices Repository"
+    },
+    {
+     "t": " ",
+     "s": "Thematic Panels"
+    },
+    {
+     "t": "-",
+     "s": "EU Academy"
+    },
+    {
+     "t": " ",
+     "s": "Welcome Package"
+    },
+    {
+     "t": " ",
+     "s": "Expert Database"
+    },
+    {
+     "t": " ",
+     "s": "Media"
+    }
+   ]
+  },
+  {
+   "header": "@@ -624,8 +623,10 @@ Discover more",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Who we are Who we are About DG Migration & Home affairs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "About us"
+    },
+    {
+     "t": "-",
+     "s": "Job opportunities"
+    },
+    {
+     "t": "+",
+     "s": "Commissioner for internal affairs and migration"
+    },
+    {
+     "t": "+",
+     "s": "Director-General Beate Gminder"
+    },
+    {
+     "t": " ",
+     "s": "Contact us"
+    },
+    {
+     "t": "+",
+     "s": "Agencies"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -797,8 +798,9 @@ Migration and Home Affairs",
+   "lines": [
+    {
+     "t": " ",
+     "s": "This site is managed by:"
+    },
+    {
+     "t": " ",
+     "s": "Directorate-General for Migration and Home Affairs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contact us"
+    },
+    {
+     "t": "+",
+     "s": "About us"
+    },
+    {
+     "t": " ",
+     "s": "Contact our DG"
+    },
+    {
+     "t": "+",
+     "s": "Job opportunities"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Follow the European Commission"
+    },
+    {
+     "t": " ",
+     "s": "Mastodon"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

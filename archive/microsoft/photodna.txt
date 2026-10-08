@@ -196,11 +196,11 @@ In 2015, Microsoft made PhotoDNA available as a service on Azure. The PhotoDNA C
 
 What's new
 
+Surface Laptop Ultra
+
 Surface Pro
 
 Surface Laptop
-
-Surface Laptop Ultra
 
 Surface RTX Spark Dev Box
 

@@ -1,0 +1,62 @@
+{
+ "id": "2026-10-08-meta-privacy",
+ "date": "2026-10-08",
+ "slug": "meta",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -40,12 +40,6 @@ Settings",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy Policy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Updated on Jul 23, 2026"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We've updated our Privacy Policy with details about agentic AI capabilities and how we personalise your AI experiences."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "View details"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is the Privacy Policy and what does it cover?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Effective July 23, 2026 | View printable version | See previous versions"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

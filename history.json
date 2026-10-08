@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-10-08-eu-commission-csa-policy",
+  "date": "2026-10-08",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "change",
+  "added": 5,
+  "removed": 3
+ },
+ {
+  "id": "2026-10-08-meta-privacy",
+  "date": "2026-10-08",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 0,
+  "removed": 6
+ },
+ {
   "id": "2026-10-07-gmx-privacy-de",
   "date": "2026-10-07",
   "slug": "gmx",
