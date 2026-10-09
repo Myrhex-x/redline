@@ -1,0 +1,83 @@
+{
+ "id": "2026-10-09-slack-security",
+ "date": "2026-10-09",
+ "slug": "slack",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -103,7 +103,7 @@ Find new agents and apps that fit your team’s needs.",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Browse marketplace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Feature Releases"
+    },
+    {
+     "t": "-",
+     "s": "Slack Code, and more"
+    },
+    {
+     "t": "+",
+     "s": "Slack CRM: Generate meeting insights & Salesforce tasks, and more"
+    },
+    {
+     "t": " ",
+     "s": "See what’s new"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is Slack?"
+    }
+   ]
+  },
+  {
+   "header": "@@ -302,7 +302,7 @@ Find new agents and apps that fit your team’s needs.",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Browse marketplace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Feature Releases"
+    },
+    {
+     "t": "-",
+     "s": "Slack Code, and more"
+    },
+    {
+     "t": "+",
+     "s": "Slack CRM: Generate meeting insights & Salesforce tasks, and more"
+    },
+    {
+     "t": " ",
+     "s": "See what’s new"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is Slack?"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

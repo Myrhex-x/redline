@@ -1,0 +1,75 @@
+{
+ "id": "2026-10-09-eu-commission-csa-policy",
+ "date": "2026-10-09",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -514,6 +514,7 @@ Knowledge Transfer",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Inspiring Practices Repository"
+    },
+    {
+     "t": " ",
+     "s": "Prev. Inspiring Practices Repository"
+    },
+    {
+     "t": " ",
+     "s": "Thematic Panels"
+    },
+    {
+     "t": "+",
+     "s": "EU Academy"
+    },
+    {
+     "t": " ",
+     "s": "Welcome Package"
+    },
+    {
+     "t": " ",
+     "s": "Expert Database"
+    },
+    {
+     "t": " ",
+     "s": "Media"
+    }
+   ]
+  },
+  {
+   "header": "@@ -625,6 +626,7 @@ Who we are Who we are About DG Migration & Home affairs",
+   "lines": [
+    {
+     "t": " ",
+     "s": "About us"
+    },
+    {
+     "t": " ",
+     "s": "Commissioner for internal affairs and migration"
+    },
+    {
+     "t": " ",
+     "s": "Director-General Beate Gminder"
+    },
+    {
+     "t": "+",
+     "s": "Networks"
+    },
+    {
+     "t": " ",
+     "s": "Contact us"
+    },
+    {
+     "t": " ",
+     "s": "Agencies"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
