@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-10-microsoft-photodna",
+ "date": "2026-10-10",
+ "slug": "microsoft",
+ "doc": "photodna",
+ "hunks": [
+  {
+   "header": "@@ -224,7 +224,7 @@ Order tracking",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Certified Refurbished"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Microsoft Store Promise"
+    },
+    {
+     "t": "+",
+     "s": "Why buy from Microsoft Store"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Flexible Payments"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

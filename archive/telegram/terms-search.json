@@ -3,7 +3,7 @@
  "documents": [
   {
    "doc": "faq",
-   "chars": 71233
+   "chars": 71178
   },
   {
    "doc": "play-safety",
@@ -26,7 +26,7 @@
    "chars": 2035
   }
  ],
- "totalChars": 126895,
+ "totalChars": 126840,
  "terms": [
   {
    "group": "eu",
