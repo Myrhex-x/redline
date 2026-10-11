@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-10-11-slack-privacy",
+  "date": "2026-10-11",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
+  "id": "2026-10-11-slack-security",
+  "date": "2026-10-11",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "security",
+  "docTitle": "Security",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
   "id": "2026-10-10-microsoft-photodna",
   "date": "2026-10-10",
   "slug": "microsoft",
