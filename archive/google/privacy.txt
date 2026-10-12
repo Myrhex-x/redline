@@ -59,7 +59,7 @@ Privacy Checkup
 Looking to change your privacy settings?
 Take the Privacy Checkup
 
-Effective October 1, 2026 | Archived versions | Download PDF
+Effective October 12, 2026 | Archived versions | Download PDF
 
 Contents
 Introduction
@@ -86,7 +86,7 @@ To help explain things as clearly as possible, we’ve added examples, explanato
 Information Google collects
 We want you to understand the types of information we collect as you use our services
 We collect information to provide better services to all our users — from figuring out basic stuff like which language you speak, to more complex things like which ads you’ll find most useful , the people who matter most to you online , or which YouTube videos you might like. The information Google collects, and how that information is used, depends on how you use our services and how you manage your privacy controls.
-When you’re not signed in to a Google Account, we store the information we collect with unique identifiers tied to the browser, application, or device you’re using. This allows us to do things like maintain your preferences across browsing sessions, such as your preferred language or whether to show you more relevant search results or ads based on your activity.
+Google also collects and uses data that is not associated with your account. For example, when you’re not signed in to a Google Account, we store the information we collect with unique identifiers tied to the browser, application, or device you’re using. This allows us to do things like maintain your preferences across browsing sessions, such as your preferred language or whether to show you more relevant search results or ads based on your activity across devices.
 When you’re signed in, we also collect information that we store with your Google Account, which we treat as personal information .
 Things you create or provide to us
 
@@ -509,7 +509,7 @@ We process information about requests to remove content from our services under 
 
 To meet any applicable law, regulation, legal process or enforceable governmental request.
 Examples of processing activities:
-Like other technology and communications companies, Google regularly receives requests from governments and courts around the world to disclose user data. Respect for the privacy and security of data you store with Google underpins our approach to complying with these legal requests. Our legal team reviews each and every request, regardless of type, and we frequently push back when a request appears to be overly broad or doesn’t follow the correct process.
+Like other technology and communications companies, Google regularly receives requests from governments and courts around the world to disclose user data. Respect for the privacy and security of data you store with Google underpins our approach to complying with these legal requests. For more information about how Google responds to such requests, see our data disclosure policies .
 Certain laws require us to share information with regulators and third parties, such as researchers and authorized out-of-court dispute bodies.
 Legal obligations sometimes require us to retain certain information for purposes like financial record-keeping, such as information about a payment you’ve made to Google for tax or accounting purposes.
 Various laws and regulations require us to put in place measures to confirm that our users are old enough to use our services. To help determine your age, we process the date of birth you provide. We also process information about your activity in our services, both when you’re signed in to a Google Account or signed out, and use machine learning technology to determine if you are likely over 18. In certain cases, if we cannot confirm that you are old enough to use our services by other means, we can request other information to verify your age, like your government ID, credit card, a photo of you, or your phone number.
@@ -528,11 +528,11 @@ Information from our trusted partners , such as from directory services who prov
 The legal grounds for processing this information will depend on how you use Google services and your settings but could include the following:
 When necessary for our legitimate interests and those of third parties, including to: Enforce legal claims, including investigation of potential violations of applicable Terms of Service. For example, analyzing content to help us detect abuse such as spam, malware, and illegal content.
 Detect, prevent, or otherwise address fraud, abuse, security, or technical issues with our services. For example, collecting and analyzing IP addresses and cookie data to protect against automated abuse.
-Protect against harm to the rights, property or safety of Google, our users, or the public, including disclosing information to government authorities. For example, responding to legal process or enforceable requests from governments and courts to disclose data, after carefully reviewing each request to make sure it satisfies applicable laws.
+Protect against harm to the rights, property or safety of Google, our users, or the public, including disclosing information to government authorities. For example, disclosing limited data to law enforcement authorities whenever appropriate for the purpose of preventing, detecting or investigating crimes.
 Perform research that improves our services for our users and benefits the public. For example, processing information about requests to remove content from our services to educate the public, facilitate research, and provide transparency about these requests.
 
-When necessary to protect the vital interests of you or another person. For example, processing data to detect and combat online child sexual abuse.
-When we have a legal obligation to do so, such as retaining certain information for purposes like financial record-keeping, or processing and retaining information to help ensure that users are old enough to use our services.
+When necessary to protect the vital interests of you or another person. For example, processing data to detect and combat online child sexual abuse or disclosing data to law enforcement authorities where we have a good faith belief that it is necessary and appropriate for the purpose of preventing an imminent threat to life and the disclosure complies with applicable law.
+When we have a legal obligation to do so, such as retaining certain information for purposes like financial record-keeping, processing and retaining information to help ensure that users are old enough to use our services or disclosing certain data in response to legal requests from government authorities, regulators and courts in compliance with applicable law.
 
 Linking your Google services
 If you’re a user in the EU, we offer you the choice to keep certain Google services linked. You can learn more about your linked services and how to manage your choices at About DMA & Your Linked Services .

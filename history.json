@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-10-12-google-privacy",
+  "date": "2026-10-12",
+  "slug": "google",
+  "company": "Google (Gmail)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 6,
+  "removed": 6
+ },
+ {
   "id": "2026-10-11-slack-privacy",
   "date": "2026-10-11",
   "slug": "slack",
