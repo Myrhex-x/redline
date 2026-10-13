@@ -1,0 +1,42 @@
+{
+ "id": "2026-10-13-eu-commission-csa-policy",
+ "date": "2026-10-13",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -627,7 +627,6 @@ About us",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Commissioner for internal affairs and migration"
+    },
+    {
+     "t": " ",
+     "s": "Director-General Beate Gminder"
+    },
+    {
+     "t": " ",
+     "s": "Networks"
+    },
+    {
+     "t": "-",
+     "s": "Contact us"
+    },
+    {
+     "t": " ",
+     "s": "Agencies"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover more"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
