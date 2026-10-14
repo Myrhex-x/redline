@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-10-14-apple-icloud-security",
+  "date": "2026-10-14",
+  "slug": "apple",
+  "company": "Apple (iMessage, iCloud)",
+  "doc": "icloud-security",
+  "docTitle": "iCloud Data Security Overview",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"TV & Home\", \"Home\""
+ },
+ {
+  "id": "2026-10-14-slack-privacy",
+  "date": "2026-10-14",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 319,
+  "removed": 87
+ },
+ {
   "id": "2026-10-13-eu-commission-csa-policy",
   "date": "2026-10-13",
   "slug": "eu-commission",

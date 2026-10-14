@@ -3,7 +3,7 @@
  "documents": [
   {
    "doc": "icloud-security",
-   "chars": 15105
+   "chars": 15100
   },
   {
    "doc": "imessage-security",
@@ -18,7 +18,7 @@
    "chars": 17309
   }
  ],
- "totalChars": 70732,
+ "totalChars": 70727,
  "terms": [
   {
    "group": "eu",
