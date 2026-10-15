@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-15-wire-privacy",
+ "date": "2026-10-15",
+ "slug": "wire",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -24,6 +24,8 @@ Choose flexible deployment options: cloud, on-premises, or hybrid to meet your o",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Wire Drive"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Wire Drive is ideal for any team looking for a secure, innovative digital workspace. Learn more about Wire Drive's features here."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Highlights"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Testimonials"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

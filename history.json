@@ -1,5 +1,75 @@
 [
  {
+  "id": "2026-10-15-slack-compliance",
+  "date": "2026-10-15",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "change",
+  "added": 319,
+  "removed": 87
+ },
+ {
+  "id": "2026-10-15-slack-privacy",
+  "date": "2026-10-15",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
+  "id": "2026-10-15-threema-privacy",
+  "date": "2026-10-15",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 3,
+  "removed": 3,
+  "minor": true,
+  "minorReason": "4 short labels, no prose and no tracked vocabulary: \"Privacy Tips from the Threem\", \"Privacy Tips from the Threem\", \"Privacy Tips from the Threem\", \"World Emoji Day: Our Emoji P\""
+ },
+ {
+  "id": "2026-10-15-threema-security",
+  "date": "2026-10-15",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "change",
+  "added": 3,
+  "removed": 3,
+  "minor": true,
+  "minorReason": "4 short labels, no prose and no tracked vocabulary: \"Privacy Tips from the Threem\", \"Privacy Tips from the Threem\", \"Privacy Tips from the Threem\", \"World Emoji Day: Our Emoji P\""
+ },
+ {
+  "id": "2026-10-15-wire-privacy",
+  "date": "2026-10-15",
+  "slug": "wire",
+  "company": "Wire",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 2,
+  "removed": 0
+ },
+ {
+  "id": "2026-10-15-wire-security",
+  "date": "2026-10-15",
+  "slug": "wire",
+  "company": "Wire",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "change",
+  "added": 2,
+  "removed": 0
+ },
+ {
   "id": "2026-10-14-apple-icloud-security",
   "date": "2026-10-14",
   "slug": "apple",
