@@ -3,10 +3,10 @@
  "documents": [
   {
    "doc": "csa-policy",
-   "chars": 27888
+   "chars": 25805
   }
  ],
- "totalChars": 27888,
+ "totalChars": 25805,
  "terms": [
   {
    "group": "eu",
@@ -75,7 +75,7 @@
    "group": "csam",
    "label": "child sexual abuse / Kindesmissbrauch",
    "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
-   "count": 47,
+   "count": 45,
    "samples": [
     {
      "doc": "csa-policy",

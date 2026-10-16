@@ -494,84 +494,6 @@ See all
 
 Discover more
 
-Networks Networks The DG for Migration and Home Affairs organises and supports networks where members exchange views and information on policies, such as: child sexual abuse, radicalisation, drugs, protection of critical infrastructure and migration.
-
-CERIS - Community for European Research and Innovation for Security About CERIS
-CERIS in pictures
-CERIS events
-CERIS news
-EU security market study
-Subscribe
-Thematic areas
-
-See all
-
-European Migration Forum (EMF)
-EU Knowledge Hub on Prevention of Radicalisation Calls for Applications
-Policy and Practice Joint Events
-Western Balkans
-Knowledge Transfer
-Inspiring Practices Repository
-Prev. Inspiring Practices Repository
-Thematic Panels
-EU Academy
-Welcome Package
-Expert Database
-Media
-PCVE & Strategic Communications
-Calls and Announcements
-The Root Causes of Violent Extremism - The Basics
-Strategic Orientations on a coordinated EU approach to prevention of radicalisation
-A Way Out From Violent Extremism
-Establishing Common Standards ‒ Gender-specific approaches in practical P/CVE
-EU Security Union Strategy
-About the EU Knowledge Hub on Prevention of Radicalisation
-Spotlight on Gender
-Guide for Teachers and Schools
-News
-Calendar
-
-See all
-
-RAN Policy Support EC Research e-Library on Radicalisation
-
-See all
-
-European Migration Network (EMN) About the EMN
-EMN Asylum and Migration Glossary
-EMN Events
-EMN Member and Observer Countries
-EMN partners
-EMN publications
-EMNews
-Expert groups
-
-See all
-
-European Union Internet Forum
-Labour Migration Platform
-Law Enforcement Networks Working Group (LENWG)
-Network for the Prevention of Child Sexual Abuse
-High-Level Group (HLG) on access to data for effective law enforcement
-Civil Society Forum on Drugs (CSF)
-RAN Practitioners (archived) About RAN
-Civil Society Empowerment Programme (CSEP)
-Collection of inspiring practices
-Conferences and Webinars
-Publications
-RAN Media
-RAN News
-RAN Participants
-RAN Practitioners pages
-RAN Publications
-RAN YOUNG PLATFORM
-RAN in the Western Balkans
-Topics and Working Groups
-
-See all
-
-Discover more
-
 Funding Funding Learn about EU funds supporting projects on migration and home affairs: Asylum, Migration and Integration Fund (AMIF), Internal Security Fund (ISF) and Horizon Europe funding for security research.
 
 Asylum, migration and integration funds Asylum, Migration and Integration Fund (2021-2027)
@@ -608,8 +530,6 @@ End human trafficking. Break the invisible chain
 See all
 
 Events
-Public consultations
-Publications
 Evaluations and impact assessments Mid-term evaluation of the Europe for Citizens programme 2014-2020
 Ex-post evaluation of the programme "Prevention of and fight against Crime" (ISEC) 2007-2013
 Ex-post evaluation of the four instruments under the General Programme “Solidarity and Management of Migration Flows” (SOLID)
@@ -621,7 +541,7 @@ EU law monitoring
 
 Discover more
 
-Who we are Who we are About DG Migration & Home affairs
+About us About About DG Migration & Home affairs
 
 About us
 Commissioner for internal affairs and migration

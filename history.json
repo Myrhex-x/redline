@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-10-16-eu-commission-csa-policy",
+  "date": "2026-10-16",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "change",
+  "added": 1,
+  "removed": 81
+ },
+ {
+  "id": "2026-10-16-slack-compliance",
+  "date": "2026-10-16",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "change",
+  "added": 87,
+  "removed": 319
+ },
+ {
   "id": "2026-10-15-slack-compliance",
   "date": "2026-10-15",
   "slug": "slack",

@@ -1,0 +1,424 @@
+{
+ "id": "2026-10-16-eu-commission-csa-policy",
+ "date": "2026-10-16",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -494,84 +494,6 @@ See all",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Networks Networks The DG for Migration and Home Affairs organises and supports networks where members exchange views and information on policies, such as: child sexual abuse, radicalisation, drugs, protection of critical infrastructure and migration."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "CERIS - Community for European Research and Innovation for Security About CERIS"
+    },
+    {
+     "t": "-",
+     "s": "CERIS in pictures"
+    },
+    {
+     "t": "-",
+     "s": "CERIS events"
+    },
+    {
+     "t": "-",
+     "s": "CERIS news"
+    },
+    {
+     "t": "-",
+     "s": "EU security market study"
+    },
+    {
+     "t": "-",
+     "s": "Subscribe"
+    },
+    {
+     "t": "-",
+     "s": "Thematic areas"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "See all"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "European Migration Forum (EMF)"
+    },
+    {
+     "t": "-",
+     "s": "EU Knowledge Hub on Prevention of Radicalisation Calls for Applications"
+    },
+    {
+     "t": "-",
+     "s": "Policy and Practice Joint Events"
+    },
+    {
+     "t": "-",
+     "s": "Western Balkans"
+    },
+    {
+     "t": "-",
+     "s": "Knowledge Transfer"
+    },
+    {
+     "t": "-",
+     "s": "Inspiring Practices Repository"
+    },
+    {
+     "t": "-",
+     "s": "Prev. Inspiring Practices Repository"
+    },
+    {
+     "t": "-",
+     "s": "Thematic Panels"
+    },
+    {
+     "t": "-",
+     "s": "EU Academy"
+    },
+    {
+     "t": "-",
+     "s": "Welcome Package"
+    },
+    {
+     "t": "-",
+     "s": "Expert Database"
+    },
+    {
+     "t": "-",
+     "s": "Media"
+    },
+    {
+     "t": "-",
+     "s": "PCVE & Strategic Communications"
+    },
+    {
+     "t": "-",
+     "s": "Calls and Announcements"
+    },
+    {
+     "t": "-",
+     "s": "The Root Causes of Violent Extremism - The Basics"
+    },
+    {
+     "t": "-",
+     "s": "Strategic Orientations on a coordinated EU approach to prevention of radicalisation"
+    },
+    {
+     "t": "-",
+     "s": "A Way Out From Violent Extremism"
+    },
+    {
+     "t": "-",
+     "s": "Establishing Common Standards ‒ Gender-specific approaches in practical P/CVE"
+    },
+    {
+     "t": "-",
+     "s": "EU Security Union Strategy"
+    },
+    {
+     "t": "-",
+     "s": "About the EU Knowledge Hub on Prevention of Radicalisation"
+    },
+    {
+     "t": "-",
+     "s": "Spotlight on Gender"
+    },
+    {
+     "t": "-",
+     "s": "Guide for Teachers and Schools"
+    },
+    {
+     "t": "-",
+     "s": "News"
+    },
+    {
+     "t": "-",
+     "s": "Calendar"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "See all"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "RAN Policy Support EC Research e-Library on Radicalisation"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "See all"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "European Migration Network (EMN) About the EMN"
+    },
+    {
+     "t": "-",
+     "s": "EMN Asylum and Migration Glossary"
+    },
+    {
+     "t": "-",
+     "s": "EMN Events"
+    },
+    {
+     "t": "-",
+     "s": "EMN Member and Observer Countries"
+    },
+    {
+     "t": "-",
+     "s": "EMN partners"
+    },
+    {
+     "t": "-",
+     "s": "EMN publications"
+    },
+    {
+     "t": "-",
+     "s": "EMNews"
+    },
+    {
+     "t": "-",
+     "s": "Expert groups"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "See all"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "European Union Internet Forum"
+    },
+    {
+     "t": "-",
+     "s": "Labour Migration Platform"
+    },
+    {
+     "t": "-",
+     "s": "Law Enforcement Networks Working Group (LENWG)"
+    },
+    {
+     "t": "-",
+     "s": "Network for the Prevention of Child Sexual Abuse"
+    },
+    {
+     "t": "-",
+     "s": "High-Level Group (HLG) on access to data for effective law enforcement"
+    },
+    {
+     "t": "-",
+     "s": "Civil Society Forum on Drugs (CSF)"
+    },
+    {
+     "t": "-",
+     "s": "RAN Practitioners (archived) About RAN"
+    },
+    {
+     "t": "-",
+     "s": "Civil Society Empowerment Programme (CSEP)"
+    },
+    {
+     "t": "-",
+     "s": "Collection of inspiring practices"
+    },
+    {
+     "t": "-",
+     "s": "Conferences and Webinars"
+    },
+    {
+     "t": "-",
+     "s": "Publications"
+    },
+    {
+     "t": "-",
+     "s": "RAN Media"
+    },
+    {
+     "t": "-",
+     "s": "RAN News"
+    },
+    {
+     "t": "-",
+     "s": "RAN Participants"
+    },
+    {
+     "t": "-",
+     "s": "RAN Practitioners pages"
+    },
+    {
+     "t": "-",
+     "s": "RAN Publications"
+    },
+    {
+     "t": "-",
+     "s": "RAN YOUNG PLATFORM"
+    },
+    {
+     "t": "-",
+     "s": "RAN in the Western Balkans"
+    },
+    {
+     "t": "-",
+     "s": "Topics and Working Groups"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "See all"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Discover more"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Funding Funding Learn about EU funds supporting projects on migration and home affairs: Asylum, Migration and Integration Fund (AMIF), Internal Security Fund (ISF) and Horizon Europe funding for security research."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Asylum, migration and integration funds Asylum, Migration and Integration Fund (2021-2027)"
+    }
+   ]
+  },
+  {
+   "header": "@@ -608,8 +530,6 @@ End human trafficking. Break the invisible chain",
+   "lines": [
+    {
+     "t": " ",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Events"
+    },
+    {
+     "t": "-",
+     "s": "Public consultations"
+    },
+    {
+     "t": "-",
+     "s": "Publications"
+    },
+    {
+     "t": " ",
+     "s": "Evaluations and impact assessments Mid-term evaluation of the Europe for Citizens programme 2014-2020"
+    },
+    {
+     "t": " ",
+     "s": "Ex-post evaluation of the programme \"Prevention of and fight against Crime\" (ISEC) 2007-2013"
+    },
+    {
+     "t": " ",
+     "s": "Ex-post evaluation of the four instruments under the General Programme “Solidarity and Management of Migration Flows” (SOLID)"
+    }
+   ]
+  },
+  {
+   "header": "@@ -621,7 +541,7 @@ EU law monitoring",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Who we are Who we are About DG Migration & Home affairs"
+    },
+    {
+     "t": "+",
+     "s": "About us About About DG Migration & Home affairs"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "About us"
+    },
+    {
+     "t": " ",
+     "s": "Commissioner for internal affairs and migration"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
