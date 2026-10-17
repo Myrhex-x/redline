@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-10-17-google-privacy",
+  "date": "2026-10-17",
+  "slug": "google",
+  "company": "Google (Gmail)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 7,
+  "removed": 5
+ },
+ {
+  "id": "2026-10-17-meta-privacy",
+  "date": "2026-10-17",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 235,
+  "removed": 143
+ },
+ {
   "id": "2026-10-16-eu-commission-csa-policy",
   "date": "2026-10-16",
   "slug": "eu-commission",
