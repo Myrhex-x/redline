@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-10-18-meta-privacy",
+  "date": "2026-10-18",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 143,
+  "removed": 235
+ },
+ {
   "id": "2026-10-17-google-privacy",
   "date": "2026-10-17",
   "slug": "google",
