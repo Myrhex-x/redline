@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-10-19-slack-privacy",
+  "date": "2026-10-19",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 319,
+  "removed": 87
+ },
+ {
   "id": "2026-10-18-meta-privacy",
   "date": "2026-10-18",
   "slug": "meta",
