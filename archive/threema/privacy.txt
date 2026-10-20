@@ -92,6 +92,8 @@ Resources
 
 Blog
 
+What’s behind the current wave of cyberattacks?
+
 Privacy Tips from the Threema Team – Part 2
 
 Privacy Tips from the Threema Team – Part 1
@@ -99,8 +101,6 @@ Privacy Tips from the Threema Team – Part 1
 DDoS Attacks on Threema
 
 Messenger Interoperability: Well-Intended, but Bad for Data Privacy
-
-Easier Tag Management in the Management Cockpit
 
 Blog
 

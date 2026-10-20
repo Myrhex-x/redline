@@ -1,5 +1,53 @@
 [
  {
+  "id": "2026-10-20-gmx-security",
+  "date": "2026-10-20",
+  "slug": "gmx",
+  "company": "GMX (1&1 Mail)",
+  "doc": "security",
+  "docTitle": "E-Mail Sicherheit",
+  "kind": "change",
+  "added": 2,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"GMX Mobile\""
+ },
+ {
+  "id": "2026-10-20-slack-security",
+  "date": "2026-10-20",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "security",
+  "docTitle": "Security",
+  "kind": "change",
+  "added": 4,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "3 short labels, no prose and no tracked vocabulary: \"Frontline\", \"Frontline\", \"Frontline\""
+ },
+ {
+  "id": "2026-10-20-threema-privacy",
+  "date": "2026-10-20",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 2,
+  "removed": 2
+ },
+ {
+  "id": "2026-10-20-threema-security",
+  "date": "2026-10-20",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "change",
+  "added": 2,
+  "removed": 2
+ },
+ {
   "id": "2026-10-19-slack-privacy",
   "date": "2026-10-19",
   "slug": "slack",

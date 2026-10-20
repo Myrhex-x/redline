@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-20-gmx-security",
+ "date": "2026-10-20",
+ "slug": "gmx",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -39,6 +39,8 @@ GMX Cloud für macOS",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "MAX30"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "GMX Mobile"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Speicher erweitern"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sicherheit"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
