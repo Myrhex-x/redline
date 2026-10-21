@@ -138,7 +138,7 @@ Meetings Chat Phone Mail & Calendar Scheduler
 Productivity
 Canvas Whiteboard Clips Hub Video Management
 Spaces
-Rooms Workspace Reservation Digital Signage Visitor Management
+Rooms Workspace Reservation Signage Visitor Management
 Employee Engagement
 Workvivo
 

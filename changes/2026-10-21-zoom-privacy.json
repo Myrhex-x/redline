@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-21-zoom-privacy",
+ "date": "2026-10-21",
+ "slug": "zoom",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -138,7 +138,7 @@ Meetings Chat Phone Mail & Calendar Scheduler",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Productivity"
+    },
+    {
+     "t": " ",
+     "s": "Canvas Whiteboard Clips Hub Video Management"
+    },
+    {
+     "t": " ",
+     "s": "Spaces"
+    },
+    {
+     "t": "-",
+     "s": "Rooms Workspace Reservation Digital Signage Visitor Management"
+    },
+    {
+     "t": "+",
+     "s": "Rooms Workspace Reservation Signage Visitor Management"
+    },
+    {
+     "t": " ",
+     "s": "Employee Engagement"
+    },
+    {
+     "t": " ",
+     "s": "Workvivo"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
