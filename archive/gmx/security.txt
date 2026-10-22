@@ -89,7 +89,7 @@ Bei sicherheitsrelevanten Änderungen informiert dich GMX per E-Mail. Warst du e
 
 Für GMX ein eigenes Passwort verwenden
 
-Nutze für GMX ein starkes Passwort, das du bei keinem anderen Dienst verwendest. So schützt du deinen Account auch dann, wenn Zugangsdaten eines anderen Anbieters bekannt werden.
+Nutze für GMX ein starkes Passwort , das du bei keinem anderen Dienst verwendest. So schützt du deinen Account auch dann, wenn Zugangsdaten eines anderen Anbieters bekannt werden.
 
 Sicher mit Passkey bei GMX anmelden
 

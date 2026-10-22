@@ -1,0 +1,42 @@
+{
+ "id": "2026-10-22-google-gov-requests",
+ "date": "2026-10-22",
+ "slug": "google",
+ "doc": "gov-requests",
+ "hunks": [
+  {
+   "header": "@@ -22,6 +22,7 @@ Technologies",
+   "lines": [
+    {
+     "t": " ",
+     "s": "FAQ"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy & Terms"
+    },
+    {
+     "t": "+",
+     "s": "close"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Overview"
+    },
+    {
+     "t": " ",
+     "s": "Privacy Policy"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

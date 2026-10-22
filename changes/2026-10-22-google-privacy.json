@@ -1,0 +1,42 @@
+{
+ "id": "2026-10-22-google-privacy",
+ "date": "2026-10-22",
+ "slug": "google",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -22,6 +22,7 @@ Technologies",
+   "lines": [
+    {
+     "t": " ",
+     "s": "FAQ"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy & Terms"
+    },
+    {
+     "t": "+",
+     "s": "close"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Overview"
+    },
+    {
+     "t": " ",
+     "s": "Privacy Policy Data transfer frameworks"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

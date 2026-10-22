@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-22-gmx-privacy-de",
+ "date": "2026-10-22",
+ "slug": "gmx",
+ "doc": "privacy-de",
+ "hunks": [
+  {
+   "header": "@@ -704,7 +704,7 @@ Beschwerderecht bei der Aufsichtsbehörde",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Bei Datenschutzthemen im Telekommunikationskontext wende dich bitte an:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)"
+    },
+    {
+     "t": "+",
+     "s": "Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Graurheindorfer Straße 153"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

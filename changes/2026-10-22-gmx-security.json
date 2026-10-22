@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-22-gmx-security",
+ "date": "2026-10-22",
+ "slug": "gmx",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -89,7 +89,7 @@ Bei sicherheitsrelevanten Änderungen informiert dich GMX per E-Mail. Warst du e",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Für GMX ein eigenes Passwort verwenden"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Nutze für GMX ein starkes Passwort, das du bei keinem anderen Dienst verwendest. So schützt du deinen Account auch dann, wenn Zugangsdaten eines anderen Anbieters bekannt werden."
+    },
+    {
+     "t": "+",
+     "s": "Nutze für GMX ein starkes Passwort , das du bei keinem anderen Dienst verwendest. So schützt du deinen Account auch dann, wenn Zugangsdaten eines anderen Anbieters bekannt werden."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Sicher mit Passkey bei GMX anmelden"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
