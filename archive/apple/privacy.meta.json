@@ -1,11 +1,11 @@
 {
-  "company": "Apple (iMessage)",
+  "company": "Apple (iMessage, iCloud)",
   "title": "Privacy Policy",
   "url": "https://www.apple.com/legal/privacy/en-ww/",
   "finalUrl": "https://www.apple.com/legal/privacy/en-ww/",
   "httpStatus": 200,
-  "fetchedAt": "2026-07-26T10:23:01.311Z",
-  "textHash": "649ba6e1308ab1e7cccac8d5c1ecc14c882685fdd940025a73af2dcc284cab81",
-  "textChars": 29824,
-  "htmlBytes": 141426
+  "fetchedAt": "2026-10-23T11:42:44.940Z",
+  "textHash": "897c5a6c822e147af35e8b4b400ca22876646cd4cd4ccd856b34a1bb88dd2d5e",
+  "textChars": 29819,
+  "htmlBytes": 140802
 }

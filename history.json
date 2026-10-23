@@ -1,5 +1,42 @@
 [
  {
+  "id": "2026-10-23-apple-privacy",
+  "date": "2026-10-23",
+  "slug": "apple",
+  "company": "Apple (iMessage, iCloud)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"TV & Home\", \"Home\""
+ },
+ {
+  "id": "2026-10-23-apple-transparency",
+  "date": "2026-10-23",
+  "slug": "apple",
+  "company": "Apple (iMessage, iCloud)",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"TV & Home\", \"Home\""
+ },
+ {
+  "id": "2026-10-23-meta-privacy",
+  "date": "2026-10-23",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 143,
+  "removed": 235
+ },
+ {
   "id": "2026-10-22-gmx-privacy-de",
   "date": "2026-10-22",
   "slug": "gmx",

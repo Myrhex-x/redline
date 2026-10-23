@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-23-apple-transparency",
+ "date": "2026-10-23",
+ "slug": "apple",
+ "doc": "transparency",
+ "hunks": [
+  {
+   "header": "@@ -13,7 +13,7 @@ Vision",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "AirPods"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "TV & Home"
+    },
+    {
+     "t": "+",
+     "s": "Home"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Entertainment"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
