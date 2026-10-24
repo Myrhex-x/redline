@@ -1,0 +1,112 @@
+{
+ "id": "2026-10-24-slack-compliance",
+ "date": "2026-10-24",
+ "slug": "slack",
+ "doc": "compliance",
+ "hunks": [
+  {
+   "header": "@@ -30,6 +30,7 @@ Watch demo Download Slack",
+   "lines": [
+    {
+     "t": " ",
+     "s": "See all features →"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Solutions BY DEPARTMENT"
+    },
+    {
+     "t": "+",
+     "s": "Frontline"
+    },
+    {
+     "t": " ",
+     "s": "Engineering"
+    },
+    {
+     "t": " ",
+     "s": "IT"
+    },
+    {
+     "t": " ",
+     "s": "Customer Service"
+    }
+   ]
+  },
+  {
+   "header": "@@ -114,6 +115,7 @@ Trust & Security Keep work private and secure",
+   "lines": [
+    {
+     "t": " ",
+     "s": "What's new See latest feature releases Slack Marketplace Browse over 2,600 apps"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Solutions BY DEPARTMENT"
+    },
+    {
+     "t": "+",
+     "s": "Frontline"
+    },
+    {
+     "t": " ",
+     "s": "Engineering"
+    },
+    {
+     "t": " ",
+     "s": "IT"
+    },
+    {
+     "t": " ",
+     "s": "Customer Service"
+    }
+   ]
+  },
+  {
+   "header": "@@ -374,6 +376,8 @@ Slack Atlas",
+   "lines": [
+    {
+     "t": " ",
+     "s": "See all features"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Solutions Solutions"
+    },
+    {
+     "t": "+",
+     "s": "Frontline"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Engineering"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "IT"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

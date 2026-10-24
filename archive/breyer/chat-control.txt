@@ -1,5 +1,3 @@
-fightchatcontrol.eu
-
 Skip to content
 
 Home Posts and policy Chat Control: The EU’s CSAM scanner proposal
@@ -141,15 +139,11 @@ https://www.patrick-breyer.de/wp-content/uploads/2023/01/chatcontrol-explainer.m
 
 Take action to stop Chat Control
 
-The final content of the Chat Control 2.0 regulation is currently being negotiated behind closed doors. A potentially final and decisive trilogue will take place on Tuesday, 29 September. EU negotiators are under immense pressure to force a “dirty deal” that would permanently normalize mass surveillance across Europe. Read the details in leaked documents .
+The final content of the Chat Control 2.0 regulation is currently being negotiated behind closed doors. A potentially final and decisive trilogue will take place on Tuesday, 8 December. EU negotiators are under immense pressure to force a “dirty deal” that would permanently normalize mass surveillance across Europe. Read the details in leaked documents .
 
 What is on the negotiating table
 
-This is what Council (EU governments) is proposing in the trilogue:
-
-Detection orders in publicly accessible content
-
-Administrative authorities (not only courts) can order hosting service providers (including social media and cloud providers) to scan publicly accessible content for known CSAM. These platforms would be forced to continuously monitor all public uploads (not limited to uploads by users suspected of a crime). Public scanning orders could be issued to any hosting provider regardless of size.
+This is what Council (EU governments) have been proposing in the trilogue:
 
 Permanent “voluntary” Chat Control (own-initiative searches by providers in non-public content)
 
@@ -187,7 +181,7 @@ Take action
 
 As we enter the final round of negotiations, we must expand the resistance:
 
-Contact your MEPs immediately via fightchatcontrol.eu ! Use the tool below to send an email to your representatives. Tell them to stand by the Parliament’s mandate: Judicial warrants for specific suspects only. No broad “search plans.” No loopholes for voluntary mass scanning.
+Contact your MEPs via fightchatcontrol.eu ! Use the tool below to send an email to your representatives. Tell them to stand by the Parliament’s mandate: Judicial warrants for specific suspects only. No broad “search plans.” No loopholes for voluntary mass scanning.
 
 Explain to your friends why this is an important topic. This short video, translated to all European languages , is a good start – feel free to use and share it. Also available on PeerTube (EN) and YouTube (DE) .
 
@@ -330,6 +324,8 @@ The right to anonymous communication is being abolished: To identify minors, eve
 
 “Digital house arrest” for teenagers: The planned age control would exclude users under 17 from everyday apps like WhatsApp, Instagram, and online games, isolating and disempowering them.
 
+https://peertube.european-pirates.eu/w/ssT6mw67YJCyX8aV8dxgpR
+
 More videos on Chatcontrol are available in this playlist
 
 The negotiators
@@ -372,7 +368,9 @@ The negotiations: A timeline
 
 July 2026 (expected): Adoption of the regulation by EU Parliament and Council
 
-29 September 2026: Sixth and potentially final trilogue negotiation on chat control 2.0 proposal
+8 December 2026: Seventh and potentially final trilogue negotiation on chat control 2.0 proposal
+
+29 September 2026: Sixth trilogue negotiation on chat control 2.0 proposal
 
 29 June 2026: Fifth negotiation on chat control 2.0 proposal
 

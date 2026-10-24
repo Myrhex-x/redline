@@ -30,6 +30,7 @@ Watch demo Download Slack
 See all features →
 
 Solutions BY DEPARTMENT
+Frontline
 Engineering
 IT
 Customer Service
@@ -114,6 +115,7 @@ Trust & Security Keep work private and secure
 What's new See latest feature releases Slack Marketplace Browse over 2,600 apps
 
 Solutions BY DEPARTMENT
+Frontline
 Engineering
 IT
 Customer Service
@@ -374,6 +376,8 @@ Slack Atlas
 See all features
 
 Solutions Solutions
+Frontline
+
 Engineering
 
 IT

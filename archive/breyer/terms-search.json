@@ -3,10 +3,10 @@
  "documents": [
   {
    "doc": "chat-control",
-   "chars": 79417
+   "chars": 79086
   }
  ],
- "totalChars": 79417,
+ "totalChars": 79086,
  "terms": [
   {
    "group": "eu",
@@ -48,15 +48,15 @@
    "samples": [
     {
      "doc": "chat-control",
-     "quote": "fightchatcontrol.eu Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: Engl…"
-    },
-    {
-     "doc": "chat-control",
-     "quote": "fightchatcontrol.eu Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts…"
+     "quote": "Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts…"
     },
     {
      "doc": "chat-control",
      "quote": "…prache ändern: English Deutsch Welcome Posts and Dossiers Latest posts Latest videos Written questions Chat Control Going Dark group (Archive) Data retention ePrivacy Regulation (Archive) European Digital Identity (Archiv…"
+    },
+    {
+     "doc": "chat-control",
+     "quote": "…ss releases Press photos Press briefings Media reports Get involved Follow me OpenRequest Take action Chat Control: The EU’s CSAM scanner proposal 🇫🇷 French: Traduction du dossier Chat Control 2.0 , stopchatcontrol.fr 🇸\ud83c…"
     }
    ]
   },
@@ -84,11 +84,11 @@
    "group": "csam",
    "label": "CSAM / CSAE",
    "pattern": "\\bCSAM\\b|\\bCSAE\\b",
-   "count": 9,
+   "count": 8,
    "samples": [
     {
      "doc": "chat-control",
-     "quote": "fightchatcontrol.eu Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts Latest videos…"
+     "quote": "Skip to content Home Posts and policy Chat Control: The EU’s CSAM scanner proposal Sprache ändern: English Deutsch Welcome Posts and Dossiers Latest posts Latest videos…"
     },
     {
      "doc": "chat-control",
@@ -96,7 +96,7 @@
     },
     {
      "doc": "chat-control",
-     "quote": "…service providers (including social media and cloud providers) to scan publicly accessible content for known CSAM. These platforms would be forced to continuously monitor all public uploads (not limited to uploads by users…"
+     "quote": "…EU Child Protection Centre to proactively search publicly accessible internet content automatically for known CSAM. This crawling could also be used in the darknet and is thus more effective than private surveillance measure…"
     }
    ]
   },
@@ -170,7 +170,7 @@
    "group": "scan",
    "label": "scan / scanning / gescannt",
    "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
-   "count": 44,
+   "count": 42,
    "samples": [
     {
      "doc": "chat-control",
@@ -178,11 +178,11 @@
     },
     {
      "doc": "chat-control",
-     "quote": "…orities (not only courts) can order hosting service providers (including social media and cloud providers) to scan publicly accessible content for known CSAM. These platforms would be forced to continuously monitor all publi…"
+     "quote": "…voluntary” Chat Control (own-initiative searches by providers in non-public content) Providers may choose to scan non-public content (including messenger chats and non-public hosted content). Fake “targeted” scanning: Allo…"
     },
     {
      "doc": "chat-control",
-     "quote": "…ced to continuously monitor all public uploads (not limited to uploads by users suspected of a crime). Public scanning orders could be issued to any hosting provider regardless of size. Permanent “voluntary” Chat Control (own-i…"
+     "quote": "…choose to scan non-public content (including messenger chats and non-public hosted content). Fake “targeted” scanning: Allows providers to scan large parts or their service or chat groups without limiting the scanning to indivi…"
     }
    ]
   },
