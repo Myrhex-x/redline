@@ -1,5 +1,66 @@
 [
  {
+  "id": "2026-10-26-proton-privacy",
+  "date": "2026-10-26",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 8,
+  "removed": 8
+ },
+ {
+  "id": "2026-10-26-proton-security",
+  "date": "2026-10-26",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "security",
+  "docTitle": "Security / E2EE description",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"Change language\", \"EN\""
+ },
+ {
+  "id": "2026-10-26-proton-transparency",
+  "date": "2026-10-26",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 8,
+  "removed": 8
+ },
+ {
+  "id": "2026-10-26-threema-privacy",
+  "date": "2026-10-26",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"Partner\", \"Partner Finder\""
+ },
+ {
+  "id": "2026-10-26-threema-security",
+  "date": "2026-10-26",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"Partner\", \"Partner Finder\""
+ },
+ {
   "id": "2026-10-24-breyer-chat-control",
   "date": "2026-10-24",
   "slug": "breyer",
