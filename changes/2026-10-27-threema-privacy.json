@@ -1,0 +1,1239 @@
+{
+ "id": "2026-10-27-threema-privacy",
+ "date": "2026-10-27",
+ "slug": "threema",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -16,95 +16,193 @@ Français",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Español"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "About us"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Why Threema"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Security and Privacy as the Cornerstones of Digital Communication"
+    },
+    {
+     "t": "+",
+     "s": "en"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Privacy"
+    },
+    {
+     "t": "+",
+     "s": "English"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Privacy Without Compromise"
+    },
+    {
+     "t": "+",
+     "s": "Deutsch"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Security"
+    },
+    {
+     "t": "+",
+     "s": "Français"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Zero-Knowledge Security and Legal Compliance"
+    },
+    {
+     "t": "+",
+     "s": "Español"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Products"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Threema Work"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Highly secure communication for businesses. Data protection, productivity, and compliance – without compromising usability."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Learn more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Download"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Threema OnPrem"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Communication at the highest security level. The self-hosted communication solution for highest demands on security and confidentiality."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Learn more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Download Threema OnPrem"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Threema Private"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Solution"
+    },
+    {
+     "t": "+",
+     "s": "Privacy without compromise. Communicate with friends and family in complete confidentiality – no data snooping, no metadata collection, no compromises."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Learn more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Download"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Solutions"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Industries"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Public Sector"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "a]:-translate-y-2.5"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:opacity-0"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:transition-[opacity,transform]"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:duration-300"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:ease-out"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:delay-[calc(var(--nav-item-index)*75ms)]\""
+    },
+    {
+     "t": "+",
+     "s": ":class=\"openGrandchild === '59432a49-75d1-4ced-a672-3e3bddb5a5fe'"
+    },
+    {
+     "t": "+",
+     "s": "? '[&>a]:translate-y-0 [&>a]:opacity-100'"
+    },
+    {
+     "t": "+",
+     "s": ": ''\">"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Public Institutions"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Authorities"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Emergency Services"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Education"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Regulated Industries"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "a]:-translate-y-2.5"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:opacity-0"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:transition-[opacity,transform]"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:duration-300"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:ease-out"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:delay-[calc(var(--nav-item-index)*75ms)]\""
+    },
+    {
+     "t": "+",
+     "s": ":class=\"openGrandchild === 'f0e12841-a1d7-486c-8a5b-19984eaa5518'"
+    },
+    {
+     "t": "+",
+     "s": "? '[&>a]:translate-y-0 [&>a]:opacity-100'"
+    },
+    {
+     "t": "+",
+     "s": ": ''\">"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Healthcare"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Financial and Insurance Sectors"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Use Cases"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Messenger Comparison"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "a]:-translate-y-2.5"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:opacity-0"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:transition-[opacity,transform]"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:duration-300"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:ease-out"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:delay-[calc(var(--nav-item-index)*75ms)]\""
+    },
+    {
+     "t": "+",
+     "s": ":class=\"openGrandchild === 'b8cff798-9c86-4a9b-bad8-bb8ef23c71b1'"
+    },
+    {
+     "t": "+",
+     "s": "? '[&>a]:translate-y-0 [&>a]:opacity-100'"
+    },
+    {
+     "t": "+",
+     "s": ": ''\">"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "WhatsApp Alternative"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "MS Teams Alternatives"
+    },
+    {
+     "t": "+",
+     "s": "Complement to MS Teams"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Internal Communication"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "a]:-translate-y-2.5"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:opacity-0"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:transition-[opacity,transform]"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:duration-300"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:ease-out"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:delay-[calc(var(--nav-item-index)*75ms)]\""
+    },
+    {
+     "t": "+",
+     "s": ":class=\"openGrandchild === '1a879ea4-433e-401a-afc2-6081a33e18c0'"
+    },
+    {
+     "t": "+",
+     "s": "? '[&>a]:translate-y-0 [&>a]:opacity-100'"
+    },
+    {
+     "t": "+",
+     "s": ": ''\">"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "C-Level Communication"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Managing Shadow IT"
+    },
+    {
+     "t": "+",
+     "s": "Data Protection Despite “Bring Your Own Device”"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "One-to-Many Communication"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Fast Internal Communication via Messenger"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Mobile Workforce"
+    },
+    {
+     "t": "+",
+     "s": "Security and Resilience"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "a]:-translate-y-2.5"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:opacity-0"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:transition-[opacity,transform]"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:duration-300"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:ease-out"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:delay-[calc(var(--nav-item-index)*75ms)]\""
+    },
+    {
+     "t": "+",
+     "s": ":class=\"openGrandchild === '85b2308b-df4b-4dc5-bb7c-df1574d1355e'"
+    },
+    {
+     "t": "+",
+     "s": "? '[&>a]:translate-y-0 [&>a]:opacity-100'"
+    },
+    {
+     "t": "+",
+     "s": ": ''\">"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Business Continuity: Out-of-Band Communication"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "One-to-Many Communication"
+    },
+    {
+     "t": "+",
+     "s": "Strengthen Cyber Resilience: NIS2, DORA, and CER"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "GDPR-Compliant Communication"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Strengthen Cyber Resilience: NIS2, DORA, and CER"
+    },
+    {
+     "t": "+",
+     "s": "Managing Shadow IT"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Success Stories"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Mercedes-Benz Group AG"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "EDEKA"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "City of Frankfurt am Main"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Bavarian State Ministry of Justice"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "TK Elevator"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Success Stories"
+    },
+    {
+     "t": "+",
+     "s": "EDEKA"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Industries"
+    },
+    {
+     "t": "+",
+     "s": "All Success Stories"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Public Institutions"
+    },
+    {
+     "t": "+",
+     "s": "Resources"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Government"
+    },
+    {
+     "t": "+",
+     "s": "Knowledge and Documentation"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Emergency & Bluelight"
+    },
+    {
+     "t": "+",
+     "s": "Whitepapers"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Education"
+    },
+    {
+     "t": "+",
+     "s": "a]:-translate-y-2.5"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:opacity-0"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:transition-[opacity,transform]"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:duration-300"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:ease-out"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:delay-[calc(var(--nav-item-index)*75ms)]\""
+    },
+    {
+     "t": "+",
+     "s": ":class=\"openGrandchild === '5c2e8e07-6321-4bdf-bd7b-f4ac50fc0489'"
+    },
+    {
+     "t": "+",
+     "s": "? '[&>a]:translate-y-0 [&>a]:opacity-100'"
+    },
+    {
+     "t": "+",
+     "s": ": ''\">"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Financial and Insurance Sectors"
+    },
+    {
+     "t": "+",
+     "s": "Cybersecurity Study"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Resources"
+    },
+    {
+     "t": "+",
+     "s": "Cybersecurity Challenge"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Blog"
+    },
+    {
+     "t": "+",
+     "s": "Cybersecurity Regulations Whitepaper"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "What’s behind the current wave of cyberattacks?"
+    },
+    {
+     "t": "+",
+     "s": "Whatsapp Alternative Whitepaper"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Privacy Tips from the Threema Team – Part 2"
+    },
+    {
+     "t": "+",
+     "s": "Public Authorities Whitepaper"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Privacy Tips from the Threema Team – Part 1"
+    },
+    {
+     "t": "+",
+     "s": "Business Continuity Whitepaper"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "DDoS Attacks on Threema"
+    },
+    {
+     "t": "+",
+     "s": "Business Messaging Whitepaper"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Messenger Interoperability: Well-Intended, but Bad for Data Privacy"
+    },
+    {
+     "t": "+",
+     "s": "Cryptography Whitepaper"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Blog"
+    },
+    {
+     "t": "+",
+     "s": "FAQ and Support"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "FAQ"
+    },
+    {
+     "t": "+",
+     "s": "a]:-translate-y-2.5"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:opacity-0"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:transition-[opacity,transform]"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:duration-300"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:ease-out"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:delay-[calc(var(--nav-item-index)*75ms)]\""
+    },
+    {
+     "t": "+",
+     "s": ":class=\"openGrandchild === '76084e2c-2e5d-49b5-b497-70c596cc5543'"
+    },
+    {
+     "t": "+",
+     "s": "? '[&>a]:translate-y-0 [&>a]:opacity-100'"
+    },
+    {
+     "t": "+",
+     "s": ": ''\">"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Threema Private"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -114,37 +212,59 @@ Threema Broadcast",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Support Request"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Whitepapers"
+    },
+    {
+     "t": "+",
+     "s": "Documents"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Cryptography Whitepaper"
+    },
+    {
+     "t": "+",
+     "s": "Events and Partner"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Secure Messaging in Public Authorities"
+    },
+    {
+     "t": "+",
+     "s": "Events"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Business Continuity Management"
+    },
+    {
+     "t": "+",
+     "s": "Webinars"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Comparison of Business Messaging Solutions"
+    },
+    {
+     "t": "+",
+     "s": "Partner"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "WhatsApp Alternative for Businesses"
+    },
+    {
+     "t": "+",
+     "s": "a]:-translate-y-2.5"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:opacity-0"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:transition-[opacity,transform]"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:duration-300"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:ease-out"
+    },
+    {
+     "t": "+",
+     "s": "[&>a]:delay-[calc(var(--nav-item-index)*75ms)]\""
+    },
+    {
+     "t": "+",
+     "s": ":class=\"openGrandchild === 'd28ebfd9-81f6-4dba-9ab2-4f536379e120'"
+    },
+    {
+     "t": "+",
+     "s": "? '[&>a]:translate-y-0 [&>a]:opacity-100'"
+    },
+    {
+     "t": "+",
+     "s": ": ''\">"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "European Cybersecurity Regulations: NIS2, DORA, and CER"
+    },
+    {
+     "t": "+",
+     "s": "Partner Program"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "The Challenge of Cybersecurity"
+    },
+    {
+     "t": "+",
+     "s": "Partner Finder"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Study: Cybersecurity and Communication Tools"
+    },
+    {
+     "t": "+",
+     "s": "Blog"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Quicklinks"
+    },
+    {
+     "t": "+",
+     "s": "What’s behind the current wave of cyberattacks?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Events"
+    },
+    {
+     "t": "+",
+     "s": "Privacy Tips from the Threema Team – Part 1"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Webinars"
+    },
+    {
+     "t": "+",
+     "s": "Blog"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Partner Finder"
+    },
+    {
+     "t": "+",
+     "s": "Company"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "NEW"
+    },
+    {
+     "t": "+",
+     "s": "Why Threema?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Documents"
+    },
+    {
+     "t": "+",
+     "s": "Since 2012, we have been developing the Threema app in Switzerland, giving individuals, companies, and public authorities control over their data and ensuring uncompromising privacy protection."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Download"
+    },
+    {
+     "t": "+",
+     "s": "Learn more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Career"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Privacy"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "“Privacy by Design” means that we view data protection not just as a legal requirement, but as a guiding principle for our products and services."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Learn more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Security"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Threema protects confidential information, avoids metadata, and is GDPR-compliant – “Security by Design” is our philosophy."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Learn more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Pricing"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

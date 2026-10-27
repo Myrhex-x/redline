@@ -1,5 +1,49 @@
 [
  {
+  "id": "2026-10-27-threema-privacy",
+  "date": "2026-10-27",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 173,
+  "removed": 53
+ },
+ {
+  "id": "2026-10-27-threema-security",
+  "date": "2026-10-27",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "change",
+  "added": 173,
+  "removed": 53
+ },
+ {
+  "id": "2026-10-27-whatsapp-privacy",
+  "date": "2026-10-27",
+  "slug": "whatsapp",
+  "company": "WhatsApp",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy (EEA)",
+  "kind": "change",
+  "added": 2,
+  "removed": 0
+ },
+ {
+  "id": "2026-10-27-whatsapp-security",
+  "date": "2026-10-27",
+  "slug": "whatsapp",
+  "company": "WhatsApp",
+  "doc": "security",
+  "docTitle": "Security / E2EE description",
+  "kind": "change",
+  "added": 2,
+  "removed": 0
+ },
+ {
   "id": "2026-10-26-proton-privacy",
   "date": "2026-10-26",
   "slug": "proton",

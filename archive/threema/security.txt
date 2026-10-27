@@ -16,95 +16,193 @@ Français
 
 Español
 
-About us
+en
 
-Why Threema
+English
 
-Security and Privacy as the Cornerstones of Digital Communication
+Deutsch
 
-Privacy
+Français
 
-Privacy Without Compromise
-
-Security
-
-Zero-Knowledge Security and Legal Compliance
+Español
 
 Products
 
 Threema Work
 
+Highly secure communication for businesses. Data protection, productivity, and compliance – without compromising usability.
+
+Learn more
+
+Download
+
 Threema OnPrem
+
+Communication at the highest security level. The self-hosted communication solution for highest demands on security and confidentiality.
+
+Learn more
+
+Download Threema OnPrem
 
 Threema Private
 
-Solution
+Privacy without compromise. Communicate with friends and family in complete confidentiality – no data snooping, no metadata collection, no compromises.
+
+Learn more
+
+Download
+
+Solutions
+
+Industries
+
+Public Sector
+
+a]:-translate-y-2.5
+[&>a]:opacity-0
+[&>a]:transition-[opacity,transform]
+[&>a]:duration-300
+[&>a]:ease-out
+[&>a]:delay-[calc(var(--nav-item-index)*75ms)]"
+:class="openGrandchild === '59432a49-75d1-4ced-a672-3e3bddb5a5fe'
+? '[&>a]:translate-y-0 [&>a]:opacity-100'
+: ''">
+
+Public Institutions
+
+Authorities
+
+Emergency Services
+
+Education
+
+Regulated Industries
+
+a]:-translate-y-2.5
+[&>a]:opacity-0
+[&>a]:transition-[opacity,transform]
+[&>a]:duration-300
+[&>a]:ease-out
+[&>a]:delay-[calc(var(--nav-item-index)*75ms)]"
+:class="openGrandchild === 'f0e12841-a1d7-486c-8a5b-19984eaa5518'
+? '[&>a]:translate-y-0 [&>a]:opacity-100'
+: ''">
+
+Healthcare
+
+Financial and Insurance Sectors
 
 Use Cases
 
+Messenger Comparison
+
+a]:-translate-y-2.5
+[&>a]:opacity-0
+[&>a]:transition-[opacity,transform]
+[&>a]:duration-300
+[&>a]:ease-out
+[&>a]:delay-[calc(var(--nav-item-index)*75ms)]"
+:class="openGrandchild === 'b8cff798-9c86-4a9b-bad8-bb8ef23c71b1'
+? '[&>a]:translate-y-0 [&>a]:opacity-100'
+: ''">
+
 WhatsApp Alternative
 
-MS Teams Alternatives
+Complement to MS Teams
+
+Internal Communication
+
+a]:-translate-y-2.5
+[&>a]:opacity-0
+[&>a]:transition-[opacity,transform]
+[&>a]:duration-300
+[&>a]:ease-out
+[&>a]:delay-[calc(var(--nav-item-index)*75ms)]"
+:class="openGrandchild === '1a879ea4-433e-401a-afc2-6081a33e18c0'
+? '[&>a]:translate-y-0 [&>a]:opacity-100'
+: ''">
 
 C-Level Communication
 
-Managing Shadow IT
-
-Fast Internal Communication via Messenger
-
-Mobile Workforce
-
-Business Continuity: Out-of-Band Communication
+Data Protection Despite “Bring Your Own Device”
 
 One-to-Many Communication
 
-GDPR-Compliant Communication
+Fast Internal Communication via Messenger
+
+Security and Resilience
+
+a]:-translate-y-2.5
+[&>a]:opacity-0
+[&>a]:transition-[opacity,transform]
+[&>a]:duration-300
+[&>a]:ease-out
+[&>a]:delay-[calc(var(--nav-item-index)*75ms)]"
+:class="openGrandchild === '85b2308b-df4b-4dc5-bb7c-df1574d1355e'
+? '[&>a]:translate-y-0 [&>a]:opacity-100'
+: ''">
+
+Business Continuity: Out-of-Band Communication
 
 Strengthen Cyber Resilience: NIS2, DORA, and CER
+
+GDPR-Compliant Communication
+
+Managing Shadow IT
 
 Success Stories
 
 Mercedes-Benz Group AG
 
-EDEKA
-
 City of Frankfurt am Main
 
-Bavarian State Ministry of Justice
+EDEKA
 
-TK Elevator
-
-Success Stories
-
-Industries
-
-Public Institutions
-
-Government
-
-Emergency & Bluelight
-
-Education
-
-Financial and Insurance Sectors
+All Success Stories
 
 Resources
 
-Blog
+Knowledge and Documentation
 
-What’s behind the current wave of cyberattacks?
+Whitepapers
 
-Privacy Tips from the Threema Team – Part 2
+a]:-translate-y-2.5
+[&>a]:opacity-0
+[&>a]:transition-[opacity,transform]
+[&>a]:duration-300
+[&>a]:ease-out
+[&>a]:delay-[calc(var(--nav-item-index)*75ms)]"
+:class="openGrandchild === '5c2e8e07-6321-4bdf-bd7b-f4ac50fc0489'
+? '[&>a]:translate-y-0 [&>a]:opacity-100'
+: ''">
 
-Privacy Tips from the Threema Team – Part 1
+Cybersecurity Study
 
-DDoS Attacks on Threema
+Cybersecurity Challenge
 
-Messenger Interoperability: Well-Intended, but Bad for Data Privacy
+Cybersecurity Regulations Whitepaper
 
-Blog
+Whatsapp Alternative Whitepaper
 
-FAQ
+Public Authorities Whitepaper
+
+Business Continuity Whitepaper
+
+Business Messaging Whitepaper
+
+Cryptography Whitepaper
+
+FAQ and Support
+
+a]:-translate-y-2.5
+[&>a]:opacity-0
+[&>a]:transition-[opacity,transform]
+[&>a]:duration-300
+[&>a]:ease-out
+[&>a]:delay-[calc(var(--nav-item-index)*75ms)]"
+:class="openGrandchild === '76084e2c-2e5d-49b5-b497-70c596cc5543'
+? '[&>a]:translate-y-0 [&>a]:opacity-100'
+: ''">
 
 Threema Private
 
@@ -114,37 +212,59 @@ Threema Broadcast
 
 Support Request
 
-Whitepapers
+Documents
 
-Cryptography Whitepaper
-
-Secure Messaging in Public Authorities
-
-Business Continuity Management
-
-Comparison of Business Messaging Solutions
-
-WhatsApp Alternative for Businesses
-
-European Cybersecurity Regulations: NIS2, DORA, and CER
-
-The Challenge of Cybersecurity
-
-Study: Cybersecurity and Communication Tools
-
-Quicklinks
+Events and Partner
 
 Events
 
 Webinars
 
+Partner
+
+a]:-translate-y-2.5
+[&>a]:opacity-0
+[&>a]:transition-[opacity,transform]
+[&>a]:duration-300
+[&>a]:ease-out
+[&>a]:delay-[calc(var(--nav-item-index)*75ms)]"
+:class="openGrandchild === 'd28ebfd9-81f6-4dba-9ab2-4f536379e120'
+? '[&>a]:translate-y-0 [&>a]:opacity-100'
+: ''">
+
+Partner Program
+
 Partner Finder
 
-NEW
+Blog
 
-Documents
+What’s behind the current wave of cyberattacks?
 
-Download
+Privacy Tips from the Threema Team – Part 1
+
+Blog
+
+Company
+
+Why Threema?
+
+Since 2012, we have been developing the Threema app in Switzerland, giving individuals, companies, and public authorities control over their data and ensuring uncompromising privacy protection.
+
+Learn more
+
+Career
+
+Privacy
+
+“Privacy by Design” means that we view data protection not just as a legal requirement, but as a guiding principle for our products and services.
+
+Learn more
+
+Security
+
+Threema protects confidential information, avoids metadata, and is GDPR-compliant – “Security by Design” is our philosophy.
+
+Learn more
 
 Pricing
 
