@@ -237,7 +237,7 @@ Financial Industry Regulatory Authority (FINRA)
 Slack is FINRA 17a-4 configurable so your team can collaborate and still meet your compliance requirements.
 
 Federal Risk and Authorization Management Program (FedRAMP)
-Slack is FedRAMP Moderate authorized to meet the compliance needs of organizations in the public sector with an Enterprise or Enterprise+ Slack plan and properly configured in accordance with the Secure Configuration Guide .
+Slack is FedRAMP Moderate authorized to meet the compliance needs of organizations in the public sector with an Enterprise or Enterprise+ Slack plan and a FedRAMP Support add-on. Slack must also be properly configured in accordance with the Secure Configuration Guide .
 GovSlack is FedRAMP JAB High authorized and is also pursing DoD CC SRG IL4 compliance.
 View our Moderate authorization
 View our JAB High authorization

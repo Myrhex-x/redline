@@ -1,0 +1,34 @@
+{
+ "id": "2026-10-28-whatsapp-privacy",
+ "date": "2026-10-28",
+ "slug": "whatsapp",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -1,4 +1,4 @@",
+   "lines": [
+    {
+     "t": "-",
+     "s": "New! Call anyone — right from your browser. Now you can make or answer calls from WhatsApp Web. Try it"
+    },
+    {
+     "t": "+",
+     "s": "Close New! Call anyone — right from your browser. Now you can make or answer calls from WhatsApp Web. Try it"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Features"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

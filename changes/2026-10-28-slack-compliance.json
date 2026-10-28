@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-28-slack-compliance",
+ "date": "2026-10-28",
+ "slug": "slack",
+ "doc": "compliance",
+ "hunks": [
+  {
+   "header": "@@ -237,7 +237,7 @@ Financial Industry Regulatory Authority (FINRA)",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Slack is FINRA 17a-4 configurable so your team can collaborate and still meet your compliance requirements."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Federal Risk and Authorization Management Program (FedRAMP)"
+    },
+    {
+     "t": "-",
+     "s": "Slack is FedRAMP Moderate authorized to meet the compliance needs of organizations in the public sector with an Enterprise or Enterprise+ Slack plan and properly configured in accordance with the Secure Configuration Guide ."
+    },
+    {
+     "t": "+",
+     "s": "Slack is FedRAMP Moderate authorized to meet the compliance needs of organizations in the public sector with an Enterprise or Enterprise+ Slack plan and a FedRAMP Support add-on. Slack must also be properly configured in accordance with the Secure Configuration Guide ."
+    },
+    {
+     "t": " ",
+     "s": "GovSlack is FedRAMP JAB High authorized and is also pursing DoD CC SRG IL4 compliance."
+    },
+    {
+     "t": " ",
+     "s": "View our Moderate authorization"
+    },
+    {
+     "t": " ",
+     "s": "View our JAB High authorization"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
