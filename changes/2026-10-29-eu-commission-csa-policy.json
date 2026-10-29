@@ -1,0 +1,200 @@
+{
+ "id": "2026-10-29-eu-commission-csa-policy",
+ "date": "2026-10-29",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -40,7 +40,7 @@ Migration and Home Affairs",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Menu Back"
+    },
+    {
+     "t": " ",
+     "s": "Home"
+    },
+    {
+     "t": "-",
+     "s": "Migration Migration and asylum The European Commission develops and oversees common EU policy in the area of migration and asylum. This includes: the EU asylum system, legal migration, irregular migration and return, migration management in the Member States, migrant integration and statistics on migration to Europe."
+    },
+    {
+     "t": "+",
+     "s": "Migration and asylum Migration and asylum The European Commission develops and oversees common EU policy in the area of migration and asylum. This includes: the EU asylum system, legal migration, irregular migration and return, migration management in the Member States, migrant integration and statistics on migration to Europe."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Asylum in the EU Determining the Member State responsible for an asylum application"
+    },
+    {
+     "t": " ",
+     "s": "Reception conditions"
+    }
+   ]
+  },
+  {
+   "header": "@@ -49,8 +49,7 @@ Who qualifies for international protection",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "EU Immigration Portal Highly-qualified worker in Slovakia"
+    },
+    {
+     "t": "-",
+     "s": "Highly-qualified worker in Slovenia"
+    },
+    {
+     "t": "+",
+     "s": "EU Immigration Portal Highly-qualified worker in Slovenia"
+    },
+    {
+     "t": " ",
+     "s": "Highly-qualified worker in Spain"
+    },
+    {
+     "t": " ",
+     "s": "Highly-qualified worker in Sweden"
+    },
+    {
+     "t": " ",
+     "s": "International service provider in Austria"
+    }
+   ]
+  },
+  {
+   "header": "@@ -494,6 +493,27 @@ See all",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "International affairs International affairs Migration and internal security are key priorities for EU external relations, ensuring a coordinated and coherent approach by involving all relevant stakeholders. Cooperation with external partners is key to address migration challenges and opportunities."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Collaboration with international organisations"
+    },
+    {
+     "t": "+",
+     "s": "Migration Partnership Facility (MPF)"
+    },
+    {
+     "t": "+",
+     "s": "Engagement with partner countries EU candidate countries"
+    },
+    {
+     "t": "+",
+     "s": "Financial and technical assistance"
+    },
+    {
+     "t": "+",
+     "s": "Mobility partnerships, visa facilitation and readmission agreements"
+    },
+    {
+     "t": "+",
+     "s": "Latin America and the Caribbean"
+    },
+    {
+     "t": "+",
+     "s": "Eastern Partnership"
+    },
+    {
+     "t": "+",
+     "s": "Southern Neighbourhood"
+    },
+    {
+     "t": "+",
+     "s": "Russia"
+    },
+    {
+     "t": "+",
+     "s": "United Kingdom"
+    },
+    {
+     "t": "+",
+     "s": "United States"
+    },
+    {
+     "t": "+",
+     "s": "Africa"
+    },
+    {
+     "t": "+",
+     "s": "Asia"
+    },
+    {
+     "t": "+",
+     "s": "Canada"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "See all"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Discover more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Funding Funding Learn about EU funds supporting projects on migration and home affairs: Asylum, Migration and Integration Fund (AMIF), Internal Security Fund (ISF) and Horizon Europe funding for security research."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Asylum, migration and integration funds Asylum, Migration and Integration Fund (2021-2027)"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
