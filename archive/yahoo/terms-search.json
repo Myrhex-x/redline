@@ -7,10 +7,10 @@
   },
   {
    "doc": "privacy",
-   "chars": 44005
+   "chars": 47594
   }
  ],
- "totalChars": 47796,
+ "totalChars": 51385,
  "terms": [
   {
    "group": "eu",
@@ -44,15 +44,37 @@
    "group": "csam",
    "label": "CSAM / CSAE",
    "pattern": "\\bCSAM\\b|\\bCSAE\\b",
-   "count": 0,
-   "samples": []
+   "count": 4,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…ive, harmful or illegal content. For example, we use detection tools to identify child sexual abuse material (CSAM) in our email service. When we detect CSAM, it is reported to the United States National Center for Missing &…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…e, we use detection tools to identify child sexual abuse material (CSAM) in our email service. When we detect CSAM, it is reported to the United States National Center for Missing & Exploited Children. For more information,…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…sing & Exploited Children. For more information, visit Yahoo's Efforts to Combat Child Sexual Abuse Material (CSAM) . When protecting vital interests we aim to combat harmful conduct and promote safety, integrity and securit…"
+    }
+   ]
   },
   {
    "group": "csam",
    "label": "child sexual abuse / Kindesmissbrauch",
    "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
-   "count": 0,
-   "samples": []
+   "count": 2,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…nd reporting fraudulent, abusive, harmful or illegal content. For example, we use detection tools to identify child sexual abuse material (CSAM) in our email service. When we detect CSAM, it is reported to the United States National Cente…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…tates National Center for Missing & Exploited Children. For more information, visit Yahoo's Efforts to Combat Child Sexual Abuse Material (CSAM) . When protecting vital interests we aim to combat harmful conduct and promote safety, integr…"
+    }
+   ]
   },
   {
    "group": "csam",

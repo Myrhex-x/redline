@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-11-01-yahoo-privacy",
+  "date": "2026-11-01",
+  "slug": "yahoo",
+  "company": "Yahoo Mail",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy (EU)",
+  "kind": "change",
+  "added": 29,
+  "removed": 14
+ },
+ {
   "id": "2026-10-29-eu-commission-csa-policy",
   "date": "2026-10-29",
   "slug": "eu-commission",

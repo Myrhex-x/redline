@@ -1,0 +1,611 @@
+{
+ "id": "2026-11-01-yahoo-privacy",
+ "date": "2026-11-01",
+ "slug": "yahoo",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -65,12 +65,12 @@ Yahoo International Limited privacy policy",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Expand all"
+    },
+    {
+     "t": " ",
+     "s": "Collapse all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Version 1.2, last updated January 2026 (see the previous Privacy Policy here )."
+    },
+    {
+     "t": "+",
+     "s": "Version 1.3, last updated November 2026 (see the previous Privacy Policy here )."
+    },
+    {
+     "t": " ",
+     "s": "This privacy policy describes who we are, what information we collect from you, how we process your information, who we share it with, and your rights under data protection laws."
+    },
+    {
+     "t": " ",
+     "s": "To make it easier for you to navigate this privacy policy, we have put certain words and phrases in bold . You can click on them to see a definition of the word or phrase."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "1. Who we are"
+    },
+    {
+     "t": "-",
+     "s": "We, Yahoo International Limited, are a technology and media company. Yahoo International Limited is a company established under the laws of Ireland and with headquarters located at ####Dublin-v2address#### Ireland. Yahoo International Limited is the data controller, meaning that we are responsible for why and how the personal information we collect through our services is used and held."
+    },
+    {
+     "t": "+",
+     "s": "We, Yahoo International Limited, are a technology and media company. Yahoo International Limited is a company established under the laws of Ireland and with headquarters located at The EXO Building, North Wall Quay, Dublin 1, D01 W5Y2, Ireland. Yahoo International Limited is the data controller, meaning that we are responsible for why and how the personal information we collect through our services is used and held."
+    },
+    {
+     "t": " ",
+     "s": "We provide our consumer services , under brands such as Yahoo. We can offer you most of these sites and apps for free, thanks to advertising shown on our consumer services. In order to display, personalise and measure the ads which are shown to you on our sites and apps, we collect certain data as outlined in this privacy policy. Learn more about how digital advertising works."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "2. When this privacy policy applies"
+    }
+   ]
+  },
+  {
+   "header": "@@ -176,6 +176,8 @@ When you make the payment or subscribe to our services.",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Contact information and user-generated content that you provide in surveys, comments, and Yahoo-sponsored promotions."
+    },
+    {
+     "t": " ",
+     "s": "When you provide information on our consumer services in surveys, comments, and Yahoo-sponsored promotions."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Some of the information you provide is necessary for us to provide our consumer services — for example, the information needed to create and secure your account, or to process a subscription payment. If you do not provide it, we may not be able to provide the relevant service or feature."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We collect the following information when you use our consumer services (direct collection)."
+    },
+    {
+     "t": " ",
+     "s": "Type of information"
+    },
+    {
+     "t": " ",
+     "s": "When we collect it"
+    }
+   ]
+  },
+  {
+   "header": "@@ -232,6 +234,7 @@ Consent - you have given us clear permission.",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Legitimate interests - the processing is necessary for our legitimate interests or the legitimate interests of a third party, unless there is a good reason to protect your personal information and that takes priority over our or a third party’s legitimate interests."
+    },
+    {
+     "t": " ",
+     "s": "Legal obligation - the processing is necessary for us to keep to any law that applies (not including our obligations under any contract)."
+    },
+    {
+     "t": " ",
+     "s": "Vital interests - the processing is necessary to protect the vital interests of a person, for example to protect someone’s life."
+    },
+    {
+     "t": "+",
+     "s": "Substantial public interest - the processing is necessary for reasons of substantial public interest."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Click on + on the right to learn more."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -269,7 +272,7 @@ Online activity information",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Technical identifiers"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Approximate geolocation information"
+    },
+    {
+     "t": "-",
+     "s": "To process the queries that you type into our search services and provide you with relevant search results."
+    },
+    {
+     "t": "+",
+     "s": "To process the queries and prompts that you type into our search and AI assistant services and provide you with relevant results and responses. When you use an AI feature, the information you enter is sent to the AI provider that powers it. Please don't enter information you would not want Yahoo or that provider to use — in particular, avoid entering sensitive information such as health information, religious beliefs or sexual orientation."
+    },
+    {
+     "t": " ",
+     "s": "To display articles, videos and other content from us and our content partners. We will not personalise the content we show you without your consent ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Online activity information"
+    }
+   ]
+  },
+  {
+   "header": "@@ -301,7 +304,7 @@ Why we process this information",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Email information"
+    },
+    {
+     "t": " ",
+     "s": "To provide you with product features such as:"
+    },
+    {
+     "t": "-",
+     "s": "email features (for example, tracking packages, identifying travel-related emails, including those relating to flight and hotel bookings, and one-tap unsubscribing from emails you no longer want to receive), and"
+    },
+    {
+     "t": "+",
+     "s": "email features — including using AI and machine learning to classify, sort and prioritise your messages, to extract useful details from certain messages (for example, tracking packages and identifying travel-related emails such as flight and hotel bookings), to generate short summaries of messages, and to let you unsubscribe in one tap from emails you no longer want to receive, and"
+    },
+    {
+     "t": " ",
+     "s": "other features across our consumer services (for example, on the Yahoo homepage in certain countries you can view your spending based on the purchase receipts you have been emailed)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "If you are using our services in the EEA, UK, or Switzerland you can go to your privacy controls to control how we use your email information for product features."
+    }
+   ]
+  },
+  {
+   "header": "@@ -335,7 +338,7 @@ Purchase information",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Technical identifiers"
+    },
+    {
+     "t": " ",
+     "s": "To target and deliver tailored ads to you on our consumer services ."
+    },
+    {
+     "t": "-",
+     "s": "To measure how effective our ads are and to create technical identifiers and advertising interest profiles based on your inferred interests."
+    },
+    {
+     "t": "+",
+     "s": "To measure how effective our ads are and to create technical identifiers and advertising interest profiles based on your inferred interests. We use AI and machine learning to build your advertising interest profile and to help select, rank and measure the ads we show you."
+    },
+    {
+     "t": " ",
+     "s": "If you withhold or withdraw your consent for us to use your personal information to target and deliver advertising to you, we will still show you ads, but these ads will not be tailored to you based on these categories of information."
+    },
+    {
+     "t": " ",
+     "s": "Please see how digital advertising works to learn more about how we use your information to provide advertising to you. Yahoo's advertising policies do not allow the processing of data from children known to be under 18 for targeted advertising purposes."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -370,6 +373,7 @@ Purchase information",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Technical identifiers"
+    },
+    {
+     "t": " ",
+     "s": "To provide tailored content to you and to create content interest profiles based on your inferred interests."
+    },
+    {
+     "t": "+",
+     "s": "We use AI and machine learning to rank, order and recommend the tailored content you see across our consumer services — for example, in Yahoo News, Sports and Finance."
+    },
+    {
+     "t": " ",
+     "s": "For example, if you frequently read articles on our consumer services about sports or financial markets, we will create profiles that identify you as a ‘sports enthusiast’ or ‘financial news consumer’. When you visit our consumer services in the future, you will see more articles about those interests. Similarly, if you add a company’s stock symbol to your Yahoo stock portfolio, we will show you more news articles about that company."
+    },
+    {
+     "t": " ",
+     "s": "If you withhold or withdraw your consent for us to use your personal information to provide tailored content to you, we will still show you content, but it will not be based on your inferred interests. Also, we will not use cookies and similar technologies to measure how you interact with the content we show you."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -421,9 +425,7 @@ Precise geolocation information",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Purchase information"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Technical identifiers"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "User-generated content"
+    },
+    {
+     "t": "-",
+     "s": "With your consent, we analyse your interactions with our consumer services to understand how our services are performing. This enables us to improve our users’ experience, develop more content, features, products and services that are relevant to our users."
+    },
+    {
+     "t": "+",
+     "s": "With your consent, we analyse your interactions with our consumer services to understand how our services are performing. This enables us to improve our users’ experience, develop more content, features, products and services that are relevant to our users. This includes, where you have consented, using your information to develop, fine-tune and improve the AI and machine-learning models that power features of our consumer services."
+    },
+    {
+     "t": " ",
+     "s": "We do this by:"
+    },
+    {
+     "t": " ",
+     "s": "tracking how users navigate (move through) our services, analysing user interactions, studying the performance of key user flows (such as our checkout flow) to identify areas for optimisation which improves the usability of our sites and apps."
+    },
+    {
+     "t": " ",
+     "s": "understanding user behavior to identify common behavioral patterns such as the most-visited pages and assessing how the changes we make to our sites and apps impact how users engage with our products and services. This helps us improve our products and services and anticipate user needs to enhance the overall user engagement on our consumer services."
+    }
+   ]
+  },
+  {
+   "header": "@@ -458,8 +460,6 @@ Online activity information",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Purchase information"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Technical identifiers"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "User-generated content"
+    },
+    {
+     "t": " ",
+     "s": "To create insights which help us to:"
+    },
+    {
+     "t": " ",
+     "s": "measure and understand how our consumer services are working and how they are being used, and"
+    },
+    {
+     "t": " ",
+     "s": "create more relevant content, services and features for our consumer services"
+    }
+   ]
+  },
+  {
+   "header": "@@ -486,6 +486,7 @@ For authentication purposes, to verify your identity in certain cases, such as w",
+   "lines": [
+    {
+     "t": " ",
+     "s": "All categories of information"
+    },
+    {
+     "t": " ",
+     "s": "To prevent and detect fraudulent, abusive, harmful or unlawful activity and to protect your account and our systems."
+    },
+    {
+     "t": " ",
+     "s": "We use your IP address to protect our services from fraud and other harmful technologies and activities."
+    },
+    {
+     "t": "+",
+     "s": "We also use AI and machine learning to moderate content and to maintain the quality and safety of our consumer services — including to detect, filter, remove or restrict harmful, abusive, misleading or low-quality content."
+    },
+    {
+     "t": " ",
+     "s": "We also analyse your email information for viruses and other malware that would harm the performance or security of our email services and network, as well as to detect, prevent and protect against fraudulent, abusive, harmful or unlawful behaviour. For example, we use email information for performance monitoring, security analysis, failure and outage detection and repair, troubleshooting and debugging, capacity planning and forecasting, traffic optimisation and load balancing, and to maintain the integrity of our systems and services."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Processing carried out to investigate, identify, bring or defend against legal claims, to share information with other relevant parties, including law-enforcement agencies, and to respond to legal requests"
+    }
+   ]
+  },
+  {
+   "header": "@@ -543,9 +544,18 @@ Why we process this information",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "All categories of information"
+    },
+    {
+     "t": " ",
+     "s": "To review and share information, including with law-enforcement agencies and other authorities or organisations, in circumstances where your or someone else’s vital interests need to be protected, such as in an emergency."
+    },
+    {
+     "t": "-",
+     "s": "Vital interests include protecting your (and other people’s) life and physical or mental wellbeing, and detecting, removing and reporting fraudulent, abusive, harmful or illegal content."
+    },
+    {
+     "t": "+",
+     "s": "Vital interests include protecting your (and other people’s) life and physical or mental wellbeing, and detecting, removing and reporting fraudulent, abusive, harmful or illegal content. For example, we use detection tools to identify child sexual abuse material (CSAM) in our email service. When we detect CSAM, it is reported to the United States National Center for Missing & Exploited Children. For more information, visit Yahoo's Efforts to Combat Child Sexual Abuse Material (CSAM) ."
+    },
+    {
+     "t": " ",
+     "s": "When protecting vital interests we aim to combat harmful conduct and promote safety, integrity and security, including when we are investigating reports of harmful behaviour or are taking appropriate action, such as sharing information with relevant authorities when someone needs help."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Substantial public interest"
+    },
+    {
+     "t": "+",
+     "s": "We process your information when it is necessary for reasons of substantial public interest."
+    },
+    {
+     "t": "+",
+     "s": "Category of information we process"
+    },
+    {
+     "t": "+",
+     "s": "Why we process this information"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "All categories of information"
+    },
+    {
+     "t": "+",
+     "s": "To review and share information, including with law-enforcement agencies and other authorities or organisations, for reasons of substantial public interest, on the basis of EU or Member State Law."
+    },
+    {
+     "t": "+",
+     "s": "For example, as noted above, when we detect CSAM in our email service, it is reported to the United States National Center for Missing & Exploited Children in accordance with the substantial public interest of protecting children both offline and online."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "7. Sharing your information"
+    },
+    {
+     "t": " ",
+     "s": "Below are the categories of recipients we share your information with."
+    },
+    {
+     "t": " ",
+     "s": "Click on + on the right to learn more about these recipients and why we share your information with them."
+    }
+   ]
+  },
+  {
+   "header": "@@ -566,8 +576,9 @@ providers of cloud storage",
+   "lines": [
+    {
+     "t": " ",
+     "s": "application service providers"
+    },
+    {
+     "t": " ",
+     "s": "subscription-management and payment services"
+    },
+    {
+     "t": " ",
+     "s": "Advertising technology service providers acting on our behalf"
+    },
+    {
+     "t": "-",
+     "s": "security partners and service providers, and"
+    },
+    {
+     "t": "-",
+     "s": "feedback and comments platforms."
+    },
+    {
+     "t": "+",
+     "s": "security partners and service providers"
+    },
+    {
+     "t": "+",
+     "s": "feedback and comments platforms, and"
+    },
+    {
+     "t": "+",
+     "s": "third-party AI model providers (who may only use your information to provide the service to us, and not to develop or improve their own AI models)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Advertising partners"
+    },
+    {
+     "t": " ",
+     "s": "If you consent to the sharing of your information with our advertising partners for the purposes mentioned below, we will share and allow our advertising partners to collect your online activity information , device information , approximate geolocation information , and technical identifiers so they can:"
+    }
+   ]
+  },
+  {
+   "header": "@@ -678,7 +689,9 @@ why it has been collected and is being processed",
+   "lines": [
+    {
+     "t": " ",
+     "s": "business needs (for example, creating backups so we can restore our services after a disaster), and"
+    },
+    {
+     "t": " ",
+     "s": "any legal requirements we must keep to."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "For example, we keep the content of your email account for as long as your account is active. To keep your account active you must log in at least once every 12 months. If your account becomes inactive, your mailbox will be automatically deleted and cannot be restored. If your account continues to be inactive for a further six months, making it inactive for a total of 18 months, your account will be automatically scheduled for deactivation and deletion by our systems. We will tell you using your alternative communications channel (if you have set one up) before this happens. For more information on our account deletion practices, please see information on Inactive mailboxes in Yahoo Mail or Reasons Yahoo deactivates or deletes an account"
+    },
+    {
+     "t": "+",
+     "s": "We keep the content of your mailbox for as long as your mailbox is active. To keep your mailbox active, you must sign in to Yahoo Mail and actually access your mailbox — for example, open and read your email — at least once every 12 months. Signing in to your Yahoo account alone is not enough, and other activity that does not involve you accessing your mailbox (such as simply continuing to receive emails) does not count."
+    },
+    {
+     "t": "+",
+     "s": "If your mailbox becomes inactive because you have not accessed it for 12 months, it will be automatically deleted and the contents cannot be restored. Before this happens, we will give you advance notice by email, sent to the alternative email address associated with your account (if there is one setup on the account). We do not send these notifications by text message (SMS), so if you have not added an alternative email address, we recommend you do so as soon as possible to make sure you receive them."
+    },
+    {
+     "t": "+",
+     "s": "Separately, your Yahoo account becomes inactive if you do not sign in to it for 24 months, after which it will be automatically scheduled for deactivation and deletion by our systems. Once an account is deleted it cannot be restored and is permanently blocked for re-use by anyone. For more information, please see Inactive mailboxes in Yahoo Mail or Reasons Yahoo deactivates or deletes an account ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "11. Transferring your information to other countries"
+    },
+    {
+     "t": " ",
+     "s": "We work with Yahoo companies (our affiliates) and other companies in different countries. These countries may have privacy and data protection laws which are different from those in your country."
+    }
+   ]
+  },
+  {
+   "header": "@@ -724,6 +737,8 @@ Mason Hayes & Curran LLP",
+   "lines": [
+    {
+     "t": " ",
+     "s": "1 Cornhill, London"
+    },
+    {
+     "t": " ",
+     "s": "EC3V 3ND"
+    },
+    {
+     "t": " ",
+     "s": "United Kingdom"
+    },
+    {
+     "t": "+",
+     "s": "Need help with your account or a Yahoo service?"
+    },
+    {
+     "t": "+",
+     "s": "For technical or account support, such as help signing in, resetting your password or recovering access to your account, please use the support options available in our Help Centre . This will usually be the quickest way to get the help you need."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "13. Changes to this privacy policy"
+    },
+    {
+     "t": " ",
+     "s": "We will make changes to this privacy policy from time to time."
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
