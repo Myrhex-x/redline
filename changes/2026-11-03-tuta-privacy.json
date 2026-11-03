@@ -1,0 +1,46 @@
+{
+ "id": "2026-11-03-tuta-privacy",
+ "date": "2026-11-03",
+ "slug": "tuta",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -173,7 +173,7 @@ Community Team Jobs Terms Privacy Legal notice",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Development"
+    },
+    {
+     "t": " ",
+     "s": "Roadmap Security Encryption Open Source GitHub"
+    },
+    {
+     "t": " ",
+     "s": "Needs"
+    },
+    {
+     "t": "-",
+     "s": "Personal Business"
+    },
+    {
+     "t": "+",
+     "s": "Personal Business Students"
+    },
+    {
+     "t": " ",
+     "s": "Support"
+    },
+    {
+     "t": " ",
+     "s": "Forum Press Support"
+    },
+    {
+     "t": " ",
+     "s": "Language"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
