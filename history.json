@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-11-04-eu-parliament-csar-train",
+  "date": "2026-11-04",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "csar-train",
+  "docTitle": "Legislative train: combating child sexual abuse online",
+  "kind": "change",
+  "added": 3,
+  "removed": 9
+ },
+ {
+  "id": "2026-11-04-meta-privacy",
+  "date": "2026-11-04",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 235,
+  "removed": 143
+ },
+ {
   "id": "2026-11-03-microsoft-photodna",
   "date": "2026-11-03",
   "slug": "microsoft",
