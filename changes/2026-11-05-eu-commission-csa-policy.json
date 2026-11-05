@@ -1,0 +1,42 @@
+{
+ "id": "2026-11-05-eu-commission-csa-policy",
+ "date": "2026-11-05",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -715,7 +715,6 @@ Support",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Helplinks for those with a sexual interest in children"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "More about the fight against child sexual abuse"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "What is the EU doing to protect children from sexual abuse?"
+    },
+    {
+     "t": " ",
+     "s": "The EU Strategy for a more effective fight against child sexual abuse aims to respond to the increasing threat of child sexual abuse, both in its online and offline forms."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

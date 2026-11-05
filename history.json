@@ -1,5 +1,77 @@
 [
  {
+  "id": "2026-11-05-eu-commission-csa-policy",
+  "date": "2026-11-05",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "change",
+  "added": 0,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "no changed lines"
+ },
+ {
+  "id": "2026-11-05-meta-privacy",
+  "date": "2026-11-05",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 143,
+  "removed": 235
+ },
+ {
+  "id": "2026-11-05-proton-privacy",
+  "date": "2026-11-05",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"Personal Personal\", \"Products Products\""
+ },
+ {
+  "id": "2026-11-05-proton-transparency",
+  "date": "2026-11-05",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"Personal Personal\", \"Products Products\""
+ },
+ {
+  "id": "2026-11-05-whatsapp-privacy",
+  "date": "2026-11-05",
+  "slug": "whatsapp",
+  "company": "WhatsApp",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy (EEA)",
+  "kind": "change",
+  "added": 0,
+  "removed": 2
+ },
+ {
+  "id": "2026-11-05-whatsapp-security",
+  "date": "2026-11-05",
+  "slug": "whatsapp",
+  "company": "WhatsApp",
+  "doc": "security",
+  "docTitle": "Security / E2EE description",
+  "kind": "change",
+  "added": 0,
+  "removed": 2
+ },
+ {
   "id": "2026-11-04-eu-parliament-csar-train",
   "date": "2026-11-04",
   "slug": "eu-parliament",

@@ -1,0 +1,34 @@
+{
+ "id": "2026-11-05-proton-transparency",
+ "date": "2026-11-05",
+ "slug": "proton",
+ "doc": "transparency",
+ "hunks": [
+  {
+   "header": "@@ -1,4 +1,4 @@",
+   "lines": [
+    {
+     "t": "-",
+     "s": "Personal Personal"
+    },
+    {
+     "t": "+",
+     "s": "Products Products"
+    },
+    {
+     "t": " ",
+     "s": "Business Business"
+    },
+    {
+     "t": " ",
+     "s": "Download"
+    },
+    {
+     "t": " ",
+     "s": "Discover Proton Discover Proton"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
