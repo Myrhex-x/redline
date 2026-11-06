@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-11-06-gmx-privacy-de",
+  "date": "2026-11-06",
+  "slug": "gmx",
+  "company": "GMX (1&1 Mail)",
+  "doc": "privacy-de",
+  "docTitle": "Datenschutzhinweise (German, full)",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
+  "id": "2026-11-06-meta-privacy",
+  "date": "2026-11-06",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 0,
+  "removed": 3,
+  "minor": true,
+  "minorReason": "no changed lines"
+ },
+ {
   "id": "2026-11-05-eu-commission-csa-policy",
   "date": "2026-11-05",
   "slug": "eu-commission",

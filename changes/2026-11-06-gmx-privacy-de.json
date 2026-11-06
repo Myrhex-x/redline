@@ -1,0 +1,46 @@
+{
+ "id": "2026-11-06-gmx-privacy-de",
+ "date": "2026-11-06",
+ "slug": "gmx",
+ "doc": "privacy-de",
+ "hunks": [
+  {
+   "header": "@@ -522,7 +522,7 @@ Der GMX-Blog ist der Ratgeber rund um E-Mail, Sicherheit & mehr. Hier werden bei",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Hilfe-Chat und VoiceBot"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Mit unserem Hilfe-Chat möchten wir dich unterstützen, wenn du allgemeine Fragen zu deinem Postfach oder unseren Produkten hast. Die Nutzung ist optional und bietet dir eine zusätzliche Möglichkeit, eine schnelle Unterstützung zu erhalten. Grundsätzlich arbeitet der Hilfe-Chat anonym. Gegebenenfalls kann es zur Identifizierung erforderlich sein, dass der Hilfe-Chat nach deiner E-Mail-Adresse fragt oder unser Kundenservice dich im Live-Chat um Daten (z. B. E-Mail-Adresse oder Geburtsdatum) bittet. Bei einem Wechsel in den Live-Chat wirst du durch einen entsprechenden Hinweis direkt im Hilfe-Chat darauf aufmerksam gemacht. In Einzelfällen kann der Hilfe-Chat auch eine Anmeldung im Postfach ermöglichen, um spezifischere Unterstützung anbieten zu können. Die Datenverarbeitung bei unserem Hilfe-Chat (insbesondere Nutzungsdaten) erfolgt auf Grundlage unseres berechtigten Interesses. Darüber hinaus werden die Inhalte der Konversation zwischen dir und dem Hilfe-Chat sowie des Live-Chats verarbeitet, die von dir freiwillig angegebene Daten enthalten können. Wir speichern deine Konversationen mit unserem Chat zur anonymen Verbesserung unseres Services für bis zu 30 Tage."
+    },
+    {
+     "t": "+",
+     "s": "Mit unserem Hilfe-Chat möchten wir dich unterstützen, wenn du allgemeine Fragen zu deinem Postfach oder unseren Produkten hast. Die Nutzung ist optional und bietet dir eine zusätzliche Möglichkeit, schnelle Unterstützung zu erhalten. Für die Bereitstellung und Verbesserung des Hilfe-Chats verarbeiten wir Nutzungsdaten. Gegebenenfalls kann der Hilfe-Chat oder unser Kundenservice dich im Live-Chat für die Bearbeitung deines Anliegens um weitere Daten (z. B. E-Mail-Adresse oder Geburtsdatum) bitten. Bei einem Wechsel in den Live-Chat wirst du durch einen entsprechenden Hinweis direkt im Hilfe-Chat darauf aufmerksam gemacht. In Einzelfällen kann der Hilfe-Chat auch eine Anmeldung in deinem Postfach ermöglichen, um dir eine spezifischere Unterstützung anbieten zu können. Die Datenverarbeitung im Rahmen des Hilfe-Chats (insbesondere Nutzungsdaten) erfolgt auf Grundlage unseres berechtigten Interesses. Darüber hinaus werden die Inhalte der Konversation zwischen dir und dem Hilfe-Chat sowie des Live-Chats verarbeitet, die von dir freiwillig angegebene Daten enthalten können. Wir speichern deine Konversationen mit unserem Chat für bis zu 30 Tage zur Verbesserung unseres Services. Informationen, die du über den Hilfe-Chat an unseren Kundenservice übermittelst, werden entsprechend den Regelungen im Abschnitt „Kundenpflege und Kundenservice“ grundsätzlich nach 6 Monaten gesperrt und nach 18 Monaten gelöscht."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Unser VoiceBot unterstützt bei telefonischen Anfragen oder leitet euch gegebenenfalls an die entsprechenden Mitarbeitenden weiter. Mit eurer Einwilligung können die Gespräche zur Verbesserung des VoiceBots und unseres Services aufgenommen werden. Die Transkripte werden nach 6 Wochen gelöscht."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

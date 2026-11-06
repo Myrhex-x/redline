@@ -1,0 +1,58 @@
+{
+ "id": "2026-11-06-meta-privacy",
+ "date": "2026-11-06",
+ "slug": "meta",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -325,11 +325,8 @@ You can learn more about how privacy works on Facebook and on Instagram and in t",
+   "lines": [
+    {
+     "t": " ",
+     "s": "You can contact us online or by mail at:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Meta Platforms, Inc."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "ATTN: Privacy Operations"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "1 Meta Way"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Menlo Park, CA 94025"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Why and how we process your information"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
