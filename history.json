@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-11-07-signal-privacy",
+  "date": "2026-11-07",
+  "slug": "signal",
+  "company": "Signal",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy & Terms",
+  "kind": "change",
+  "added": 166,
+  "removed": 20
+ },
+ {
   "id": "2026-11-06-gmx-privacy-de",
   "date": "2026-11-06",
   "slug": "gmx",
