@@ -1,0 +1,42 @@
+{
+ "id": "2026-11-09-eu-commission-csa-policy",
+ "date": "2026-11-09",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -386,6 +386,7 @@ Welcoming displaced people from Ukraine",
+   "lines": [
+    {
+     "t": " ",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Pact on Migration and Asylum First Annual Migration Management Cycle"
+    },
+    {
+     "t": "+",
+     "s": "Second Annual Migration Management Cycle"
+    },
+    {
+     "t": " ",
+     "s": "Legislative files in a nutshell"
+    },
+    {
+     "t": " ",
+     "s": "Implementing the Pact on Migration and Asylum"
+    },
+    {
+     "t": " ",
+     "s": "Questions and answers on the Pact on Migration and Asylum"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

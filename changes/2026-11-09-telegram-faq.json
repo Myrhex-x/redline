@@ -1,0 +1,2504 @@
+{
+ "id": "2026-11-09-telegram-faq",
+ "date": "2026-11-09",
+ "slug": "telegram",
+ "doc": "faq",
+ "hunks": [
+  {
+   "header": "@@ -231,7 +231,7 @@ General Questions",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: What is Telegram? What do I do here?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Telegram is a messaging app with a focus on speed and security, it’s super-fast, simple and free. You can use Telegram on all your devices at the same time — your messages sync seamlessly across any number of your phones, tablets or computers. Telegram is one of the top 5 most downloaded apps in the world with over 1 billion active users."
+    },
+    {
+     "t": "+",
+     "s": "Telegram is a messaging app with a focus on speed and security, it’s super-fast, simple and free. You can use Telegram on all your devices at the same time — your messages stay in sync across any number of your phones, tablets, computers and even smartwatches . Telegram is one of the top 10 most downloaded apps in the world with over 1 billion active users."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "With Telegram, you can send messages, photos, videos and files of any type (doc, zip, mp3, etc), as well as create groups for up to 200,000 people or channels for broadcasting to unlimited audiences. You can write to your phone contacts and find people by their usernames . As a result, Telegram is like SMS and email combined — and can take care of all your personal or business messaging needs. We also support end-to-end encrypted voice and video calls , group calls for up to 200 participants, and voice chats in groups that members can join whenever they want."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -239,25 +239,29 @@ Follow our Tips Channel to learn more about Telegram features.",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: Who is Telegram for?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Telegram is for everyone who wants fast and reliable messaging and calls . Business users and small teams may like the large groups, usernames , desktop apps and powerful file sharing options."
+    },
+    {
+     "t": "+",
+     "s": "Telegram is for everyone who wants fast, reliable and secure messaging and calls . Business users and teams may like the large groups, usernames , desktop apps , end-to-end encrypted conference calls with screen sharing, and powerful file sharing options."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Since Telegram groups can have up to 200,000 members , we support replies, mentions and hashtags that help maintain order and keep communication in large communities efficient . You can appoint admins with advanced tools to help these communities prosper in peace. Public groups can be joined by anyone and are powerful platforms for discussions and collecting feedback."
+    },
+    {
+     "t": "+",
+     "s": "Telegram groups can have up to 200,000 members and support replies, mentions and hashtags to keep communication in large communities efficient . You can create forum-style topics in your group and appoint admins with advanced tools to help these communities prosper in peace. Public groups can be joined by anyone and are powerful platforms for discussions and collecting feedback."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "In case you're more into pictures, Telegram has animated gif search , a state of the art photo editor , and an open sticker platform (find some cool stickers here or here ). What's more, there is no need to worry about disk space on your device. With Telegram's cloud support and cache management options , Telegram can take up nearly zero space on your phone."
+    },
+    {
+     "t": "+",
+     "s": "AI developers can bring their assistants to Telegram as bots , using a free Bot API with features made for AI: an AI bot can show its answer while it is being written , keep several conversation threads with the same user, reply with tables, headings and images and buttons , and answer in any chat where someone mentions it — even a group it is not a member of. Users can let an AI bot answer messages for them , guard their group or build other bots , and bots can charge for their services in Telegram Stars ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "In case you're more into sharing media , Telegram has animated gif search , a state of the art photo editor , and an open sticker platform . What's more, there is no need to worry about disk space on your device. With Telegram's cloud support and cache management options , Telegram can take up nearly zero space on your phone."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Those looking for extra privacy should check out our advanced settings and rather revolutionary policy . And if you want secrecy, try our device-specific Secret Chats with self-destructing messages, photos, and videos — and lock your app with an additional passcode ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We keep evolving — check out our Brief History of Telegram and follow us on twitter and Telegram to stay in touch."
+    },
+    {
+     "t": "+",
+     "s": "Businesses can also use Telegram Business features — opening hours and location on the profile, quick replies, automatic greeting messages and chatbots — without any coding."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "We keep evolving — check out our Brief History of Telegram and follow us on X and Telegram for updates."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: How is Telegram different from WhatsApp?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Unlike WhatsApp, Telegram is a cloud-based messenger with seamless sync . As a result, you can access your messages from several devices at once, including tablets and computers, and share an unlimited number of photos, videos and files (doc, zip, mp3, etc.) of up to 2 GB each ."
+    },
+    {
+     "t": "+",
+     "s": "Unlike WhatsApp, Telegram is a cloud-based messenger with seamless sync . As a result, you can access your messages from several devices at once, including tablets and computers, and share an unlimited number of photos, videos and files (doc, zip, mp3, etc.) of up to 2 GB each — or 4 GB each with Telegram Premium ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Telegram needs less than 100 MB on your device – you can keep all your media in the cloud without deleting things – simply clear your cache to free up space ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Thanks to Telegram's multi-data center infrastructure and encryption, it is faster and way more secure . On top of that, private messaging on Telegram is free and will stay free — no ads, no subscription fees, forever."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Telegram's API and code is open, and developers are welcome to create their own Telegram apps. We also have a Bot API , a platform for developers that allows anyone to easily build specialized tools for Telegram, integrate any services , and even accept payments from users around the world."
+    },
+    {
+     "t": "+",
+     "s": "Telegram's API and code is open, and developers are welcome to create their own Telegram apps. We also have a Bot API , a platform for developers that allows anyone to easily build specialized tools for Telegram, integrate AI and other services , or replace any website ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "And that's just the tip of the iceberg."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -269,7 +273,9 @@ Telegram for iOS was launched on August 14, 2013 . The alpha version of Telegram",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: Which devices can I use?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "You can use Telegram on smartphones, tablets, and even computers. We have apps for iOS (13.0 and above), Android (5.0 and up), a native macOS app and a universal desktop app for Windows, macOS, and Linux. Telegram Web can also help to quickly do something on the go."
+    },
+    {
+     "t": "+",
+     "s": "You can use Telegram on smartphones, tablets, and even computers. We have apps for iOS , Android , a native macOS app and a universal desktop app for Windows, macOS, and Linux. Telegram Web can also help to quickly do something on the go."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "There are also apps for Apple Watch and Android Wear OS smartwatches. On your watch you can read messages of any length, send text and voice messages, listen to voice messages, and view photos and videos."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "You can log in to Telegram from as many of your devices as you like — all at the same time . Just use your main mobile phone number to log in everywhere, your cloud chats will sync instantly."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -277,7 +283,7 @@ The Telegram API is open for developers, should you want to build your own appli",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: Who are the people behind Telegram?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Telegram is supported by Pavel Durov and his brother Nikolai. Pavel supports Telegram financially and ideologically while Nikolai's input is technological. To make Telegram possible, Nikolai developed a unique custom data protocol, which is open, secure and optimized for work with multiple data-centers. As a result, Telegram combines security, reliability and speed on any network."
+    },
+    {
+     "t": "+",
+     "s": "Telegram is supported by Pavel Durov and his brother Nikolai. Pavel supports Telegram financially and ideologically while Nikolai developed MTProto, the unique custom data protocol used by Telegram, which is open, secure and optimized for work with multiple data-centers. As a result, Telegram combines security, reliability and speed on any network."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "See also: articles about Telegram"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -291,19 +297,21 @@ Q: Will you have ads in my private chats and groups? Or sell my data? Or steal m",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "No. See this post for details."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Q: How are you going to make money out of this?"
+    },
+    {
+     "t": "+",
+     "s": "Q: How does Telegram make money?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "We believe in fast, secure messaging that is also 100% free."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "We believe in fast and secure messaging that is also 100% free."
+    },
+    {
+     "t": "+",
+     "s": "Our founder and CEO Pavel Durov , who financed Telegram throughout most of its history, explained how Telegram would become self-sustaining in this post ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Our founder and CEO Pavel Durov , who financed Telegram throughout most of its history, has outlined a strategy to make Telegram sustainable in this post ."
+    },
+    {
+     "t": "+",
+     "s": "Following this plan, Telegram has introduced sustainable forms of monetization that put users first:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Following this plan, Telegram has implemented sustainable forms of monetization that prioritize its users:"
+    },
+    {
+     "t": "+",
+     "s": "In 2021, Telegram launched Sponsored Messages – minimalist, privacy-conscious ads that may appear in large public channels, bots, public stories and public search, but never in your private chats or groups. Ads are never based on the content of your messages or your contacts, and your data is never shared with advertisers (see the Privacy Policy ). Telegram Premium users don't see ads at all. Telegram shares 50% of the revenue with the owners of the channels where the ads appear."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "In 2021, Telegram launched Sponsored Messages – minimalist, privacy-conscious advertisements that can appear in certain public channels."
+    },
+    {
+     "t": "+",
+     "s": "In 2022, Telegram launched a Premium subscription that users can purchase to unlock additional exclusive features ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "In 2022, Telegram launched a Premium subscription which users can purchase to both support the app and unlock additional exclusive features."
+    },
+    {
+     "t": "+",
+     "s": "In 2024, Telegram launched Telegram Stars to enable payments for digital goods and services across the Telegram ecosystem. Users can buy stars through in-app purchases via Apple and Google or PremiumBot , then spend them on digital products and games , supporting content creators , buying Telegram Gifts and more."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "These revenue streams help us pay for infrastructure costs and developer salaries, however making profits will never be an end-goal for Telegram."
+    },
+    {
+     "t": "+",
+     "s": "Thanks to these sources of income, Telegram reached profitability in 2024 . This revenue pays for servers and developer salaries. However, making profits will never be an end goal for Telegram."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Learn more about subscriptions in the Telegram Premium FAQ ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -319,9 +327,9 @@ Telegram's aim is to create a truly free messenger, with a revolutionary privacy",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: What about GDPR?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "The General Data Protection Regulation (GDPR) came into force in Europe on May 25, 2018. Since taking back our right to privacy was the reason we made Telegram, there wasn't much we had to change. We don’t use your data for ad targeting, we don’t sell it to others, and we're not part of any mafia family “family of companies.”"
+    },
+    {
+     "t": "+",
+     "s": "The General Data Protection Regulation (GDPR) came into force in Europe on May 25, 2018. Since taking back our right to privacy was the reason we made Telegram, there wasn't much we had to change."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Telegram only keeps the information it needs to function as a feature-rich cloud service. For example, your cloud chats – so that you can access them from any devices without using third-party backups, or your contacts – so that you can rely on your existing social graph when messaging people on Telegram. Please see our Privacy Policy for more information."
+    },
+    {
+     "t": "+",
+     "s": "We don't use the content of your chats or your contact list for ad targeting, we don't sell your data to others, and we aren't controlled by You-Know-Who. Telegram only stores the data it needs to function as a feature-rich cloud service. For example, your cloud chats – so that you can access them from any devices without using third-party backups, or your contacts – so that you can rely on your existing social graph when messaging people on Telegram. See the Privacy Policy for details."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "You can use @EURegulation to:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -341,6 +349,8 @@ Users from the EU are welcome to study the User Guidance for the EU Digital Serv",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Note: If a scammer is pretending to be you, contact @NoToScam"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "For more information on safety, please see this page ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: How do I send a request under EU Regulation 2021/784?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "The Regulation (EU) 2021/784 of the European Parliament and of the Council of 29 April 2021 on addressing the dissemination of terrorist content online (Terrorist Content Online Regulation, or TCO Regulation) allows authorities in EU countries to send removal requests for terrorist content, if it is discovered on Telegram's public platform. We have also designated a third party, European Digital Services Representative (EDSR), to assist us with TCO-related communications."
+    }
+   ]
+  },
+  {
+   "header": "@@ -403,9 +413,17 @@ People can contact you on Telegram if they know your phone number or if you mess",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "If they don't know your phone number, they can find you in these cases:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "When you both are members of the same group ."
+    },
+    {
+     "t": "+",
+     "s": "When you both are members of the same group , or if you choose to post in public groups on Telegram."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "If you choose to set a public username . Others can use Global Search and find you by your username."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "You have several ways to control who can write to you:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "If you set a public username . Others can use Global Search and find you by your username."
+    },
+    {
+     "t": "+",
+     "s": "When someone outside your contacts writes to you for the first time, Telegram shows an info page about them — their country, when they joined Telegram and any groups you share — so you can spot scams before you reply. You can block and report them from the same screen."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Telegram Premium users can limit new chats to 'My Contacts and Premium Users' . Other people can still reply if you message them first."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Premium users can also charge Stars for messages from people who are not in their contacts."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: Does Telegram send Verification Codes for other apps?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -415,7 +433,7 @@ Services that do not specify a name or profile picture for their codes will appe",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "If you receive a code in the 'Verification Codes' chat, it's probably because you requested to log in to a third-party service, like an external website, app or marketplace . It's also possible that someone else accidentally entered your phone number when logging in to another service. Either way, your Telegram account is completely safe — if you didn’t request a code, simply tap on it and select 'Report' , no need to do anything else."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Third-party services determine which way your verification codes are sent – and Telegram is not able to control this or make a service aware of your preferences. Unlike SMS codes that frequently fail to arrive and can be interecepted, verification codes sent via Telegram are delivered instantly and are securely encrypted – making them safer and more reliable for both users and services."
+    },
+    {
+     "t": "+",
+     "s": "Third-party services determine which way your verification codes are sent – and Telegram is not able to control this or make a service aware of your preferences. Unlike SMS codes that frequently fail to arrive and can be intercepted, verification codes sent via Telegram are delivered instantly and are securely encrypted – making them safer and more reliable for both users and services."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "The 'Verification Codes' chat is only used for codes from third-party services . Login codes for your Telegram account itself are sent to the verified service notifications chat named 'Telegram' in your chat list and should never be shared with anyone, including other services or apps."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -427,17 +445,19 @@ Your contacts, who have Telegram, are shown at the top of your Contacts. They al",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: How do I invite my friends?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "iOS: The basic invitations are simple SMS messages. They will be charged as standard outgoing SMS by your carrier (unless sent via iMessage). Naturally, you have other options to bring your friends here. Try sending them a download link via any other messaging service: email, Facebook, WhatsApp, an actual telegram — you name it. The link: https://telegram.org/dl/"
+    },
+    {
+     "t": "+",
+     "s": "The easiest way is to share your t.me link . Your friends can open it to start a chat with you, even if they don't have your phone number. You can also show them your QR code from Settings — they scan it with the camera in their Telegram app."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Android: Open the app menu (swipe right in chat list) > Invite Friends. Then choose an application via which you would like to send out invitations."
+    },
+    {
+     "t": "+",
+     "s": "If your friends don't have Telegram yet, send them the download link in any other app: https://telegram.org/dl/"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "You can give your friends a t.me link with your username so that they can easily find you on Telegram even if they don't have your phone number."
+    },
+    {
+     "t": "+",
+     "s": "You can also use 'Invite Friends' in the app (*Android:* open the app menu > Invite Friends ; iOS: open Contacts > Invite Friends ) and choose which app to send the invitations with. On some phones these invitations are sent as SMS and may be charged by your carrier."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: What do the check marks mean?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "One check — message delivered to the Telegram cloud and your friend has been notified if he allows notifications."
+    },
+    {
+     "t": " ",
+     "s": "Two checks — message read (your friend opened Telegram and opened the conversation with the message)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "In one-on-one chats and small groups , you can also see the exact time your message was read — tap the message to see it. To protect privacy, this information is kept for 7 days only. If you hide your last seen time from someone, your read time is hidden from them as well."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "We don't have a 'delivered to device' status for messages because Telegram can run on as many devices as you want. So which particular one would that check mean?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: Can I hide my ‘last seen’ time?"
+    }
+   ]
+  },
+  {
+   "header": "@@ -454,6 +474,8 @@ Last seen within a month — between 6-7 days and a month",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Last seen a long time ago — more than a month (this is also always shown to blocked users)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "By default, if you hide your last seen time from someone, you will not see theirs either. Telegram Premium users can hide their last seen and read times and still see the times of people who share them."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: Who can see me 'online'?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "The last seen rules apply to your online status as well. People can only see you online if you're sharing your last seen status with them."
+    }
+   ]
+  },
+  {
+   "header": "@@ -474,25 +496,151 @@ Yes. You can always delete any messages you sent or received for both sides in a",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Together with privacy settings for forwarded messages , this makes exchanging Telegram messages similar to talking face to face (without a tape recorder). As a result, users no longer need to worry about the data accumulating in their chats over the years. Both parties in a conversation have full control over what does and what doesn't belong to their online identity."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Q: Can I make calls via Telegram?"
+    },
+    {
+     "t": "+",
+     "s": "In one-on-one chats, you can also delete all messages from one day or a range of dates — tap the date bar in the chat. To make messages disappear by themselves, see Can messages delete automatically?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I edit a message after sending it?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Yes. Tap and hold a message you sent and select 'Edit' . You can change the text, and you can add a photo, video or file to a message that did not have one — or replace the media it already has. Edited messages show an 'edited' label with the time of the last edit ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "You can edit your own messages in any chat. In channels, admins can edit posts."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can messages delete automatically?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Yes. Open the info page of any chat and choose 'Auto-Delete' , then pick 24 hours , 7 days , 1 month or any other period . Messages sent after that are deleted for everyone in the chat when the time runs out."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "You can also turn on auto-delete for all new chats you start, in Settings > Privacy and Security ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "For photos, videos, voice and video messages, you can also set a self-destruct timer or send them so they can be viewed only once ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I send something that can be viewed only once?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Yes. When you send a photo or video in a one-on-one chat, tap the timer icon and choose 'View Once' . The media is deleted from both devices after the other person opens it. We will try to send a notification if a screenshot is taken."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Voice and video messages can also be sent in view-once mode: swipe up to lock the recording, then tap the view-once icon before sending."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I format text and write long posts?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Yes. Select text in the message field to make it bold , italic , underlined, strikethrough, hidden under a spoiler, monospace, a link or a quote . Long quotes can be collapsed . The 'Date' option lets you insert a date and time that each reader sees in their own time zone and can tap to add to their calendar."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "For articles and long posts, Telegram Premium users have a rich text editor with headings, tables, lists, code blocks, and photos, videos or files placed inside the text. One message can hold up to 32,768 characters ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "To open the text editor, tap the ⛶ icon that appears after you type more than 3 lines of text. The 'Ai' icon next to it opens the AI editor , which can fix grammar, change the style of your text or translate it — with full privacy."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I translate messages?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Yes. Tap and hold any message and select 'Translate' to translate it into your language. In Settings > Language you can turn on a 'Translate' button and choose languages that should not be translated."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Telegram Premium users can translate an entire chat with one tap, including new messages as they arrive. Channel owners can turn on auto-translation for all readers , so every visitor sees posts in their own language."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Before sending, you can also translate or rewrite your own text with the AI editor in the message field — it can fix grammar, shorten a message or change its style."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "The translations and the AI editor run on Cocoon and send nothing to third parties. See Do Telegram's AI features upload data to third parties?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I schedule messages or set reminders?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Yes. Type a message, then hold the 'Send' button and choose:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "'Schedule Message' — to send it at a date and time you pick."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "'Send When Online' — to send it when the other person is next online (one-on-one chats only)."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "'Send Without Sound' — to send it silently , without a notification sound. Scheduled messages can be sent silently too."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "A scheduled message can be set to repeat — every day, every week, twice a month and so on. If you schedule a message in your 'Saved Messages' chat, it becomes a reminder that pops up at the chosen time."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: How do I organize my chats?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Chat folders add tabs to your chat list, like Work , Family or News . Set them up in Settings > Chat Folders . You can share a folder as a link, so friends can join all its chats with one tap."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Pinned chats always stay at the top of the list. Hold a chat and choose 'Pin' ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Archived chats are hidden from the main list. Swipe a chat to archive it."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Saved Messages is your personal space for notes, bookmarks and forwarded messages. You can view saved messages by chat and, with Premium, organize them with tags ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "In large groups, admins can split discussions into topics , shown as tabs ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Telegram Premium doubles most of these limits — for example, up to 30 folders, 10 pinned chats and 1,000 channels."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Sending Media and More"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: How do I send photos in full quality?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Telegram makes photos smaller before sending so they load instantly and use less mobile data. You have three options:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Standard — the default, good for most chats."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "High Definition — 4 times more pixels, while still using less than 0.5 MB. Tap the 'SD' button in the photo editor or choose 'Send in High Quality' in the attachment menu."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "As a file — the original photo with no compression at all. Choose the option to send as a file in the attachment menu."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Yes. You can make end-to-end encrypted Voice Calls and Video Calls , and you can turn any call into a Group Call with up to 200 participants — also protected by end-to-end encryption, which you can verify at any time."
+    },
+    {
+     "t": "+",
+     "s": "iOS Live Photos and Android Motion Photos can be sent as moving photos that play in any Telegram app — tap the 'Live' button in the media editor and pick a style."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Participants can send comments and reactions directly inside the call without interrupting the audio."
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I send voice and video messages?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "If you want an ongoing audio chat that members of a group can join whenever they want, you can also start a Voice Chat in any group — useful as a virtual office or a casual hangout."
+    },
+    {
+     "t": "+",
+     "s": "Yes. Tap and hold the microphone icon to record a voice message . Tap the icon once to switch to the camera and record a round video message . Swipe up while recording to lock it, so you don't need to keep holding the button."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Q: Can I broadcast to a large audience?"
+    },
+    {
+     "t": "+",
+     "s": "While recording, you can pause and continue , cut off the start or the end before sending, turn on the front flash in the dark, or make the message play only once ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Yes. Any user can host a Live Story — a live broadcast that appears in their stories. Viewers can send comments and donate Stars during the stream."
+    },
+    {
+     "t": "+",
+     "s": "Telegram Premium users can convert voice and video messages to text with one tap. Members of boosted groups get this inside the group as well."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Channel owners can host Live Streams with an unlimited number of viewers — useful for events, lectures, announcements and concerts. You can stream from your phone or use streaming software like OBS for full production."
+    },
+    {
+     "t": "+",
+     "s": "With Premium, you can choose who is allowed to send you voice and video messages in Settings > Privacy and Security ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Q: How can I use emoticons?"
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I share my location?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Type one word in your input field to get relevant emoji suggestions . You can also type “:” followed by any keyword to open emoji search – like :heart ."
+    },
+    {
+     "t": "+",
+     "s": "Yes. Tap the attachment icon and select 'Location' . You can send your current location once, or share your live location for 15 minutes, 1 hour, 8 hours — or until you turn it off . While sharing, you can add more time at any moment."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "You can suggest missing keywords for emoji in your language using this interface (this will open suggestions for English , don't forget to change to your language in the left menu)."
+    },
+    {
+     "t": "+",
+     "s": "Live location works in one-on-one chats and in groups, so friends can follow your trip on a map. People you share with can set an alert to be notified when you get close."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I create polls and quizzes?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Yes. Tap the attachment icon and select 'Poll' . A poll can have up to 12 options . Votes can be public or anonymous, you can allow several answers, or turn the poll into a quiz with correct answers."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Polls can also include photos, videos or locations in questions and options, links in options, a description, a time limit, hidden results until the end, and an option that lets voters suggest new answers. In channels, admins can restrict voting to subscribers or to specific countries, and see a graph of votes over time once a poll has 100 votes."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "All past and active polls of a group or channel are collected in a 'Polls' tab on its profile."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What are checklists?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Checklists are to-do lists you can send to any chat — a group, a one-on-one chat or your Saved Messages. People in the chat can tick items off, and you decide whether others may add new items."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "To create a checklist, open the attachment menu and tap 'Checklist' . Creating checklists is a Telegram Premium feature."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Stickers, Emoji and Reactions"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: How do I send stickers, GIFs and emoji?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Tap the smiley icon next to the message field to open the panel with emoji , stickers and GIFs ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Emoji. Type one word to get emoji suggestions , or type : and a keyword — like :heart — to search emoji. You can suggest missing keywords for your language here ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Stickers. Telegram has an open platform with millions of stickers made by users and artists. Type a keyword in the sticker panel to search over 100 million stickers and emoji in 36 languages. When you type a single emoji, matching stickers appear above the keyboard. To add a sticker set, tap any sticker you receive and choose 'Add' ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "GIFs. The GIF tab lets you search over 350 million GIFs . Hold a GIF to add a caption or edit it ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Custom emoji are small animated emoji placed inside text. Anyone can see them, but sending them requires Telegram Premium — or a group emoji pack in a boosted group."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Sticker, emoji and GIF search runs on Cocoon . Your searches are private and do not rely on third parties."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What are reactions?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "A reaction is a quick emoji reply to a message. Tap and hold a message and pick an emoji from the bar. The reaction appears under the message and the sender gets a notification. You can control these notifications in Settings > Notifications and Sounds > Reactions ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Everyone can use the standard set of reactions. Telegram Premium users can react with any custom emoji and add up to 3 reactions to one message. You can also react to service messages — like someone joining a group or sending a gift."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "In channels, posts can have a Star reaction — a paid reaction that sends Telegram Stars to the channel owner. The post shows a list of top senders; you can stay anonymous, or react as one of your channels ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Channel admins choose which reactions are allowed on their posts. Group admins can remove reactions from specific users. To see the exact number of each reaction, hold the counter ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What is an emoji status?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "An emoji status is an emoji shown next to your name — to tell people you are working, traveling, on vacation and so on. Open Settings and tap the status button next to your name to set one. Emoji statuses are a Telegram Premium feature."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "If you own a collectible gift , you can wear it as your status — your profile then takes the colors and symbol of the gift. Boosted groups and channels can set an emoji status too. Mini apps can set your status with your permission — for example, while you play a game."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What are message effects?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "In one-on-one chats you can send a message with an animated effect — like fireworks, flames or a screen full of kisses — that plays when the other person opens the chat. Hold the 'Send' button and pick an effect. Everyone gets 6 free effects — Telegram Premium unlocks hundreds more."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Groups and Channels"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -510,7 +658,7 @@ Instant search",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Find the message you're looking for, even among millions. Filter by sender to make searching easier."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Replies, mentions, hashtags"
+    },
+    {
+     "t": "-",
+     "s": "Easily trace a conversation and keep communication efficient, no matter the group size."
+    },
+    {
+     "t": "+",
+     "s": "Easily trace a conversation and keep communication efficient, no matter the group size. Chat-specific hashtags like #travel@groupname show only posts from your group."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Smart notifications"
+    },
+    {
+     "t": " ",
+     "s": "Mute the group to get notifications only when people mention you or reply to your messages."
+    }
+   ]
+  },
+  {
+   "header": "@@ -519,26 +667,38 @@ Pinned messages",
+   "lines": [
+    {
+     "t": " ",
+     "s": "You can pin any message to be displayed at the top of the chat screen. All members will get a notification — even if they muted ordinary messages from your group."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Moderation tools"
+    },
+    {
+     "t": "-",
+     "s": "Appoint administrators that can mass-delete messages, control membership, and pin important messages. Define their admin privileges with granular precision."
+    },
+    {
+     "t": "+",
+     "s": "Appoint administrators that can mass-delete messages, control membership, and pin important messages. Set each admin's rights in detail. Several messages can be moderated at once, and Recent Actions shows what happened in the chat in the last 48 hours."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Anti-spam tools"
+    },
+    {
+     "t": "-",
+     "s": "In large groups, enable Aggressive Anti-Spam to use Telegram's full set of anti-spam tools in your chat."
+    },
+    {
+     "t": "+",
+     "s": "In large groups, enable Aggressive Anti-Spam to use Telegram's full set of anti-spam tools in your chat. You can also require join requests for new members, and add AI bots as admins to screen them."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Group permissions"
+    },
+    {
+     "t": " ",
+     "s": "Set default permissions to restrict all members from posting specific kinds of content. Or even restrict members from sending messages altogether – and let the admins chat amongst themselves while everybody else is watching."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Welcome messages"
+    },
+    {
+     "t": "+",
+     "s": "Send welcome messages that only new members see — with media, several messages and rich formatting. Set them up in Edit > Welcome Message on the group's profile."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "File sharing"
+    },
+    {
+     "t": " ",
+     "s": "Send and receive files of any type, up to 2 GB in size each (or 4 GB with Premium ), access them instantly on your other devices."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Member tags"
+    },
+    {
+     "t": "+",
+     "s": "Members can add a short tag next to their name to show their role, job or interests. Admins decide whether members can set their own tags."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Topics"
+    },
+    {
+     "t": "-",
+     "s": "Split group discussions into topics — each with its own chat history, shared media and notification settings, like classic forums."
+    },
+    {
+     "t": "+",
+     "s": "Split group discussions into topics — each with its own chat history, shared media and notification settings, like classic forums. Topics can be shown as tabs for quick switching."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Public groups"
+    },
+    {
+     "t": " ",
+     "s": "Get a short link for your group and make it public, like t.me/publictestgroup . This way, anybody can view the group's entire chat history and join to post messages."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Hidden member lists"
+    },
+    {
+     "t": "+",
+     "s": "In large groups, owners can hide the list of members to protect the privacy of the users, so that only admins can see it."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Group boosts"
+    },
+    {
+     "t": " ",
+     "s": "Members can boost a group with their Premium subscription to unlock features for everyone — like posting stories , custom emoji packs , voice-to-text and custom group appearance ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Communities"
+    },
+    {
+     "t": "+",
+     "s": "Link several groups, channels and bots into one community that members can browse and join without invite links."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Customization via bots"
+    },
+    {
+     "t": " ",
+     "s": "Create custom tools for any specific needs using our Bot API and Inline Bots ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -547,9 +707,9 @@ If you are the owner and want to leave the group, pick a new owner at the same t",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: What's the difference between groups and channels?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Telegram groups are ideal for sharing stuff with friends and family or collaboration in small teams. But groups can also grow very large and support communities of up to 200,000 members. You can make any group public , toggle persistent history to control whether or not new members have access to earlier messages and appoint administrators with granular privileges. You can also pin important messages to the top of the screen so that all members can see them, including those who have just joined."
+    },
+    {
+     "t": "+",
+     "s": "Telegram groups are ideal for sharing stuff with friends and family or collaboration in small teams. But groups can also grow very large and support communities of up to 200,000 members. You can make any group public , toggle persistent history to control whether or not new members have access to earlier messages, and appoint administrators with detailed rights. You can also pin important messages to the top of the screen so that all members can see them, including those who have just joined."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Channels are a tool for broadcasting messages to large audiences. In fact, a channel can have an unlimited number of subscribers. When you post in a channel, the message is signed with the channel's name and photo and not your own. Each message in a channel has a view counter that gets updated when the message is viewed, including its forwarded copies."
+    },
+    {
+     "t": "+",
+     "s": "Channels are a tool for broadcasting messages to large audiences. In fact, a channel can have an unlimited number of subscribers. When you post in a channel, the message is signed with the channel's name and photo and not your own. Each message in a channel has a view counter that gets updated when the message is viewed, including its forwarded copies. Channels can also post stories , receive direct messages and suggested posts from subscribers, run giveaways , and earn money from ads, paid content and gifts."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Read more about channels in the Channels FAQ »"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -561,9 +721,9 @@ Telegram Desktop: Click the menu button in the top left corner > 'New Group'.",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: Can I assign administrators?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "You can add administrators to help you manage your group and define their privileges with granular precision."
+    },
+    {
+     "t": "+",
+     "s": "You can add administrators to help you manage your group and set each admin's rights in detail. You can also add bots as admins — for example, AI guardians that check join requests before people get in."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "iOS: Go to Group Info (tap the photo in the top right corner on the group‘s chat screen) > Edit > Administrators."
+    },
+    {
+     "t": "+",
+     "s": "iOS: Go to Group Info (tap the photo in the top right corner on the group's chat screen) > Group Settings > Administrators."
+    },
+    {
+     "t": " ",
+     "s": "Android: Go to Group Info (tap the name in the header) > the pencil icon (in the top right corner) > Administrators."
+    },
+    {
+     "t": " ",
+     "s": "Telegram Desktop: When in the group, click '…' in the top right corner > Manage group > Administrators."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -575,13 +735,111 @@ It is easy to migrate existing groups to Telegram by sending people an invite li",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Anyone who has Telegram installed will be able to join your group by following this link. If you choose to revoke the link, it will stop working immediately."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Read more about invite links in our blog »"
+    },
+    {
+     "t": "+",
+     "s": "Invite links can have a name, an expiry date and a limit on the number of people who can use them. You can also require admin approval for everyone who joins through a link. Channel owners can create paid links that require a monthly payment in Stars."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: Can channels and subscribers talk to each other?"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Yes. Channel owners can turn on Direct Messages so subscribers can send them private messages — without the channel owner having to share their personal account."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Subscribers can also suggest posts for the channel — including paid suggestions. The owner can review them, edit them, schedule them or reject them. This gives channels a clear way to crowdsource content or work with brands."
+    },
+    {
+     "t": "+",
+     "s": "Subscribers can also suggest posts for the channel. The owner can review them, edit them, schedule them or reject them. This gives channels a clear way to crowdsource content or work with brands."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Channel owners can set a fee in Stars for each direct message, to keep their inbox manageable. Channels can also add a discussion group — every post then gets a comments button. See the Channels FAQ for details."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What is a Community?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "A Community links several groups, channels and bots together around one topic — for example, a main chat, an announcements channel and a helper bot. Members of a community can see its other chats and join them without an invite link."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Chats in a community can be Visible to all members, or Hidden from everyone except community admins and the members of that chat. By default, any member can add more chats to a community; admins can restrict this, in which case new chats are shown as suggestions."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "In your chat list, a community can be shown as one item that expands when you open it — this saves space."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What are boosts?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Telegram Premium users get 4 boosts they can give to any group or channel they like. Each boost helps the chat reach a higher level , and every level unlocks features for the whole community — for example, stories posted by the chat, more stories per day, custom colors and wallpapers, an emoji status, a group emoji pack and voice-to-text for all members."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "The number of boosts needed for each level depends on the size of the chat. Admins can see the level and get the boost link in Profile > Statistics > Boosts (channels) or Profile > ⋮ / ⋯ > Boost Group (groups). You get 3 extra boosts for each Premium subscription you give as a gift , and giveaways bring in boosts from every subscription that is won."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "The full list of what each level unlocks is in the Premium FAQ, for channels and for groups ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: How do giveaways work?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Owners of channels and groups can run giveaways to reward their community and gain boosts . Prizes can be Telegram Premium subscriptions, Telegram Stars or real-world prizes chosen by the owner."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Giveaways are paid in advance and fully transparent: winners are picked at random by Telegram, based on the rules the owner sets — for example, only subscribers from certain countries, or only people who joined after a certain date. To start one, go to Channel Settings > Statistics > Boosts (for groups: Group Info > Statistics > Boosts )."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Stories"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What are stories?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Stories are photos and videos that appear at the top of the chat list for your contacts, and disappear after a time you choose — 6, 12, 24 or 48 hours. You can also keep a story on your profile for as long as you want, in a grid of posts."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "When you post a story, you choose who can see it: Everyone , My Contacts , Close Friends , or a list of people you pick. You can hide your stories from specific people, edit a story after posting it, and see who viewed it ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Channels and groups can post stories too, once they have enough boosts . Replies to a group's story go to the group chat."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Stories you post are visible only to people you allow. Private stories never appear in search results."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: How do I post a story?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Swipe right on the chat list (on Android, tap the camera button) to open the story camera. You can:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Take a photo or video — or use dual camera to record with the front and back cameras at the same time."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Pick photos and videos from your gallery and post several stories at once . Videos longer than 60 seconds are split into several stories automatically."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Combine up to 6 photos or videos in a collage ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Add text, stickers, drawings, music from your chats or from your profile , a location, a weather widget , a link (Premium) and reaction stickers."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Choose a cover frame for video stories, and set how long the story stays visible."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Posts from channels and your collectible gifts can be shared to your story from their menu. On iOS, you can send photos from other apps straight to the story editor with the system Share button ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What is a Live Story?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "A Live Story is a live video broadcast inside your stories. Anyone who can see your stories can watch and send comments. Viewers can pay with Telegram Stars to highlight and pin their comment, or tap the Star icon to support the host."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Live Stories have the same privacy options as normal stories. Groups and channels that have unlocked stories with boosts can host Live Stories too. If you stream with software like OBS or XSplit, you can use an RTMP key ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "To manage comments or set a price per comment while streaming, tap the top corner and select 'Live Settings' ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I find, save or repost stories?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Find. Tap a #hashtag or a location tag in a story to see other public stories with the same tag or from the same place ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Save. Stories you keep on your profile can be sorted into albums — open the 'Posts' tab on your profile and tap 'Add Album' . You can also pin up to 3 stories to the top of your profile."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Repost. You can repost a story from a friend or a channel to your own page, and add your own comment or video message to it."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I watch stories without being seen?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Yes, with Telegram Premium . Tap and hold a story in your chat list and select 'View Anonymously' . This opens the story without adding you to its list of viewers, and turns on Stealth Mode , which hides your recent views and your views for the next 25 minutes."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Calls, Voice Chats and Live Streams"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: Can I make calls via Telegram?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Yes. You can make end-to-end encrypted Voice Calls and Video Calls , and you can turn any call into a Group Call with up to 200 participants — also protected by end-to-end encryption, which you can verify at any time by comparing the 4 emoji shown on everyone's screens."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Participants can send comments and reactions directly inside the call without interrupting the audio. In video calls you can also share your screen , with sound."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "To start a group call : call someone and tap 'Add Person' , or open the Calls tab, tap 'New Call' and pick several people. You can also create a call link or QR code there and send it to anyone — they join whenever they are ready."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What is a Video Chat?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "If you want an ongoing video chat that members of a group can join whenever they want, you can also start a Video Chat in any group — useful as a virtual office or a casual hangout. Admins can start a video chat from the group's profile."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Video Chats can have thousands of participants and an unlimited number of listeners. Participants can also send comments and reactions on the call screen (in groups with fewer than 1,000 participants)."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Admins can schedule a video chat, record it , let listeners raise a hand to speak, and share separate links for speakers and listeners ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What is a Live Stream?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "A Live Stream is a live video broadcast from a channel or group, with an unlimited number of viewers — for events, lectures, concerts or announcements. Admins start one from the chat's profile."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "You can stream from your phone, or use streaming software like OBS or XSplit for several cameras and graphics — Telegram gives you an RTMP key for this on all platforms . Streams can be recorded ; the video is saved to your Saved Messages."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Any user can also host a Live Story — a live broadcast inside their stories, where viewers can comment and send Stars."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Usernames and t.me"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -643,6 +901,88 @@ Q: What if someone is pretending to be me?",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "If a scammer is pretending to be you, please contact @NoToScam ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Stars, Gifts and Payments"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What are Telegram Stars?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Telegram Stars can be used for paying for digital goods and services inside Telegram. You can spend Stars on:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "items, games and subscriptions in bots and mini apps"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "paid photos and videos and paid subscriptions in channels"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Star reactions to support channels you like"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "gifts for friends and channels"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Star Messages to people who charge for messages from non-contacts"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Telegram Premium as a gift for someone else"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "suggested posts in channels"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "You can buy Stars with your normal payment method through the App Store or Google Play, or through @PremiumBot and Fragment — which is cheaper and allows larger amounts. Your balance is in Settings > My Stars , where you can also buy Stars as a gift for a friend."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Read more in the Terms of Service for Telegram Stars ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What are gifts?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Gifts are animated items you can send to another user — or to a channel — with a message, paid in Telegram Stars . To send one, open a profile and tap ⋮ / ⋯ > 'Send a Gift' . You can hide your name from other visitors of the recipient's profile."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "When you receive a gift, you can show it in the 'Gifts' tab of your profile, or convert it back into Stars. Many gifts can be upgraded into collectibles — either by you, or by the sender in advance."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "You control gifts in Settings > Privacy and Security > Gifts : who can send you gifts, which gifts appear on your profile automatically, and whether a 'Gift' button is shown in your chats. Premium users can also choose to accept only certain types of gifts ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Add your birthday to your profile and your contacts will see a reminder to send you a gift. Friends can also suggest a birthday for your profile. Mini apps can send you gifts as rewards."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What are collectible gifts?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "A gift you receive can be upgraded to a collectible for a small number of Stars. A collectible gets a unique look — a model, a backdrop and a symbol drawn by Telegram artists — plus a number. Some combinations are rarer than others."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "With a collectible gift you can:"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Wear it as your emoji status, or pin up to 6 of them on your profile."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Use it as a chat theme or for your profile colors . (Premium)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Sort it into collections and post it to your story ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Transfer it to another user, or move it to the TON blockchain — then it stays yours even if you delete your Telegram account."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Sell it for Stars on the Gift Marketplace."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Combine up to 4 of certain gifts in crafting to try for an Uncommon , Rare , Epic or Legendary version."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "The 'Value' field on a gift shows its approximate resale price . You can also pay for the upgrade of a gift on a friend's profile. New limited collections are released through auctions ; some limited sets are available to Premium users only ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "A gift's description — who sent it and their message — can be removed for Stars. Gifts you keep on the blockchain can still be shown on your profile if you connect your account to Fragment."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: How do I buy or sell collectible gifts?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Buy. Open any profile, tap 'Send a Gift' and choose the 'Collectible' filter to browse the gift marketplace , where other users sell their gifts for Stars. Filters let you search by model, backdrop or symbol. You can add your signature and a comment to a gift you buy there."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Sell. Open a collectible on your profile, tap 'Sell' and set a price in Stars. The gift gets a 'Sale' label; tap 'Unlist' to cancel."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Make an offer. While viewing someone's gift, tap ⋮ / ⋯ > 'Offer to Buy' to propose a price with a time limit. Your payment is reserved, and refunded automatically if the owner declines or the offer expires."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Auctions. New gift collections are sold through auctions with several rounds. Your place in the ranking decides the number of your gift; bids that don't win move to the next round, and unused bids are refunded. Auctions have t.me/auction links."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What are Star Messages?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Star Messages let you set a fee in Telegram Stars for messages from people who are not in your contacts. This keeps your inbox free of spam, while people who really need to reach you still can. You can allow certain users or members of certain groups to write for free, and refund any message with one tap."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "To turn this on for your account, you need Telegram Premium : go to Settings > Privacy and Security > Messages . Group owners can enable 'Charge Stars for Messages' in the group's permissions and manage the group's Star balance from its profile. Channels can set a fee per direct message. You receive 85% of each fee; the rest covers Telegram's costs."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "If you are asked for Stars when writing to someone, see Can't send a message, I am being asked for Stars ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Q: What does Profile Rating mean?"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Telegram profiles show a badge with a numerical rating based on the total volume of successful transactions that user has made with Telegram Stars ."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Your profile rating highlights your Telegram level and helps channel owners see that you can be trusted for Suggested Posts and other requests."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Purchasing gifts, sending Star Messages and funding Suggested Posts with Stars increases your rating. However, if you refund Star purchases or convert gifts to Stars, your rating will decrease."
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "If you are an advanced user, you may find our FAQ for the Technically Inclined useful as well."
+    }
+   ]
+  },
+  {
+   "header": "@@ -717,7 +1057,7 @@ Telegram developed Cocoon and uses it to securely power its AI features without",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Q: Do Telegram's AI features upload data to third parties?"
+    }
+   ]
+  }
+ ],
+ "truncated": true
+}

@@ -1,0 +1,46 @@
+{
+ "id": "2026-11-09-tuta-terms",
+ "date": "2026-11-09",
+ "slug": "tuta",
+ "doc": "terms",
+ "hunks": [
+  {
+   "header": "@@ -370,7 +370,7 @@ Roadmap Security Encryption Open Source GitHub",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Needs"
+    },
+    {
+     "t": " ",
+     "s": "Personal Business Students"
+    },
+    {
+     "t": " ",
+     "s": "Support"
+    },
+    {
+     "t": "-",
+     "s": "Forum Press Support"
+    },
+    {
+     "t": "+",
+     "s": "Forum Press Support Service status"
+    },
+    {
+     "t": " ",
+     "s": "Language"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "English Česky Deutsch Español Suomi Français Magyar nyelv Italiano 日本語 Nederlands Polski Português, BR Pусский Svenska Yкраїнська 中文 Translate"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

@@ -3,7 +3,7 @@
  "documents": [
   {
    "doc": "faq",
-   "chars": 71178
+   "chars": 98011
   },
   {
    "doc": "play-safety",
@@ -26,7 +26,7 @@
    "chars": 2035
   }
  ],
- "totalChars": 126840,
+ "totalChars": 153673,
  "terms": [
   {
    "group": "eu",
@@ -134,8 +134,12 @@
    "group": "scan",
    "label": "scan / scanning / gescannt",
    "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
-   "count": 2,
+   "count": 3,
    "samples": [
+    {
+     "doc": "faq",
+     "quote": "…with you, even if they don't have your phone number. You can also show them your QR code from Settings — they scan it with the camera in their Telegram app. If your friends don't have Telegram yet, send them the download li…"
+    },
     {
      "doc": "faq",
      "quote": "…can also set up a Passkey to log in without an SMS code at all, using your device's PIN, fingerprint or face scan. Q: Why can jailbroken and rooted devices be dangerous? Using a rooted or jailbroken device makes it easier…"
