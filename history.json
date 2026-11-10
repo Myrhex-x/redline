@@ -1,5 +1,66 @@
 [
  {
+  "id": "2026-11-10-apple-privacy",
+  "date": "2026-11-10",
+  "slug": "apple",
+  "company": "Apple (iMessage, iCloud)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 2,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"United States\""
+ },
+ {
+  "id": "2026-11-10-apple-transparency",
+  "date": "2026-11-10",
+  "slug": "apple",
+  "company": "Apple (iMessage, iCloud)",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 2,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"United States\""
+ },
+ {
+  "id": "2026-11-10-gmx-security",
+  "date": "2026-11-10",
+  "slug": "gmx",
+  "company": "GMX (1&1 Mail)",
+  "doc": "security",
+  "docTitle": "E-Mail Sicherheit",
+  "kind": "change",
+  "added": 0,
+  "removed": 2,
+  "minor": true,
+  "minorReason": "1 short label, no prose and no tracked vocabulary: \"GMX Mobile\""
+ },
+ {
+  "id": "2026-11-10-meta-privacy",
+  "date": "2026-11-10",
+  "slug": "meta",
+  "company": "Meta (Facebook, Instagram, Messenger)",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 143,
+  "removed": 235
+ },
+ {
+  "id": "2026-11-10-microsoft-privacy",
+  "date": "2026-11-10",
+  "slug": "microsoft",
+  "company": "Microsoft (Outlook, Teams)",
+  "doc": "privacy",
+  "docTitle": "Privacy Statement",
+  "kind": "change",
+  "added": 27,
+  "removed": 52
+ },
+ {
   "id": "2026-11-09-eu-commission-csa-policy",
   "date": "2026-11-09",
   "slug": "eu-commission",

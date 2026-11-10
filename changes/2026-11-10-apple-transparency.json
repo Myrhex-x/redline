@@ -1,0 +1,34 @@
+{
+ "id": "2026-11-10-apple-transparency",
+ "date": "2026-11-10",
+ "slug": "apple",
+ "doc": "transparency",
+ "hunks": [
+  {
+   "header": "@@ -1097,3 +1097,5 @@ Sales and Refunds",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Legal"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Site Map"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "United States"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

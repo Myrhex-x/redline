@@ -292,25 +292,21 @@ Read the white paper Slack's security controls also align with the National Cybe
 More on security at Slack
 
 Link may open in new tab Feature Slack Enterprise Key Management
-
 Learn More
+
 Link may open in new tab Blog Security at Slack: How Slack Protects Your Data
-
 Learn More
-Link may open in new tab Webinar Explore enterprise-grade security at Slack
 
+Link may open in new tab Webinar Explore enterprise-grade security at Slack
 Watch Webinar
 
 Link may open in new tab Feature Slack Enterprise Key Management
-
 Learn More
 
 Link may open in new tab Blog Security at Slack: How Slack Protects Your Data
-
 Learn More
 
 Link may open in new tab Webinar Explore enterprise-grade security at Slack
-
 Watch Webinar
 
 esc

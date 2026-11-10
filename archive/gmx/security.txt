@@ -39,8 +39,6 @@ GMX Cloud für macOS
 
 MAX30
 
-GMX Mobile
-
 Speicher erweitern
 
 Sicherheit
