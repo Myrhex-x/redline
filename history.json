@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-11-11-proton-privacy",
+  "date": "2026-11-11",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 3,
+  "removed": 4
+ },
+ {
+  "id": "2026-11-11-proton-transparency",
+  "date": "2026-11-11",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 3,
+  "removed": 4
+ },
+ {
   "id": "2026-11-10-apple-privacy",
   "date": "2026-11-10",
   "slug": "apple",

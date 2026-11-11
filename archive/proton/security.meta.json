@@ -4,8 +4,8 @@
   "url": "https://proton.me/mail/security",
   "finalUrl": "https://proton.me/mail/security",
   "httpStatus": 200,
-  "fetchedAt": "2026-10-26T13:10:04.282Z",
-  "textHash": "44e8bcb09eff00f9639189ff29f6efc66af5144ca4d5a517d6e27e4244ecf7a1",
-  "textChars": 16449,
-  "htmlBytes": 312274
+  "fetchedAt": "2026-11-11T14:27:04.531Z",
+  "textHash": "5b1c89ac0ed55032f6bd1305bb70d4d756112ed9f625c1df030bbe91a9decc1b",
+  "textChars": 16448,
+  "htmlBytes": 312664
 }

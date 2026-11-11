@@ -11,10 +11,6 @@ Discover Proton Discover Proton
 Pricing
 
 Discover Proton Mail
-Proton Mail
-Secure email that protects your privacy
-Create a free account
-
 Features
 Security Bridge Calendar
 Switch from
@@ -28,11 +24,11 @@ Personal plans
 Support
 Proton Mail support How to switch to Proton Mail
 
-Discover Proton Mail for Business
 Proton Mail
-Secure your business
-Find your plan
+Secure email that protects your privacy
+Create a free account
 
+Discover Proton Mail for Business
 Solutions
 Security Team calendar Appointment scheduling Collaboration Custom email domain Business continuity All features
 Switch from
@@ -48,10 +44,11 @@ Business plans
 Support
 Support for business Set up Mail for business
 
+Proton Mail
+Secure your business
+Find your plan
+
 Download Proton Mail
-
-Scan to get the mobile app
-
 Mobile apps
 iOS (new window) Android (new window)
 
@@ -62,6 +59,8 @@ Web app
 Web app (new window)
 Desktop client add-on
 Bridge
+
+Scan to get the mobile app
 
 Encrypted email Proton Mail VPN Proton VPN (new window) Cloud storage Proton Drive Password manager Proton Pass AI assistant Lumo AI
 

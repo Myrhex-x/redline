@@ -1,0 +1,95 @@
+{
+ "id": "2026-11-11-proton-transparency",
+ "date": "2026-11-11",
+ "slug": "proton",
+ "doc": "transparency",
+ "hunks": [
+  {
+   "header": "@@ -36,10 +36,7 @@ Proton Workspace",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Your whole team, one encrypted workspace"
+    },
+    {
+     "t": " ",
+     "s": "Explore Workspace"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Proton Mail Proton VPN Proton Drive Proton Pass Lumo AI Proton Meet Proton Calendar Proton Authenticator Proton Wallet"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Scan to get the mobile app"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Proton Mail Proton Mail Proton VPN Proton VPN Proton Drive Proton Drive Proton Pass Proton Pass Lumo AI Lumo AI Proton Meet Proton Meet Proton Calendar Proton Calendar Proton Authenticator Proton Authenticator Proton Wallet Proton Wallet"
+    },
+    {
+     "t": " ",
+     "s": "Mobile apps"
+    },
+    {
+     "t": " ",
+     "s": "iOS (new window) Android (new window)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -130,6 +127,8 @@ iOS (new window) Android (new window)",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Web app"
+    },
+    {
+     "t": " ",
+     "s": "Web app (new window)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Scan to get the mobile app"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Company"
+    },
+    {
+     "t": " ",
+     "s": "About us Impact Team Careers We’re hiring Proton Foundation Proton blog"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
