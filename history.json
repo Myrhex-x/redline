@@ -1,5 +1,51 @@
 [
  {
+  "id": "2026-11-12-signal-privacy",
+  "date": "2026-11-12",
+  "slug": "signal",
+  "company": "Signal",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy & Terms",
+  "kind": "change",
+  "added": 3,
+  "removed": 2,
+  "minor": true,
+  "minorReason": "4 short labels, no prose and no tracked vocabulary: \"Careers\", \"Donate\", \"Our Mission\", \"Give Now\""
+ },
+ {
+  "id": "2026-11-12-slack-compliance",
+  "date": "2026-11-12",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "compliance",
+  "docTitle": "Trust: Compliance",
+  "kind": "change",
+  "added": 26,
+  "removed": 0
+ },
+ {
+  "id": "2026-11-12-slack-privacy",
+  "date": "2026-11-12",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 26,
+  "removed": 0
+ },
+ {
+  "id": "2026-11-12-slack-security",
+  "date": "2026-11-12",
+  "slug": "slack",
+  "company": "Slack",
+  "doc": "security",
+  "docTitle": "Security",
+  "kind": "change",
+  "added": 26,
+  "removed": 0
+ },
+ {
   "id": "2026-11-11-proton-privacy",
   "date": "2026-11-11",
   "slug": "proton",

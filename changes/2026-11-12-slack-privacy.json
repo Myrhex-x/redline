@@ -1,0 +1,171 @@
+{
+ "id": "2026-11-12-slack-privacy",
+ "date": "2026-11-12",
+ "slug": "slack",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -51,6 +51,19 @@ Public Sector",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Education"
+    },
+    {
+     "t": " ",
+     "s": "Health & Life Sciences"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "BY USE CASE"
+    },
+    {
+     "t": "+",
+     "s": "Manage Projects"
+    },
+    {
+     "t": "+",
+     "s": "Client Collaboration"
+    },
+    {
+     "t": "+",
+     "s": "Run Effective Meetings"
+    },
+    {
+     "t": "+",
+     "s": "Pipeline Management"
+    },
+    {
+     "t": "+",
+     "s": "Internal Communications"
+    },
+    {
+     "t": "+",
+     "s": "Project Tracking"
+    },
+    {
+     "t": "+",
+     "s": "Lead Management"
+    },
+    {
+     "t": "+",
+     "s": "Team Productivity"
+    },
+    {
+     "t": "+",
+     "s": "Employee Onboarding"
+    },
+    {
+     "t": "+",
+     "s": "Time Tracking"
+    },
+    {
+     "t": "+",
+     "s": "Find Answers Faster"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Template gallery Start work faster with templates"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Watch demo Download Slack"
+    }
+   ]
+  },
+  {
+   "header": "@@ -136,6 +149,19 @@ Public Sector",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Education"
+    },
+    {
+     "t": " ",
+     "s": "Health & Life Sciences"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "BY USE CASE"
+    },
+    {
+     "t": "+",
+     "s": "Manage Projects"
+    },
+    {
+     "t": "+",
+     "s": "Client Collaboration"
+    },
+    {
+     "t": "+",
+     "s": "Run Effective Meetings"
+    },
+    {
+     "t": "+",
+     "s": "Pipeline Management"
+    },
+    {
+     "t": "+",
+     "s": "Internal Communications"
+    },
+    {
+     "t": "+",
+     "s": "Project Tracking"
+    },
+    {
+     "t": "+",
+     "s": "Lead Management"
+    },
+    {
+     "t": "+",
+     "s": "Team Productivity"
+    },
+    {
+     "t": "+",
+     "s": "Employee Onboarding"
+    },
+    {
+     "t": "+",
+     "s": "Time Tracking"
+    },
+    {
+     "t": "+",
+     "s": "Find Answers Faster"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Template gallery Start work faster with templates"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Enterprise"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

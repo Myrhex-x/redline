@@ -1,0 +1,58 @@
+{
+ "id": "2026-11-12-signal-privacy",
+ "date": "2026-11-12",
+ "slug": "signal",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -2,8 +2,9 @@ Get Signal",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Help"
+    },
+    {
+     "t": " ",
+     "s": "Blog"
+    },
+    {
+     "t": " ",
+     "s": "Developers"
+    },
+    {
+     "t": "-",
+     "s": "Careers"
+    },
+    {
+     "t": "-",
+     "s": "Donate"
+    },
+    {
+     "t": "+",
+     "s": "Our Mission"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Give Now"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Signal Terms & Privacy Policy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
