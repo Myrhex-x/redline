@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-11-13-pinterest-guidelines",
+  "date": "2026-11-13",
+  "slug": "pinterest",
+  "company": "Pinterest",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "change",
+  "added": 67,
+  "removed": 41
+ },
+ {
+  "id": "2026-11-13-pinterest-privacy",
+  "date": "2026-11-13",
+  "slug": "pinterest",
+  "company": "Pinterest",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 35,
+  "removed": 34
+ },
+ {
   "id": "2026-11-12-signal-privacy",
   "date": "2026-11-12",
   "slug": "signal",

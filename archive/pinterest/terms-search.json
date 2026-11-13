@@ -3,7 +3,7 @@
  "documents": [
   {
    "doc": "guidelines",
-   "chars": 23104
+   "chars": 25714
   },
   {
    "doc": "play-safety",
@@ -11,10 +11,10 @@
   },
   {
    "doc": "privacy",
-   "chars": 49529
+   "chars": 51225
   }
  ],
- "totalChars": 79050,
+ "totalChars": 83356,
  "terms": [
   {
    "group": "eu",
@@ -113,8 +113,17 @@
    "group": "scan",
    "label": "scan / scanning / gescannt",
    "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
-   "count": 0,
-   "samples": []
+   "count": 2,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…with law enforcement to keep Pinterest safe. We may also use, or work with vendors who use automated tools to scan and analyze your messages to detect harmful or unlawful content. Analyze users’ log data, device information,…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…our community and/or members of the public. We may also use, or work with vendors who use automated tools to scan and analyze your messages to detect harmful or unlawful content. Conduct age verification. This may include f…"
+    }
+   ]
   },
   {
    "group": "scan",
@@ -131,7 +140,7 @@
    "samples": [
     {
      "doc": "privacy",
-     "quote": "…d offer new features. For example, using information to train, develop and improve our technology such as our machine learning models, regardless of when Pins were posted. This includes, for example, Pinterest’s body type technology , which i…"
+     "quote": "…(such as Pins, regardless of when they were posted) to train, develop and improve our technology such as our machine learning models and our generative artificial intelligence models. This includes, for example, Pinterest’s body type technol…"
     },
     {
      "doc": "privacy",
@@ -143,8 +152,17 @@
    "group": "scan",
    "label": "monitor content / review content",
    "pattern": "(?:monitor|review|analyse|analyze)s? (?:your |user |the )?(?:content|messages|communications)",
-   "count": 0,
-   "samples": []
+   "count": 2,
+   "samples": [
+    {
+     "doc": "privacy",
+     "quote": "…enforcement to keep Pinterest safe. We may also use, or work with vendors who use automated tools to scan and analyze your messages to detect harmful or unlawful content. Analyze users’ log data, device information, and usage data to identif…"
+    },
+    {
+     "doc": "privacy",
+     "quote": "…unity and/or members of the public. We may also use, or work with vendors who use automated tools to scan and analyze your messages to detect harmful or unlawful content. Conduct age verification. This may include facial age estimation and m…"
+    }
+   ]
   }
  ]
 }
