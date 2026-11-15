@@ -39,6 +39,36 @@ Harmful False or Deceptive Practices
 Policy Centre
 Community Guidelines
 
+Company
+Snap Inc.
+Careers
+News
+Privacy and Safety
+
+Community
+Snapchat Support
+Spectacles Support
+Community Guidelines
+
+Advertising
+Snapchat Ads
+Advertising Policies
+Political Ads Library
+Brand Guidelines
+Promotions Rules
+
+Legal
+Other Terms & Policies
+Law enforcement
+Cookie Policy
+Cookie Settings
+Report Infringement
+
+Privacy Policy
+Terms of Service
+
+Language English (UK)
+
 At Snap, we empower people to express themselves, live in the moment, learn about the world and have fun together. We created these Community Guidelines, in line with our commitment to respecting human rights , to encourage self-expression while helping Snapchatters stay safe.
 Community Guidelines are the rules that govern what is and is not allowed on Snapchat. These guidelines apply to all content and all who use or interact with Snapchat. This includes usernames and display names , Bitmojis, text, images, videos, generative AI, links or attachments, emojis, stickers, Lenses and other creative tools. It also applies to all behaviour on Snapchat, including user-to-user interaction, as well as behaviour that affects the integrity of our ecosystem, such as inauthentic activity or deceptive practices designed to manipulate Snap’s platform or products.
 If these policies are violated, we may take action on the offending account, including by removing violating content, issuing warnings, limiting visibility of the account or content, or terminating the account. If your account is disabled for violating these guidelines, you are not allowed to use Snapchat again without our permission.
@@ -49,18 +79,6 @@ Note About Severe Harm
 While we prohibit all content or behaviour that violates our Community Guidelines, we are especially concerned with violations that pose a risk of severe harm to Snapchatters. Severe harms include child sexual exploitation, terrorism, and violent extremism, as well as other illegal content and conduct. When we identify accounts engaging in severe harm on Snapchat, we disable those accounts. Guidance about how we reduce the time that this content is visible on Snapchat and how we take action against it can be found in the Severe Harm explainer and relevant explainers linked throughout these guidelines. Please do not joke about engaging in severe harm. Such statements may result in your account being actioned or disabled, regardless of intent.
 
 Learn More
-
-Community Guidelines apply to all users and all content
-
-These guidelines apply to all content and all Snapchatters. This includes usernames and display names , Bitmojis, text, images, videos, generative AI, links or attachments, emojis, stickers, Lenses and other creative tools, and all behaviour on Snapchat.
-Snap offers generative AI features through our services. We implement safeguards designed to help keep generative AI content in line with our Community Guidelines. We also expect Snapchatters to use AI responsibly. We reserve the right to take appropriate enforcement action against accounts that use AI to violate our Community Guidelines or abuse our AI products. This can include termination of an account.
-
-Additional policies may apply
-In addition to our Community Guidelines, we have additional policies for users who wish to reach a broader audience or monetise their content. In order to be eligible for algorithmic recommendation beyond the creator's friends or followers, content must comply with our Guidelines for Recommendation Eligibility . Advertisers must comply with our Advertising Policies , which require that they are honest about their products, services, and content. Sponsored content, or organic promotion of products or services must adhere to our Commercial Content Policy . Please note that some regulated goods and activities may only be promoted by eligible accounts through approved advertising or sponsored content channels. Creators who wish to participate in monetisation programmes must follow our Monetisation Policy . Media partners must comply with our Content Partner Terms , which requires their content to be accurate and, where appropriate, fact-checked. Developers are also subject to Developer Terms .
-
-We've outlined here and in our Terms of Service specific rules for content that is prohibited on Snapchat. We work to ensure these rules are applied consistently. When applying them, we take into account the nature of the content, including whether it is newsworthy, factual, and relates to a matter of political, social, or educational value. Additional context about how we moderate content and enforce our policies is available in our Moderation explainer . We also provide links to more detailed information about our Community Guidelines in each of the sections below.
-
-We want Snapchat to be a safe and positive experience for everyone. We reserve the right to decide, at our sole discretion, what content or behaviour violates the spirit of our rules. While we have the right to review, moderate, or remove any content from our platform, we do not proactively review all of it. We cannot guarantee that other users will comply with our Community Guidelines or that our platform will be free of violating content. We strongly encourage Snapchatters to report any content that may be violating so that our teams can review and take appropriate action.
 
 Community Guidelines
 
@@ -140,32 +158,14 @@ Sexual Content
 
 Read Next
 
-Company
-Snap Inc.
-Careers
-News
-Privacy and Safety
+Community Guidelines apply to all users and all content
 
-Community
-Snapchat Support
-Spectacles Support
-Community Guidelines
+These guidelines apply to all content and all Snapchatters. This includes usernames and display names , Bitmojis, text, images, videos, generative AI, links or attachments, emojis, stickers, Lenses and other creative tools, and all behaviour on Snapchat.
+Snap offers generative AI features through our services. We implement safeguards designed to help keep generative AI content in line with our Community Guidelines. We also expect Snapchatters to use AI responsibly. We reserve the right to take appropriate enforcement action against accounts that use AI to violate our Community Guidelines or abuse our AI products. This can include termination of an account.
 
-Advertising
-Snapchat Ads
-Advertising Policies
-Political Ads Library
-Brand Guidelines
-Promotions Rules
+Additional policies may apply
+In addition to our Community Guidelines, we have additional policies for users who wish to reach a broader audience or monetise their content. In order to be eligible for algorithmic recommendation beyond the creator's friends or followers, content must comply with our Guidelines for Recommendation Eligibility . Advertisers must comply with our Advertising Policies , which require that they are honest about their products, services, and content. Sponsored content, or organic promotion of products or services must adhere to our Commercial Content Policy . Please note that some regulated goods and activities may only be promoted by eligible accounts through approved advertising or sponsored content channels. Creators who wish to participate in monetisation programmes must follow our Monetisation Policy . Media partners must comply with our Content Partner Terms , which requires their content to be accurate and, where appropriate, fact-checked. Developers are also subject to Developer Terms .
 
-Legal
-Other Terms & Policies
-Law enforcement
-Cookie Policy
-Cookie Settings
-Report Infringement
+We've outlined here and in our Terms of Service specific rules for content that is prohibited on Snapchat. We work to ensure these rules are applied consistently. When applying them, we take into account the nature of the content, including whether it is newsworthy, factual, and relates to a matter of political, social, or educational value. Additional context about how we moderate content and enforce our policies is available in our Moderation explainer . We also provide links to more detailed information about our Community Guidelines in each of the sections below.
 
-Privacy Policy
-Terms of Service
-
-Language English (UK)
+We want Snapchat to be a safe and positive experience for everyone. We reserve the right to decide, at our sole discretion, what content or behaviour violates the spirit of our rules. While we have the right to review, moderate, or remove any content from our platform, we do not proactively review all of it. We cannot guarantee that other users will comply with our Community Guidelines or that our platform will be free of violating content. We strongly encourage Snapchatters to report any content that may be violating so that our teams can review and take appropriate action.
