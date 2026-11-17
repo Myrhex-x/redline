@@ -399,13 +399,16 @@ Discover more
 
 Schengen Schengen Schengen guarantees free movement to more than 450 million EU citizens, along with non-EU nationals living in the EU or visiting the EU as tourists, exchange students or for business purposes, anyone legally present in the EU.
 
-Border crossing Short-stay calculator
+Border crossing
+Effective management of external borders
+Eurosur
+Interoperability
+Schengen area History of Schengen
+Schengen Governance
+Temporary Reintroduction of Border Control
 
 See all
 
-Eurosur
-Effective management of external borders
-Interoperability
 Schengen Information System Access rights and data protection
 Alerts and data in SIS
 Questions and answers
@@ -415,9 +418,10 @@ What is SIS and how does it work?
 
 See all
 
-Schengen area History of Schengen
-Schengen Governance
-Temporary Reintroduction of Border Control
+Schengen visas Applying for a Schengen visa
+EU visa policy
+Short-stay calculator
+Visa Information System (VIS)
 
 See all
 
@@ -427,15 +431,6 @@ Entry/Exit System (EES)
 See all
 
 Travel and residence documents
-Visa Information System (VIS) Key documents and legislation on VIS
-
-See all
-
-Visa policy Applying for a Schengen visa
-Legal documents related to Schengen visas
-Short-stay visas issued by Schengen countries
-
-See all
 
 Discover more
 

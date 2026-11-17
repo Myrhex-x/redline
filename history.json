@@ -1,5 +1,53 @@
 [
  {
+  "id": "2026-11-17-eu-commission-csa-policy",
+  "date": "2026-11-17",
+  "slug": "eu-commission",
+  "company": "European Commission",
+  "doc": "csa-policy",
+  "docTitle": "Child sexual abuse policy (DG HOME)",
+  "kind": "change",
+  "added": 11,
+  "removed": 16
+ },
+ {
+  "id": "2026-11-17-proton-privacy",
+  "date": "2026-11-17",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 3,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"Desktop apps\", \"macOS Windows Linux\""
+ },
+ {
+  "id": "2026-11-17-proton-transparency",
+  "date": "2026-11-17",
+  "slug": "proton",
+  "company": "Proton",
+  "doc": "transparency",
+  "docTitle": "Transparency Report",
+  "kind": "change",
+  "added": 3,
+  "removed": 0,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"Desktop apps\", \"macOS Windows Linux\""
+ },
+ {
+  "id": "2026-11-17-threema-privacy",
+  "date": "2026-11-17",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 75,
+  "removed": 23
+ },
+ {
   "id": "2026-11-13-pinterest-guidelines",
   "date": "2026-11-13",
   "slug": "pinterest",

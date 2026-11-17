@@ -1,0 +1,216 @@
+{
+ "id": "2026-11-17-eu-commission-csa-policy",
+ "date": "2026-11-17",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -399,13 +399,16 @@ Discover more",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Schengen Schengen Schengen guarantees free movement to more than 450 million EU citizens, along with non-EU nationals living in the EU or visiting the EU as tourists, exchange students or for business purposes, anyone legally present in the EU."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Border crossing Short-stay calculator"
+    },
+    {
+     "t": "+",
+     "s": "Border crossing"
+    },
+    {
+     "t": "+",
+     "s": "Effective management of external borders"
+    },
+    {
+     "t": "+",
+     "s": "Eurosur"
+    },
+    {
+     "t": "+",
+     "s": "Interoperability"
+    },
+    {
+     "t": "+",
+     "s": "Schengen area History of Schengen"
+    },
+    {
+     "t": "+",
+     "s": "Schengen Governance"
+    },
+    {
+     "t": "+",
+     "s": "Temporary Reintroduction of Border Control"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Eurosur"
+    },
+    {
+     "t": "-",
+     "s": "Effective management of external borders"
+    },
+    {
+     "t": "-",
+     "s": "Interoperability"
+    },
+    {
+     "t": " ",
+     "s": "Schengen Information System Access rights and data protection"
+    },
+    {
+     "t": " ",
+     "s": "Alerts and data in SIS"
+    },
+    {
+     "t": " ",
+     "s": "Questions and answers"
+    }
+   ]
+  },
+  {
+   "header": "@@ -415,9 +418,10 @@ What is SIS and how does it work?",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Schengen area History of Schengen"
+    },
+    {
+     "t": "-",
+     "s": "Schengen Governance"
+    },
+    {
+     "t": "-",
+     "s": "Temporary Reintroduction of Border Control"
+    },
+    {
+     "t": "+",
+     "s": "Schengen visas Applying for a Schengen visa"
+    },
+    {
+     "t": "+",
+     "s": "EU visa policy"
+    },
+    {
+     "t": "+",
+     "s": "Short-stay calculator"
+    },
+    {
+     "t": "+",
+     "s": "Visa Information System (VIS)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -427,15 +431,6 @@ Entry/Exit System (EES)",
+   "lines": [
+    {
+     "t": " ",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Travel and residence documents"
+    },
+    {
+     "t": "-",
+     "s": "Visa Information System (VIS) Key documents and legislation on VIS"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "See all"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Visa policy Applying for a Schengen visa"
+    },
+    {
+     "t": "-",
+     "s": "Legal documents related to Schengen visas"
+    },
+    {
+     "t": "-",
+     "s": "Short-stay visas issued by Schengen countries"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Discover more"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

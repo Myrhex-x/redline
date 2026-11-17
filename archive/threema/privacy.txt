@@ -307,7 +307,8 @@ G. Further Processing of Personal Data for Consultations (Business Customers Onl
 H. Newsletters ;
 I. Press Releases ;
 J. Misuse Protection (hCaptcha) ;
-K. Affiliate Links (Cookies) .
+K. Affiliate Links (Cookies) ;
+L. Marketing Automation Tool .
 Threema as the data controller is a company limited by shares under Swiss law with its registered office in Pfäffikon SZ (municipality of Freienbach), Switzerland, and business identification number (hereinafter “ UID ”) CHE-487.082.806.
 When a Visitor visits and interacts with the Threema Website, personal data is, unless otherwise stated in this Privacy Policy, processed and, if necessary, stored exclusively on Threema’s own servers in two data centers of an “ISO 27001”-certified colocation partner located in Zurich, Switzerland (hereinafter “ Threema Servers ”).
 As a company with its registered office in Switzerland, Threema and the data processing it carries out are subject to Swiss data protection law (Federal Act on Data Protection of September 25, 2020, SR 235.1; hereinafter “ FADP ”). For data subjects residing in the territory of the EU or the EEA (marked with “ for EU/EEA ”), European data protection law (Regulation (EU) 2016/679 of April 27, 2016, General Data Protection Regulation; hereinafter “ GDPR ”) may additionally apply.
@@ -354,8 +355,10 @@ A. Calling Up the Threema Website
 Processing
 When the Threema Website is called up, information, including personal data, is automatically sent to the Threema Servers by the browser on the Visitor’s device, processed, and stored in a log file.
 After processing the full IP address, normally only the first two digits of a Visitor’s IP address are stored in the log file, unless an error occurred when calling up the Threema Website. In case of an error, the full IP address is stored in the log file.
+On pages of the Threema Website that contain forms, the respective form is loaded from the server of the marketing automation solution Aivie when the page is called up. In the process, the Visitor’s IP address as well as browser and device information are transmitted to Aivie (see Section 2.L. ).
+To protect against overload attacks (so-called “DDoS attacks”), Threema uses the service of Myra Security GmbH, Landsberger Strasse 187, 80687 Munich, Germany (hereinafter “Myra”). Only during an attack is the data traffic to the Threema Servers rerouted via Myra’s filtering infrastructure (so-called “on-demand” operation), which is operated, as a rule, in Switzerland and, as part of its georedundant design, possibly also in Germany. There, malicious data traffic is filtered out and the remaining data traffic is forwarded to the Threema Servers. To the extent that personal data is processed in this context, this exclusively concerns IP addresses; the contents of the communication remain encrypted and cannot be viewed by Myra. Outside of an attack, data traffic is not routed via Myra.
 Categories of Processed Personal Data
-When calling up the Threema Website, the following personal data is processed on the Threema Servers and stored in a log file:
+When calling up the Threema Website, the following personal data is processed on the Threema Servers and stored in a log file, and processed by Myra during an overload attack:
 IP address of the Visitor.
 
 Purpose
@@ -365,11 +368,11 @@ Delivery of the Threema Website in the Visitor’s browser;
 Information security.
 
 Legal Basis
-The processing and storage of IP addresses is technically necessary and based on the overriding private interest (delivery of the Threema Website to the Visitor; information security) of Threema; Art. 31 Sec. 2 lit. a FADP [for EU/EEA: Art. 6 Sec. 1 lit. b GDPR].
+The processing and storage of IP addresses is technically necessary and based on the overriding private interest (delivery of the Threema Website to the Visitor; information security) of Threema; Art. 31 Sec. 1 FADP [for EU/EEA: Art. 6 Sec. 1 lit. f GDPR].
 Necessity
 The processing of the IP address is technically necessary to deliver the Threema Website in the Visitor’s browser, and to be able to analyze potential technical errors for information security purposes.
 Storage Period
-The log file with the Visitor’s IP address created when the Threema Website is called up is stored on the Threema Servers for 10 days , counting from the creation date of the log file, and then automatically deleted.
+The log file with the Visitor’s IP address created when the Threema Website is called up is stored on the Threema Servers for 10 days , counting from the creation date of the log file, and then automatically deleted. Myra does not store the IP addresses beyond the duration of the filtering.
 B. Support Forms
 Processing
 Visitors to the Threema Website may submit support requests for the “ Threema App ” for consumers to the Threema staff via a corresponding form (hereinafter “ Support Form ”).
@@ -405,9 +408,9 @@ The first name provided by the Visitor when submitting Feedback Forms is stored 
 D. Prize Draws
 Processing
 From time to time, Threema carries out prize draws, for which Visitors may register via a corresponding form on the Threema Website.
-Visitors may voluntarily subscribe to Threema’s newsletter when registering for a prize draw (see Section 2.H. )
+Visitors may voluntarily subscribe to Threema’s newsletter when registering for a prize draw (see Section 2.H. ):
 Categories of Processed Personal Data
-When registering for a prize draw, the following personal data is processed and stored on the Threema Servers:
+When registering for a prize draw, the following personal data is processed and stored in Aivie (see Section 2.L. )
 First name;
 
 Last name;
@@ -428,7 +431,7 @@ Marketing.
 Legal Basis
 In the context of a prize draw registration, the processing of the Visitor’s personal data only takes place if the Visitor has given Threema their voluntary consent for the processing of this personal data; Art. 31 Sec. 1 FADP [for EU/EEA: Art. 6 Sec. 1 lit. a GDPR].
 Storage Period
-The personal data provided by the Visitor in the context of a prize draw registration is stored on the Threema Servers for the duration of the prize draw and beyond for a maximum of 1 month and then deleted. If the prize draw is aimed at business customers, the personal data provided by the Visitor will be further processed for the purpose of initiating or conducting consultations (see Section 2.G. ).
+The personal data provided by the Visitor in the context of a prize draw registration is stored in Aivie (see Section 2.L. ) for the duration of the prize draw and beyond for a maximum of 1 month and then deleted. If the prize draw is aimed at business customers, the personal data provided by the Visitor will be further processed for the purpose of initiating or conducting consultations (see Section 2.G. ).
 The personal data of prize draw winners will be further processed in the context of the awarding of the prizes.
 If the Visitor also subscribes to Threema’s newsletter when registering for a prize draw, their email address will be (further) processed until revocation , irrespective of the deletion period of the prize draw (see Section 2.H. ).
 E. Business Contact Forms
@@ -445,8 +448,9 @@ Appointments;
 Requests for gated content (whitepapers, video recordings, etc.).
 
 Visitors may voluntarily subscribe to Threema’s newsletter when submitting Business Contact Forms (see Section 2.H. )
+When requesting gated content (e.g., whitepapers), Visitors may additionally and voluntarily consent to subsequently receiving further information by email tailored to the topic of the requested content. This information is sent automatically via Aivie (see Section 2.L. ). Visitors may revoke this consent at any time, either by clicking on a link at the end of each email or by sending an email to marketing at threema dot ch .
 Categories of Processed Personal Data
-When submitting a Business Contact Form, the following personal data is processed and stored on the Threema Servers (this may vary depending on the form, and some information may be optional):
+When submitting a Business Contact Form, the following personal data is processed and stored in Aivie (see Section 2.L. ; this may vary depending on the form, and some information may be optional):
 First name;
 
 Last name;
@@ -459,20 +463,25 @@ Email address;
 
 Telephone number;
 
-Customer status.
+Customer status;
+
+Requested content (e.g., whitepaper).
 
 To protect the Threema Website from misuse, Threema uses a captcha from the hCaptcha service (see Section 2.J. ).
 Purpose
 The aforementioned personal data is processed by Threema for the following purposes:
 Recording, processing, and answering business inquiries;
 
+Sending of information by email tailored to the requested content (only with consent);
+
 Marketing.
 
 Legal Basis
 When submitting Business Contact Forms, the processing of the Visitor’s personal data only takes place if the Visitor has given Threema their voluntary consent for the processing of this personal data; Art. 31 Sec. 1 FADP [for EU/EEA: Art. 6 Sec. 1 lit. a GDPR].
 Storage Period
-The personal data provided by the Visitor when submitting Business Contact Forms is stored on the Threema Servers for 6 months and then automatically deleted. If the Visitor submits another Business Contact Form with the same email address before the deletion period expires, the 6-month deletion period is reset and starts anew.
-If consultations are initiated or conducted with the Visitor as a business customer in addition to answering their inquiry, the personal data provided by them will be further processed (see Section 2.G. ).
+The personal data provided by the Visitor when submitting Business Contact Forms is stored in Aivie (see Section 2.L. ) for 6 months and then automatically deleted. If the Visitor submits another Business Contact Form with the same email address before the deletion period expires, the 6-month deletion period is reset and starts anew.
+If the Visitor has consented to receiving further information tailored to the requested content, their email address and the requested content will be processed until revocation, irrespective of the 6-month deletion period, but for no longer than 12 months after the last email has been sent.
+If consultations are initiated or conducted with the Visitor as a business customer in addition to answering their inquiry, the personal data provided by them will be further processed (see Section 2.H. ).
 If the Visitor also subscribes to Threema’s newsletter when submitting a Business Contact Form, their email address will be (further) processed until revocation , irrespective of the 6-month deletion period (see Section 2.B. ).
 F. Webinars
 Processing
@@ -512,7 +521,7 @@ Personal data from Visitors of the Threema Website collected by Threema in the c
 Visitors who are contacted by Threema for consultations may declare their disinterest at any time in order not to be contacted by Threema for consultations in the future.
 Note: Only personal data from forms on the Threema Website aimed at business customers will be further processed for consultations.
 Categories of Processed Personal Data
-In order to conduct consultations, the following personal data, obtained under Sections 2.D., 2.E., and 2.F., is processed and stored on the Threema Servers:
+In order to conduct consultations, the following personal data, obtained under Sections 2.D., 2.E., and 2.F., is processed and stored on the Threema Servers or in Aivie (see Section 2.L. ):
 First name;
 
 Last name;
@@ -532,20 +541,24 @@ The aforementioned personal data is processed by Threema for the following purpo
 Marketing.
 
 Legal Basis
-The processing of the Visitor’s personal data for consultation purposes is based on the overriding private interest (marketing) of Threema; Art. 31 Sec. 2 lit. a FADP [for EU/EEA: Art. 6 Sec. 1 lit. b GDPR].
+The processing of the Visitor’s personal data for consultation purposes is based on the overriding private interest (marketing) of Threema; Art. 31 Sec. 1 FADP [for EU/EEA: Art. 6 Sec. 1 lit. f GDPR].
 Necessity
 This data processing is necessary to conduct consultations with potential business customers about Threema’s business products and services or to provide them with relevant information.
 Storage Period
-Threema processes personal data to conduct consultations either until revocation , i.e., until the affected Visitor declares their disinterest in consultations, or for a maximum of 12 months , counting from the Visitor’s last reaction to being contacted for consultations by Threema. As soon as a Visitor declares their disinterest in consultations or does not respond to consultation offers during 12 months, their personal data will be deleted from the Threema Servers within 14 days at the latest .
+Threema processes personal data to conduct consultations either until revocation , i.e., until the affected Visitor declares their disinterest in consultations, or for a maximum of 12 months , counting from the Visitor’s last reaction to being contacted for consultations by Threema. As soon as a Visitor declares their disinterest in consultations or does not respond to consultation offers during 12 months, their personal data will be deleted from the Threema Servers within 14 days at the latest and from Aivie within 60 days .
 H. Newsletters
 Processing
 Visitors of the Threema Website may subscribe to various newsletters of Threema, which are aimed at consumers or business customers.
 Threema uses the “ Double Opt-in ” procedure for the Visitors’ consent to receive newsletters. Threema only sends a newsletter by email to a Visitor of the Threema Website if they have expressly consented to receive it in advance.
 For this purpose, after submitting a newsletter subscription form, the Visitor receives a notification email in which they are asked to confirm the newsletter subscription via the link in the email.
-Visitors may revoke their consent at any time and unsubscribe from the newsletter, either by clicking on a link at the end of each newsletter email or by sending a corresponding cancellation request to the following email address of Threema: marketing at threema dot ch
+Visitors may revoke their consent at any time and unsubscribe from the newsletter, either by clicking on a link at the end of each newsletter email or by sending a corresponding cancellation request to the following email address of Threema: marketing at threema dot ch .
 Categories of Processed Personal Data
-To distribute the newsletter, the following personal data is processed and stored on the Threema Servers:
-Email address.
+To distribute the newsletter, the following personal data is processed and stored in Aivie (see Section 2.L. ):
+Email address;
+
+Selected newsletter;
+
+Time of registration and confirmation (Double Opt-in).
 
 To protect the Threema Website from misuse, Threema uses a captcha from the hCaptcha service (see Section 2.J. ).
 Purpose
@@ -555,7 +568,7 @@ Marketing.
 Legal Basis
 The processing of the Visitor’s email address for the distribution of newsletters only takes place if the Visitor has given Threema their voluntary consent for the processing of this personal data; Art. 31 Sec. 1 FADP [for EU/EEA: Art. 6 Sec. 1 lit. a GDPR].
 Storage Period
-The email address provided by the Visitor is stored on the Threema Servers until revocation of consent, i.e., until unsubscribing from every newsletter, and then immediately deleted.
+The personal data provided by the Visitor is stored in Aivie until revocation of consent, i.e., until unsubscribing from every newsletter, and then deleted within 60 days (see Section 2.L. ).
 I. Press Releases
 Processing
 Visitors of the Threema Website may subscribe to Threema’s press distribution list, which is primarily aimed at journalists and press representatives.
@@ -576,7 +589,7 @@ Storage Period
 The email address provided by the Visitor for the subscription to the press distribution list is stored on the Threema Servers until revocation of consent by the Visitor and then immediately deleted.
 J. Misuse Protection (hCaptcha)
 Processing
-In order to protect the Threema Website from misuse through forms submitted by machines, Threema uses the captcha of the “ hCaptcha ” service for all forms used on the Threema Website.
+In order to protect the Threema Website from misuse through forms submitted by machines, Threema uses the captcha of the “ hCaptcha ” service for forms used on the Threema Website.
 hCaptcha is a service of Intuition Machines, Inc., 350 Alabama St, San Francisco, CA 94110, USA (hereinafter “ Intuition Machines ”). hCaptcha is “ISO 27001”-certified. Visitors can find more information on data protection at Intuition Machines under this external link .
 The USA as the registered office of Intuition Machines and the probable place of data processing of the hCaptcha service is not included in the list of states under Annex 1 to the DPO; therefore, its legislation does not ensure adequate data protection; Art. 16 Sec. 1 FADP in connection with Art. 8 Sec. 1 DPO.
 For this reason, personal data disclosed to Intuition Machines is converted to a one-way encrypted hash value on the Threema Servers before it is disclosed.
@@ -613,13 +626,51 @@ Necessity
 This data processing is necessary to analyze the effectiveness of marketing measures. By not storing any other information in the Threema Cookie than the Visitor’s path, and by not making it possible to identify the Visitor until they create a customer account for Threema Work, the privacy of a Visitor to the Threema Website is respected to the greatest possible extent.
 Storage Period
 The Threema Cookie is stored on the Visitor’s end device for 90 days and then automatically deleted.
+L. Marketing Automation (Aivie)
+Processing
+For the provision of forms on the Threema Website (see Sections 2.D. , 2.E. , and 2.H. ) and for sending newsletters and other marketing emails, Threema uses the marketing automation solution “Aivie” of Idea 2 Collective GmbH, Wengistrasse 6, 8004 Zurich, Switzerland (hereinafter “Idea 2”).
+The forms concerned are loaded from the server of Aivie when the respective page is called up. The information entered in them is transmitted directly to Aivie upon submission and is not stored on the Threema Servers.
+Idea 2 processes the personal data as a processor exclusively on behalf of and in accordance with the instructions of Threema on the basis of a data processing agreement; processing for its own purposes is excluded. Idea 2 exclusively engages sub-processors with their registered office in Switzerland; Aivie is hosted in Switzerland.
+When Aivie is used, no cookies are stored on the Visitor’s end device and no tracking pixels are used in emails.
+Categories of Processed Personal Data
+The following personal data is processed and stored in Aivie:
+Depending on the form, the personal data listed in Sections 2.D. , 2.E. , and 2.H. ;
+
+Requested content or subscribed newsletters;
+
+Time of registration and confirmation (Double Opt-in);
+
+IP address as well as browser and device information when loading and submitting forms;
+
+History of the emails sent to the Visitor.
+
+Purpose
+The aforementioned personal data is processed by Threema for the following purposes:
+Provision of forms and recording of the information entered;
+
+Sending of newsletters and marketing emails;
+
+Proof of consent given;
+
+Information security.
+
+Legal Basis
+The processing of the personal data provided in forms and the sending of newsletters and marketing emails only take place if the Visitor has given Threema their voluntary consent for the processing of this personal data; Art. 31 Sec. 1 FADP [for EU/EEA: Art. 6 Sec. 1 lit. a GDPR]. The processing of the IP address as well as browser and device information when loading and submitting forms is technically necessary and based on the overriding private interest (provision of the forms; information security) of Threema; Art. 31 Sec. 1 FADP [for EU/EEA: Art. 6 Sec. 1 lit. f GDPR].
+Necessity
+The processing of the IP address as well as browser and device information is technically necessary to deliver the forms to the Visitor and to receive the information submitted.
+Storage Period
+The storage periods pursuant to Sections Sections 2.D. , 2.E. , 2.G. , and 2.H. apply to the personal data stored in Aivie; the IP address as well as browser and device information are stored for the same period as the other information provided in the form. After expiry of the respective storage period or after revocation of consent, the personal data is deleted from Aivie within 60 days. In the event of revocation, the sending of newsletters and marketing emails is stopped immediately.
 3. Disclosure of Data to Third Parties
-Principally, Threema does not disclose to third parties any personal data that is transmitted by the Visitor when visiting and interacting with the Threema Website and that is then processed and stored on the Threema Servers.
+Principally, Threema does not disclose to third parties any personal data that is transmitted by the Visitor when visiting and interacting with the Threema Website.
+Forms, Newsletters, and Marketing Emails via Aivie of Idea 2 Collective GmbH
+In connection with forms on the Threema Website, newsletters, and marketing emails, personal data of Visitors, namely their first names, last names, companies, countries, email addresses, telephone numbers, customer status, requested content or subscribed newsletters, as well as their IP addresses and browser and device information, are processed by Idea 2 Collective GmbH in Switzerland (see Section 2.L. ).
 Registering For and Participating in Webinars via Livestorm of Livestorm SAS
 In connection with the registration and participation in webinars, personal data of Visitors, namely their first names, last names, companies, countries, email addresses, and customer status, are processed by Livestorm SAS in Ireland (see Section 2.F. )
 Threema reserves the right to disclose personal data to third parties (e.g., lawyers) if it is necessary for the assertion, exercise, or defense of legal claims by Threema.
+Protection Against Overload Attacks by Myra Security GmbH
+During an overload attack, Myra analyzes (on demand) the data traffic to the Threema Website, as a rule in Switzerland and possibly also in Germany; to the extent that personal data is processed in this context, this exclusively concerns IP addresses (see Section 2.A. ).
 4. Collection of Data from Third Parties
-Principally, Threema does not collect from third parties any personal data that is transmitted by the Visitor when visiting and interacting with the Threema Website and that is then processed and stored on the Threema Servers.
+Principally, Threema does not collect from third parties any personal data that is transmitted by the Visitor when visiting and interacting with the Threema Website.
 5. Data Security
 Threema takes all necessary technical and organizational measures to prevent unauthorized access and misuse of data of Visitors to the Threema Website. The security measures are continuously improved in line with technological developments.
 6. Rights of the Visitor
@@ -633,13 +684,14 @@ Right to Correction or Completion
 Art. 32 Sec. 1 FADP [for EU/EEA: Art. 16 GDPR]
 A data subject has the right to request that Threema corrects inaccurate or completes incomplete personal data without undue delay.
 Right to Deletion
-Art. 32 Abs. 2 FADP [for EU/EEA: Art. 17 GDPR] A data subject has the right to request that Threema deletes their personal data without undue delay.
+Art. 32 Sec. 2 FADP [for EU/EEA: Art. 17 GDPR]
+A data subject has the right to request that Threema deletes their personal data without undue delay.
 Right to Withdrawal of Consent
 only for data processing based on consent ; Art. 30 Sec. 2 FADP [for EU/EEA: Art. 7 Sec. 3 GDPR]
 A data subject has the right to withdraw their consent to the processing of their personal data by Threema. This has the consequence that Threema may no longer continue the data processing based on this consent. The processing of the Visitor’s personal data by Threema up to this point in time on the basis of the Visitor’s consent remains lawful.
 Right to Objection
 only for data processing based on legitimate interests ; Art. 30 Sec. 2 FADP [for EU/EEA: Art. 21 GDPR]
-A data subject has the right to object to the processing of their personal data by Threema where such personal data is processed based on Threema’s overriding private interests; Art. 31 DSG [for EU/EEA: Art. 6 Sec. 1 lit. f GDPR].
+A data subject has the right to object to the processing of their personal data by Threema where such personal data is processed based on Threema’s overriding private interests; Art. 31 FADP [for EU/EEA: Art. 6 Sec. 1 lit. f GDPR].
 Right to Blocking
 Art. 32 FADP [for EU/EEA: Art. 18 GDPR]
 For the protection of their personality, a data subject has the right to request that Threema blocks the processing of their personal data.

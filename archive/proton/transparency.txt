@@ -86,6 +86,9 @@ Scan to get the mobile app
 Mobile apps
 iOS (new window) Android (new window)
 
+Desktop apps
+macOS Windows Linux
+
 Web app
 Web app (new window)
 

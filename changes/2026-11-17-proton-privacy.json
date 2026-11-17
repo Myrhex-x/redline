@@ -1,0 +1,50 @@
+{
+ "id": "2026-11-17-proton-privacy",
+ "date": "2026-11-17",
+ "slug": "proton",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -86,6 +86,9 @@ Scan to get the mobile app",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Mobile apps"
+    },
+    {
+     "t": " ",
+     "s": "iOS (new window) Android (new window)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Desktop apps"
+    },
+    {
+     "t": "+",
+     "s": "macOS Windows Linux"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Web app"
+    },
+    {
+     "t": " ",
+     "s": "Web app (new window)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
