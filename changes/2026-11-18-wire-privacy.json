@@ -1,0 +1,46 @@
+{
+ "id": "2026-11-18-wire-privacy",
+ "date": "2026-11-18",
+ "slug": "wire",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -60,7 +60,7 @@ Confidential communication",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Protect sensitive data with a secure, encrypted channel for trusted, cross-team response."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "WhatsApp & Signal alternative"
+    },
+    {
+     "t": "+",
+     "s": "Replace shadow apps"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Give employees the speed and simplicity of consumer apps, with the governance, security, and compliance your organization is accountable for."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
