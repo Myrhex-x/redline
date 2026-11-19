@@ -1,0 +1,120 @@
+{
+ "id": "2026-11-19-element-privacy",
+ "date": "2026-11-19",
+ "slug": "element",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -32,6 +32,8 @@ Resources",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "About"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Compare Element"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "User guide"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Documentation"
+    }
+   ]
+  },
+  {
+   "header": "@@ -102,6 +104,8 @@ Resources",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "About"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Compare Element"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "User guide"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Documentation"
+    }
+   ]
+  },
+  {
+   "header": "@@ -732,6 +736,8 @@ Help",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "About"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Compare Element"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Matrix relationship"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Documentation"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

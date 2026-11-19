@@ -1,0 +1,46 @@
+{
+ "id": "2026-11-19-eu-commission-csa-policy",
+ "date": "2026-11-19",
+ "slug": "eu-commission",
+ "doc": "csa-policy",
+ "hunks": [
+  {
+   "header": "@@ -421,7 +421,7 @@ See all",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Schengen visas Applying for a Schengen visa"
+    },
+    {
+     "t": " ",
+     "s": "EU visa policy"
+    },
+    {
+     "t": " ",
+     "s": "Short-stay calculator"
+    },
+    {
+     "t": "-",
+     "s": "Visa Information System (VIS)"
+    },
+    {
+     "t": "+",
+     "s": "Visa Information System"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "See all"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

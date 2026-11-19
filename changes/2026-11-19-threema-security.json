@@ -1,0 +1,46 @@
+{
+ "id": "2026-11-19-threema-security",
+ "date": "2026-11-19",
+ "slug": "threema",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -180,7 +180,7 @@ Cybersecurity Study",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Cybersecurity Challenge"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Cybersecurity Regulations Whitepaper"
+    },
+    {
+     "t": "+",
+     "s": "Regulation and Resilience"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Whatsapp Alternative Whitepaper"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

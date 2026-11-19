@@ -32,6 +32,8 @@ Resources
 
 About
 
+Compare Element
+
 User guide
 
 Documentation
@@ -101,6 +103,8 @@ Build
 Resources
 
 About
+
+Compare Element
 
 User guide
 
@@ -731,6 +735,8 @@ Blog
 Help
 
 About
+
+Compare Element
 
 Matrix relationship
 

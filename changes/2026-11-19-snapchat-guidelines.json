@@ -1,0 +1,71 @@
+{
+ "id": "2026-11-19-snapchat-guidelines",
+ "date": "2026-11-19",
+ "slug": "snapchat",
+ "doc": "guidelines",
+ "hunks": [
+  {
+   "header": "@@ -160,7 +160,7 @@ Promotions Rules",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Legal"
+    },
+    {
+     "t": " ",
+     "s": "Other Terms & Policies"
+    },
+    {
+     "t": "-",
+     "s": "Law enforcement"
+    },
+    {
+     "t": "+",
+     "s": "Law Enforcement"
+    },
+    {
+     "t": " ",
+     "s": "Cookie Policy"
+    },
+    {
+     "t": " ",
+     "s": "Cookie Settings"
+    },
+    {
+     "t": " ",
+     "s": "Report Infringement"
+    }
+   ]
+  },
+  {
+   "header": "@@ -168,4 +168,4 @@ Report Infringement",
+   "lines": [
+    {
+     "t": " ",
+     "s": "Privacy Policy"
+    },
+    {
+     "t": " ",
+     "s": "Terms of Service"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Language English (UK)"
+    },
+    {
+     "t": "+",
+     "s": "Language English (US)"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

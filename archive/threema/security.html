@@ -34,26 +34,32 @@
     <link rel="shortcut icon" href="https://threema.com/build/assets/favicon-Cjz6zGjg.ico" type="image/x-icon" sizes="48x48"/>
     <link rel="icon" href="https://threema.com/build/assets/favicon-Cjz6zGjg.ico" type="image/x-icon" sizes="48x48"/>
     <link rel="icon" href="https://threema.com/build/assets/favicon-tq7G_hn4.svg" type="image/svg+xml" sizes="any"/>
-    <link rel="preload" as="style" href="https://threema.com/build/assets/site-B0Xb2hks.css" /><link rel="stylesheet" href="https://threema.com/build/assets/site-B0Xb2hks.css" data-navigate-track="reload" />
+    <link rel="preload" as="style" href="https://threema.com/build/assets/site-Ck2QDak_.css" /><link rel="stylesheet" href="https://threema.com/build/assets/site-Ck2QDak_.css" data-navigate-track="reload" />
     <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.list-item][wire\:loading\.list-item], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}dialog#livewire-error::backdrop {background-color: rgba(0, 0, 0, .6);}</style>
     
     <script>
         window.MATOMO_URL = "/";
         window.MATOMO_SITE_ID = "1";
+        try {
+            const dark = localStorage.getItem('dark') === 'true';
+            document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+            document.documentElement.classList.toggle('dark', dark);
+        } catch {
+            document.documentElement.dataset.theme = 'light';
+        }
     </script>
     <link rel="modulepreload" as="script" href="https://threema.com/build/assets/matomo-linking-m2p_1kxG.js" /><script type="module" src="https://threema.com/build/assets/matomo-linking-m2p_1kxG.js" data-navigate-track="reload"></script>
-    <link rel="modulepreload" as="script" href="https://threema.com/build/assets/site-bootstrap-BiJnR7zi.js" /><script type="module" src="https://threema.com/build/assets/site-bootstrap-BiJnR7zi.js" data-navigate-track="reload"></script>
+    <link rel="modulepreload" as="script" href="https://threema.com/build/assets/site-bootstrap-DBTfZA1o.js" /><script type="module" src="https://threema.com/build/assets/site-bootstrap-DBTfZA1o.js" data-navigate-track="reload"></script>
 </head>
     <body
-        class="bg-white font-sans leading-normal"
+        class="bg-white dark:bg-gray-800 font-sans leading-normal"
         x-bind:class="{'max-lg:overflow-hidden': menuOpen }"
         x-bind:data-theme="$store.theme.dark ? 'dark' : 'light'"
         x-data="{ menuOpen: false }"
     >
         
         <div class="min-h-screen flex flex-col" x-bind:data-theme="$store.theme.dark ? 'dark' : 'light'">
-        
-            <nav class="sticky top-0 left-0 w-full bg-white dark:bg-gray-900 border-gray-200 border-b dark:border-gray-900 z-50 h-(--menu-height) "
+        <nav class="sticky top-0 left-0 w-full bg-white dark:bg-gray-900 border-gray-200 border-b dark:border-gray-900 z-50 h-(--menu-height) "
     :class="{ 'sticky': !menuOpen, 'max-lg:h-screen max-lg:fixed max-lg:overflow-auto': menuOpen }">
     <div class="flex flex-wrap justify-between items-center mx-auto lg:max-w-7xl 2xl:max-w-8xl px-4 py-4 md:py-5 lg:py-6">
         <a href="https://threema.com/en" class="flex items-center rtl:space-x-reverse relative z-60 2xl:hidden">
@@ -85,10 +91,9 @@
     
     >
     
-    Login
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 max-lg:hidden group-has-[[id^=menu-submenu-].block]:scale-x-100"
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full max-lg:[--nav-underline-color:transparent] group-has-[[id^=menu-submenu-].block]:nav-underline-full"
+            >Login</span></span>
     
 </span>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"/></svg>
@@ -112,7 +117,7 @@
             
             
                 <button id="languageSelectButton" data-dropdown-toggle="languageSelectCheckbox" data-dropdown-placement="bottom-end" class="p-0 text-sm text-center inline-flex items-center font-heading font-medium dark:text-gray-50  group/link" type="button">
-    <span class="relative uppercase">en<span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100"></span></span>
+    <span class="nav-underline uppercase group-hover/link:nav-underline-full">en</span>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"/></svg>
 </button>
 <div id="languageSelectCheckbox" class="p-3 z-10 hidden w-48 max-h-80 bg-white divide-y divide-gray-100 rounded-lg shadow-lg overflow-y-auto dark:bg-gray-800 dark:text-gray-50">
@@ -139,7 +144,7 @@
         <div class="flex items-center justify-end gap-4 lg:hidden">
             
                 <button id="languageSelectMobileTopButton" data-dropdown-toggle="languageSelectMobileTopCheckbox" data-dropdown-placement="bottom-end" class="p-0 text-sm text-center inline-flex items-center font-heading font-medium dark:text-gray-50  group/link" type="button">
-    <span class="relative uppercase">en<span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100"></span></span>
+    <span class="nav-underline uppercase group-hover/link:nav-underline-full">en</span>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"/></svg>
 </button>
 <div id="languageSelectMobileTopCheckbox" class="p-3 z-10 hidden w-48 max-h-80 bg-white divide-y divide-gray-100 rounded-lg shadow-lg overflow-y-auto dark:bg-gray-800 dark:text-gray-50">
@@ -219,10 +224,9 @@
     
     >
     
-    Products
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 max-lg:hidden group-has-[[id^=menu-submenu-].block]:scale-x-100"
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full max-lg:[--nav-underline-color:transparent] group-has-[[id^=menu-submenu-].block]:nav-underline-full"
+            >Products</span></span>
     
 </button>
 
@@ -267,10 +271,9 @@
     
     >
     
-    Threema Work
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            >Threema Work</span></span>
     
 </button>
 
@@ -393,10 +396,9 @@
     
     >
     
-    Threema OnPrem
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            >Threema OnPrem</span></span>
     
 </button>
 
@@ -519,10 +521,9 @@
     
     >
     
-    Threema Private
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            >Threema Private</span></span>
     
 </button>
 
@@ -637,10 +638,9 @@
     
     >
     
-    Solutions
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 max-lg:hidden group-has-[[id^=menu-submenu-].block]:scale-x-100"
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full max-lg:[--nav-underline-color:transparent] group-has-[[id^=menu-submenu-].block]:nav-underline-full"
+            >Solutions</span></span>
     
 </button>
 
@@ -667,7 +667,8 @@
     
     >
     
-    Industries
+    
+        Industries
     
 </button>
 
@@ -700,10 +701,9 @@
     
     title="Public Sector">
     
-    Public Sector
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === '59432a49-75d1-4ced-a672-3e3bddb5a5fe') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === '59432a49-75d1-4ced-a672-3e3bddb5a5fe') }">Public Sector</span></span>
     
 </span>
 
@@ -743,12 +743,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Public Institutions
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Public Institutions</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/industries/institutions/public-authorities"
@@ -757,12 +752,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Authorities
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Authorities</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/industries/institutions/emergency-services"
@@ -771,12 +761,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Emergency Services
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Emergency Services</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/industries/education"
@@ -785,12 +770,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Education
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Education</span>
                                                                                 </a>
                                                                                 
                                                                                 </div>
@@ -824,10 +804,9 @@
     
     title="Regulated Industries">
     
-    Regulated Industries
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === 'f0e12841-a1d7-486c-8a5b-19984eaa5518') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === 'f0e12841-a1d7-486c-8a5b-19984eaa5518') }">Regulated Industries</span></span>
     
 </span>
 
@@ -867,12 +846,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Healthcare
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Healthcare</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/industries/financial-services"
@@ -881,12 +855,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Financial and Insurance Sectors
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Financial and Insurance Sectors</span>
                                                                                 </a>
                                                                                 
                                                                                 </div>
@@ -910,7 +879,8 @@
     
     >
     
-    Use Cases
+    
+        Use Cases
     
 </button>
 
@@ -943,10 +913,9 @@
     
     title="Messenger Comparison">
     
-    Messenger Comparison
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === 'b8cff798-9c86-4a9b-bad8-bb8ef23c71b1') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === 'b8cff798-9c86-4a9b-bad8-bb8ef23c71b1') }">Messenger Comparison</span></span>
     
 </span>
 
@@ -986,12 +955,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            WhatsApp Alternative
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">WhatsApp Alternative</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/use-cases/ms-teams-alternative"
@@ -1000,12 +964,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Complement to MS Teams
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Complement to MS Teams</span>
                                                                                 </a>
                                                                                 
                                                                                 </div>
@@ -1039,10 +998,9 @@
     
     title="Internal Communication">
     
-    Internal Communication
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === '1a879ea4-433e-401a-afc2-6081a33e18c0') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === '1a879ea4-433e-401a-afc2-6081a33e18c0') }">Internal Communication</span></span>
     
 </span>
 
@@ -1082,12 +1040,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            C-Level Communication
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">C-Level Communication</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/use-cases/bring-your-own-device"
@@ -1096,12 +1049,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Data Protection Despite “Bring Your Own Device”
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Data Protection Despite “Bring Your Own Device”</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/use-cases/one-to-many-communication"
@@ -1110,12 +1058,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            One-to-Many Communication
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">One-to-Many Communication</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/use-cases/internal-communication-app"
@@ -1124,12 +1067,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Fast Internal Communication via Messenger
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Fast Internal Communication via Messenger</span>
                                                                                 </a>
                                                                                 
                                                                                 </div>
@@ -1164,10 +1102,9 @@
     
     title="Security and Resilience">
     
-    Security and Resilience
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === '85b2308b-df4b-4dc5-bb7c-df1574d1355e') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === '85b2308b-df4b-4dc5-bb7c-df1574d1355e') }">Security and Resilience</span></span>
     
 </span>
 
@@ -1207,12 +1144,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Business Continuity: Out-of-Band Communication
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Business Continuity: Out-of-Band Communication</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/use-cases/eu-regulations"
@@ -1221,12 +1153,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Strengthen Cyber Resilience: NIS2, DORA, and CER
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Strengthen Cyber Resilience: NIS2, DORA, and CER</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/use-cases/gdpr-compliant-messenger"
@@ -1235,12 +1162,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            GDPR-Compliant Communication
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">GDPR-Compliant Communication</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/use-cases/managing-shadow-it"
@@ -1249,12 +1171,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Managing Shadow IT
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Managing Shadow IT</span>
                                                                                 </a>
                                                                                 
                                                                                 </div>
@@ -1278,7 +1195,8 @@
     
     >
     
-    Success Stories
+    
+        Success Stories
     
 </button>
 
@@ -1295,8 +1213,7 @@
                                                                                 <a href="/en/clients/mercedes-benz-group"
                                                                                    title="Mercedes-Benz Group AG"
                                                                                    class="group/link relative flex items-center gap-2 font-sans text-base leading-[150%] tracking-[0.16px] font-normal text-gray-900 dark:text-gray-50 w-fit">
-                                                                                    Mercedes-Benz Group AG
-                                                                                    <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100"></span>
+                                                                                    <span><span class="nav-underline  group-hover/link:nav-underline-full">Mercedes-Benz Group AG</span></span>
                                                                                 </a>
                                                                                 
                                                                             </div>
@@ -1314,8 +1231,7 @@
                                                                                 <a href="/en/clients/frankfurt"
                                                                                    title="City of Frankfurt am Main"
                                                                                    class="group/link relative flex items-center gap-2 font-sans text-base leading-[150%] tracking-[0.16px] font-normal text-gray-900 dark:text-gray-50 w-fit">
-                                                                                    City of Frankfurt am Main
-                                                                                    <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100"></span>
+                                                                                    <span><span class="nav-underline  group-hover/link:nav-underline-full">City of Frankfurt am Main</span></span>
                                                                                 </a>
                                                                                 
                                                                             </div>
@@ -1333,8 +1249,7 @@
                                                                                 <a href="/en/clients/edeka"
                                                                                    title="EDEKA"
                                                                                    class="group/link relative flex items-center gap-2 font-sans text-base leading-[150%] tracking-[0.16px] font-normal text-gray-900 dark:text-gray-50 w-fit">
-                                                                                    EDEKA
-                                                                                    <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100"></span>
+                                                                                    <span><span class="nav-underline  group-hover/link:nav-underline-full">EDEKA</span></span>
                                                                                 </a>
                                                                                 
                                                                             </div>
@@ -1413,10 +1328,9 @@
     
     >
     
-    Resources
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 max-lg:hidden group-has-[[id^=menu-submenu-].block]:scale-x-100"
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full max-lg:[--nav-underline-color:transparent] group-has-[[id^=menu-submenu-].block]:nav-underline-full"
+            >Resources</span></span>
     
 </button>
 
@@ -1443,7 +1357,8 @@
     
     >
     
-    Knowledge and Documentation
+    
+        Knowledge and Documentation
     
 </button>
 
@@ -1476,10 +1391,9 @@
     
     title="Whitepapers">
     
-    Whitepapers
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === '5c2e8e07-6321-4bdf-bd7b-f4ac50fc0489') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === '5c2e8e07-6321-4bdf-bd7b-f4ac50fc0489') }">Whitepapers</span></span>
     
 </span>
 
@@ -1519,12 +1433,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Cybersecurity Study
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Cybersecurity Study</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/resources/whitepaper/cybersecurity-challenge-whitepaper"
@@ -1533,26 +1442,16 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Cybersecurity Challenge
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Cybersecurity Challenge</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/resources/whitepaper/cybersecurity-regulations-whitepaper"
-                                                                                title="Cybersecurity Regulations Whitepaper"
+                                                                                title="Regulation and Resilience"
                                                                                 style="--nav-item-index: 3"
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Cybersecurity Regulations Whitepaper
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Regulation and Resilience</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/resources/whitepaper/whatsapp-alternative-whitepaper"
@@ -1561,12 +1460,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Whatsapp Alternative Whitepaper
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Whatsapp Alternative Whitepaper</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/resources/whitepaper/public-authorities-whitepaper"
@@ -1575,12 +1469,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Public Authorities Whitepaper
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Public Authorities Whitepaper</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/resources/whitepaper/business-continuity-whitepaper"
@@ -1589,12 +1478,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Business Continuity Whitepaper
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Business Continuity Whitepaper</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/resources/whitepaper/business-messaging-whitepaper"
@@ -1603,12 +1487,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Business Messaging Whitepaper
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Business Messaging Whitepaper</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="https://threema.com/assets/documents/threema-cryptography-whitepaper.pdf"
@@ -1617,12 +1496,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Cryptography Whitepaper
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Cryptography Whitepaper</span>
                                                                                 </a>
                                                                                 
                                                                                 </div>
@@ -1657,10 +1531,9 @@
     
     title="FAQ and Support">
     
-    FAQ and Support
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === '76084e2c-2e5d-49b5-b497-70c596cc5543') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === '76084e2c-2e5d-49b5-b497-70c596cc5543') }">FAQ and Support</span></span>
     
 </span>
 
@@ -1700,12 +1573,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Threema Private
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Threema Private</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/support/work"
@@ -1714,12 +1582,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Threema Work
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Threema Work</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/support/broadcast"
@@ -1728,12 +1591,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Threema Broadcast
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Threema Broadcast</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/support-request"
@@ -1742,12 +1600,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Support Request
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Support Request</span>
                                                                                 </a>
                                                                                 
                                                                                 </div>
@@ -1777,10 +1630,9 @@
     href="/en/resources/documents"
     title="Documents">
     
-    Documents
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === '8b3c7f50-c2eb-41dc-8eaf-2355bb1ec884') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === '8b3c7f50-c2eb-41dc-8eaf-2355bb1ec884') }">Documents</span></span>
     
 </a>
 
@@ -1806,7 +1658,8 @@
     
     >
     
-    Events and Partner
+    
+        Events and Partner
     
 </button>
 
@@ -1835,10 +1688,9 @@
     href="/en/events"
     title="Events">
     
-    Events
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === '21aa5c86-9950-4a59-b7ee-dd529437af23') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === '21aa5c86-9950-4a59-b7ee-dd529437af23') }">Events</span></span>
     
 </a>
 
@@ -1878,10 +1730,9 @@
     href="/en/webinars"
     title="Webinars">
     
-    Webinars
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === '116eb5c7-8a35-45c0-8de5-28e18fc549cc') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === '116eb5c7-8a35-45c0-8de5-28e18fc549cc') }">Webinars</span></span>
     
 </a>
 
@@ -1917,10 +1768,9 @@
     
     title="Partner">
     
-    Partner
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            :class="{ 'scale-x-100': (openGrandchild === 'd28ebfd9-81f6-4dba-9ab2-4f536379e120') }"></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            :class="{ 'nav-underline-full': (openGrandchild === 'd28ebfd9-81f6-4dba-9ab2-4f536379e120') }">Partner</span></span>
     
 </span>
 
@@ -1960,12 +1810,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Partner Program
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Partner Program</span>
                                                                                 </a>
                                                                                 
                                                                             <a href="/en/partners"
@@ -1974,12 +1819,7 @@
                                                                                 class="group/link relative block w-fit max-w-full wrap-anywhere py-1.5 pl-13
                                                                                 font-normal
                                                                                 text-gray-900 dark:text-gray-50">
-                                                                            Partner Finder
-                                                                                    <span class="pointer-events-none absolute left-13 right-0 bottom-1.5 h-0.5 origin-bottom-left
-                                                                                    scale-x-0 scale-y-50 bg-gray-900
-                                                                                    transition-transform duration-700 ease-out
-                                                                                    group-hover/link:scale-x-100
-                                                                                    dark:bg-white"></span>
+                                                                            <span class="nav-underline [--nav-underline-color:var(--color-gray-900)] group-hover/link:nav-underline-full dark:[--nav-underline-color:white]">Partner Finder</span>
                                                                                 </a>
                                                                                 
                                                                                 </div>
@@ -2003,7 +1843,8 @@
     
     >
     
-    Blog
+    
+        Blog
     
 </button>
 
@@ -2020,8 +1861,7 @@
                                                                                 <a href="/en/blog/wave-of-cyberattacks-oct-2026"
                                                                                    title="What’s behind the current wave of cyberattacks?"
                                                                                    class="group/link relative flex items-center gap-2 font-sans text-base leading-[150%] tracking-[0.16px] font-normal text-gray-900 dark:text-gray-50 w-fit">
-                                                                                    What’s behind the current wave of cyberattacks?
-                                                                                    <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100"></span>
+                                                                                    <span><span class="nav-underline  group-hover/link:nav-underline-full">What’s behind the current wave of cyberattacks?</span></span>
                                                                                 </a>
                                                                                 
                                                                             </div>
@@ -2039,8 +1879,7 @@
                                                                                 <a href="/en/blog/privacy-tips-part-1"
                                                                                    title="Privacy Tips from the Threema Team – Part 1"
                                                                                    class="group/link relative flex items-center gap-2 font-sans text-base leading-[150%] tracking-[0.16px] font-normal text-gray-900 dark:text-gray-50 w-fit">
-                                                                                    Privacy Tips from the Threema Team – Part 1
-                                                                                    <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100"></span>
+                                                                                    <span><span class="nav-underline  group-hover/link:nav-underline-full">Privacy Tips from the Threema Team – Part 1</span></span>
                                                                                 </a>
                                                                                 
                                                                             </div>
@@ -2119,10 +1958,9 @@
     
     >
     
-    Company
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 max-lg:hidden group-has-[[id^=menu-submenu-].block]:scale-x-100"
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full max-lg:[--nav-underline-color:transparent] group-has-[[id^=menu-submenu-].block]:nav-underline-full"
+            >Company</span></span>
     
 </button>
 
@@ -2167,10 +2005,9 @@
     
     >
     
-    Why Threema?
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            >Why Threema?</span></span>
     
 </button>
 
@@ -2295,10 +2132,9 @@
     
     >
     
-    Privacy
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full "
+            >Privacy</span></span>
     
 </button>
 
@@ -2389,10 +2225,9 @@
     
     >
     
-    Security
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-100 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 "
-            ></span>
+        <span><span class="nav-underline nav-underline-full group-hover/link:nav-underline-full "
+            >Security</span></span>
     
 </button>
 
@@ -2475,10 +2310,9 @@
     
     >
     
-    Pricing
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 max-lg:hidden group-has-[[id^=menu-submenu-].block]:scale-x-100"
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full max-lg:[--nav-underline-color:transparent] group-has-[[id^=menu-submenu-].block]:nav-underline-full"
+            >Pricing</span></span>
     
 </button>
 
@@ -2513,10 +2347,9 @@
     
     >
     
-    Login
     
-        <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100 max-lg:hidden group-has-[[id^=menu-submenu-].block]:scale-x-100"
-            ></span>
+        <span><span class="nav-underline  group-hover/link:nav-underline-full max-lg:[--nav-underline-color:transparent] group-has-[[id^=menu-submenu-].block]:nav-underline-full"
+            >Login</span></span>
     
 </span>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"/></svg>
@@ -2590,7 +2423,7 @@
                 <div class="hidden 2xl:block">
                     
                         <button id="languageSelect2Button" data-dropdown-toggle="languageSelect2Checkbox" data-dropdown-placement="bottom-end" class="p-0 text-sm text-center inline-flex items-center font-heading font-medium dark:text-gray-50  group/link" type="button">
-    <span class="relative uppercase">en<span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 origin-bottom-left scale-x-0 scale-y-50 bg-current transition-transform duration-700 ease-out group-hover/link:scale-x-100"></span></span>
+    <span class="nav-underline uppercase group-hover/link:nav-underline-full">en</span>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"/></svg>
 </button>
 <div id="languageSelect2Checkbox" class="p-3 z-10 hidden w-48 max-h-80 bg-white divide-y divide-gray-100 rounded-lg shadow-lg overflow-y-auto dark:bg-gray-800 dark:text-gray-50">
@@ -2641,7 +2474,6 @@
     </div>
 </nav>
 
-        
         
             
 
@@ -4534,10 +4366,10 @@
                     
                         
                             <a href="https://threema.id/%2ATHREEMA?text=info" title="Threema Channel" target="_blank" rel="me" >
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 31" fill="currentColor" class="w-6 h-6 hidden dark:block"><g clip-path="url(#iconamic-29-a)"><path fill="#fff" d="M6.105 28.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626ZM12.023 28.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626ZM17.946 28.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626Z"/><path fill="#fff" fill-rule="evenodd" d="M11.786 1C5.838 1 1 5.838 1 11.786c0 2.359.764 4.547 2.055 6.324L1.71 22.117l4.147-1.327a10.71 10.71 0 0 0 5.936 1.782c5.948 0 10.786-4.838 10.786-10.786C22.578 5.838 17.734 1 11.786 1Z" clip-rule="evenodd"/><path fill="#000" d="M14.981 10.628h-.097V9.179a3.11 3.11 0 0 0-3.104-3.104 3.11 3.11 0 0 0-3.104 3.104v1.449h-.097a.976.976 0 0 0-.976.976v3.917c0 .54.436.976.976.976h6.396c.54 0 .976-.436.976-.976v-3.917a.976.976 0 0 0-.976-.976h.006ZM9.955 9.179c0-1.013.825-1.831 1.831-1.831 1.007 0 1.831.825 1.831 1.831v1.449H9.955V9.179Z"/></g><defs><clipPath id="iconamic-29-a"><path fill="#fff" d="M1 1h21.572v27.72H1z"/></clipPath></defs></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 31" fill="currentColor" class="w-6 h-6 hidden dark:block"><g clip-path="url(#iconamic-55-a)"><path fill="#fff" d="M6.105 28.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626ZM12.023 28.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626ZM17.946 28.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626Z"/><path fill="#fff" fill-rule="evenodd" d="M11.786 1C5.838 1 1 5.838 1 11.786c0 2.359.764 4.547 2.055 6.324L1.71 22.117l4.147-1.327a10.71 10.71 0 0 0 5.936 1.782c5.948 0 10.786-4.838 10.786-10.786C22.578 5.838 17.734 1 11.786 1Z" clip-rule="evenodd"/><path fill="#000" d="M14.981 10.628h-.097V9.179a3.11 3.11 0 0 0-3.104-3.104 3.11 3.11 0 0 0-3.104 3.104v1.449h-.097a.976.976 0 0 0-.976.976v3.917c0 .54.436.976.976.976h6.396c.54 0 .976-.436.976-.976v-3.917a.976.976 0 0 0-.976-.976h.006ZM9.955 9.179c0-1.013.825-1.831 1.831-1.831 1.007 0 1.831.825 1.831 1.831v1.449H9.955V9.179Z"/></g><defs><clipPath id="iconamic-55-a"><path fill="#fff" d="M1 1h21.572v27.72H1z"/></clipPath></defs></svg>
                             </a>
                             <a href="https://threema.id/%2ATHREEMA?text=info" title="Threema Channel" target="_blank" rel="me" >
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 33" fill="currentColor" class="w-6 h-6 block dark:hidden"><g clip-path="url(#iconamic-30-a)"><path fill="#000" d="M6.105 30.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626ZM12.023 30.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626ZM17.946 30.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626Z"/><path fill="#000" fill-rule="evenodd" d="M11.786 3C5.838 3 1 7.838 1 13.786c0 2.359.764 4.547 2.055 6.324L1.71 24.117l4.147-1.327a10.71 10.71 0 0 0 5.936 1.782c5.948 0 10.786-4.838 10.786-10.786C22.578 7.838 17.734 3 11.786 3Z" clip-rule="evenodd"/><path fill="#fff" d="M14.981 12.628h-.097v-1.449a3.11 3.11 0 0 0-3.104-3.104 3.11 3.11 0 0 0-3.104 3.104v1.449h-.097a.976.976 0 0 0-.976.976v3.917c0 .54.436.976.976.976h6.396c.54 0 .976-.436.976-.976v-3.917a.976.976 0 0 0-.976-.976h.006Zm-5.026-1.449c0-1.013.825-1.831 1.831-1.831 1.007 0 1.831.824 1.831 1.831v1.449H9.955v-1.449Z"/></g><defs><clipPath id="iconamic-30-a"><path fill="#fff" d="M1 3h21.572v27.72H1z"/></clipPath></defs></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 33" fill="currentColor" class="w-6 h-6 block dark:hidden"><g clip-path="url(#iconamic-56-a)"><path fill="#000" d="M6.105 30.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626ZM12.023 30.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626ZM17.946 30.72a1.813 1.813 0 1 0 0-3.626 1.813 1.813 0 0 0 0 3.626Z"/><path fill="#000" fill-rule="evenodd" d="M11.786 3C5.838 3 1 7.838 1 13.786c0 2.359.764 4.547 2.055 6.324L1.71 24.117l4.147-1.327a10.71 10.71 0 0 0 5.936 1.782c5.948 0 10.786-4.838 10.786-10.786C22.578 7.838 17.734 3 11.786 3Z" clip-rule="evenodd"/><path fill="#fff" d="M14.981 12.628h-.097v-1.449a3.11 3.11 0 0 0-3.104-3.104 3.11 3.11 0 0 0-3.104 3.104v1.449h-.097a.976.976 0 0 0-.976.976v3.917c0 .54.436.976.976.976h6.396c.54 0 .976-.436.976-.976v-3.917a.976.976 0 0 0-.976-.976h.006Zm-5.026-1.449c0-1.013.825-1.831 1.831-1.831 1.007 0 1.831.824 1.831 1.831v1.449H9.955v-1.449Z"/></g><defs><clipPath id="iconamic-56-a"><path fill="#fff" d="M1 3h21.572v27.72H1z"/></clipPath></defs></svg>
                             </a>
                         
                     
@@ -4619,7 +4451,7 @@
         
             <link rel="preload" as="style" href="https://threema.com/build/assets/video-player-setup-BV0mtPOj.css" /><link rel="modulepreload" as="script" href="https://threema.com/build/assets/site-gf4N_v40.js" /><link rel="modulepreload" as="script" href="https://threema.com/build/assets/video-player-setup-Dh5KrbCp.js" /><link rel="stylesheet" href="https://threema.com/build/assets/video-player-setup-BV0mtPOj.css" data-navigate-track="reload" /><script type="module" src="https://threema.com/build/assets/site-gf4N_v40.js" data-navigate-track="reload"></script>
     </div>
-        <script  data-navigate-once="true">window.livewireScriptConfig = {"csrf":"g8S48dRWFx4WifiAFWx49H6yxqs73aQJZypJhDJj","uri":"https:\/\/threema.com\/livewire-10aa4aa2\/update","moduleUrl":"https:\/\/threema.com\/livewire-10aa4aa2","progressBar":"","nonce":""};</script>
+        <script  data-navigate-once="true">window.livewireScriptConfig = {"csrf":"x7xpQK9CTGKXE7jYAZFKtEKodsoMzYr4Pwsr4ih1","uri":"https:\/\/threema.com\/livewire-10aa4aa2\/update","moduleUrl":"https:\/\/threema.com\/livewire-10aa4aa2","progressBar":"","nonce":""};</script>
     </body>
 </html>
 
