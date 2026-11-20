@@ -1,0 +1,46 @@
+{
+ "id": "2026-11-20-threema-security",
+ "date": "2026-11-20",
+ "slug": "threema",
+ "doc": "security",
+ "hunks": [
+  {
+   "header": "@@ -292,6 +292,8 @@ Why Threema?",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Security"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Threema Apps Shine in Eternal Security Audit 🚀 Learn more"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Zero-Knowledge Security and Legal Compliance"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Threema protects confidential information, avoids metadata, and is GDPR-compliant – “Security by Design” is our philosophy."
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

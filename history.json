@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-11-20-threema-security",
+  "date": "2026-11-20",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "change",
+  "added": 2,
+  "removed": 0
+ },
+ {
   "id": "2026-11-19-element-privacy",
   "date": "2026-11-19",
   "slug": "element",

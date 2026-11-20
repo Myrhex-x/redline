@@ -292,6 +292,8 @@ Why Threema?
 
 Security
 
+Threema Apps Shine in Eternal Security Audit 🚀 Learn more
+
 Zero-Knowledge Security and Legal Compliance
 
 Threema protects confidential information, avoids metadata, and is GDPR-compliant – “Security by Design” is our philosophy.
