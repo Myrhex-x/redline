@@ -49,7 +49,7 @@ Users from EU countries must be at least 18 years old to sign up.
 
 We reserve the right to update these Terms of Service later.
 
-If you access certain optional features and services on the Telegram platform, you will be additionally bound by their specific terms – such as the Terms of Service for Telegram Stars , Telegram Premium , Telegram Business , Bot Users , Mini App Users , Content Creators , Telegram Gateway API , Telegram API Developers , and Bot Developers .
+If you access certain optional features and services on the Telegram platform, you will be additionally bound by their specific terms – such as the Terms of Service for Telegram Stars , Telegram Premium , Telegram Business , Bot Users , Mini App Users , Gram Wallet , Content Creators , Telegram Gateway API , Telegram API Developers , and Bot Developers .
 
 Telegram additionally prohibits data scraping as part of its Content Licensing and AI Scraping Terms , which apply to all users, businesses, and third-party services accessing the platform.
 

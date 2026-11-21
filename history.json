@@ -1,5 +1,49 @@
 [
  {
+  "id": "2026-11-21-eu-parliament-derogation-procedure",
+  "date": "2026-11-21",
+  "slug": "eu-parliament",
+  "company": "European Parliament",
+  "doc": "derogation-procedure",
+  "docTitle": "Procedure file 2025/0429(COD) — extension of the derogation",
+  "kind": "change",
+  "added": 0,
+  "removed": 49
+ },
+ {
+  "id": "2026-11-21-snapchat-guidelines",
+  "date": "2026-11-21",
+  "slug": "snapchat",
+  "company": "Snapchat",
+  "doc": "guidelines",
+  "docTitle": "Community Guidelines",
+  "kind": "change",
+  "added": 2,
+  "removed": 2
+ },
+ {
+  "id": "2026-11-21-telegram-terms",
+  "date": "2026-11-21",
+  "slug": "telegram",
+  "company": "Telegram",
+  "doc": "terms",
+  "docTitle": "Terms of Service",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
+  "id": "2026-11-21-threema-security",
+  "date": "2026-11-21",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "security",
+  "docTitle": "Security page",
+  "kind": "change",
+  "added": 2,
+  "removed": 2
+ },
+ {
   "id": "2026-11-20-threema-security",
   "date": "2026-11-20",
   "slug": "threema",
