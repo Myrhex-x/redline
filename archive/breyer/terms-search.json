@@ -3,10 +3,10 @@
  "documents": [
   {
    "doc": "chat-control",
-   "chars": 79086
+   "chars": 79166
   }
  ],
- "totalChars": 79086,
+ "totalChars": 79166,
  "terms": [
   {
    "group": "eu",
@@ -44,7 +44,7 @@
    "group": "eu",
    "label": "Chat Control / Chatkontrolle",
    "pattern": "chat[\\s-]?control|chatkontrolle",
-   "count": 175,
+   "count": 176,
    "samples": [
     {
      "doc": "chat-control",
