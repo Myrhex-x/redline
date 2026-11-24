@@ -1,0 +1,46 @@
+{
+ "id": "2026-11-24-threema-privacy",
+ "date": "2026-11-24",
+ "slug": "threema",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -182,7 +182,7 @@ Cybersecurity Challenge",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Regulation and Resilience"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Whatsapp Alternative Whitepaper"
+    },
+    {
+     "t": "+",
+     "s": "Messenger Security Risks"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Public Authorities Whitepaper"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

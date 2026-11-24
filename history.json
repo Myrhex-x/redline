@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-11-24-discord-terms",
+  "date": "2026-11-24",
+  "slug": "discord",
+  "company": "Discord",
+  "doc": "terms",
+  "docTitle": "Terms of Service",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
+  "id": "2026-11-24-threema-privacy",
+  "date": "2026-11-24",
+  "slug": "threema",
+  "company": "Threema",
+  "doc": "privacy",
+  "docTitle": "Privacy Policy",
+  "kind": "change",
+  "added": 1,
+  "removed": 1,
+  "minor": true,
+  "minorReason": "2 short labels, no prose and no tracked vocabulary: \"Whatsapp Alternative Whitepa\", \"Messenger Security Risks\""
+ },
+ {
   "id": "2026-11-23-breyer-chat-control",
   "date": "2026-11-23",
   "slug": "breyer",

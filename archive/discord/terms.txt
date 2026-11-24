@@ -176,7 +176,7 @@ More important stuff
 
 Welcome! Discord enables you to build meaningful connections around the joy of playing games through voice, video and text features. We’re happy you’re here.
 These terms set forth our legal obligations to each other. They apply to your use of our services.
-‍ IMPORTANT NOTE: The section titled “ Settling Disputes Between You and Discord ” contains an arbitration clause and class-action waiver that applies to all U.S. or Canada-based Discord users. Please read this section carefully as it may significantly affect your legal rights, including your right to file a lawsuit in court.
+‍ IMPORTANT NOTE: The section titled “ Settling Disputes Between You and Discord ” contains an arbitration clause and class-action waiver that applies to all U.S. or Canada-based Discord users. Please read this section carefully as it may significantly affect your legal rights, including your right to file a lawsuit in court. ‍
 When we say “Discord,” “we,” “us,” and “our” in these terms, we mean Discord Inc., its subsidiaries, and its related companies.
 When we say “services” in these terms, we mean Discord’s services, apps, websites, and other products.
 When we say “you” or “your,” we mean you. If you’re accessing our services on behalf of a legal entity (like your employer), you agree that you have the authority to bind that entity to these terms, and “you” and “your” will refer to that entity.

@@ -1,0 +1,46 @@
+{
+ "id": "2026-11-24-discord-terms",
+ "date": "2026-11-24",
+ "slug": "discord",
+ "doc": "terms",
+ "hunks": [
+  {
+   "header": "@@ -176,7 +176,7 @@ More important stuff",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Welcome! Discord enables you to build meaningful connections around the joy of playing games through voice, video and text features. We’re happy you’re here."
+    },
+    {
+     "t": " ",
+     "s": "These terms set forth our legal obligations to each other. They apply to your use of our services."
+    },
+    {
+     "t": "-",
+     "s": "‍ IMPORTANT NOTE: The section titled “ Settling Disputes Between You and Discord ” contains an arbitration clause and class-action waiver that applies to all U.S. or Canada-based Discord users. Please read this section carefully as it may significantly affect your legal rights, including your right to file a lawsuit in court."
+    },
+    {
+     "t": "+",
+     "s": "‍ IMPORTANT NOTE: The section titled “ Settling Disputes Between You and Discord ” contains an arbitration clause and class-action waiver that applies to all U.S. or Canada-based Discord users. Please read this section carefully as it may significantly affect your legal rights, including your right to file a lawsuit in court. ‍"
+    },
+    {
+     "t": " ",
+     "s": "When we say “Discord,” “we,” “us,” and “our” in these terms, we mean Discord Inc., its subsidiaries, and its related companies."
+    },
+    {
+     "t": " ",
+     "s": "When we say “services” in these terms, we mean Discord’s services, apps, websites, and other products."
+    },
+    {
+     "t": " ",
+     "s": "When we say “you” or “your,” we mean you. If you’re accessing our services on behalf of a legal entity (like your employer), you agree that you have the authority to bind that entity to these terms, and “you” and “your” will refer to that entity."
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
