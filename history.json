@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-11-25-discord-terms",
+  "date": "2026-11-25",
+  "slug": "discord",
+  "company": "Discord",
+  "doc": "terms",
+  "docTitle": "Terms of Service",
+  "kind": "change",
+  "added": 1,
+  "removed": 1
+ },
+ {
   "id": "2026-11-24-discord-terms",
   "date": "2026-11-24",
   "slug": "discord",
