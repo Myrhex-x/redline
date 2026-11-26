@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-11-26-breyer-chat-control",
+  "date": "2026-11-26",
+  "slug": "breyer",
+  "company": "Patrick Breyer (MEP, 2019–2024)",
+  "doc": "chat-control",
+  "docTitle": "Chat Control overview",
+  "kind": "change",
+  "added": 27,
+  "removed": 45
+ },
+ {
   "id": "2026-11-25-discord-terms",
   "date": "2026-11-25",
   "slug": "discord",

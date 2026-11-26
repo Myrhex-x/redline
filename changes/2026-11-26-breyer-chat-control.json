@@ -1,0 +1,560 @@
+{
+ "id": "2026-11-26-breyer-chat-control",
+ "date": "2026-11-26",
+ "slug": "breyer",
+ "doc": "chat-control",
+ "hunks": [
+  {
+   "header": "@@ -131,7 +131,7 @@ On 11 May 2022 the European Commission presented a proposal for a follow-up regu",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Parliament has positioned itself almost unanimously against indiscriminate chat control in 2023. Following protests, mandatory chat control was finally removed also from the EU governments’ draft law late 2025. Nevertheless, the government’s draft regulation remains deeply flawed ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Since December 2025, the crucial negotiations have been underway in which the final legal content of Chat Control 2.0 is being nailed down ( timeline here ). There is a threat of a permanent indiscriminate mass surveillance of private messages at the discretion of providers (“voluntary chat control”), ineffective network blocking censorship, mandatory age verification resulting in the end of anonymous communication, appstore censorship and excluding minors from the digital world."
+    },
+    {
+     "t": "+",
+     "s": "Since December 2025, the crucial negotiations have been underway in which the final legal content of Chat Control 2.0 is being nailed down ( timeline here ). There is a threat of a permanent indiscriminate mass surveillance of private messages at the discretion of providers (“voluntary chat control”)."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Explainer video"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -139,55 +139,23 @@ https://www.patrick-breyer.de/wp-content/uploads/2023/01/chatcontrol-explainer.m",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Take action to stop Chat Control"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "The final content of the Chat Control 2.0 regulation is currently being negotiated behind closed doors. A potentially final and decisive trilogue will take place on Tuesday, 8 December. EU negotiators are under immense pressure to force a “dirty deal” that would permanently normalize mass surveillance across Europe. Read the details in leaked documents ."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "What is on the negotiating table"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "This is what Council (EU governments) have been proposing in the trilogue:"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Permanent “voluntary” Chat Control (own-initiative searches by providers in non-public content)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Providers may choose to scan non-public content (including messenger chats and non-public hosted content)."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Fake “targeted” scanning: Allows providers to scan large parts or their service or chat groups without limiting the scanning to individual criminal suspects."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Automatic “silent approval”: Providers can submit a scanning (“search”) plan and start searching private chats and content automatically unless an authority actively steps in to veto it."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Permanent voluntary Chat Control: The proposal would make permanent what the Chat Control 1.0 interim regulation allows only until 2028."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "“Voluntary” scanning made mandatory: The proposal sneaks voluntary searches into enforceable “risk mitigation” rules, meaning platforms could be forced to scan private chats just to avoid heavy regulatory fines."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Permanent “mandatory” Chat Control (detection orders in non-public content)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Administrative authorities can order communications and hosting service providers to scan non-public content (including messenger chats and e-mails)."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Mass surveillance without a specific suspect: Weak legal thresholds so that orders to intercept private messages are not limited to users suspected of a crime."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "AI-based classification: Extends chat detection beyond known illegal images to AI-powered image and text analysis for “suspected content”, risking massive false positives on innocent private conversations."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "No court order required: Grants non-judicial administrative agencies the power to order the interception of private communications without approval from a court."
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Exposing the “Fake Targeting” Trap"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "EU governments are thus trying to replace the European Parliament’s demand for targeted court warrants against specific suspects with allowing administrative authorities to authorize broad “search plans” of communications service providers to scan “parts” of their service. In practice, this would still result in scanning the chats of every user in the EU . This is mass surveillance by another name. Our chats could be reported to police if providers’ unreliable algorithms – including “artificial intelligence” – believe they have found classified images/videos in them, or automatically evaluate our photos and chat history as ‘suspicious.’"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Even the Council’s own Legal Service has warned that this is likely illegal. In a leaked internal analysis (par. 47), they admitted that scanning entire “parts of a service” is “highly probable” to be considered “general and indiscriminate” and would be struck down by the courts. Pushing this deal anyway is a betrayal of the rule of law and a false promise to victims, as the law would eventually collapse in court."
+    },
+    {
+     "t": "+",
+     "s": "The final content of the Chat Control 2.0 regulation is currently being negotiated behind closed doors. A potentially final and decisive trilogue will take place on Tuesday, 8 December. EU negotiators are under immense pressure to force a “dirty deal” that would permanently normalize mass surveillance across Europe."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "The “Voluntary” Loophole (Chat Control 1.0)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "If the European Parliament refuses indiscriminate Chat Control powers, Council will likely propose to maintain the interim “Chat Control 1.0” regulation, which allows for voluntary mass scanning until 2028. While the mandate of the European Parliament is to replace indiscriminate Chat Control with detection court orders targeting specific suspects, there is a severe risk that negotiators could instead compromise on keeping “Chat Control 1.0” as a parallel loophole. This system is a proven disaster : German police data shows that over half of investigations target minors themselves for consensual sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully phased out and replaced."
+    },
+    {
+     "t": "+",
+     "s": "Council will likely propose to make the interim “Chat Control 1.0” regulation permanent, which currently allows for voluntary mass scanning until 2028. While the mandate of the European Parliament is to replace indiscriminate Chat Control with detection court orders targeting specific suspects, there is a severe risk that negotiators could instead compromise on keeping “Chat Control 1.0” as a parallel loophole. This system is a proven disaster : German police data shows that over half of investigations target minors themselves for consensual sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully phased out and replaced."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Take action"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "As we enter the final round of negotiations, we must expand the resistance:"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Contact your MEPs via fightchatcontrol.eu ! Use the tool below to send an email to your representatives. Tell them to stand by the Parliament’s mandate: Judicial warrants for specific suspects only. No broad “search plans.” No loopholes for voluntary mass scanning."
+    },
+    {
+     "t": "+",
+     "s": "Contact your MEPs via fightchatcontrol.eu ! Tell them to stand by the Parliament’s mandate: Judicial warrants for specific suspects only. No loopholes for voluntary mass scanning."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Explain to your friends why this is an important topic. This short video, translated to all European languages , is a good start – feel free to use and share it. Also available on PeerTube (EN) and YouTube (DE) ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Take action now. We are the resistance against Chat Control!"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Write to your MEP! Use the template provided by fightchatcontrol.eu to warn them against the “fake targeting” compromise and the voluntary mass scanning loophole. Focus on the EPP and S&D (especially the Spanish delegation)."
+    },
+    {
+     "t": "+",
+     "s": "Write to your MEP! Use the template provided by fightchatcontrol.eu to warn them against the voluntary mass scanning loophole."
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Talk about it! Inform others about the dangers of chat control. Use the sharepics and videos available here ."
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -370,6 +338,8 @@ The negotiations: A timeline",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "24 November 2026: JHA (Justice and Home Affairs) Counsellors meeting on chat control 2.0 proposal"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "13 November 2026: JHA (Justice and Home Affairs) Counsellors meeting on chat control 2.0 proposal (leaked cable report from 18 June 2026 in German)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "29 September 2026: Sixth trilogue negotiation on chat control 2.0 proposal"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "29 June 2026: Fifth negotiation on chat control 2.0 proposal"
+    }
+   ]
+  },
+  {
+   "header": "@@ -768,6 +738,22 @@ Council of the European Union (Council)",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Council documents (continuously updated)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "State of play of the interinstitutional negotiations and next steps (20 November 2026, WK 17784/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "State of play of the interinstitutional negotiations and next steps (12 November 2026, WK 17300/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Draft texts on detection and own-initiative searches on non-public content (28 October 2026, WK 16725/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "State of play and way forward (14 October 2026, WK 15702/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Technical discussion on a possible detection package (9 October 2026, WK 15701/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Opinion on the application of the Principles of Subsidiarity and Proportionality (1 October 2026, 13900/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Outcome of the 6th trilogue on 29 September 2026 and way forward (30 September 2026, WK 15082/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Documents for the trilogue on 29 September 2026 (25 September 2026, WK 14760/26)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Preparation for the trilogue (18 September 2026, 13158/26)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Presentation of the Commission (15 September 2026, WK 14059/26)"
+    }
+   ]
+  },
+  {
+   "header": "@@ -1000,8 +986,6 @@ Statements and Assessments",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Statement of the European Data Protection Board (13 February 2024)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Legal opinion of former ECJ judge Christopher Vajda KC (19 October 2023)"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Opinion Council Legal Service (26 April 2023)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Summary of Statement by the Child Protection Association (Der Kinderschutzbund Bundesverband e.V.) on the Public Hearing of the Digital Affairs Committee on “Chat Control”(1 March 2023)"
+    }
+   ]
+  },
+  {
+   "header": "@@ -1028,13 +1012,11 @@ Poll: 72% of citizens oppose EU plans to search all private messages for alleged",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Document pool on voluntary Chat Control 1.0"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 14 July 2021 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse , no longer in force"
+    },
+    {
+     "t": "-",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Failed legislative procedure intended to extend Chat Control 1.0:"
+    },
+    {
+     "t": "+",
+     "s": "Regulation (EU) 2026/1881 of the European Parliament and of the Council of 24 July 2026 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse , currently in force"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "EP legislative observatory (continuously updated state of play on proposed extension)"
+    },
+    {
+     "t": "+",
+     "s": "EP legislative observatory on the 2026 extension"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "EU Council Document register (continuously updated list of Council documents)"
+    },
+    {
+     "t": "+",
+     "s": "EU Council Document register on the 2026 extension"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "European Parliament: Amendments to draft mandate (10 February 2026)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -1046,7 +1028,7 @@ EU Commission proposal to extend the Chat Control 1.0 regulation by another two",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Report by the Commission to the European Parliament and the Council on the implementation of the ePrivacy derogation on voluntary chat control and my comments (27 November 2025)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "Archive:"
+    },
+    {
+     "t": "+",
+     "s": "REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 14 July 2021 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse , no longer in force"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Amendments (January 2024)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

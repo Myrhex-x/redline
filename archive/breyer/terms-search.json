@@ -3,10 +3,10 @@
  "documents": [
   {
    "doc": "chat-control",
-   "chars": 79166
+   "chars": 76905
   }
  ],
- "totalChars": 79166,
+ "totalChars": 76905,
  "terms": [
   {
    "group": "eu",
@@ -16,7 +16,7 @@
    "samples": [
     {
      "doc": "chat-control",
-     "quote": "…terial and report to the police (28 April 2021) Document pool on voluntary Chat Control 1.0 REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 14 July 2021 on a temporary derogation from certain provisio…"
+     "quote": "…tion of the ePrivacy derogation on voluntary chat control and my comments (27 November 2025) REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 14 July 2021 on a temporary derogation from certain provisio…"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "group": "eu",
    "label": "derogation / Ausnahmeregelung / dérogation",
    "pattern": "\\bderogation\\b|Ausnahmeregelung|dérogation",
-   "count": 6,
+   "count": 7,
    "samples": [
     {
      "doc": "chat-control",
@@ -32,11 +32,11 @@
     },
     {
      "doc": "chat-control",
-     "quote": "…l 1.0 REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 14 July 2021 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-ind…"
+     "quote": "…l 1.0 Regulation (EU) 2026/1881 of the European Parliament and of the Council of 24 July 2026 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-ind…"
     },
     {
      "doc": "chat-control",
-     "quote": "…5) Report by the Commission to the European Parliament and the Council on the implementation of the ePrivacy derogation on voluntary chat control and my comments (27 November 2025) Archive: Amendments (January 2024) Draft repo…"
+     "quote": "…5) Report by the Commission to the European Parliament and the Council on the implementation of the ePrivacy derogation on voluntary chat control and my comments (27 November 2025) REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLI…"
     }
    ]
   },
@@ -44,7 +44,7 @@
    "group": "eu",
    "label": "Chat Control / Chatkontrolle",
    "pattern": "chat[\\s-]?control|chatkontrolle",
-   "count": 176,
+   "count": 171,
    "samples": [
     {
      "doc": "chat-control",
@@ -104,7 +104,7 @@
    "group": "csam",
    "label": "child sexual abuse / Kindesmissbrauch",
    "pattern": "child sexual abuse|child sexual exploitation|kindesmissbrauch|missbrauchsdarstellung",
-   "count": 30,
+   "count": 31,
    "samples": [
     {
      "doc": "chat-control",
@@ -170,7 +170,7 @@
    "group": "scan",
    "label": "scan / scanning / gescannt",
    "pattern": "\\bscan(?:s|ned|ning)?\\b|gescannt|scannen",
-   "count": 42,
+   "count": 31,
    "samples": [
     {
      "doc": "chat-control",
@@ -178,11 +178,11 @@
     },
     {
      "doc": "chat-control",
-     "quote": "…voluntary” Chat Control (own-initiative searches by providers in non-public content) Providers may choose to scan non-public content (including messenger chats and non-public hosted content). Fake “targeted” scanning: Allo…"
+     "quote": "…ropose to make the interim “Chat Control 1.0” regulation permanent, which currently allows for voluntary mass scanning until 2028. While the mandate of the European Parliament is to replace indiscriminate Chat Control with detec…"
     },
     {
      "doc": "chat-control",
-     "quote": "…choose to scan non-public content (including messenger chats and non-public hosted content). Fake “targeted” scanning: Allows providers to scan large parts or their service or chat groups without limiting the scanning to indivi…"
+     "quote": "…sexting, while 75% of all flagged chats are not actionable . We cannot accept a deal unless this failed mass-scanning regime is fully phased out and replaced. Take action As we enter the final round of negotiations, we must e…"
     }
    ]
   },
