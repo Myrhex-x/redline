@@ -1,0 +1,42 @@
+{
+ "id": "2026-11-27-tiktok-privacy",
+ "date": "2026-11-27",
+ "slug": "tiktok",
+ "doc": "privacy",
+ "hunks": [
+  {
+   "header": "@@ -2,6 +2,7 @@ EEA, UK and Switzerland",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Privacy Policy"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Last updated: 30 November 2025"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Introduction"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}

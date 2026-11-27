@@ -1,0 +1,91 @@
+{
+ "id": "2026-11-27-breyer-chat-control",
+ "date": "2026-11-27",
+ "slug": "breyer",
+ "doc": "chat-control",
+ "hunks": [
+  {
+   "header": "@@ -332,7 +332,9 @@ Negotiating on behalf of the EU Commission: Internal Affairs Commissioner Magnus",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "The negotiations: A timeline"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "-",
+     "s": "8 December 2026: Seventh and potentially final trilogue negotiation on chat control 2.0 proposal"
+    },
+    {
+     "t": "+",
+     "s": "8 December 2026: Seventh and potentially final political trilogue negotiation on chat control 2.0 proposal"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "3 December 2026: Interinstitutional technical meeting"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "2 December 2026: COREPER (Committee of Permanent Representatives) scheduled to endorse the mandate for the final trilogue"
+    },
+    {
+     "t": " ",
+     "s": ""
+    }
+   ]
+  },
+  {
+   "header": "@@ -738,6 +740,8 @@ Council of the European Union (Council)",
+   "lines": [
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "Council documents (continuously updated)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": "+",
+     "s": "Proposed mandate for final trilogue (27 November 2026, expected)"
+    },
+    {
+     "t": "+",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "State of play of the interinstitutional negotiations and next steps (20 November 2026, WK 17784/26)"
+    },
+    {
+     "t": " ",
+     "s": ""
+    },
+    {
+     "t": " ",
+     "s": "State of play of the interinstitutional negotiations and next steps (12 November 2026, WK 17300/26)"
+    }
+   ]
+  }
+ ],
+ "truncated": false
+}
